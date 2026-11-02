@@ -59,8 +59,8 @@
   "jp": "トウヤ「ああ‥‥」",
   "off": 242,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Sure...",
+  "status": "translated",
   "style": 0,
   "text_off": 244,
   "text_len": 11
@@ -620,8 +620,8 @@
   "jp": "カスミ「‥‥」",
   "off": 2657,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 2659,
   "text_len": 9
@@ -730,8 +730,8 @@
   "jp": "アイ「ちょっと！」",
   "off": 3033,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Hey!",
+  "status": "translated",
   "style": 0,
   "text_off": 3035,
   "text_len": 10
@@ -1236,8 +1236,8 @@
   "jp": "レイスケ「ピポ！」",
   "off": 5328,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Reisuke: Pipo!",
+  "status": "translated",
   "style": 0,
   "text_off": 5330,
   "text_len": 10

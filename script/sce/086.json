@@ -81,8 +81,8 @@
   "jp": "トウヤ「‼」",
   "off": 285,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: !!",
+  "status": "translated",
   "style": 0,
   "text_off": 287,
   "text_len": 7
@@ -290,8 +290,8 @@
   "jp": "セリカ「‥‥」",
   "off": 1030,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1032,
   "text_len": 9
@@ -543,8 +543,8 @@
   "jp": "セリカ「‥‥」",
   "off": 1797,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1799,
   "text_len": 9
@@ -598,8 +598,8 @@
   "jp": "セリカ「‥‥」",
   "off": 1912,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1914,
   "text_len": 9

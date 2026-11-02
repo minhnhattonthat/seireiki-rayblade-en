@@ -763,8 +763,8 @@
   "jp": "ローディス「ああ。すでに国境付近に展開しはじめている」",
   "off": 2909,
   "len": 37,
-  "en": "",
-  "status": "todo",
+  "en": "Lodis: Yes. They've already begun deploying near the border.",
+  "status": "translated",
   "style": 0,
   "text_off": 2911,
   "text_len": 34
@@ -1544,8 +1544,8 @@
   "jp": "ドリス「‥‥」",
   "off": 6575,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Doris: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 6577,
   "text_len": 9

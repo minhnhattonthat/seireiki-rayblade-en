@@ -70,8 +70,8 @@
   "jp": "カスミ「はい」",
   "off": 577,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Yes.",
+  "status": "translated",
   "style": 1,
   "text_off": 581,
   "text_len": 7
@@ -444,8 +444,8 @@
   "jp": "トウヤ「な、なんだ？」",
   "off": 2572,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Wh-what?",
+  "status": "translated",
   "style": 1,
   "text_off": 2576,
   "text_len": 12

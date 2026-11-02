@@ -15,8 +15,8 @@
   "jp": "ミヤスコ「‥‥」",
   "off": 79,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Miyasco: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 81,
   "text_len": 10
@@ -378,8 +378,8 @@
   "jp": "ロア艦長「うむぅ」",
   "off": 1357,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: Mmmh.",
+  "status": "translated",
   "style": 0,
   "text_off": 1359,
   "text_len": 11
@@ -488,8 +488,8 @@
   "jp": "ロア艦長「うむ！」",
   "off": 1997,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: Mm!",
+  "status": "translated",
   "style": 0,
   "text_off": 1999,
   "text_len": 12
@@ -499,8 +499,8 @@
   "jp": "ユミール「了解！　聖霊機発進！」",
   "off": 2033,
   "len": 29,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Understood! Launch the Spirit Mechs!",
+  "status": "translated",
   "style": 0,
   "text_off": 2035,
   "text_len": 26

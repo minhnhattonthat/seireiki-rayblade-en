@@ -37,8 +37,8 @@
   "jp": "ユミール「‥‥」",
   "off": 257,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 259,
   "text_len": 11
@@ -279,8 +279,8 @@
   "jp": "ユミール「‼」",
   "off": 1209,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: !!",
+  "status": "translated",
   "style": 0,
   "text_off": 1211,
   "text_len": 9
@@ -675,8 +675,8 @@
   "jp": "ロア艦長「うむ」",
   "off": 2890,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: Mm.",
+  "status": "translated",
   "style": 0,
   "text_off": 2892,
   "text_len": 10
@@ -895,8 +895,8 @@
   "jp": "レオーネ「‥‥」",
   "off": 4062,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Leone: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 4066,
   "text_len": 11

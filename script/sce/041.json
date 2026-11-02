@@ -37,8 +37,8 @@
   "jp": "レオーネ「‥‥」",
   "off": 199,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Leone: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 201,
   "text_len": 11
@@ -345,8 +345,8 @@
   "jp": "メル<E1>ィ「パパぁ！」",
   "off": 1360,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Melvi: Papaaa!",
+  "status": "translated",
   "style": 0,
   "text_off": 1362,
   "text_len": 11
@@ -422,8 +422,8 @@
   "jp": "トウヤ「なんだ⁈」",
   "off": 1628,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What the!?",
+  "status": "translated",
   "style": 0,
   "text_off": 1630,
   "text_len": 10
@@ -510,8 +510,8 @@
   "jp": "メル<E1>ィ「うん！」",
   "off": 1841,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Melvi: Uh-huh!",
+  "status": "translated",
   "style": 0,
   "text_off": 1843,
   "text_len": 10

@@ -334,8 +334,8 @@
   "jp": "クロビス「‥‥」",
   "off": 1435,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Clovis: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1437,
   "text_len": 10
@@ -367,8 +367,8 @@
   "jp": "トウヤ「お、おい！」",
   "off": 1515,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: H-hey!",
+  "status": "translated",
   "style": 0,
   "text_off": 1517,
   "text_len": 11
@@ -620,8 +620,8 @@
   "jp": "ヤマト「トウヤ‥‥」",
   "off": 2365,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Touya...",
+  "status": "translated",
   "style": 0,
   "text_off": 2367,
   "text_len": 12
@@ -664,8 +664,8 @@
   "jp": "オーレリィ「‥‥」",
   "off": 2557,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Aurelie: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 2559,
   "text_len": 12

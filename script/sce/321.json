@@ -92,8 +92,8 @@
   "jp": "セリカ「‥‥」",
   "off": 395,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 397,
   "text_len": 9
@@ -290,8 +290,8 @@
   "jp": "カスミ「‥‥」",
   "off": 1058,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1060,
   "text_len": 9
@@ -840,8 +840,8 @@
   "jp": "フェイン「‥‥」",
   "off": 3463,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 3465,
   "text_len": 10

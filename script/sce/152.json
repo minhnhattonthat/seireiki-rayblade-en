@@ -48,8 +48,8 @@
   "jp": "トウヤ「どういうことだ？」",
   "off": 208,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What do you mean?",
+  "status": "translated",
   "style": 0,
   "text_off": 210,
   "text_len": 14
@@ -323,8 +323,8 @@
   "jp": "トウヤ「え？」",
   "off": 1520,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh?",
+  "status": "translated",
   "style": 0,
   "text_off": 1522,
   "text_len": 8
@@ -862,8 +862,8 @@
   "jp": "レオーネ「‥‥」",
   "off": 3448,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Leone: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 3450,
   "text_len": 11

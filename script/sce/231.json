@@ -422,8 +422,8 @@
   "jp": "トウヤ「はあ？」",
   "off": 1999,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh?",
+  "status": "translated",
   "style": 0,
   "text_off": 2001,
   "text_len": 9
@@ -477,8 +477,8 @@
   "jp": "オーレリィ「‥‥」",
   "off": 2229,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Aurelie: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 2231,
   "text_len": 12
@@ -510,8 +510,8 @@
   "jp": "トウヤ「お、おい‥‥」",
   "off": 2298,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: H-hey...",
+  "status": "translated",
   "style": 0,
   "text_off": 2300,
   "text_len": 13

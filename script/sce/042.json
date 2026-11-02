@@ -378,8 +378,8 @@
   "jp": "トウヤ「⁉」",
   "off": 2532,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: !?",
+  "status": "translated",
   "style": 1,
   "text_off": 2536,
   "text_len": 7
@@ -444,8 +444,8 @@
   "jp": "レオーネ「‥‥」",
   "off": 2814,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Leone: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 2818,
   "text_len": 11
@@ -587,8 +587,8 @@
   "jp": "ライル「‥‥」",
   "off": 3632,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Lyle: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 3636,
   "text_len": 9
@@ -675,8 +675,8 @@
   "jp": "トウヤ「あ、ああ‥‥」",
   "off": 4008,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Oh, r-right...",
+  "status": "translated",
   "style": 1,
   "text_off": 4012,
   "text_len": 13

@@ -191,8 +191,8 @@
   "jp": "ミヤスコ「‥‥」",
   "off": 923,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Miyasco: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 925,
   "text_len": 10
@@ -807,8 +807,8 @@
   "jp": "セリカ「‥‥」",
   "off": 3498,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 3500,
   "text_len": 9
@@ -939,8 +939,8 @@
   "jp": "ユミール「‥‥」",
   "off": 4063,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 4065,
   "text_len": 11

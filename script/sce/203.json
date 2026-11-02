@@ -433,8 +433,8 @@
   "jp": "フェイン「そんなぁ‥‥」",
   "off": 2092,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: How cruel...",
+  "status": "translated",
   "style": 0,
   "text_off": 2094,
   "text_len": 14
@@ -1214,8 +1214,8 @@
   "jp": "アイ「きゃっ！」",
   "off": 7320,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Kyah!",
+  "status": "translated",
   "style": 1,
   "text_off": 7324,
   "text_len": 9
@@ -1434,8 +1434,8 @@
   "jp": "アイ「きゃっ！」",
   "off": 8063,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Kyah!",
+  "status": "translated",
   "style": 1,
   "text_off": 8067,
   "text_len": 9
