@@ -1,0 +1,6 @@
+# Cold boot -> logos + intro FMV (not skippable) -> title (New Game / Continue) -> New Game
+5400 -
+6 start
+240 -
+6 circle
+1800 -

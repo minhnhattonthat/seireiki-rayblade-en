@@ -1,2 +1,4 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump (Redump "Seireiki Rayblade (Japan)"), sha1sum format. One line per file.
+cf33a1b9c0d144205a4da0f53b9339a453e9b591  rom/Seireiki Rayblade (Japan) (Track 1).bin
+bd1fde88c2b79e3cf8821c969373460d51f3155a  rom/Seireiki Rayblade (Japan) (Track 2).bin
+55ff32e9c35108f70d726bf743757149c8e688b1  rom/Seireiki Rayblade (Japan).cue
