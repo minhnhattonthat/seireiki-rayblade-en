@@ -353,7 +353,7 @@
  },
  {
   "id": "sce012:004C7",
-  "jp": "ローディス「しかし、まったく統制がとれてなく、{nl}　すぐに鎮庄されたがな。{nl}　どうも向こうも内部で色々あるようだ」",
+  "jp": "ローディス「しかし、まったく統制がとれてなく、{nl}　すぐに鎮圧されたがな。{nl}　どうも向こうも内部で色々あるようだ」",
   "off": 1223,
   "len": 68,
   "en": "Lodis: But they had no coordination at all, and were put down right away. It seems they have all sorts of internal trouble of their own.",
@@ -925,7 +925,7 @@
  },
  {
   "id": "sce012:00DA7",
-  "jp": "整備士F「あたしだったら自分の彼兵#8A2でもそこまで{nl}　できませんよ。まぁ、そのおかげでシステム関係を{nl}　残してほとんど調整は終わったんですからね。{nl}　ほんと、寝る間も惜しむとはチーフの為に{nl}　あるような言葉ですね」",
+  "jp": "整備士F「あたしだったら自分の彼氏でもそこまで{nl}　できませんよ。まぁ、そのおかげでシステム関係を{nl}　残してほとんど調整は終わったんですからね。{nl}　ほんと、寝る間も惜しむとはチーフの為に{nl}　あるような言葉ですね」",
   "off": 3495,
   "len": 128,
   "en": "Mechanic F: I couldn't go that far even for my own boyfriend. Well, thanks to her, the tune-up's almost done except for the system stuff. Honestly, \"sparing no time even for sleep\" is a phrase that might as well have been made for the chief.",

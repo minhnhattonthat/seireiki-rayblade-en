@@ -694,7 +694,7 @@
  },
  {
   "id": "sce193:00BC7",
-  "jp": "ガボン「エンジン出力チェック。1、2、3、4番、{nl}　異常なし。回転数上昇、2コンマ7。{nl}　ブースト庄正常、サーボモーター動作チェック」",
+  "jp": "ガボン「エンジン出力チェック。1、2、3、4番、{nl}　異常なし。回転数上昇、2コンマ7。{nl}　ブースト圧正常、サーボモーター動作チェック」",
   "off": 3015,
   "len": 89,
   "en": "Gabon: Engine output check. Numbers 1, 2, 3, 4, no anomalies. RPM rising, 2 point 7. Boost pressure normal, servomotor operation check.",

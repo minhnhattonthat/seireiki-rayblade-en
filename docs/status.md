@@ -10,6 +10,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Done: glyph review (56 misread kanji + 三 fixed, tbl re-dumped), glossary seeded from the DC fan glossary
     (enforced tables + speaker labels + Reference), `docs/synopsis.md`, `docs/style-reference.md`, pilot b009
     (prologue) merged and shown in-game (`work/qa/pilot/`).
+  - Progress 2026-11-03: b001-b189 translated + merged; b001-b129 reviewed (D9) and re-merged. Wave 4 in
+    flight: translate b190-b261, review b130-b189. Left: translate b262-b341, review b190-b341, minors -> docs/polish.md.
+  - Fixes this phase: tbl E1 = ヴ, E0 = ゔ (was <E1>/ヴ; font checked); check skips the honorific rule when a
+    glossary row covers the form (バルちゃん = Little Balu); リーク moved to Reference (also "leak").
   - Waves: wave 1 = b001-b008, b010-b039 (8 translator agents). Track which batches are translated / reviewed /
     merged with `batches.py status` and the `.out.tsv`/`.review.txt` files in work/tl (work/ is gitignored: merge
     and commit after every wave so nothing lives only there).
