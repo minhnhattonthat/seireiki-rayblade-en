@@ -266,7 +266,6 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | ベルオール研究所 | Berol Research Institute |  |  |  |
 | 連盟議会 | League Assembly |  |  |  |
 | ヴェニル | Venir |  |  |  |
-| 調査機関 | research organization |  |  |  |
 | 全国女子高生連合 | National High School Girls' Union |  |  |  |
 | 国民労働党 | National Labor Party |  |  |  |
 | 近衛騎士団 | Royal Guard |  |  |  |
@@ -279,13 +278,11 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 聖地 | Holy Land |  |  |  |
 | アガルティア王国 | Kingdom of Agarthia |  |  |  |
 | リン・カーマ | Lin Karma |  |  |  |
-| 医務室 | infirmary |  |  |  |
 | フラムエルク城 | Flamuelk Castle |  |  |  |
 | エステリア | Estelia |  |  |  |
 | シャングリア | Shangria |  |  |  |
 | コルネル村 | Cornel Village |  |  |  |
 | ベルネア砦 | Belnea Fort |  |  |  |
-| タワー | Tower |  |  |  |
 | クロンデェム | Krondem |  |  |  |
 | アルテリアス渓谷 | Alterias Valley |  |  |  |
 | 刻の狭間 | Rift in Time |  |  |  |
@@ -295,7 +292,6 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 封印の間 | Chamber of Sealing |  |  |  |
 | 第二聖霊機格納庫 | Spirit Mech Hangar 2 |  |  |  |
 | クルシエル通り | Crusiel Street |  |  |  |
-| 展望室 | Observation Room |  |  |  |
 | リンバーグ公国 | Principality of Limberg |  |  |  |
 | ステラ・マルキス | Stella Marquis |  |  |  |
 | ブランデンクロイス | Brandenkrois |  |  |  |
@@ -358,13 +354,10 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | グリストル | Gristol |  |  |  |
 | レンバードン | Renbardon |  |  |  |
 | ダグエル | Daguel |  |  |  |
-| ドール | Doll |  |  |  |
 | デロウガ | Derouga |  |  |  |
 | ザイクス | Zaiks |  |  |  |
 | ブランドゥ | Brandu |  |  |  |
 | プレシオン砲 | Presion Cannon |  |  |  |
-| ミサイルランチャー | Missile Launcher |  |  |  |
-| 輸送艇 | Transport Craft |  |  |  |
 | グランバイド | Granbide |  |  |  |
 | デック・バスタイト | Deck Bustite |  |  |  |
 | カイザール | Kaisar |  |  |  |
@@ -560,9 +553,7 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | ピュリッツァー賞 | Pulitzer Prize |  |  |  |
 | ガイス | Gais |  |  |  |
 | ウルゥス | Uluus |  |  |  |
-| クゥー | kuu |  |  |  |
 | ミル | mil |  |  |  |
-| 昼行灯 | daytime lantern |  |  |  |
 | 銀の騎士 | Silver Knight |  |  |  |
 | 銀狼 | Silver Wolf |  |  |  |
 | 西の獅子 | Lion of the West |  |  |  |
@@ -571,37 +562,16 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 鳳の騎士 | Phoenix Knight |  |  |  |
 | 黒太子 | Black Prince |  |  |  |
 | 紅蓮のガイウス | Crimson Gaius |  |  |  |
-| ヴォーリアを導く者 | one who guides Vorlia |  |  |  |
-| 叡智の器 | vessel of wisdom |  |  |  |
-| 鉄の女 | Iron Lady |  |  |  |
 | 蒼き餓狼 | Azure Ravenous Wolf |  |  |  |
 | 銀のレデュース | Reduce the Silver |  |  |  |
-| 選定都市 | elector cities |  |  |  |
-| 調印式 | signing ceremony |  |  |  |
-| 継承権 | succession rights |  |  |  |
-| 即位 | accession |  |  |  |
-| 独立行動権 | independent operational authority |  |  |  |
-| 立憲君主国 | constitutional monarchy |  |  |  |
-| 共和制 | republic |  |  |  |
-| 女系国家 | matrilineal state |  |  |  |
-| 停戦 | ceasefire |  |  |  |
-| 貴族院 | House of Peers |  |  |  |
-| 和平条約 | peace treaty |  |  |  |
 | テオラ | Theora |  |  |  |
-| 造られた人間 | manufactured human |  |  |  |
-| リーク | leek |  |  |  |
-| 輜重隊 | supply train |  |  |  |
+| リーク | liek |  | Agarthian length unit (半径400リーク = a 400-liek radius) | leek |
 | 本陣強襲部隊 | Headquarters Assault Unit |  |  |  |
 | 輜重隊奇襲部隊 | Supply Train Ambush Unit |  |  |  |
-| 操者特性 | pilot aptitude |  |  |  |
-| 適合者 | compatible candidate |  |  |  |
 | 錬金学士 | Alchemist |  |  |  |
-| パティシエ | patissier |  |  |  |
 | コード3 | Code 3 |  |  |  |
 | 聖霊機開発計画 | Spirit Mech Development Project |  |  |  |
 | ガゼット・プロジェクト | Gazette Project |  |  |  |
-| アガルティア人類の浄化 | purification of Agarthian humanity |  |  |  |
-| 人体強化計画 | human enhancement project |  |  |  |
 | 剣煌 | Sword Radiance |  |  |  |
 | 教母 | Matriarch |  |  |  |
 | 鳳 | Phoenix |  |  |  |
@@ -609,42 +579,14 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 第一王女 | First Princess |  |  |  |
 | 筆頭錬金学士 | Chief Alchemical Scholar |  |  |  |
 | 幻聖 | Phantom Saint |  |  |  |
-| 一等学士主席 | Chief First-Class Scholar |  |  |  |
-| 主席学士 | Chief Scholar |  |  |  |
 | プラーナ | Prana |  |  |  |
-| カルシウム | calcium |  |  |  |
-| 感情エネルギー | emotional energy |  |  |  |
-| プラーナ放射 | Prana radiation |  |  |  |
 | “陽”のプラーナ | yang Prana |  |  |  |
 | “陰”のプラーナ | yin Prana |  |  |  |
 | 操者 | Pilot |  |  |  |
-| 主計士 | purser |  |  |  |
-| メイン操者 | main pilot |  |  |  |
-| 通常警護任務 | regular guard duty |  |  |  |
-| 同乗者 | Co-pilot |  |  |  |
 | リスリーク | risleek |  |  |  |
-| 装甲 | Armor |  |  |  |
-| 闘志 | Fighting Spirit |  |  |  |
-| 防御 | Defense |  |  |  |
-| 回避 | Evasion |  |  |  |
-| 命中 | Accuracy |  |  |  |
-| 間接 | Ranged |  |  |  |
 | 好感度 | Affection |  |  |  |
-| 近接 | Melee |  |  |  |
-| 信頼度 | Trust |  |  |  |
-| 同調率 | synchronization rate |  |  |  |
-| 係数誤差 | coefficient error |  |  |  |
-| 期待出力 | expected output |  |  |  |
 | バースト・プラーナ | Burst Prana |  |  |  |
 | 共鳴結晶 | Resonance Crystal |  |  |  |
-| 因果律 | Causality |  |  |  |
-| 復讐リスト | revenge list |  |  |  |
-| 記憶喪失 | amnesia |  |  |  |
-| 国際連盟条約 | International League Treaty |  |  |  |
-| デオ | deo |  |  |  |
-| リス | ris |  |  |  |
-| ジキ | jiki |  |  |  |
-| ロット | lot |  |  |  |
 
 ## Speaker labels
 | JP | EN | max | notes | Avoid |
@@ -749,6 +691,64 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 ## Reference (not enforced; prefer these renderings)
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| 調査機関 | research organization |  |  |  |
+| 医務室 | infirmary |  |  |  |
+| タワー | Tower |  |  |  |
+| 展望室 | Observation Room |  |  |  |
+| ドール | Doll |  |  |  |
+| ミサイルランチャー | Missile Launcher |  |  |  |
+| 輸送艇 | Transport Craft |  |  |  |
+| クゥー | kuu |  |  |  |
+| 昼行灯 | good-for-nothing / dimwit |  | idiom (a lamp lit in daylight = useless person); not "daytime lantern" |  |
+| ヴォーリアを導く者 | one who guides Vorlia |  |  |  |
+| 叡智の器 | vessel of wisdom |  |  |  |
+| 鉄の女 | Iron Lady |  |  |  |
+| 選定都市 | elector cities |  |  |  |
+| 調印式 | signing ceremony |  |  |  |
+| 継承権 | succession rights |  |  |  |
+| 即位 | accession |  |  |  |
+| 独立行動権 | independent operational authority |  |  |  |
+| 立憲君主国 | constitutional monarchy |  |  |  |
+| 共和制 | republic |  |  |  |
+| 女系国家 | matrilineal state |  |  |  |
+| 停戦 | ceasefire |  |  |  |
+| 貴族院 | House of Peers |  |  |  |
+| 和平条約 | peace treaty |  |  |  |
+| 造られた人間 | manufactured human |  |  |  |
+| 輜重隊 | supply train |  |  |  |
+| 操者特性 | pilot aptitude |  |  |  |
+| 適合者 | compatible candidate |  |  |  |
+| パティシエ | patissier |  |  |  |
+| アガルティア人類の浄化 | purification of Agarthian humanity |  |  |  |
+| 人体強化計画 | human enhancement project |  |  |  |
+| 一等学士主席 | Chief First-Class Scholar |  |  |  |
+| 主席学士 | Chief Scholar |  |  |  |
+| カルシウム | calcium |  |  |  |
+| 感情エネルギー | emotional energy |  |  |  |
+| プラーナ放射 | Prana radiation |  |  |  |
+| 主計士 | purser |  |  |  |
+| メイン操者 | main pilot |  |  |  |
+| 通常警護任務 | regular guard duty |  |  |  |
+| 同乗者 | Co-pilot |  |  |  |
+| 装甲 | Armor |  |  |  |
+| 闘志 | Fighting Spirit |  |  |  |
+| 防御 | Defense |  |  |  |
+| 回避 | Evasion |  |  |  |
+| 命中 | Accuracy |  |  |  |
+| 間接 | Ranged |  |  |  |
+| 近接 | Melee |  |  |  |
+| 信頼度 | Trust |  |  |  |
+| 同調率 | synchronization rate |  |  |  |
+| 係数誤差 | coefficient error |  |  |  |
+| 期待出力 | expected output |  |  |  |
+| 因果律 | Causality |  |  |  |
+| 復讐リスト | revenge list |  |  |  |
+| 記憶喪失 | amnesia |  |  |  |
+| 国際連盟条約 | International League Treaty |  |  |  |
+| デオ | deo |  |  |  |
+| リス | ris |  |  |  |
+| ジキ | jiki |  |  |  |
+| ロット | lot |  |  |  |
 | 魔眼 | Evil Eye |  | ability |  |
 | テレパシー | telepathy |  | ability |  |
 | プラズマバリア | Plasma Barrier |  | ability |  |

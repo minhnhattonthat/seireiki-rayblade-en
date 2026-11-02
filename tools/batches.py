@@ -244,7 +244,7 @@ def merge(a):
                 e["en"], e["status"] = t, "translated"
                 changed, n = True, n + 1
         if changed:
-            p.write_text(json.dumps(es, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            p.write_text(json.dumps(es, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     print(f"merged {len(tr)} units into {n} entries")
 
 
