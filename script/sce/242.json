@@ -565,8 +565,8 @@
   "jp": "ヤマト「トウヤ！　ニャんかヤバくニャい⁈」",
   "off": 3281,
   "len": 29,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Touya! Isn't this getting nyasty!?",
+  "status": "translated",
   "style": 2,
   "text_off": 3286,
   "text_len": 23
@@ -576,8 +576,8 @@
   "jp": "トウヤ「落ち着け‥‥落ち着け‥‥どうする‥‥？」",
   "off": 3310,
   "len": 40,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Calm down... calm down... What do I do...?",
+  "status": "translated",
   "style": 1,
   "text_off": 3314,
   "text_len": 35
@@ -587,8 +587,8 @@
   "jp": "ヤマト「トウヤ‥‥？」",
   "off": 3350,
   "len": 20,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Touya...?",
+  "status": "translated",
   "style": 2,
   "text_off": 3355,
   "text_len": 14
@@ -664,8 +664,8 @@
   "jp": "トウヤ「‥‥そうだ。あの時の‥‥」",
   "off": 3615,
   "len": 27,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...That's it. Like that time...",
+  "status": "translated",
   "style": 1,
   "text_off": 3619,
   "text_len": 22

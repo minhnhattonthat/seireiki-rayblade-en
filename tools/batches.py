@@ -222,7 +222,7 @@ def check_batch(name, g=None, quiet=False):
                 if re.search(rf"\b{re.escape(av)}\b", en):
                     er.append(f"glossary: avoid {av!r} (use {t_en})")
         for m in re.finditer(f"([{KATA}]+)(さん|くん|君|ちゃん|様|さま|殿)(?!下)", jp):
-            if m.group(0) in gl_jp or m.group(1) in ("ムコ",):  # glossary row decides (バルちゃん); おムコさん = groom
+            if m.group(0) in gl_jp or m.group(1) in ("ムコ", "ジイ", "バア"):  # glossary row decides (バルちゃん); common nouns: groom, old man/woman
                 continue
             if len(m.group(1).replace("ー", "")) >= 2 and HONORIFICS[m.group(2)] not in en:  # not ばーさん
                 er.append(f"honorific {m.group(1)}{m.group(2)} needs {HONORIFICS[m.group(2)]}")

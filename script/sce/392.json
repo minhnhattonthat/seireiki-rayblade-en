@@ -873,8 +873,8 @@
   "jp": "ユミール「あっ、トウヤさん。どうしました？」",
   "off": 4442,
   "len": 27,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Oh, Touya-san. What is it?",
+  "status": "translated",
   "style": 0,
   "text_off": 4444,
   "text_len": 24
@@ -884,8 +884,8 @@
   "jp": "トウヤ「いや、別に用はねぇけど‥‥」",
   "off": 4472,
   "len": 25,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Nah, I don't really need anything...",
+  "status": "translated",
   "style": 0,
   "text_off": 4474,
   "text_len": 22
@@ -906,8 +906,8 @@
   "jp": "ヤマト「もぅ、用もニャいのに邪魔しちゃダメでしょ？{nl}　おじゃましました」",
   "off": 4518,
   "len": 43,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Geez, you can't bother her when you've got nyothing to do here, can you? Sorry to intrude.",
+  "status": "translated",
   "style": 0,
   "text_off": 4520,
   "text_len": 40
@@ -1148,8 +1148,8 @@
   "jp": "ユミール「トウヤさん‥‥」",
   "off": 5528,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Touya-san...",
+  "status": "translated",
   "style": 0,
   "text_off": 5530,
   "text_len": 16

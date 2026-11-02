@@ -48,8 +48,8 @@
   "jp": "トウヤ「いねぇのか‥‥」",
   "off": 1304,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Guess he's not here...",
+  "status": "translated",
   "style": 0,
   "text_off": 1306,
   "text_len": 14
@@ -70,8 +70,8 @@
   "jp": "‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 1465,
   "len": 165,
-  "en": "",
-  "status": "todo",
+  "en": ".......................{nl}{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 1467,
   "text_len": 162
@@ -81,8 +81,8 @@
   "jp": "‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥{nl}‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 1641,
   "len": 212,
-  "en": "",
-  "status": "todo",
+  "en": ".......................{nl}.......................{nl}{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 1643,
   "text_len": 209

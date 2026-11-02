@@ -147,8 +147,8 @@
   "jp": "　アガルティア王国について訊く{nl}　別の国について訊く{nl}　やっぱりいい",
   "off": 583,
   "len": 43,
-  "en": "",
-  "status": "todo",
+  "en": "About the Kingdom of Agarthia{nl}About another country{nl}Never mind",
+  "status": "translated",
   "style": 192,
   "text_off": 585,
   "text_len": 40
@@ -158,8 +158,8 @@
   "jp": "　ジグリム共和国について訊く{nl}　別の国について訊く{nl}　さっきの‥‥",
   "off": 637,
   "len": 45,
-  "en": "",
-  "status": "todo",
+  "en": "About the Zigrim Republic{nl}About another country{nl}That last one again...",
+  "status": "translated",
   "style": 192,
   "text_off": 639,
   "text_len": 42
@@ -169,8 +169,8 @@
   "jp": "　ヨークについて訊く{nl}　さっきの‥‥{nl}　もういい。",
   "off": 693,
   "len": 32,
-  "en": "",
-  "status": "todo",
+  "en": "About York{nl}That last one again...{nl}That's enough.",
+  "status": "translated",
   "style": 192,
   "text_off": 695,
   "text_len": 29
@@ -235,8 +235,8 @@
   "jp": "デロック「いいか、良く聞くんだな。{nl}　世界の名前と同じ名を持つこの国はその名のとおり、{nl}　元々この世界を統一していたんだな。{nl}　首都はシャングリアと言うんだな。{nl}　歴史上幾度か分裂し、暗黒時代の断絶は{nl}　あったが、3000年の歴史を誇っているんだな。{nl}　今でもその国土は大陸のおよそほぼ半数を占め、{nl}　この世界の盟主的役割を担っているんだな。{nl}　穏健な立憲君主国で、過去の歴史から{nl}　周辺諸国からやや批判的な目でみられていることが{nl}　多いんだな。{nl}　18の自治体で構成され、その中の12の都市は{nl}　アガルティア評議会の解散、選出権をもち、{nl}　“12選定都市”と呼ばれているんだな。{nl}　また、国土の中に“聖地”とよばれる地域があり、{nl}　独立領的な扱いとなっているんだな。{nl}　ちなみに“聖地”とは練金学士の学び舎であり、{nl}　研究所であり、工房#915でもある総本山なんだな。{nl}　そもそもは練金学の悪用を戒め、{nl}　“健全な技術の発達のための協力”を{nl}　目的として設立されたんだな。{nl}　いかなる国家権力にも影響されることなく、{nl}　どの国も武力行使を禁じらた不可侵の聖域{nl}　なんだな。{nl}　以上で説明終わりなんだな」",
   "off": 1045,
   "len": 670,
-  "en": "",
-  "status": "todo",
+  "en": "Derock: Now, listen well, y'see. This country shares its name with the world, and just as that name says, it originally unified this entire world, y'see. Its capital is called Shangria. It split apart several times over its history, and there was the break of the Dark Ages, but it boasts 3,000 years of history, is how it is. Even now its territory covers roughly half the continent, and it plays the role of this world's leading power, y'see. It's a moderate constitutional monarchy, and because of its past it's often viewed somewhat critically by the neighboring countries, see. It's made up of 18 self-governing regions, and 12 of those cities hold the right to dissolve and elect the Agarthian Council, so they're called the \"Twelve Elector Cities,\" y'see. Also, within its territory is a region called the \"Holy Land,\" which is treated as an independent domain, is how it is. By the way, the \"Holy Land\" is the head seat of the alchemists: their school, their research institute and their workshop all in one, y'see. It was founded to guard against the misuse of alchemy, with the aim of \"cooperation for the sound development of technology,\" see. It's an inviolable sanctuary, untouched by any national power, where every nation is forbidden to use force, is how it is. And that concludes the explanation, y'see.",
+  "status": "translated",
   "style": 0,
   "text_off": 1047,
   "text_len": 667
