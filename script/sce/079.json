@@ -133,7 +133,7 @@
  },
  {
   "id": "sce079:002C6",
-  "jp": "レイフォン「君達が目撃したという巨大な物体、{nl}　<E1>ォーリアと戦うためさ。その戦いの余剰エネルギーは{nl}　地球を破壊するほどだった。{nl}　だから、エイディオンと他の二体、シー<E1>ァリアスと{nl}　クールマリシンの力で力の性質を変換させ、{nl}　このアガルティアを作り上げたというわけなんだ。{nl}　つまり地球とこのアガルティアは表裏一体。{nl}　一つにして他なるものでありながら互いに関係{nl}　しあっているということさ」",
+  "jp": "レイフォン「君達が目撃したという巨大な物体、{nl}　ヴォーリアと戦うためさ。その戦いの余剰エネルギーは{nl}　地球を破壊するほどだった。{nl}　だから、エイディオンと他の二体、シーヴァリアスと{nl}　クールマリシンの力で力の性質を変換させ、{nl}　このアガルティアを作り上げたというわけなんだ。{nl}　つまり地球とこのアガルティアは表裏一体。{nl}　一つにして他なるものでありながら互いに関係{nl}　しあっているということさ」",
   "off": 710,
   "len": 242,
   "en": "Rayfon: To fight that giant object you all witnessed: Vorlia. The surplus energy from that battle was enough to destroy the Earth. So with the power of Aidion and the other two, Sivarius and Coolmarishin, they transformed the nature of that power and built this world, Agarthia. In other words, Earth and Agarthia are two sides of the same coin. One and yet separate, while still bound up with each other.",
@@ -199,7 +199,7 @@
  },
  {
   "id": "sce079:00514",
-  "jp": "レイフォン「ああ。僕も完全には理解していないけど、{nl}　地球の外には宇宙というものがあって、そのさらに遠くに{nl}　別の宇宙が存在し、彼らはそこから来たらしいんだ。{nl}　“リン・カーマ”というのが彼らの故郷の名前で、{nl}　もとは太陽系の人間と系譜をおなじくするよう{nl}　なんだけど、定かではないみたいだね。{nl}　ただ、ひとつの事実として、リン・カーマの人類と{nl}　太陽系人類の姿は酷似している点からその説は{nl}　間違ってはいないだろうね。{nl}　グラウザーはそのリン・カーマで、エイディオン、{nl}　シー<E1>ァリアス、クールマリシンの三体の超攻性外殻体{nl}　“神凱王”を製作した科学者だったんだ」",
+  "jp": "レイフォン「ああ。僕も完全には理解していないけど、{nl}　地球の外には宇宙というものがあって、そのさらに遠くに{nl}　別の宇宙が存在し、彼らはそこから来たらしいんだ。{nl}　“リン・カーマ”というのが彼らの故郷の名前で、{nl}　もとは太陽系の人間と系譜をおなじくするよう{nl}　なんだけど、定かではないみたいだね。{nl}　ただ、ひとつの事実として、リン・カーマの人類と{nl}　太陽系人類の姿は酷似している点からその説は{nl}　間違ってはいないだろうね。{nl}　グラウザーはそのリン・カーマで、エイディオン、{nl}　シーヴァリアス、クールマリシンの三体の超攻性外殻体{nl}　“神凱王”を製作した科学者だったんだ」",
   "off": 1300,
   "len": 359,
   "en": "Rayfon: Yes. I don't fully understand it either, but beyond the Earth there's a thing called space, and far beyond that is another universe. That's apparently where they came from. Their homeworld is called \"Lin Karma,\" and they seem to share a common ancestry with the people of the solar system, though it isn't certain. Still, the humans of Lin Karma and of the solar system look almost exactly alike, so that theory is likely not wrong. On Lin Karma, Grauzer was the scientist who built the three hyper-offensive exoshells, the \"Shingaioh\": Aidion, Sivarius and Coolmarishin.",
@@ -221,7 +221,7 @@
  },
  {
   "id": "sce079:0069C",
-  "jp": "セリカ「つまり、このアガルティアは<E1>ォーリアという{nl}　奴との戦いの余波で出来た世界で、{nl}　それはリン・カーマっていう異星人がやった、と。{nl}　そんで、その内のグラウザーとかいう人の精神が{nl}　あなたの身体の中で共生してる。{page}　ついでに言うなら外に立ってるあの三体を作ったのも{nl}　その人だということ？」",
+  "jp": "セリカ「つまり、このアガルティアはヴォーリアという{nl}　奴との戦いの余波で出来た世界で、{nl}　それはリン・カーマっていう異星人がやった、と。{nl}　そんで、その内のグラウザーとかいう人の精神が{nl}　あなたの身体の中で共生してる。{page}　ついでに言うなら外に立ってるあの三体を作ったのも{nl}　その人だということ？」",
   "off": 1692,
   "len": 182,
   "en": "Celica: So basically, this Agarthia is a world that was born from the aftershock of a fight with some guy called Vorlia, and the ones who did it were aliens from Lin Karma. And then the mind of one of them, this Grauzer person, is living in your body with you.{page}And while we're at it, the one who built those three machines standing outside is him too?",
@@ -254,7 +254,7 @@
  },
  {
   "id": "sce079:007B1",
-  "jp": "侍女「失礼します。<E1>ァルガ・ソルマ様と{nl}　リシュナ・ミルシュ様がご到着されました」",
+  "jp": "侍女「失礼します。ヴァルガ・ソルマ様と{nl}　リシュナ・ミルシュ様がご到着されました」",
   "off": 1969,
   "len": 52,
   "en": "Lady-in-Waiting: Excuse me. Valga Solma-sama and Rishuna Milsh-sama have arrived.",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce079:0083E",
-  "jp": "<E1>ァルガ「おお、無事に合流できたようじゃな？」",
+  "jp": "ヴァルガ「おお、無事に合流できたようじゃな？」",
   "off": 2110,
   "len": 31,
   "en": "Valga: Oho, looks like you all managed to regroup safely, eh?",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce079:00895",
-  "jp": "<E1>ァルガ「うむ。しかしここにいるリシュナや{nl}　グラウザーとちがってワシは本体じゃがな」",
+  "jp": "ヴァルガ「うむ。しかしここにいるリシュナや{nl}　グラウザーとちがってワシは本体じゃがな」",
   "off": 2197,
   "len": 49,
   "en": "Valga: Mm. But unlike Rishuna and Grauzer here, I'm the real body, eh.",
@@ -364,7 +364,7 @@
  },
  {
   "id": "sce079:009B0",
-  "jp": "<E1>ァルガ「老人に年を訊くのは失礼じゃぞ。{nl}　ワシの年齢と3サイズはひみつじゃ」",
+  "jp": "ヴァルガ「老人に年を訊くのは失礼じゃぞ。{nl}　ワシの年齢と3サイズはひみつじゃ」",
   "off": 2480,
   "len": 50,
   "en": "Valga: It's rude to ask an old man his age. My age and my three sizes are a secret.",
@@ -386,7 +386,7 @@
  },
  {
   "id": "sce079:00A2A",
-  "jp": "リシュナ「＜ゼ＝オード＞ではなく<E1>ォーリアです」",
+  "jp": "リシュナ「＜ゼ＝オード＞ではなくヴォーリアです」",
   "off": 2602,
   "len": 32,
   "en": "Rishuna: Not Ze=Ode. Vorlia.",
@@ -397,7 +397,7 @@
  },
  {
   "id": "sce079:00A4D",
-  "jp": "アーサー「そうそう、それです。{nl}　その<E1>ォーリアというのはなんなのですか？{nl}　さきほども言っておられましたけど‥‥」",
+  "jp": "アーサー「そうそう、それです。{nl}　そのヴォーリアというのはなんなのですか？{nl}　さきほども言っておられましたけど‥‥」",
   "off": 2637,
   "len": 68,
   "en": "Arthur: Yes, yes, that's it. What exactly is this Vorlia? You mentioned it a moment ago as well...",
@@ -419,7 +419,7 @@
  },
  {
   "id": "sce079:00AAA",
-  "jp": "リシュナ「はい。わかりました。{nl}　‥‥<E1>ォーリアは簡単に言ってしまえば“器”です。{page}　ただ、その中に入るのは知的生命体の“意識”{nl}　<E1>ォーリアはその“意識”の収集のために{nl}　造られた存在です。{nl}　このため、<E1>ォーリアには意志というものはなく、{nl}　ただ与えられた命令“意識を収集せよ”を{nl}　実行しているにすぎません」",
+  "jp": "リシュナ「はい。わかりました。{nl}　‥‥ヴォーリアは簡単に言ってしまえば“器”です。{page}　ただ、その中に入るのは知的生命体の“意識”{nl}　ヴォーリアはその“意識”の収集のために{nl}　造られた存在です。{nl}　このため、ヴォーリアには意志というものはなく、{nl}　ただ与えられた命令“意識を収集せよ”を{nl}　実行しているにすぎません」",
   "off": 2730,
   "len": 204,
   "en": "Rishuna: Yes. Understood. ...Put simply, Vorlia is a \"vessel.\"{page}But what goes inside it is the \"consciousness\" of intelligent life. Vorlia is a being built to collect that \"consciousness.\" So Vorlia has no will of its own. It is merely carrying out the order it was given: \"Collect consciousness.\"",
@@ -441,7 +441,7 @@
  },
  {
   "id": "sce079:00BB3",
-  "jp": "リシュナ「ええ。彼の乗っている＜ゼ＝オード＞聖霊機は{nl}　<E1>ォーリアの末端機関にすぎませんから‥‥」",
+  "jp": "リシュナ「ええ。彼の乗っている＜ゼ＝オード＞聖霊機は{nl}　ヴォーリアの末端機関にすぎませんから‥‥」",
   "off": 2995,
   "len": 68,
   "en": "Rishuna: Yes. The Ze=Ode Spirit Mech he pilots is nothing more than a terminal organ of Vorlia...",
@@ -474,7 +474,7 @@
  },
  {
   "id": "sce079:00C91",
-  "jp": "　ただ、<E1>ォーリアはあの一体だけではなく、{nl}　様々な宇宙へ送り込まれているようなのです」",
+  "jp": "　ただ、ヴォーリアはあの一体だけではなく、{nl}　様々な宇宙へ送り込まれているようなのです」",
   "off": 3217,
   "len": 55,
   "en": "However, it seems Vorlia isn't the only one. Others have been sent into various universes.",
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce079:00CE5",
-  "jp": "リシュナ「同一の銀河に複数の<E1>ォーリアがいたという{nl}　報告はされていません。{page}　ですが、複数いることは確認されています。{nl}　我々のリン・カーマも<E1>ォーリアによって事実上{nl}　崩壊させられました。免れたのは私達三人だけです」",
+  "jp": "リシュナ「同一の銀河に複数のヴォーリアがいたという{nl}　報告はされていません。{page}　ですが、複数いることは確認されています。{nl}　我々のリン・カーマもヴォーリアによって事実上{nl}　崩壊させられました。免れたのは私達三人だけです」",
   "off": 3301,
   "len": 139,
   "en": "Rishuna: There have been no reports of multiple Vorlias in the same galaxy.{page}However, it has been confirmed that there is more than one. Our Lin Karma was effectively destroyed by Vorlia. Only the three of us escaped.",
@@ -507,7 +507,7 @@
  },
  {
   "id": "sce079:00D73",
-  "jp": "トウヤ「なんか話がえらいことになってきたが、{nl}　その<E1>ォーリアというのが復活すると、この世界の人間が{nl}　みんな消えてなくなるってことか？」",
+  "jp": "トウヤ「なんか話がえらいことになってきたが、{nl}　そのヴォーリアというのが復活すると、この世界の人間が{nl}　みんな消えてなくなるってことか？」",
   "off": 3443,
   "len": 82,
   "en": "Touya: This is turning into one hell of a story, but... if this Vorlia thing comes back, everyone in this world just vanishes?",
@@ -518,7 +518,7 @@
  },
  {
   "id": "sce079:00DC8",
-  "jp": "<E1>ァルガ「ああ。<E1>ォーリアが欲するものは、{nl}　あくまで外宇宙の知的生命体が持つ情報で、{nl}　資源や技術などには興味はないようじゃからな。{nl}　アレが来た世界は生命体だけが消えることとなる。{nl}　<E1>ォーリアはおぬしの乗っているライブレードを含む{nl}　六体の＜ゼ＝オード＞聖霊機が集結することで{nl}　呼び出すんじゃ。{nl}　再び道が開かれた今、止めるには<E1>ォーリア自体を{nl}　破壊するしかない」",
+  "jp": "ヴァルガ「ああ。ヴォーリアが欲するものは、{nl}　あくまで外宇宙の知的生命体が持つ情報で、{nl}　資源や技術などには興味はないようじゃからな。{nl}　アレが来た世界は生命体だけが消えることとなる。{nl}　ヴォーリアはおぬしの乗っているライブレードを含む{nl}　六体の＜ゼ＝オード＞聖霊機が集結することで{nl}　呼び出すんじゃ。{nl}　再び道が開かれた今、止めるにはヴォーリア自体を{nl}　破壊するしかない」",
   "off": 3528,
   "len": 243,
   "en": "Valga: Aye. What Vorlia wants is strictly the information held by intelligent life from outer space. It seems to have no interest in resources or technology, eh. In a world it reaches, only the living things vanish. Vorlia is summoned when the six Ze=Ode Spirit Mechs gather, including that Rayblade you pilot. Now that the path is open again, the only way to stop it is to destroy Vorlia itself.",
@@ -540,7 +540,7 @@
  },
  {
   "id": "sce079:00EEB",
-  "jp": "レイフォン「僕ら‥‥というより、僕とリシュナの中にいる{nl}　精神体と<E1>ァルガはなんとか<E1>ォーリアの封印を{nl}　してから、力を使い果たし、眠りについたんだ」",
+  "jp": "レイフォン「僕ら‥‥というより、僕とリシュナの中にいる{nl}　精神体とヴァルガはなんとかヴォーリアの封印を{nl}　してから、力を使い果たし、眠りについたんだ」",
   "off": 3819,
   "len": 93,
   "en": "Rayfon: We... or rather, the consciousnesses inside Rishuna and me, along with Valga, managed to seal Vorlia away, then used up all our strength and fell asleep.",
@@ -551,7 +551,7 @@
  },
  {
   "id": "sce079:00F4B",
-  "jp": "リシュナ「<E1>ォーリアの反応を目覚めのキーとして」",
+  "jp": "リシュナ「ヴォーリアの反応を目覚めのキーとして」",
   "off": 3915,
   "len": 33,
   "en": "Rishuna: With Vorlia's reaction as the key to wake us.",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce079:00F6F",
-  "jp": "<E1>ァルガ「ワシはゴーデリウスの復活の時に{nl}　目覚めたのじゃが、グラウザーの奴は次元の狭間に{nl}　おって手がだせんかった。{nl}　仕方なくワシとこのリシュナで<E1>ォーリアを{nl}　攻撃したんじゃが、押し戻すだけで{nl}　精一杯じゃったわい、だっはっはっは！」",
+  "jp": "ヴァルガ「ワシはゴーデリウスの復活の時に{nl}　目覚めたのじゃが、グラウザーの奴は次元の狭間に{nl}　おって手がだせんかった。{nl}　仕方なくワシとこのリシュナでヴォーリアを{nl}　攻撃したんじゃが、押し戻すだけで{nl}　精一杯じゃったわい、だっはっはっは！」",
   "off": 3951,
   "len": 147,
   "en": "Valga: I woke when Goderius was revived, but that Grauzer was stuck between dimensions, so he couldn't lend a hand. So Rishuna and I had no choice but to attack Vorlia ourselves, but pushing it back was all we could manage, eh! Dahahahaha!",
@@ -595,7 +595,7 @@
  },
  {
   "id": "sce079:01044",
-  "jp": "リシュナ「おそらく。ただ、すでに一度<E1>ォーリアは{nl}　この地へ現れています。もしかしたら六体すべてが{nl}　集まらなくても呼び出すことができるかも‥‥」",
+  "jp": "リシュナ「おそらく。ただ、すでに一度ヴォーリアは{nl}　この地へ現れています。もしかしたら六体すべてが{nl}　集まらなくても呼び出すことができるかも‥‥」",
   "off": 4164,
   "len": 88,
   "en": "Rishuna: Most likely. But Vorlia has already appeared in this land once. It may be possible to summon it even without all six gathered...",
@@ -650,7 +650,7 @@
  },
  {
   "id": "sce079:01184",
-  "jp": "<E1>ァルガ「とにかく、今はお互い、協力して事に{nl}　当たるしかないということじゃ」",
+  "jp": "ヴァルガ「とにかく、今はお互い、協力して事に{nl}　当たるしかないということじゃ」",
   "off": 4484,
   "len": 48,
   "en": "Valga: In any case, for now we've no choice but to work together on this, eh.",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce079:011FA",
-  "jp": "<E1>ァルガ「ワシらもしばらく厄介になるとしようかの」",
+  "jp": "ヴァルガ「ワシらもしばらく厄介になるとしようかの」",
   "off": 4602,
   "len": 30,
   "en": "Valga: I suppose we'll be imposing on you for a while too, eh.",

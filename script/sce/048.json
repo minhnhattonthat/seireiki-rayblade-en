@@ -928,7 +928,7 @@
   "jp": "アーサー「時々、弾けてしまうんですよ彼は。{nl}　まぁ、ちょっといじけてるだけです。{nl}　明日にでもなればすっかり忘れてますよ」",
   "off": 4042,
   "len": 72,
-  "en": "Arthur: He just snaps every now and then. Well, he's only sulking a little. By tomorrow he'll have forgotten all about it.",
+  "en": "Arthur: He gets a bit carried away every now and then. Well, he's only sulking a little. By tomorrow he'll have forgotten all about it.",
   "status": "translated",
   "style": 0,
   "text_off": 4044,
@@ -1178,7 +1178,7 @@
  },
  {
   "id": "sce048:015CD",
-  "jp": "オズ<E1>ァルド「こんなところで奴等に出会うとは‥‥{nl}　しかし、カインの屋敷にティックス王子がいたとはな。{nl}　カインめ、その身の程を知らぬ行動が{nl}　己の寿命を縮めたとは思っておらんだろうな‥‥{nl}　クククク。うまくゆけば奴等がカインを始末してくれる。{nl}　そのあとで‥‥」",
+  "jp": "オズヴァルド「こんなところで奴等に出会うとは‥‥{nl}　しかし、カインの屋敷にティックス王子がいたとはな。{nl}　カインめ、その身の程を知らぬ行動が{nl}　己の寿命を縮めたとは思っておらんだろうな‥‥{nl}　クククク。うまくゆけば奴等がカインを始末してくれる。{nl}　そのあとで‥‥」",
   "off": 5581,
   "len": 163,
   "en": "Oswald: To think I'd run into them in a place like this... But so Prince Tix was in Cain's mansion. That Cain... He surely doesn't realize his reckless overreach has shortened his own life... Kukukuku. If all goes well, they'll dispose of Cain for me. And after that...",
@@ -1189,7 +1189,7 @@
  },
  {
   "id": "sce048:01678",
-  "jp": "オズ<E1>ァルド「ふふふふふ‥‥クルルちゃん‥‥」",
+  "jp": "オズヴァルド「ふふふふふ‥‥クルルちゃん‥‥」",
   "off": 5752,
   "len": 30,
   "en": "Oswald: Fufufufufu... Kururu-chan...",
@@ -2333,7 +2333,7 @@
  },
  {
   "id": "sce048:02A18",
-  "jp": "クロビス「オズ<E1>ァルド‥‥」",
+  "jp": "クロビス「オズヴァルド‥‥」",
   "off": 10776,
   "len": 19,
   "en": "Clovis: Oswald...",
@@ -2377,7 +2377,7 @@
  },
  {
   "id": "sce048:02A98",
-  "jp": "オズ<E1>ァルド「‥‥みなさん、お久しぶりです。{nl}　ヨークは残念なことになりましたが、陛下の遺志が{nl}　引き継がれており、安心しましたよ‥‥」",
+  "jp": "オズヴァルド「‥‥みなさん、お久しぶりです。{nl}　ヨークは残念なことになりましたが、陛下の遺志が{nl}　引き継がれており、安心しましたよ‥‥」",
   "off": 10904,
   "len": 87,
   "en": "Oswald: ...Everyone, it's been a while. It's a shame what happened to York, but I'm relieved to see Her Majesty's will has been carried on...",
@@ -2399,7 +2399,7 @@
  },
  {
   "id": "sce048:02B03",
-  "jp": "オズ<E1>ァルド「おっと、動かないでください。{nl}　この子の顔に一生消えない傷がつくことになりますよ」",
+  "jp": "オズヴァルド「おっと、動かないでください。{nl}　この子の顔に一生消えない傷がつくことになりますよ」",
   "off": 11011,
   "len": 58,
   "en": "Oswald: Ah-ah, don't move. Or this child's face will bear a scar that never fades.",
@@ -2421,7 +2421,7 @@
  },
  {
   "id": "sce048:02B59",
-  "jp": "オズ<E1>ァルド「ふふふ‥‥話が早い。{nl}　私の要求はただ一つ。あそこにいるカインを殺すこと。{nl}　それだけです」",
+  "jp": "オズヴァルド「ふふふ‥‥話が早い。{nl}　私の要求はただ一つ。あそこにいるカインを殺すこと。{nl}　それだけです」",
   "off": 11097,
   "len": 65,
   "en": "Oswald: Fufufu... You catch on quickly. I have just one demand. Kill Cain, who is over there. That is all.",
@@ -2443,7 +2443,7 @@
  },
  {
   "id": "sce048:02BB5",
-  "jp": "オズ<E1>ァルド「言っても信じてもらえないでしょうけど、{nl}　私は姫を、アルフォリナ女王を殺す気はなかった‥‥{nl}　だが、あの男の‥‥カインの策略で、{nl}　あの呪われた“魔眼”によって私は‥‥姫を{nl}　こ、この手に‥‥私は奴に利用されただけなのだ」",
+  "jp": "オズヴァルド「言っても信じてもらえないでしょうけど、{nl}　私は姫を、アルフォリナ女王を殺す気はなかった‥‥{nl}　だが、あの男の‥‥カインの策略で、{nl}　あの呪われた“魔眼”によって私は‥‥姫を{nl}　こ、この手に‥‥私は奴に利用されただけなのだ」",
   "off": 11189,
   "len": 152,
   "en": "Oswald: You probably won't believe me, but I never meant to kill the Princess... Queen Alforina... But that man... Cain's scheme, that cursed \"Evil Eye,\" made me... the Princess, w-with my own hands... I was only being used by him.",
@@ -2465,7 +2465,7 @@
  },
  {
   "id": "sce048:02C69",
-  "jp": "オズ<E1>ァルド「別にあなた方に信じてもらおうとは{nl}　思ってはいない。私があなた方にもとめるのはただ一つ{nl}　‥‥カインの抹殺。それだけですよ」",
+  "jp": "オズヴァルド「別にあなた方に信じてもらおうとは{nl}　思ってはいない。私があなた方にもとめるのはただ一つ{nl}　‥‥カインの抹殺。それだけですよ」",
   "off": 11369,
   "len": 83,
   "en": "Oswald: I don't particularly expect you to believe me. I want only one thing from you... Cain's elimination. That's all.",
@@ -2487,7 +2487,7 @@
  },
  {
   "id": "sce048:02CD0",
-  "jp": "オズ<E1>ァルド「さぁ、早く‥‥」",
+  "jp": "オズヴァルド「さぁ、早く‥‥」",
   "off": 11472,
   "len": 21,
   "en": "Oswald: Now, hurry...",
@@ -2531,7 +2531,7 @@
  },
  {
   "id": "sce048:02D40",
-  "jp": "オズ<E1>ァルド「早くしてくれませんかね？」",
+  "jp": "オズヴァルド「早くしてくれませんかね？」",
   "off": 11584,
   "len": 25,
   "en": "Oswald: Would you mind hurrying it up?",
@@ -2564,7 +2564,7 @@
  },
  {
   "id": "sce048:02DB0",
-  "jp": "オズ<E1>ァルド「うっ‥‥そ、そんなこと言える‥‥{nl}　た、た、立場だと‥‥」",
+  "jp": "オズヴァルド「うっ‥‥そ、そんなこと言える‥‥{nl}　た、た、立場だと‥‥」",
   "off": 11696,
   "len": 48,
   "en": "Oswald: Ugh... Y-you think you're in any p-p-position to say that...",
@@ -2586,7 +2586,7 @@
  },
  {
   "id": "sce048:02E1A",
-  "jp": "オズ<E1>ァルド「よ、よるな！」",
+  "jp": "オズヴァルド「よ、よるな！」",
   "off": 11802,
   "len": 18,
   "en": "Oswald: S-stay back!",
@@ -2663,7 +2663,7 @@
  },
  {
   "id": "sce048:02ECE",
-  "jp": "オズ<E1>ァルド「ク、クク、クククククク‥‥」",
+  "jp": "オズヴァルド「ク、クク、クククククク‥‥」",
   "off": 11982,
   "len": 26,
   "en": "Oswald: Ku, kuku, kukukukukuku...",

@@ -1,7 +1,7 @@
 [
  {
   "id": "sce056:0002E",
-  "jp": "オズ<E1>ァルド「カインが逃げた‥‥{nl}　ちっ、せっかくのチャンスを‥‥{nl}　これではこの子は返すことはできませんね」",
+  "jp": "オズヴァルド「カインが逃げた‥‥{nl}　ちっ、せっかくのチャンスを‥‥{nl}　これではこの子は返すことはできませんね」",
   "off": 46,
   "len": 65,
   "en": "Oswald: Cain got away... Tch, and it was such a golden chance... Now I can't very well give this child back, can I?",
@@ -23,7 +23,7 @@
  },
  {
   "id": "sce056:00089",
-  "jp": "オズ<E1>ァルド「クルルちゃん‥‥おじさんを困らせないでおくれ{nl}　‥‥できるだけ君を傷つけたくないんだよぉ。{nl}　だって‥‥くくくくくく」",
+  "jp": "オズヴァルド「クルルちゃん‥‥おじさんを困らせないでおくれ{nl}　‥‥できるだけ君を傷つけたくないんだよぉ。{nl}　だって‥‥くくくくくく」",
   "off": 137,
   "len": 78,
   "en": "Oswald: Kururu-chan... Don't give your old mister such a hard time... I really don't want to hurt you if I can help it. Because... kukukukukuku.",
@@ -56,7 +56,7 @@
  },
  {
   "id": "sce056:00105",
-  "jp": "オズ<E1>ァルド「おっと、動かないでくださいよぉ。{nl}　あまり脅かされると手元が狂うかもしれません。{nl}　ほらちょうど、この動脈のあたりとか、ね‥‥」",
+  "jp": "オズヴァルド「おっと、動かないでくださいよぉ。{nl}　あまり脅かされると手元が狂うかもしれません。{nl}　ほらちょうど、この動脈のあたりとか、ね‥‥」",
   "off": 261,
   "len": 83,
   "en": "Oswald: Oh, don't move now, if you please. If you startle me too much, my hand might slip. Right about here, say, by this artery...",
@@ -78,7 +78,7 @@
  },
  {
   "id": "sce056:0018C",
-  "jp": "オズ<E1>ァルド「なにっ⁉　装兵機⁈　う、うわっ！」",
+  "jp": "オズヴァルド「なにっ⁉　装兵機⁈　う、うわっ！」",
   "off": 396,
   "len": 33,
   "en": "Oswald: What!? An Armored Mech!? Wh-whoa!",
@@ -122,7 +122,7 @@
  },
  {
   "id": "sce056:001F9",
-  "jp": "オズ<E1>ァルド「しまった！　クルル‥‥‼」",
+  "jp": "オズヴァルド「しまった！　クルル‥‥‼」",
   "off": 505,
   "len": 27,
   "en": "Oswald: Damn it! Kururu...!!",
@@ -177,7 +177,7 @@
  },
  {
   "id": "sce056:0026E",
-  "jp": "オズ<E1>ァルド「あ、あああああ‥‥」",
+  "jp": "オズヴァルド「あ、あああああ‥‥」",
   "off": 622,
   "len": 22,
   "en": "Oswald: Ah, aaaaah...",
@@ -199,7 +199,7 @@
  },
  {
   "id": "sce056:00299",
-  "jp": "オズ<E1>ァルド「はは、ははははは‥‥ま、待って‥‥」",
+  "jp": "オズヴァルド「はは、ははははは‥‥ま、待って‥‥」",
   "off": 665,
   "len": 33,
   "en": "Oswald: Ha, hahahaha... W-wait...",
@@ -243,7 +243,7 @@
  },
  {
   "id": "sce056:0041C",
-  "jp": "オズ<E1>ァルド「話が違う！」",
+  "jp": "オズヴァルド「話が違う！」",
   "off": 1052,
   "len": 19,
   "en": "Oswald: This isn't what we agreed!",
@@ -265,7 +265,7 @@
  },
  {
   "id": "sce056:00451",
-  "jp": "オズ<E1>ァルド「こちらの件が終わってからという約束だ！{nl}　だから、そちらに情報を流したというのに‥‥」",
+  "jp": "オズヴァルド「こちらの件が終わってからという約束だ！{nl}　だから、そちらに情報を流したというのに‥‥」",
   "off": 1105,
   "len": 63,
   "en": "Oswald: The deal was after this business was finished! That's why I leaked the information to you...",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce056:004AB",
-  "jp": "オズ<E1>ァルド「なっ‥‥」",
+  "jp": "オズヴァルド「なっ‥‥」",
   "off": 1195,
   "len": 17,
   "en": "Oswald: Wha...",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce056:004D7",
-  "jp": "オズ<E1>ァルド「なにっ⁈　き、貴様、はじめから‥‥{nl}　なっ！　や、やめ‥‥」",
+  "jp": "オズヴァルド「なにっ⁈　き、貴様、はじめから‥‥{nl}　なっ！　や、やめ‥‥」",
   "off": 1239,
   "len": 48,
   "en": "Oswald: What!? Y-you, from the very start... Wha! S-sto--",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce056:0051A",
-  "jp": "オズ<E1>ァルド「うごぉっ」",
+  "jp": "オズヴァルド「うごぉっ」",
   "off": 1306,
   "len": 15,
   "en": "Oswald: Ugaah!",

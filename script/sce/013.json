@@ -1310,7 +1310,7 @@
  },
  {
   "id": "sce013:015E0",
-  "jp": "イ<E1>ェル「‥‥新たな＜ゼ＝オード＞があらわれましたか」",
+  "jp": "イヴェル「‥‥新たな＜ゼ＝オード＞があらわれましたか」",
   "off": 5600,
   "len": 37,
   "en": "Ivel: ...So a new Ze=Ode has appeared.",
@@ -1420,7 +1420,7 @@
  },
  {
   "id": "sce013:01751",
-  "jp": "イ<E1>ェル「エミィや、例の調査はどうしました？」",
+  "jp": "イヴェル「エミィや、例の調査はどうしました？」",
   "off": 5969,
   "len": 30,
   "en": "Ivel: Emy dear, how did that investigation go?",
@@ -1497,7 +1497,7 @@
  },
  {
   "id": "sce013:018B1",
-  "jp": "イ<E1>ェル「これは‥‥」",
+  "jp": "イヴェル「これは‥‥」",
   "off": 6321,
   "len": 16,
   "en": "Ivel: This is...",
@@ -1530,7 +1530,7 @@
  },
  {
   "id": "sce013:01942",
-  "jp": "イ<E1>ェル「ええ。正規登録されている機体ならば{nl}　たとえ未発表の最新鋭機であってもわかるはずですよ」",
+  "jp": "イヴェル「ええ。正規登録されている機体ならば{nl}　たとえ未発表の最新鋭機であってもわかるはずですよ」",
   "off": 6466,
   "len": 65,
   "en": "Ivel: Yes. If it were a properly registered unit, we should know it, even if it were an unannounced, state-of-the-art model.",
@@ -1552,7 +1552,7 @@
  },
  {
   "id": "sce013:019E1",
-  "jp": "ガボン「‥‥リンバーグの＜<E1>ェニル＞か{nl}　無所属の＜孤高の銀翼＞だな」",
+  "jp": "ガボン「‥‥リンバーグの＜ヴェニル＞か{nl}　無所属の＜孤高の銀翼＞だな」",
   "off": 6625,
   "len": 52,
   "en": "Gabon: ...Either Limberg's Venir, or the unaffiliated Solitary Silver Wings.",
@@ -1585,7 +1585,7 @@
  },
  {
   "id": "sce013:01AA2",
-  "jp": "ガボン「まぁ、そんなところだ。{nl}　で、傭兵団のことだが＜<E1>ェニル＞は5年前に隊長と{nl}　副官が抜けて今は形骸化してるというし、あとは‥‥」",
+  "jp": "ガボン「まぁ、そんなところだ。{nl}　で、傭兵団のことだが＜ヴェニル＞は5年前に隊長と{nl}　副官が抜けて今は形骸化してるというし、あとは‥‥」",
   "off": 6818,
   "len": 89,
   "en": "Gabon: Well, something like that. Now, about the mercenaries: they say the Venir's been an empty shell since its captain and his second left five years ago, so that leaves...",

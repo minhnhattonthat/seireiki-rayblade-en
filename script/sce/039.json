@@ -133,7 +133,7 @@
  },
  {
   "id": "sce039:002A4",
-  "jp": "<E1>ァルガ「じゃが、こういうことを繰り返していると{nl}　危ない。お前は操者となって日が浅いのだ、{nl}　気をつけるんじゃぞ」",
+  "jp": "ヴァルガ「じゃが、こういうことを繰り返していると{nl}　危ない。お前は操者となって日が浅いのだ、{nl}　気をつけるんじゃぞ」",
   "off": 676,
   "len": 70,
   "en": "Valga: Still, keep doing things like that and it'll get dangerous. You've only been a Pilot a short while, so be careful, eh?",
@@ -199,7 +199,7 @@
  },
  {
   "id": "sce039:00367",
-  "jp": "<E1>ァルガ「さて、これからどうするんじゃ？{nl}　ワシとしてはあのベルンストという男が言っておった{nl}　アルテリアス渓谷へ行くことを提案するが‥‥」",
+  "jp": "ヴァルガ「さて、これからどうするんじゃ？{nl}　ワシとしてはあのベルンストという男が言っておった{nl}　アルテリアス渓谷へ行くことを提案するが‥‥」",
   "off": 871,
   "len": 83,
   "en": "Valga: Now then, what do we do next? For my part, I'd suggest going to that Alterias Valley the Bernst fellow mentioned...",
@@ -386,7 +386,7 @@
  },
  {
   "id": "sce039:00766",
-  "jp": "<E1>ァレス「ああ。これぐらい怪我に入らんといっただろ？{nl}　いつまでも寝てはおられん」",
+  "jp": "ヴァレス「ああ。これぐらい怪我に入らんといっただろ？{nl}　いつまでも寝てはおられん」",
   "off": 1894,
   "len": 49,
   "en": "Vales: Yes. I told you, this hardly counts as an injury, didn't I? I can't stay in bed forever.",
@@ -408,7 +408,7 @@
  },
  {
   "id": "sce039:007B0",
-  "jp": "<E1>ァレス「ん？」",
+  "jp": "ヴァレス「ん？」",
   "off": 1968,
   "len": 12,
   "en": "Vales: Hm?",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce039:007E4",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 2020,
   "len": 13,
   "en": "Vales: ...",
@@ -452,7 +452,7 @@
  },
  {
   "id": "sce039:0083A",
-  "jp": "<E1>ァレス「‥‥ロザリーはお前になんと聞かせているんだ？」",
+  "jp": "ヴァレス「‥‥ロザリーはお前になんと聞かせているんだ？」",
   "off": 2106,
   "len": 37,
   "en": "Vales: ...What has Rosalie told you?",
@@ -474,7 +474,7 @@
  },
  {
   "id": "sce039:00887",
-  "jp": "<E1>ァレス「そうか‥‥」",
+  "jp": "ヴァレス「そうか‥‥」",
   "off": 2183,
   "len": 16,
   "en": "Vales: I see...",
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce039:008CC",
-  "jp": "<E1>ァレス「ゲン‥‥残念だが、事実だ。{nl}　他にもいろいろあったが、直接的な理由はな」",
+  "jp": "ヴァレス「ゲン‥‥残念だが、事実だ。{nl}　他にもいろいろあったが、直接的な理由はな」",
   "off": 2252,
   "len": 56,
   "en": "Vales: Gen... I'm sorry, but it's the truth. There was more to it, but that was the direct reason.",
@@ -518,7 +518,7 @@
  },
  {
   "id": "sce039:00923",
-  "jp": "<E1>ァレス「‥‥つまらん話だ。よくある権力争いというな。{nl}　当時、私とレビオスは軍の最高責任者の座をめぐり、{nl}　派閥という下らんものとともに{nl}　競争に巻き込まれていた。{nl}　私は地位などどうでもよかった。{nl}　だが、周りの者はそうは見てくれなかったんだ。{nl}　レビオス派の筆頭のギールが中心となり、{nl}　私を陥れようとしてきた。それが失敗すると今度は{nl}　言外に脅しをかけてきた。家族のな」",
+  "jp": "ヴァレス「‥‥つまらん話だ。よくある権力争いというな。{nl}　当時、私とレビオスは軍の最高責任者の座をめぐり、{nl}　派閥という下らんものとともに{nl}　競争に巻き込まれていた。{nl}　私は地位などどうでもよかった。{nl}　だが、周りの者はそうは見てくれなかったんだ。{nl}　レビオス派の筆頭のギールが中心となり、{nl}　私を陥れようとしてきた。それが失敗すると今度は{nl}　言外に脅しをかけてきた。家族のな」",
   "off": 2339,
   "len": 238,
   "en": "Vales: ...It's a dull story. The usual power struggle, you might say. Back then, Revios and I were vying for the post of the army's supreme commander, caught up in the competition along with that worthless thing called factions. I didn't care about rank. But those around me didn't see it that way. Geel, head of the Revios faction, led the effort to bring me down. When that failed, he made veiled threats instead. Against my family.",
@@ -540,7 +540,7 @@
  },
  {
   "id": "sce039:00A34",
-  "jp": "<E1>ァレス「そうだ。正直うんざりもしていた。{nl}　そこで私は家族に手を出さないという条件で{nl}　身を引いた。{nl}　だが、奴等はそれだけでは不安だったのだろうな。{nl}　それからもいろいろと理由をつけては手をだしてきた。{nl}　‥‥私はすべてを投げ出した。{nl}　武人として、騎士として最低の行為を犯した。{nl}　そして父親としても。私は国を出奔した。{nl}　最低の人間に成り下がって‥‥」",
+  "jp": "ヴァレス「そうだ。正直うんざりもしていた。{nl}　そこで私は家族に手を出さないという条件で{nl}　身を引いた。{nl}　だが、奴等はそれだけでは不安だったのだろうな。{nl}　それからもいろいろと理由をつけては手をだしてきた。{nl}　‥‥私はすべてを投げ出した。{nl}　武人として、騎士として最低の行為を犯した。{nl}　そして父親としても。私は国を出奔した。{nl}　最低の人間に成り下がって‥‥」",
   "off": 2612,
   "len": 229,
   "en": "Vales: That's right. Frankly, I was sick of it all. So I stepped down on the condition that they leave my family alone. But I suppose that alone wasn't enough to put them at ease. After that, they kept finding excuses to come after you. ...I threw it all away. I committed the lowest act a warrior, a knight, could commit. And as a father, too. I fled the country. I sank to the lowest a man can sink...",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce039:00B4C",
-  "jp": "<E1>ァレス「‥‥すまん‥‥私にはああすることでしか{nl}　お前達を守れなかった‥‥だが、傭兵に身をやつしても{nl}　お前達のことを忘れたことは一度としてない。{nl}　それだけは信じてくれ‥‥」",
+  "jp": "ヴァレス「‥‥すまん‥‥私にはああすることでしか{nl}　お前達を守れなかった‥‥だが、傭兵に身をやつしても{nl}　お前達のことを忘れたことは一度としてない。{nl}　それだけは信じてくれ‥‥」",
   "off": 2892,
   "len": 113,
   "en": "Vales: ...I'm sorry... That was the only way I could protect you... But even after I stooped to being a mercenary, I never once forgot about you. Believe that much, at least...",
@@ -958,7 +958,7 @@
  },
  {
   "id": "sce039:011FB",
-  "jp": "シャール「‥‥<E1>ォーリアの発動した結果。{nl}　そこにあるのではありませんか？」",
+  "jp": "シャール「‥‥ヴォーリアの発動した結果。{nl}　そこにあるのではありませんか？」",
   "off": 4603,
   "len": 50,
   "en": "Sharl: ...The result of Vorlia's activation. Doesn't it lie there?",

@@ -474,7 +474,7 @@
  },
  {
   "id": "sce014:00946",
-  "jp": "<E1>ァレス「‥‥手荒く扱ってすまなかったな。{nl}　お前に危害を加えるつもりはない。今から{nl}　その拘束具を取るが、静かにしてくれると助かる」",
+  "jp": "ヴァレス「‥‥手荒く扱ってすまなかったな。{nl}　お前に危害を加えるつもりはない。今から{nl}　その拘束具を取るが、静かにしてくれると助かる」",
   "off": 2374,
   "len": 86,
   "en": "Vales: ...Sorry for handling you so roughly. I have no intention of harming you. I'm going to remove those restraints now, and I'd appreciate it if you stayed quiet.",
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce014:009C9",
-  "jp": "<E1>ェル「俺達は＜孤高の銀翼＞って言う{nl}　しがない食い詰め傭兵団さ」",
+  "jp": "ヴェル「俺達は＜孤高の銀翼＞って言う{nl}　しがない食い詰め傭兵団さ」",
   "off": 2505,
   "len": 50,
   "en": "Vel: We're a lowly, starving mercenary band called the Solitary Silver Wings.",
@@ -518,7 +518,7 @@
  },
  {
   "id": "sce014:00A1E",
-  "jp": "<E1>ェル「おいおい、本気にとるなよ。{nl}　冗談に決まってんだろ？　お前、堅すぎるぞ」",
+  "jp": "ヴェル「おいおい、本気にとるなよ。{nl}　冗談に決まってんだろ？　お前、堅すぎるぞ」",
   "off": 2590,
   "len": 51,
   "en": "Vel: Hey, hey, don't take it seriously. Obviously it's a joke, right? You're way too stiff, man.",
@@ -540,7 +540,7 @@
  },
  {
   "id": "sce014:00A70",
-  "jp": "<E1>ェル「へいへい、悪ぅございましたね」",
+  "jp": "ヴェル「へいへい、悪ぅございましたね」",
   "off": 2672,
   "len": 23,
   "en": "Vel: Yeah, yeah, so sorry.",
@@ -595,7 +595,7 @@
  },
  {
   "id": "sce014:00AF6",
-  "jp": "<E1>ァレス「しばらくは空の旅を楽しんでもらうことになる。{nl}　お前が協力してくれるかぎりは危害を加えないと{nl}　約束する」",
+  "jp": "ヴァレス「しばらくは空の旅を楽しんでもらうことになる。{nl}　お前が協力してくれるかぎりは危害を加えないと{nl}　約束する」",
   "off": 2806,
   "len": 72,
   "en": "Vales: You'll be enjoying a trip through the skies for a while. As long as you cooperate, I promise you won't be harmed.",
@@ -617,7 +617,7 @@
  },
  {
   "id": "sce014:00B58",
-  "jp": "<E1>ァレス「結構」",
+  "jp": "ヴァレス「結構」",
   "off": 2904,
   "len": 13,
   "en": "Vales: Good.",
@@ -628,7 +628,7 @@
  },
  {
   "id": "sce014:00B68",
-  "jp": "<E1>ェル「隊長、世話係は俺に任せてください」",
+  "jp": "ヴェル「隊長、世話係は俺に任せてください」",
   "off": 2920,
   "len": 31,
   "en": "Vel: Captain, leave looking after her to me.",
@@ -650,7 +650,7 @@
  },
  {
   "id": "sce014:00B9B",
-  "jp": "<E1>ァレス「ジョノ、お前に任せる」",
+  "jp": "ヴァレス「ジョノ、お前に任せる」",
   "off": 2971,
   "len": 21,
   "en": "Vales: Jono, I'm leaving her to you.",
@@ -661,7 +661,7 @@
  },
  {
   "id": "sce014:00BB3",
-  "jp": "<E1>ェル「なんでですか！」",
+  "jp": "ヴェル「なんでですか！」",
   "off": 2995,
   "len": 16,
   "en": "Vel: How come!?",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce014:00BDD",
-  "jp": "<E1>ァレス「<E1>ェル、お前は操縦席にいろ」",
+  "jp": "ヴァレス「ヴェル、お前は操縦席にいろ」",
   "off": 3037,
   "len": 26,
   "en": "Vales: Vel, you stay in the cockpit.",
@@ -694,7 +694,7 @@
  },
  {
   "id": "sce014:00BFA",
-  "jp": "<E1>ェル「へいへい‥‥」",
+  "jp": "ヴェル「へいへい‥‥」",
   "off": 3066,
   "len": 16,
   "en": "Vel: Yeah, yeah...",
@@ -1079,7 +1079,7 @@
  },
  {
   "id": "sce014:01159",
-  "jp": "<E1>ァレス「さっきの悲鳴はなんだ？」",
+  "jp": "ヴァレス「さっきの悲鳴はなんだ？」",
   "off": 4441,
   "len": 23,
   "en": "Vales: What was that scream just now?",
@@ -1090,7 +1090,7 @@
  },
  {
   "id": "sce014:01173",
-  "jp": "<E1>ェル「お前も人の子だということか？{nl}　それで、どうだった？　ああいうタイプは{nl}　最初が難しいだけ‥‥」",
+  "jp": "ヴェル「お前も人の子だということか？{nl}　それで、どうだった？　ああいうタイプは{nl}　最初が難しいだけ‥‥」",
   "off": 4467,
   "len": 65,
   "en": "Vel: So you're only human after all? So, how'd it go? Her type is only tough at the start...",
@@ -1101,7 +1101,7 @@
  },
  {
   "id": "sce014:011D5",
-  "jp": "<E1>ェル「うっ‥‥じ、冗談だろ‥‥ったくよ‥‥」",
+  "jp": "ヴェル「うっ‥‥じ、冗談だろ‥‥ったくよ‥‥」",
   "off": 4565,
   "len": 34,
   "en": "Vel: Ugh... J-just kidding... Geez...",
@@ -1123,7 +1123,7 @@
  },
  {
   "id": "sce014:0121C",
-  "jp": "<E1>ァレス「ちっ、ぬかったな‥‥」",
+  "jp": "ヴァレス「ちっ、ぬかったな‥‥」",
   "off": 4636,
   "len": 21,
   "en": "Vales: Tch, careless of us...",
@@ -1134,7 +1134,7 @@
  },
  {
   "id": "sce014:0123C",
-  "jp": "<E1>ェル「ちょっと見せてください。{nl}　‥‥これは‥‥純正品じゃねぇ。{nl}　おいおいマジかよ。多面波長形式だと？{nl}　これだけのブツを作れるやつはそうそういねぇぞ」",
+  "jp": "ヴェル「ちょっと見せてください。{nl}　‥‥これは‥‥純正品じゃねぇ。{nl}　おいおいマジかよ。多面波長形式だと？{nl}　これだけのブツを作れるやつはそうそういねぇぞ」",
   "off": 4668,
   "len": 97,
   "en": "Vel: Let me take a look. ...This... isn't a stock part. Hey, hey, you serious? Multi-aspect wavelength format? Not many people out there could build a piece like this.",
@@ -1145,7 +1145,7 @@
  },
  {
   "id": "sce014:012A0",
-  "jp": "<E1>ァレス「リーボーフェンの航行速度なら{nl}　すぐに追いつかれる。それにこちらのレーダーでは{nl}　捉えることもできん。‥‥<E1>ェル、できるか？」",
+  "jp": "ヴァレス「リーボーフェンの航行速度なら{nl}　すぐに追いつかれる。それにこちらのレーダーでは{nl}　捉えることもできん。‥‥ヴェル、できるか？」",
   "off": 4768,
   "len": 84,
   "en": "Vales: At the Liebhofen's cruising speed, they'll catch up with us in no time. And our radar can't even pick them up. ...Vel, can you handle it?",
@@ -1156,7 +1156,7 @@
  },
  {
   "id": "sce014:012F7",
-  "jp": "<E1>ェル「当然。こいつを作った奴は相当の自信家だ。{nl}　そいつを逆手にとってやりますよ‥‥」",
+  "jp": "ヴェル「当然。こいつを作った奴は相当の自信家だ。{nl}　そいつを逆手にとってやりますよ‥‥」",
   "off": 4855,
   "len": 60,
   "en": "Vel: Of course. Whoever made this is pretty full of themselves. I'll turn that against them...",
@@ -1475,7 +1475,7 @@
  },
  {
   "id": "sce014:017DA",
-  "jp": "トウヤ「だがこっちから攻撃を仕掛けたら女王の遺志にも{nl}　ローディスやイ<E1>ェルばーさんの信頼にも背くことになる。{nl}　バレン、このまま突っきれるか？」",
+  "jp": "トウヤ「だがこっちから攻撃を仕掛けたら女王の遺志にも{nl}　ローディスやイヴェルばーさんの信頼にも背くことになる。{nl}　バレン、このまま突っきれるか？」",
   "off": 6106,
   "len": 91,
   "en": "Touya: But if we attack first, we betray the Queen's last wishes, and the trust Lodis and old Ivel-baa-san put in us. Baren, can we punch straight through?",

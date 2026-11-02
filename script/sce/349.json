@@ -45,7 +45,7 @@
  },
  {
   "id": "sce349:000A8",
-  "jp": "ミヤスコ「あっ、<E1>ォーリアの崩壊が始まりました！」",
+  "jp": "ミヤスコ「あっ、ヴォーリアの崩壊が始まりました！」",
   "off": 168,
   "len": 33,
   "en": "Miyasco: Ah, Vorlia has started to collapse!",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce349:0067B",
-  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍で<E1>ォーリアは滅びたわ」",
+  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍でヴォーリアは滅びたわ」",
   "off": 1659,
   "len": 50,
   "en": "Wenimas: No. All of it was real. And thanks to you, Vorlia has been destroyed.",
@@ -1871,7 +1871,7 @@
  },
  {
   "id": "sce349:01EBE",
-  "jp": "イ<E1>ェル「‥‥教えてもらってはどうです？」",
+  "jp": "イヴェル「‥‥教えてもらってはどうです？」",
   "off": 7870,
   "len": 28,
   "en": "Ivel: ...Why not let her teach you?",
@@ -1882,7 +1882,7 @@
  },
  {
   "id": "sce349:01EDD",
-  "jp": "エミィ「イ、イ<E1>ェル様！」",
+  "jp": "エミィ「イ、イヴェル様！」",
   "off": 7901,
   "len": 18,
   "en": "Emy: I-Ivel-sama!",
@@ -1904,7 +1904,7 @@
  },
  {
   "id": "sce349:01F0A",
-  "jp": "イ<E1>ェル「その為に毎日遅くまで図書院で{nl}　騎士教本などを読んでいるのですから。{nl}　ね、エミィ？」",
+  "jp": "イヴェル「その為に毎日遅くまで図書院で{nl}　騎士教本などを読んでいるのですから。{nl}　ね、エミィ？」",
   "off": 7946,
   "len": 64,
   "en": "Ivel: After all, that's why she's been reading knight manuals in the library until late every day. Isn't that right, Emy?",
@@ -1948,7 +1948,7 @@
  },
  {
   "id": "sce349:01F86",
-  "jp": "イ<E1>ェル「あっ、そうそう。セリカ様ならもうとっくに{nl}　タワーへ向かいましたよ」",
+  "jp": "イヴェル「あっ、そうそう。セリカ様ならもうとっくに{nl}　タワーへ向かいましたよ」",
   "off": 8070,
   "len": 45,
   "en": "Ivel: Oh, yes. If you're looking for Celica-sama, she left for the Tower long ago.",
@@ -2003,7 +2003,7 @@
  },
  {
   "id": "sce349:02077",
-  "jp": "イ<E1>ェル「ええ。再びこの地へやってきた‥‥{nl}　いえ、帰ってきたのです」",
+  "jp": "イヴェル「ええ。再びこの地へやってきた‥‥{nl}　いえ、帰ってきたのです」",
   "off": 8311,
   "len": 43,
   "en": "Ivel: Yes. He has come to this land once more... No, he has come home.",
@@ -2025,7 +2025,7 @@
  },
  {
   "id": "sce349:020B9",
-  "jp": "イ<E1>ェル「フェインも階位が上がり部下を持つ身と{nl}　なるのに相変わらずですね」",
+  "jp": "イヴェル「フェインも階位が上がり部下を持つ身と{nl}　なるのに相変わらずですね」",
   "off": 8377,
   "len": 50,
   "en": "Ivel: Fain has risen in rank and is about to have men under him, yet he's the same as ever.",
@@ -2047,7 +2047,7 @@
  },
  {
   "id": "sce349:0210E",
-  "jp": "イ<E1>ェル「もしかして余計なお世話でしたか？」",
+  "jp": "イヴェル「もしかして余計なお世話でしたか？」",
   "off": 8462,
   "len": 30,
   "en": "Ivel: Was I perhaps sticking my nose where it doesn't belong?",
@@ -2069,7 +2069,7 @@
  },
  {
   "id": "sce349:02140",
-  "jp": "イ<E1>ェル「エミィ。そんなに焦る必要はありませんよ。{nl}　人を好きになるというのは走り続けるだけではダメです。{nl}　ときどき振り返って、相手を見ないとね」",
+  "jp": "イヴェル「エミィ。そんなに焦る必要はありませんよ。{nl}　人を好きになるというのは走り続けるだけではダメです。{nl}　ときどき振り返って、相手を見ないとね」",
   "off": 8512,
   "len": 89,
   "en": "Ivel: Emy, there's no need to rush. Loving someone isn't only about running ahead. You have to look back now and then and see the other person.",
@@ -2091,7 +2091,7 @@
  },
  {
   "id": "sce349:021B6",
-  "jp": "イ<E1>ェル「そうですよ。だから素敵なものなのです」",
+  "jp": "イヴェル「そうですよ。だから素敵なものなのです」",
   "off": 8630,
   "len": 29,
   "en": "Ivel: It is. That's what makes it wonderful.",

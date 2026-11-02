@@ -1,7 +1,7 @@
 [
  {
   "id": "sce342:00040",
-  "jp": "ユミール「イ<E1>ェル様‥‥それでは行ってまいります」",
+  "jp": "ユミール「イヴェル様‥‥それでは行ってまいります」",
   "off": 64,
   "len": 33,
   "en": "Ymir: Ivel-sama... I'll be going, then.",
@@ -12,7 +12,7 @@
  },
  {
   "id": "sce342:00064",
-  "jp": "イ<E1>ェル「ああ、行っといで。{nl}　‥‥それから‥‥自分の信じた道を進みなさい」",
+  "jp": "イヴェル「ああ、行っといで。{nl}　‥‥それから‥‥自分の信じた道を進みなさい」",
   "off": 100,
   "len": 51,
   "en": "Ivel: Yes, off you go. ...And... follow the path you believe in.",
@@ -34,7 +34,7 @@
  },
  {
   "id": "sce342:000AD",
-  "jp": "イ<E1>ェル「‥‥では、<E1>ァルガさん、リシュナさん。{nl}　よろしくお願いします」",
+  "jp": "イヴェル「‥‥では、ヴァルガさん、リシュナさん。{nl}　よろしくお願いします」",
   "off": 173,
   "len": 43,
   "en": "Ivel: ...Now then, Valga-san, Rishuna-san. I'm counting on you.",
@@ -56,7 +56,7 @@
  },
  {
   "id": "sce342:00100",
-  "jp": "<E1>ァルガ「もっともワシらの出番がないことを祈るがな。{nl}　無理は老骨にこたえる」",
+  "jp": "ヴァルガ「もっともワシらの出番がないことを祈るがな。{nl}　無理は老骨にこたえる」",
   "off": 256,
   "len": 49,
   "en": "Valga: Though I pray there'll be no call for us, eh. Overdoing it is hard on old bones.",
@@ -67,7 +67,7 @@
  },
  {
   "id": "sce342:00134",
-  "jp": "リシュナ「<E1>ァルガ⁈」",
+  "jp": "リシュナ「ヴァルガ⁈」",
   "off": 308,
   "len": 15,
   "en": "Rishuna: Valga!?",
@@ -89,7 +89,7 @@
  },
  {
   "id": "sce342:0017C",
-  "jp": "<E1>ァルガ「うむ。その心意気じゃ。{nl}　たとえ一握りの勝率でもはじめから諦めておったら、{nl}　その手にはなにも残らん」",
+  "jp": "ヴァルガ「うむ。その心意気じゃ。{nl}　たとえ一握りの勝率でもはじめから諦めておったら、{nl}　その手にはなにも残らん」",
   "off": 380,
   "len": 69,
   "en": "Valga: Mm. That's the spirit. Even if your odds are but a handful, give up from the start and nothing will be left in your hands, my boy.",
@@ -111,7 +111,7 @@
  },
  {
   "id": "sce342:001EB",
-  "jp": "<E1>ァルガ「ほっほっほっほっ、喩えじゃよ、喩え」",
+  "jp": "ヴァルガ「ほっほっほっほっ、喩えじゃよ、喩え」",
   "off": 491,
   "len": 28,
   "en": "Valga: Hohohoho, it's a figure of speech, a figure of speech.",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce342:004CA",
-  "jp": "<E1>ァルガ「ワシらも協力させてもらったぞい」",
+  "jp": "ヴァルガ「ワシらも協力させてもらったぞい」",
   "off": 1226,
   "len": 26,
   "en": "Valga: We lent a hand too, y'know.",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce342:00533",
-  "jp": "<E1>ァルガ「ワシはしっかり寝させてもらったぞ」",
+  "jp": "ヴァルガ「ワシはしっかり寝させてもらったぞ」",
   "off": 1331,
   "len": 26,
   "en": "Valga: I got a good night's sleep myself, heh.",
@@ -331,7 +331,7 @@
  },
  {
   "id": "sce342:00550",
-  "jp": "リシュナ「<E1>ァルガ、いちいち自己主張しなくても{nl}　いいでしょ‥‥」",
+  "jp": "リシュナ「ヴァルガ、いちいち自己主張しなくても{nl}　いいでしょ‥‥」",
   "off": 1360,
   "len": 42,
   "en": "Rishuna: Valga, you don't have to assert yourself every single time...",
@@ -342,7 +342,7 @@
  },
  {
   "id": "sce342:0057D",
-  "jp": "<E1>ァルガ「これでも遠慮しとるつもりじゃが‥‥」",
+  "jp": "ヴァルガ「これでも遠慮しとるつもりじゃが‥‥」",
   "off": 1405,
   "len": 30,
   "en": "Valga: And here I thought I was holding back...",

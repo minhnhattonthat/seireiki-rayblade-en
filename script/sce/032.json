@@ -166,7 +166,7 @@
  },
  {
   "id": "sce032:00704",
-  "jp": "<E1>ェル「なあ、隊長‥‥本当に戦うんですか？」",
+  "jp": "ヴェル「なあ、隊長‥‥本当に戦うんですか？」",
   "off": 1796,
   "len": 35,
   "en": "Vel: Hey, Captain... are we really gonna fight?",
@@ -177,7 +177,7 @@
  },
  {
   "id": "sce032:00727",
-  "jp": "<E1>ァレス「‥‥契約だからな」",
+  "jp": "ヴァレス「‥‥契約だからな」",
   "off": 1831,
   "len": 23,
   "en": "Vales: ...It's a contract.",
@@ -199,7 +199,7 @@
  },
  {
   "id": "sce032:00751",
-  "jp": "<E1>ァレス「非情な傭兵団。{nl}　金さえ積まれればどこにでもつく最低の存在‥‥{nl}　なんといわれてもよかった。{nl}　だが、私は守るべき者から逃げ、そして今、{nl}　また逃げようとしている‥‥」",
+  "jp": "ヴァレス「非情な傭兵団。{nl}　金さえ積まれればどこにでもつく最低の存在‥‥{nl}　なんといわれてもよかった。{nl}　だが、私は守るべき者から逃げ、そして今、{nl}　また逃げようとしている‥‥」",
   "off": 1873,
   "len": 115,
   "en": "Vales: A heartless mercenary band. The lowest of the low, siding with anyone as long as the money's right... I didn't care what they called us. But I ran away from those I should have protected, and now I'm about to run away again...",
@@ -210,7 +210,7 @@
  },
  {
   "id": "sce032:007C4",
-  "jp": "<E1>ェル「‥‥娘さんたちのことですか‥‥{nl}　でもまだ死んだと決まったワケではないですぜ」",
+  "jp": "ヴェル「‥‥娘さんたちのことですか‥‥{nl}　でもまだ死んだと決まったワケではないですぜ」",
   "off": 1988,
   "len": 55,
   "en": "Vel: ...You mean your daughters... But it's not certain they're dead yet, y'know.",
@@ -232,7 +232,7 @@
  },
  {
   "id": "sce032:00829",
-  "jp": "<E1>ァレス「いいんだ。たとえ生きていたとしても{nl}　あの子たちにとって私はすでに父親ではない」",
+  "jp": "ヴァレス「いいんだ。たとえ生きていたとしても{nl}　あの子たちにとって私はすでに父親ではない」",
   "off": 2089,
   "len": 55,
   "en": "Vales: It doesn't matter. Even if they're alive, to those children I'm no longer their father.",
@@ -254,7 +254,7 @@
  },
  {
   "id": "sce032:00872",
-  "jp": "<E1>ェル「‥‥それは違いますぜ」",
+  "jp": "ヴェル「‥‥それは違いますぜ」",
   "off": 2162,
   "len": 23,
   "en": "Vel: ...That's not true, y'know.",
@@ -265,7 +265,7 @@
  },
  {
   "id": "sce032:00889",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 2185,
   "len": 15,
   "en": "Vales: ...",
@@ -276,7 +276,7 @@
  },
  {
   "id": "sce032:00898",
-  "jp": "<E1>ェル「親にとって子供はいつまでも子供であるように、{nl}　子供にとって親はいつまでたっても親なんです。{nl}　親がその義務を放棄するから子供は迷うんです。{nl}　隊長のおっしゃっているのは単なる逃げ口上です。{nl}　自分から親であることをやめてどうすんですか！」",
+  "jp": "ヴェル「親にとって子供はいつまでも子供であるように、{nl}　子供にとって親はいつまでたっても親なんです。{nl}　親がその義務を放棄するから子供は迷うんです。{nl}　隊長のおっしゃっているのは単なる逃げ口上です。{nl}　自分から親であることをやめてどうすんですか！」",
   "off": 2200,
   "len": 156,
   "en": "Vel: Just like a kid is always a kid to their parents, a parent is always a parent to their kid. Kids lose their way because parents give up on their duty. What you're saying is just an excuse to run away, Captain. What good does it do to quit being a parent on your own!?",
@@ -298,7 +298,7 @@
  },
  {
   "id": "sce032:00944",
-  "jp": "<E1>ァレス「いや、<E1>ェルのいうとおりだ‥‥{nl}　私は逃げていたのかも知れないな。{nl}　だが、もう遅い。なにもかも、な」",
+  "jp": "ヴァレス「いや、ヴェルのいうとおりだ‥‥{nl}　私は逃げていたのかも知れないな。{nl}　だが、もう遅い。なにもかも、な」",
   "off": 2372,
   "len": 67,
   "en": "Vales: No, Vel is right... Perhaps I was running away. But it's too late now. For everything.",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce032:00987",
-  "jp": "<E1>ェル「隊長‥‥」",
+  "jp": "ヴェル「隊長‥‥」",
   "off": 2439,
   "len": 18,
   "en": "Vel: Captain...",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce032:00999",
-  "jp": "<E1>ァレス「今回の契約は＜孤高の銀翼＞ではなく、{nl}　私個人との契約だ。{nl}　お前達が私に付き合う必要はない」",
+  "jp": "ヴァレス「今回の契約は＜孤高の銀翼＞ではなく、{nl}　私個人との契約だ。{nl}　お前達が私に付き合う必要はない」",
   "off": 2457,
   "len": 79,
   "en": "Vales: This contract isn't with the Solitary Silver Wings, it's with me personally. You two don't need to come along with me.",
@@ -342,7 +342,7 @@
  },
  {
   "id": "sce032:00A18",
-  "jp": "<E1>ェル「‥‥おいしいところを独り占めするなんて{nl}　ずるいですぜ。隊長の最後の舞台#944、{nl}　見逃す手はありませんよ」",
+  "jp": "ヴェル「‥‥おいしいところを独り占めするなんて{nl}　ずるいですぜ。隊長の最後の舞台#944、{nl}　見逃す手はありませんよ」",
   "off": 2584,
   "len": 73,
   "en": "Vel: ...Hogging all the glory for yourself is a dirty trick, y'know. No way we're missing your final performance, Captain.",
@@ -353,7 +353,7 @@
  },
  {
   "id": "sce032:00A61",
-  "jp": "<E1>ァレス「ふっ‥‥見物料は高いぞ」",
+  "jp": "ヴァレス「ふっ‥‥見物料は高いぞ」",
   "off": 2657,
   "len": 28,
   "en": "Vales: Heh... The admission fee is steep.",
@@ -364,7 +364,7 @@
  },
  {
   "id": "sce032:00A7D",
-  "jp": "<E1>ェル「へっ」",
+  "jp": "ヴェル「へっ」",
   "off": 2685,
   "len": 12,
   "en": "Vel: Heh.",
@@ -386,7 +386,7 @@
  },
  {
   "id": "sce032:00A9F",
-  "jp": "<E1>ァレス「‥‥よし、行くぞ！」",
+  "jp": "ヴァレス「‥‥よし、行くぞ！」",
   "off": 2719,
   "len": 24,
   "en": "Vales: ...All right, let's go!",
@@ -463,7 +463,7 @@
  },
  {
   "id": "sce032:00C51",
-  "jp": "<E1>ァルガ「こっちも完了じゃ！　リシュナ！」",
+  "jp": "ヴァルガ「こっちも完了じゃ！　リシュナ！」",
   "off": 3153,
   "len": 30,
   "en": "Valga: This side's done too! Rishuna!",
@@ -1409,7 +1409,7 @@
  },
  {
   "id": "sce032:01DE6",
-  "jp": "<E1>ァレス「‥‥官邸に突入された‥‥{nl}　そろそろ潮時か‥‥よし、撤退する！」",
+  "jp": "ヴァレス「‥‥官邸に突入された‥‥{nl}　そろそろ潮時か‥‥よし、撤退する！」",
   "off": 7654,
   "len": 57,
   "en": "Vales: ...They've stormed the residence... Time to call it, then... Right, we withdraw!",
@@ -1882,7 +1882,7 @@
  },
  {
   "id": "sce032:02720",
-  "jp": "<E1>ァレス「‥‥官邸に突入された‥‥{nl}　そろそろ潮時か‥‥よし、撤退する！」",
+  "jp": "ヴァレス「‥‥官邸に突入された‥‥{nl}　そろそろ潮時か‥‥よし、撤退する！」",
   "off": 10016,
   "len": 57,
   "en": "Vales: ...They've stormed the residence... Time to call it, then... Right, we withdraw!",
@@ -2058,7 +2058,7 @@
  },
  {
   "id": "sce032:02B09",
-  "jp": "<E1>ァレス「貴様に恨みはないが、オレの最後を飾るためだ。{nl}　一緒に散ってもらう‥‥」",
+  "jp": "ヴァレス「貴様に恨みはないが、オレの最後を飾るためだ。{nl}　一緒に散ってもらう‥‥」",
   "off": 11017,
   "len": 57,
   "en": "Vales: I've no grudge against you, but you'll adorn my final moments. You're going down with me...",
@@ -2080,7 +2080,7 @@
  },
  {
   "id": "sce032:02B76",
-  "jp": "<E1>ァレス「戦いの中で考えごととは‥‥ふん！」",
+  "jp": "ヴァレス「戦いの中で考えごととは‥‥ふん！」",
   "off": 11126,
   "len": 33,
   "en": "Vales: Lost in thought in the middle of a fight... Hmph!",
@@ -2135,7 +2135,7 @@
  },
  {
   "id": "sce032:02C43",
-  "jp": "<E1>ァレス「⁈」",
+  "jp": "ヴァレス「⁈」",
   "off": 11331,
   "len": 13,
   "en": "Vales: !?",
@@ -2157,7 +2157,7 @@
  },
  {
   "id": "sce032:02C71",
-  "jp": "<E1>ァレス「うぬっ！」",
+  "jp": "ヴァレス「うぬっ！」",
   "off": 11377,
   "len": 16,
   "en": "Vales: Ngh!",
@@ -2190,7 +2190,7 @@
  },
  {
   "id": "sce032:02D08",
-  "jp": "<E1>ァレス「‥‥子供‥‥やはり‥‥{nl}　おい、小僧、名を聞いておこう」",
+  "jp": "ヴァレス「‥‥子供‥‥やはり‥‥{nl}　おい、小僧、名を聞いておこう」",
   "off": 11528,
   "len": 50,
   "en": "Vales: ...A child... So it is... Hey, boy. Tell me your name.",
@@ -2212,7 +2212,7 @@
  },
  {
   "id": "sce032:02DAB",
-  "jp": "<E1>ァレス「メルセーヌ‥‥やはりそうか‥‥ふふふふふ‥‥{nl}　ゲンズバレッド‥‥」",
+  "jp": "ヴァレス「メルセーヌ‥‥やはりそうか‥‥ふふふふふ‥‥{nl}　ゲンズバレッド‥‥」",
   "off": 11691,
   "len": 53,
   "en": "Vales: Mercene... So it's true... Hehehehe... Genzbariored...",
@@ -2234,7 +2234,7 @@
  },
  {
   "id": "sce032:02DF5",
-  "jp": "<E1>ァレス「なんでもない。さぁ、ゲン、お前の実力、{nl}　私に見せてみろ！」",
+  "jp": "ヴァレス「なんでもない。さぁ、ゲン、お前の実力、{nl}　私に見せてみろ！」",
   "off": 11765,
   "len": 46,
   "en": "Vales: Nothing. Now, Gen, show me what you're made of!",
@@ -2267,7 +2267,7 @@
  },
  {
   "id": "sce032:02E8C",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 11916,
   "len": 15,
   "en": "Vales: ...",
@@ -2289,7 +2289,7 @@
  },
  {
   "id": "sce032:02ECD",
-  "jp": "<E1>ァレス「今は戦闘中だ。{nl}　戦いの最中に余計なことを考えるな！{nl}　目の前のことに集中しろ！　また、背中に‥‥」",
+  "jp": "ヴァレス「今は戦闘中だ。{nl}　戦いの最中に余計なことを考えるな！{nl}　目の前のことに集中しろ！　また、背中に‥‥」",
   "off": 11981,
   "len": 80,
   "en": "Vales: We're in battle. Don't think about anything else in the middle of a fight! Focus on what's in front of you! Or your back will get another...",
@@ -2311,7 +2311,7 @@
  },
  {
   "id": "sce032:02F55",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 12117,
   "len": 15,
   "en": "Vales: ...",
@@ -2333,7 +2333,7 @@
  },
  {
   "id": "sce032:02F94",
-  "jp": "<E1>ァレス「お前の父は‥‥{nl}　ガイザルディングテリウス・ジン・メルセーヌは死んだ」",
+  "jp": "ヴァレス「お前の父は‥‥{nl}　ガイザルディングテリウス・ジン・メルセーヌは死んだ」",
   "off": 12180,
   "len": 51,
   "en": "Vales: Your father... Gaizardingterius Jin Mercene is dead.",
@@ -2366,7 +2366,7 @@
  },
  {
   "id": "sce032:03021",
-  "jp": "<E1>ァレス「‼　ま、まて！」",
+  "jp": "ヴァレス「‼　ま、まて！」",
   "off": 12321,
   "len": 20,
   "en": "Vales: !! W-wait!",
@@ -2388,7 +2388,7 @@
  },
  {
   "id": "sce032:03061",
-  "jp": "<E1>ァレス「個人通信をしていたはずだが‥‥{nl}　その機体、そこまでの機能があるのか‥‥」",
+  "jp": "ヴァレス「個人通信をしていたはずだが‥‥{nl}　その機体、そこまでの機能があるのか‥‥」",
   "off": 12385,
   "len": 59,
   "en": "Vales: That was meant to be a private channel... So that machine can do even that...",
@@ -2410,7 +2410,7 @@
  },
  {
   "id": "sce032:030E1",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 12513,
   "len": 15,
   "en": "Vales: ...",
@@ -2432,7 +2432,7 @@
  },
  {
   "id": "sce032:0313D",
-  "jp": "<E1>ァレス「‥‥貴様‥‥」",
+  "jp": "ヴァレス「‥‥貴様‥‥」",
   "off": 12605,
   "len": 23,
   "en": "Vales: ...You...",
@@ -2465,7 +2465,7 @@
  },
  {
   "id": "sce032:031E5",
-  "jp": "<E1>ァレス「‥‥貴様‥‥」",
+  "jp": "ヴァレス「‥‥貴様‥‥」",
   "off": 12773,
   "len": 23,
   "en": "Vales: ...You...",
@@ -2487,7 +2487,7 @@
  },
  {
   "id": "sce032:0324E",
-  "jp": "<E1>ァレス「くっ‥‥」",
+  "jp": "ヴァレス「くっ‥‥」",
   "off": 12878,
   "len": 17,
   "en": "Vales: Ngh...",
@@ -2553,7 +2553,7 @@
  },
  {
   "id": "sce032:0333A",
-  "jp": "<E1>ァレス「‥‥」",
+  "jp": "ヴァレス「‥‥」",
   "off": 13114,
   "len": 15,
   "en": "Vales: ...",
@@ -2586,7 +2586,7 @@
  },
  {
   "id": "sce032:0336D",
-  "jp": "<E1>ァレス「ゲン‥‥」",
+  "jp": "ヴァレス「ゲン‥‥」",
   "off": 13165,
   "len": 17,
   "en": "Vales: Gen...",
@@ -2597,7 +2597,7 @@
  },
  {
   "id": "sce032:033B0",
-  "jp": "<E1>ァレス「ぐあっ！」",
+  "jp": "ヴァレス「ぐあっ！」",
   "off": 13232,
   "len": 16,
   "en": "Vales: Gwah!",
@@ -2619,7 +2619,7 @@
  },
  {
   "id": "sce032:033EF",
-  "jp": "<E1>ァレス「‥‥もう、私のせいで大切な者を傷つけさせる{nl}　ことはできん‥‥」",
+  "jp": "ヴァレス「‥‥もう、私のせいで大切な者を傷つけさせる{nl}　ことはできん‥‥」",
   "off": 13295,
   "len": 51,
   "en": "Vales: ...I can't let those dear to me be hurt because of me ever again...",
@@ -2641,7 +2641,7 @@
  },
  {
   "id": "sce032:03438",
-  "jp": "<E1>ァレス「‥‥すまなかった‥‥」",
+  "jp": "ヴァレス「‥‥すまなかった‥‥」",
   "off": 13368,
   "len": 25,
   "en": "Vales: ...I'm sorry...",
@@ -2663,7 +2663,7 @@
  },
  {
   "id": "sce032:03461",
-  "jp": "<E1>ァレス「‥‥大きくなったな‥‥ゲン‥‥‥‥」",
+  "jp": "ヴァレス「‥‥大きくなったな‥‥ゲン‥‥‥‥」",
   "off": 13409,
   "len": 37,
   "en": "Vales: ...You've grown... Gen........",

@@ -188,7 +188,7 @@
  },
  {
   "id": "sce036:00524",
-  "jp": "メル<E1>ィ「ゲンちゃん‥‥そろそろ‥‥」",
+  "jp": "メルヴィ「ゲンちゃん‥‥そろそろ‥‥」",
   "off": 1316,
   "len": 26,
   "en": "Melvi: Gen-chan... it's about time...",
@@ -386,7 +386,7 @@
  },
  {
   "id": "sce036:00796",
-  "jp": "<E1>ァレス「‥‥ゲン‥‥か‥‥」",
+  "jp": "ヴァレス「‥‥ゲン‥‥か‥‥」",
   "off": 1942,
   "len": 24,
   "en": "Vales: ...Gen... is it...",
@@ -408,7 +408,7 @@
  },
  {
   "id": "sce036:007CA",
-  "jp": "<E1>ァレス「こんな私をまだ父と呼んでくれるのか‥‥」",
+  "jp": "ヴァレス「こんな私をまだ父と呼んでくれるのか‥‥」",
   "off": 1994,
   "len": 33,
   "en": "Vales: You still call someone like me your father...",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce036:00817",
-  "jp": "<E1>ァレス「だが、ロザリーは許してくれないようだな」",
+  "jp": "ヴァレス「だが、ロザリーは許してくれないようだな」",
   "off": 2071,
   "len": 30,
   "en": "Vales: But it seems Rosalie won't forgive me.",
@@ -452,7 +452,7 @@
  },
  {
   "id": "sce036:00864",
-  "jp": "<E1>ァレス「ふふふ‥‥だといいな‥‥」",
+  "jp": "ヴァレス「ふふふ‥‥だといいな‥‥」",
   "off": 2148,
   "len": 25,
   "en": "Vales: Heh heh... I hope so...",
@@ -474,7 +474,7 @@
  },
  {
   "id": "sce036:008AC",
-  "jp": "<E1>ァレス「ふっ‥‥この程度‥‥{nl}　傷の内には入らん‥‥くっ」",
+  "jp": "ヴァレス「ふっ‥‥この程度‥‥{nl}　傷の内には入らん‥‥くっ」",
   "off": 2220,
   "len": 44,
   "en": "Vales: Hmph... This much... hardly counts as a wound... Ngh.",
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce036:0090A",
-  "jp": "<E1>ァレス「こいつ‥‥ん？」",
+  "jp": "ヴァレス「こいつ‥‥ん？」",
   "off": 2314,
   "len": 19,
   "en": "Vales: Why, you... Hm?",
@@ -507,7 +507,7 @@
  },
  {
   "id": "sce036:00939",
-  "jp": "メル<E1>ィ「こ、こんにちは‥‥」",
+  "jp": "メルヴィ「こ、こんにちは‥‥」",
   "off": 2361,
   "len": 20,
   "en": "Melvi: H-hello...",
@@ -518,7 +518,7 @@
  },
  {
   "id": "sce036:00950",
-  "jp": "<E1>ァレス「おい、ゲン。こちらのお嬢さんは？」",
+  "jp": "ヴァレス「おい、ゲン。こちらのお嬢さんは？」",
   "off": 2384,
   "len": 27,
   "en": "Vales: Hey, Gen. Who's this young lady?",
@@ -529,7 +529,7 @@
  },
  {
   "id": "sce036:0096E",
-  "jp": "メル<E1>ィ「は、はじめまして‥‥メル<E1>ィ・クラシオです」",
+  "jp": "メルヴィ「は、はじめまして‥‥メルヴィ・クラシオです」",
   "off": 2414,
   "len": 32,
   "en": "Melvi: N-nice to meet you... I'm Melvi Clasio.",
@@ -540,7 +540,7 @@
  },
  {
   "id": "sce036:00991",
-  "jp": "<E1>ァレス「まだ子供だと思っていたが、こんな可愛い{nl}　彼女を作っていたとは‥‥なかなかやるな」",
+  "jp": "ヴァレス「まだ子供だと思っていたが、こんな可愛い{nl}　彼女を作っていたとは‥‥なかなかやるな」",
   "off": 2449,
   "len": 59,
   "en": "Vales: I thought you were still a kid, but you've gone and found yourself such a cute girlfriend... Not bad at all.",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce036:00A04",
-  "jp": "メル<E1>ィ「う、うん‥‥」",
+  "jp": "メルヴィ「う、うん‥‥」",
   "off": 2564,
   "len": 17,
   "en": "Melvi: U-uh-huh...",
@@ -573,7 +573,7 @@
  },
  {
   "id": "sce036:00A18",
-  "jp": "<E1>ァレス「そうか、これでメルセーヌの家も安泰だな。{nl}　メル<E1>ィさん、ゲンをよろしく頼むよ」",
+  "jp": "ヴァレス「そうか、これでメルセーヌの家も安泰だな。{nl}　メルヴィさん、ゲンをよろしく頼むよ」",
   "off": 2584,
   "len": 53,
   "en": "Vales: I see, so the Mercene line is secure. Melvi-san, please take good care of Gen.",
@@ -584,7 +584,7 @@
  },
  {
   "id": "sce036:00A72",
-  "jp": "メル<E1>ィ「え⁈　は、はい‥‥」",
+  "jp": "メルヴィ「え⁈　は、はい‥‥」",
   "off": 2674,
   "len": 21,
   "en": "Melvi: Huh!? Y-yes...",
@@ -595,7 +595,7 @@
  },
  {
   "id": "sce036:00A8A",
-  "jp": "ゲン「も、もぅ、父ちゃん‥‥え？　メ、メル<E1>ィ？」",
+  "jp": "ゲン「も、もぅ、父ちゃん‥‥え？　メ、メルヴィ？」",
   "off": 2698,
   "len": 33,
   "en": "Gen: G-geez, Dad... Huh? M-Melvi?",
@@ -606,7 +606,7 @@
  },
  {
   "id": "sce036:00AC7",
-  "jp": "メル<E1>ィ「‥‥」",
+  "jp": "メルヴィ「‥‥」",
   "off": 2759,
   "len": 13,
   "en": "Melvi: ...",
@@ -617,7 +617,7 @@
  },
  {
   "id": "sce036:00AD7",
-  "jp": "<E1>ァレス「はっはっはっ！　やったじゃないか！{nl}　でかしたぞ、ゲン！」",
+  "jp": "ヴァレス「はっはっはっ！　やったじゃないか！{nl}　でかしたぞ、ゲン！」",
   "off": 2775,
   "len": 40,
   "en": "Vales: Hahaha! Look at you go! Well done, Gen!",
@@ -639,7 +639,7 @@
  },
  {
   "id": "sce036:00B3D",
-  "jp": "<E1>ァレス「‥‥ゲン‥‥か‥‥」",
+  "jp": "ヴァレス「‥‥ゲン‥‥か‥‥」",
   "off": 2877,
   "len": 24,
   "en": "Vales: ...Gen... is it...",
@@ -661,7 +661,7 @@
  },
  {
   "id": "sce036:00B71",
-  "jp": "<E1>ァレス「こんな私をまだ父と呼んでくれるのか‥‥」",
+  "jp": "ヴァレス「こんな私をまだ父と呼んでくれるのか‥‥」",
   "off": 2929,
   "len": 33,
   "en": "Vales: You still call someone like me your father...",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce036:00BBE",
-  "jp": "<E1>ァレス「だが、ロザリーは許してくれないようだな」",
+  "jp": "ヴァレス「だが、ロザリーは許してくれないようだな」",
   "off": 3006,
   "len": 30,
   "en": "Vales: But it seems Rosalie won't forgive me.",
@@ -705,7 +705,7 @@
  },
  {
   "id": "sce036:00C0B",
-  "jp": "<E1>ァレス「ふふふ‥‥だといいな‥‥」",
+  "jp": "ヴァレス「ふふふ‥‥だといいな‥‥」",
   "off": 3083,
   "len": 25,
   "en": "Vales: Heh heh... I hope so...",
@@ -727,7 +727,7 @@
  },
  {
   "id": "sce036:00C53",
-  "jp": "<E1>ァレス「ふっ‥‥この程度‥‥{nl}　傷の内には入らん‥‥くっ」",
+  "jp": "ヴァレス「ふっ‥‥この程度‥‥{nl}　傷の内には入らん‥‥くっ」",
   "off": 3155,
   "len": 44,
   "en": "Vales: Hmph... This much... hardly counts as a wound... Ngh.",
@@ -749,7 +749,7 @@
  },
  {
   "id": "sce036:00CB1",
-  "jp": "<E1>ァレス「こいつ‥‥」",
+  "jp": "ヴァレス「こいつ‥‥」",
   "off": 3249,
   "len": 16,
   "en": "Vales: Why, you...",
@@ -771,7 +771,7 @@
  },
  {
   "id": "sce036:00CD2",
-  "jp": "<E1>ァレス「‥‥ゲン？」",
+  "jp": "ヴァレス「‥‥ゲン？」",
   "off": 3282,
   "len": 17,
   "en": "Vales: ...Gen?",
@@ -793,7 +793,7 @@
  },
  {
   "id": "sce036:00D2D",
-  "jp": "<E1>ァレス「あ、ああ‥‥すまなかったな、ゲン‥‥」",
+  "jp": "ヴァレス「あ、ああ‥‥すまなかったな、ゲン‥‥」",
   "off": 3373,
   "len": 31,
   "en": "Vales: Y-yes... I'm sorry, Gen...",
@@ -804,7 +804,7 @@
  },
  {
   "id": "sce036:00D74",
-  "jp": "ユミール「あの<E1>ァレスさんがロザリー達の{nl}　お父さんだったなんて‥‥」",
+  "jp": "ユミール「あのヴァレスさんがロザリー達の{nl}　お父さんだったなんて‥‥」",
   "off": 3444,
   "len": 44,
   "en": "Ymir: To think that Vales-san was Rosalie's and Gen's father...",
@@ -1079,7 +1079,7 @@
  },
  {
   "id": "sce036:01299",
-  "jp": "<E1>ァルガ「ほっほっほっほっ。{nl}　ここは“ぴちぴち”の“ぎゃる”が多くてええのぉ‥‥」",
+  "jp": "ヴァルガ「ほっほっほっほっ。{nl}　ここは“ぴちぴち”の“ぎゃる”が多くてええのぉ‥‥」",
   "off": 4761,
   "len": 52,
   "en": "Valga: Hohohohoho. So many \"fresh young gals\" around here, it's grand...",
@@ -1145,7 +1145,7 @@
  },
  {
   "id": "sce036:01363",
-  "jp": "<E1>ァルガ「ふむ。“こーこーせー”というのもええもんじゃ。{nl}　それになかなか発育がええ‥‥ほれ」",
+  "jp": "ヴァルガ「ふむ。“こーこーせー”というのもええもんじゃ。{nl}　それになかなか発育がええ‥‥ほれ」",
   "off": 4963,
   "len": 59,
   "en": "Valga: Hmm. These \"hi-skool girls\" aren't bad either, eh. And quite well developed... There.",
@@ -1167,7 +1167,7 @@
  },
  {
   "id": "sce036:013D4",
-  "jp": "<E1>ァルガ「よ、よい攻撃‥‥じゃ」",
+  "jp": "ヴァルガ「よ、よい攻撃‥‥じゃ」",
   "off": 5076,
   "len": 23,
   "en": "Valga: Wh-what an attack... eh.",
@@ -1387,7 +1387,7 @@
  },
  {
   "id": "sce036:016BD",
-  "jp": "リシュナ「私達の目的は<E1>ォーリアを倒すことです。{nl}　そしてレイフォンはその一点だけを見ているのです」",
+  "jp": "リシュナ「私達の目的はヴォーリアを倒すことです。{nl}　そしてレイフォンはその一点だけを見ているのです」",
   "off": 5821,
   "len": 62,
   "en": "Rishuna: Our goal is to defeat Vorlia. And Rayfon has his eyes on that one thing alone.",
@@ -1409,7 +1409,7 @@
  },
  {
   "id": "sce036:01719",
-  "jp": "リシュナ「レイフォンは＜ゼ＝オード＞を倒すことに{nl}　協力する気はない、という事です。できることなら{nl}　<E1>ォーリアが復活してほしいとさえ思っています」",
+  "jp": "リシュナ「レイフォンは＜ゼ＝オード＞を倒すことに{nl}　協力する気はない、という事です。できることなら{nl}　ヴォーリアが復活してほしいとさえ思っています」",
   "off": 5913,
   "len": 90,
   "en": "Rishuna: Meaning Rayfon has no intention of helping defeat Ze=Ode. If anything, he would even like to see Vorlia revived.",
@@ -1420,7 +1420,7 @@
  },
  {
   "id": "sce036:01776",
-  "jp": "トウヤ「‥‥＜ゼ＝オード＞を倒したとしても<E1>ォーリアが{nl}　存在するかぎり根本的な解決にならないからか？」",
+  "jp": "トウヤ「‥‥＜ゼ＝オード＞を倒したとしてもヴォーリアが{nl}　存在するかぎり根本的な解決にならないからか？」",
   "off": 6006,
   "len": 71,
   "en": "Touya: ...Because even if we beat Ze=Ode, nothing's really solved as long as Vorlia's still around?",
@@ -1431,7 +1431,7 @@
  },
  {
   "id": "sce036:017C0",
-  "jp": "リシュナ「ええ。<E1>ァルガは少し違う考えのようですが、{nl}　私達は指導者であるレイフォン、そしてグラウザーの{nl}　意志に従う義務があります。{nl}　彼が＜ゼ＝オード＞と戦う意志がない以上、{nl}　クールマリシンもシー<E1>ァリアスも出すことは{nl}　できないのです‥‥」",
+  "jp": "リシュナ「ええ。ヴァルガは少し違う考えのようですが、{nl}　私達は指導者であるレイフォン、そしてグラウザーの{nl}　意志に従う義務があります。{nl}　彼が＜ゼ＝オード＞と戦う意志がない以上、{nl}　クールマリシンもシーヴァリアスも出すことは{nl}　できないのです‥‥」",
   "off": 6080,
   "len": 156,
   "en": "Rishuna: Yes. Valga seems to think a little differently, but we are bound to follow the will of our leader, Rayfon, and of Grauzer. So long as he has no will to fight Ze=Ode, neither Coolmarishin nor Sivarius can be sent out...",
@@ -1530,7 +1530,7 @@
  },
  {
   "id": "sce036:01A70",
-  "jp": "トウヤ「だが、万が一、<E1>ォーリアが復活してしまったら、{nl}　その時は頼りにしてるぜ？」",
+  "jp": "トウヤ「だが、万が一、ヴォーリアが復活してしまったら、{nl}　その時は頼りにしてるぜ？」",
   "off": 6768,
   "len": 53,
   "en": "Touya: But if Vorlia ever does come back, I'm counting on you then, got it?",

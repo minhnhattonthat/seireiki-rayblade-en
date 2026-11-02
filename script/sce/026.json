@@ -12,7 +12,7 @@
  },
  {
   "id": "sce026:0008A",
-  "jp": "トウヤ「メル<E1>ィ！　誰もいねぇのか⁉」",
+  "jp": "トウヤ「メルヴィ！　誰もいねぇのか⁉」",
   "off": 138,
   "len": 25,
   "en": "Touya: Melvi! Isn't anybody here!?",
@@ -221,7 +221,7 @@
  },
  {
   "id": "sce026:0034C",
-  "jp": "ユミール「あ、これ？　イ<E1>ェル様からいただいたの。{nl}　いい香りでしょ？」",
+  "jp": "ユミール「あ、これ？　イヴェル様からいただいたの。{nl}　いい香りでしょ？」",
   "off": 844,
   "len": 44,
   "en": "Ymir: Oh, this? Ivel-sama gave it to me. Smells nice, doesn't it?",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce026:00461",
-  "jp": "ウェニマス「ええ。私は29年前にこの時間へ跳ばされ、{nl}　そこでイ<E1>ェルに出会ったの。{nl}　そして、ユミールを産んで、肉体を失った‥‥」",
+  "jp": "ウェニマス「ええ。私は29年前にこの時間へ跳ばされ、{nl}　そこでイヴェルに出会ったの。{nl}　そして、ユミールを産んで、肉体を失った‥‥」",
   "off": 1121,
   "len": 84,
   "en": "Wenimas: Yes. Twenty-nine years ago, I was flung into this time, and there I met Ivel. Then I gave birth to Ymir, and lost my body...",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce026:004F5",
-  "jp": "ウェニマス「心配しないで。あなたはまだ死んでないわ。{nl}　それにここは<E1>ォーリアの力の余波で生成された{nl}　“刻の狭間”なの」",
+  "jp": "ウェニマス「心配しないで。あなたはまだ死んでないわ。{nl}　それにここはヴォーリアの力の余波で生成された{nl}　“刻の狭間”なの」",
   "off": 1269,
   "len": 78,
   "en": "Wenimas: Don't worry. You're not dead yet. And this place is the \"Rift in Time,\" created by the aftershock of Vorlia's power.",
@@ -980,7 +980,7 @@
  },
  {
   "id": "sce026:01500",
-  "jp": "メル<E1>ィ「お兄ちゃん！」",
+  "jp": "メルヴィ「お兄ちゃん！」",
   "off": 5376,
   "len": 17,
   "en": "Melvi: Big Brother!",
@@ -1090,7 +1090,7 @@
  },
  {
   "id": "sce026:0165C",
-  "jp": "メル<E1>ィ「お兄ちゃん！」",
+  "jp": "メルヴィ「お兄ちゃん！」",
   "off": 5724,
   "len": 17,
   "en": "Melvi: Big Brother!",
@@ -1299,7 +1299,7 @@
  },
  {
   "id": "sce026:01986",
-  "jp": "　違う人を思い浮かべる{nl}　ユミールを思い浮かべる{nl}　メル<E1>ィを思い浮かべる",
+  "jp": "　違う人を思い浮かべる{nl}　ユミールを思い浮かべる{nl}　メルヴィを思い浮かべる",
   "off": 6534,
   "len": 49,
   "en": "Picture someone else{nl}Picture Ymir{nl}Picture Melvi",

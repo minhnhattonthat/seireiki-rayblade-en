@@ -2938,7 +2938,7 @@
  },
  {
   "id": "sce074:02596",
-  "jp": "？？？？「<E1>ァルガ・ソルマじゃ。{nl}　遠慮せずに“<E1>ァルガっち”と呼んでくれ」",
+  "jp": "？？？？「ヴァルガ・ソルマじゃ。{nl}　遠慮せずに“ヴァルガっち”と呼んでくれ」",
   "off": 9622,
   "len": 52,
   "en": "????: Valga Solma. Don't be shy, just call me \"Valga-cchi.\"",
@@ -2960,7 +2960,7 @@
  },
  {
   "id": "sce074:025DC",
-  "jp": "<E1>ァルガ「なんじゃ、ノリの悪い奴じゃ。まあ、よい。{nl}　で、何の話をしていたかのぅ‥‥おお、そうじゃ。{nl}　ワシがまだ現役だと‥‥」",
+  "jp": "ヴァルガ「なんじゃ、ノリの悪い奴じゃ。まあ、よい。{nl}　で、何の話をしていたかのぅ‥‥おお、そうじゃ。{nl}　ワシがまだ現役だと‥‥」",
   "off": 9692,
   "len": 79,
   "en": "Valga: What, no sense of fun, eh? Well, never mind. Now, what were we talking about... Ah, yes. About me still being in my prime...",
@@ -2982,7 +2982,7 @@
  },
  {
   "id": "sce074:0263A",
-  "jp": "<E1>ァルガ「ま、まぁ、それはまた今度ということで‥‥」",
+  "jp": "ヴァルガ「ま、まぁ、それはまた今度ということで‥‥」",
   "off": 9786,
   "len": 35,
   "en": "Valga: W-well, let's save that for another time...",
@@ -3004,7 +3004,7 @@
  },
  {
   "id": "sce074:02688",
-  "jp": "リシュナ「あっ、ごめんなさい。{nl}　実は私達もあなた方が＜ゼ＝オード＞と呼んでいる{nl}　あの機体を追っていました。{nl}　正確には彼らが呼びだそうとした<E1>ォーリアを{nl}　追っているのですが‥‥」",
+  "jp": "リシュナ「あっ、ごめんなさい。{nl}　実は私達もあなた方が＜ゼ＝オード＞と呼んでいる{nl}　あの機体を追っていました。{nl}　正確には彼らが呼びだそうとしたヴォーリアを{nl}　追っているのですが‥‥」",
   "off": 9864,
   "len": 117,
   "en": "Rishuna: Ah, I'm sorry. The truth is, we too were pursuing the machine you call the Ze=Ode. To be precise, we're pursuing the Vorlia they tried to summon...",
@@ -3015,7 +3015,7 @@
  },
  {
   "id": "sce074:026FD",
-  "jp": "トウヤ「<E1>ォーリア？　爆発の前に見えた{nl}　あのどでかい奴か？」",
+  "jp": "トウヤ「ヴォーリア？　爆発の前に見えた{nl}　あのどでかい奴か？」",
   "off": 9981,
   "len": 44,
   "en": "Touya: Vorlia? That huge thing I saw before the explosion?",
@@ -3048,7 +3048,7 @@
  },
  {
   "id": "sce074:027A5",
-  "jp": "<E1>ァルガ「ワシらじゃ！　こいつは超攻性外殻体{nl}　“神凱王”と言う。大層な名前に負けず{nl}　なかなかのスグレモノじゃぞ」",
+  "jp": "ヴァルガ「ワシらじゃ！　こいつは超攻性外殻体{nl}　“神凱王”と言う。大層な名前に負けず{nl}　なかなかのスグレモノじゃぞ」",
   "off": 10149,
   "len": 81,
   "en": "Valga: That was us! This here is a hyper-offensive exoshell, the \"Shingaioh.\" It lives up to that grand name, too. Quite the fine piece of work, eh?",
@@ -3191,7 +3191,7 @@
  },
  {
   "id": "sce074:02A62",
-  "jp": "<E1>ァルガ「おっ？　これはグラウザーの‥‥{nl}　ふむ。ようやくお目覚めのようじゃな。{nl}　おい、リシュナや、ゆくぞ」",
+  "jp": "ヴァルガ「おっ？　これはグラウザーの‥‥{nl}　ふむ。ようやくお目覚めのようじゃな。{nl}　おい、リシュナや、ゆくぞ」",
   "off": 10850,
   "len": 66,
   "en": "Valga: Oh? This is Grauzer's... Hmm. Looks like he's finally waking up. Come, Rishuna, let's be off.",
@@ -3202,7 +3202,7 @@
  },
  {
   "id": "sce074:02AA4",
-  "jp": "リシュナ「あ、ち、ちょっと‥‥<E1>ァルガ⁉」",
+  "jp": "リシュナ「あ、ち、ちょっと‥‥ヴァルガ⁉」",
   "off": 10916,
   "len": 29,
   "en": "Rishuna: Ah, w-wait a... Valga!?",
@@ -3213,7 +3213,7 @@
  },
  {
   "id": "sce074:02AC1",
-  "jp": "<E1>ァルガ「ん？　おお、そうじゃった。{nl}　大事なことを言い忘れるところじゃったな。{nl}　少年よ、今、王都が大変なことになっておるぞ」",
+  "jp": "ヴァルガ「ん？　おお、そうじゃった。{nl}　大事なことを言い忘れるところじゃったな。{nl}　少年よ、今、王都が大変なことになっておるぞ」",
   "off": 10945,
   "len": 81,
   "en": "Valga: Hm? Oh, that's right. I nearly forgot to tell you something important. Lad, the capital's in a terrible state right now, you know.",
@@ -3268,7 +3268,7 @@
  },
  {
   "id": "sce074:02BA6",
-  "jp": "<E1>ァルガ「ワシらもここの人間ではないから{nl}　詳しいことはわからんが、{nl}　第一王位継承権を持つローディス皇太子に{nl}　正当な継承権がないことを主張し、{nl}　王宮を占拠したらしいぞ。今は国王を幽閉し、{nl}　自らが王位に就いたらしい」",
+  "jp": "ヴァルガ「ワシらもここの人間ではないから{nl}　詳しいことはわからんが、{nl}　第一王位継承権を持つローディス皇太子に{nl}　正当な継承権がないことを主張し、{nl}　王宮を占拠したらしいぞ。今は国王を幽閉し、{nl}　自らが王位に就いたらしい」",
   "off": 11174,
   "len": 151,
   "en": "Valga: We're not from around here, so I don't know the details, but it seems he claimed that Crown Prince Lodis, first in line to the throne, has no rightful claim, and seized the palace. Now he's locked the King away and taken the throne himself, so I hear.",
@@ -3345,7 +3345,7 @@
  },
  {
   "id": "sce074:02E95",
-  "jp": "<E1>ァルガ「あと、クーデター軍には黒いザクサスの姿も{nl}　あったということじゃ。ワシにはわからんが、{nl}　そういうことも“入って”きたが、どうじゃ？」",
+  "jp": "ヴァルガ「あと、クーデター軍には黒いザクサスの姿も{nl}　あったということじゃ。ワシにはわからんが、{nl}　そういうことも“入って”きたが、どうじゃ？」",
   "off": 11925,
   "len": 86,
   "en": "Valga: Also, they say a black Zaxas was seen among the coup forces. Means nothing to me, but that \"came in\" too. Ring any bells?",
@@ -3378,7 +3378,7 @@
  },
  {
   "id": "sce074:02F1F",
-  "jp": "<E1>ァルガ「まぁ、状況はそんな感じじゃ。{nl}　あと、それからおぬし達の母艦は無事じゃぞ」",
+  "jp": "ヴァルガ「まぁ、状況はそんな感じじゃ。{nl}　あと、それからおぬし達の母艦は無事じゃぞ」",
   "off": 12063,
   "len": 55,
   "en": "Valga: Well, that's how things stand. Oh, and your mothership is safe, by the way.",
@@ -3411,7 +3411,7 @@
  },
  {
   "id": "sce074:02F90",
-  "jp": "<E1>ァルガ「さて、それではワシらはこれで失礼する。{nl}　奴は寂しがり屋じゃから目覚めの時にワシらが居ないと{nl}　すねよるからのぅ」",
+  "jp": "ヴァルガ「さて、それではワシらはこれで失礼する。{nl}　奴は寂しがり屋じゃから目覚めの時にワシらが居ないと{nl}　すねよるからのぅ」",
   "off": 12176,
   "len": 76,
   "en": "Valga: Well then, we'll take our leave. That fellow's a lonely sort, you see. If we're not there when he wakes up, he'll sulk, eh.",
@@ -3510,7 +3510,7 @@
  },
  {
   "id": "sce074:0317F",
-  "jp": "デビッシュ「‥‥すでに<E1>ォーリアへの道は開かれた。{nl}　あとはコアさえあればいい」",
+  "jp": "デビッシュ「‥‥すでにヴォーリアへの道は開かれた。{nl}　あとはコアさえあればいい」",
   "off": 12671,
   "len": 48,
   "en": "Debish: ...The road to Vorlia has already been opened. All that remains is the Core.",
@@ -3598,7 +3598,7 @@
  },
  {
   "id": "sce074:03353",
-  "jp": "デビッシュ「うむ。あれは問題はない。{nl}　もしあるとすれば<E1>ォーリアがふたたび姿を現した時だ」",
+  "jp": "デビッシュ「うむ。あれは問題はない。{nl}　もしあるとすればヴォーリアがふたたび姿を現した時だ」",
   "off": 13139,
   "len": 55,
   "en": "Debish: Mm. That one poses no problem. If it ever does, it will be when Vorlia shows itself once more.",

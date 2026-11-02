@@ -155,7 +155,7 @@
  },
  {
   "id": "sce054:0030F",
-  "jp": "アーサー「人を見かけで判断してはダメですよ。{nl}　彼女はあの若さで学士位を修得し終えている優秀な{nl}　逸材だそうです。ユミールさんがイ<E1>ェル様の{nl}　後任となれば、彼女が主席学士となると言われている{nl}　そうですよ」",
+  "jp": "アーサー「人を見かけで判断してはダメですよ。{nl}　彼女はあの若さで学士位を修得し終えている優秀な{nl}　逸材だそうです。ユミールさんがイヴェル様の{nl}　後任となれば、彼女が主席学士となると言われている{nl}　そうですよ」",
   "off": 783,
   "len": 137,
   "en": "Arthur: You mustn't judge people by appearances. I hear she's an exceptional talent who has already completed her scholar's degree at that young age. They say that if Ymir-san succeeds Ivel-sama, she'll become the Chief Scholar.",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce054:00597",
-  "jp": "ユミール「ここにいるみんなとローディス殿下、{nl}　テッィクス王子、イ<E1>ェル様、ラクバル委員長、{nl}　ガリュード様をはじめヨークの方々が{nl}　葬儀に列席することになっているわ」",
+  "jp": "ユミール「ここにいるみんなとローディス殿下、{nl}　テッィクス王子、イヴェル様、ラクバル委員長、{nl}　ガリュード様をはじめヨークの方々が{nl}　葬儀に列席することになっているわ」",
   "off": 1431,
   "len": 105,
   "en": "Ymir: Everyone here, along with His Highness Lodis, Prince Tix, Ivel-sama, Chairman Rakbal, and the people of York led by Garyud-sama, will attend the funeral.",
@@ -364,7 +364,7 @@
  },
  {
   "id": "sce054:0066A",
-  "jp": "メル<E1>ィ「‥‥ねぇ、誰か死んじゃったの？」",
+  "jp": "メルヴィ「‥‥ねぇ、誰か死んじゃったの？」",
   "off": 1642,
   "len": 29,
   "en": "Melvi: ...Hey, did somebody die?",
@@ -375,7 +375,7 @@
  },
  {
   "id": "sce054:0068A",
-  "jp": "トウヤ「ああ、そうか、メル<E1>ィには話してなかったな。{nl}　実は‥‥」",
+  "jp": "トウヤ「ああ、そうか、メルヴィには話してなかったな。{nl}　実は‥‥」",
   "off": 1674,
   "len": 40,
   "en": "Touya: Oh, right, we never told you, Melvi. The thing is...",
@@ -397,7 +397,7 @@
  },
  {
   "id": "sce054:0082A",
-  "jp": "メル<E1>ィ「そんな‥‥可哀想‥‥ひっく、ひっく」",
+  "jp": "メルヴィ「そんな‥‥可哀想‥‥ひっく、ひっく」",
   "off": 2090,
   "len": 33,
   "en": "Melvi: No way... That's so sad... *hic*, *hic*...",
@@ -419,7 +419,7 @@
  },
  {
   "id": "sce054:00861",
-  "jp": "メル<E1>ィ「うっ‥‥ううっ‥‥ふぇっ‥‥{nl}　可哀想だよぉ‥‥えっぐ、えっぐ‥‥」",
+  "jp": "メルヴィ「うっ‥‥ううっ‥‥ふぇっ‥‥{nl}　可哀想だよぉ‥‥えっぐ、えっぐ‥‥」",
   "off": 2145,
   "len": 55,
   "en": "Melvi: Uu... uuu... fueh... It's so saaad... *sob*, *sob*...",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce054:0089B",
-  "jp": "ユミール「メル<E1>ィ。泣いてあげるのもいいけど、{nl}　悲しんでばかりじゃ、天国へいけないのよ」",
+  "jp": "ユミール「メルヴィ。泣いてあげるのもいいけど、{nl}　悲しんでばかりじゃ、天国へいけないのよ」",
   "off": 2203,
   "len": 53,
   "en": "Ymir: Melvi. It's good to cry for her, but if we only grieve, she won't be able to go to heaven.",
@@ -441,7 +441,7 @@
  },
  {
   "id": "sce054:008D3",
-  "jp": "メル<E1>ィ「‥‥え？　ほんと‥‥？」",
+  "jp": "メルヴィ「‥‥え？　ほんと‥‥？」",
   "off": 2259,
   "len": 26,
   "en": "Melvi: ...Huh? Really...?",
@@ -463,7 +463,7 @@
  },
  {
   "id": "sce054:00929",
-  "jp": "メル<E1>ィ「‥‥うん」",
+  "jp": "メルヴィ「‥‥うん」",
   "off": 2345,
   "len": 15,
   "en": "Melvi: ...Okay.",
@@ -485,7 +485,7 @@
  },
  {
   "id": "sce054:0097A",
-  "jp": "メル<E1>ィ「‥‥ごちそうさまでした」",
+  "jp": "メルヴィ「‥‥ごちそうさまでした」",
   "off": 2426,
   "len": 22,
   "en": "Melvi: ...Thank you for the meal.",
@@ -507,7 +507,7 @@
  },
  {
   "id": "sce054:009C9",
-  "jp": "メル<E1>ィ「うん‥‥どうしても抜けれないって‥‥」",
+  "jp": "メルヴィ「うん‥‥どうしても抜けれないって‥‥」",
   "off": 2505,
   "len": 32,
   "en": "Melvi: Uh-huh... She said she just can't get away...",
@@ -606,7 +606,7 @@
  },
  {
   "id": "sce054:00B47",
-  "jp": "メル<E1>ィ「あっ！　明日ってパパの帰ってくる日だ！」",
+  "jp": "メルヴィ「あっ！　明日ってパパの帰ってくる日だ！」",
   "off": 2887,
   "len": 34,
   "en": "Melvi: Oh! Tomorrow's the day Papa comes home!",
@@ -628,7 +628,7 @@
  },
  {
   "id": "sce054:00B87",
-  "jp": "メル<E1>ィ「うん！」",
+  "jp": "メルヴィ「うん！」",
   "off": 2951,
   "len": 13,
   "en": "Melvi: Uh-huh!",
@@ -672,7 +672,7 @@
  },
  {
   "id": "sce054:00C50",
-  "jp": "パルディア「さぁ？　でも明日になればわかるでしょ。{nl}　さ、メル<E1>ィ、明日元気な顔をパパに見せるためにも{nl}　そろそろ寝なさい」",
+  "jp": "パルディア「さぁ？　でも明日になればわかるでしょ。{nl}　さ、メルヴィ、明日元気な顔をパパに見せるためにも{nl}　そろそろ寝なさい」",
   "off": 3152,
   "len": 75,
   "en": "Paldia: Who knows? But we'll find out tomorrow. Now, Melvi, time for bed, so you can show Papa a cheerful face tomorrow.",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce054:00C9E",
-  "jp": "メル<E1>ィ「はぁーい。それじゃお休みなさい」",
+  "jp": "メルヴィ「はぁーい。それじゃお休みなさい」",
   "off": 3230,
   "len": 26,
   "en": "Melvi: Okaaay. Good night, then.",
@@ -884,7 +884,7 @@
   "jp": "レシュ「姐さんにそんなことを言わすとはよほどですね」",
   "off": 4130,
   "len": 31,
-  "en": "Resh: For Big Sis to say something like that, he must really be something.",
+  "en": "Resh: For the Boss Lady to say something like that, he must really be something.",
   "status": "translated",
   "style": 0,
   "text_off": 4132,

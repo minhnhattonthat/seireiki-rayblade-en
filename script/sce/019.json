@@ -1,7 +1,7 @@
 [
  {
   "id": "sce019:00055",
-  "jp": "メル<E1>ィ「あ、トウヤお兄ちゃん、おはよう！」",
+  "jp": "メルヴィ「あ、トウヤお兄ちゃん、おはよう！」",
   "off": 85,
   "len": 27,
   "en": "Melvi: Ah, Big Brother Touya, good morning!",
@@ -12,7 +12,7 @@
  },
  {
   "id": "sce019:00073",
-  "jp": "トウヤ「あ、ああ、おはよう‥‥メル<E1>ィは今日も元気だな」",
+  "jp": "トウヤ「あ、ああ、おはよう‥‥メルヴィは今日も元気だな」",
   "off": 115,
   "len": 37,
   "en": "Touya: Oh, y-yeah, morning... You're full of energy again today, Melvi.",
@@ -45,7 +45,7 @@
  },
  {
   "id": "sce019:000D8",
-  "jp": "ユミール「ええ。心配かけてごめんなさい。{nl}　もう大丈夫よ。メル<E1>ィのおかげでね」",
+  "jp": "ユミール「ええ。心配かけてごめんなさい。{nl}　もう大丈夫よ。メルヴィのおかげでね」",
   "off": 216,
   "len": 49,
   "en": "Ymir: Yes. I'm sorry I worried you. I'm fine now. Thanks to Melvi.",
@@ -56,7 +56,7 @@
  },
  {
   "id": "sce019:00117",
-  "jp": "メル<E1>ィ「えへへへへ」",
+  "jp": "メルヴィ「えへへへへ」",
   "off": 279,
   "len": 14,
   "en": "Melvi: Ehehehehe.",
@@ -111,7 +111,7 @@
  },
  {
   "id": "sce019:00221",
-  "jp": "メル<E1>ィ「メル<E1>ィもぉ～」",
+  "jp": "メルヴィ「メルヴィもぉ～」",
   "off": 545,
   "len": 17,
   "en": "Melvi: Melvi toooo~",
@@ -133,7 +133,7 @@
  },
  {
   "id": "sce019:0026A",
-  "jp": "メル<E1>ィ「はーい。いこ、ヤマトちゃん！」",
+  "jp": "メルヴィ「はーい。いこ、ヤマトちゃん！」",
   "off": 618,
   "len": 25,
   "en": "Melvi: Okaaay. Let's go, Yamato-chan!",
@@ -155,7 +155,7 @@
  },
  {
   "id": "sce019:002C7",
-  "jp": "フォルゼン「いや。それはユミールさんが決めることです。{nl}　メル<E1>ィさんはこれからも家族として過ごしますし、{nl}　知る権利があります。キミは‥‥」",
+  "jp": "フォルゼン「いや。それはユミールさんが決めることです。{nl}　メルヴィさんはこれからも家族として過ごしますし、{nl}　知る権利があります。キミは‥‥」",
   "off": 711,
   "len": 84,
   "en": "Forzen: No. That's for Ymir-san to decide. Melvi-san will go on living with us as family, and has the right to know. As for you...",
@@ -298,7 +298,7 @@
  },
  {
   "id": "sce019:00528",
-  "jp": "メル<E1>ィ「いってらっしゃ～い」",
+  "jp": "メルヴィ「いってらっしゃ～い」",
   "off": 1320,
   "len": 19,
   "en": "Melvi: Bye-byeee~",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce019:0056B",
-  "jp": "メル<E1>ィ「えへへへ、ひ・み・つ。ねぇ～ママ」",
+  "jp": "メルヴィ「えへへへ、ひ・み・つ。ねぇ～ママ」",
   "off": 1387,
   "len": 26,
   "en": "Melvi: Ehehehe, it's a se-cret. Riiight, Mommy?",
@@ -353,7 +353,7 @@
  },
  {
   "id": "sce019:005C5",
-  "jp": "メル<E1>ィ「うん！」",
+  "jp": "メルヴィ「うん！」",
   "off": 1477,
   "len": 13,
   "en": "Melvi: Uh-huh!",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce019:006A8",
-  "jp": "ユミール「‥‥メル<E1>ィは私が誰の子供でも、{nl}　自分のお姉ちゃんだって、言ってくれた‥‥{nl}　私、その言葉を聞いてとてもうれしかった。{nl}　でも、この身体にはあの悲劇を引き起こした{nl}　人の血が流れてる‥‥そんな人間が世界の平和の{nl}　ためなんて‥‥」",
+  "jp": "ユミール「‥‥メルヴィは私が誰の子供でも、{nl}　自分のお姉ちゃんだって、言ってくれた‥‥{nl}　私、その言葉を聞いてとてもうれしかった。{nl}　でも、この身体にはあの悲劇を引き起こした{nl}　人の血が流れてる‥‥そんな人間が世界の平和の{nl}　ためなんて‥‥」",
   "off": 1704,
   "len": 160,
   "en": "Ymir: ...Melvi told me that no matter whose child I am, I'm still her big sister... I was so happy to hear that. But the blood of the person who caused that tragedy flows in my veins... For someone like me to work for world peace...",
@@ -441,7 +441,7 @@
  },
  {
   "id": "sce019:0074F",
-  "jp": "トウヤ「本気で言ってんのか？{nl}　メル<E1>ィの言うとおり、ユミールはユミールだろ？{nl}　それにユミールが事件を起こしたんじゃねぇ」",
+  "jp": "トウヤ「本気で言ってんのか？{nl}　メルヴィの言うとおり、ユミールはユミールだろ？{nl}　それにユミールが事件を起こしたんじゃねぇ」",
   "off": 1871,
   "len": 77,
   "en": "Touya: You serious? Like Melvi said, Ymir is Ymir, right? Besides, it wasn't Ymir who caused that incident.",
@@ -760,7 +760,7 @@
  },
  {
   "id": "sce019:00CFE",
-  "jp": "ユミール「昨日‥‥メル<E1>ィが励ましてくれたの。{nl}　私が誰の子供でも、自分のお姉ちゃんだって。{nl}　私、その言葉を聞いてとてもうれしかった‥‥」",
+  "jp": "ユミール「昨日‥‥メルヴィが励ましてくれたの。{nl}　私が誰の子供でも、自分のお姉ちゃんだって。{nl}　私、その言葉を聞いてとてもうれしかった‥‥」",
   "off": 3326,
   "len": 92,
   "en": "Ymir: Yesterday... Melvi cheered me up. She said no matter whose child I am, I'm still her big sister. I was so happy to hear that...",
@@ -771,7 +771,7 @@
  },
  {
   "id": "sce019:00D5D",
-  "jp": "ヤマト「そう‥‥メル<E1>ィっていい子よね」",
+  "jp": "ヤマト「そう‥‥メルヴィっていい子よね」",
   "off": 3421,
   "len": 26,
   "en": "Yamato: I see... Melvi's such a good girl.",
@@ -969,7 +969,7 @@
  },
  {
   "id": "sce019:010C7",
-  "jp": "ユミール「ご、ごめんなさい。{nl}　昨日、メル<E1>ィにも同じようなこと言われて‥‥{nl}　なんだか可笑しくなっちゃって‥‥」",
+  "jp": "ユミール「ご、ごめんなさい。{nl}　昨日、メルヴィにも同じようなこと言われて‥‥{nl}　なんだか可笑しくなっちゃって‥‥」",
   "off": 4295,
   "len": 71,
   "en": "Ymir: I-I'm sorry. Melvi told me something similar yesterday... and it just struck me as funny...",
@@ -1013,7 +1013,7 @@
  },
  {
   "id": "sce019:011A2",
-  "jp": "イ<E1>ェル「‥‥みなさん、すみませんでした。{nl}　私が黙っていたばかりに‥‥」",
+  "jp": "イヴェル「‥‥みなさん、すみませんでした。{nl}　私が黙っていたばかりに‥‥」",
   "off": 4514,
   "len": 46,
   "en": "Ivel: ...Everyone, I'm sorry. All because I kept silent...",
@@ -1046,7 +1046,7 @@
  },
  {
   "id": "sce019:0123F",
-  "jp": "イ<E1>ェル「ありがとうございます」",
+  "jp": "イヴェル「ありがとうございます」",
   "off": 4671,
   "len": 19,
   "en": "Ivel: Thank you very much.",
@@ -1068,7 +1068,7 @@
  },
  {
   "id": "sce019:01278",
-  "jp": "イ<E1>ェル「あいつ？」",
+  "jp": "イヴェル「あいつ？」",
   "off": 4728,
   "len": 14,
   "en": "Ivel: That one?",
@@ -1090,7 +1090,7 @@
  },
  {
   "id": "sce019:012AD",
-  "jp": "イ<E1>ェル「ああ。あの子は今、王都のほうに‥‥」",
+  "jp": "イヴェル「ああ。あの子は今、王都のほうに‥‥」",
   "off": 4781,
   "len": 32,
   "en": "Ivel: Ah. She's at the royal capital right now...",
@@ -1101,7 +1101,7 @@
  },
  {
   "id": "sce019:012DD",
-  "jp": "イ<E1>ェル「‥‥失礼します。{nl}　‥‥はい。ええ、こちらに揃っておられますよ。{nl}　え？　‥‥わかりました。こちらに回してください」",
+  "jp": "イヴェル「‥‥失礼します。{nl}　‥‥はい。ええ、こちらに揃っておられますよ。{nl}　え？　‥‥わかりました。こちらに回してください」",
   "off": 4829,
   "len": 77,
   "en": "Ivel: ...Excuse me. ...Yes. Yes, they're all gathered here. Hm? ...Understood. Please put it through here.",
@@ -1123,7 +1123,7 @@
  },
  {
   "id": "sce019:01346",
-  "jp": "イ<E1>ェル「あなた方に通信が入っています。{nl}　いまそこのモニターへつなげます」",
+  "jp": "イヴェル「あなた方に通信が入っています。{nl}　いまそこのモニターへつなげます」",
   "off": 4934,
   "len": 46,
   "en": "Ivel: There's a transmission for you. I'll put it on that monitor now.",
@@ -1299,7 +1299,7 @@
  },
  {
   "id": "sce019:01714",
-  "jp": "イ<E1>ェル「‥‥国家間の問題とか言える段階を{nl}　越えていますね。{nl}　あんなものを使わせるわけにはいきません。{nl}　‥‥すみませんが、あなた方に出てもらわなければ{nl}　ならないようですね」",
+  "jp": "イヴェル「‥‥国家間の問題とか言える段階を{nl}　越えていますね。{nl}　あんなものを使わせるわけにはいきません。{nl}　‥‥すみませんが、あなた方に出てもらわなければ{nl}　ならないようですね」",
   "off": 5908,
   "len": 109,
   "en": "Ivel: ...This is past the point where we can call it a matter between nations. We cannot allow such a thing to be used. ...I'm sorry, but it seems we must ask you to go.",
@@ -1310,7 +1310,7 @@
  },
  {
   "id": "sce019:01784",
-  "jp": "ユミール「‥‥イ<E1>ェル様、本当によろしいのですか？」",
+  "jp": "ユミール「‥‥イヴェル様、本当によろしいのですか？」",
   "off": 6020,
   "len": 36,
   "en": "Ymir: ...Ivel-sama, are you truly sure?",
@@ -1321,7 +1321,7 @@
  },
  {
   "id": "sce019:017AB",
-  "jp": "イ<E1>ェル「これは世界規模の問題です。{nl}　武力による解決となってしまいますが、{nl}　いたしかたないことでしょう。お願いします」",
+  "jp": "イヴェル「これは世界規模の問題です。{nl}　武力による解決となってしまいますが、{nl}　いたしかたないことでしょう。お願いします」",
   "off": 6059,
   "len": 75,
   "en": "Ivel: This is a problem on a global scale. It means resolving it by force of arms, but that cannot be helped. Please.",
@@ -1409,7 +1409,7 @@
  },
  {
   "id": "sce019:01945",
-  "jp": "メル<E1>ィ「あれ？　なんか慌ててるけど‥‥{nl}　う～ん‥‥もしかして出撃しちゃうのかなぁ？{nl}　せっかくお弁当作ってきたのに‥‥」",
+  "jp": "メルヴィ「あれ？　なんか慌ててるけど‥‥{nl}　う～ん‥‥もしかして出撃しちゃうのかなぁ？{nl}　せっかくお弁当作ってきたのに‥‥」",
   "off": 6469,
   "len": 80,
   "en": "Melvi: Huh? Everyone's in a hurry... Hmmm... Maybe they're going to launch? And after Melvi made a lunch and everything...",
@@ -1431,7 +1431,7 @@
  },
  {
   "id": "sce019:019CD",
-  "jp": "メル<E1>ィ「‥‥え？」",
+  "jp": "メルヴィ「‥‥え？」",
   "off": 6605,
   "len": 16,
   "en": "Melvi: ...Huh?",
@@ -1497,7 +1497,7 @@
  },
  {
   "id": "sce019:01AF2",
-  "jp": "メル<E1>ィ「‥‥メル<E1>ィだって‥‥よぉしっ」",
+  "jp": "メルヴィ「‥‥メルヴィだって‥‥よぉしっ」",
   "off": 6898,
   "len": 28,
   "en": "Melvi: ...Melvi can do it too... Alriiight!",
@@ -1695,7 +1695,7 @@
  },
  {
   "id": "sce019:020BA",
-  "jp": "メル<E1>ィ「あれ？　ここ‥‥どこ？{nl}　‥‥まっいっか！」",
+  "jp": "メルヴィ「あれ？　ここ‥‥どこ？{nl}　‥‥まっいっか！」",
   "off": 8378,
   "len": 37,
   "en": "Melvi: Huh? Where... is this? ...Oh well!",
@@ -1827,7 +1827,7 @@
  },
  {
   "id": "sce019:0230C",
-  "jp": "メル<E1>ィ「‥‥う～ん‥‥あれ？　ここって‥‥{nl}　あっ！　聖霊機だ！」",
+  "jp": "メルヴィ「‥‥う～ん‥‥あれ？　ここって‥‥{nl}　あっ！　聖霊機だ！」",
   "off": 8972,
   "len": 50,
   "en": "Melvi: ...Mmm... Huh? This place is... Ah! A Spirit Mech!",
@@ -1849,7 +1849,7 @@
  },
  {
   "id": "sce019:0249E",
-  "jp": "メル<E1>ィ「アレ‥‥さっき言ってた機体？{nl}　‥‥動くのかなぁ？」",
+  "jp": "メルヴィ「アレ‥‥さっき言ってた機体？{nl}　‥‥動くのかなぁ？」",
   "off": 9374,
   "len": 44,
   "en": "Melvi: That... is that the unit they were talking about? ...I wonder if it moves?",

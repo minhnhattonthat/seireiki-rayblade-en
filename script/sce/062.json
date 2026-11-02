@@ -23,7 +23,7 @@
  },
  {
   "id": "sce062:00167",
-  "jp": "メル<E1>ィ「お兄ちゃん‥‥」",
+  "jp": "メルヴィ「お兄ちゃん‥‥」",
   "off": 359,
   "len": 22,
   "en": "Melvi: Big Brother...",
@@ -45,7 +45,7 @@
  },
  {
   "id": "sce062:001A1",
-  "jp": "メル<E1>ィ「‥‥（ぷるぷるぷる）」",
+  "jp": "メルヴィ「‥‥（ぷるぷるぷる）」",
   "off": 417,
   "len": 24,
   "en": "Melvi: ...(*shake shake shake*)",
@@ -67,7 +67,7 @@
  },
  {
   "id": "sce062:001CE",
-  "jp": "メル<E1>ィ「‥‥お兄ちゃん、無理しちゃダメ」",
+  "jp": "メルヴィ「‥‥お兄ちゃん、無理しちゃダメ」",
   "off": 462,
   "len": 32,
   "en": "Melvi: ...Big Brother, don't push yourself.",
@@ -89,7 +89,7 @@
  },
  {
   "id": "sce062:001FB",
-  "jp": "メル<E1>ィ「メル<E1>ィはだいじょうぶだよ。{nl}　‥‥だってお兄ちゃんと一緒だもん」",
+  "jp": "メルヴィ「メルヴィはだいじょうぶだよ。{nl}　‥‥だってお兄ちゃんと一緒だもん」",
   "off": 507,
   "len": 49,
   "en": "Melvi: Melvi's okay. ...'Cause Melvi's with Big Brother.",
@@ -111,7 +111,7 @@
  },
  {
   "id": "sce062:00262",
-  "jp": "メル<E1>ィ「えへ」",
+  "jp": "メルヴィ「えへ」",
   "off": 610,
   "len": 14,
   "en": "Melvi: Ehe.",
@@ -133,7 +133,7 @@
  },
  {
   "id": "sce062:00285",
-  "jp": "メル<E1>ィ「うん」",
+  "jp": "メルヴィ「うん」",
   "off": 645,
   "len": 14,
   "en": "Melvi: Okay.",
@@ -144,7 +144,7 @@
  },
  {
   "id": "sce062:002AE",
-  "jp": "メル<E1>ィ「‥‥これが“コア”‥‥？{nl}　なんだか‥‥怖い‥‥けど‥‥寂しそう‥‥」",
+  "jp": "メルヴィ「‥‥これが“コア”‥‥？{nl}　なんだか‥‥怖い‥‥けど‥‥寂しそう‥‥」",
   "off": 686,
   "len": 63,
   "en": "Melvi: ...Is this the \"Core\"...? It's kind of... scary... but... it looks lonely...",
@@ -188,7 +188,7 @@
  },
  {
   "id": "sce062:0033F",
-  "jp": "メル<E1>ィ「お兄、ちゃん‥‥？」",
+  "jp": "メルヴィ「お兄、ちゃん‥‥？」",
   "off": 831,
   "len": 25,
   "en": "Melvi: Big... Brother...?",
@@ -199,7 +199,7 @@
  },
  {
   "id": "sce062:00358",
-  "jp": "トウヤ「‥‥メル<E1>ィは聞こえねぇのか？」",
+  "jp": "トウヤ「‥‥メルヴィは聞こえねぇのか？」",
   "off": 856,
   "len": 29,
   "en": "Touya: ...Melvi, you can't hear it?",
@@ -210,7 +210,7 @@
  },
  {
   "id": "sce062:00375",
-  "jp": "メル<E1>ィ「？？？」",
+  "jp": "メルヴィ「？？？」",
   "off": 885,
   "len": 18,
   "en": "Melvi: ???",
@@ -433,7 +433,7 @@
   "jp": "声（‥‥君はただ漫然と流れる時の中に身を{nl}　置いたことはあるのか？{page}　なにもかわらず、ただ同じ時だけが過ぎていく‥‥{nl}　初めは私もそれが当たり前だと思っていた。{nl}　疑問すら抱かなかった。だが、それは違った。{nl}　遠い、我等の銀河の遥か彼方の星々で{nl}　刹那に生きる人類の生態を観測していた時、{nl}　それは私の空虚な心に潤いの刻を与えてくれたよ。{nl}　己の命をかけ、戦い、勝ち取ることで生命の輝きを{nl}　見せてね。この私が抱いた心の昂ぶりは、{nl}　ごく一部の者にしか理解はされなかった。{nl}　だが、そんなことはどうでもいい。{nl}　今、こうして私は充実した時を過ごしているのだからな）",
   "off": 2273,
   "len": 361,
-  "en": "Voice: (...Have you ever lived in time that merely drifts aimlessly by?){page}(Nothing changes; only the same time passes, over and over... At first, I too thought that was natural. I never even questioned it. But I was wrong. While I was observing the ways of humanity, living their fleeting lives among the stars far, far away from our galaxy, they brought moments of moisture to my barren heart. Staking their lives, fighting, winning through, they showed me the brilliance of life. The elation I felt was understood by only a very few. But that matters not. For now, I am spending my time most fulfillingly.)",
+  "en": "Voice: (...Have you ever lived in time that merely drifts aimlessly by?){page}(Nothing changes; only the same time passes, over and over... At first, I too thought that was natural. I never even questioned it. But I was wrong. While I was observing the ways of humanity, living their fleeting lives on distant stars in the far reaches of our galaxy, they brought moments of solace to my hollow heart. Staking their lives, fighting, winning through, they showed me the brilliance of life. The elation I felt was understood by only a very few. But that matters not. For now, I am spending my time most fulfillingly.)",
   "status": "translated",
   "style": 0,
   "text_off": 2275,
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce062:00BAC",
-  "jp": "声（そう、私だ。リン・カーマの馬鹿どもは{nl}　<E1>ォーリアを封印したものと思っていたようだが、{nl}　あのような場所、出ようと思えばいつでも出れた。{nl}　それをしなかったのはその必要がなかっただけのこと。{nl}　なにより、そうしておけば奴等に邪魔をされずにすむ。{page}　表面的な事柄だけを取り繕い、本質的な学習が{nl}　できない君達人類と遊ぶには好都合だったからね。{page}　‥‥で、今回はそのライブレードが人類を救う{nl}　“鍵”というワケだよ。{page}　この<E1>ォーリアを止めることのできる唯一の存在。{nl}　だから、ここまで来ることができた‥‥）",
+  "jp": "声（そう、私だ。リン・カーマの馬鹿どもは{nl}　ヴォーリアを封印したものと思っていたようだが、{nl}　あのような場所、出ようと思えばいつでも出れた。{nl}　それをしなかったのはその必要がなかっただけのこと。{nl}　なにより、そうしておけば奴等に邪魔をされずにすむ。{page}　表面的な事柄だけを取り繕い、本質的な学習が{nl}　できない君達人類と遊ぶには好都合だったからね。{page}　‥‥で、今回はそのライブレードが人類を救う{nl}　“鍵”というワケだよ。{page}　このヴォーリアを止めることのできる唯一の存在。{nl}　だから、ここまで来ることができた‥‥）",
   "off": 2988,
   "len": 317,
   "en": "Voice: (Yes, it was me. Those fools of Lin Karma seemed to think they had sealed Vorlia, but I could have left a place like that whenever I pleased. I simply had no need to. Above all, staying put kept them from interfering.){page}(It was convenient for playing with you humans, who only patch over the surface of things and never truly learn.){page}(...And this time, that Rayblade is the \"key\" to saving humanity.){page}(The only being capable of stopping this Vorlia. That's why you were able to come this far...)",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce062:00E5A",
-  "jp": "声（ライブレードを使ってこの“コア”を破壊すれば{nl}　<E1>ォーリアも私もその存在を保てなくなり、消滅する。{nl}　そしてこの世界は救われるのだ‥‥{nl}　クククク‥‥さて、そろそろ始めさせて貰ってもいいかな？）",
+  "jp": "声（ライブレードを使ってこの“コア”を破壊すれば{nl}　ヴォーリアも私もその存在を保てなくなり、消滅する。{nl}　そしてこの世界は救われるのだ‥‥{nl}　クククク‥‥さて、そろそろ始めさせて貰ってもいいかな？）",
   "off": 3674,
   "len": 126,
   "en": "Voice: (Destroy this \"Core\" with Rayblade, and neither Vorlia nor I can maintain our existence; we will vanish. And this world will be saved... Kukukuku... Now, shall we get started?)",
@@ -584,7 +584,7 @@
  },
  {
   "id": "sce062:00EF9",
-  "jp": "メル<E1>ィ「‥‥お兄ちゃん？」",
+  "jp": "メルヴィ「‥‥お兄ちゃん？」",
   "off": 3833,
   "len": 24,
   "en": "Melvi: ...Big Brother?",
@@ -628,7 +628,7 @@
  },
  {
   "id": "sce062:00F62",
-  "jp": "メル<E1>ィ「？？？」",
+  "jp": "メルヴィ「？？？」",
   "off": 3938,
   "len": 18,
   "en": "Melvi: ???",
@@ -705,7 +705,7 @@
  },
  {
   "id": "sce062:0104D",
-  "jp": "メル<E1>ィ「ライブレード‥‥？{nl}　嫌な感じ‥‥ざらざらするぅ‥‥」",
+  "jp": "メルヴィ「ライブレード‥‥？{nl}　嫌な感じ‥‥ざらざらするぅ‥‥」",
   "off": 4173,
   "len": 48,
   "en": "Melvi: Rayblade...? It feels bad... All prickly and scratchy...",
@@ -727,7 +727,7 @@
  },
  {
   "id": "sce062:01090",
-  "jp": "メル<E1>ィ「うん‥‥だいじょうぶ」",
+  "jp": "メルヴィ「うん‥‥だいじょうぶ」",
   "off": 4240,
   "len": 24,
   "en": "Melvi: Mm... Melvi's okay.",
@@ -738,7 +738,7 @@
  },
  {
   "id": "sce062:010A8",
-  "jp": "トウヤ「‥‥メル<E1>ィ、ヤマト。{nl}　奴を倒せばすべてが終わる‥‥行くぞ」",
+  "jp": "トウヤ「‥‥メルヴィ、ヤマト。{nl}　奴を倒せばすべてが終わる‥‥行くぞ」",
   "off": 4264,
   "len": 48,
   "en": "Touya: ...Melvi, Yamato. Take him down and it's all over... Let's go.",
@@ -749,7 +749,7 @@
  },
  {
   "id": "sce062:010D8",
-  "jp": "メル<E1>ィ「うん、わかった」",
+  "jp": "メルヴィ「うん、わかった」",
   "off": 4312,
   "len": 19,
   "en": "Melvi: Okay, got it.",
@@ -782,7 +782,7 @@
  },
  {
   "id": "sce062:0117E",
-  "jp": "メル<E1>ィ「治して、くれたの‥‥？」",
+  "jp": "メルヴィ「治して、くれたの‥‥？」",
   "off": 4478,
   "len": 27,
   "en": "Melvi: It fixed us...?",
@@ -870,7 +870,7 @@
  },
  {
   "id": "sce062:014B0",
-  "jp": "トウヤ「くっ‥‥‥‥{nl}　メル<E1>ィ‥‥ごめんな‥‥」",
+  "jp": "トウヤ「くっ‥‥‥‥{nl}　メルヴィ‥‥ごめんな‥‥」",
   "off": 5296,
   "len": 38,
   "en": "Touya: Kh........ Melvi... I'm sorry...",
@@ -881,7 +881,7 @@
  },
  {
   "id": "sce062:014D6",
-  "jp": "メル<E1>ィ「ううん。お兄ちゃんと一緒なら怖くないよ‥‥」",
+  "jp": "メルヴィ「ううん。お兄ちゃんと一緒なら怖くないよ‥‥」",
   "off": 5334,
   "len": 39,
   "en": "Melvi: It's okay. Melvi's not scared as long as she's with Big Brother...",
@@ -914,7 +914,7 @@
  },
  {
   "id": "sce062:015C5",
-  "jp": "カスミ「トウヤちゃん！　メル<E1>ィちゃん！　ヤマトちゃん！{nl}　みんな、大丈夫⁈」",
+  "jp": "カスミ「トウヤちゃん！　メルヴィちゃん！　ヤマトちゃん！{nl}　みんな、大丈夫⁈」",
   "off": 5573,
   "len": 51,
   "en": "Kasumi: Touya-chan! Melvi-chan! Yamato-chan! Is everyone okay!?",
@@ -958,7 +958,7 @@
  },
  {
   "id": "sce062:01666",
-  "jp": "メル<E1>ィ「わぁ～お兄ちゃん、みんな来てくれたよ！」",
+  "jp": "メルヴィ「わぁ～お兄ちゃん、みんな来てくれたよ！」",
   "off": 5734,
   "len": 35,
   "en": "Melvi: Waaah~ Big Brother, everyone came for us!",
@@ -1123,7 +1123,7 @@
  },
  {
   "id": "sce062:019C3",
-  "jp": "<E1>ァルガ（そろそろ終わりにする時間じゃぞ）",
+  "jp": "ヴァルガ（そろそろ終わりにする時間じゃぞ）",
   "off": 6595,
   "len": 29,
   "en": "Valga: (It's about time we put an end to this, eh?)",
@@ -1189,7 +1189,7 @@
  },
  {
   "id": "sce062:01BE3",
-  "jp": "トウヤ「メル<E1>ィ‥‥」",
+  "jp": "トウヤ「メルヴィ‥‥」",
   "off": 7139,
   "len": 18,
   "en": "Touya: Melvi...",
@@ -1200,7 +1200,7 @@
  },
  {
   "id": "sce062:01BF5",
-  "jp": "メル<E1>ィ「なぁに？」",
+  "jp": "メルヴィ「なぁに？」",
   "off": 7157,
   "len": 17,
   "en": "Melvi: Whaaat?",
@@ -1222,7 +1222,7 @@
  },
  {
   "id": "sce062:01C38",
-  "jp": "メル<E1>ィ「うん。メル<E1>ィも頑張るぅ。{nl}　‥‥あのね、お兄ちゃん‥‥」",
+  "jp": "メルヴィ「うん。メルヴィも頑張るぅ。{nl}　‥‥あのね、お兄ちゃん‥‥」",
   "off": 7224,
   "len": 47,
   "en": "Melvi: Mm. Melvi'll do her best tooo. ...Um, Big Brother...",
@@ -1244,7 +1244,7 @@
  },
  {
   "id": "sce062:01C74",
-  "jp": "メル<E1>ィ「お兄ちゃんを好きになってよかった」",
+  "jp": "メルヴィ「お兄ちゃんを好きになってよかった」",
   "off": 7284,
   "len": 30,
   "en": "Melvi: Melvi's glad she fell in love with Big Brother.",
@@ -1266,7 +1266,7 @@
  },
  {
   "id": "sce062:01C9F",
-  "jp": "メル<E1>ィ「だってお兄ちゃんと一緒だっておもっただけで{nl}　こんなに安心できるんだもん。{nl}　でも‥‥戦いはちょっぴり怖いけど」",
+  "jp": "メルヴィ「だってお兄ちゃんと一緒だっておもっただけで{nl}　こんなに安心できるんだもん。{nl}　でも‥‥戦いはちょっぴり怖いけど」",
   "off": 7327,
   "len": 76,
   "en": "Melvi: 'Cause just thinking that Melvi's with Big Brother makes her feel so safe. But... the fighting's a teeny bit scary.",
@@ -1288,7 +1288,7 @@
  },
  {
   "id": "sce062:01D10",
-  "jp": "メル<E1>ィ「うん」",
+  "jp": "メルヴィ「うん」",
   "off": 7440,
   "len": 14,
   "en": "Melvi: Okay.",
@@ -1343,7 +1343,7 @@
  },
  {
   "id": "sce062:01E50",
-  "jp": "メル<E1>ィ「あっ！」",
+  "jp": "メルヴィ「あっ！」",
   "off": 7760,
   "len": 16,
   "en": "Melvi: Ah!",
@@ -1354,7 +1354,7 @@
  },
  {
   "id": "sce062:01E60",
-  "jp": "カスミ「トウヤちゃん！　メル<E1>ィちゃん！」",
+  "jp": "カスミ「トウヤちゃん！　メルヴィちゃん！」",
   "off": 7776,
   "len": 28,
   "en": "Kasumi: Touya-chan! Melvi-chan!",
@@ -1453,7 +1453,7 @@
  },
  {
   "id": "sce062:01F72",
-  "jp": "声（たしかに私は消える。{nl}　だが、コアを消滅させないかぎり、{nl}　<E1>ォーリアを止めることはできん‥‥）",
+  "jp": "声（たしかに私は消える。{nl}　だが、コアを消滅させないかぎり、{nl}　ヴォーリアを止めることはできん‥‥）",
   "off": 8050,
   "len": 64,
   "en": "Voice: (I will indeed vanish. But unless the Core is destroyed, Vorlia cannot be stopped...)",
@@ -1541,7 +1541,7 @@
  },
  {
   "id": "sce062:020E9",
-  "jp": "メル<E1>ィ「‥‥お兄ちゃん？」",
+  "jp": "メルヴィ「‥‥お兄ちゃん？」",
   "off": 8425,
   "len": 24,
   "en": "Melvi: ...Big Brother?",
@@ -1563,7 +1563,7 @@
  },
  {
   "id": "sce062:02117",
-  "jp": "メル<E1>ィ「どうしたの？」",
+  "jp": "メルヴィ「どうしたの？」",
   "off": 8471,
   "len": 19,
   "en": "Melvi: What's wrong?",
@@ -1596,7 +1596,7 @@
  },
  {
   "id": "sce062:02160",
-  "jp": "メル<E1>ィ「え？　なに‥‥？」",
+  "jp": "メルヴィ「え？　なに‥‥？」",
   "off": 8544,
   "len": 24,
   "en": "Melvi: Huh? What...?",
@@ -1607,7 +1607,7 @@
  },
  {
   "id": "sce062:02178",
-  "jp": "ヤマト「<E1>ォーリアが動いている？{nl}　いったいニャにが‥‥」",
+  "jp": "ヤマト「ヴォーリアが動いている？{nl}　いったいニャにが‥‥」",
   "off": 8568,
   "len": 40,
   "en": "Yamato: Vorlia's moving? What in the world is going on, nyow...",
@@ -1651,7 +1651,7 @@
  },
  {
   "id": "sce062:0221E",
-  "jp": "メル<E1>ィ「‥‥」",
+  "jp": "メルヴィ「‥‥」",
   "off": 8734,
   "len": 16,
   "en": "Melvi: ...",
@@ -1673,7 +1673,7 @@
  },
  {
   "id": "sce062:0223C",
-  "jp": "メル<E1>ィ「‥‥お兄ちゃんに任せよ。{nl}　こんなことするの、ちゃんと理由があるはずだもん。{nl}　だから信じて任せよう‥‥ね？」",
+  "jp": "メルヴィ「‥‥お兄ちゃんに任せよ。{nl}　こんなことするの、ちゃんと理由があるはずだもん。{nl}　だから信じて任せよう‥‥ね？」",
   "off": 8764,
   "len": 77,
   "en": "Melvi: ...Let's leave it to Big Brother. There must be a good reason he's doing this. So let's trust him and leave it to him... okay?",
@@ -1695,7 +1695,7 @@
  },
  {
   "id": "sce062:0229C",
-  "jp": "トウヤ「‥‥これから<E1>ォーリアのコアを破壊する。{nl}　だが、それができるのはこのライブレードだけだ。{nl}　だから、一足先に戻っていてほしい」",
+  "jp": "トウヤ「‥‥これからヴォーリアのコアを破壊する。{nl}　だが、それができるのはこのライブレードだけだ。{nl}　だから、一足先に戻っていてほしい」",
   "off": 8860,
   "len": 83,
   "en": "Touya: ...I'm about to destroy Vorlia's Core. But only this Rayblade can do it. So I want you guys to head back ahead of me.",
@@ -2014,7 +2014,7 @@
  },
  {
   "id": "sce062:0292F",
-  "jp": "メル<E1>ィ「‥‥ライブレード自体を使うの？」",
+  "jp": "メルヴィ「‥‥ライブレード自体を使うの？」",
   "off": 10543,
   "len": 34,
   "en": "Melvi: ...Are you going to use Rayblade itself?",
@@ -2036,7 +2036,7 @@
  },
  {
   "id": "sce062:02978",
-  "jp": "メル<E1>ィ「‥‥そうだね‥‥{nl}　でも‥‥ライブレードが壊れちゃうね」",
+  "jp": "メルヴィ「‥‥そうだね‥‥{nl}　でも‥‥ライブレードが壊れちゃうね」",
   "off": 10616,
   "len": 47,
   "en": "Melvi: ...I guess so... But... Rayblade's gonna break, huh.",
@@ -2058,7 +2058,7 @@
  },
  {
   "id": "sce062:029C8",
-  "jp": "メル<E1>ィ「‥‥ううん。気にしないで。{nl}　後悔なんてしてないもん。{nl}　‥‥でも、なんとかなるよ。絶対だいじょうぶ！」",
+  "jp": "メルヴィ「‥‥ううん。気にしないで。{nl}　後悔なんてしてないもん。{nl}　‥‥でも、なんとかなるよ。絶対だいじょうぶ！」",
   "off": 10696,
   "len": 73,
   "en": "Melvi: ...Uh-uh. Don't worry about it. Melvi doesn't regret anything. ...Besides, it'll work out somehow. It'll be okay for sure!",
@@ -2080,7 +2080,7 @@
  },
  {
   "id": "sce062:02A31",
-  "jp": "メル<E1>ィ「奇跡は待っていておきるものじゃないよ。{nl}　信じる気持ちが起こすの。いっぱい、いっぱい{nl}　の素敵な想いがおこすの！」",
+  "jp": "メルヴィ「奇跡は待っていておきるものじゃないよ。{nl}　信じる気持ちが起こすの。いっぱい、いっぱい{nl}　の素敵な想いがおこすの！」",
   "off": 10801,
   "len": 79,
   "en": "Melvi: Miracles don't happen just by waiting for them. Believing makes them happen. Lots and lots of wonderful feelings make them happen!",
@@ -2091,7 +2091,7 @@
  },
  {
   "id": "sce062:02A80",
-  "jp": "トウヤ「メル<E1>ィ‥‥」",
+  "jp": "トウヤ「メルヴィ‥‥」",
   "off": 10880,
   "len": 18,
   "en": "Touya: Melvi...",
@@ -2102,7 +2102,7 @@
  },
  {
   "id": "sce062:02A92",
-  "jp": "メル<E1>ィ「だから最後まで諦めないで、頑張ろ。{nl}　ね、お兄ちゃん」",
+  "jp": "メルヴィ「だから最後まで諦めないで、頑張ろ。{nl}　ね、お兄ちゃん」",
   "off": 10898,
   "len": 44,
   "en": "Melvi: So let's not give up till the end, and do our best. Okay, Big Brother?",
@@ -2113,7 +2113,7 @@
  },
  {
   "id": "sce062:02ABE",
-  "jp": "トウヤ「‥‥ああ。メル<E1>ィ‥‥ありがとうな」",
+  "jp": "トウヤ「‥‥ああ。メルヴィ‥‥ありがとうな」",
   "off": 10942,
   "len": 31,
   "en": "Touya: ...Yeah. Melvi... thanks.",
@@ -2124,7 +2124,7 @@
  },
  {
   "id": "sce062:02ADD",
-  "jp": "メル<E1>ィ「えへへへ」",
+  "jp": "メルヴィ「えへへへ」",
   "off": 10973,
   "len": 16,
   "en": "Melvi: Ehehehe.",
@@ -2135,7 +2135,7 @@
  },
  {
   "id": "sce062:02AF0",
-  "jp": "メル<E1>ィ「だいじょうぶ！」",
+  "jp": "メルヴィ「だいじょうぶ！」",
   "off": 10992,
   "len": 20,
   "en": "Melvi: It'll be okay!",
@@ -2157,7 +2157,7 @@
  },
  {
   "id": "sce062:02B12",
-  "jp": "メル<E1>ィ「だって、いつだってなんとかなったもん！{nl}　今度もきっとだいじょうぶ！　絶対だいじょうぶだよ！」",
+  "jp": "メルヴィ「だって、いつだってなんとかなったもん！{nl}　今度もきっとだいじょうぶ！　絶対だいじょうぶだよ！」",
   "off": 11026,
   "len": 65,
   "en": "Melvi: 'Cause things always worked out somehow! This time it'll be okay too! It'll be okay for sure!",
@@ -2168,7 +2168,7 @@
  },
  {
   "id": "sce062:02B53",
-  "jp": "トウヤ「そうだな‥‥メル<E1>ィ‥‥ありがとうな」",
+  "jp": "トウヤ「そうだな‥‥メルヴィ‥‥ありがとうな」",
   "off": 11091,
   "len": 32,
   "en": "Touya: Yeah... Melvi... thanks.",
@@ -2179,7 +2179,7 @@
  },
  {
   "id": "sce062:02B73",
-  "jp": "メル<E1>ィ「えへへへ」",
+  "jp": "メルヴィ「えへへへ」",
   "off": 11123,
   "len": 16,
   "en": "Melvi: Ehehehe.",
@@ -2201,7 +2201,7 @@
  },
  {
   "id": "sce062:02B9B",
-  "jp": "メル<E1>ィ「うん」",
+  "jp": "メルヴィ「うん」",
   "off": 11163,
   "len": 14,
   "en": "Melvi: Okay.",
@@ -2215,7 +2215,7 @@
   "jp": "トウヤ「うおぉぉぉぉぉぉぉ‼」",
   "off": 11192,
   "len": 21,
-  "en": "Touya: Ooooooooooh!!",
+  "en": "Touya: Raaaaaaaaaah!!",
   "status": "translated",
   "style": 1,
   "text_off": 11196,

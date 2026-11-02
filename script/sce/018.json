@@ -452,7 +452,7 @@
  },
  {
   "id": "sce018:00985",
-  "jp": "<E1>ァルガ「ふあ‥‥あぁぁぁぁぁぁっ‥‥{nl}　ふぅいぃ～よく寝たわい‥‥さて今は‥‥{nl}　いち、じゅう、ひゃく‥‥よ、4000年じゃと⁉{nl}　‥‥ふむぅ‥‥少々寝過ごしてしまったかのぅ‥‥ん？」",
+  "jp": "ヴァルガ「ふあ‥‥あぁぁぁぁぁぁっ‥‥{nl}　ふぅいぃ～よく寝たわい‥‥さて今は‥‥{nl}　いち、じゅう、ひゃく‥‥よ、4000年じゃと⁉{nl}　‥‥ふむぅ‥‥少々寝過ごしてしまったかのぅ‥‥ん？」",
   "off": 2437,
   "len": 121,
   "en": "Valga: Fuaah... aaaaaaahh... Phweee~ What a good sleep... Now then, how long was it... ones, tens, hundreds... f-four thousand years!? ...Hmmm... Seems I overslept a tad, eh... Hm?",
@@ -463,7 +463,7 @@
  },
  {
   "id": "sce018:00A08",
-  "jp": "<E1>ァルガ「‥‥この反応は‥‥<E1>ォーリア‥‥？{nl}　いや違うな。そうか、ついに奴が目覚めたか‥‥」",
+  "jp": "ヴァルガ「‥‥この反応は‥‥ヴォーリア‥‥？{nl}　いや違うな。そうか、ついに奴が目覚めたか‥‥」",
   "off": 2568,
   "len": 66,
   "en": "Valga: ...This reaction... Vorlia...? No, that's not it. I see, so he's finally awoken...",
@@ -474,7 +474,7 @@
  },
  {
   "id": "sce018:00A4D",
-  "jp": "<E1>ァルガ「さてと、それでは寝ぼすけ二人を{nl}　起こしにいくとするかのぅ‥‥」",
+  "jp": "ヴァルガ「さてと、それでは寝ぼすけ二人を{nl}　起こしにいくとするかのぅ‥‥」",
   "off": 2637,
   "len": 46,
   "en": "Valga: Well now, guess I'll go wake those two sleepyheads, eh...",
@@ -485,7 +485,7 @@
  },
  {
   "id": "sce018:00A7E",
-  "jp": "<E1>ァルガ「れっつごーじゃ！」",
+  "jp": "ヴァルガ「れっつごーじゃ！」",
   "off": 2686,
   "len": 19,
   "en": "Valga: Let's gooo, eh!",

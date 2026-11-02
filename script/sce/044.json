@@ -1134,7 +1134,7 @@
  },
  {
   "id": "sce044:010AF",
-  "jp": "メル<E1>ィ「大丈夫なんでしょ？　すぐ元気になるよね？」",
+  "jp": "メルヴィ「大丈夫なんでしょ？　すぐ元気になるよね？」",
   "off": 4271,
   "len": 36,
   "en": "Melvi: She's going to be okay, right? She'll get better soon, won't she?",
@@ -1156,7 +1156,7 @@
  },
  {
   "id": "sce044:010E9",
-  "jp": "メル<E1>ィ「うそ‥‥」",
+  "jp": "メルヴィ「うそ‥‥」",
   "off": 4329,
   "len": 15,
   "en": "Melvi: No way...",
@@ -1541,7 +1541,7 @@
  },
  {
   "id": "sce044:01593",
-  "jp": "ヤマト「メル<E1>ィが一生懸命励ましていたし、{nl}　ユミール自身も強くニャったって証拠かもね」",
+  "jp": "ヤマト「メルヴィが一生懸命励ましていたし、{nl}　ユミール自身も強くニャったって証拠かもね」",
   "off": 5523,
   "len": 58,
   "en": "Yamato: Melvi was cheering her up with all her might, and maybe it's proof Ymir herself has grown stronger, nya.",
@@ -1651,7 +1651,7 @@
  },
  {
   "id": "sce044:01725",
-  "jp": "イ<E1>ェル「‥‥先程、ジグリム共和国から{nl}　アガルティア王国へ、正式な和平条約締結の{nl}　申し入れがあったようです」",
+  "jp": "イヴェル「‥‥先程、ジグリム共和国から{nl}　アガルティア王国へ、正式な和平条約締結の{nl}　申し入れがあったようです」",
   "off": 5925,
   "len": 78,
   "en": "Ivel: ...It seems that a short while ago, the Zigrim Republic made a formal offer to the Kingdom of Agarthia to conclude a peace treaty.",
@@ -1772,7 +1772,7 @@
  },
  {
   "id": "sce044:01A49",
-  "jp": "イ<E1>ェル「あなたがそういうとなんだか本当にできそうな気が{nl}　しますね。ですが、油断は禁物です。{nl}　相手はあのデビッシュ博士なのですから‥‥」",
+  "jp": "イヴェル「あなたがそういうとなんだか本当にできそうな気が{nl}　しますね。ですが、油断は禁物です。{nl}　相手はあのデビッシュ博士なのですから‥‥」",
   "off": 6729,
   "len": 86,
   "en": "Ivel: When you say it, somehow it feels like you really could. But don't let your guard down. Your opponent is Dr. Debish, after all...",
@@ -1816,7 +1816,7 @@
  },
  {
   "id": "sce044:01ADD",
-  "jp": "ユミール「イ<E1>ェル様‥‥それでは行ってまいります」",
+  "jp": "ユミール「イヴェル様‥‥それでは行ってまいります」",
   "off": 6877,
   "len": 33,
   "en": "Ymir: Ivel-sama... I'll be going, then.",
@@ -1827,7 +1827,7 @@
  },
  {
   "id": "sce044:01B01",
-  "jp": "イ<E1>ェル「ああ、行っといで。{nl}　‥‥それから‥‥自分の信じた道を進みなさい」",
+  "jp": "イヴェル「ああ、行っといで。{nl}　‥‥それから‥‥自分の信じた道を進みなさい」",
   "off": 6913,
   "len": 51,
   "en": "Ivel: Yes, off you go. ...And... follow the path you believe in.",
@@ -1849,7 +1849,7 @@
  },
  {
   "id": "sce044:01B4A",
-  "jp": "イ<E1>ェル「‥‥では、<E1>ァルガさん、リシュナさん。{nl}　よろしくお願いします」",
+  "jp": "イヴェル「‥‥では、ヴァルガさん、リシュナさん。{nl}　よろしくお願いします」",
   "off": 6986,
   "len": 43,
   "en": "Ivel: ...Now then, Valga-san, Rishuna-san. I'm counting on you.",
@@ -1871,7 +1871,7 @@
  },
  {
   "id": "sce044:01B9D",
-  "jp": "<E1>ァルガ「もっともワシらの出番がないことを祈るがな。{nl}　無理は老骨にこたえる」",
+  "jp": "ヴァルガ「もっともワシらの出番がないことを祈るがな。{nl}　無理は老骨にこたえる」",
   "off": 7069,
   "len": 49,
   "en": "Valga: Though I pray there'll be no call for us, eh. Overdoing it is hard on old bones.",
@@ -1882,7 +1882,7 @@
  },
  {
   "id": "sce044:01BD1",
-  "jp": "リシュナ「<E1>ァルガ⁈」",
+  "jp": "リシュナ「ヴァルガ⁈」",
   "off": 7121,
   "len": 15,
   "en": "Rishuna: Valga!?",
@@ -1904,7 +1904,7 @@
  },
  {
   "id": "sce044:01C19",
-  "jp": "<E1>ァルガ「うむ。その心意気じゃ。{nl}　たとえ一握りの勝率でもはじめから諦めておったら、{nl}　その手にはなにも残らん」",
+  "jp": "ヴァルガ「うむ。その心意気じゃ。{nl}　たとえ一握りの勝率でもはじめから諦めておったら、{nl}　その手にはなにも残らん」",
   "off": 7193,
   "len": 69,
   "en": "Valga: Mm. That's the spirit. Even if your odds are but a handful, give up from the start and nothing will be left in your hands, my boy.",
@@ -1926,7 +1926,7 @@
  },
  {
   "id": "sce044:01C88",
-  "jp": "<E1>ァルガ「ほっほっほっほっ、喩えじゃよ、喩え」",
+  "jp": "ヴァルガ「ほっほっほっほっ、喩えじゃよ、喩え」",
   "off": 7304,
   "len": 28,
   "en": "Valga: Hohohoho, it's a figure of speech, a figure of speech.",
@@ -2102,7 +2102,7 @@
  },
  {
   "id": "sce044:01F64",
-  "jp": "<E1>ァルガ「ワシらも協力させてもらったぞい」",
+  "jp": "ヴァルガ「ワシらも協力させてもらったぞい」",
   "off": 8036,
   "len": 26,
   "en": "Valga: We lent a hand too, y'know.",
@@ -2135,7 +2135,7 @@
  },
  {
   "id": "sce044:01FCD",
-  "jp": "<E1>ァルガ「ワシはしっかり寝させてもらったぞ」",
+  "jp": "ヴァルガ「ワシはしっかり寝させてもらったぞ」",
   "off": 8141,
   "len": 26,
   "en": "Valga: I got a good night's sleep myself, heh.",
@@ -2146,7 +2146,7 @@
  },
  {
   "id": "sce044:01FEA",
-  "jp": "リシュナ「<E1>ァルガ、いちいち自己主張しなくても{nl}　いいでしょ‥‥」",
+  "jp": "リシュナ「ヴァルガ、いちいち自己主張しなくても{nl}　いいでしょ‥‥」",
   "off": 8170,
   "len": 42,
   "en": "Rishuna: Valga, you don't have to assert yourself every single time...",
@@ -2157,7 +2157,7 @@
  },
  {
   "id": "sce044:02017",
-  "jp": "<E1>ァルガ「これでも遠慮しとるつもりじゃが‥‥」",
+  "jp": "ヴァルガ「これでも遠慮しとるつもりじゃが‥‥」",
   "off": 8215,
   "len": 30,
   "en": "Valga: And here I thought I was holding back...",
@@ -5083,7 +5083,7 @@
  },
  {
   "id": "sce044:054E3",
-  "jp": "メル<E1>ィ「お兄ちゃん‥‥あのね‥‥{nl}　この戦いが終わったら‥‥その、どうするの？」",
+  "jp": "メルヴィ「お兄ちゃん‥‥あのね‥‥{nl}　この戦いが終わったら‥‥その、どうするの？」",
   "off": 21731,
   "len": 54,
   "en": "Melvi: Big Brother... um... When this battle is over... um, what are you going to do?",
@@ -5105,7 +5105,7 @@
  },
  {
   "id": "sce044:0553B",
-  "jp": "ヤマト『もぅ！　メル<E1>ィの気持ちも考えてあげニャさい！』",
+  "jp": "ヤマト『もぅ！　メルヴィの気持ちも考えてあげニャさい！』",
   "off": 21819,
   "len": 36,
   "en": "Yamato: 'Geez! Think about how Melvi feels for nyonce!'",
@@ -5127,7 +5127,7 @@
  },
  {
   "id": "sce044:05576",
-  "jp": "ヤマト『だから、トウヤが元の世界に戻ったら、{nl}　メル<E1>ィはどうするのよ？　まさか一緒にくればいいとか{nl}　お気楽ニャこと考えてるんじゃニャいでしょうね？』",
+  "jp": "ヤマト『だから、トウヤが元の世界に戻ったら、{nl}　メルヴィはどうするのよ？　まさか一緒にくればいいとか{nl}　お気楽ニャこと考えてるんじゃニャいでしょうね？』",
   "off": 21878,
   "len": 90,
   "en": "Yamato: 'I mean, when you go back to our world, Touya, what's Melvi supposed to do? Don't tell me you're thinking something carefree like \"she can just come with me,\" nyow?'",
@@ -5149,7 +5149,7 @@
  },
  {
   "id": "sce044:055E3",
-  "jp": "ヤマト『はぁ‥‥。あのね、こっちの世界はあたし達に{nl}　免疫があるけど、あたし達の世界はアガルティアの{nl}　存在すら知らニャいのよ？{nl}　そんなとこにメル<E1>ィをつれていけばどうなると思うの？{nl}　それにパルディアさんやフォルゼンさんのことだって‥‥』",
+  "jp": "ヤマト『はぁ‥‥。あのね、こっちの世界はあたし達に{nl}　免疫があるけど、あたし達の世界はアガルティアの{nl}　存在すら知らニャいのよ？{nl}　そんなとこにメルヴィをつれていけばどうなると思うの？{nl}　それにパルディアさんやフォルゼンさんのことだって‥‥』",
   "off": 21987,
   "len": 142,
   "en": "Yamato: 'Sigh... Listen, this world's used to people like us, but our world doesn't even know Agarthia exists, nya. What do you think would happen if you took Melvi to a place like that? And then there's Paldia-san and Forzen-san too...'",
@@ -5160,7 +5160,7 @@
  },
  {
   "id": "sce044:05674",
-  "jp": "メル<E1>ィ「どうしたの？」",
+  "jp": "メルヴィ「どうしたの？」",
   "off": 22132,
   "len": 16,
   "en": "Melvi: What's wrong?",
@@ -5182,7 +5182,7 @@
  },
  {
   "id": "sce044:0569F",
-  "jp": "メル<E1>ィ「ふぅ～ん‥‥。{nl}　‥‥お兄ちゃん、やっぱり帰っちゃうの？」",
+  "jp": "メルヴィ「ふぅ～ん‥‥。{nl}　‥‥お兄ちゃん、やっぱり帰っちゃうの？」",
   "off": 22175,
   "len": 45,
   "en": "Melvi: Hmmm... ...Big Brother, you're going home after all?",
@@ -5204,7 +5204,7 @@
  },
  {
   "id": "sce044:056E3",
-  "jp": "メル<E1>ィ「そう、だよね‥‥お兄ちゃんのお家は{nl}　ここじゃないもんね‥‥」",
+  "jp": "メルヴィ「そう、だよね‥‥お兄ちゃんのお家は{nl}　ここじゃないもんね‥‥」",
   "off": 22243,
   "len": 45,
   "en": "Melvi: Right... Big Brother's home isn't here, after all...",
@@ -5215,7 +5215,7 @@
  },
  {
   "id": "sce044:05713",
-  "jp": "トウヤ「メル<E1>ィ‥‥」",
+  "jp": "トウヤ「メルヴィ‥‥」",
   "off": 22291,
   "len": 16,
   "en": "Touya: Melvi...",
@@ -5226,7 +5226,7 @@
  },
  {
   "id": "sce044:05726",
-  "jp": "メル<E1>ィ「あっ‥‥ごめんなさい‥‥お兄ちゃんを困らせる{nl}　つもりは‥‥。あ、あのね、帰るまでは‥‥{nl}　その間だけはずっとメル<E1>ィの側にいてくれる？」",
+  "jp": "メルヴィ「あっ‥‥ごめんなさい‥‥お兄ちゃんを困らせる{nl}　つもりは‥‥。あ、あのね、帰るまでは‥‥{nl}　その間だけはずっとメルヴィの側にいてくれる？」",
   "off": 22310,
   "len": 91,
   "en": "Melvi: Ah... I'm sorry... Melvi didn't mean to trouble you, Big Brother... U-um, until you go home... just for that long, will you stay by Melvi's side?",
@@ -5248,7 +5248,7 @@
  },
  {
   "id": "sce044:057A1",
-  "jp": "メル<E1>ィ「よかった‥‥お兄ちゃん‥‥」",
+  "jp": "メルヴィ「よかった‥‥お兄ちゃん‥‥」",
   "off": 22433,
   "len": 27,
   "en": "Melvi: I'm so glad... Big Brother...",
@@ -5270,7 +5270,7 @@
  },
  {
   "id": "sce044:057CD",
-  "jp": "メル<E1>ィ「メル<E1>ィ‥‥お兄ちゃんのこと、好き。大好き！」",
+  "jp": "メルヴィ「メルヴィ‥‥お兄ちゃんのこと、好き。大好き！」",
   "off": 22477,
   "len": 38,
   "en": "Melvi: Melvi... likes you, Big Brother. Loves you lots!",
@@ -5292,7 +5292,7 @@
  },
  {
   "id": "sce044:05812",
-  "jp": "メル<E1>ィ「‥‥」",
+  "jp": "メルヴィ「‥‥」",
   "off": 22546,
   "len": 13,
   "en": "Melvi: ...",
@@ -5314,7 +5314,7 @@
  },
  {
   "id": "sce044:05837",
-  "jp": "メル<E1>ィ「‥‥メル<E1>ィ、まだ子供だけど、頑張って{nl}　大きくなる。だから、それまでは妹でもいいから、{nl}　メル<E1>ィを嫌いにならないでね」",
+  "jp": "メルヴィ「‥‥メルヴィ、まだ子供だけど、頑張って{nl}　大きくなる。だから、それまでは妹でもいいから、{nl}　メルヴィを嫌いにならないでね」",
   "off": 22583,
   "len": 78,
   "en": "Melvi: ...Melvi is still a kid, but she'll try hard to grow up. So until then, even if it's just as a little sister, please don't stop liking Melvi.",
@@ -5336,7 +5336,7 @@
  },
  {
   "id": "sce044:058A2",
-  "jp": "メル<E1>ィ「‥‥よかった」",
+  "jp": "メルヴィ「‥‥よかった」",
   "off": 22690,
   "len": 17,
   "en": "Melvi: ...Thank goodness.",
@@ -5358,7 +5358,7 @@
  },
  {
   "id": "sce044:058EF",
-  "jp": "メル<E1>ィ「うん！」",
+  "jp": "メルヴィ「うん！」",
   "off": 22767,
   "len": 13,
   "en": "Melvi: Uh-huh!",
@@ -5930,7 +5930,7 @@
  },
  {
   "id": "sce044:0605D",
-  "jp": "<E1>ァルガ「まったく、このワガママ娘は任せておけ」",
+  "jp": "ヴァルガ「まったく、このワガママ娘は任せておけ」",
   "off": 24669,
   "len": 29,
   "en": "Valga: Honestly. Leave this willful girl to me.",
@@ -5963,7 +5963,7 @@
  },
  {
   "id": "sce044:060B5",
-  "jp": "<E1>ァルガ「うむ。ワシらの出番がないように{nl}　頑張ってくるんじゃぞ！」",
+  "jp": "ヴァルガ「うむ。ワシらの出番がないように{nl}　頑張ってくるんじゃぞ！」",
   "off": 24757,
   "len": 42,
   "en": "Valga: Mm. Give it your all so there's no call for us, eh!",

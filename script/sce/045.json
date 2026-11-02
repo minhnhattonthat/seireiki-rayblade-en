@@ -540,7 +540,7 @@
  },
  {
   "id": "sce045:00C34",
-  "jp": "<E1>ァレス「フッ‥‥」",
+  "jp": "ヴァレス「フッ‥‥」",
   "off": 3124,
   "len": 17,
   "en": "Vales: Hmph...",
@@ -551,7 +551,7 @@
  },
  {
   "id": "sce045:00C5A",
-  "jp": "トウヤ「<E1>ァレス‥‥あんた‥‥」",
+  "jp": "トウヤ「ヴァレス‥‥あんた‥‥」",
   "off": 3162,
   "len": 25,
   "en": "Touya: Vales... you...",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce045:00C73",
-  "jp": "<E1>ァレス「‥‥助太刀させてもらう。{nl}　私にはこういうことでしか借りを返すことができん。{nl}　それに、じっとしているのは性に合わんのでな」",
+  "jp": "ヴァレス「‥‥助太刀させてもらう。{nl}　私にはこういうことでしか借りを返すことができん。{nl}　それに、じっとしているのは性に合わんのでな」",
   "off": 3187,
   "len": 82,
   "en": "Vales: ...Allow me to lend a hand. This is the only way I can repay my debt. Besides, sitting still doesn't suit me.",
@@ -584,7 +584,7 @@
  },
  {
   "id": "sce045:00CF2",
-  "jp": "<E1>ァレス「ああ。我が愛機ザイクスがあれば{nl}　今少し力にもなれたであろうがな」",
+  "jp": "ヴァレス「ああ。我が愛機ザイクスがあれば{nl}　今少し力にもなれたであろうがな」",
   "off": 3314,
   "len": 49,
   "en": "Vales: Yes. Had I my beloved Zaiks, I could have been of a little more use, though.",
@@ -606,7 +606,7 @@
  },
  {
   "id": "sce045:00D54",
-  "jp": "<E1>ァレス「おだててもなにも出んぞ？」",
+  "jp": "ヴァレス「おだててもなにも出んぞ？」",
   "off": 3412,
   "len": 25,
   "en": "Vales: Flattery won't get you anything, you know.",
@@ -628,7 +628,7 @@
  },
  {
   "id": "sce045:00D98",
-  "jp": "<E1>ァレス「‥‥いや。だが、ロザリーを守るためにこの命を{nl}　張れるのであれば望むところだ」",
+  "jp": "ヴァレス「‥‥いや。だが、ロザリーを守るためにこの命を{nl}　張れるのであれば望むところだ」",
   "off": 3480,
   "len": 56,
   "en": "Vales: ...No. But if I can lay my life on the line to protect Rosalie, that is all I could ask for.",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce045:00E6C",
-  "jp": "<E1>ァレス「ロザリー‥‥」",
+  "jp": "ヴァレス「ロザリー‥‥」",
   "off": 3692,
   "len": 20,
   "en": "Vales: Rosalie...",
@@ -705,7 +705,7 @@
  },
  {
   "id": "sce045:00ED5",
-  "jp": "<E1>ァレス「フッ‥‥」",
+  "jp": "ヴァレス「フッ‥‥」",
   "off": 3797,
   "len": 17,
   "en": "Vales: Hmph...",
@@ -2465,7 +2465,7 @@
  },
  {
   "id": "sce045:04DA8",
-  "jp": "メル<E1>ィ「大丈夫。メル<E1>ィやってみる」",
+  "jp": "メルヴィ「大丈夫。メルヴィやってみる」",
   "off": 19880,
   "len": 27,
   "en": "Melvi: It's okay. Melvi will give it a try.",
@@ -2476,7 +2476,7 @@
  },
  {
   "id": "sce045:04DCA",
-  "jp": "メル<E1>ィ「よぉーし」",
+  "jp": "メルヴィ「よぉーし」",
   "off": 19914,
   "len": 16,
   "en": "Melvi: Allll right!",
@@ -2487,7 +2487,7 @@
  },
  {
   "id": "sce045:050AF",
-  "jp": "メル<E1>ィ「どうしたのぉ？」",
+  "jp": "メルヴィ「どうしたのぉ？」",
   "off": 20655,
   "len": 19,
   "en": "Melvi: What's wrong?",
@@ -2509,7 +2509,7 @@
  },
  {
   "id": "sce045:050D4",
-  "jp": "メル<E1>ィ「ううん。メル<E1>ィ、お兄ちゃんの役に立てたもん。{nl}　一緒にいられないのは残念だけど、メル<E1>ィ、{nl}　ここで待ってるね」",
+  "jp": "メルヴィ「ううん。メルヴィ、お兄ちゃんの役に立てたもん。{nl}　一緒にいられないのは残念だけど、メルヴィ、{nl}　ここで待ってるね」",
   "off": 20692,
   "len": 75,
   "en": "Melvi: Nuh-uh. Melvi got to be useful to Big Brother. It's too bad Melvi can't be with you, but Melvi will wait right here.",
@@ -2531,7 +2531,7 @@
  },
  {
   "id": "sce045:05176",
-  "jp": "メル<E1>ィ「がんばって、みんな‥‥がんばってお兄ちゃん‥‥{nl}　がんばって‥‥」",
+  "jp": "メルヴィ「がんばって、みんな‥‥がんばってお兄ちゃん‥‥{nl}　がんばって‥‥」",
   "off": 20854,
   "len": 50,
   "en": "Melvi: Good luck, everyone... Good luck, Big Brother... Good luck...",
@@ -2784,7 +2784,7 @@
  },
  {
   "id": "sce045:058DC",
-  "jp": "<E1>ァレス「‥‥いや、お前達は先へ行くべきだ。{nl}　ここは私がなんとかしよう」",
+  "jp": "ヴァレス「‥‥いや、お前達は先へ行くべきだ。{nl}　ここは私がなんとかしよう」",
   "off": 22748,
   "len": 49,
   "en": "Vales: ...No, you should go on ahead. I'll handle things here.",
@@ -2806,7 +2806,7 @@
  },
  {
   "id": "sce045:05947",
-  "jp": "<E1>ァレス「姫、ご心配は無用に願います。{nl}　私も騎士の端くれ。機体の性能だけに頼る愚は{nl}　知っております」",
+  "jp": "ヴァレス「姫、ご心配は無用に願います。{nl}　私も騎士の端くれ。機体の性能だけに頼る愚は{nl}　知っております」",
   "off": 22855,
   "len": 74,
   "en": "Vales: Princess, please, there is no need for concern. I am a knight, however humble. I know the folly of relying on a machine's performance alone.",
@@ -2839,7 +2839,7 @@
  },
  {
   "id": "sce045:059CF",
-  "jp": "<E1>ァレス「ああ。要は気合だ」",
+  "jp": "ヴァレス「ああ。要は気合だ」",
   "off": 22991,
   "len": 22,
   "en": "Vales: Yes. It all comes down to fighting spirit.",
@@ -2850,7 +2850,7 @@
  },
  {
   "id": "sce045:059E5",
-  "jp": "トウヤ「<E1>ァレスってああいう人だったのか‥‥？」",
+  "jp": "トウヤ「ヴァレスってああいう人だったのか‥‥？」",
   "off": 23013,
   "len": 33,
   "en": "Touya: Was Vales always that kind of guy...?",
@@ -2894,7 +2894,7 @@
  },
  {
   "id": "sce045:05A8B",
-  "jp": "<E1>ェル「隊長、また抜けがけですかい？」",
+  "jp": "ヴェル「隊長、また抜けがけですかい？」",
   "off": 23179,
   "len": 28,
   "en": "Vel: Captain, sneaking off ahead of us again?",
@@ -2905,7 +2905,7 @@
  },
  {
   "id": "sce045:05AA7",
-  "jp": "<E1>ァレス「お前達‥‥」",
+  "jp": "ヴァレス「お前達‥‥」",
   "off": 23207,
   "len": 20,
   "en": "Vales: You two...",
@@ -2916,7 +2916,7 @@
  },
  {
   "id": "sce045:05ABB",
-  "jp": "<E1>ェル「隊長がリーボーフェンに乗っているとわかった時は{nl}　正直驚きましたよ‥‥まあ、死んだとは思いませ‥‥」",
+  "jp": "ヴェル「隊長がリーボーフェンに乗っているとわかった時は{nl}　正直驚きましたよ‥‥まあ、死んだとは思いませ‥‥」",
   "off": 23227,
   "len": 74,
   "en": "Vel: Honestly, we were surprised when we found out you were aboard the Liebhofen... Well, not that we thought you were dea...",
@@ -2949,7 +2949,7 @@
  },
  {
   "id": "sce045:05B50",
-  "jp": "<E1>ェル「俺達がどうしてここにいるか、その理由を考えれば{nl}　あながち無理なことじゃないと思わねぇか？」",
+  "jp": "ヴェル「俺達がどうしてここにいるか、その理由を考えれば{nl}　あながち無理なことじゃないと思わねぇか？」",
   "off": 23376,
   "len": 64,
   "en": "Vel: Think about how we got in here in the first place. Don't you figure it's not so impossible after all?",
@@ -2971,7 +2971,7 @@
  },
  {
   "id": "sce045:05BCA",
-  "jp": "<E1>ェル「ちょーっと、あんたのデータバンクから情報を{nl}　いただいてね」",
+  "jp": "ヴェル「ちょーっと、あんたのデータバンクから情報を{nl}　いただいてね」",
   "off": 23498,
   "len": 43,
   "en": "Vel: We just helped ourselves to a liiittle info from your data bank.",
@@ -2993,7 +2993,7 @@
  },
  {
   "id": "sce045:05C3A",
-  "jp": "<E1>ェル「ご名答。リーボーフェンは通信網が{nl}　整ってるからな。一度、仲介経路を敷設しておけば{nl}　あとは結構簡単だったぜ」",
+  "jp": "ヴェル「ご名答。リーボーフェンは通信網が{nl}　整ってるからな。一度、仲介経路を敷設しておけば{nl}　あとは結構簡単だったぜ」",
   "off": 23610,
   "len": 84,
   "en": "Vel: Bingo. The Liebhofen's got a nice tidy comm network. Once you lay down a relay route, the rest is pretty easy.",
@@ -3015,7 +3015,7 @@
  },
  {
   "id": "sce045:05CC5",
-  "jp": "<E1>ェル「そうこなくっちゃな」",
+  "jp": "ヴェル「そうこなくっちゃな」",
   "off": 23749,
   "len": 19,
   "en": "Vel: Now that's what I like to hear.",
@@ -3037,7 +3037,7 @@
  },
  {
   "id": "sce045:05D5B",
-  "jp": "<E1>ェル「隊長の力もお借りしますよ」",
+  "jp": "ヴェル「隊長の力もお借りしますよ」",
   "off": 23899,
   "len": 26,
   "en": "Vel: We'll be borrowing your power too, Captain.",
@@ -3048,7 +3048,7 @@
  },
  {
   "id": "sce045:05D75",
-  "jp": "<E1>ァレス「好きなだけ使え」",
+  "jp": "ヴァレス「好きなだけ使え」",
   "off": 23925,
   "len": 20,
   "en": "Vales: Take as much as you need.",
@@ -3070,7 +3070,7 @@
  },
  {
   "id": "sce045:05DC7",
-  "jp": "<E1>ェル「‥‥ざっとこんなもんよ」",
+  "jp": "ヴェル「‥‥ざっとこんなもんよ」",
   "off": 24007,
   "len": 23,
   "en": "Vel: ...And that's how it's done.",
@@ -3103,7 +3103,7 @@
  },
  {
   "id": "sce045:05E3C",
-  "jp": "<E1>ァレス「お前達は＜ゼ＝オード＞を。{nl}　ザコは我々が始末する」",
+  "jp": "ヴァレス「お前達は＜ゼ＝オード＞を。{nl}　ザコは我々が始末する」",
   "off": 24124,
   "len": 45,
   "en": "Vales: You go after Ze=Ode. We'll take care of the small fry.",
@@ -3136,7 +3136,7 @@
  },
  {
   "id": "sce045:05E9A",
-  "jp": "<E1>ァレス「承知」",
+  "jp": "ヴァレス「承知」",
   "off": 24218,
   "len": 15,
   "en": "Vales: Understood.",

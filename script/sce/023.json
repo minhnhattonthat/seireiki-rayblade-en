@@ -474,7 +474,7 @@
  },
  {
   "id": "sce023:008F2",
-  "jp": "クルル「そっか。それじゃ仕方ないよね。{nl}　メル<E1>ィもゲンもまた遊びに来てね」",
+  "jp": "クルル「そっか。それじゃ仕方ないよね。{nl}　メルヴィもゲンもまた遊びに来てね」",
   "off": 2290,
   "len": 45,
   "en": "Kururu: I see. Then it can't be helped. Melvi, Gen, come visit again, okay?",
@@ -485,7 +485,7 @@
  },
  {
   "id": "sce023:00922",
-  "jp": "メル<E1>ィ「うん。クルルちゃんも聖地に来たら{nl}　一緒にお泊まりしようね」",
+  "jp": "メルヴィ「うん。クルルちゃんも聖地に来たら{nl}　一緒にお泊まりしようね」",
   "off": 2338,
   "len": 44,
   "en": "Melvi: Okay. Kururu-chan, when you come to the Holy Land, let's have a sleepover together!",
@@ -639,7 +639,7 @@
  },
  {
   "id": "sce023:00BA6",
-  "jp": "メル<E1>ィ「メル<E1>ィ達はずっとお友達だよねぇ～」",
+  "jp": "メルヴィ「メルヴィ達はずっとお友達だよねぇ～」",
   "off": 2982,
   "len": 30,
   "en": "Melvi: Melvi and everyone will be friends forever, right~?",
@@ -1343,7 +1343,7 @@
  },
  {
   "id": "sce023:01714",
-  "jp": "ミヤスコ「ローディス陛下は今前線におられます。{nl}　イ<E1>ェル様を通じて連絡してもらうほうがよろしいかと{nl}　思いますが‥‥」",
+  "jp": "ミヤスコ「ローディス陛下は今前線におられます。{nl}　イヴェル様を通じて連絡してもらうほうがよろしいかと{nl}　思いますが‥‥」",
   "off": 5908,
   "len": 76,
   "en": "Miyasco: His Majesty Lodis is currently at the front. I believe it would be better to have Ivel-sama relay the message...",
@@ -1365,7 +1365,7 @@
  },
  {
   "id": "sce023:0178F",
-  "jp": "イ<E1>ェル「‥‥わかりました。アガルティア政府のほうには{nl}　私から話をとおしておきます。それからレスト少佐にも{nl}　知らせていたほうがいいでしょうね」",
+  "jp": "イヴェル「‥‥わかりました。アガルティア政府のほうには{nl}　私から話をとおしておきます。それからレスト少佐にも{nl}　知らせていたほうがいいでしょうね」",
   "off": 6031,
   "len": 85,
   "en": "Ivel: ...Understood. I will speak to the Agarthian government myself. And it would be best to inform Major Rest as well.",
@@ -1387,7 +1387,7 @@
  },
  {
   "id": "sce023:01805",
-  "jp": "イ<E1>ェル「‥‥ユミール。{nl}　表面的なことに心を乱してはいけませんよ。{nl}　あなたはあなたなのですから‥‥」",
+  "jp": "イヴェル「‥‥ユミール。{nl}　表面的なことに心を乱してはいけませんよ。{nl}　あなたはあなたなのですから‥‥」",
   "off": 6149,
   "len": 65,
   "en": "Ivel: ...Ymir. Don't let your heart be shaken by surface matters. You are who you are, after all...",

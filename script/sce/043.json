@@ -12,7 +12,7 @@
  },
  {
   "id": "sce043:0006D",
-  "jp": "フォルゼン「とりあえず家で休んでもらっていますよ。{nl}　今、パルディアさんとメル<E1>ィさん、それからレオーネさんが{nl}　付き添っています」",
+  "jp": "フォルゼン「とりあえず家で休んでもらっていますよ。{nl}　今、パルディアさんとメルヴィさん、それからレオーネさんが{nl}　付き添っています」",
   "off": 109,
   "len": 75,
   "en": "Forzen: For now, we've had her rest at home. Paldia-san and Melvi-san are with her right now, and Leone-san as well.",
@@ -56,7 +56,7 @@
  },
  {
   "id": "sce043:00120",
-  "jp": "フォルゼン「とりあえず家で休んでもらっていますよ。{nl}　今、パルディアさんとメル<E1>ィさんが付き添っています」",
+  "jp": "フォルゼン「とりあえず家で休んでもらっていますよ。{nl}　今、パルディアさんとメルヴィさんが付き添っています」",
   "off": 288,
   "len": 61,
   "en": "Forzen: For now, we've had her rest at home. Paldia-san and Melvi-san are with her right now.",
@@ -111,7 +111,7 @@
  },
  {
   "id": "sce043:0024C",
-  "jp": "カスミ「私もそう思います。{page}　フォルゼンさんもパルディアさんも、{nl}　もちろんメル<E1>ィちゃんもユミールさんにとって{nl}　大切な“家族”なのですから」",
+  "jp": "カスミ「私もそう思います。{page}　フォルゼンさんもパルディアさんも、{nl}　もちろんメルヴィちゃんもユミールさんにとって{nl}　大切な“家族”なのですから」",
   "off": 588,
   "len": 84,
   "en": "Kasumi: I think so too.{page}Forzen-san, Paldia-san, and of course Melvi-chan too, you're all her precious \"family,\" Ymir-san's.",
@@ -188,7 +188,7 @@
  },
  {
   "id": "sce043:003B4",
-  "jp": "フォルゼン「ふふふふふ。そうですね。{nl}　では私はイ<E1>ェル様のところへ行って、それから戻ります。{nl}　トウヤ君も片付いたら家へ来てください」",
+  "jp": "フォルゼン「ふふふふふ。そうですね。{nl}　では私はイヴェル様のところへ行って、それから戻ります。{nl}　トウヤ君も片付いたら家へ来てください」",
   "off": 948,
   "len": 80,
   "en": "Forzen: Fufufufu. Quite so. Well then, I'll go see Ivel-sama, and then head back. Touya-kun, come to the house when you're done too.",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce043:00507",
-  "jp": "<E1>ァルガ「‥‥おそらくは、奴等の目的がライブレードの{nl}　“コア”に変わったのじゃろ」",
+  "jp": "ヴァルガ「‥‥おそらくは、奴等の目的がライブレードの{nl}　“コア”に変わったのじゃろ」",
   "off": 1287,
   "len": 55,
   "en": "Valga: ...Most likely their goal has changed to Rayblade's \"Core.\"",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce043:00571",
-  "jp": "<E1>ァルガ「ほっほっほっ」",
+  "jp": "ヴァルガ「ほっほっほっ」",
   "off": 1393,
   "len": 15,
   "en": "Valga: Hohoho.",
@@ -331,7 +331,7 @@
  },
  {
   "id": "sce043:0059C",
-  "jp": "<E1>ァルガ「この前もリシュナが言っておったじゃろ？{nl}　<E1>ォーリアへの道が開かれた今、＜ゼ＝オード＞が{nl}　すべて揃わなくてもいいかもしれぬ、と」",
+  "jp": "ヴァルガ「この前もリシュナが言っておったじゃろ？{nl}　ヴォーリアへの道が開かれた今、＜ゼ＝オード＞が{nl}　すべて揃わなくてもいいかもしれぬ、と」",
   "off": 1436,
   "len": 85,
   "en": "Valga: Rishuna said so the other day, didn't she? Now that the road to Vorlia is open, they may not need every Ze=Ode in place.",
@@ -342,7 +342,7 @@
  },
  {
   "id": "sce043:005F4",
-  "jp": "セリカ「ええ、覚えている‥‥！{nl}　‥‥ということは<E1>ォーリアを呼び出す活動を本格的に{nl}　再開したってこと？　そのために“コア”が‥‥」",
+  "jp": "セリカ「ええ、覚えている‥‥！{nl}　‥‥ということはヴォーリアを呼び出す活動を本格的に{nl}　再開したってこと？　そのために“コア”が‥‥」",
   "off": 1524,
   "len": 91,
   "en": "Celica: Yes, I remember...! ...So that means they've seriously started working on summoning Vorlia again? And that's what the \"Core\" is for...",
@@ -397,7 +397,7 @@
  },
  {
   "id": "sce043:00761",
-  "jp": "<E1>ァルガ「“コア”の本当の役割はそっちなんじゃ。{nl}　しかし、そんなことをすれば、ゴーデリウスに{nl}　過度の負担がかかる‥‥そこまでするということは‥‥」",
+  "jp": "ヴァルガ「“コア”の本当の役割はそっちなんじゃ。{nl}　しかし、そんなことをすれば、ゴーデリウスに{nl}　過度の負担がかかる‥‥そこまでするということは‥‥」",
   "off": 1889,
   "len": 93,
   "en": "Valga: That is the \"Core's\" true role. But doing that would put excessive strain on Goderius... For them to go that far...",
@@ -419,7 +419,7 @@
  },
  {
   "id": "sce043:007DB",
-  "jp": "<E1>ァルガ「うむ。攻めるなら今かもしれぬが、{nl}　こちらも無傷というワケではない。{nl}　焦ったところでなにもないからな」",
+  "jp": "ヴァルガ「うむ。攻めるなら今かもしれぬが、{nl}　こちらも無傷というワケではない。{nl}　焦ったところでなにもないからな」",
   "off": 2011,
   "len": 65,
   "en": "Valga: Mm. Now might be the time to strike, but we're not exactly unscathed ourselves, eh. Nothing to be gained by rushing.",
@@ -441,7 +441,7 @@
  },
  {
   "id": "sce043:0083A",
-  "jp": "<E1>ァルガ「心配はいらぬ。今は眠っているが、すぐに{nl}　回復するじゃろう。しかし、ああいう無茶をするような{nl}　娘ではないと思っていたが‥‥」",
+  "jp": "ヴァルガ「心配はいらぬ。今は眠っているが、すぐに{nl}　回復するじゃろう。しかし、ああいう無茶をするような{nl}　娘ではないと思っていたが‥‥」",
   "off": 2106,
   "len": 83,
   "en": "Valga: No need to worry. She's asleep now, but she'll recover soon enough. Still, I didn't take her for the kind of girl to pull such a reckless stunt...",
@@ -650,7 +650,7 @@
  },
  {
   "id": "sce043:00BAB",
-  "jp": "メル<E1>ィ「あのね‥‥お兄ちゃんにお願いがあるの」",
+  "jp": "メルヴィ「あのね‥‥お兄ちゃんにお願いがあるの」",
   "off": 2987,
   "len": 31,
   "en": "Melvi: Um... Melvi has a favor to ask you, Big Brother.",
@@ -672,7 +672,7 @@
  },
  {
   "id": "sce043:00BEC",
-  "jp": "メル<E1>ィ「その‥‥お姉ちゃんを励ましてあげてほしいの。{nl}　お姉ちゃん平気だって言ってるけど‥‥」",
+  "jp": "メルヴィ「その‥‥お姉ちゃんを励ましてあげてほしいの。{nl}　お姉ちゃん平気だって言ってるけど‥‥」",
   "off": 3052,
   "len": 61,
   "en": "Melvi: Um... Melvi wants you to cheer Big Sister up. Big Sister says she's fine, but...",
@@ -683,7 +683,7 @@
  },
  {
   "id": "sce043:00C3C",
-  "jp": "　よし、任せておけ{nl}　メル<E1>ィは優しいな{nl}　ユミールは大丈夫だよ",
+  "jp": "　よし、任せておけ{nl}　メルヴィは優しいな{nl}　ユミールは大丈夫だよ",
   "off": 3132,
   "len": 41,
   "en": "All right, leave it to me{nl}You're really sweet, Melvi{nl}Ymir'll be fine",
@@ -694,7 +694,7 @@
  },
  {
   "id": "sce043:00C80",
-  "jp": "メル<E1>ィ「‥‥ありがとう、お兄ちゃん。{nl}　そ、それじゃ、お願い‥‥」",
+  "jp": "メルヴィ「‥‥ありがとう、お兄ちゃん。{nl}　そ、それじゃ、お願い‥‥」",
   "off": 3200,
   "len": 43,
   "en": "Melvi: ...Thank you, Big Brother. W-well then, please...",
@@ -705,7 +705,7 @@
  },
  {
   "id": "sce043:00CBE",
-  "jp": "ヤマト「トウヤ‥‥ちょっとはメル<E1>ィの気持ちも{nl}　考えてあげニャさいよね」",
+  "jp": "ヤマト「トウヤ‥‥ちょっとはメルヴィの気持ちも{nl}　考えてあげニャさいよね」",
   "off": 3262,
   "len": 45,
   "en": "Yamato: Touya... You could think about how Melvi feels a little too, nyow.",
@@ -1563,7 +1563,7 @@
  },
  {
   "id": "sce043:01AF1",
-  "jp": "メル<E1>ィ「え‥‥？　あっ、そ、そんなこと‥‥」",
+  "jp": "メルヴィ「え‥‥？　あっ、そ、そんなこと‥‥」",
   "off": 6897,
   "len": 31,
   "en": "Melvi: Huh...? Oh, n-no, that's not...",
@@ -1574,7 +1574,7 @@
  },
  {
   "id": "sce043:01B1F",
-  "jp": "トウヤ「メル<E1>ィの頼みとあれば断るワケにもいかねぇよな。{nl}　わかった。任せておけって」",
+  "jp": "トウヤ「メルヴィの頼みとあれば断るワケにもいかねぇよな。{nl}　わかった。任せておけって」",
   "off": 6943,
   "len": 49,
   "en": "Touya: If it's a request from Melvi, I can't exactly say no, can I? Got it. Leave it to me.",
@@ -1585,7 +1585,7 @@
  },
  {
   "id": "sce043:01B65",
-  "jp": "メル<E1>ィ「ホント？」",
+  "jp": "メルヴィ「ホント？」",
   "off": 7013,
   "len": 14,
   "en": "Melvi: Really?",
@@ -1607,7 +1607,7 @@
  },
  {
   "id": "sce043:01BA7",
-  "jp": "メル<E1>ィ「そんなことない！{nl}　メル<E1>ィ、お兄ちゃんを信じてるもん。{nl}　疑ったような言い方してごめんなさい‥‥」",
+  "jp": "メルヴィ「そんなことない！{nl}　メルヴィ、お兄ちゃんを信じてるもん。{nl}　疑ったような言い方してごめんなさい‥‥」",
   "off": 7079,
   "len": 66,
   "en": "Melvi: That's not it! Melvi believes in Big Brother! Melvi's sorry for sounding like she doubted you...",
@@ -1629,7 +1629,7 @@
  },
  {
   "id": "sce043:01C35",
-  "jp": "メル<E1>ィ「ホントぉ？」",
+  "jp": "メルヴィ「ホントぉ？」",
   "off": 7221,
   "len": 15,
   "en": "Melvi: Reeeally?",
@@ -1651,7 +1651,7 @@
  },
  {
   "id": "sce043:01C77",
-  "jp": "メル<E1>ィ「えへへへ‥‥{nl}　そ、それじゃ、お願いね、お兄ちゃん」",
+  "jp": "メルヴィ「えへへへ‥‥{nl}　そ、それじゃ、お願いね、お兄ちゃん」",
   "off": 7287,
   "len": 38,
   "en": "Melvi: Ehehehe... W-well then, please take care of it, Big Brother.",
@@ -1673,7 +1673,7 @@
  },
  {
   "id": "sce043:01CB8",
-  "jp": "メル<E1>ィ「じゃ‥‥」",
+  "jp": "メルヴィ「じゃ‥‥」",
   "off": 7352,
   "len": 15,
   "en": "Melvi: Bye, then...",
@@ -1684,7 +1684,7 @@
  },
  {
   "id": "sce043:01CE5",
-  "jp": "メル<E1>ィ「でもぉ‥‥」",
+  "jp": "メルヴィ「でもぉ‥‥」",
   "off": 7397,
   "len": 16,
   "en": "Melvi: Buuut...",
@@ -1706,7 +1706,7 @@
  },
  {
   "id": "sce043:01D32",
-  "jp": "メル<E1>ィ「そうかなぁ？」",
+  "jp": "メルヴィ「そうかなぁ？」",
   "off": 7474,
   "len": 16,
   "en": "Melvi: You think so?",
@@ -1717,7 +1717,7 @@
  },
  {
   "id": "sce043:01D45",
-  "jp": "トウヤ「メル<E1>ィは優しいな」",
+  "jp": "トウヤ「メルヴィは優しいな」",
   "off": 7493,
   "len": 18,
   "en": "Touya: You're really sweet, Melvi.",
@@ -1728,7 +1728,7 @@
  },
  {
   "id": "sce043:01D8A",
-  "jp": "メル<E1>ィ「え‥‥？　あっ、そ、そんなこと‥‥」",
+  "jp": "メルヴィ「え‥‥？　あっ、そ、そんなこと‥‥」",
   "off": 7562,
   "len": 31,
   "en": "Melvi: Huh...? Oh, n-no, that's not...",
@@ -1739,7 +1739,7 @@
  },
  {
   "id": "sce043:01DAC",
-  "jp": "トウヤ「ユミールにもちゃんとメル<E1>ィの気持ちが{nl}　伝わってるって。だから心配しなくても大丈夫だよ」",
+  "jp": "トウヤ「ユミールにもちゃんとメルヴィの気持ちが{nl}　伝わってるって。だから心配しなくても大丈夫だよ」",
   "off": 7596,
   "len": 61,
   "en": "Touya: Ymir knows how you feel too, Melvi. So you don't need to worry, okay?",
@@ -1750,7 +1750,7 @@
  },
  {
   "id": "sce043:01DFE",
-  "jp": "メル<E1>ィ「‥‥そう？　お兄ちゃんがそういうなら‥‥{nl}　それじゃ、メル<E1>ィ、もう寝るね」",
+  "jp": "メルヴィ「‥‥そう？　お兄ちゃんがそういうなら‥‥{nl}　それじゃ、メルヴィ、もう寝るね」",
   "off": 7678,
   "len": 53,
   "en": "Melvi: ...Really? If Big Brother says so... Then Melvi's going to bed now.",
@@ -1772,7 +1772,7 @@
  },
  {
   "id": "sce043:01E48",
-  "jp": "メル<E1>ィ「うん、お休みなさい」",
+  "jp": "メルヴィ「うん、お休みなさい」",
   "off": 7752,
   "len": 19,
   "en": "Melvi: Okay, good night.",
@@ -1904,7 +1904,7 @@
  },
  {
   "id": "sce043:020D2",
-  "jp": "メル<E1>ィ「ホント？　お兄ちゃん、ありがとう。{nl}　‥‥それじゃ、お願いね」",
+  "jp": "メルヴィ「ホント？　お兄ちゃん、ありがとう。{nl}　‥‥それじゃ、お願いね」",
   "off": 8402,
   "len": 44,
   "en": "Melvi: Really? Thank you, Big Brother. ...Then please take care of her.",
@@ -1926,7 +1926,7 @@
  },
  {
   "id": "sce043:0210E",
-  "jp": "メル<E1>ィ「じゃ‥‥」",
+  "jp": "メルヴィ「じゃ‥‥」",
   "off": 8462,
   "len": 15,
   "en": "Melvi: Bye, then...",

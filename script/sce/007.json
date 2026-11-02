@@ -133,7 +133,7 @@
  },
  {
   "id": "sce007:001B4",
-  "jp": "オズ<E1>ァルド「うっ‥‥ひ、姫‥‥」",
+  "jp": "オズヴァルド「うっ‥‥ひ、姫‥‥」",
   "off": 436,
   "len": 25,
   "en": "Oswald: Ugh... P-Princess...",
@@ -507,7 +507,7 @@
  },
  {
   "id": "sce007:00A1C",
-  "jp": "ユミール「それはそうだけど‥‥{nl}　おかげでイ<E1>ェル様やローディス殿下が{nl}　どれだけ苦労なされたか‥‥」",
+  "jp": "ユミール「それはそうだけど‥‥{nl}　おかげでイヴェル様やローディス殿下が{nl}　どれだけ苦労なされたか‥‥」",
   "off": 2588,
   "len": 65,
   "en": "Ymir: That's true, but... think how much trouble it caused Ivel-sama and His Highness Lodis...",

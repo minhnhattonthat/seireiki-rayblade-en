@@ -89,7 +89,7 @@
  },
  {
   "id": "sce075:0031D",
-  "jp": "レスト「本来ならばそうだが、どうも雰囲気が違う。{nl}　カイン王子の<E1>ェイル・アスティンが元凶。{nl}　そう思えてならぬ‥‥」",
+  "jp": "レスト「本来ならばそうだが、どうも雰囲気が違う。{nl}　カイン王子のヴェイル・アスティンが元凶。{nl}　そう思えてならぬ‥‥」",
   "off": 797,
   "len": 77,
   "en": "Rest: Ordinarily, yes, but something feels different. Prince Cain's Veil Astin is the root of this. I cannot shake that feeling...",
@@ -188,7 +188,7 @@
  },
  {
   "id": "sce075:0046B",
-  "jp": "アーサー「カイン王子の<E1>ェイル・アスティンか‥‥」",
+  "jp": "アーサー「カイン王子のヴェイル・アスティンか‥‥」",
   "off": 1131,
   "len": 36,
   "en": "Arthur: Prince Cain's Veil Astin, is it...",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce075:0073D",
-  "jp": "メル<E1>ィ「お兄ちゃん、ちょっとメル<E1>ィに考えがあるの。{nl}　だから勝手に動くね」",
+  "jp": "メルヴィ「お兄ちゃん、ちょっとメルヴィに考えがあるの。{nl}　だから勝手に動くね」",
   "off": 1853,
   "len": 49,
   "en": "Melvi: Big Brother, Melvi has an idea. So Melvi's gonna move on her own.",

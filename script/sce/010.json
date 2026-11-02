@@ -188,7 +188,7 @@
  },
  {
   "id": "sce010:0043D",
-  "jp": "ローディス「さ、さて、カスミ君のこともあるし、{nl}　君たちの報告も聞かなくてはいけないし、{nl}　イ<E1>ェル様の部屋へ行こうか」",
+  "jp": "ローディス「さ、さて、カスミ君のこともあるし、{nl}　君たちの報告も聞かなくてはいけないし、{nl}　イヴェル様の部屋へ行こうか」",
   "off": 1085,
   "len": 73,
   "en": "Lodis: W-well then, there's Kasumi-kun to think about, and we need to hear your report, so shall we go to Ivel-sama's room?",
@@ -771,7 +771,7 @@
  },
  {
   "id": "sce010:00E11",
-  "jp": "ローディス「それではイ<E1>ェル様の部屋へ向かうとしよう」",
+  "jp": "ローディス「それではイヴェル様の部屋へ向かうとしよう」",
   "off": 3601,
   "len": 35,
   "en": "Lodis: Now, let's head to Ivel-sama's room.",
@@ -782,7 +782,7 @@
  },
  {
   "id": "sce010:00E6B",
-  "jp": "イ<E1>ェル「‥‥なるほど。ガリュードさん達は{nl}　ご無事でしたか‥‥しかし、ジグリムが＜ゼ＝オード＞の{nl}　技術を導入しているとなるとますます厄介ですね」",
+  "jp": "イヴェル「‥‥なるほど。ガリュードさん達は{nl}　ご無事でしたか‥‥しかし、ジグリムが＜ゼ＝オード＞の{nl}　技術を導入しているとなるとますます厄介ですね」",
   "off": 3691,
   "len": 95,
   "en": "Ivel: ...I see. So Garyud-san and the others are safe... But if Zigrim is bringing in Ze=Ode's technology, things are getting even more troublesome.",
@@ -969,7 +969,7 @@
  },
  {
   "id": "sce010:0144C",
-  "jp": "イ<E1>ェル「そうですね。それに今はあなた達自身の問題が{nl}　表面化しつつありますからね」",
+  "jp": "イヴェル「そうですね。それに今はあなた達自身の問題が{nl}　表面化しつつありますからね」",
   "off": 5196,
   "len": 54,
   "en": "Ivel: Indeed. Besides, your own problems are coming to the surface now.",
@@ -991,7 +991,7 @@
  },
  {
   "id": "sce010:0149B",
-  "jp": "イ<E1>ェル「聖霊機ですよ。{nl}　アガルティア政府が聖霊機の所有権を{nl}　主張してきました。{nl}　第一王女であるセリカ様が設計した聖霊機は{nl}　アガルティアにもその所有の権利がある。{nl}　現在操者のいる機体を譲渡するか、{nl}　リーボーフェンごとアガルティアの一組織になるように{nl}　というようなことを言ってきました。{nl}　このままでは適当な理由をつけられて{nl}　拘束されてしまうのは目にみえています。{nl}　ラクバル委員長が議会に働きかけくれていますが{nl}　時間かせぎにしかならないでしょう」",
+  "jp": "イヴェル「聖霊機ですよ。{nl}　アガルティア政府が聖霊機の所有権を{nl}　主張してきました。{nl}　第一王女であるセリカ様が設計した聖霊機は{nl}　アガルティアにもその所有の権利がある。{nl}　現在操者のいる機体を譲渡するか、{nl}　リーボーフェンごとアガルティアの一組織になるように{nl}　というようなことを言ってきました。{nl}　このままでは適当な理由をつけられて{nl}　拘束されてしまうのは目にみえています。{nl}　ラクバル委員長が議会に働きかけくれていますが{nl}　時間かせぎにしかならないでしょう」",
   "off": 5275,
   "len": 291,
   "en": "Ivel: The Spirit Mechs. The Agarthian government has claimed ownership of them. Since the First Princess, Celica-sama, designed them, Agarthia too holds rights to the Spirit Mechs. They have demanded that you either hand over every unit that has a pilot, or place yourselves, Liebhofen and all, under an Agarthian organization. At this rate, it's plain they'll find some pretext to detain you. Chairman Rakbal is working on the assembly for us, but it will only buy time.",
@@ -1046,7 +1046,7 @@
  },
  {
   "id": "sce010:01653",
-  "jp": "イ<E1>ェル「結果的にそうなるでしょうね。{nl}　もとより、リーボーフェンは聖霊機の母艦であり、{nl}　あなた達の活動拠点として造られたもの。{nl}　＜ゼ＝オード＞の復活が確実になった今、{nl}　各地の動向に気をくばる必要があります」",
+  "jp": "イヴェル「結果的にそうなるでしょうね。{nl}　もとより、リーボーフェンは聖霊機の母艦であり、{nl}　あなた達の活動拠点として造られたもの。{nl}　＜ゼ＝オード＞の復活が確実になった今、{nl}　各地の動向に気をくばる必要があります」",
   "off": 5715,
   "len": 142,
   "en": "Ivel: In the end, that's what it will come to. The Liebhofen was built from the start as the Spirit Mechs' mothership, a base for your activities. Now that Ze=Ode's revival is certain, we must keep watch on what is happening everywhere.",
@@ -1090,7 +1090,7 @@
  },
  {
   "id": "sce010:017C7",
-  "jp": "イ<E1>ェル「またうるさく言ってくるでしょうが、{nl}　そもそも彼らが主張する権利など、はじめから{nl}　存在していないのです。{nl}　逃げ道はいくらでもありますよ。{nl}　それに先日の報道で政府不信から批判へと{nl}　変わっています。＜ゼ＝オード＞と正面きって{nl}　戦う聖霊機に国民の期待が高まっているのです。{nl}　彼らはそれを利用したいだけなのです。{nl}　そこを逆手にとればいいだけのことですよ」",
+  "jp": "イヴェル「またうるさく言ってくるでしょうが、{nl}　そもそも彼らが主張する権利など、はじめから{nl}　存在していないのです。{nl}　逃げ道はいくらでもありますよ。{nl}　それに先日の報道で政府不信から批判へと{nl}　変わっています。＜ゼ＝オード＞と正面きって{nl}　戦う聖霊機に国民の期待が高まっているのです。{nl}　彼らはそれを利用したいだけなのです。{nl}　そこを逆手にとればいいだけのことですよ」",
   "off": 6087,
   "len": 229,
   "en": "Ivel: They will make noise about it again, I'm sure, but the rights they claim never existed in the first place. There are plenty of ways out. Besides, after the recent reports, public distrust of the government has turned into criticism. The people's hopes are rising for the Spirit Mechs that fight Ze=Ode head-on. The government only wants to exploit that. All we need do is turn it back against them.",
@@ -1101,7 +1101,7 @@
  },
  {
   "id": "sce010:018AF",
-  "jp": "ユミール「イ<E1>ェル様、それならば私も共に‥‥」",
+  "jp": "ユミール「イヴェル様、それならば私も共に‥‥」",
   "off": 6319,
   "len": 32,
   "en": "Ymir: Ivel-sama, in that case I'll go with you as well...",
@@ -1112,7 +1112,7 @@
  },
  {
   "id": "sce010:018D2",
-  "jp": "イ<E1>ェル「いけません。あなたはその目で{nl}　真実を確かめるのです」",
+  "jp": "イヴェル「いけません。あなたはその目で{nl}　真実を確かめるのです」",
   "off": 6354,
   "len": 39,
   "en": "Ivel: You will not. You are to see the truth with your own eyes.",
@@ -1134,7 +1134,7 @@
  },
  {
   "id": "sce010:01913",
-  "jp": "イ<E1>ェル「そうです。＜ゼ＝オード＞がいかなるものなのか？{nl}　彼らが何をしようとしているのかを。{nl}　私のかわりにあなたに見てきてほしいのです」",
+  "jp": "イヴェル「そうです。＜ゼ＝オード＞がいかなるものなのか？{nl}　彼らが何をしようとしているのかを。{nl}　私のかわりにあなたに見てきてほしいのです」",
   "off": 6419,
   "len": 82,
   "en": "Ivel: Yes. What Ze=Ode really is, and what they are trying to do. I want you to go and see it in my place.",
@@ -1145,7 +1145,7 @@
  },
  {
   "id": "sce010:01968",
-  "jp": "ユミール「イ<E1>ェル様‥‥」",
+  "jp": "ユミール「イヴェル様‥‥」",
   "off": 6504,
   "len": 20,
   "en": "Ymir: Ivel-sama...",
@@ -1156,7 +1156,7 @@
  },
  {
   "id": "sce010:0197F",
-  "jp": "イ<E1>ェル「それにあなたなら私の代理として{nl}　評議会の人にも認めさせることができます。{nl}　私達の交渉を有利に運ぶためにも{nl}　あなたにはリーボーフェンとともに行動してほしいのです」",
+  "jp": "イヴェル「それにあなたなら私の代理として{nl}　評議会の人にも認めさせることができます。{nl}　私達の交渉を有利に運ぶためにも{nl}　あなたにはリーボーフェンとともに行動してほしいのです」",
   "off": 6527,
   "len": 110,
   "en": "Ivel: Besides, as my proxy, you can make even the Council members acknowledge you. To give our negotiations the upper hand, too, I want you to travel with the Liebhofen.",
@@ -1563,7 +1563,7 @@
  },
  {
   "id": "sce010:0221D",
-  "jp": "ユミール「置いておくほうが危険だから持って行くようにと{nl}　イ<E1>ェル様がおっしゃってね」",
+  "jp": "ユミール「置いておくほうが危険だから持って行くようにと{nl}　イヴェル様がおっしゃってね」",
   "off": 8733,
   "len": 53,
   "en": "Ymir: Ivel-sama said it's more dangerous to leave it behind, so we should take it with us.",
@@ -1607,7 +1607,7 @@
  },
  {
   "id": "sce010:022EB",
-  "jp": "ユミール「あ、これ？　イ<E1>ェル様からいただいたの。{nl}　いい香りでしょ？」",
+  "jp": "ユミール「あ、これ？　イヴェル様からいただいたの。{nl}　いい香りでしょ？」",
   "off": 8939,
   "len": 44,
   "en": "Ymir: Oh, this? Ivel-sama gave it to me. Smells nice, doesn't it?",
@@ -2355,7 +2355,7 @@
  },
  {
   "id": "sce010:031B0",
-  "jp": "イ<E1>ェル「ええ。我々のそしてアルフォリナ女王の{nl}　遺志を継いだ彼らならきっと‥‥」",
+  "jp": "イヴェル「ええ。我々のそしてアルフォリナ女王の{nl}　遺志を継いだ彼らならきっと‥‥」",
   "off": 12720,
   "len": 53,
   "en": "Ivel: Yes. They carry on our will, and Queen Alforina's. I'm sure they will...",
@@ -2377,7 +2377,7 @@
  },
  {
   "id": "sce010:0320C",
-  "jp": "イ<E1>ェル「忙しくなりますね。{nl}　あっ、そうそう。あの子からこれを」",
+  "jp": "イヴェル「忙しくなりますね。{nl}　あっ、そうそう。あの子からこれを」",
   "off": 12812,
   "len": 38,
   "en": "Ivel: We'll be busy. Oh, that's right. That girl left this for you.",
@@ -2410,7 +2410,7 @@
  },
  {
   "id": "sce010:03305",
-  "jp": "ローディス「‥‥イ<E1>ェル様、ご存じだったのですか？」",
+  "jp": "ローディス「‥‥イヴェル様、ご存じだったのですか？」",
   "off": 13061,
   "len": 35,
   "en": "Lodis: ...Ivel-sama, did you know about this?",
@@ -2421,7 +2421,7 @@
  },
  {
   "id": "sce010:0332B",
-  "jp": "イ<E1>ェル「おほほほほほ」",
+  "jp": "イヴェル「おほほほほほ」",
   "off": 13099,
   "len": 15,
   "en": "Ivel: Ohohohohoho.",
@@ -2443,7 +2443,7 @@
  },
  {
   "id": "sce010:0336B",
-  "jp": "イ<E1>ェル「私も及ばずながら援護をさせてもらいますよ」",
+  "jp": "イヴェル「私も及ばずながら援護をさせてもらいますよ」",
   "off": 13163,
   "len": 33,
   "en": "Ivel: I'll lend what humble support I can.",

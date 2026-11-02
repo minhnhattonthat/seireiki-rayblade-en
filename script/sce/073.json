@@ -34,7 +34,7 @@
  },
  {
   "id": "sce073:000A1",
-  "jp": "ミヤスコ「あっ、<E1>ォーリアの崩壊が始まりました！」",
+  "jp": "ミヤスコ「あっ、ヴォーリアの崩壊が始まりました！」",
   "off": 161,
   "len": 33,
   "en": "Miyasco: Ah, Vorlia has started to collapse!",
@@ -287,7 +287,7 @@
  },
  {
   "id": "sce073:00362",
-  "jp": "メル<E1>ィ「ねぇ、お兄ちゃん達‥‥帰ってくるよね？」",
+  "jp": "メルヴィ「ねぇ、お兄ちゃん達‥‥帰ってくるよね？」",
   "off": 866,
   "len": 34,
   "en": "Melvi: Hey, Big Brother and the others... they're coming back, right?",
@@ -342,7 +342,7 @@
  },
  {
   "id": "sce073:0048D",
-  "jp": "トウヤ「‥‥<E1>ォーリアは俺が止める。{nl}　この命に代えても‥‥」",
+  "jp": "トウヤ「‥‥ヴォーリアは俺が止める。{nl}　この命に代えても‥‥」",
   "off": 1165,
   "len": 45,
   "en": "Touya: ...I'll stop Vorlia. Even if it costs me my life...",
@@ -378,7 +378,7 @@
   "jp": "トウヤ「うおぉぉぉぉぉぉぉ‼」",
   "off": 1267,
   "len": 21,
-  "en": "Touya: Ooooooooooh!!",
+  "en": "Touya: Raaaaaaaaaah!!",
   "status": "translated",
   "style": 1,
   "text_off": 1271,
@@ -518,7 +518,7 @@
  },
  {
   "id": "sce073:00781",
-  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍で<E1>ォーリアは滅びたわ」",
+  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍でヴォーリアは滅びたわ」",
   "off": 1921,
   "len": 50,
   "en": "Wenimas: No. All of it was real. And thanks to you, Vorlia has been destroyed.",

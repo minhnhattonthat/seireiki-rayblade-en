@@ -1,7 +1,7 @@
 [
  {
   "id": "sce008:0003A",
-  "jp": "オズ<E1>ァルド「うっ‥‥」",
+  "jp": "オズヴァルド「うっ‥‥」",
   "off": 58,
   "len": 17,
   "en": "Oswald: Ugh...",
@@ -23,7 +23,7 @@
  },
  {
   "id": "sce008:00083",
-  "jp": "オズ<E1>ァルド「こ、ここ‥‥は？」",
+  "jp": "オズヴァルド「こ、ここ‥‥は？」",
   "off": 131,
   "len": 22,
   "en": "Oswald: Wh-where... is this?",
@@ -45,7 +45,7 @@
  },
  {
   "id": "sce008:000ED",
-  "jp": "オズ<E1>ァルド「怪我‥‥うっ！」",
+  "jp": "オズヴァルド「怪我‥‥うっ！」",
   "off": 237,
   "len": 23,
   "en": "Oswald: Hurt... Ugh!",
@@ -67,7 +67,7 @@
  },
  {
   "id": "sce008:0013A",
-  "jp": "オズ<E1>ァルド「‥‥すみません」",
+  "jp": "オズヴァルド「‥‥すみません」",
   "off": 314,
   "len": 20,
   "en": "Oswald: ...I'm sorry for the trouble.",
@@ -100,7 +100,7 @@
  },
  {
   "id": "sce008:001B5",
-  "jp": "オズ<E1>ァルド「おじさんはひどいな‥‥{nl}　そうか、君が見つけてくれたんだね。{nl}　うっすらと覚えているよ」",
+  "jp": "オズヴァルド「おじさんはひどいな‥‥{nl}　そうか、君が見つけてくれたんだね。{nl}　うっすらと覚えているよ」",
   "off": 437,
   "len": 59,
   "en": "Oswald: \"Mister\" makes me sound so old... I see, so you're the one who found me. I remember it, faintly.",
@@ -122,7 +122,7 @@
  },
  {
   "id": "sce008:0020F",
-  "jp": "オズ<E1>ァルド「ふふふふ‥‥」",
+  "jp": "オズヴァルド「ふふふふ‥‥」",
   "off": 527,
   "len": 19,
   "en": "Oswald: Fufufufu...",
@@ -144,7 +144,7 @@
  },
  {
   "id": "sce008:00240",
-  "jp": "オズ<E1>ァルド「‥‥申し遅れました。私は、オズ‥‥{nl}　いや、クライム・ストラースと申します」",
+  "jp": "オズヴァルド「‥‥申し遅れました。私は、オズ‥‥{nl}　いや、クライム・ストラースと申します」",
   "off": 576,
   "len": 57,
   "en": "Oswald: ...Forgive me for not introducing myself sooner. My name is Os... No, my name is Clime Strass.",
@@ -166,7 +166,7 @@
  },
  {
   "id": "sce008:00294",
-  "jp": "オズ<E1>ァルド「クライム、で結構です」",
+  "jp": "オズヴァルド「クライム、で結構です」",
   "off": 660,
   "len": 23,
   "en": "Oswald: Clime will do.",
@@ -188,7 +188,7 @@
  },
  {
   "id": "sce008:002DB",
-  "jp": "オズ<E1>ァルド「ああ、よろしくね、クルルちゃん‥‥」",
+  "jp": "オズヴァルド「ああ、よろしくね、クルルちゃん‥‥」",
   "off": 731,
   "len": 30,
   "en": "Oswald: Yes, nice to meet you, Kururu-chan...",
@@ -221,7 +221,7 @@
  },
  {
   "id": "sce008:00381",
-  "jp": "メル<E1>ィ「うっ‥‥」",
+  "jp": "メルヴィ「うっ‥‥」",
   "off": 897,
   "len": 15,
   "en": "Melvi: Uu...",
@@ -243,7 +243,7 @@
  },
  {
   "id": "sce008:003B3",
-  "jp": "メル<E1>ィ「うっ‥‥ひっく、ひっく‥‥」",
+  "jp": "メルヴィ「うっ‥‥ひっく、ひっく‥‥」",
   "off": 947,
   "len": 26,
   "en": "Melvi: Uu... *hic*, *hic*...",
@@ -265,7 +265,7 @@
  },
  {
   "id": "sce008:003F3",
-  "jp": "ヤマト「ちょっとぉ！　ニャにおんニャの子を{nl}　ニャかしてるのよ！　メル<E1>ィちゃんは{nl}　トウヤを起こしに来てくれたのよ⁈」",
+  "jp": "ヤマト「ちょっとぉ！　ニャにおんニャの子を{nl}　ニャかしてるのよ！　メルヴィちゃんは{nl}　トウヤを起こしに来てくれたのよ⁈」",
   "off": 1011,
   "len": 69,
   "en": "Yamato: Hey! Nyow what do you think you're doing, making a girl cry!? Melvi-chan came to wake you up, Touya!",
@@ -276,7 +276,7 @@
  },
  {
   "id": "sce008:0043B",
-  "jp": "メル<E1>ィ「‥‥ご、ごめんなさい‥‥ひっく‥‥」",
+  "jp": "メルヴィ「‥‥ご、ごめんなさい‥‥ひっく‥‥」",
   "off": 1083,
   "len": 32,
   "en": "Melvi: ...I-I'm sorry... *hic*...",
@@ -298,7 +298,7 @@
  },
  {
   "id": "sce008:0048C",
-  "jp": "メル<E1>ィ「‥‥ほんと？」",
+  "jp": "メルヴィ「‥‥ほんと？」",
   "off": 1164,
   "len": 18,
   "en": "Melvi: ...Really?",
@@ -320,7 +320,7 @@
  },
  {
   "id": "sce008:004D7",
-  "jp": "メル<E1>ィ「‥‥よかった」",
+  "jp": "メルヴィ「‥‥よかった」",
   "off": 1239,
   "len": 17,
   "en": "Melvi: ...Thank goodness.",
@@ -562,7 +562,7 @@
  },
  {
   "id": "sce008:00834",
-  "jp": "メル<E1>ィ「やっぱりトウヤお兄ちゃんがあのライブレードを{nl}　動かしてたんだぁ！」",
+  "jp": "メルヴィ「やっぱりトウヤお兄ちゃんがあのライブレードを{nl}　動かしてたんだぁ！」",
   "off": 2100,
   "len": 46,
   "en": "Melvi: So it really was Big Brother Touya who was moving that Rayblade!",
@@ -584,7 +584,7 @@
  },
  {
   "id": "sce008:00878",
-  "jp": "メル<E1>ィ「すごいなぁ‥‥乗ってみたいなぁ‥‥」",
+  "jp": "メルヴィ「すごいなぁ‥‥乗ってみたいなぁ‥‥」",
   "off": 2168,
   "len": 31,
   "en": "Melvi: So cool... Melvi wants to ride in it too...",
@@ -595,7 +595,7 @@
  },
  {
   "id": "sce008:0089A",
-  "jp": "トウヤ「え？　メル<E1>ィも聖霊機に興味あるのか？」",
+  "jp": "トウヤ「え？　メルヴィも聖霊機に興味あるのか？」",
   "off": 2202,
   "len": 34,
   "en": "Touya: Huh? You're into Spirit Mechs too, Melvi?",
@@ -606,7 +606,7 @@
  },
  {
   "id": "sce008:008BF",
-  "jp": "メル<E1>ィ「うん！　メル<E1>ィだって聖霊機に乗れるんだよ」",
+  "jp": "メルヴィ「うん！　メルヴィだって聖霊機に乗れるんだよ」",
   "off": 2239,
   "len": 35,
   "en": "Melvi: Yeah! Melvi can pilot a Spirit Mech too, you know!",
@@ -617,7 +617,7 @@
  },
  {
   "id": "sce008:008E5",
-  "jp": "パルディア「え？　メル<E1>ィ、それどういうこと⁈」",
+  "jp": "パルディア「え？　メルヴィ、それどういうこと⁈」",
   "off": 2277,
   "len": 29,
   "en": "Paldia: What? Melvi, what do you mean by that!?",
@@ -628,7 +628,7 @@
  },
  {
   "id": "sce008:00905",
-  "jp": "メル<E1>ィ「パパにシミュレーターに乗せてもらってたの。{nl}　メル<E1>ィには“そしつ”があるって誉めてくれたよ」",
+  "jp": "メルヴィ「パパにシミュレーターに乗せてもらってたの。{nl}　メルヴィには“そしつ”があるって誉めてくれたよ」",
   "off": 2309,
   "len": 61,
   "en": "Melvi: Papa let Melvi ride in the simulator. He praised Melvi and said Melvi has \"tal-ent.\"",
@@ -705,7 +705,7 @@
  },
  {
   "id": "sce008:00A1A",
-  "jp": "メル<E1>ィ「ねぇ、ママ。メル<E1>ィもついていっていい？」",
+  "jp": "メルヴィ「ねぇ、ママ。メルヴィもついていっていい？」",
   "off": 2586,
   "len": 30,
   "en": "Melvi: Hey, Mama. Can Melvi go with them?",
@@ -727,7 +727,7 @@
  },
  {
   "id": "sce008:00A4B",
-  "jp": "アイ「別にいいんじゃない。{nl}　メル<E1>ィちゃんのほうが詳しいかもよ」",
+  "jp": "アイ「別にいいんじゃない。{nl}　メルヴィちゃんのほうが詳しいかもよ」",
   "off": 2635,
   "len": 38,
   "en": "Ai: Why not? Melvi-chan might know more about it than we do.",
@@ -760,7 +760,7 @@
  },
  {
   "id": "sce008:00AAF",
-  "jp": "メル<E1>ィ「はぁーい。ヤマトちゃん、行こ！」",
+  "jp": "メルヴィ「はぁーい。ヤマトちゃん、行こ！」",
   "off": 2735,
   "len": 27,
   "en": "Melvi: Oka~ay. Yamato-chan, let's go!",
@@ -793,7 +793,7 @@
  },
  {
   "id": "sce008:00B25",
-  "jp": "ローディス「わざわざすまないね。{nl}　もうアイから聞いてるとは思うが、{nl}　まもなくアガルティア評議会のメンバーがやってくる。{nl}　表向きはライブレード起動に関する事情調査だが、{nl}　本当の目的は昨日伝えた提案の承諾を{nl}　とりつけることだろう。{nl}　君にはライブレードに乗った時の話をしてもらえればいい。{nl}　あとは私とイ<E1>ェル様でなんとかするよ」",
+  "jp": "ローディス「わざわざすまないね。{nl}　もうアイから聞いてるとは思うが、{nl}　まもなくアガルティア評議会のメンバーがやってくる。{nl}　表向きはライブレード起動に関する事情調査だが、{nl}　本当の目的は昨日伝えた提案の承諾を{nl}　とりつけることだろう。{nl}　君にはライブレードに乗った時の話をしてもらえればいい。{nl}　あとは私とイヴェル様でなんとかするよ」",
   "off": 2853,
   "len": 206,
   "en": "Lodis: Sorry to call you all the way here. I imagine you've heard from Ai already, but members of the Agarthian Council will be arriving shortly. Officially, it's an inquiry into Rayblade's activation, but their real aim is likely to secure agreement to the proposal I told you about yesterday. All you need to do is tell them what happened when you rode in Rayblade. Ivel-sama and I will handle the rest.",
@@ -980,7 +980,7 @@
  },
  {
   "id": "sce008:011AE",
-  "jp": "ローディス「さっきも言ったが議員達はまもなく{nl}　到着する。それからイ<E1>ェル様との会談があり、{nl}　その後となるからまだ時間はあるな。{nl}　とりあえず実際に話す前に事情を説明しようと{nl}　思ってね。もっと遅いほうがよかったかな？」",
+  "jp": "ローディス「さっきも言ったが議員達はまもなく{nl}　到着する。それからイヴェル様との会談があり、{nl}　その後となるからまだ時間はあるな。{nl}　とりあえず実際に話す前に事情を説明しようと{nl}　思ってね。もっと遅いほうがよかったかな？」",
   "off": 4526,
   "len": 138,
   "en": "Lodis: As I said, the councilors will arrive shortly. Then there's a meeting with Ivel-sama, and it'll be after that, so there's still time. I just thought I'd explain the situation before you actually talk to them. Would later have been better?",
@@ -4115,7 +4115,7 @@
  },
  {
   "id": "sce008:04D3E",
-  "jp": "メル<E1>ィ「ね、早くやろうよ」",
+  "jp": "メルヴィ「ね、早くやろうよ」",
   "off": 19774,
   "len": 18,
   "en": "Melvi: Hey, let's hurry up and play!",
@@ -4126,7 +4126,7 @@
  },
  {
   "id": "sce008:04D53",
-  "jp": "トウヤ「メル<E1>ィ⁈」",
+  "jp": "トウヤ「メルヴィ⁈」",
   "off": 19795,
   "len": 14,
   "en": "Touya: Melvi!?",
@@ -4137,7 +4137,7 @@
  },
  {
   "id": "sce008:04D64",
-  "jp": "メル<E1>ィ「えへへへへ」",
+  "jp": "メルヴィ「えへへへへ」",
   "off": 19812,
   "len": 14,
   "en": "Melvi: Ehehehehe.",
@@ -4170,7 +4170,7 @@
  },
  {
   "id": "sce008:04DE1",
-  "jp": "メル<E1>ィ「うん。メル<E1>ィ、この機械でよく遊んだから{nl}　大丈夫だよ」",
+  "jp": "メルヴィ「うん。メルヴィ、この機械でよく遊んだから{nl}　大丈夫だよ」",
   "off": 19937,
   "len": 42,
   "en": "Melvi: Uh-huh. Melvi played with this machine a lot, so it's okay!",

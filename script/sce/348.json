@@ -34,7 +34,7 @@
  },
  {
   "id": "sce348:00099",
-  "jp": "ミヤスコ「あっ、<E1>ォーリアの崩壊が始まりました！」",
+  "jp": "ミヤスコ「あっ、ヴォーリアの崩壊が始まりました！」",
   "off": 153,
   "len": 33,
   "en": "Miyasco: Ah, Vorlia has started to collapse!",
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce348:00644",
-  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍で<E1>ォーリアは滅びたわ」",
+  "jp": "ウェニマス「いいえ。すべて現実よ。{nl}　そして、あなたの活躍でヴォーリアは滅びたわ」",
   "off": 1604,
   "len": 50,
   "en": "Wenimas: No. All of it was real. And thanks to you, Vorlia has been destroyed.",

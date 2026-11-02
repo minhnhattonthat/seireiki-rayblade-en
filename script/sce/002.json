@@ -1981,7 +1981,7 @@
  },
  {
   "id": "sce002:026AB",
-  "jp": "？？？？？？「はじめまして。{nl}　私はオズ<E1>ァルド・レイオ・エグゾギルム。{nl}　このヨークで宰相をつとめさせていただいております。{nl}　以後、お見知りおきを」",
+  "jp": "？？？？？？「はじめまして。{nl}　私はオズヴァルド・レイオ・エグゾギルム。{nl}　このヨークで宰相をつとめさせていただいております。{nl}　以後、お見知りおきを」",
   "off": 9899,
   "len": 93,
   "en": "??????: A pleasure to meet you. I am Oswald Reio Exogilm. I have the honor of serving as chancellor here in York. I hope we shall be well acquainted.",
@@ -2003,7 +2003,7 @@
  },
  {
   "id": "sce002:0273D",
-  "jp": "オズ<E1>ァルド「この世界が今、危機にさらされていることは{nl}　ご存じですね？{page}　現在、このヨークで対＜ゼ＝オード＞用の切り札として{nl}　聖霊機を製造しています。{page}　他の国々は＜ゼ＝オード＞の力を過小評価して{nl}　おりまして、正直、計画は難航しているといえます」",
+  "jp": "オズヴァルド「この世界が今、危機にさらされていることは{nl}　ご存じですね？{page}　現在、このヨークで対＜ゼ＝オード＞用の切り札として{nl}　聖霊機を製造しています。{page}　他の国々は＜ゼ＝オード＞の力を過小評価して{nl}　おりまして、正直、計画は難航しているといえます」",
   "off": 10045,
   "len": 169,
   "en": "Oswald: You are aware that this world now stands in peril, yes?{page}At present, here in York, we are building Spirit Mechs as our trump card against Ze=Ode.{page}The other nations underestimate the power of Ze=Ode, and frankly, the project has run into great difficulty.",
@@ -2025,7 +2025,7 @@
  },
  {
   "id": "sce002:02808",
-  "jp": "オズ<E1>ァルド「ええ。我がヨークは技術先進国では{nl}　ありますが、残念ながら国力が高いとは{nl}　言いがたい状況です。{nl}　幸い、アガルティア王国のローディス皇太子殿下の{nl}　尽力でここまでくることができましたが、正式な部隊と{nl}　して設立するにはまだ少し時間がかかるのが現状です。{nl}　そして特に深刻なのが、聖霊機操者の不足という{nl}　問題です」",
+  "jp": "オズヴァルド「ええ。我がヨークは技術先進国では{nl}　ありますが、残念ながら国力が高いとは{nl}　言いがたい状況です。{nl}　幸い、アガルティア王国のローディス皇太子殿下の{nl}　尽力でここまでくることができましたが、正式な部隊と{nl}　して設立するにはまだ少し時間がかかるのが現状です。{nl}　そして特に深刻なのが、聖霊機操者の不足という{nl}　問題です」",
   "off": 10248,
   "len": 217,
   "en": "Oswald: Indeed. Our York is a technologically advanced nation, but regrettably, it can hardly be called a powerful one. Fortunately, thanks to the efforts of His Highness Crown Prince Lodis of the Kingdom of Agarthia, we have come this far, but it will still be some time before we can be established as an official unit. And a particularly serious problem is the shortage of Spirit Mech pilots.",
@@ -2069,7 +2069,7 @@
  },
  {
   "id": "sce002:029AB",
-  "jp": "オズ<E1>ァルド「もちろん強制はしませんよ。{nl}　ただ、聖霊機は装兵機と違い、{nl}　誰でも操れる代物ではありません。{nl}　アイ君やあなたのように、このアガルティアへ{nl}　やってきた方が聖霊機と高い同調性を{nl}　示しているのです。{nl}　そしてこれまで六名の方々すべてが好意によって{nl}　我々に協力していただいております」",
+  "jp": "オズヴァルド「もちろん強制はしませんよ。{nl}　ただ、聖霊機は装兵機と違い、{nl}　誰でも操れる代物ではありません。{nl}　アイ君やあなたのように、このアガルティアへ{nl}　やってきた方が聖霊機と高い同調性を{nl}　示しているのです。{nl}　そしてこれまで六名の方々すべてが好意によって{nl}　我々に協力していただいております」",
   "off": 10667,
   "len": 184,
   "en": "Oswald: Of course, we won't force you. However, unlike Armored Mechs, Spirit Mechs are not something just anyone can pilot. Those who have come to Agarthia, like Ai-kun and yourself, show a high degree of synchronization with Spirit Mechs. And all six people so far have cooperated with us out of goodwill.",
@@ -2344,7 +2344,7 @@
  },
  {
   "id": "sce002:02F3A",
-  "jp": "オズ<E1>ァルド「残念ながら彼には聖霊機に乗る意志は{nl}　ないようです」",
+  "jp": "オズヴァルド「残念ながら彼には聖霊機に乗る意志は{nl}　ないようです」",
   "off": 12090,
   "len": 45,
   "en": "Oswald: Regrettably, he does not seem to have any intention of piloting a Spirit Mech.",
@@ -2432,7 +2432,7 @@
  },
  {
   "id": "sce002:030CF",
-  "jp": "オズ<E1>ァルド「それでは私が陛下にご報告しておきます。{nl}　セリカ様自慢の聖霊機を見るのも悪い選択では{nl}　ありませんしね」",
+  "jp": "オズヴァルド「それでは私が陛下にご報告しておきます。{nl}　セリカ様自慢の聖霊機を見るのも悪い選択では{nl}　ありませんしね」",
   "off": 12495,
   "len": 77,
   "en": "Oswald: In that case, I shall report to Her Majesty myself. Seeing the Spirit Mech that is Celica-sama's pride and joy is hardly a bad choice, after all.",
@@ -2454,7 +2454,7 @@
  },
  {
   "id": "sce002:03136",
-  "jp": "オズ<E1>ァルド「かしこまりました、姫」",
+  "jp": "オズヴァルド「かしこまりました、姫」",
   "off": 12598,
   "len": 22,
   "en": "Oswald: As you wish, Princess.",
@@ -2729,7 +2729,7 @@
  },
  {
   "id": "sce002:03477",
-  "jp": "オズ<E1>ァルド「陛下、新たな操者候補{nl}　トウヤ・カザミが到着しました」",
+  "jp": "オズヴァルド「陛下、新たな操者候補{nl}　トウヤ・カザミが到着しました」",
   "off": 13431,
   "len": 46,
   "en": "Oswald: Your Majesty, the new pilot candidate, Touya Kazami, has arrived.",
@@ -2751,7 +2751,7 @@
  },
  {
   "id": "sce002:0350E",
-  "jp": "オズ<E1>ァルド「はっ」",
+  "jp": "オズヴァルド「はっ」",
   "off": 13582,
   "len": 13,
   "en": "Oswald: Yes, Your Majesty.",
@@ -2773,7 +2773,7 @@
  },
  {
   "id": "sce002:03530",
-  "jp": "オズ<E1>ァルド「‥‥」",
+  "jp": "オズヴァルド「‥‥」",
   "off": 13616,
   "len": 15,
   "en": "Oswald: ...",
@@ -2795,7 +2795,7 @@
  },
  {
   "id": "sce002:0355F",
-  "jp": "オズ<E1>ァルド「‥‥‥‥」",
+  "jp": "オズヴァルド「‥‥‥‥」",
   "off": 13663,
   "len": 19,
   "en": "Oswald: ......",
@@ -2817,7 +2817,7 @@
  },
  {
   "id": "sce002:0358D",
-  "jp": "オズ<E1>ァルド「陛下‥‥陛下は相変わらず御美しい‥‥{nl}　可憐でいらっしゃる」",
+  "jp": "オズヴァルド「陛下‥‥陛下は相変わらず御美しい‥‥{nl}　可憐でいらっしゃる」",
   "off": 13709,
   "len": 54,
   "en": "Oswald: Your Majesty... Your Majesty is as beautiful as ever... So lovely.",
@@ -2839,7 +2839,7 @@
  },
  {
   "id": "sce002:035DF",
-  "jp": "オズ<E1>ァルド「その長く美しい髪、白く透き通るような{nl}　肌、星空のごとく吸い込まれそうな瞳‥‥{nl}　容姿ばかりではない‥‥お優しく気品もお持ちだ」",
+  "jp": "オズヴァルド「その長く美しい髪、白く透き通るような{nl}　肌、星空のごとく吸い込まれそうな瞳‥‥{nl}　容姿ばかりではない‥‥お優しく気品もお持ちだ」",
   "off": 13791,
   "len": 96,
   "en": "Oswald: That long, beautiful hair, that pale, translucent skin, those eyes that draw one in like a starry sky... And not your looks alone... You are kind and graceful as well.",
@@ -2861,7 +2861,7 @@
  },
  {
   "id": "sce002:03665",
-  "jp": "オズ<E1>ァルド「ああ、なんと愛らしい声‥‥」",
+  "jp": "オズヴァルド「ああ、なんと愛らしい声‥‥」",
   "off": 13925,
   "len": 28,
   "en": "Oswald: Ah, what an adorable voice...",
@@ -2883,7 +2883,7 @@
  },
  {
   "id": "sce002:0369A",
-  "jp": "オズ<E1>ァルド「そのまだ幼さを残す頬のライン‥‥{nl}　無垢な瞳‥‥ふふっふふふふ‥‥」",
+  "jp": "オズヴァルド「そのまだ幼さを残す頬のライン‥‥{nl}　無垢な瞳‥‥ふふっふふふふ‥‥」",
   "off": 13978,
   "len": 56,
   "en": "Oswald: The line of those cheeks that still hold a trace of childhood... those innocent eyes... Fufu, fufufufu...",
@@ -2905,7 +2905,7 @@
  },
  {
   "id": "sce002:036F8",
-  "jp": "オズ<E1>ァルド「できることなら‥‥{nl}　陛下の時がこのまま止まって‥‥」",
+  "jp": "オズヴァルド「できることなら‥‥{nl}　陛下の時がこのまま止まって‥‥」",
   "off": 14072,
   "len": 45,
   "en": "Oswald: If only... Your Majesty's time could stop, just as you are...",
@@ -2927,7 +2927,7 @@
  },
  {
   "id": "sce002:037A4",
-  "jp": "オズ<E1>ァルド「‥‥アルフォリナ‥‥ふふっふふふふ‥‥」",
+  "jp": "オズヴァルド「‥‥アルフォリナ‥‥ふふっふふふふ‥‥」",
   "off": 14244,
   "len": 36,
   "en": "Oswald: ...Alforina... Fufu, fufufufu...",

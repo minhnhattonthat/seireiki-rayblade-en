@@ -2641,7 +2641,7 @@
  },
  {
   "id": "sce343:04FE6",
-  "jp": "メル<E1>ィ「大丈夫。メル<E1>ィやってみる」",
+  "jp": "メルヴィ「大丈夫。メルヴィやってみる」",
   "off": 20454,
   "len": 27,
   "en": "Melvi: It's okay. Melvi will give it a try.",
@@ -2652,7 +2652,7 @@
  },
  {
   "id": "sce343:05008",
-  "jp": "メル<E1>ィ「よぉーし」",
+  "jp": "メルヴィ「よぉーし」",
   "off": 20488,
   "len": 16,
   "en": "Melvi: Allll right!",
@@ -2663,7 +2663,7 @@
  },
  {
   "id": "sce343:052ED",
-  "jp": "メル<E1>ィ「どうしたのぉ？」",
+  "jp": "メルヴィ「どうしたのぉ？」",
   "off": 21229,
   "len": 19,
   "en": "Melvi: What's wrong?",
@@ -2685,7 +2685,7 @@
  },
  {
   "id": "sce343:05312",
-  "jp": "メル<E1>ィ「ううん。メル<E1>ィ、お兄ちゃんの役に立てたもん。{nl}　一緒にいられないのは残念だけど、メル<E1>ィ、{nl}　ここで待ってるね」",
+  "jp": "メルヴィ「ううん。メルヴィ、お兄ちゃんの役に立てたもん。{nl}　一緒にいられないのは残念だけど、メルヴィ、{nl}　ここで待ってるね」",
   "off": 21266,
   "len": 75,
   "en": "Melvi: Nuh-uh. Melvi got to be useful to Big Brother. It's too bad Melvi can't be with you, but Melvi will wait right here.",
@@ -2707,7 +2707,7 @@
  },
  {
   "id": "sce343:053B4",
-  "jp": "メル<E1>ィ「がんばって、みんな‥‥がんばってお兄ちゃん‥‥{nl}　がんばって‥‥」",
+  "jp": "メルヴィ「がんばって、みんな‥‥がんばってお兄ちゃん‥‥{nl}　がんばって‥‥」",
   "off": 21428,
   "len": 50,
   "en": "Melvi: Good luck, everyone... Good luck, Big Brother... Good luck...",

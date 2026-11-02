@@ -367,7 +367,7 @@
   "jp": "声（‥‥君はただ漫然と流れる時の中に身を{nl}　置いたことはあるのか？{page}　なにもかわらず、ただ同じ時だけが過ぎていく‥‥{nl}　初めは私もそれが当たり前だと思っていた。{nl}　疑問すら抱かなかった。だが、それは違った。{nl}　遠い、我等の銀河の遥か彼方の星々で{nl}　刹那に生きる人類の生態を観測していた時、{nl}　それは私の空虚な心に潤いの刻を与えてくれたよ。{nl}　己の命をかけ、戦い、勝ち取ることで生命の輝きを{nl}　見せてね。この私が抱いた心の昂ぶりは、{nl}　ごく一部の者にしか理解はされなかった。{nl}　だが、そんなことはどうでもいい。{nl}　今、こうして私は充実した時を過ごしているのだからな）",
   "off": 2059,
   "len": 361,
-  "en": "Voice: (...Have you ever lived in time that merely drifts aimlessly by?){page}(Nothing changes; only the same time passes, over and over... At first, I too thought that was natural. I never even questioned it. But I was wrong. While I was observing the ways of humanity, living their fleeting lives among the stars far, far away from our galaxy, they brought moments of moisture to my barren heart. Staking their lives, fighting, winning through, they showed me the brilliance of life. The elation I felt was understood by only a very few. But that matters not. For now, I am spending my time most fulfillingly.)",
+  "en": "Voice: (...Have you ever lived in time that merely drifts aimlessly by?){page}(Nothing changes; only the same time passes, over and over... At first, I too thought that was natural. I never even questioned it. But I was wrong. While I was observing the ways of humanity, living their fleeting lives on distant stars in the far reaches of our galaxy, they brought moments of solace to my hollow heart. Staking their lives, fighting, winning through, they showed me the brilliance of life. The elation I felt was understood by only a very few. But that matters not. For now, I am spending my time most fulfillingly.)",
   "status": "translated",
   "style": 0,
   "text_off": 2061,
@@ -430,7 +430,7 @@
  },
  {
   "id": "sce060:00AD6",
-  "jp": "声（そう、私だ。リン・カーマの馬鹿どもは{nl}　<E1>ォーリアを封印したものと思っていたようだが、{nl}　あのような場所、出ようと思えばいつでも出れた。{nl}　それをしなかったのはその必要がなかっただけのこと。{nl}　なにより、そうしておけば奴等に邪魔をされずにすむ。{page}　表面的な事柄だけを取り繕い、本質的な学習が{nl}　できない君達人類と遊ぶには好都合だったからね。{page}　‥‥で、今回はそのライブレードが人類を救う{nl}　“鍵”というワケだよ。{page}　この<E1>ォーリアを止めることのできる唯一の存在。{nl}　だから、ここまで来ることができた‥‥）",
+  "jp": "声（そう、私だ。リン・カーマの馬鹿どもは{nl}　ヴォーリアを封印したものと思っていたようだが、{nl}　あのような場所、出ようと思えばいつでも出れた。{nl}　それをしなかったのはその必要がなかっただけのこと。{nl}　なにより、そうしておけば奴等に邪魔をされずにすむ。{page}　表面的な事柄だけを取り繕い、本質的な学習が{nl}　できない君達人類と遊ぶには好都合だったからね。{page}　‥‥で、今回はそのライブレードが人類を救う{nl}　“鍵”というワケだよ。{page}　このヴォーリアを止めることのできる唯一の存在。{nl}　だから、ここまで来ることができた‥‥）",
   "off": 2774,
   "len": 317,
   "en": "Voice: (Yes, it was me. Those fools of Lin Karma seemed to think they had sealed Vorlia, but I could have left a place like that whenever I pleased. I simply had no need to. Above all, staying put kept them from interfering.){page}(It was convenient for playing with you humans, who only patch over the surface of things and never truly learn.){page}(...And this time, that Rayblade is the \"key\" to saving humanity.){page}(The only being capable of stopping this Vorlia. That's why you were able to come this far...)",
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce060:00D84",
-  "jp": "声（ライブレードを使ってこの“コア”を破壊すれば{nl}　<E1>ォーリアも私もその存在を保てなくなり、消滅する。{nl}　そしてこの世界は救われるのだ‥‥{nl}　クククク‥‥さて、そろそろ始めさせて貰ってもいいかな？）",
+  "jp": "声（ライブレードを使ってこの“コア”を破壊すれば{nl}　ヴォーリアも私もその存在を保てなくなり、消滅する。{nl}　そしてこの世界は救われるのだ‥‥{nl}　クククク‥‥さて、そろそろ始めさせて貰ってもいいかな？）",
   "off": 3460,
   "len": 126,
   "en": "Voice: (Destroy this \"Core\" with Rayblade, and neither Vorlia nor I can maintain our existence; we will vanish. And this world will be saved... Kukukuku... Now, shall we get started?)",
@@ -969,7 +969,7 @@
  },
  {
   "id": "sce060:015FE",
-  "jp": "メル<E1>ィ「メル<E1>ィもいるよ」",
+  "jp": "メルヴィ「メルヴィもいるよ」",
   "off": 5630,
   "len": 19,
   "en": "Melvi: Melvi's here too.",
@@ -1068,7 +1068,7 @@
  },
  {
   "id": "sce060:01894",
-  "jp": "<E1>ァルガ（そろそろ終わりにする時間じゃぞ）",
+  "jp": "ヴァルガ（そろそろ終わりにする時間じゃぞ）",
   "off": 6292,
   "len": 29,
   "en": "Valga: (It's about time we put an end to this, eh?)",
@@ -1365,7 +1365,7 @@
  },
  {
   "id": "sce060:01DD6",
-  "jp": "声（たしかに私は消える。{nl}　だが、コアを消滅させないかぎり、{nl}　<E1>ォーリアを止めることはできん‥‥）",
+  "jp": "声（たしかに私は消える。{nl}　だが、コアを消滅させないかぎり、{nl}　ヴォーリアを止めることはできん‥‥）",
   "off": 7638,
   "len": 64,
   "en": "Voice: (I will indeed vanish. But unless the Core is destroyed, Vorlia cannot be stopped...)",
@@ -1453,7 +1453,7 @@
  },
  {
   "id": "sce060:01F62",
-  "jp": "ヤマト「<E1>ォーリアが動いている？{nl}　いったいニャにが‥‥」",
+  "jp": "ヤマト「ヴォーリアが動いている？{nl}　いったいニャにが‥‥」",
   "off": 8034,
   "len": 40,
   "en": "Yamato: Vorlia's moving? What in the world is going on, nyow...",
@@ -1552,7 +1552,7 @@
  },
  {
   "id": "sce060:02077",
-  "jp": "トウヤ「‥‥これから<E1>ォーリアのコアを破壊する。{nl}　だが、それができるのはこのライブレードだけだ。{nl}　だから、一足先に戻っていてほしい」",
+  "jp": "トウヤ「‥‥これからヴォーリアのコアを破壊する。{nl}　だが、それができるのはこのライブレードだけだ。{nl}　だから、一足先に戻っていてほしい」",
   "off": 8311,
   "len": 83,
   "en": "Touya: ...I'm about to destroy Vorlia's Core. But only this Rayblade can do it. So I want you guys to head back ahead of me.",
@@ -2105,7 +2105,7 @@
   "jp": "トウヤ「うおぉぉぉぉぉぉぉ‼」",
   "off": 10697,
   "len": 21,
-  "en": "Touya: Ooooooooooh!!",
+  "en": "Touya: Raaaaaaaaaah!!",
   "status": "translated",
   "style": 1,
   "text_off": 10701,

@@ -100,7 +100,7 @@
  },
  {
   "id": "sce338:00180",
-  "jp": "<E1>ァルガ「‥‥おそらくは、奴等の目的がライブレードの{nl}　“コア”に変わったのじゃろ」",
+  "jp": "ヴァルガ「‥‥おそらくは、奴等の目的がライブレードの{nl}　“コア”に変わったのじゃろ」",
   "off": 384,
   "len": 55,
   "en": "Valga: ...Most likely their goal has changed to Rayblade's \"Core.\"",
@@ -122,7 +122,7 @@
  },
  {
   "id": "sce338:001E0",
-  "jp": "<E1>ァルガ「ほっほっほっ」",
+  "jp": "ヴァルガ「ほっほっほっ」",
   "off": 480,
   "len": 15,
   "en": "Valga: Hohoho.",
@@ -144,7 +144,7 @@
  },
  {
   "id": "sce338:0020B",
-  "jp": "<E1>ァルガ「この前もリシュナが言っておったじゃろ？{nl}　<E1>ォーリアへの道が開かれた今、＜ゼ＝オード＞が{nl}　すべて揃わなくてもいいかもしれぬ、と」",
+  "jp": "ヴァルガ「この前もリシュナが言っておったじゃろ？{nl}　ヴォーリアへの道が開かれた今、＜ゼ＝オード＞が{nl}　すべて揃わなくてもいいかもしれぬ、と」",
   "off": 523,
   "len": 85,
   "en": "Valga: Rishuna said so the other day, didn't she? Now that the road to Vorlia is open, they may not need every Ze=Ode in place.",
@@ -155,7 +155,7 @@
  },
  {
   "id": "sce338:00263",
-  "jp": "セリカ「ええ、覚えている‥‥！{nl}　‥‥ということは<E1>ォーリアを呼び出す活動を本格的に{nl}　再開したってこと？　そのために“コア”が‥‥」",
+  "jp": "セリカ「ええ、覚えている‥‥！{nl}　‥‥ということはヴォーリアを呼び出す活動を本格的に{nl}　再開したってこと？　そのために“コア”が‥‥」",
   "off": 611,
   "len": 91,
   "en": "Celica: Yes, I remember...! ...So that means they've seriously started working on summoning Vorlia again? And that's what the \"Core\" is for...",
@@ -210,7 +210,7 @@
  },
  {
   "id": "sce338:003D0",
-  "jp": "<E1>ァルガ「“コア”の本当の役割はそっちなんじゃ。{nl}　しかし、そんなことをすれば、ゴーデリウスに{nl}　過度の負担がかかる‥‥そこまでするということは‥‥」",
+  "jp": "ヴァルガ「“コア”の本当の役割はそっちなんじゃ。{nl}　しかし、そんなことをすれば、ゴーデリウスに{nl}　過度の負担がかかる‥‥そこまでするということは‥‥」",
   "off": 976,
   "len": 93,
   "en": "Valga: That is the \"Core's\" true role. But doing that would put excessive strain on Goderius... For them to go that far...",
@@ -232,7 +232,7 @@
  },
  {
   "id": "sce338:0044A",
-  "jp": "<E1>ァルガ「うむ。攻めるなら今かもしれぬが、{nl}　こちらも無傷というワケではない。{nl}　焦ったところでなにもないからな」",
+  "jp": "ヴァルガ「うむ。攻めるなら今かもしれぬが、{nl}　こちらも無傷というワケではない。{nl}　焦ったところでなにもないからな」",
   "off": 1098,
   "len": 65,
   "en": "Valga: Mm. Now might be the time to strike, but we're not exactly unscathed ourselves, eh. Nothing to be gained by rushing.",
@@ -254,7 +254,7 @@
  },
  {
   "id": "sce338:004A9",
-  "jp": "<E1>ァルガ「心配はいらぬ。今は眠っているが、すぐに{nl}　回復するじゃろう。しかし、ああいう無茶をするような{nl}　娘ではないと思っていたが‥‥」",
+  "jp": "ヴァルガ「心配はいらぬ。今は眠っているが、すぐに{nl}　回復するじゃろう。しかし、ああいう無茶をするような{nl}　娘ではないと思っていたが‥‥」",
   "off": 1193,
   "len": 83,
   "en": "Valga: No need to worry. She's asleep now, but she'll recover soon enough. Still, I didn't take her for the kind of girl to pull such a reckless stunt...",
@@ -485,7 +485,7 @@
  },
  {
   "id": "sce338:008A9",
-  "jp": "シャール「‥‥<E1>ォーリアの発動した結果。{nl}　そこにあるのではありませんか？」",
+  "jp": "シャール「‥‥ヴォーリアの発動した結果。{nl}　そこにあるのではありませんか？」",
   "off": 2217,
   "len": 50,
   "en": "Sharl: ...The result of Vorlia's activation. Doesn't it lie there?",

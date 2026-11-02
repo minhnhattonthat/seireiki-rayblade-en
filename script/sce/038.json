@@ -111,7 +111,7 @@
  },
  {
   "id": "sce038:00220",
-  "jp": "ベルンスト「私は今、デビッシュ博士とは{nl}　別の思惑で行動しています。そして、あなた方とは{nl}　<E1>ォーリアを倒すということで目的が一致しています」",
+  "jp": "ベルンスト「私は今、デビッシュ博士とは{nl}　別の思惑で行動しています。そして、あなた方とは{nl}　ヴォーリアを倒すということで目的が一致しています」",
   "off": 544,
   "len": 90,
   "en": "Bernst: I am currently acting on intentions separate from Dr. Debish's. And with you, I share the same goal: to defeat Vorlia.",
@@ -133,7 +133,7 @@
  },
  {
   "id": "sce038:0028D",
-  "jp": "ベルンスト「意外ですか？　そうかもしれませんね。{page}　私は＜ゼ＝オード＞プロジェクトに参加して以来、{nl}　<E1>ォーリアの復活に研究者として{nl}　すべてをなげうってきたのですからね。{nl}　ですが、ある日、知ってしまったのですよ。{nl}　<E1>ォーリアが人類の意識を統合するためだけの{nl}　装置であることを。{nl}　デビッシュはそれを私達にすら知らせず、{nl}　研究をつづけさせていたことをね。{nl}　まぁ、正直なところ、私は気に入らないのですよ。{nl}　自分自身の意志とは関係なく、{nl}　その存在を無理矢理消されてしまうことがね」",
+  "jp": "ベルンスト「意外ですか？　そうかもしれませんね。{page}　私は＜ゼ＝オード＞プロジェクトに参加して以来、{nl}　ヴォーリアの復活に研究者として{nl}　すべてをなげうってきたのですからね。{nl}　ですが、ある日、知ってしまったのですよ。{nl}　ヴォーリアが人類の意識を統合するためだけの{nl}　装置であることを。{nl}　デビッシュはそれを私達にすら知らせず、{nl}　研究をつづけさせていたことをね。{nl}　まぁ、正直なところ、私は気に入らないのですよ。{nl}　自分自身の意志とは関係なく、{nl}　その存在を無理矢理消されてしまうことがね」",
   "off": 653,
   "len": 302,
   "en": "Bernst: Surprised? Perhaps you are.{page}Ever since I joined the Ze=Ode project, I have thrown everything I have as a researcher into Vorlia's revival. But one day, I learned that Vorlia was a device for no other purpose than unifying the consciousness of mankind. And that Debish had kept us researching without even telling us. Well, to be honest, I don't care for it. Having my existence forcibly erased, regardless of my own will.",
@@ -155,7 +155,7 @@
  },
  {
   "id": "sce038:003E3",
-  "jp": "ベルンスト「ええ。信じてもらえないかもしれませんが、{nl}　私の目的は“<E1>ォーリアの破壊”です。{nl}　まずは復活させてからでないと意味がないのですよ。{nl}　そのためにはより多くの感情エネルギーが{nl}　必要だったのです。{page}　そして“憎悪”という最も強く、そして創りだし{nl}　易い感情を誘発させ、蓄積していったのです。{nl}　その仮の器が我々の＜ゼ＝オード＞聖霊機なのですよ。{page}　装兵機や聖霊機がプラーナで出力が変化するのは{nl}　人の意志や感情をエネルギーとすることができる{nl}　＜ゼ＝オード＞聖霊機の模倣品だからなのです」",
+  "jp": "ベルンスト「ええ。信じてもらえないかもしれませんが、{nl}　私の目的は“ヴォーリアの破壊”です。{nl}　まずは復活させてからでないと意味がないのですよ。{nl}　そのためにはより多くの感情エネルギーが{nl}　必要だったのです。{page}　そして“憎悪”という最も強く、そして創りだし{nl}　易い感情を誘発させ、蓄積していったのです。{nl}　その仮の器が我々の＜ゼ＝オード＞聖霊機なのですよ。{page}　装兵機や聖霊機がプラーナで出力が変化するのは{nl}　人の意志や感情をエネルギーとすることができる{nl}　＜ゼ＝オード＞聖霊機の模倣品だからなのです」",
   "off": 995,
   "len": 323,
   "en": "Bernst: Yes. You may not believe me, but my goal is \"the destruction of Vorlia.\" And it is meaningless unless it is first revived. For that, a greater amount of emotional energy was required.{page}So we provoked and stored up \"hatred,\" the strongest emotion, and the easiest to create. Its temporary vessels are our Ze=Ode Spirit Mechs.{page}The reason Armored Mechs and Spirit Mechs change their output with Prana is that they are imitations of the Ze=Ode Spirit Mechs, which can turn human will and emotion into energy.",
@@ -265,7 +265,7 @@
  },
  {
   "id": "sce038:007B1",
-  "jp": "ベルンスト「そのおかげであなたはこの時代に生をうけた。{nl}　そして、＜ゼ＝オード＞そして<E1>ォーリア打倒のために{nl}　その才能を存分に発揮している‥‥{nl}　すべては“運命”のなせる業だとは思いませんか？{nl}　私が他の四人よりも2年先に“跳んで”きて、{nl}　下準備を整えることができたのも」",
+  "jp": "ベルンスト「そのおかげであなたはこの時代に生をうけた。{nl}　そして、＜ゼ＝オード＞そしてヴォーリア打倒のために{nl}　その才能を存分に発揮している‥‥{nl}　すべては“運命”のなせる業だとは思いませんか？{nl}　私が他の四人よりも2年先に“跳んで”きて、{nl}　下準備を整えることができたのも」",
   "off": 1969,
   "len": 179,
   "en": "Bernst: And thanks to that, you were born in this era. And now you're making full use of your talents to defeat Ze=Ode and Vorlia... Don't you think it's all the work of \"fate\"? Even my being able to \"jump\" here two years before the other four and lay the groundwork.",
@@ -298,7 +298,7 @@
  },
  {
   "id": "sce038:008BD",
-  "jp": "ベルンスト「もっと論理的に考えてください。{nl}　<E1>ォーリアと戦うということはデビッシュとも戦うこと。{nl}　その戦いに私も協力すると言っているのですよ？{nl}　私のガイオゾンとあなたのライブレードが協力すれば{nl}　その勝率も上がるのですよ？{nl}　それに今ここで私が嘘をつく利点もありません」",
+  "jp": "ベルンスト「もっと論理的に考えてください。{nl}　ヴォーリアと戦うということはデビッシュとも戦うこと。{nl}　その戦いに私も協力すると言っているのですよ？{nl}　私のガイオゾンとあなたのライブレードが協力すれば{nl}　その勝率も上がるのですよ？{nl}　それに今ここで私が嘘をつく利点もありません」",
   "off": 2237,
   "len": 167,
   "en": "Bernst: Please think more logically. Fighting Vorlia means fighting Debish as well. I'm telling you I'll help in that fight. If my Gaiozon and your Rayblade work together, your odds of winning go up. Besides, I gain nothing by lying here now.",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce038:00967",
-  "jp": "<E1>ァルガ「‥‥その男の言っとることは本心じゃ。{nl}　裏切るつもりもないようじゃな」",
+  "jp": "ヴァルガ「‥‥その男の言っとることは本心じゃ。{nl}　裏切るつもりもないようじゃな」",
   "off": 2407,
   "len": 51,
   "en": "Valga: ...That man means what he says. Nor does he seem to intend betrayal, eh.",
@@ -331,7 +331,7 @@
  },
  {
   "id": "sce038:009F6",
-  "jp": "<E1>ァルガ「いかにも。これにはこういう使い方もあるぞい」",
+  "jp": "ヴァルガ「いかにも。これにはこういう使い方もあるぞい」",
   "off": 2550,
   "len": 32,
   "en": "Valga: Indeed. They have uses like this too, you see.",
@@ -342,7 +342,7 @@
  },
  {
   "id": "sce038:00A19",
-  "jp": "リシュナ「きゃっ！　<E1>、<E1>ァルガ⁉」",
+  "jp": "リシュナ「きゃっ！　ヴ、ヴァルガ⁉」",
   "off": 2585,
   "len": 23,
   "en": "Rishuna: Eek! V-Valga!?",
@@ -353,7 +353,7 @@
  },
  {
   "id": "sce038:00A3A",
-  "jp": "<E1>ァルガ「ううっ‥‥たかが前垂れをめくったぐらいで{nl}　ぐーぱんちはなかろうに‥‥」",
+  "jp": "ヴァルガ「ううっ‥‥たかが前垂れをめくったぐらいで{nl}　ぐーぱんちはなかろうに‥‥」",
   "off": 2618,
   "len": 51,
   "en": "Valga: Ugh... All I did was flip up your apron flap, and you sock me one? Hardly called for, eh...",
@@ -760,7 +760,7 @@
  },
  {
   "id": "sce038:014AA",
-  "jp": "メル<E1>ィ「お兄ちゃん、ちょっとメル<E1>ィに考えがあるの。{nl}　だから勝手に動くね」",
+  "jp": "メルヴィ「お兄ちゃん、ちょっとメルヴィに考えがあるの。{nl}　だから勝手に動くね」",
   "off": 5290,
   "len": 49,
   "en": "Melvi: Big Brother, Melvi has an idea. So Melvi's gonna move on her own.",
@@ -870,7 +870,7 @@
  },
  {
   "id": "sce038:0177A",
-  "jp": "<E1>ァルガ「うむ！」",
+  "jp": "ヴァルガ「うむ！」",
   "off": 6010,
   "len": 15,
   "en": "Valga: Mm!",
@@ -892,7 +892,7 @@
  },
  {
   "id": "sce038:017CB",
-  "jp": "<E1>ァルガ「や、やはり、グラウザーの意志に反しての行動は{nl}　ちと、無理が‥‥」",
+  "jp": "ヴァルガ「や、やはり、グラウザーの意志に反しての行動は{nl}　ちと、無理が‥‥」",
   "off": 6091,
   "len": 53,
   "en": "Valga: A-as I thought, acting against Grauzer's will is a bit much...",
