@@ -14,9 +14,15 @@ def test_scene_list_well_formed():
     assert len({r["name"] for r in rows}) == len(rows)
     for r in rows:
         assert None not in r and None not in r.values(), r["name"]
-        assert -1 <= int(r["scene"]) < 448
+        if r["scene"].startswith("c"):  # cNN[+HEX]: New Game calls resident sub NN (warp.py)
+            sub, _, entry = r["scene"][1:].partition("+")
+            entry, _, delay = entry.partition("@")
+            assert 0 <= int(sub) < 70 and (not entry or int(entry, 16) >= 0) and (not delay or int(delay) >= 0)
+        else:
+            assert -1 <= int(r["scene"]) < 448
         if r["stop_op"]:
-            assert 0 <= int(r["stop_op"], 16) < 256
+            op, _, arg = r["stop_op"].partition("/")
+            assert 0 <= int(op, 16) < 256 and (not arg or 0 <= int(arg, 16) < 256)
         for step in r["route"].lstrip("!").split(";"):
             if step.strip():
                 n, keys = step.split()

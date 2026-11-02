@@ -153,6 +153,38 @@ def test_bank_relocation_resolves_every_entry():
 
 
 @needs_disc
+def test_resident_relocation_calls_the_new_text():
+    """Resident subs through the new table: unedited ones stay put; an edited one is the old sub byte for byte
+    except each edited text op, now `03 -> stub` `01 -> past the old op`, the stub = old op head + text + FF 06."""
+    import extract
+    exe = insert.Put((TREE / insert.EXE_NAME).read_bytes())
+    res = insert.res_edits(marker=True)
+    assert res
+    insert.bank_patch(exe, {}, [], res)
+    new = bytes(exe.buf)
+    u32 = lambda a: int.from_bytes(new[insert.xo(a):insert.xo(a) + 4], "little")  # noqa: E731
+    s16 = lambda d, a: int.from_bytes(d[a:a + 2], "little", signed=True)  # noqa: E731
+    t = u32(insert.RES_PTR)
+    for i, addr, rec in extract.resident_records():
+        a = (t + 4 * i + u32(t + 4 * i)) & 0xFFFFFFFF
+        if i not in res:
+            assert a == addr, f"sub {i} moved without an edit"
+            continue
+        sub = new[insert.xo(a):]
+        rest = bytearray(sub[:len(rec)])
+        for off, body in res[i].items():
+            start, end = vm.text_op(rec, off)
+            assert sub[off] == 0x03 and sub[off + 3] == 0x01
+            stub = off + 1 + s16(sub, off + 1)
+            assert off + 3 + 1 + s16(sub, off + 4) == end + 1
+            head = start - off
+            assert sub[stub:stub + head] == rec[off:start]
+            assert sub[stub + head:stub + head + len(body) + 2] == body + b"\xff\x06"
+            rest[off:off + 6] = rec[off:off + 6]
+        assert bytes(rest) == rec, f"sub {i}: bytes outside the edited ops changed"
+
+
+@needs_disc
 def test_bmess_rebuild_identity_and_growth():
     """D_BMESS: no edits = same bytes; every unit grown keeps the walk (same units, same field targets)."""
     import bmess

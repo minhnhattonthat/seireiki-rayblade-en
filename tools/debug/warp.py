@@ -44,9 +44,18 @@ def run(row, cue, out, title):
     menu = row["route"].startswith("!")  # "!" = title-screen route of its own (Continue etc.): no New Game, no warp
     pre = ("" if title else "5400 -") if menu else (FROM_TITLE if title else BOOT)
     route = ";".join(x for x in (pre, row["route"].lstrip("!")) if x.strip())
+    # "c58" / "c58+33B[@300]": New Game calls resident sub-script 58 (warp.lua CALL), moving to offset 0x33B (ENTRY)
+    # 300 frames after the sub starts (ENTRY_F)
+    call = row["scene"].startswith("c")
+    scene = "-1" if call else row["scene"]
     cmd = [sys.executable, "-X", "utf8", str(Path(SKILL) / "scripts/emu.py"), str(cue), "--out", str(d),
-           "--route-str", route, "--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"SCENE={row['scene']}",
+           "--route-str", route, "--script", str(ROOT / "tools/debug/warp.lua"), "--var", f"SCENE={scene}",
            "--state-out", str(ROOT / f"work/states/{name}.sstate"), "--shot-every", "300", "--timeout", "900"]
+    if call:
+        sub, _, entry = row["scene"][1:].partition("+")
+        entry, _, delay = entry.partition("@")
+        cmd += ["--var", f"CALL={int(sub)}"] + (["--var", f"ENTRY=0x{entry}"] if entry else [])
+        cmd += ["--var", f"ENTRY_F={int(delay)}"] if delay else []
     if title:
         cmd += ["--state-in", str(TITLE_STATE)]
     if row["ep"].strip():
@@ -55,7 +64,8 @@ def run(row, cue, out, title):
         cmd += ["--var", "FLAGS={" + row["flags"] + "}"]
     for k in ("stop_op", "stop_after", "stop_n", "title"):
         if row[k].strip():
-            cmd += ["--var", f"{k.upper()}={row[k]}"]
+            v, _, arg = row[k].partition("/")  # stop_op "0x78/C0": op 78 whose next byte is C0 (warp.lua STOP_ARG)
+            cmd += ["--var", f"{k.upper()}={v}"] + (["--var", f"STOP_ARG=0x{arg}"] if arg else [])
     if row["post"].strip():
         cmd += ["--var", f"POST='{row['post']}'"]
     every, _, keys = (row["mash"] or "0").partition(":")  # "40" or "40:circle+start"

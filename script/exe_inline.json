@@ -5,7 +5,7 @@
   "addr": 2147558656,
   "len": 17,
   "en": "",
-  "status": "todo",
+  "status": "data",
   "notes": "inline EXE string (no pointer table): confirm in the marker build"
  }
 ]

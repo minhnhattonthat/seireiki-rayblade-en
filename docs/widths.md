@@ -15,6 +15,7 @@ English budget in characters *is* the glyph budget.
 | Dialogue, same box, marker lines (style 1/2 with portrait args) | chapters | **30** | 3 | 90 | `work/qa/marker_all/*.png`: a 30-char marker fills the line to the arrow (`[00208] quick brown fox jumps`) |
 | Choice list (78 C0 items, one per `{nl}`, 113 blocks) | dialogue box, e.g. scene 90 bridge talk | **30** per item, incl. the leading space (cursor indent) | 3 items | | `work/qa/probe_choice/zoom.png` (probe `work/qa/probe_choice.tsv`, `warp.py choice_090`, frame 8700): the highlight bar is x 64..304 = 30 glyphs; a 41-char item wraps and pushes the list out of the box. Keep the leading space and ≤ 29 letters after it |
 | Battle message (D_BMESS, `script/bmess.json`; band under the attack cut-in) | battle animations | **36** | **3** | 108 | `work/qa/probe_bm/f000920.png` (probe `work/qa/probe_bm.tsv`, first battle enemy phase): a 36-letter line fills x 33..317; **no automatic wrap** — a 60-digit line overwrote itself — so break every line with `{nl}` at ≤ 36 |
+| Yamato's affection hints (`script/resident.json`, 11 lines, sub 58 `7B 12 00 78 00`) | heroine status screen | **30** (assumed: dialogue-box op; not reached in-game yet) | 3 | | lines carry the `ヤマト「..{nl}　..` name-tag layout: keep `{nl}` breaks, ≤ 30 per line incl. the indent |
 | Menu rows, item/skill/name lists (EXE message bank) | system, shop, battle unit menu | see "Menu geometry" below | | | insertable since 2026-11-03 (bank relocated past the EXE end, docs/re/disc.md); probe one field with `--override` on a `bankGG:KKK` id |
 
 Box geometry, for reference: the dialogue window's text area starts at x≈50 (right of the portrait) and the
@@ -22,11 +23,11 @@ right edge is x≈308; 30 glyphs × 8 px = 240 px, so a 30-char line ends 8–10
 measured on `work/qa/probe1/story_S01/final.png`: line 1 x=52..302, line 3 ends at x=299 with the page arrow
 after it.
 
-## Menu geometry measured from shots (provisional, EXE-bank text is not insertable yet)
+## Menu geometry measured from shots
 
-These come from the window pixels in existing shots, not from a probe build, because those strings live in the
-EXE message bank and cannot be re-inserted until they are relocated (docs/status.md, next step 2). Read them as
-"how much room the window leaves", then confirm with a probe once bank insertion exists.
+These come from the window pixels in shots (marker bank strings fill exactly their Japanese pixel width and fit
+in every menu shot). Read them as "how much room the window leaves"; probe a field with `--override bankGG:KKK`
+before using more than the Japanese width.
 
 | Field | Shot | Room (px) | Chars at 8 px |
 |---|---|---|---|

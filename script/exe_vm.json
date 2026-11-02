@@ -7,7 +7,8 @@
   "text_len": 15,
   "len": 18,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:0692 (translate that one)"
  },
  {
   "id": "exevm:80012517",
@@ -17,7 +18,8 @@
   "text_len": 64,
   "len": 67,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:06AA (translate that one)"
  },
  {
   "id": "exevm:80012560",
@@ -27,7 +29,8 @@
   "text_len": 48,
   "len": 51,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:06F3 (translate that one)"
  },
  {
   "id": "exevm:80012599",
@@ -37,7 +40,8 @@
   "text_len": 56,
   "len": 59,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:072C (translate that one)"
  },
  {
   "id": "exevm:800125DA",
@@ -47,7 +51,8 @@
   "text_len": 57,
   "len": 60,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:076D (translate that one)"
  },
  {
   "id": "exevm:8001261C",
@@ -57,6 +62,7 @@
   "text_len": 62,
   "len": 65,
   "en": "",
-  "status": "todo"
+  "status": "data",
+  "notes": "same bytes as res58:07AF (translate that one)"
  }
 ]

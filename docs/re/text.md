@@ -91,7 +91,15 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
   EXE end and repoints the root (disc.md "EXE message bank relocated").
 - **Resident system script** in the EXE at RAM 0x80010374: 70 self-relative sub-scripts (archive layout). Only
   sub-script 58 (0x80015270 = Yamato's affection hints) and sub 7 hold 78-text blocks; the menus are drawn from
-  the message bank via op A3.
+  the message bank via op A3. Sub 58 is the heroine status/affection screen (`warp.py res58_status`); story
+  scenes 16/17/19/25/31/44 call it (`0C 3A`) after setting flags 1E and 70-77; the hint branch (0x33B..) is not
+  reached from the New Game warp (needs real affection state). Insertion (`insert.res_blob`, 11 lines): an edited
+  sub is copied after the relocated bank behind a new 70-entry table (RES_PTR 0x80010370 repointed, the other
+  entries point back at the old subs); each edited text op becomes `03 <stub>` `01 <past the old op>` and the
+  stub `78 .. text FF 06` goes at the copy's end, so no offset inside the sub moves (sub 58 mixes code and
+  layout tables). Structural test `test_resident_relocation_calls_the_new_text`; the relocated sub 58 runs
+  in-game (status screen draws, marker build). Sub 7 blocks and the sub 58 tail table are status `data`; the
+  EXE VM / inline entries are the same bytes as sub 58's (status `data`, translate the resident entry).
 - **EXE VM region** 0x800124E0-0x800126E0: the same VM bytecode inline in the data section — the six Yamato
   affection-hint lines (`01 <off> 7B 12 00 78 00 text FF` records).
 - **EXE inline strings** (debug menu ロード/セーブ/Mロード/Mセーブ/全体PUT/全体更新, P: R: W: A:, Yamato hints):
@@ -108,7 +116,7 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
   jump op embedded before its entries (the game would read garbage there; kept as is).
   Insertion raises the stride to 0x3FF8 (block 0xFFE0) and the output buffer to 0x800 (`insert.bmess_exe`).
   Verified by a RAM dump during the first battle: the out buffer holds the marker lines of slot 0x47's units.
-  The first battle shows no quip box, so the battle-message box width is still unmeasured.
+  Box width measured on the enemy-phase cut-in (docs/widths.md: 36/line, no wrap).
 - **D_SYSTEM** holds character/unit/weapon name tables (トウヤ x41) — not extracted yet.
 - D_SCE slot 447: 63 text blocks (names/terms list); slot 2 is the chapter dispatcher + dev chapter-select menu.
 - Graphics text: see graphics.md.

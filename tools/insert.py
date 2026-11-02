@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import arc  # noqa: E402
 import bmess  # noqa: E402
+import extract  # noqa: E402
 import font_en  # noqa: E402
 import patch  # noqa: E402
 import vm  # noqa: E402
@@ -261,8 +262,51 @@ def bank_edits(marker=False, override=None):
     return out
 
 
-def bank_patch(exe, edits, report):
-    """Write the relocated bank, the heap-init hook and the bigger EXE size into `exe` (a Put)."""
+# Resident system script (docs/re/flow.md): `*RES_PTR` -> 70 self-relative u32s -> sub-scripts the VM runs in
+# place (op `0C n` calls sub n; all ~20 readers load the table through RES_PTR). An edited sub is copied byte for
+# byte after the bank, behind a new table whose other entries point back at the old subs. In the copy each edited
+# text op becomes `03 <call stub>` `01 <jump past the old op>` and the stubs (`78 .. <English> FF 06`) go at its
+# end, so no offset inside the sub moves: sub 58 mixes bytecode with layout tables the decoder cannot tell apart.
+RES_PTR = 0x80010370
+
+
+def res_edits(marker=False, width=30, override=None):
+    """{sub: {text-op offset: body bytes}} for the resident text (Yamato's affection hints, sub 58)."""
+    out, override = {}, override or {}
+    for e in load("resident.json"):
+        if e["status"] == "data":
+            continue
+        text = override.get(e["id"]) or e["en"] or (marker_text(e["off"], width) if marker else "")
+        if text:
+            out.setdefault(e["sub"], {})[e["off"]] = EN.encode(text)
+    return out
+
+
+def res_blob(edits, base, report):
+    """New resident table at `base` + the rebuilt subs after it (bytes, 4-aligned)."""
+    recs = extract.resident_records()
+    n = len(recs)
+    blob = bytearray(4 * n)
+    s16 = lambda v: (v & 0xFFFF).to_bytes(2, "little")  # noqa: E731
+    for i, addr, rec in recs:
+        if i in edits:
+            new = bytearray(rec)
+            for off, body in sorted(edits[i].items()):
+                start, end = vm.text_op(rec, off)
+                if rec[off] != 0x78 or end + 1 - off < 6:
+                    raise SystemExit(f"resident sub {i}: {off:#x} is not a text op with room for call + jump")
+                new[off:off + 6] = b"\x03" + s16(len(new) - off - 1) + b"\x01" + s16(end + 1 - (off + 3) - 1)
+                new += rec[off:start] + body + b"\xff\x06"
+            addr = base + len(blob)
+            blob += new + bytes(-len(new) % 4)
+            report.append(f"resident sub {i}: {len(rec)} -> {len(new)} bytes at {addr:#x}")
+        blob[4 * i:4 * i + 4] = ((addr - (base + 4 * i)) & 0xFFFFFFFF).to_bytes(4, "little")
+    return blob
+
+
+def bank_patch(exe, edits, report, res=None):
+    """Write the relocated bank (and the resident script when `res` has edits), the heap-init hook and the
+    bigger EXE size into `exe` (a Put)."""
     rd = lambda a: int.from_bytes(exe.orig[xo(a):xo(a) + 4], "little")  # noqa: E731
     root = rd(BANK_PTR)
     hook = heap_hook(0)                        # length only; re-made with the real heap base below
@@ -293,6 +337,10 @@ def bank_patch(exe, edits, report):
         blob[4 * g:4 * g + 4] = ((tt - (new_root + 4 * g)) & 0xFFFFFFFF).to_bytes(4, "little")
     if set(edits) - used:
         raise SystemExit(f"bank: {len(set(edits) - used)} edited strings are not in any group table")
+    if res:
+        res_at = new_root + len(blob)
+        blob += res_blob(res, res_at, report)
+        exe(exe.buf, xo(RES_PTR), res_at.to_bytes(4, "little"), "resident script table pointer")
     end = new_root + len(blob)
     heap = (end + 0x7FF) & ~0x7FF
     size = (heap - EXE_BASE + 0x7FF) & ~0x7FF  # PS-X EXE text size is whole sectors
@@ -362,9 +410,9 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
         exe(exe.buf, off, new_ins, "script buffer 0x8000 -> 0xFFF0")
     if bm:
         bmess_exe(exe)
-    bank = bank_edits(marker, override)
-    if bank:
-        bank_patch(exe, bank, report)
+    bank, res = bank_edits(marker, override), res_edits(marker, width, override)
+    if bank or res:
+        bank_patch(exe, bank, report, res)
     font_en.patch(exe.buf, exe)
     if exe.log and bytes(exe.buf) != exe.orig:
         files[EXE_NAME] = bytes(exe.buf)

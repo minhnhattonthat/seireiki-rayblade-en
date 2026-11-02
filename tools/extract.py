@@ -41,6 +41,8 @@ BANK_GROUPS = 22
 # Groups 12-21 are struct tables, and these entries of the text groups are tables too (`ぁB　　おB..` = u16 pairs):
 # status "data", never translated or moved.
 BANK_DATA = {"bank01:034", "bank08:030"}
+# Resident blocks that are tables decoding as text (sub 7: A{ctl}C rows; sub 58 tail: glyph/coordinate table).
+RES_DATA = {"res07:0EC6", "res07:0EEB", "res58:1190"}
 CTRL = re.compile(r"\{(?:\w+)(?::[0-9A-F]*)?\}|\[[0-9A-F]{2}\]")
 JP = re.compile(r"[\u3000-\u303f\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\u2025\u2026\uff00-\uffef]")
 
@@ -117,7 +119,22 @@ def resident_entries():
         out += [entry(f"res{i:02d}:{op:04X}", rec, op, a, b,
                       {"sub": i, "sub_addr": addr, "text_addr": addr + a, "text_len": b - a})
                 for op, a, b in texts]
+    for e in out:
+        if e["id"] in RES_DATA:
+            e["status"] = "data"
     return out
+
+
+def mark_dups(entries, res):
+    """EXE VM / inline entries whose bytes are a resident block's text (the same bytes, inside sub 58): status
+    data, translated and inserted through the resident entry."""
+    spans = [(r["text_addr"], r["text_addr"] + r["text_len"], r["id"]) for r in res]
+    for e in entries:
+        a = e.get("text_addr", e["addr"])
+        hit = next((rid for s, t, rid in spans if s < a + e.get("text_len", e["len"]) and a < t), None)
+        if hit:
+            e["status"], e["notes"] = "data", f"same bytes as {hit} (translate that one)"
+    return entries
 
 def bank_entries():
     """Strings of the EXE message bank. Group g's table is BANK_ROOT + u32; entry k is at
@@ -257,10 +274,11 @@ def dump(force=False):
         p.write_text(json.dumps(merged, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
         n += len(merged)
     bank, empty = bank_entries()
-    for name, entries in (("resident.json", resident_entries()),
+    res = resident_entries()
+    for name, entries in (("resident.json", res),
                           ("exe_bank.json", bank),
-                          ("exe_inline.json", inline_entries(bank)),
-                          ("exe_vm.json", exe_vm_entries()),
+                          ("exe_inline.json", mark_dups(inline_entries(bank), res)),
+                          ("exe_vm.json", mark_dups(exe_vm_entries(), res)),
                           ("bmess.json", bmess_entries())):
         p = SCRIPT / name
         if p.exists() and not force:

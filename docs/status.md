@@ -2,10 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (marker build + engine spike). D_SCE side done: missed text recovered, VM grammar (branch,
-  trailing-table, switch, variable-length forms) audited from the handlers, script buffer raised to 0xFFF0,
-  115/115 scenes + 30-box flow check on the marker build. Left for phase 5: EXE menu bank insertion + menu and
-  choice widths, D_BMESS battle messages (Next 1-2), then phase 6 translation.
+- **Phase:** 5 done (2026-11-03); next is 6 (translate). Every text source is inserted in the marker build:
+  D_SCE (49k), EXE message bank (1,230 text + 608 data), D_BMESS battle messages (5,473), resident sub 58
+  (11 Yamato hints). Width gate in docs/widths.md covers dialogue, choice, battle band, menus, hints.
 - **Done:**
   - Step 0: PCSX-Redux in `tools/pcsx/`, SCPH-5500 BIOS, mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/`, armips 0.11
     in `tools/armips/` (all gitignored; re-fetch: `fetch_emu.py pcsx|psx-bios`, `gh release download` from
@@ -60,18 +59,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     S22 and S30 stop short on the original disc too (their scenes end first). Normal tour 115/115.
   - **Script buffer raised 0x8000 -> 0xFFF0** (one EXE immediate, logged in build/writes.txt); heap has
     480+ KB free even mid-battle; a 0x9690-byte slot 1 verified in-game (docs/re/disc.md).
+  - **EXE message bank** (menus, names): relocated past the EXE end behind a new root, heap moved above it
+    (docs/re/disc.md); 13 menu scenes verified with marker text. Groups 12-21 + 2 table entries = status data.
+  - **D_BMESS**: `tools/bmess.py` walker, extract + insert with re-aimed offsets, record stride 0x3FF8, output
+    buffer 0x800; verified in a battle (docs/re/text.md).
+  - **Resident sub 58** (Yamato's affection hints): copied after the bank with call stubs (docs/re/text.md);
+    `warp.py res58_status` shows the relocated sub running; structural test in tests/test_patch.py.
+  - Marker regression tour 2026-11-03 (`warp.py --all --title`): **118/118** reached, sheets
+    `work/qa/marker_all/sheet*.png`. Choice rows now stop on `0x78/C0` (warp.lua STOP_ARG; the 7A runs within
+    a frame) and a STOP halts the mash so the shot holds the box.
+  - Width gate complete (docs/widths.md): dialogue 30x3, choice 30, battle band 36x3 (no wrap, `{nl}` by
+    hand), menus = Japanese pixel width, hints 30 (assumed).
 - **Next:**
-  1. Menu text (EXE message bank, 1,838 entries; groups 0-11 ≈ 16 KB of real text, groups 12-21 are mostly
-     data that decodes): they live in the EXE data section behind self-relative u32 group tables, so English
-     (~40 KB) needs the strings relocated (heap/free space; the EXE cannot just grow into BSS) and the tables
-     repointed; then measure the menu field widths (docs/widths.md) and the choice box (probe style C0, stop
-     on op 7A).
-  4. D_BMESS battle messages: looks tractable — each message is `FC 01 4x <text> FE FF` (speaker/face +
-     text + page + end), reached from `FC 00 3F <u16 list relative to the list start> FF FF` lists inside
-     per-category bytecode (header = u16 category offsets). `python -X utf8 tools/bmess.py 2` maps lists,
-     messages and uncovered gaps for one record. Decode the category bytecode (`FC 7B ..` conditions), extract, insert with repointing.
-  5. Phase 6: batch translation. Before the first batch, review the rest of `tbl/jp.tbl` readings (below) and
-     give translators docs/widths.md + the glossary.
+  1. Phase 6 prep: review the rest of `tbl/jp.tbl` readings (below) — translators read the Japanese through it,
+     so misreads become mistranslations. Then build the batch files (work/tl/<batch>.tsv) from script/*.json
+     (D_SCE by scene, bank by group, bmess by record), give translators docs/widths.md + glossary.md.
+  2. Phase 6: batch translation with translator agents, reviewer pass, glossary updates.
 - **Open items (text, non-blocking):**
   - `tbl/jp.tbl` readings are still mostly template-match guesses. 17 look-alike misreads are fixed and 50 cells
     are aliases (`#<code>` suffix). Review the rest before phase 6 by rendering cells
@@ -82,6 +85,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - `tbl/en.tbl`: `[XX]` with two hex digits inside an English line is read as a hex byte by the encoder, so
     English must not contain that pattern.
 - **Open items (debug tool, non-blocking):**
+  - Yamato's affection-hint lines (sub 58 at 0x3B1..) not reached in-game: the New Game warp into sub 58
+    (`c58`, also with FLAGS 1E/70-77, or `c58+33B@200` = warp.lua ENTRY/ENTRY_F) shows only the status screen.
+    Try a state after chapter S22's `0C 3A` call (scene 17 at 0x608) reached by real flow.
   - System > Sound test and > Memory album stop the emulator (frames stop inside op E0) when reached from the
     warped New-Game-state intermission; try from a state after a real chapter.
   - Private events (1B0 guard scenes) stay black with flag 0x1B0 set: they need the intermission free-roam context.

@@ -13,10 +13,13 @@ local OP = 0x10620  -- 0x80010620 & 0x1FFFFF
 -- relative jump: next op = this op + 2 + 1); the other settings then apply on the first frame after the patch.
 local scene = assert(SCENE, "set --var SCENE=<D_SCE slot or -1>")
 local patched, reported = false, false
-local last_base, seen_op, stop_at
+local last_base, seen_op, stop_at, entry_at
 L.on_frame(function(f)
   if not patched and mem[OP] == 0x0B and mem[OP + 1] == 0x01 and mem[OP + 2] == 0x00 then
-    if scene < 0 then
+    if CALL then  -- CALL=n: New Game calls resident sub-script n (op `0C n`) instead, e.g. 58 = affection check
+      mem[OP], mem[OP + 1] = 0x0C, CALL
+      scene = mem[0xCDC86] | (mem[0xCDC87] << 8)  -- unchanged: report on the next frame
+    elseif scene < 0 then
       mem[OP], mem[OP + 1], mem[OP + 2] = 0x01, 0x02, 0x00
       scene = mem[0xCDC86] | (mem[0xCDC87] << 8)  -- unchanged: report on the next frame
     else
@@ -25,6 +28,20 @@ L.on_frame(function(f)
     end
     patched = true
     L.log(string.format("f%d patched New Game -> scene %d", f, scene))
+  end
+  -- ENTRY=off: ENTRY_F frames (default 0) after sub CALL starts, move the VM pc (state+0x40) to sub + off; a delay
+  -- lets the sub's own window setup run first (sub 58 entered at 0x33B straight away draws nothing)
+  if CALL and ENTRY and patched then
+    local function u32(a) a = a & 0x1FFFFF return mem[a] | (mem[a + 1] << 8) | (mem[a + 2] << 16) | (mem[a + 3] << 24) end
+    local t = u32(0x80010370)
+    local sub = (t + 4 * CALL + u32(t + 4 * CALL)) & 0xFFFFFFFF
+    if not entry_at and u32(0x800CD5B0) == sub then entry_at = f + (ENTRY_F or 0) end
+    if entry_at and f >= entry_at then
+      local v = sub + ENTRY
+      for k = 0, 3 do mem[0xCD5B0 + k] = (v >> (8 * k)) & 0xFF end
+      L.log(string.format("f%d ENTRY sub %d + %#x", f, CALL, ENTRY))
+      ENTRY = nil
+    end
   end
   if patched and not reported and (mem[0xCDC86] | (mem[0xCDC87] << 8)) == scene then
     reported = true
@@ -38,10 +55,13 @@ L.on_frame(function(f)
   -- (SCENE=-1 reports at the patch, before New Game's init op 10: FLAGS/EP set there may be cleared again.)
   if reported and STOP_OP then
     local base = mem[0xCD5B0] | (mem[0xCD5B1] << 8) | (mem[0xCD5B2] << 16)
-    if base ~= last_base and mem[0xCD5C4] == STOP_OP and not stop_at then
+    -- STOP_ARG: also require the byte after the op (0x78 + 0xC0 = choice list; its 7A runs within one frame)
+    local arg_ok = not STOP_ARG or mem[(base + 1) & 0x1FFFFF] == STOP_ARG
+    if base ~= last_base and mem[0xCD5C4] == STOP_OP and arg_ok and not stop_at then
       seen_op = (seen_op or 0) + 1
       if seen_op >= (STOP_N or 1) then
         stop_at = f + (STOP_AFTER or 60)
+        MASH = nil  -- hold the screen: a mashed circle would pick a choice or close the box before the shot
         if TITLE then mem[0xCDC89] = TITLE end  -- chapter-card title id, read when the card is drawn (after op 8C)
         L.log(string.format("f%d STOP op %02X (#%d)", f, STOP_OP, seen_op))
       end
