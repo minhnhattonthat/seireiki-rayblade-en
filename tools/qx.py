@@ -46,10 +46,12 @@ def render(p):
         im = Image.new("RGB", (w, h))
         px = im.load()
         if magic == 0x5851:
-            # stored as 32-px-wide column strips, each strip all rows top to bottom (verified on D_SCREEN 323)
-            k = off
-            for sx in range(0, w, 32):
-                sw = min(32, w - sx)
+            # wide images: 32-px column strips, each strip all rows (verified D_SCREEN 323); w <= 128 linear (verified
+            # D_CUTIN, faces). shortcut: the w > 128 threshold is a guess; find the real flag in the loader if a sheet
+            # still looks scrambled (D_SCREEN 151-168, 240-248).
+            k, strip = off, 32 if w > 128 else w
+            for sx in range(0, w, strip):
+                sw = min(strip, w - sx)
                 for j in range(h):
                     for i in range(sw):
                         px[sx + i, j] = pal[p[k]] if k < len(p) and p[k] < len(pal) else (255, 0, 255)
