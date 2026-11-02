@@ -2,23 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6 (translate) in progress since 2026-11-03.
-  - Pipeline: `tools/batches.py split|check|merge|pairs|terms|status` over 341 batches in `work/tl/` (b001-b008
-    bank menus, b009-b277 scenes, b278 resident, b279-b341 battle messages; 31,661 unique units, dups merged
-    everywhere). `tools/tlform.py` = forms, word-wrap layout (insert.py uses it) and per-line checks. Translators:
-    `docs/translator-brief.md`; review+fix pass: `docs/reviewer-brief.md` (D9). Dialogue format D8 (`Name: text`).
-  - Done: glyph review (56 misread kanji + 三 fixed, tbl re-dumped), glossary seeded from the DC fan glossary
-    (enforced tables + speaker labels + Reference), `docs/synopsis.md`, `docs/style-reference.md`, pilot b009
-    (prologue) merged and shown in-game (`work/qa/pilot/`).
-  - Progress 2026-11-03: b001-b189 translated + merged; b001-b129 reviewed (D9) and re-merged. Wave 4 in
-    flight: translate b190-b261, review b130-b189. Left: translate b262-b341, review b190-b341, minors -> docs/polish.md.
-  - Fixes this phase: tbl E1 = ヴ, E0 = ゔ (was <E1>/ヴ; font checked); check skips the honorific rule when a
-    glossary row covers the form (バルちゃん = Little Balu); リーク moved to Reference (also "leak").
-  - Waves: wave 1 = b001-b008, b010-b039 (8 translator agents). Track which batches are translated / reviewed /
-    merged with `batches.py status` and the `.out.tsv`/`.review.txt` files in work/tl (work/ is gitignored: merge
-    and commit after every wave so nothing lives only there).
-  - Not in batches: 10 bank strings with `{fb}` small-font runs or raw `<XXX>` cells (form `special`, by hand in
-    phase 7); exe_vm/exe_inline (copies of res58 lines).
+- **Phase:** 7 (insert, fit, check) next. Phase 6 (translate) done 2026-11-03.
+  - Phase 6 result: 340 batches translated (b279 = binary data res07:0EEB, skipped on purpose), each reviewed +
+    fixed by a fresh agent (D9; pilot b009 approved in-game), `batches.py check` 0 errors on all, merged into
+    script/ (31,660 units). Untranslated now: junk/data only, the 9 `special` bank strings ({fb} small-font runs /
+    raw cells, by hand), slot 239's dev scenario lists (junk form), exe_vm/exe_inline (copies of res58 lines).
+    473 Minors in `docs/polish.md` (phase 9 gate).
+  - Pipeline: `tools/batches.py split|check|merge|pairs|terms|status` (work/tl/, gitignored); merge keys each
+    unit on today's script entry by id (the batch jp predates the tbl fixes). `tools/tlform.py` = forms, word
+    wrap and checks. Briefs: `docs/translator-brief.md`, `docs/reviewer-brief.md`. Dialogue format D8.
+  - Fixes in phase 6: tbl E1 = ヴ / E0 = ゔ, 305 圧 (was 庄), 8A2 氏 (was 兵), 983 嘗, 9D3 枯 (cells rendered);
+    check: glossary rows beat the honorific rule, ムコ/ジイ/バア + さん are nouns, リーク unenforced ("leak" too).
+  - **Far branches**: English pushed slot 239's 7A choice items past s16; `patch.rebuild` routes such branches
+    through `02 <u32>` trampolines at the record head (behind an 01) or tail and verify() follows them
+    (`tests/test_patch.py::test_far_branch_gets_trampoline`). In-game, `warp.py debug_239` picks item 2 and lands
+    on the same menu as the JP disc (work/qa/tramp*/).
+  - English build boots; story_S01, story_S31, battle_unit_menu reached and render English (work/qa/p6/).
 - **Done:**
   - Step 0: PCSX-Redux in `tools/pcsx/`, SCPH-5500 BIOS, mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/`, armips 0.11
     in `tools/armips/` (all gitignored; re-fetch: `fetch_emu.py pcsx|psx-bios`, `gh release download` from
@@ -85,9 +84,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Width gate complete (docs/widths.md): dialogue 30x3, choice 30, battle band 36x3 (no wrap, `{nl}` by
     hand), menus = Japanese pixel width, hints 30 (assumed).
 - **Next:**
-  1. Finish phase 6 waves: translate all 341 batches, review+fix each (fresh agent), merge, commit; between waves
-     merge NEW TERMs into glossary.md and run `batches.py terms`. Minors -> docs/polish.md.
-  2. Phase 7: menu rows over width (check warnings) need engine room (D4); the 10 `special` bank strings.
+  1. Phase 7: build is green; width/overflow lint + control-code match over the merged text, romdiff write
+     ranges; menu rows over width (batch-check warnings) need engine room (D4); the 9 `special` bank strings by
+     hand; slot 239 dev scenario lists (literal translation or leave).
+  2. Phase 8: `warp.py --all --title` on the English build + visual-QA verdicts.
 - **Open items (text, non-blocking):**
   - `tbl/jp.tbl`: all shaky/supplement-block cells in use were reviewed glyph-beside-reading (2026-11-03,
     `work/scratch/glyphsus.py`); the confident anchored cells were not. Translators report odd kanji as UNSURE.
