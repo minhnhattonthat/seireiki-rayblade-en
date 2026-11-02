@@ -1,0 +1,24 @@
+# Reviewed glyph readings (win over work/font/match.tsv guesses). code<TAB>reading, code in hex.
+# Verified 2026-11-02 by rendering each cell with tools/fontsheet.py and comparing the glyph.
+# 目/日/回/同/向/真 were absent from the guess table: the matcher had read them as 貰/廿/廻/伺/徇/審.
+7E6	目
+6F5	日
+377	回
+6D8	同
+493	向
+26D	真
+7E9	貫
+68A	服
+# Duplicate-cell readings (the font holds the same glyph twice); the guess had read them as a
+# sound-alike. Confirmed against the surrounding text ("差込口", "正義", "問題", "復活", "お互い",
+# "剣煌", "停泊", "妄想", "田畑").
+492	口
+5D6	正
+7EA	問
+3A2	活
+486	互
+A0B	煌
+71A	泊
+971	妄
+9AC	田
+299	直

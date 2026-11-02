@@ -1,7 +1,7 @@
 [
  {
   "id": "bank00:001",
-  "jp": "フェイズ終了{nl}部隊表{nl}反撃命令{nl}作戦貰的{nl}{ctl:FFFF}システム{nl}セーブ",
+  "jp": "フェイズ終了{nl}部隊表{nl}反撃命令{nl}作戦目的{nl}{ctl:FFFF}システム{nl}セーブ",
   "group": 0,
   "index": 1,
   "addr": 2147571621,
@@ -31,7 +31,7 @@
  },
  {
   "id": "bank00:004",
-  "jp": "近接　{ctl:FFFF}{nl}間接　{ctl:FFFF}{nl}防御　{ctl:FFFF}{nl}命中　{ctl:FFFF}{nl}廻避　{ctl:FFFF}{ctl:8880}信頼コマンド{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}",
+  "jp": "近接　{ctl:FFFF}{nl}間接　{ctl:FFFF}{nl}防御　{ctl:FFFF}{nl}命中　{ctl:FFFF}{nl}回避　{ctl:FFFF}{ctl:8880}信頼コマンド{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}",
   "group": 0,
   "index": 4,
   "addr": 2147571761,
@@ -180,56 +180,6 @@
   "status": "todo"
  },
  {
-  "id": "bank00:013",
-  "jp": "撤退{nl}",
-  "group": 0,
-  "index": 19,
-  "addr": 2147572031,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:014",
-  "jp": "撤退{nl}",
-  "group": 0,
-  "index": 20,
-  "addr": 2147572031,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:015",
-  "jp": "撤退{nl}",
-  "group": 0,
-  "index": 21,
-  "addr": 2147572031,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:016",
-  "jp": "撤退{nl}",
-  "group": 0,
-  "index": 22,
-  "addr": 2147572031,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:017",
-  "jp": "撤退{nl}",
-  "group": 0,
-  "index": 23,
-  "addr": 2147572031,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank00:018",
   "jp": "なし",
   "group": 0,
@@ -351,7 +301,7 @@
  },
  {
   "id": "bank00:026",
-  "jp": "置感　　{ctl:FFFF}",
+  "jp": "直感　　{ctl:FFFF}",
   "group": 0,
   "index": 38,
   "addr": 2147572147,
@@ -420,46 +370,6 @@
   "status": "todo"
  },
  {
-  "id": "bank00:02D",
-  "jp": "？？？？",
-  "group": 0,
-  "index": 45,
-  "addr": 2147572206,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:02E",
-  "jp": "？？？？",
-  "group": 0,
-  "index": 46,
-  "addr": 2147572206,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:02F",
-  "jp": "？？？？",
-  "group": 0,
-  "index": 47,
-  "addr": 2147572206,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:030",
-  "jp": "？？？？",
-  "group": 0,
-  "index": 48,
-  "addr": 2147572206,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank00:031",
   "jp": "絆",
   "group": 0,
@@ -511,7 +421,7 @@
  },
  {
   "id": "bank00:036",
-  "jp": "置感",
+  "jp": "直感",
   "group": 0,
   "index": 54,
   "addr": 2147572238,
@@ -580,46 +490,6 @@
   "status": "todo"
  },
  {
-  "id": "bank00:03D",
-  "jp": "XS",
-  "group": 0,
-  "index": 61,
-  "addr": 2147572268,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:03E",
-  "jp": "XS",
-  "group": 0,
-  "index": 62,
-  "addr": 2147572268,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:03F",
-  "jp": "XS",
-  "group": 0,
-  "index": 63,
-  "addr": 2147572268,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:040",
-  "jp": "XS",
-  "group": 0,
-  "index": 64,
-  "addr": 2147572268,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank00:041",
   "jp": "　S",
   "group": 0,
@@ -664,16 +534,6 @@
   "jp": "陸地",
   "group": 0,
   "index": 69,
-  "addr": 2147572283,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:046",
-  "jp": "陸地",
-  "group": 0,
-  "index": 70,
   "addr": 2147572283,
   "len": 5,
   "en": "",
@@ -761,7 +621,7 @@
  },
  {
   "id": "bank00:04F",
-  "jp": "HP廻復（小）",
+  "jp": "HP回復（小）",
   "group": 0,
   "index": 79,
   "addr": 2147572349,
@@ -771,7 +631,7 @@
  },
  {
   "id": "bank00:050",
-  "jp": "HP廻復（中）",
+  "jp": "HP回復（中）",
   "group": 0,
   "index": 80,
   "addr": 2147572360,
@@ -781,7 +641,7 @@
  },
  {
   "id": "bank00:051",
-  "jp": "HP廻復（大）",
+  "jp": "HP回復（大）",
   "group": 0,
   "index": 81,
   "addr": 2147572371,
@@ -1020,26 +880,6 @@
   "status": "todo"
  },
  {
-  "id": "bank00:06E",
-  "jp": "ロード{nl}セーブ{nl}Mロード{nl}Mセーブ{nl}全体PUT{nl}全体更新",
-  "group": 0,
-  "index": 110,
-  "addr": 2147572760,
-  "len": 39,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:06F",
-  "jp": "ロード{nl}セーブ{nl}Mロード{nl}Mセーブ{nl}全体PUT{nl}全体更新",
-  "group": 0,
-  "index": 111,
-  "addr": 2147572760,
-  "len": 39,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank00:070",
   "jp": "P：{ctl:FFFF}：{ctl:FFFF}{nl}R：{ctl:FFFF}：{ctl:FFFF}{nl}W：{ctl:FFFF}：{ctl:FFFF}{nl}A：{ctl:FFFF}：{ctl:FFFF}：{ctl:FFFF}：{ctl:FFFF}{nl}P：{ctl:FFFF}：{ctl:FFFF}{nl}R：{ctl:FFFF}：{ctl:FFFF}{nl}W：{ctl:FFFF}：{ctl:FFFF}{nl}A：{ctl:FFFF}：{ctl:FFFF}：{ctl:FFFF}：{ctl:FFFF}",
   "group": 0,
@@ -1051,7 +891,7 @@
  },
  {
   "id": "bank00:071",
-  "jp": "廻避",
+  "jp": "回避",
   "group": 0,
   "index": 113,
   "addr": 2147572915,
@@ -1131,39 +971,9 @@
  },
  {
   "id": "bank00:079",
-  "jp": "反撃開始{nl}武器選択{nl}廻避{nl}{ctl:FFFF}防御",
+  "jp": "反撃開始{nl}武器選択{nl}回避{nl}{ctl:FFFF}防御",
   "group": 0,
   "index": 121,
-  "addr": 2147572954,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:07A",
-  "jp": "反撃開始{nl}武器選択{nl}廻避{nl}{ctl:FFFF}防御",
-  "group": 0,
-  "index": 122,
-  "addr": 2147572954,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:07B",
-  "jp": "反撃開始{nl}武器選択{nl}廻避{nl}{ctl:FFFF}防御",
-  "group": 0,
-  "index": 123,
-  "addr": 2147572954,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:07C",
-  "jp": "反撃開始{nl}武器選択{nl}廻避{nl}{ctl:FFFF}防御",
-  "group": 0,
-  "index": 124,
   "addr": 2147572954,
   "len": 31,
   "en": "",
@@ -1221,7 +1031,7 @@
  },
  {
   "id": "bank00:082",
-  "jp": "撤退しますか？{nl}（撤退すると、EXP・資金がそのままの状態で{nl}　サブタイトルからやり置すことができます。）",
+  "jp": "撤退しますか？{nl}（撤退すると、EXP・資金がそのままの状態で{nl}　サブタイトルからやり直すことができます。）",
   "group": 0,
   "index": 130,
   "addr": 2147573066,
@@ -1304,16 +1114,6 @@
   "jp": "話題ポイント{ctl:FFFF}",
   "group": 0,
   "index": 138,
-  "addr": 2147573393,
-  "len": 12,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:08B",
-  "jp": "話題ポイント{ctl:FFFF}",
-  "group": 0,
-  "index": 139,
   "addr": 2147573393,
   "len": 12,
   "en": "",
@@ -1414,26 +1214,6 @@
   "jp": "？？",
   "group": 0,
   "index": 149,
-  "addr": 2147573489,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:096",
-  "jp": "？？",
-  "group": 0,
-  "index": 150,
-  "addr": 2147573489,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank00:097",
-  "jp": "？？",
-  "group": 0,
-  "index": 151,
   "addr": 2147573489,
   "len": 5,
   "en": "",
@@ -1631,7 +1411,7 @@
  },
  {
   "id": "bank00:0AB",
-  "jp": "作戦貰的",
+  "jp": "作戦目的",
   "group": 0,
   "index": 171,
   "addr": 2147573975,
@@ -1841,7 +1621,7 @@
  },
  {
   "id": "bank00:0C0",
-  "jp": "セーブするメモリーカードの差込ロ#492を選択してください",
+  "jp": "セーブするメモリーカードの差込口を選択してください",
   "group": 0,
   "index": 192,
   "addr": 2147574616,
@@ -1851,7 +1631,7 @@
  },
  {
   "id": "bank00:0C1",
-  "jp": "ロードするメモリーカードの差込ロ#492を選択してください",
+  "jp": "ロードするメモリーカードの差込口を選択してください",
   "group": 0,
   "index": 193,
   "addr": 2147574650,
@@ -1861,7 +1641,7 @@
  },
  {
   "id": "bank00:0C2",
-  "jp": "メモリーカードがメモリーカード差込ロ#492に差されていません",
+  "jp": "メモリーカードがメモリーカード差込口に差されていません",
   "group": 0,
   "index": 194,
   "addr": 2147574684,
@@ -1891,7 +1671,7 @@
  },
  {
   "id": "bank00:0C5",
-  "jp": "アンフォーマットする差込ロ#492を選択してください",
+  "jp": "アンフォーマットする差込口を選択してください",
   "group": 0,
   "index": 197,
   "addr": 2147574767,
@@ -2021,7 +1801,7 @@
  },
  {
   "id": "bank00:0D2",
-  "jp": "差込ロ#4921",
+  "jp": "差込口1",
   "group": 0,
   "index": 210,
   "addr": 2147575163,
@@ -2031,7 +1811,7 @@
  },
  {
   "id": "bank00:0D3",
-  "jp": "差込ロ#4922",
+  "jp": "差込口2",
   "group": 0,
   "index": 211,
   "addr": 2147575171,
@@ -2111,7 +1891,7 @@
  },
  {
   "id": "bank00:0DB",
-  "jp": "メモリーカードが差込ロ#492に差されていません、{nl}このゲームをセーブするには、メモリーカードの{nl}空きブロックが最低1ブロック必要です",
+  "jp": "メモリーカードが差込口に差されていません、{nl}このゲームをセーブするには、メモリーカードの{nl}空きブロックが最低1ブロック必要です",
   "group": 0,
   "index": 219,
   "addr": 2147575371,
@@ -2151,7 +1931,7 @@
  },
  {
   "id": "bank00:0DF",
-  "jp": "差込ロ#4921{nl}差込ロ#4922",
+  "jp": "差込口1{nl}差込口2",
   "group": 0,
   "index": 223,
   "addr": 2147575508,
@@ -2351,7 +2131,7 @@
  },
  {
   "id": "bank00:0F3",
-  "jp": "{ctl:8080}近接{ctl:8880}{ctl:FFFF}{ctl:8082}間接{ctl:8882}{ctl:FFFF}{ctl:8084}防御{ctl:8884}{ctl:FFFF}{ctl:8086}命中{ctl:8886}{ctl:FFFF}{ctl:8088}廻避{ctl:8888}{ctl:FFFF}{ctl:8880}",
+  "jp": "{ctl:8080}近接{ctl:8880}{ctl:FFFF}{ctl:8082}間接{ctl:8882}{ctl:FFFF}{ctl:8084}防御{ctl:8884}{ctl:FFFF}{ctl:8086}命中{ctl:8886}{ctl:FFFF}{ctl:8088}回避{ctl:8888}{ctl:FFFF}{ctl:8880}",
   "group": 0,
   "index": 243,
   "addr": 2147575972,
@@ -2461,7 +2241,7 @@
  },
  {
   "id": "bank01:001",
-  "jp": "指定した仲間ユニットのHPを30％廻復させます。",
+  "jp": "指定した仲間ユニットのHPを30％回復させます。",
   "group": 1,
   "index": 1,
   "addr": 2147576424,
@@ -2471,7 +2251,7 @@
  },
  {
   "id": "bank01:002",
-  "jp": "全ての仲間ユニットのHPを50％廻復させます。",
+  "jp": "全ての仲間ユニットのHPを50％回復させます。",
   "group": 1,
   "index": 2,
   "addr": 2147576456,
@@ -2491,7 +2271,7 @@
  },
  {
   "id": "bank01:004",
-  "jp": "指定した仲間ユニットの移動力を1廻分だけ＋3上げます。",
+  "jp": "指定した仲間ユニットの移動力を1回分だけ＋3上げます。",
   "group": 1,
   "index": 4,
   "addr": 2147576512,
@@ -2511,7 +2291,7 @@
  },
  {
   "id": "bank01:006",
-  "jp": "1ターンの間、仲間1人の廻避を30％上げます。",
+  "jp": "1ターンの間、仲間1人の回避を30％上げます。",
   "group": 1,
   "index": 6,
   "addr": 2147576584,
@@ -2521,7 +2301,7 @@
  },
  {
   "id": "bank01:007",
-  "jp": "仲間1人の攻撃力を30％上げた状態で、{nl}1廻だけ、敵にダメージを与えることができます。",
+  "jp": "仲間1人の攻撃力を30％上げた状態で、{nl}1回だけ、敵にダメージを与えることができます。",
   "group": 1,
   "index": 7,
   "addr": 2147576617,
@@ -2531,7 +2311,7 @@
  },
  {
   "id": "bank01:008",
-  "jp": "仲間1人の防御力を50％上げた状態で、{nl}1廻だけ、敵のダメージを受けることができます。",
+  "jp": "仲間1人の防御力を50％上げた状態で、{nl}1回だけ、敵のダメージを受けることができます。",
   "group": 1,
   "index": 8,
   "addr": 2147576675,
@@ -2551,7 +2331,7 @@
  },
  {
   "id": "bank01:00A",
-  "jp": "指定したユニットは、側面や背後からの攻撃を1廻だけ、{nl}星#5D6面で受けて命中率やダメージへの修星#5D6を無効化します。",
+  "jp": "指定したユニットは、側面や背後からの攻撃を1回だけ、{nl}正面で受けて命中率やダメージへの修正を無効化します。",
   "group": 1,
   "index": 10,
   "addr": 2147576765,
@@ -2574,46 +2354,6 @@
   "jp": "{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}",
   "group": 1,
   "index": 12,
-  "addr": 2147576884,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:00D",
-  "jp": "{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}",
-  "group": 1,
-  "index": 13,
-  "addr": 2147576884,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:00E",
-  "jp": "{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}",
-  "group": 1,
-  "index": 14,
-  "addr": 2147576884,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:00F",
-  "jp": "{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}",
-  "group": 1,
-  "index": 15,
-  "addr": 2147576884,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:010",
-  "jp": "{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}",
-  "group": 1,
-  "index": 16,
   "addr": 2147576884,
   "len": 31,
   "en": "",
@@ -2681,7 +2421,7 @@
  },
  {
   "id": "bank01:017",
-  "jp": "廻避＋{ctl:FFFF}",
+  "jp": "回避＋{ctl:FFFF}",
   "group": 1,
   "index": 23,
   "addr": 2147576963,
@@ -2691,7 +2431,7 @@
  },
  {
   "id": "bank01:018",
-  "jp": "攻撃を受ける度に、反撃、廻避、防御を{nl}プレイヤーが選択することができます。",
+  "jp": "攻撃を受ける度に、反撃、回避、防御を{nl}プレイヤーが選択することができます。",
   "group": 1,
   "index": 24,
   "addr": 2147576973,
@@ -2700,38 +2440,8 @@
   "status": "todo"
  },
  {
-  "id": "bank01:019",
-  "jp": "攻撃を受ける度に、反撃、廻避、防御を{nl}プレイヤーが選択することができます。",
-  "group": 1,
-  "index": 25,
-  "addr": 2147576973,
-  "len": 51,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:01A",
-  "jp": "攻撃を受ける度に、反撃、廻避、防御を{nl}プレイヤーが選択することができます。",
-  "group": 1,
-  "index": 26,
-  "addr": 2147576973,
-  "len": 51,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:01B",
-  "jp": "攻撃を受ける度に、反撃、廻避、防御を{nl}プレイヤーが選択することができます。",
-  "group": 1,
-  "index": 27,
-  "addr": 2147576973,
-  "len": 51,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank01:01C",
-  "jp": "反撃できる場合は必ず反撃し、できない場合は{nl}ユニットの特性にあわせ廻避か防御を行います。",
+  "jp": "反撃できる場合は必ず反撃し、できない場合は{nl}ユニットの特性にあわせ回避か防御を行います。",
   "group": 1,
   "index": 28,
   "addr": 2147577024,
@@ -2741,7 +2451,7 @@
  },
  {
   "id": "bank01:01D",
-  "jp": "次の攻撃で撃破される可能性がない限り反撃を{nl}行います。可能性があるとユニットの特性にあわせて{nl}廻避か防御を行います。",
+  "jp": "次の攻撃で撃破される可能性がない限り反撃を{nl}行います。可能性があるとユニットの特性にあわせて{nl}回避か防御を行います。",
   "group": 1,
   "index": 29,
   "addr": 2147577085,
@@ -2751,7 +2461,7 @@
  },
  {
   "id": "bank01:01E",
-  "jp": "HPが半分を切ると反撃をやめ、ユニットの特性に{nl}あわせて廻避か防御を行います。",
+  "jp": "HPが半分を切ると反撃をやめ、ユニットの特性に{nl}あわせて回避か防御を行います。",
   "group": 1,
   "index": 30,
   "addr": 2147577166,
@@ -2761,7 +2471,7 @@
  },
  {
   "id": "bank01:01F",
-  "jp": "反撃を一切行わず、廻避能力が高ければ廻避、{nl}防御能力が高ければ防御を行います。",
+  "jp": "反撃を一切行わず、回避能力が高ければ回避、{nl}防御能力が高ければ防御を行います。",
   "group": 1,
   "index": 31,
   "addr": 2147577218,
@@ -2821,7 +2531,7 @@
  },
  {
   "id": "bank01:025",
-  "jp": "Aタイプ：方徇キーに合わせてカーソルが移動します。{nl}Bタイプ：カーソルがマップ上を斜めに移動します。",
+  "jp": "Aタイプ：方向キーに合わせてカーソルが移動します。{nl}Bタイプ：カーソルがマップ上を斜めに移動します。",
   "group": 1,
   "index": 37,
   "addr": 2147577671,
@@ -2890,56 +2600,6 @@
   "status": "todo"
  },
  {
-  "id": "bank01:02C",
-  "jp": "反撃不能",
-  "group": 1,
-  "index": 44,
-  "addr": 2147578018,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:02D",
-  "jp": "反撃不能",
-  "group": 1,
-  "index": 45,
-  "addr": 2147578018,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:02E",
-  "jp": "反撃不能",
-  "group": 1,
-  "index": 46,
-  "addr": 2147578018,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:02F",
-  "jp": "反撃不能",
-  "group": 1,
-  "index": 47,
-  "addr": 2147578018,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:030",
-  "jp": "反撃不能",
-  "group": 1,
-  "index": 48,
-  "addr": 2147578018,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank01:031",
   "jp": "{ctl:9780}命中率{ctl:9C80}{ctl:FFFF}％",
   "group": 1,
@@ -2961,7 +2621,7 @@
  },
  {
   "id": "bank01:033",
-  "jp": "廻避行動",
+  "jp": "回避行動",
   "group": 1,
   "index": 51,
   "addr": 2147578054,
@@ -2974,116 +2634,6 @@
   "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
   "group": 1,
   "index": 52,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:035",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 53,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:036",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 54,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:037",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 55,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:038",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 56,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:039",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 57,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03A",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 58,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03B",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 59,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03C",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 60,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03D",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 61,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03E",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 62,
-  "addr": 2147578063,
-  "len": 497,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank01:03F",
-  "jp": "ぁB　　おB　　おB　　ぉB　　かB　　かB　　ぎB　　くB　　ぐB　　げB　　けB　　ごB　　しB　　じB　　ずB　　ずB　　せB　　せB　　ぞB　　だB　　だB　　っB　　てB　　でB　　でB　　どB　　なB　　なB　　なB　　ねB　　ふB　　ぽB　　ゅB　　ゆB　　ょB　　らB　　るB　　ろB　　ろB　　れB　　るB　　りB　　わB　　んB　　ァB　　イB　　ォB　　ォB　　ォB　　キB　　ギB　　グB　　グB　　グB　　ゲB　　ケB　　コB　　コB　　ゴB　　ゴB　　ゴB　　サB　　セB　　ダB　　チB　　デB　　ヌB　　ネB　　ハB　　フB　　ペB　　ミB　　ミB　　ミB　　ミB　　メB　　ャB　　ャB　　ヤB　　ヤB　　ユB　　ラB　　リB　　ヴB　　ヴB　　<E1>B　　<E1>B　　ヵB　　ヱB　　ヱB　　ヵB　　、B　　、B　　。B　　（B　　、B　　。B　　。B　　。B　　（B　　「B　　）B　　『B　　『B　　・B　　』B　　<0EF>B　　♥　　♥　　♥　　逢　　居　　逢　　居　　粘　　誘　　誘　　粘　　粘　　繊　　粘　　誘　　］　　{ctl:0200}　",
-  "group": 1,
-  "index": 63,
   "addr": 2147578063,
   "len": 497,
   "en": "",
@@ -5700,96 +5250,6 @@
   "status": "todo"
  },
  {
-  "id": "bank03:077",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 119,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:078",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 120,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:079",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 121,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07A",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 122,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07B",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 123,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07C",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 124,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07D",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 125,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07E",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 126,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank03:07F",
-  "jp": "ーーーーーーーーーーーーーーー",
-  "group": 3,
-  "index": 127,
-  "addr": 2147580974,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank04:000",
   "jp": "ーーーーーーーーーー",
   "group": 4,
@@ -5841,7 +5301,7 @@
  },
  {
   "id": "bank04:005",
-  "jp": "一刀星#5D6田　絶影",
+  "jp": "一刀正田　絶影",
   "group": 4,
   "index": 5,
   "addr": 2147582098,
@@ -5861,7 +5321,7 @@
  },
  {
   "id": "bank04:007",
-  "jp": "審ゼイフォニック・ブラドラー",
+  "jp": "真ゼイフォニック・ブラドラー",
   "group": 4,
   "index": 7,
   "addr": 2147582129,
@@ -7211,7 +6671,7 @@
  },
  {
   "id": "bank04:08F",
-  "jp": "審分身斬",
+  "jp": "真分身斬",
   "group": 4,
   "index": 143,
   "addr": 2147583558,
@@ -7791,7 +7251,7 @@
  },
  {
   "id": "bank04:0C9",
-  "jp": "一刀星#5D6田　絶影",
+  "jp": "一刀正田　絶影",
   "group": 4,
   "index": 201,
   "addr": 2147584124,
@@ -8030,316 +7490,6 @@
   "status": "todo"
  },
  {
-  "id": "bank04:0E1",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 225,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E2",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 226,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E3",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 227,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E4",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 228,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E5",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 229,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E6",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 230,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E7",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 231,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E8",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 232,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0E9",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 233,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0EA",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 234,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0EB",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 235,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0EC",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 236,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0ED",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 237,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0EE",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 238,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0EF",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 239,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F0",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 240,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F1",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 241,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F2",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 242,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F3",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 243,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F4",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 244,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F5",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 245,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F6",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 246,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F7",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 247,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F8",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 248,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0F9",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 249,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FA",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 250,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FB",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 251,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FC",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 252,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FD",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 253,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FE",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 254,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank04:0FF",
-  "jp": "ーーーーーーーーーー",
-  "group": 4,
-  "index": 255,
-  "addr": 2147584373,
-  "len": 21,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank05:000",
   "jp": "敵の全滅",
   "group": 5,
@@ -8571,7 +7721,7 @@
  },
  {
   "id": "bank05:017",
-  "jp": "4ターン貰までライブレード（トウヤ）が生存",
+  "jp": "4ターン目までライブレード（トウヤ）が生存",
   "group": 5,
   "index": 23,
   "addr": 2147585216,
@@ -8701,7 +7851,7 @@
  },
  {
   "id": "bank05:024",
-  "jp": "？ターン貰までゼイフォン（トウヤ）が{nl}破壊されない",
+  "jp": "？ターン目までゼイフォン（トウヤ）が{nl}破壊されない",
   "group": 5,
   "index": 36,
   "addr": 2147585592,
@@ -8731,7 +7881,7 @@
  },
  {
   "id": "bank05:027",
-  "jp": "7ターン貰までゼイフォン（トウヤ）が生存",
+  "jp": "7ターン目までゼイフォン（トウヤ）が生存",
   "group": 5,
   "index": 39,
   "addr": 2147585685,
@@ -8751,7 +7901,7 @@
  },
  {
   "id": "bank05:029",
-  "jp": "北へ徇かうグランバイドの撃破",
+  "jp": "北へ向かうグランバイドの撃破",
   "group": 5,
   "index": 41,
   "addr": 2147585729,
@@ -8970,16 +8120,6 @@
   "status": "todo"
  },
  {
-  "id": "bank05:03F",
-  "jp": "？？？？",
-  "group": 5,
-  "index": 63,
-  "addr": 2147586265,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:001",
   "jp": "教室",
   "group": 6,
@@ -9004,16 +8144,6 @@
   "jp": "トウヤの部屋",
   "group": 6,
   "index": 3,
-  "addr": 2147587821,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:004",
-  "jp": "トウヤの部屋",
-  "group": 6,
-  "index": 4,
   "addr": 2147587821,
   "len": 9,
   "en": "",
@@ -9080,18 +8210,8 @@
   "status": "todo"
  },
  {
-  "id": "bank06:00B",
-  "jp": "手術室前",
-  "group": 6,
-  "index": 11,
-  "addr": 2147587870,
-  "len": 9,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:00C",
-  "jp": "処置#674室",
+  "jp": "処置室",
   "group": 6,
   "index": 12,
   "addr": 2147587879,
@@ -9124,26 +8244,6 @@
   "jp": "聖地",
   "group": 6,
   "index": 15,
-  "addr": 2147587905,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:010",
-  "jp": "聖地",
-  "group": 6,
-  "index": 16,
-  "addr": 2147587905,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:011",
-  "jp": "聖地",
-  "group": 6,
-  "index": 17,
   "addr": 2147587905,
   "len": 5,
   "en": "",
@@ -9220,16 +8320,6 @@
   "status": "todo"
  },
  {
-  "id": "bank06:019",
-  "jp": "クラシオ邸",
-  "group": 6,
-  "index": 25,
-  "addr": 2147587966,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:01A",
   "jp": "居間",
   "group": 6,
@@ -9240,30 +8330,10 @@
   "status": "todo"
  },
  {
-  "id": "bank06:01B",
-  "jp": "居間",
-  "group": 6,
-  "index": 27,
-  "addr": 2147587973,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:01C",
   "jp": "寝室",
   "group": 6,
   "index": 28,
-  "addr": 2147587978,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:01D",
-  "jp": "寝室",
-  "group": 6,
-  "index": 29,
   "addr": 2147587978,
   "len": 5,
   "en": "",
@@ -9314,16 +8384,6 @@
   "jp": "ティックスの寝室",
   "group": 6,
   "index": 34,
-  "addr": 2147588021,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:023",
-  "jp": "ティックスの寝室",
-  "group": 6,
-  "index": 35,
   "addr": 2147588021,
   "len": 11,
   "en": "",
@@ -9440,30 +8500,10 @@
   "status": "todo"
  },
  {
-  "id": "bank06:02F",
-  "jp": "クルルの家",
-  "group": 6,
-  "index": 47,
-  "addr": 2147588118,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:030",
   "jp": "屋敷",
   "group": 6,
   "index": 48,
-  "addr": 2147588125,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:031",
-  "jp": "屋敷",
-  "group": 6,
-  "index": 49,
   "addr": 2147588125,
   "len": 5,
   "en": "",
@@ -9590,16 +8630,6 @@
   "status": "todo"
  },
  {
-  "id": "bank06:03E",
-  "jp": "聖地",
-  "group": 6,
-  "index": 62,
-  "addr": 2147588223,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:040",
   "jp": "ブリッジ",
   "group": 6,
@@ -9614,16 +8644,6 @@
   "jp": "通路",
   "group": 6,
   "index": 65,
-  "addr": 2147588234,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:042",
-  "jp": "通路",
-  "group": 6,
-  "index": 66,
   "addr": 2147588234,
   "len": 5,
   "en": "",
@@ -10240,36 +9260,6 @@
   "status": "todo"
  },
  {
-  "id": "bank06:0CA",
-  "jp": "住宅街",
-  "group": 6,
-  "index": 202,
-  "addr": 2147588774,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:0CB",
-  "jp": "住宅街",
-  "group": 6,
-  "index": 203,
-  "addr": 2147588774,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank06:0CC",
-  "jp": "住宅街",
-  "group": 6,
-  "index": 204,
-  "addr": 2147588774,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank06:0D5",
   "jp": "召喚施設内",
   "group": 6,
@@ -10460,86 +9450,6 @@
   "status": "todo"
  },
  {
-  "id": "bank07:000",
-  "jp": "病室",
-  "group": 7,
-  "index": 0,
-  "addr": 2147588881,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:012",
-  "jp": "湖の上",
-  "group": 7,
-  "index": 18,
-  "addr": 2147588887,
-  "len": 6,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:021",
-  "jp": "艦長室",
-  "group": 7,
-  "index": 33,
-  "addr": 2147588894,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:022",
-  "jp": "執務室",
-  "group": 7,
-  "index": 34,
-  "addr": 2147588901,
-  "len": 7,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:038",
-  "jp": "隠し砦内部",
-  "group": 7,
-  "index": 56,
-  "addr": 2147588909,
-  "len": 10,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:039",
-  "jp": "廊下",
-  "group": 7,
-  "index": 57,
-  "addr": 2147588919,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:03F",
-  "jp": "ゼ＝オード基地",
-  "group": 7,
-  "index": 63,
-  "addr": 2147588925,
-  "len": 12,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank07:04A",
-  "jp": "ブリッジ",
-  "group": 7,
-  "index": 74,
-  "addr": 2147588938,
-  "len": 5,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank08:000",
   "jp": "アイを励ます（アイ）",
   "group": 8,
@@ -10641,7 +9551,7 @@
  },
  {
   "id": "bank08:00A",
-  "jp": "3年前のあの廿（セリカ）",
+  "jp": "3年前のあの日（セリカ）",
   "group": 8,
   "index": 10,
   "addr": 2147589628,
@@ -10910,16 +9820,6 @@
   "status": "todo"
  },
  {
-  "id": "bank08:025",
-  "jp": "艦長室の掃除（メル<E1>ィ）",
-  "group": 8,
-  "index": 37,
-  "addr": 2147590104,
-  "len": 18,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank08:026",
   "jp": "使揖しない",
   "group": 8,
@@ -10930,98 +9830,8 @@
   "status": "todo"
  },
  {
-  "id": "bank08:027",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 39,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:028",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 40,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:029",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 41,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02A",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 42,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02B",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 43,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02C",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 44,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02D",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 45,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02E",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 46,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:02F",
-  "jp": "使揖しない",
-  "group": 8,
-  "index": 47,
-  "addr": 2147590122,
-  "len": 8,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank08:030",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
+  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入口",
   "group": 8,
   "index": 48,
   "addr": 2147590130,
@@ -11030,798 +9840,8 @@
   "status": "todo"
  },
  {
-  "id": "bank08:031",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 49,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:032",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 50,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:033",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 51,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:034",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 52,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:035",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 53,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:036",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 54,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:037",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 55,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:038",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 56,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:039",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 57,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03A",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 58,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03B",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 59,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03C",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 60,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03D",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 61,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03E",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 62,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:03F",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 63,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:040",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 64,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:041",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 65,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:042",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 66,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:043",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 67,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:044",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 68,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:045",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 69,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:046",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 70,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:047",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 71,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:048",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 72,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:049",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 73,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04A",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 74,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04B",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 75,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04C",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 76,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04D",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 77,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04E",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 78,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:04F",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 79,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:050",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 80,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:051",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 81,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:052",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 82,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:053",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 83,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:054",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 84,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:055",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 85,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:056",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 86,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:057",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 87,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:058",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 88,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:059",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 89,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05A",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 90,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05B",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 91,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05C",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 92,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05D",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 93,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05E",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 94,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:05F",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 95,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:060",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 96,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:061",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 97,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:062",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 98,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:063",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 99,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:064",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 100,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:065",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 101,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:066",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 102,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:067",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 103,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:068",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 104,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:069",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 105,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06A",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 106,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06B",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 107,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06C",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 108,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06D",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 109,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06E",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 110,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:06F",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 111,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:070",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 112,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:071",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 113,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:072",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 114,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:073",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 115,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:074",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 116,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:075",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 117,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:076",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 118,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:077",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 119,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:078",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 120,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:079",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 121,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07A",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 122,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07B",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 123,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07C",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 124,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07D",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 125,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07E",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 126,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank08:07F",
-  "jp": "パ　　　モ　　　ヵ　　　『　　　<0EF>　　　胡　　{nl}　　　{page}　　　AA　　BA　　EA　　HA　　QA　　VA　　aA　　hA　　oA　　tA　　zA　　4A　　ぁA　　ぉA　　くA　　ごA　　さA　　ざA　　しA　　ずA　　ぢA　　にA　　ばA　　びA　　へA　　みA　　ゃA　　らA　　ァA　　ォA　　ギA　　ゴA　　ズA　　タA　　テA　　ノA　　プA　　ヤA　　ラA　　レA　　第一聖霊機格納庫入ロ#492",
-  "group": 8,
-  "index": 127,
-  "addr": 2147590130,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank09:000",
-  "jp": "第一聖霊機格納庫入ロ#492",
+  "jp": "第一聖霊機格納庫入口",
   "group": 9,
   "index": 0,
   "addr": 2147590322,
@@ -11831,7 +9851,7 @@
  },
  {
   "id": "bank09:001",
-  "jp": "第二聖霊機格納庫入ロ#492",
+  "jp": "第二聖霊機格納庫入口",
   "group": 9,
   "index": 1,
   "addr": 2147590343,
@@ -12301,7 +10321,7 @@
  },
  {
   "id": "bank10:000",
-  "jp": "迷走と錯綜の廿常",
+  "jp": "迷走と錯綜の日常",
   "group": 10,
   "index": 0,
   "addr": 2147591322,
@@ -12381,7 +10401,7 @@
  },
  {
   "id": "bank10:008",
-  "jp": "穏やかならざる休廿",
+  "jp": "穏やかならざる休日",
   "group": 10,
   "index": 8,
   "addr": 2147591432,
@@ -12601,7 +10621,7 @@
  },
  {
   "id": "bank10:01F",
-  "jp": "明廿への約束",
+  "jp": "明日への約束",
   "group": 10,
   "index": 31,
   "addr": 2147591660,
@@ -12651,7 +10671,7 @@
  },
  {
   "id": "bank10:024",
-  "jp": "剣縄#A0Bの名のもとに",
+  "jp": "剣煌の名のもとに",
   "group": 10,
   "index": 36,
   "addr": 2147591716,
@@ -12661,7 +10681,7 @@
  },
  {
   "id": "bank10:025",
-  "jp": "悲しみの徇こうには",
+  "jp": "悲しみの向こうには",
   "group": 10,
   "index": 37,
   "addr": 2147591728,
@@ -12701,7 +10721,7 @@
  },
  {
   "id": "bank10:029",
-  "jp": "星#5D6しい方徇",
+  "jp": "正しい方向",
   "group": 10,
   "index": 41,
   "addr": 2147591784,
@@ -12861,7 +10881,7 @@
  },
  {
   "id": "bank10:03A",
-  "jp": "明廿への約束",
+  "jp": "明日への約束",
   "group": 10,
   "index": 58,
   "addr": 2147591961,
@@ -12894,656 +10914,6 @@
   "jp": "サブタイトル未定",
   "group": 10,
   "index": 61,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:03E",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 62,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:03F",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 63,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:040",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 64,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:041",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 65,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:042",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 66,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:043",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 67,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:044",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 68,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:045",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 69,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:046",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 70,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:047",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 71,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:048",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 72,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:049",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 73,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04A",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 74,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04B",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 75,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04C",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 76,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04D",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 77,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04E",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 78,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:04F",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 79,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:050",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 80,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:051",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 81,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:052",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 82,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:053",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 83,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:054",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 84,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:055",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 85,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:056",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 86,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:057",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 87,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:058",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 88,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:059",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 89,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05A",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 90,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05B",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 91,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05C",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 92,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05D",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 93,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05E",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 94,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:05F",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 95,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:060",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 96,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:061",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 97,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:062",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 98,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:063",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 99,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:064",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 100,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:065",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 101,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:066",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 102,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:067",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 103,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:068",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 104,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:069",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 105,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06A",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 106,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06B",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 107,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06C",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 108,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06D",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 109,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06E",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 110,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:06F",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 111,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:070",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 112,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:071",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 113,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:072",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 114,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:073",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 115,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:074",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 116,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:075",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 117,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:076",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 118,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:077",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 119,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:078",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 120,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:079",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 121,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:07A",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 122,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:07B",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 123,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:07C",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 124,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:07D",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 125,
-  "addr": 2147591993,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank10:07E",
-  "jp": "サブタイトル未定",
-  "group": 10,
-  "index": 126,
   "addr": 2147591993,
   "len": 11,
   "en": "",
@@ -17580,90 +14950,10 @@
   "status": "todo"
  },
  {
-  "id": "bank13:077",
-  "jp": "えちJ　J　づ　づ　　　　f",
-  "group": 13,
-  "index": 119,
-  "addr": 2147601258,
-  "len": 15,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank13:078",
   "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
   "group": 13,
   "index": 120,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:079",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 121,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07A",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 122,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07B",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 123,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07C",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 124,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07D",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 125,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07E",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 126,
-  "addr": 2147601278,
-  "len": 293,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank13:07F",
-  "jp": "　D　　GD　　ND　　UD　　bD　　iD　　pD　　wD　　2D　　9D　　ぇD　　ぎD　　さD　　ぜD　　っD　　なD　　ぱD　　へD　　みD　　ゆD　　ろD　　イD　　カD　　ゲD　　スD　　ダD　　デD　　ノD　　フD　　ボD　　ャD　　リD　　ヴD　　．D　　・D　　船　　{ctl:0400}　CE　　JE　　QE　　XE　　eE　　lE　　sE　　zE　　5E　　ぃE　　おE　　けE　　じE　　たE　　てE　　ねE　　ぴE　　ほE　　もE　　らE　　んE　　ェE　　ギE　　サE　　ゼE　　ッE　　ナE　　パE　　ヘE　　ミE　　ユE　　ロE　　ヱE　　「E　　＞　　旨　　",
-  "group": 13,
-  "index": 127,
   "addr": 2147601278,
   "len": 293,
   "en": "",
@@ -19920,316 +17210,6 @@
   "status": "todo"
  },
  {
-  "id": "bank14:0E1",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 225,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E2",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 226,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E3",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 227,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E4",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 228,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E5",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 229,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E6",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 230,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E7",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 231,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E8",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 232,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0E9",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 233,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0EA",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 234,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0EB",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 235,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0EC",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 236,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0ED",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 237,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0EE",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 238,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0EF",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 239,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F0",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 240,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F1",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 241,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F2",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 242,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F3",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 243,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F4",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 244,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F5",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 245,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F6",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 246,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F7",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 247,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F8",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 248,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0F9",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 249,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FA",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 250,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FB",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 251,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FC",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 252,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FD",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 253,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FE",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 254,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank14:0FF",
-  "jp": "　　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　づ　",
-  "group": 14,
-  "index": 255,
-  "addr": 2147604766,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:032",
   "jp": "めA　　タA　　ロA　　JB　　2B　　でB　　ゥB　　ビB　　♥　　『B　　（B　　々B　　ヴB　　ロB　　ラB　　FC　　ぁA　　はA　　キA　　ホA　　暢　　lB　　さB　　ゃB　　チB　　ソB　　スB　　サB　　ケB　　キB　　ォB　　プB　　紫　　hC　　けC　　みC　　ソC　　ルC　　HD　　0D　　づD　　ちD　　そD　　すD　　さD　　けD　　きD　　ほD　　スD　　ョD　　DE　　xE　　ちE　　をE　　ネE　　「E　　XF　　TF　　PF　　LF　　HF　　DF　　　F　　tF　　そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
@@ -20380,230 +17360,10 @@
   "status": "todo"
  },
  {
-  "id": "bank15:041",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 65,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:042",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 66,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:043",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 67,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:044",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 68,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:045",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 69,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:046",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 70,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:047",
   "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
   "index": 71,
-  "addr": 2147605824,
-  "len": 1613,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:048",
-  "jp": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 72,
-  "addr": 2147605374,
-  "len": 2063,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:049",
-  "jp": "ざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 73,
-  "addr": 2147605424,
-  "len": 2013,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04A",
-  "jp": "へへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 74,
-  "addr": 2147605474,
-  "len": 1963,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04B",
-  "jp": "yyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 75,
-  "addr": 2147605524,
-  "len": 1913,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04C",
-  "jp": "yyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 76,
-  "addr": 2147605574,
-  "len": 1863,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04D",
-  "jp": "yyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 77,
-  "addr": 2147605624,
-  "len": 1813,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04E",
-  "jp": "yyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 78,
-  "addr": 2147605674,
-  "len": 1763,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:04F",
-  "jp": "yyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 79,
-  "addr": 2147605724,
-  "len": 1713,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:050",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 80,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:051",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 81,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:052",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 82,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:053",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 83,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:054",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 84,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:055",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 85,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:056",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 86,
-  "addr": 2147605774,
-  "len": 1663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:057",
-  "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 87,
   "addr": 2147605824,
   "len": 1613,
   "en": "",
@@ -20694,66 +17454,6 @@
   "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
   "index": 96,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:061",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 97,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:062",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 98,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:063",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 99,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:064",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 100,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:065",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 101,
-  "addr": 2147606274,
-  "len": 1163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:066",
-  "jp": "オオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 102,
   "addr": 2147606274,
   "len": 1163,
   "en": "",
@@ -20860,66 +17560,6 @@
   "status": "todo"
  },
  {
-  "id": "bank15:071",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 113,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:072",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 114,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:073",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 115,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:074",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 116,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:075",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 117,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:076",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 118,
-  "addr": 2147606774,
-  "len": 663,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:077",
   "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
@@ -21020,230 +17660,10 @@
   "status": "todo"
  },
  {
-  "id": "bank15:081",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 129,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:082",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 130,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:083",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 131,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:084",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 132,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:085",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 133,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:086",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 134,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:087",
   "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
   "index": 135,
-  "addr": 2147607324,
-  "len": 113,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:088",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 136,
-  "addr": 2147606874,
-  "len": 563,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:089",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 137,
-  "addr": 2147606924,
-  "len": 513,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08A",
-  "jp": "ぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 138,
-  "addr": 2147606974,
-  "len": 463,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08B",
-  "jp": "　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 139,
-  "addr": 2147607024,
-  "len": 413,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08C",
-  "jp": "　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 140,
-  "addr": 2147607074,
-  "len": 363,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08D",
-  "jp": "hhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 141,
-  "addr": 2147607124,
-  "len": 313,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08E",
-  "jp": "hhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 142,
-  "addr": 2147607174,
-  "len": 263,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:08F",
-  "jp": "hhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 143,
-  "addr": 2147607224,
-  "len": 213,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:090",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 144,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:091",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 145,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:092",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 146,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:093",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 147,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:094",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 148,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:095",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 149,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:096",
-  "jp": "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 150,
-  "addr": 2147607274,
-  "len": 163,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:097",
-  "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 151,
   "addr": 2147607324,
   "len": 113,
   "en": "",
@@ -21520,16 +17940,6 @@
   "status": "todo"
  },
  {
-  "id": "bank15:1C4",
-  "jp": "　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 452,
-  "addr": 2147606574,
-  "len": 863,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:1CA",
   "jp": "QQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
@@ -21690,16 +18100,6 @@
   "status": "todo"
  },
  {
-  "id": "bank15:241",
-  "jp": "　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 15,
-  "index": 577,
-  "addr": 2147607074,
-  "len": 363,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:247",
   "jp": "gggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
   "group": 15,
@@ -21850,26 +18250,6 @@
   "status": "todo"
  },
  {
-  "id": "bank15:28E",
-  "jp": "B　B　B　B　B　B　B　C　C　E　E　E　E　E　E　",
-  "group": 15,
-  "index": 654,
-  "addr": 2147607438,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:28F",
-  "jp": "B　B　B　B　B　B　B　C　C　E　E　E　E　E　E　",
-  "group": 15,
-  "index": 655,
-  "addr": 2147607438,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
   "id": "bank15:290",
   "jp": "紙（CロEメGドKケOぱWぁePm",
   "group": 15,
@@ -21884,26 +18264,6 @@
   "jp": "fCぁFちIめLパR　YぁePmヴt",
   "group": 15,
   "index": 657,
-  "addr": 2147607490,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:292",
-  "jp": "fCぁFちIめLパR　YぁePmヴt",
-  "group": 15,
-  "index": 658,
-  "addr": 2147607490,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank15:293",
-  "jp": "fCぁFちIめLパR　YぁePmヴt",
-  "group": 15,
-  "index": 659,
   "addr": 2147607490,
   "len": 19,
   "en": "",
@@ -22014,346 +18374,6 @@
   "jp": "L　すAやAち　M　",
   "group": 15,
   "index": 844,
-  "addr": 2147608256,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:000",
-  "jp": "めA　　タA　　ロA　　JB　　2B　　でB　　ゥB　　ビB　　♥　　『B　　（B　　々B　　ヴB　　ロB　　ラB　　FC　　ぁA　　はA　　キA　　ホA　　暢　　lB　　さB　　ゃB　　チB　　ソB　　スB　　サB　　ケB　　キB　　ォB　　プB　　紫　　hC　　けC　　みC　　ソC　　ルC　　HD　　0D　　づD　　ちD　　そD　　すD　　さD　　けD　　きD　　ほD　　スD　　ョD　　DE　　xE　　ちE　　をE　　ネE　　「E　　XF　　TF　　PF　　LF　　HF　　DF　　　F　　tF　　そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 0,
-  "addr": 2147604990,
-  "len": 2447,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:001",
-  "jp": "ぁA　　はA　　キA　　ホA　　暢　　lB　　さB　　ゃB　　チB　　ソB　　スB　　サB　　ケB　　キB　　ォB　　プB　　紫　　hC　　けC　　みC　　ソC　　ルC　　HD　　0D　　づD　　ちD　　そD　　すD　　さD　　けD　　きD　　ほD　　スD　　ョD　　DE　　xE　　ちE　　をE　　ネE　　「E　　XF　　TF　　PF　　LF　　HF　　DF　　　F　　tF　　そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 1,
-  "addr": 2147605054,
-  "len": 2383,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:002",
-  "jp": "紫　　hC　　けC　　みC　　ソC　　ルC　　HD　　0D　　づD　　ちD　　そD　　すD　　さD　　けD　　きD　　ほD　　スD　　ョD　　DE　　xE　　ちE　　をE　　ネE　　「E　　XF　　TF　　PF　　LF　　HF　　DF　　　F　　tF　　そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 2,
-  "addr": 2147605118,
-  "len": 2319,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:003",
-  "jp": "スD　　ョD　　DE　　xE　　ちE　　をE　　ネE　　「E　　XF　　TF　　PF　　LF　　HF　　DF　　　F　　tF　　そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 3,
-  "addr": 2147605182,
-  "len": 2255,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:004",
-  "jp": "そF　　るF　　ドF　　。F　　TG　　ぃG　　ぱG　　クG　　ポG　　ベG　　フG　　パG　　ネG　　ドG　　ヅG　　ヵG　　bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 4,
-  "addr": 2147605246,
-  "len": 2191,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank16:005",
-  "jp": "bF　　かF　　べF　　シF　　ュF　　BG　　vG　　たG　　ろG　　らG　　ゅG　　めG　　ぽG　　べG　　ふG　　コG　　yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyざざざざざざざざざざざざざざざざざざざざざざざざざhhhhhyyyyyhhhhhyyyyyxxxxxへへへへへでででででざざざざざぅぅぅぅぅyyyyyhhhhhyyyyyhhhhhyyyyyxxxxxyyいぅぅざざてででへへへへへででしざざぅぅzyyhhhhhyyyyyhhhhhyyyyyxxxxxyyyyyぅぅぅぅぅざざざざざでででででへへへへへhhhhhyyyyyhhhhhyyyyyxxxxxyyyyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhhぃぅhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhyyyyhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅhhhhhyyyyyhhhhhyyyyyxxxxxざざざざざぅぅぅぅぅyyyyyhhhhhQQQQQQQQQQhhhhhQQQQQhhhhhgggggQQghhyyいぅぅざざざざざぅぅzyyhhRQQQQQQQhhhhhQQQQQhhhhhgggggQQQQQhhhhhyyyyyぅぅぅぅぅざざざざざQQQQQhhhhhQQQQQhhhhhggggghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhxyhhhhhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhぅjhhhぅjhhhぅjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオオ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　RRRRRRRRRRRRRRRRRRRRRRRRRhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQあぅQQQQQQQぅTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQげざQQざUQQQざUQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　hhhhhhhhhhhhhhhhhhhhhhhhhyyyyyyyyyyyyyyyyyyyyyyyyyhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　QQQQQPPPPPQQQQQPPPPPぅぅぅぅぅyyyyyhhhhhQQQQQ　　　　　　　　　　QQQQQPPPPPQQQQQPPPPP　　PQQhhxyyぅぅぅぅぅyyihhQQA　　hhhhhQQQQQPPPPPQQQQQPPPPP　　　　　QQQQQhhhhhyyyyyぅぅぅぅぅ　　　　　QQQQQPPPPPQQQQQPPPPPhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggghhhhhhhhこざhhhhhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhざkhhhざkhhhざkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　f　　　6　　　2　　　z　　　け　　　ち　　　そ　　　す　　　J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 16,
-  "index": 5,
-  "addr": 2147605310,
-  "len": 2127,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:000",
-  "jp": "J　J　J　J　J　J　T　T　T　J　J　J　J　J　J　",
-  "group": 17,
-  "index": 0,
-  "addr": 2147607406,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:001",
-  "jp": "B　B　B　B　B　B　B　C　C　E　E　E　E　E　E　",
-  "group": 17,
-  "index": 1,
-  "addr": 2147607438,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:002",
-  "jp": "B　B　B　B　B　B　B　C　C　E　E　E　E　E　E　",
-  "group": 17,
-  "index": 2,
-  "addr": 2147607438,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:003",
-  "jp": "B　B　B　B　B　B　B　C　C　E　E　E　E　E　E　",
-  "group": 17,
-  "index": 3,
-  "addr": 2147607438,
-  "len": 31,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:004",
-  "jp": "紙（CロEメGドKケOぱWぁePm",
-  "group": 17,
-  "index": 4,
-  "addr": 2147607470,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:005",
-  "jp": "fCぁFちIめLパR　YぁePmヴt",
-  "group": 17,
-  "index": 5,
-  "addr": 2147607490,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:006",
-  "jp": "fCぁFちIめLパR　YぁePmヴt",
-  "group": 17,
-  "index": 6,
-  "addr": 2147607490,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank17:007",
-  "jp": "fCぁFちIめLパR　YぁePmヴt",
-  "group": 17,
-  "index": 7,
-  "addr": 2147607490,
-  "len": 19,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:040",
-  "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 64,
-  "addr": 2147607766,
-  "len": 207,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:041",
-  "jp": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 65,
-  "addr": 2147607770,
-  "len": 203,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:042",
-  "jp": "　　　　　　　　　　　　　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 66,
-  "addr": 2147607774,
-  "len": 199,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:043",
-  "jp": "　　　　　　　　　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 67,
-  "addr": 2147607778,
-  "len": 195,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:044",
-  "jp": "　　　　　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 68,
-  "addr": 2147607782,
-  "len": 191,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:045",
-  "jp": "　　　　　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 69,
-  "addr": 2147607786,
-  "len": 187,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:046",
-  "jp": "　　　　　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 70,
-  "addr": 2147607790,
-  "len": 183,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:047",
-  "jp": "　　　　BAKJべぜせZびさそfgz3けと35こらふJIるeuうDCごSぜぬTaYk2ぐNMp7o6FEIHひご0ぎどづEDWdすXi0sあ4げPOZlねぅVcRQばえh<035>ゆむしVA　に8yか<035>きじWぬいつpざUGFq9っoょにtぃj1な5りぶづqさTぢnLKONk2rぁぷずfy1くほぞゅどへせXiMLぞgzがamUbだjxおずYQPHGSRCBwぉぺそ",
-  "group": 18,
-  "index": 71,
-  "addr": 2147607794,
-  "len": 179,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:09C",
-  "jp": "　A",
-  "group": 18,
-  "index": 156,
-  "addr": 2147608166,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:09D",
-  "jp": "FB",
-  "group": 18,
-  "index": 157,
-  "addr": 2147608207,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank18:09E",
-  "jp": "L　すAやAち　M　",
-  "group": 18,
-  "index": 158,
-  "addr": 2147608256,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank19:054",
-  "jp": "　A",
-  "group": 19,
-  "index": 84,
-  "addr": 2147608166,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank19:055",
-  "jp": "FB",
-  "group": 19,
-  "index": 85,
-  "addr": 2147608207,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank19:056",
-  "jp": "L　すAやAち　M　",
-  "group": 19,
-  "index": 86,
-  "addr": 2147608256,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank20:028",
-  "jp": "　A",
-  "group": 20,
-  "index": 40,
-  "addr": 2147608166,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank20:029",
-  "jp": "FB",
-  "group": 20,
-  "index": 41,
-  "addr": 2147608207,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank20:02A",
-  "jp": "L　すAやAち　M　",
-  "group": 20,
-  "index": 42,
-  "addr": 2147608256,
-  "len": 11,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank21:000",
-  "jp": "　A",
-  "group": 21,
-  "index": 0,
-  "addr": 2147608166,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank21:001",
-  "jp": "FB",
-  "group": 21,
-  "index": 1,
-  "addr": 2147608207,
-  "len": 3,
-  "en": "",
-  "status": "todo"
- },
- {
-  "id": "bank21:002",
-  "jp": "L　すAやAち　M　",
-  "group": 21,
-  "index": 2,
   "addr": 2147608256,
   "len": 11,
   "en": "",

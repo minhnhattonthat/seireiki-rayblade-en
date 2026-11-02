@@ -73,8 +73,8 @@ def sweep_texts(rec):
             continue
         ln, kind = r
         if kind == "text":
-            start = i + 2 + vm.STYLE_ARGS.get(rec[i + 1] & 0x0F, 0)
-            texts.append((i, start, vm.text_end(rec, start)))
+            start, end = vm.text_op(rec, i)
+            texts.append((i, start, end))
         i += ln
     return texts, skips
 
@@ -119,12 +119,11 @@ def resident_entries():
                 for op, a, b in texts]
     return out
 
-
 def bank_entries():
     """Strings of the EXE message bank. Group g's table is BANK_ROOT + u32; entry k is at
     table+4k and points at table+4k+u32, self-relative."""
     lo, hi = EXE_DATA
-    out, empty = [], 0
+    out, empty, seen_addr = [], 0, set()
     for g in range(BANK_GROUPS):
         t = BANK_ROOT + 4 * g + u32(BANK_ROOT + 4 * g)
         if not lo <= t < hi:
@@ -135,7 +134,7 @@ def bank_entries():
             if a + 4 > hi:
                 break
             tgt = a + u32(a)
-            if not lo <= tgt < hi:
+            if not lo <= tgt < hi or tgt in seen_addr:
                 continue
             end = vm.text_end(EXE, exe_off(tgt))
             if end is None:
@@ -146,6 +145,7 @@ def bank_entries():
             if not text.strip() or text == "{end}":
                 empty += 1
                 continue
+            seen_addr.add(tgt)
             out.append({"id": f"bank{g:02d}:{k:03X}", "jp": text, "group": g, "index": k,
                         "addr": tgt, "len": end - exe_off(tgt) + 1, "en": "", "status": "todo"})
     return out, empty

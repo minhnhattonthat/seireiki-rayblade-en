@@ -47,12 +47,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game over screen, battle attack animation/cut-ins and the phase menu not in the scene list yet: extend
     `gen_scenes.py` when phase 8 needs them.
 - **Open items (text, non-blocking):**
-  - `tbl/jp.tbl` kanji readings are template-match guesses: 464 cells are still `<XXX>` placeholders and known
-    misreads (目->貰, 日->廿, 回->廻, 同->伺, 向->徇, 真->審, 膨->脹) are visible in the extracted text. Fix in
-    `tbl/glyph_overrides.tsv`, re-run `build_tbl.py`, then `extract.py dump --force`. Do this before translators
-    read `jp` (phase 6) — the translation depends on the reading being right.
-  - `1E xx` op insertions inside text (runtime values: names/items) decode as `{ctl:..}`-free plain bytes; the
-    1E family should be documented per sub-op for the translators (`docs/re/text.md` lists the argument counts).
+  - `tbl/jp.tbl` readings are still mostly template-match guesses. 17 look-alike misreads are fixed (目/日/回/同/向/
+    真/貫/服/直/口/正/問/活/互/煌/泊/妄/田), and 50 cells are aliases (same glyph twice, `#<code>` suffix). Review
+    the rest before phase 6 by rendering cells (`work/scratch/glyphreview.py` labels each cell with its reading):
+    fix in `tbl/glyph_overrides.tsv`, re-run `build_tbl.py`, then `extract.py dump --force`. Text sampled at random
+    now reads correctly; the leftovers show up as odd characters inside otherwise sensible sentences.
+  - `1E xx` op insertions inside text (runtime values: names/items) are plain argument bytes; document them per
+    sub-op for the translators.
 - **Open bugs:** none (no build).
 - **Waiting on the user:** nothing blocking. Non-blocking: title logo 聖霊機ライブレード has no official English logo,
   kept Japanese per D5 unless the owner wants an English logo.

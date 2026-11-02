@@ -28,10 +28,14 @@
 Kanji readings in `tbl/jp.tbl` are template-match first guesses (`tools/match_font.py`, MS Gothic 12 px, chamfer
 distance, JIS-run window): ~1210 confident anchors, ~800 window guesses, ~115 free guesses (`work/font/match.tsv`).
 `build_tbl.py` now emits every glyph cell 0x00-0xA4C: unread cells get a `<XXX>` placeholder so the byte stream never
-misaligns (before that, a missing code decoded as `[XX]` and shifted the rest of the line). 464 cells are still
-placeholders. Known misreads seen in extracted text: 0x210 亜 read as 唐, 目 read as 貰, 日 read as 廿, 回 as 廻,
-同 as 伺, 向 as 徇, 真 as 審, 膨 as 脹, 今 as ?; fix them in `tbl/glyph_overrides.tsv` (code<TAB>reading) and re-run
-build_tbl.py, then re-run `tools/extract.py dump --force` so `jp` fields regenerate.
+misaligns (before that, a missing code decoded as `[XX]` and shifted the rest of the line). 17 readings were corrected
+by hand into `tbl/glyph_overrides.tsv` (rendered each cell and checked the surrounding line): 目/日/回/同/向/真/貫/服/
+直/口/正/問/活/互/煌/泊/妄/田 had all been read as a look-alike (貰/廿/廻/伺/徇/審/…). 50 glyph cells are **aliases**
+— the font holds the same character twice — so their table entries carry a `#<code>` suffix (e.g. `止#4FD`) to keep
+decode→encode byte-exact; read such a suffix as the character itself. The rest of the readings are still the
+template matcher's guesses: review them before phase 6 by rendering cells (`tools/fontsheet.py`, or
+`work/scratch/glyphreview.py` which labels each cell with its reading), fix in `tbl/glyph_overrides.tsv`, re-run
+build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick the fixes up.
 
 ## Scenario VM (D_SCE records) — verified (tools/vm.py; emulator trace work/scratch/tr1)
 - Interpreter loop 0x800581A0. State struct 0x800CD570: +0x40 script base pointer, +0x48 advance/displacement,
@@ -50,10 +54,12 @@ build_tbl.py, then re-run `tools/extract.py dump --force` so `jp` fields regener
   16-deep stack at state+0x64), 04 call abs u32, 06 return, 0B goto scene, B4 table goto (27 flag/scene pairs).
   7A = choice: `7A count` then `count` u16 self-relative offsets (one per item) — total length 2+2*count.
   08 = wait: `08 <u16 frames>` (countdown in state+0x4E).
-- **Text op 0x78**: `78 style [args]` then the text. Styles 1 and 2 carry two argument bytes before the text
-  (portrait/speaker id); styles 0, 8..12 carry none; styles 3..7 return without advancing (unused).
-  78 C0 = choice items, 78 A0, 78 80 = other boxes. Usually preceded by `7B xx yy` (speaker). The handler formats
-  into a 0x400-byte buffer (limit 0x3FF) and leaves state+0x48 = the whole `78 style args text FF` length.
+- **Text op 0x78**: `78 style [args]` then the text. Style 1 carries two argument bytes before the text,
+  style 2 carries three (`78 02 <u16> <u8>`; reading it as two left an 'A'/'B' glyph in front of 1699 lines),
+  styles 0, 8..12 carry none, and `78 78 <style> <args>` is a wrapper whose inner 78 at the second byte owns the
+  text (3 lines, battle-style windows). Styles 3..7 return without advancing (unused). 78 C0 = choice items,
+  78 A0, 78 80 = other boxes. Usually preceded by `7B xx yy` (speaker). The handler formats into a 0x400-byte
+  buffer (limit 0x3FF) and leaves state+0x48 = the whole `78 style args text FF` length.
 - **Text ends at an FF that is not a glyph low byte**: F0..FA are two-byte glyph codes (so `F3 FF` = 私), FC
   carries two argument bytes, FB/FD/FE one. `vm.text_end` walks glyph-wise for this reason; a raw `find(b"\xff")`
   cut 2052 strings short in the first pass.

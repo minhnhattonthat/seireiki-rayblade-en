@@ -1,27 +1,27 @@
 [
  {
   "id": "res07:0EC6",
-  "jp": "べ「A{ctl:03EA}　C{nl}べ6「A{ctl:03EA}　C{nl}L「A{ctl:03EA}　C{fb}<E1>",
+  "jp": "A{ctl:03EA}　C{nl}べ6「A{ctl:03EA}　C{nl}L「A{ctl:03EA}　C{fb}<E1>",
   "off": 3782,
   "len": 32,
   "en": "",
   "status": "todo",
   "sub": 7,
   "sub_addr": 2147552003,
-  "text_addr": 2147555787,
-  "text_len": 29
+  "text_addr": 2147555789,
+  "text_len": 27
  },
  {
   "id": "res07:0EEB",
-  "jp": "{nl}べべべ「C{ctl:03EA}BC{nl}べ6「C{ctl:03EA}BC{nl}L「C{ctl:03EA}BC{fb}<E1>",
+  "jp": "べべべ「C{ctl:03EA}BC{nl}べ6「C{ctl:03EA}BC{nl}L「C{ctl:03EA}BC{fb}<E1>",
   "off": 3819,
   "len": 35,
   "en": "",
   "status": "todo",
   "sub": 7,
   "sub_addr": 2147552003,
-  "text_addr": 2147555824,
-  "text_len": 32
+  "text_addr": 2147555825,
+  "text_len": 31
  },
  {
   "id": "res58:03B1",

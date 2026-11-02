@@ -57,7 +57,7 @@ SUBK = {
 
 TEXT = 0x78
 CHOICE = 0x7A
-STYLE_ARGS = {1: 2, 2: 2}          # text-op styles with argument bytes before the text
+STYLE_ARGS = {1: 2, 2: 3}          # text-op styles with argument bytes before the text (verified from the data)
 JUMP_REL = {0x01: 1, 0x07: 2, 0x14: 1}   # op: bias in target = op_off + displacement + bias
 CALL_REL = {0x03: 1}
 JUMP_ABS = {0x02: 1}               # op: bias, displacement is a u32
@@ -89,13 +89,24 @@ def text_end(rec, i):
     return None
 
 
-def text_at(rec, i):
-    """(start, end) of the text of a 78 op at i: text starts after the style args, ends before FF."""
+def text_op(rec, i):
+    """(text start, end index of the terminating FF) for the 78 op at i.
+
+    `78 78 <inner 78 op>` is a wrapper: the text belongs to the inner op (seen for battle-style
+    windows), so follow it. Returns None when the text does not terminate."""
     if i + 1 >= len(rec):
         return None
-    start = i + 2 + STYLE_ARGS.get(rec[i + 1] & 0x0F, 0)
+    style = rec[i + 1]
+    if style == 0x78:            # `78 78 <style> <args>`: the inner op starts at the second 78
+        return text_op(rec, i + 1)
+    start = i + 2 + STYLE_ARGS.get(style & 0x0F, 0)
     end = text_end(rec, start)
     return None if end is None else (start, end)
+
+
+def text_at(rec, i):
+    """(start, end) of the text of a 78 op at i: text starts after the style args, ends before FF."""
+    return text_op(rec, i)
 
 
 def insn_len(rec, i):
@@ -174,8 +185,8 @@ def texts(rec, seen=None):
     out = []
     for i, (ln, kind, op) in sorted(seen.items()):
         if kind == "text":
-            start = i + 2 + STYLE_ARGS.get(rec[i + 1] & 0x0F, 0)
-            out.append((i, start, text_end(rec, start)))
+            start, end = text_op(rec, i)
+            out.append((i, start, end))
     return out
 
 
