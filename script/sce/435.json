@@ -37,8 +37,8 @@
   "jp": "トウヤ「うーん‥‥」",
   "off": 181,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Hmmm...",
+  "status": "translated",
   "style": 0,
   "text_off": 183,
   "text_len": 13
@@ -653,8 +653,8 @@
   "jp": "トウヤ『‥‥』",
   "off": 2447,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: '...'",
+  "status": "translated",
   "style": 0,
   "text_off": 2449,
   "text_len": 9
@@ -752,8 +752,8 @@
   "jp": "ユミール「え‥‥」",
   "off": 2708,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Huh...",
+  "status": "translated",
   "style": 0,
   "text_off": 2710,
   "text_len": 12

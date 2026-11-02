@@ -4,8 +4,8 @@
   "jp": "フェイン「おっ！　訓練をする気になったか？{nl}　そうか、よし、それじゃ早速、これを‥‥」",
   "off": 900,
   "len": 55,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: Oh! Ready to train after all? Excellent, then let's start right away with this...",
+  "status": "translated",
   "style": 0,
   "text_off": 902,
   "text_len": 52
@@ -15,8 +15,8 @@
   "jp": "トウヤ「いや、別にそういうつもりじゃ‥‥」",
   "off": 958,
   "len": 27,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: No, that's not really what I meant...",
+  "status": "translated",
   "style": 0,
   "text_off": 960,
   "text_len": 24
@@ -26,8 +26,8 @@
   "jp": "フェイン「いいからいいから！　ほら、そこに座ってみろ！」",
   "off": 988,
   "len": 34,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: Never mind that! Go on, take a seat right there!",
+  "status": "translated",
   "style": 0,
   "text_off": 990,
   "text_len": 31
@@ -59,8 +59,8 @@
   "jp": "　フェインの特訓メニューを消化した。{nl}　普通の人間がする量ではなかった‥‥",
   "off": 1401,
   "len": 52,
-  "en": "",
-  "status": "todo",
+  "en": "I got through Fain's special training menu. It was not an amount meant for normal humans...",
+  "status": "translated",
   "style": 0,
   "text_off": 1403,
   "text_len": 49

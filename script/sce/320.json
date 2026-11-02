@@ -4,8 +4,8 @@
   "jp": "ヤマト「そろそろ到着するね」",
   "off": 55,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: We're almost there, nya.",
+  "status": "translated",
   "style": 0,
   "text_off": 57,
   "text_len": 16
@@ -92,8 +92,8 @@
   "jp": "ユミール「え、ええ‥‥その‥‥{nl}　部屋まで運んでくれてありがとう‥‥」",
   "off": 331,
   "len": 48,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Y-yes... um... Thank you for carrying me to my room...",
+  "status": "translated",
   "style": 0,
   "text_off": 333,
   "text_len": 45

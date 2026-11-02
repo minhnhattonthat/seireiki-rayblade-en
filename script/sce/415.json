@@ -26,8 +26,8 @@
   "jp": "ヤマト「そうだね」",
   "off": 110,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Yeah.",
+  "status": "translated",
   "style": 0,
   "text_off": 112,
   "text_len": 9
@@ -719,8 +719,8 @@
   "jp": "トウヤ「だったら‥‥」",
   "off": 2692,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Then...",
+  "status": "translated",
   "style": 0,
   "text_off": 2694,
   "text_len": 13
