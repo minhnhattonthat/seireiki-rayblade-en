@@ -44,7 +44,7 @@ git clone https://github.com/minhnhattonthat/<repo>
 cd <repo>
 # copy your dump to: rom/<file>
 #   (<size> bytes, SHA-1 <sha1>; the build refuses any other dump, see rom.sha1)
-python -X utf8 tools/build.py                          # -> build/<game>_en.<ext>
+python -X utf8 tools/build.py                          # -> build/Seireiki Rayblade (English).cue + 2 tracks
 python -X utf8 tools/check.py                          # tests + text lint
 ```
 

@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2 (debug tool) done -> next phase 3 (identity build). No build yet (`tools/build.py` not written).
+- **Phase:** 3 (identity build) done -> next phase 4 (extract). `tools/build.py` rebuilds the disc byte-identical
+  (no edits yet); build smoke ok.
 - **Done:**
   - Step 0: PCSX-Redux in `tools/pcsx/`, SCPH-5500 BIOS, mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/`, armips 0.11 in
     `tools/armips/` (all gitignored; re-fetch: `fetch_emu.py pcsx|psx-bios`, `gh release download` from
@@ -22,12 +23,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     work/qa/warp/<name>.png + sheet.png. Probes: `tools/lua/loadlog.lua` (load queue), `vmtrace.lua` (VM state).
     `tools/re.py xref`, `tools/debug/catalog.py` (per-scene first lines, flag guards).
   - EXE message bank decoded (docs/re/flow.md): leftover debug menu strings have no caller (compiled out).
+  - **Phase 3 identity build**: `tools/build.py` (dumpsxiso once -> arc.pack D_SCE/D_BMESS/D_SYSTEM -> mkpsxiso via
+    a layout pointing changed files at build/files -> split into Track 1/2 + cue), ~3 s. `tests/test_build.py`
+    builds into work/test_build and asserts both track SHA-1s == rom.sha1 (green). Files may grow on disc: the game
+    finds files by ISO name (verified with every LBA shifted 40 sectors, docs/re/disc.md).
 - **Next:**
-  1. Phase 3: `tools/build.py` + identity test (dumpsxiso -> arc.pack/lz -> mkpsxiso, split back to 2 tracks).
-  2. Phase 4: full VM disassembler (length table + variable ops) with roundtrip; ops 01/14 are relative jumps
+  1. Phase 4: full VM disassembler (length table + variable ops) with roundtrip; ops 01/14 are relative jumps
      (new op = op + off + 1), 0B goto scene, B4 table goto; review kanji table (`tbl/glyph_overrides.tsv`).
      Text also in the EXE message bank (22 groups) and the resident system script (EXE 0xB74, op A3 shows bank ids).
-  3. Phase 5 blockers to plan: 0x8000 script buffer (largest record 0x75C0), 0x400 format buffer, Latin font
+     Insert path: build.changed_files() is the hook (name -> bytes); add EXE (SLPS_026.52) there when it changes.
+  2. Phase 5 blockers to plan: 0x8000 script buffer (largest record 0x75C0), 0x400 format buffer, Latin font
      (8-px glyphs 01-34 exist; ASCII mode via FB?), VM offset fix-ups on text growth.
 - **Open items (debug tool, non-blocking):**
   - System > Sound test and > Memory album stop the emulator (frames stop inside op E0 right after it loads

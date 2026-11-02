@@ -8,8 +8,14 @@ Dump: Redump "Seireiki Rayblade (Japan)" SLPS-02652 (Winkysoft, 1999-12), `rom.s
 - **verified**: the rebuilt image is byte-identical: first 643,965,840 bytes == Track 1, the rest == Track 2
   (sha1 bd1fde88...). mkpsxiso writes one .bin with both tracks; split it back at the Track 1 size for the release.
 - Files: `SLPS_026.52` (EXE, 776 KB), `D_SYSTEM D_SCE D_FIELD D_SCREEN D_FACE D_FACE2 D_UNIT D_SE D_EFFECT D_CUTIN D_BMESS
-  D_ANIME D_BGM .BIN`, `MOVIE.BIN` (mixed/XA+STR), `NULL.DA` (track 2). The EXE holds the file names at 0x80010039..;
-  file LBAs: TODO check whether the EXE has a hard-coded LBA table (a grown file shifts every later LBA).
+  D_ANIME D_BGM .BIN`, `MOVIE.BIN` (mixed/XA+STR), `NULL.DA` (track 2). The EXE holds the file names at 0x80010039..
+- **Files may grow — verified 2026-11-02**: no LBA table in the EXE (u32/BCD-MSF search finds only unaligned noise),
+  and a disc with D_SYSTEM.BIN grown by 40 sectors (every later file, MOVIE included, shifted) boots through the intro
+  FMV and warps to story_S01 (portrait from D_FACE) and battle_map (D_FIELD) with frames identical to the original.
+  The game looks files up by name in the ISO directory.
+- **Build**: `tools/build.py` (unpack once -> repack D_SCE/D_BMESS/D_SYSTEM via arc.pack -> mkpsxiso with a layout whose
+  changed files point at build/files -> split at track 2 INDEX 00). Identity test `tests/test_build.py` (both track
+  SHA-1s == rom.sha1). `build/lba.txt` = mkpsxiso's LBA listing of the last build.
 
 ## Archive format (`tools/arc.py`) — verified
 Header = N u32 LE **self-relative** offsets: slot i -> `4*i + off[i]`; `off[0] = 4*N`. Slots can alias a record (D_BMESS
