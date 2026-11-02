@@ -92,8 +92,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 1429,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1431,
   "text_len": 9
@@ -125,8 +125,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 1479,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1481,
   "text_len": 9
@@ -444,8 +444,8 @@
   "jp": "カスミ「あっ、トウヤちゃん‥‥」",
   "off": 3443,
   "len": 21,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Ah, Touya-chan...",
+  "status": "translated",
   "style": 0,
   "text_off": 3445,
   "text_len": 18
@@ -496,7 +496,7 @@
  },
  {
   "id": "sce439:00E60",
-  "jp": "ユミール「第Ξ層の第一区画の‥‥」",
+  "jp": "ユミール「第三層の第一区画の‥‥」",
   "off": 3680,
   "len": 30,
   "en": "",

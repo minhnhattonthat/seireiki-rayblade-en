@@ -100,7 +100,7 @@
  },
  {
   "id": "sce358:00263",
-  "jp": "ヤマト「そうだよ！　今までΞ人でニャんとかやって来たし、{nl}　今回も大丈夫よ！」",
+  "jp": "ヤマト「そうだよ！　今まで三人でニャんとかやって来たし、{nl}　今回も大丈夫よ！」",
   "off": 611,
   "len": 56,
   "en": "",
@@ -565,8 +565,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 3843,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 3847,
   "text_len": 9
@@ -587,8 +587,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 3879,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 3883,
   "text_len": 9
@@ -807,8 +807,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 4575,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 4579,
   "text_len": 9
@@ -1456,8 +1456,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 8203,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 8207,
   "text_len": 9

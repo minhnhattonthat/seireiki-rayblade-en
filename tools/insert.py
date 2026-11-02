@@ -27,6 +27,7 @@ import bmess  # noqa: E402
 import extract  # noqa: E402
 import font_en  # noqa: E402
 import patch  # noqa: E402
+import tlform  # noqa: E402
 import vm  # noqa: E402
 from tbl import Table  # noqa: E402
 
@@ -50,6 +51,11 @@ def marker_text(op, width=30):
     so a box narrower than the line shows the overflow at once."""
     head = f"[{op:05X}] "
     return head + (FILLER * (width // len(FILLER) + 1))[:max(0, width - len(head))]
+
+
+def en_text(e):
+    """the translator's English laid out into the game's lines (tools/tlform.py), or ''."""
+    return tlform.layout(e) if e.get("en") else ""
 
 
 def load(name, slot=None):
@@ -83,7 +89,7 @@ def sce_edits(marker=False, width=30, slots=None, override=None):
             if e["id"] in override:
                 edits[e["off"]] = EN.encode(override[e["id"]])
                 continue
-            text = e["en"] if e.get("en") else (marker_text(e["off"], width) if marker else "")
+            text = en_text(e) or (marker_text(e["off"], width) if marker else "")
             if text:
                 edits[e["off"]] = EN.encode(text)
         if edits:
@@ -121,7 +127,7 @@ def bmess_records(marker=False, width=30, override=None, report=None):
     """{slot: rebuilt D_BMESS record} for the records that have text to insert."""
     override, edits = override or {}, {}
     for e in load("bmess.json"):
-        text = override.get(e["id"]) or e["en"] or (bm_marker(e, width) if marker else "")
+        text = override.get(e["id"]) or en_text(e) or (bm_marker(e, width) if marker else "")
         if text:
             edits.setdefault(e["slot"], {})[e["text_off"]] = EN.encode(text)
     recs = dict(bmess.records())
@@ -256,7 +262,7 @@ def bank_edits(marker=False, override=None):
     for e in load("exe_bank.json"):
         if e["status"] == "data":
             continue
-        text = override.get(e["id"]) or e["en"] or (bank_marker(e) if marker and e["group"] in TEXT_GROUPS else "")
+        text = override.get(e["id"]) or en_text(e) or (bank_marker(e) if marker and e["group"] in TEXT_GROUPS else "")
         if text:
             out[e["addr"]] = EN.encode(text) + b"\xFF"
     return out
@@ -276,7 +282,7 @@ def res_edits(marker=False, width=30, override=None):
     for e in load("resident.json"):
         if e["status"] == "data":
             continue
-        text = override.get(e["id"]) or e["en"] or (marker_text(e["off"], width) if marker else "")
+        text = override.get(e["id"]) or en_text(e) or (marker_text(e["off"], width) if marker else "")
         if text:
             out.setdefault(e["sub"], {})[e["off"]] = EN.encode(text)
     return out

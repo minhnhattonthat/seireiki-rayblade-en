@@ -78,7 +78,7 @@
  },
  {
   "id": "sce356:001FA",
-  "jp": "カスミ「あっ‥‥ふ、二人じゃなくてΞ人だよね。{nl}　‥‥ごめんね、ヤマトちゃん」",
+  "jp": "カスミ「あっ‥‥ふ、二人じゃなくて三人だよね。{nl}　‥‥ごめんね、ヤマトちゃん」",
   "off": 506,
   "len": 53,
   "en": "",
@@ -565,8 +565,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 3774,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 3778,
   "text_len": 9
@@ -587,8 +587,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 3828,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 3832,
   "text_len": 9
@@ -829,8 +829,8 @@
   "jp": "トウヤ「‥‥」",
   "off": 4543,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 4547,
   "text_len": 9
