@@ -592,6 +592,8 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 好感度 | Affection |  |  |  |
 | バースト・プラーナ | Burst Prana |  |  |  |
 | 共鳴結晶 | Resonance Crystal |  |  |  |
+| 神凱王 | Shingaioh |  |  |  |
+| 超攻性外殻体 | hyper-offensive exoshell |  |  |  |
 
 ## Speaker labels
 | JP | EN | max | notes | Avoid |
@@ -961,3 +963,11 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | ヨーク独立戦争の記録 | Record of the York War of Independence |  | work_title |  |
 | 眠れる森の美女 | Sleeping Beauty |  | work_title |  |
 ## Decisions from earlier batches
+
+Terms and forms of address the first waves settled on (follow them):
+- リス = lis (time unit, ~40 min); デオ = deo (~24 s); リーク = liek (length).
+- 宰相 = chancellor; 治安局 = Security Bureau; 召喚施設 = summoning facility; 鎮圧班/救出班 = suppression/rescue team.
+- 評議会委員長 = Chairman of the Agarthian Council; ラクバル委員長 = Chairman Rakbal; ラクバル先生 = Rakbal-sensei.
+- Ranks: 大佐 Colonel, 中佐 Lieutenant Colonel, 少佐 Major, 中尉 Lieutenant, 大将 General, 隊長 Captain, 閣下 Your Excellency, 大統領 Mr. President.
+- Family address: マキ姉 = Big Sis Maki; レイフォン兄さん/兄 = Brother Rayfon; 兄さん (Celica to Lodis) = Brother; 義姉さん = Sis; お姉ちゃん = Big Sister; お兄さま (Celea) = Brother dear; クロビスおじさん = Uncle Clovis.
+- Casual address: じーさん = old man (not "jii-san"); おっちゃん = Pops; 姐さん = Boss Lady; ねーちゃん = Nee-chan.

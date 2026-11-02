@@ -4,8 +4,8 @@
   "jp": "　「1B0のフラグが立っていません。このプライベート{nl}　イベントをする場合は1B0のフラグを立てやり直して{nl}　ください。しない場合は、強制終了いたします。」{ctl:B43E}",
   "off": 152,
   "len": 96,
-  "en": "",
-  "status": "todo",
+  "en": "\"Flag 1B0 is not set. To run this private event, set flag 1B0 and start again. Otherwise, the event will be force-quit.\"{ctl:B43E}",
+  "status": "translated",
   "style": 0,
   "text_off": 154,
   "text_len": 93
@@ -312,8 +312,8 @@
   "jp": "トウヤ「ふぅ～ん‥‥」",
   "off": 2321,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Hmmm...",
+  "status": "translated",
   "style": 0,
   "text_off": 2323,
   "text_len": 14

@@ -1533,8 +1533,8 @@
   "jp": "カスミ「きゃっ！」",
   "off": 9306,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Eek!",
+  "status": "translated",
   "style": 1,
   "text_off": 9310,
   "text_len": 10
@@ -1973,8 +1973,8 @@
   "jp": "トウヤ「‥‥マジかよ‥‥」",
   "off": 12536,
   "len": 22,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...You serious...?",
+  "status": "translated",
   "style": 1,
   "text_off": 12540,
   "text_len": 17

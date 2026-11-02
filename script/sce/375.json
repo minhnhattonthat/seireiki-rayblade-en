@@ -1445,8 +1445,8 @@
   "jp": "アイ「はぁ⁈」",
   "off": 6097,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Huh!?",
+  "status": "translated",
   "style": 0,
   "text_off": 6099,
   "text_len": 8
@@ -2006,8 +2006,8 @@
   "jp": "カスミ「きゃっ！」",
   "off": 9201,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Eek!",
+  "status": "translated",
   "style": 0,
   "text_off": 9203,
   "text_len": 10

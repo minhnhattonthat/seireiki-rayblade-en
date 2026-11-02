@@ -114,8 +114,8 @@
   "jp": "トウヤ「‥‥うまい」",
   "off": 448,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...It's good.",
+  "status": "translated",
   "style": 0,
   "text_off": 450,
   "text_len": 12
@@ -180,8 +180,8 @@
   "jp": "トウヤ「へぇー」",
   "off": 667,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh.",
+  "status": "translated",
   "style": 0,
   "text_off": 669,
   "text_len": 9
@@ -235,8 +235,8 @@
   "jp": "アイ「あーっ！」",
   "off": 931,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Aaah!",
+  "status": "translated",
   "style": 0,
   "text_off": 933,
   "text_len": 10
@@ -697,8 +697,8 @@
   "jp": "トウヤ『ああ』",
   "off": 2736,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: 'Yeah.'",
+  "status": "translated",
   "style": 0,
   "text_off": 2738,
   "text_len": 7

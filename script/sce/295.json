@@ -4,8 +4,8 @@
   "jp": "　「1B0のフラグが立っていません。このプライベート{nl}　イベントをする場合は1B0のフラグを立てやり直して{nl}　ください。しない場合は、強制終了いたします。」{ctl:B43E}",
   "off": 85,
   "len": 96,
-  "en": "",
-  "status": "todo",
+  "en": "\"Flag 1B0 is not set. To run this private event, set flag 1B0 and start again. Otherwise, the event will be force-quit.\"{ctl:B43E}",
+  "status": "translated",
   "style": 0,
   "text_off": 87,
   "text_len": 93
@@ -488,8 +488,8 @@
   "jp": "トウヤ「いいって。それじゃ」",
   "off": 2494,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Don't worry about it. See ya.",
+  "status": "translated",
   "style": 0,
   "text_off": 2496,
   "text_len": 14
@@ -620,8 +620,8 @@
   "jp": "ヤマト「そうね」",
   "off": 2905,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Right.",
+  "status": "translated",
   "style": 0,
   "text_off": 2907,
   "text_len": 8

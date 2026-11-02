@@ -1236,8 +1236,8 @@
   "jp": "カスミ「きゃっ！」",
   "off": 6402,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Eek!",
+  "status": "translated",
   "style": 0,
   "text_off": 6404,
   "text_len": 10
@@ -1544,8 +1544,8 @@
   "jp": "カスミ「どうしたの？」",
   "off": 7368,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: What's up?",
+  "status": "translated",
   "style": 0,
   "text_off": 7370,
   "text_len": 12
@@ -1698,8 +1698,8 @@
   "jp": "トウヤ「そうかもな」",
   "off": 7895,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Maybe so.",
+  "status": "translated",
   "style": 0,
   "text_off": 7897,
   "text_len": 10

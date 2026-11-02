@@ -15,8 +15,8 @@
   "jp": "トウヤ「開いてるぜ」",
   "off": 110,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: It's open.",
+  "status": "translated",
   "style": 0,
   "text_off": 112,
   "text_len": 11
@@ -576,8 +576,8 @@
   "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 1757,
   "len": 329,
-  "en": "",
-  "status": "todo",
+  "en": ".{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 1759,
   "text_len": 326

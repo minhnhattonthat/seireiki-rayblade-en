@@ -81,8 +81,8 @@
   "jp": "トウヤ『ああ』",
   "off": 382,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: 'Yeah.'",
+  "status": "translated",
   "style": 0,
   "text_off": 384,
   "text_len": 7
@@ -279,8 +279,8 @@
   "jp": "トウヤ「えっ⁉」",
   "off": 1228,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh!?",
+  "status": "translated",
   "style": 0,
   "text_off": 1230,
   "text_len": 9
@@ -400,8 +400,8 @@
   "jp": "アイ「なに？」",
   "off": 1663,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: What?",
+  "status": "translated",
   "style": 0,
   "text_off": 1665,
   "text_len": 8

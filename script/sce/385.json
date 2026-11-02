@@ -4,8 +4,8 @@
   "jp": "　「1B0のフラグが立っていません。このプライベート{nl}　イベントをする場合は1B0のフラグを立てやり直して{nl}　ください。しない場合は、強制終了いたします。」{ctl:B43E}",
   "off": 261,
   "len": 96,
-  "en": "",
-  "status": "todo",
+  "en": "\"Flag 1B0 is not set. To run this private event, set flag 1B0 and start again. Otherwise, the event will be force-quit.\"{ctl:B43E}",
+  "status": "translated",
   "style": 0,
   "text_off": 263,
   "text_len": 93
@@ -15,8 +15,8 @@
   "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 808,
   "len": 110,
-  "en": "",
-  "status": "todo",
+  "en": ".{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 810,
   "text_len": 107
@@ -59,8 +59,8 @@
   "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 1339,
   "len": 115,
-  "en": "",
-  "status": "todo",
+  "en": ".{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 1341,
   "text_len": 112
@@ -345,8 +345,8 @@
   "jp": "トウヤ「ああ。それじゃ」",
   "off": 2752,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Yeah. See ya.",
+  "status": "translated",
   "style": 0,
   "text_off": 2754,
   "text_len": 12
