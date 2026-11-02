@@ -98,6 +98,9 @@ BM_STRIDE = 0x3FF8
 BM_OUT = (0x80069980, 0x200, 0x800)
 BM_BLOCK = 0x80069984
 BM_OFFSETS = [0x80069A14, 0x80069A64, 0x80069ABC, 0x80069BE4, 0x80069C50, 0x80069C88, 0x80069CEC]
+# free(addr, size) takes the size: the block is freed right after preprocessing, the output after the battle.
+BM_FREE_BLOCK = 0x80069D68       # ori a1, zero, 0xC000
+BM_FREE_OUT = 0x8006BA78         # addiu a1, zero, 0x200
 
 
 def bm_marker(e, width=30):
@@ -137,12 +140,13 @@ def bmess_exe(exe):
     rd = lambda a: int.from_bytes(exe.orig[xo(a):xo(a) + 4], "little")  # noqa: E731
     put = lambda a, ins, why: exe(exe.buf, xo(a), ins.to_bytes(4, "little"), why)  # noqa: E731
     a, old, new = BM_OUT
-    if rd(a) != mips("addiu", 4, 0, old):
-        raise SystemExit(f"EXE: expected the battle-message output alloc at {a:#x}")
-    put(a, mips("addiu", 4, 0, new), f"battle message output {old:#x} -> {new:#x}")
-    if rd(BM_BLOCK) != mips("ori", 4, 0, 0xC000):
-        raise SystemExit(f"EXE: expected the D_BMESS block alloc at {BM_BLOCK:#x}")
-    put(BM_BLOCK, mips("ori", 4, 0, 4 * BM_STRIDE), f"D_BMESS block 0xC000 -> {4 * BM_STRIDE:#x}")
+    for addr, op, reg, was, now, why in ((a, "addiu", 4, old, new, "battle message output alloc"),
+                                         (BM_FREE_OUT, "addiu", 5, old, new, "battle message output free"),
+                                         (BM_BLOCK, "ori", 4, 0xC000, 4 * BM_STRIDE, "D_BMESS block alloc"),
+                                         (BM_FREE_BLOCK, "ori", 5, 0xC000, 4 * BM_STRIDE, "D_BMESS block free")):
+        if rd(addr) != mips(op, reg, 0, was):
+            raise SystemExit(f"EXE: expected {why} ({op} {was:#x}) at {addr:#x}")
+        put(addr, mips(op, reg, 0, now), f"{why} {was:#x} -> {now:#x}")
     for a in BM_OFFSETS:
         w = rd(a)
         k = (w & 0xFFFF) // 0x3000
@@ -249,6 +253,8 @@ def bank_edits(marker=False, override=None):
     (`override`: id->text, e.g. `bank00:001` for a width probe)."""
     out, override = {}, override or {}
     for e in load("exe_bank.json"):
+        if e["status"] == "data":
+            continue
         text = override.get(e["id"]) or e["en"] or (bank_marker(e) if marker and e["group"] in TEXT_GROUPS else "")
         if text:
             out[e["addr"]] = EN.encode(text) + b"\xFF"

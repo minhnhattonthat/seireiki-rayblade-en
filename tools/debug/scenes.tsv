@@ -115,3 +115,5 @@ ending_349	349				40	0x78	20	3		4000		ending (route variant), third text box
 ending_350	350				40	0x78	20	3		4000		ending (route variant), third text box
 ending_351	351				40	0x78	20	3		4000		ending (route variant), third text box
 ending_352	352				40	0x78	20	3		4000		ending (route variant), third text box
+choice_S17	14				40	0x7A	60	1		9000		chapter S17: first choice list (78 C0 items, op 7A), choice-box width probe
+choice_090	90				40	0x7A	60	1		9000		scene 90 bridge talk: first choice list (op 7A)

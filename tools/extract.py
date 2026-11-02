@@ -38,6 +38,9 @@ EXE_DATA = (0x80012500, 0x8001E700)     # system/battle strings live here (docs/
 EXE_VM_REGIONS = [(0x800124E0, 0x800126E0)]
 BANK_ROOT = 0x8001534C
 BANK_GROUPS = 22
+# Groups 12-21 are struct tables, and these entries of the text groups are tables too (`ぁB　　おB..` = u16 pairs):
+# status "data", never translated or moved.
+BANK_DATA = {"bank01:034", "bank08:030"}
 CTRL = re.compile(r"\{(?:\w+)(?::[0-9A-F]*)?\}|\[[0-9A-F]{2}\]")
 JP = re.compile(r"[\u3000-\u303f\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\u2025\u2026\uff00-\uffef]")
 
@@ -144,7 +147,8 @@ def bank_entries():
                 continue
             seen_addr.add(tgt)
             out.append({"id": f"bank{g:02d}:{k:03X}", "jp": text, "group": g, "index": k,
-                        "addr": tgt, "len": end - exe_off(tgt) + 1, "en": "", "status": "todo"})
+                        "addr": tgt, "len": end - exe_off(tgt) + 1, "en": "",
+                        "status": "data" if g >= 12 or f"bank{g:02d}:{k:03X}" in BANK_DATA else "todo"})
     return out, empty
 
 
@@ -236,7 +240,7 @@ def keep_old(path, new):
         o = old.get(e["id"])
         if o:
             for k in ("en", "status", "notes", "max"):
-                if o.get(k):
+                if o.get(k) and not (k == "status" and e[k] == "data"):
                     e[k] = o[k]
     return new
 
