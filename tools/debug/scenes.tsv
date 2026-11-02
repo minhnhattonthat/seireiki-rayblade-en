@@ -1,0 +1,117 @@
+# Debug-tool scene list: python -X utf8 tools/debug/warp.py --list | NAME | --all. Columns: warp.py --help.
+name	scene	ep	title	flags	mash	stop_op	stop_after	stop_n	post	frames	route	note
+story_S01	1				40	0x78	20	3		4000		chapter start S01 (scene 2 dispatcher), third text box
+story_S03	3				40	0x78	20	3		4000		chapter start S03 (scene 2 dispatcher), third text box
+story_S04	4				40	0x78	20	3		4000		chapter start S04 (scene 2 dispatcher), third text box
+story_S06	5				40	0x78	20	3		4000		chapter start S06 (scene 2 dispatcher), third text box
+story_S09	6				40	0x78	20	3		4000		chapter start S09 (scene 2 dispatcher), third text box
+story_S09_5	7				40	0x78	20	3		4000		chapter start S09.5 (scene 2 dispatcher), third text box
+story_S10	8				40	0x78	20	3		4000		chapter start S10 (scene 2 dispatcher), third text box
+story_S11	9				40	0x78	20	3		4000		chapter start S11 (scene 2 dispatcher), third text box
+story_S11_5	10				40	0x78	20	3		4000		chapter start S11.5 (scene 2 dispatcher), third text box
+story_S13	11				40	0x78	20	3		4000		chapter start S13 (scene 2 dispatcher), third text box
+story_S15	12				40	0x78	20	3		4000		chapter start S15 (scene 2 dispatcher), third text box
+story_S16	13				40	0x78	20	3		4000		chapter start S16 (scene 2 dispatcher), third text box
+story_S17	14				40	0x78	20	3		4000		chapter start S17 (scene 2 dispatcher), third text box
+story_S20	15				40	0x78	20	3		4000		chapter start S20 (scene 2 dispatcher), third text box
+story_S21	16				40	0x78	20	3		4000		chapter start S21 (scene 2 dispatcher), third text box
+story_S22	17				40	0x78	20	3		4000		chapter start S22 (scene 2 dispatcher), third text box
+story_S23	18				40	0x78	20	3		4000		chapter start S23 (scene 2 dispatcher), third text box
+story_S24	19				40	0x78	20	3		4000		chapter start S24 (scene 2 dispatcher), third text box
+story_S25	20				40	0x78	20	3		4000		chapter start S25 (scene 2 dispatcher), third text box
+story_S26	23				40	0x78	20	3		4000		chapter start S26 (scene 2 dispatcher), third text box
+story_S27	26				40	0x78	20	3		4000		chapter start S27 (scene 2 dispatcher), third text box
+story_S28	31				40	0x78	20	3		4000		chapter start S28 (scene 2 dispatcher), third text box
+story_S29	36				40	0x78	20	3		4000		chapter start S29 (scene 2 dispatcher), third text box
+story_S30	41				40	0x78	20	3		4000		chapter start S30 (scene 2 dispatcher), third text box
+story_S31	44				40	0x78	20	3		4000		chapter start S31 (scene 2 dispatcher), third text box
+story_S32	208				40	0x78	20	3		4000		chapter start S32 (scene 2 dispatcher), third text box
+card_00	128	1				0x8C	530			3000		chapter card title 0 (D_SYSTEM banner), battle scene 128
+card_01	130	2				0x8C	530			3000		chapter card title 1 (D_SYSTEM banner), battle scene 130
+card_02	55	3				0x8C	530			3000		chapter card title 2 (D_SYSTEM banner), battle scene 55
+card_03	133	4				0x8C	530			3000		chapter card title 3 (D_SYSTEM banner), battle scene 133
+card_04	134	5				0x8C	530			3000		chapter card title 4 (D_SYSTEM banner), battle scene 134
+card_05	135	6				0x8C	530			3000		chapter card title 5 (D_SYSTEM banner), battle scene 135
+card_06	136	7				0x8C	530			3000		chapter card title 6 (D_SYSTEM banner), battle scene 136
+card_07	137	7				0x8C	530			3000		chapter card title 7 (D_SYSTEM banner), battle scene 137
+card_08	140	9				0x8C	530			3000		chapter card title 8 (D_SYSTEM banner), battle scene 140
+card_09	141	10				0x8C	530			3000		chapter card title 9 (D_SYSTEM banner), battle scene 141
+card_10	142	11				0x8C	530			3000		chapter card title 10 (D_SYSTEM banner), battle scene 142
+card_11	145	12				0x8C	530			3000		chapter card title 11 (D_SYSTEM banner), battle scene 145
+card_12	148	13				0x8C	530			3000		chapter card title 12 (D_SYSTEM banner), battle scene 148
+card_13	151	14				0x8C	530			3000		chapter card title 13 (D_SYSTEM banner), battle scene 151
+card_14	154	15				0x8C	530			3000		chapter card title 14 (D_SYSTEM banner), battle scene 154
+card_15	157	16				0x8C	530			3000		chapter card title 15 (D_SYSTEM banner), battle scene 157
+card_16	160	17				0x8C	530			3000		chapter card title 16 (D_SYSTEM banner), battle scene 160
+card_17	128	18	17			0x8C	530			3000		chapter card title 17 poked over battle scene 128 (no script uses it)
+card_18	163	19				0x8C	530			3000		chapter card title 18 (D_SYSTEM banner), battle scene 163
+card_19	166	20				0x8C	530			3000		chapter card title 19 (D_SYSTEM banner), battle scene 166
+card_20	169	21				0x8C	530			3000		chapter card title 20 (D_SYSTEM banner), battle scene 169
+card_21	21	22				0x8C	530			3000		chapter card title 21 (D_SYSTEM banner), battle scene 21
+card_22	24	23				0x8C	530			3000		chapter card title 22 (D_SYSTEM banner), battle scene 24
+card_23	49	23				0x8C	530			3000		chapter card title 23 (D_SYSTEM banner), battle scene 49
+card_24	28	25				0x8C	530			3000		chapter card title 24 (D_SYSTEM banner), battle scene 28
+card_25	32	26				0x8C	530			3000		chapter card title 25 (D_SYSTEM banner), battle scene 32
+card_26	37	27				0x8C	530			3000		chapter card title 26 (D_SYSTEM banner), battle scene 37
+card_27	38	27			40	0x8C	530			12000		chapter card title 27 (D_SYSTEM banner), battle scene 38
+card_28	42	29				0x8C	530			3000		chapter card title 28 (D_SYSTEM banner), battle scene 42
+card_29	45	30				0x8C	530			3000		chapter card title 29 (D_SYSTEM banner), battle scene 45
+card_30	46	30				0x8C	530			3000		chapter card title 30 (D_SYSTEM banner), battle scene 46
+card_31	197	32				0x8C	530			3000		chapter card title 31 (D_SYSTEM banner), battle scene 197
+card_32	198	32			40	0x8C	530			12000		chapter card title 32 (D_SYSTEM banner), battle scene 198
+card_33	58	33				0x8C	530			3000		chapter card title 33 (D_SYSTEM banner), battle scene 58
+card_34	193	35				0x8C	530			3000		chapter card title 34 (D_SYSTEM banner), battle scene 193
+card_35	196	36				0x8C	530			3000		chapter card title 35 (D_SYSTEM banner), battle scene 196
+card_36	201	37				0x8C	530			3000		chapter card title 36 (D_SYSTEM banner), battle scene 201
+card_37	203	37			40	0x8C	530			12000		chapter card title 37 (D_SYSTEM banner), battle scene 203
+card_38	206	39				0x8C	530			3000		chapter card title 38 (D_SYSTEM banner), battle scene 206
+card_39	207	39				0x8C	530			3000		chapter card title 39 (D_SYSTEM banner), battle scene 207
+card_40	240	41				0x8C	530			3000		chapter card title 40 (D_SYSTEM banner), battle scene 240
+card_41	242	42				0x8C	530			3000		chapter card title 41 (D_SYSTEM banner), battle scene 242
+card_42	179	43				0x8C	530			3000		chapter card title 42 (D_SYSTEM banner), battle scene 179
+card_43	248	44				0x8C	530			3000		chapter card title 43 (D_SYSTEM banner), battle scene 248
+card_44	249	44				0x8C	530			3000		chapter card title 44 (D_SYSTEM banner), battle scene 249
+card_45	181	46				0x8C	530			3000		chapter card title 45 (D_SYSTEM banner), battle scene 181
+card_46	371	47				0x8C	530			3000		chapter card title 46 (D_SYSTEM banner), battle scene 371
+card_47	128	48	47			0x8C	530			3000		chapter card title 47 poked over battle scene 128 (no script uses it)
+card_48	374	49				0x8C	530			3000		chapter card title 48 (D_SYSTEM banner), battle scene 374
+card_49	377	50				0x8C	530			3000		chapter card title 49 (D_SYSTEM banner), battle scene 377
+card_50	379	50			40	0x8C	530			12000		chapter card title 50 (D_SYSTEM banner), battle scene 379
+card_51	381	51				0x8C	530			3000		chapter card title 51 (D_SYSTEM banner), battle scene 381
+card_52	75	53				0x8C	530			3000		chapter card title 52 (D_SYSTEM banner), battle scene 75
+card_53	128	54	53			0x8C	530			3000		chapter card title 53 poked over battle scene 128 (scene 77)
+card_54	337	55				0x8C	530			3000		chapter card title 54 (D_SYSTEM banner), battle scene 337
+card_55	340	56				0x8C	530			3000		chapter card title 55 (D_SYSTEM banner), battle scene 340
+card_56	343	57				0x8C	530			3000		chapter card title 56 (D_SYSTEM banner), battle scene 343
+card_57	344	57				0x8C	530			3000		chapter card title 57 (D_SYSTEM banner), battle scene 344
+card_58	353	59				0x8C	530			3000		chapter card title 58 (D_SYSTEM banner), battle scene 353
+card_59	354	59			40	0x8C	530			12000		chapter card title 59 (D_SYSTEM banner), battle scene 354
+card_60	355	60				0x8C	530			3000		chapter card title 60 (D_SYSTEM banner), battle scene 355
+card_61	128	62	61			0x8C	530			3000		chapter card title 61 poked over battle scene 128 (no script uses it)
+card_62	128	63	62			0x8C	530			3000		chapter card title 62 poked over battle scene 128 (no script uses it)
+card_63	128	64	63			0x8C	530			3000		chapter card title 63 poked over battle scene 128 (no script uses it)
+card_64	128	65	64			0x8C	530			3000		chapter card title 64 poked over battle scene 128 (no script uses it)
+card_65	128	66	65			0x8C	530			3000		chapter card title 65 poked over battle scene 128 (no script uses it)
+card_66	128	67	66			0x8C	530			3000		chapter card title 66 poked over battle scene 128 (no script uses it)
+card_67	128	68	67			0x8C	530			3000		chapter card title 67 poked over battle scene 128 (no script uses it)
+card_68	128	69	68			0x8C	530			3000		chapter card title 68 poked over battle scene 128 (no script uses it)
+sortie_select	77				40					9000		pre-battle sortie (unit selection) screen, scene 77
+intermission	-1										400 -	intermission menu (resident sub-script 5)
+int_save	-1										400 -;6 circle;300 -	intermission > Save: memory card slot select
+int_system	-1										400 -;8 down;45 -;6 circle;200 -	intermission > System: options list
+int_next	-1										400 -;8 down;45 -;8 down;45 -;6 circle;200 -	intermission > Next: end-intermission confirm
+sys_character	-1										400 -;8 down;45 -;6 circle;150 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;400 -	System > Character settings (list empty at New Game state)
+sys_unit	-1										400 -;8 down;45 -;6 circle;150 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 down;45 -;6 circle;400 -	System > Unit settings (list empty at New Game state)
+continue	1										!300 -;8 down;45 -;6 circle;600 -	title > Continue: memory card load screen
+credits	0										2400 -	staff roll (scene 0; endings 347-352 end here too)
+battle_map	128	1			40	0x43	30			5000		first battle (map 6), player phase, move range
+battle_unit_menu	128	1			40	0x43	30		6 cross;90 -	5000		battle: unit command menu + status panel
+battle_trust	128	1			40	0x43	30		6 cross;60 -;6 down;45 -;6 circle;150 -	5000		battle: unit menu > Trust
+battle_ability	128	1			40	0x43	30		6 cross;60 -;6 down;45 -;6 down;45 -;6 circle;150 -	5000		battle: unit menu > Ability
+event_103_guard	103					0x78	30			3000		private event dev guard (flag 0x1B0 unset); with the flag it stays black: needs the intermission free-roam context (TODO)
+ending_347	347				40	0x78	20	3		4000		ending (route variant), third text box
+ending_348	348				40	0x78	20	3		4000		ending (route variant), third text box
+ending_349	349				40	0x78	20	3		4000		ending (route variant), third text box
+ending_350	350				40	0x78	20	3		4000		ending (route variant), third text box
+ending_351	351				40	0x78	20	3		4000		ending (route variant), third text box
+ending_352	352				40	0x78	20	3		4000		ending (route variant), third text box
