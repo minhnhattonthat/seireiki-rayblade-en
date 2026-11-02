@@ -158,7 +158,7 @@
   "jp": "オーレリィ「そう‥‥向こうは旧式の機体で、整備も{nl}　まんぞくにできていないような代物だった。{nl}　でもそいつは武器を破壊しても、頭を潰されても{nl}　向かってきた。正直恐怖さえ感じていた‥‥{nl}　そしてそいつはパリカールにとりついて来た。{nl}{ctl:3C3E}{face:04FF02}　アタシは必死で振りほどこうとしたでも、そいつは{nl}　吸い付いたように離れない‥‥そうしているうちに{nl}{ctl:3C3E}{face:04FF03}　バランスを崩し‥‥その装兵機は下敷きに‥‥」",
   "off": 2242,
   "len": 254,
-  "en": "Aurelie: Yeah... They had old-model machines, the kind that hadn't even been properly maintained. But that guy kept coming, even after I wrecked his weapons, even after his head got crushed. Honestly, I was even scared... And then he latched onto the Parikar. {ctl:3C3E}{face:04FF02}I tried like crazy to shake him off, but he wouldn't come loose, like he was stuck to me... and while I was at it, {ctl:3C3E}{face:04FF03}I lost my balance... and that Armored Mech ended up underneath...",
+  "en": "Aurelie: Yeah... They had old-model machines, the kind that hadn't even been properly maintained. But that guy kept coming, even after I wrecked his weapons, even after his head got crushed. Honestly, I was even scared... And then he latched onto the Parikar. {ctl:3C3E}{face:04FF02}I tried like crazy to shake him off, but he wouldn't come loose, like he was stuck to me... and as I struggled, {ctl:3C3E}{face:04FF03}I lost my balance... and that Armored Mech ended up crushed under me...",
   "status": "translated",
   "style": 0,
   "text_off": 2244,

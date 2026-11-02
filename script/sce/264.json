@@ -191,8 +191,8 @@
   "jp": "ヴァレス「‥‥お前の作ったトルティ、うまかった。{nl}　腕をあげたな」",
   "off": 1471,
   "len": 41,
-  "en": "",
-  "status": "todo",
+  "en": "Vales: ...The torti you made was delicious. Your cooking has improved.",
+  "status": "translated",
   "style": 0,
   "text_off": 1473,
   "text_len": 38
@@ -213,8 +213,8 @@
   "jp": "ヴァレス「そうだな‥‥9年か‥‥」",
   "off": 1569,
   "len": 25,
-  "en": "",
-  "status": "todo",
+  "en": "Vales: I suppose so... Nine years, has it been...",
+  "status": "translated",
   "style": 0,
   "text_off": 1571,
   "text_len": 22
@@ -235,8 +235,8 @@
   "jp": "ヴァレス「ああ。忘れたことはない。{nl}　すまなかったな、ロザリー」",
   "off": 1627,
   "len": 37,
-  "en": "",
-  "status": "todo",
+  "en": "Vales: Yes. I have never forgotten. I'm sorry, Rosalie.",
+  "status": "translated",
   "style": 0,
   "text_off": 1629,
   "text_len": 34

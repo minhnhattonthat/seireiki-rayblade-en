@@ -235,8 +235,8 @@
   "jp": "クロビス「‥‥それって、あのオズヴァルドが心の底で{nl}　あの女王様を殺したいって思ってたってことか？」",
   "off": 1551,
   "len": 63,
-  "en": "",
-  "status": "todo",
+  "en": "Clovis: ...So you're saying that Oswald wanted to kill the queen deep down in his heart?",
+  "status": "translated",
   "style": 0,
   "text_off": 1553,
   "text_len": 60
@@ -884,8 +884,8 @@
   "jp": "アイ「‥‥アルフォリナ。オズヴァルドは死んだよ。{nl}　カタキを討ちたかった‥‥{nl}　あんなやつ殺してやりたかった。{nl}　復讐なんてあなたは望んでいない‥‥{nl}　それなのに‥‥でも、なんでだろうね、{nl}　ガリュードさんがあたしのかわりに{nl}　倒してくれて安心してるの‥‥{nl}　おかしいよね‥‥」",
   "off": 4439,
   "len": 164,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...Alforina. Oswald is dead. I wanted to avenge you... I wanted to kill him. You never wanted revenge... And yet... But why is it... I'm relieved that Garyud-san took him down in my place... That's weird, huh...",
+  "status": "translated",
   "style": 0,
   "text_off": 4441,
   "text_len": 161

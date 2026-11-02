@@ -158,8 +158,8 @@
   "jp": "セリカ「そうだね。制圧には時間がかかりそう？」",
   "off": 1228,
   "len": 33,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: Right. Is it going to take a while to take control?",
+  "status": "translated",
   "style": 1,
   "text_off": 1232,
   "text_len": 28
@@ -840,8 +840,8 @@
   "jp": "ガリュード「待たせたな。城#946の制圧は完了した。{nl}　我々の勝利だ！」",
   "off": 3621,
   "len": 48,
-  "en": "",
-  "status": "todo",
+  "en": "Garyud: Sorry to keep you waiting. The castle is secured. Victory is ours!",
+  "status": "translated",
   "style": 1,
   "text_off": 3625,
   "text_len": 43

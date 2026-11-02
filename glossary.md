@@ -597,6 +597,7 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 ## Speaker labels
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| コア | Core |  | battle speaker (bm048) |  |
 | 声 | Voice |  | male narrator pronoun; nonhuman being; Estelian final antagonist in the library profile; source name-table la |  |
 | 兵士 | Soldier |  | Agarthian Soldier label reporting capital rescue; unnamed individual. |  |
 | ジグリム兵士 | Zigrim Soldier |  | Zigrim Soldier label; unnamed Armored Mech occupants in alternate rese |  |

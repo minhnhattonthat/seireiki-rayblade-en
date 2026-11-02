@@ -257,8 +257,8 @@
   "jp": "ガリュード「うむ。それに駐留軍の指揮官であるグラードが{nl}　ここにいるということはフラムエルク城#946は手薄。{page}　このままリーボーフェンで脱出し、フラムエルク城#946を{nl}　一気に制圧することもできるか‥‥」",
   "off": 1626,
   "len": 121,
-  "en": "",
-  "status": "todo",
+  "en": "Garyud: Mm. Besides, if Grad, commander of the garrison, is here, then Flamuelk Castle is thinly guarded.{page}We could escape in the Liebhofen as we are and seize Flamuelk Castle in one fell swoop, eh...",
+  "status": "translated",
   "style": 0,
   "text_off": 1628,
   "text_len": 118

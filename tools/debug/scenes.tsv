@@ -117,4 +117,5 @@ ending_351	351				40	0x78	20	3		4000		ending (route variant), third text box
 ending_352	352				40	0x78	20	3		4000		ending (route variant), third text box
 choice_S17	14				40	0x78/C0	30	1		9000		chapter S17: first choice list (78 C0 items; its 7A runs within a frame, so stop on the 78 C0), choice-box width probe
 choice_090	90				40	0x78/C0	30	1		9000		scene 90 bridge talk: first choice list (78 C0)
+debug_239	239				40	0x78/C0	30	1	6 down;30 -;6 circle;600 -	9000		Yamato's debug mode (slot 239): first choice list (7A @409; its items reach past 32 KB in English, so they go through 02 trampolines, patch.py), then the second item
 res58_status	c58				0					1500	1500 -	resident sub 58 (heroine status/affection screen, relocated when its text is edited) called from New Game; story scenes 16/17/19/25/31/44 call it (0C 3A) after setting flags 1E/70-77. Yamato's hint lines (0x3B1..) not reached yet

@@ -46,6 +46,19 @@ def test_grow_preserves_control_flow():
 
 
 @needs_disc
+def test_far_branch_gets_trampoline():
+    """Slot 239 (0x75C0 bytes) has 7A choice items spanning the record; growing its text past 32 KB distance
+    routes them through 02 trampolines at the head/tail, and every branch still lands on its old instruction."""
+    rec = records()[239]
+    texts = [it.off for it in patch.decode(rec)[0] if it.kind == "text"]
+    new, mp = patch.rebuild(rec, {t: b"\x01" * 80 for t in texts})
+    assert mp.tramps and len(new) > 0x8000
+    patch.verify(rec, new, mp)
+    for t, target in mp.tramps.items():
+        assert new[t] == 0x02 and (t + int.from_bytes(new[t + 1:t + 5], "little") + 1) & 0xFFFFFFFF == mp[target]
+
+
+@needs_disc
 def test_subop_branch_is_rewritten():
     """`5C 14 <8 args> <s16>` (slot 45 @25BD, the S31 hang) is a 12-byte conditional branch: its operand at +10
     must follow the text growth, and no bogus op inside its arguments may be rewritten."""

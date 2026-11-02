@@ -114,8 +114,8 @@
   "jp": "シスク「気をつけてください！　ヴォーリアの表面に{nl}　高熱源反応があります！」",
   "off": 1259,
   "len": 52,
-  "en": "",
-  "status": "todo",
+  "en": "Sisk: Be careful! There are high heat signatures on Vorlia's surface!",
+  "status": "translated",
   "style": 0,
   "text_off": 1261,
   "text_len": 49
@@ -224,8 +224,8 @@
   "jp": "ヴァルガ「‥‥と言うわけでもないようじゃぞ」",
   "off": 1706,
   "len": 30,
-  "en": "",
-  "status": "todo",
+  "en": "Valga: ...It seems it won't be quite that simple, my boy.",
+  "status": "translated",
   "style": 1,
   "text_off": 1710,
   "text_len": 25
@@ -279,8 +279,8 @@
   "jp": "ヴァルガ「現にやっておるのだから仕方あるまい。{nl}　だが、あのヴォーリアはワシらの知らん能力を{nl}　発現させておる。ちと難儀じゃの‥‥」",
   "off": 1866,
   "len": 84,
-  "en": "",
-  "status": "todo",
+  "en": "Valga: It's doing it right in front of us, so what can you say, eh? But that Vorlia is manifesting powers we old-timers never knew of. A bit of a headache, that...",
+  "status": "translated",
   "style": 1,
   "text_off": 1870,
   "text_len": 79

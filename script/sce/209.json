@@ -829,8 +829,8 @@
   "jp": "エミィ「イヴェル様がお話しがあるそうです」",
   "off": 3537,
   "len": 26,
-  "en": "",
-  "status": "todo",
+  "en": "Emy: Ivel-sama says she has something to discuss with you.",
+  "status": "translated",
   "style": 0,
   "text_off": 3539,
   "text_len": 23
@@ -1445,8 +1445,8 @@
   "jp": "ミヤスコ「ええ。イヴェル様がお呼びになってます。{nl}　あの‥‥少し、いいですか？」",
   "off": 5724,
   "len": 49,
-  "en": "",
-  "status": "todo",
+  "en": "Miyasco: Yes. Ivel-sama is asking for you. Um... do you have a moment?",
+  "status": "translated",
   "style": 0,
   "text_off": 5726,
   "text_len": 46
@@ -2820,8 +2820,8 @@
   "jp": "アーサー「なんでも今後のことで少し話しがあるとか‥‥{nl}　今はイヴェル様の部屋にいると思いますよ」",
   "off": 10628,
   "len": 64,
-  "en": "",
-  "status": "todo",
+  "en": "Arthur: Apparently she wants a word about what happens from here on... I believe she's in Ivel-sama's room right now.",
+  "status": "translated",
   "style": 0,
   "text_off": 10630,
   "text_len": 61
@@ -3755,8 +3755,8 @@
   "jp": "マキ「今後のことについてとか言ってたけど‥‥{nl}　まっ、イヴェル様の部屋に来てくれっていってたから{nl}　行ってみたら？　それじゃ！」",
   "off": 14249,
   "len": 79,
-  "en": "",
-  "status": "todo",
+  "en": "Maki: She said something about what happens from here on... Anyway, she said to come to Ivel-sama's room, so why not go see? Bye!",
+  "status": "translated",
   "style": 0,
   "text_off": 14251,
   "text_len": 76

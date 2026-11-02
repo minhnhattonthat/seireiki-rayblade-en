@@ -151,10 +151,38 @@ def trusted_target(rec, it, target, starts):
     return it.op in (0x02, 0x04, vm.CHOICE) or vm.is_classic(it.op) or target in starts
 
 
+class OffMap(dict):
+    """{old byte offset: new byte offset}; .tramps = {new offset of an inserted 02 jump: its old target},
+    .skip = new offsets of other inserted instructions (the head's 01 over the trampolines)."""
+    tramps = {}
+    skip = ()
+
+
+class _Far(ValueError):
+    def __init__(self, src, target, msg):
+        super().__init__(msg)
+        self.src, self.target = src, target
+
+
 def rebuild(rec, edits, report=None):
     """New record bytes with each text block in `edits` replaced (key = text-op offset, value = body bytes).
 
-    Returns (bytes, {old byte offset: new byte offset})."""
+    Returns (bytes, OffMap). A s16 branch the growth pushed out of range goes through a trampoline, an
+    `02 <u32>` jump (target = op + u32 + 1, docs/re/text.md): appended after the record's last instruction, or
+    at its head behind an `01` that jumps over them, whichever end the branch is nearer. Nothing falls into
+    either spot, and every offset of a 0xFFF0-byte record is within s16 of one end."""
+    tramps = {}  # (end, old target) -> None; end = 0 head, 1 tail
+    while True:
+        try:
+            return _rebuild(rec, edits, report, tramps)
+        except _Far as e:
+            key = (int(e.src >= len(rec) // 2), e.target)
+            if key in tramps:
+                raise ValueError(str(e)) from None
+            tramps[key] = None
+
+
+def _rebuild(rec, edits, report, tramps):
     ins, starts = decode(rec)
     by_off = {it.off: it for it in ins}
     for off in edits:
@@ -162,7 +190,15 @@ def rebuild(rec, edits, report=None):
         if it is None or it.kind != "text":
             raise ValueError(f"{off:05X}: not a text block of this record (script/ out of date, or the block "
                              f"is inside a byte run the decoder does not trust)")
-    out, mp, i = bytearray(), {}, 0
+    out, mp, i = bytearray(), OffMap(), 0
+    tpos = {}  # (end, target) -> new offset of its 02
+    head = [k for k in tramps if k[0] == 0]
+    if head:  # 01 over the head trampolines: target = 0 + s16 + 1
+        out += b"\x01" + (3 + 5 * len(head) - 1).to_bytes(2, "little")
+        mp.skip = (0,)
+        for k in head:
+            tpos[k] = len(out)
+            out += b"\x02" + bytes(4)
     ins_at = {it.off: it for it in ins}
     while i < len(rec):
         mp[i] = len(out)
@@ -178,6 +214,10 @@ def rebuild(rec, edits, report=None):
             out += rec[i:i + it.ln]
         i += it.ln
     mp[len(rec)] = len(out)
+    for k in tramps:
+        if k[0] == 1:
+            tpos[k] = len(out)
+            out += b"\x02" + bytes(4)
     for it in ins:
         new_off = mp[it.off]
         for pos, width, target_old, anchor, bias in operand_fields(rec, it):
@@ -196,16 +236,28 @@ def rebuild(rec, edits, report=None):
                     raise ValueError(f"offset overflow: operand at {it.off:05X} needs {v}")
             else:
                 lo, hi = (-(1 << 15), (1 << 15) - 1) if width == 2 else (0, (1 << 32) - 1)
+                if not lo <= v <= hi and width == 2:  # try a trampoline to the same target
+                    for k in sorted((k for k in tramps if k[1] == target_old), key=lambda k: abs(tpos[k] - new_off)):
+                        w = tpos[k] - (new_off + (anchor - it.off)) - bias
+                        if lo <= w <= hi:
+                            v = w
+                            break
                 if not lo <= v <= hi:
-                    raise ValueError(f"offset overflow: operand at {it.off:05X} to {target_old:05X} needs {v}")
+                    raise _Far(it.off, target_old,
+                               f"offset overflow: operand at {it.off:05X} to {target_old:05X} needs {v}")
             out[new_off + (pos - it.off):new_off + (pos - it.off) + width] = (v & ((1 << (8 * width)) - 1)).to_bytes(width, "little")
+    for k in tramps:  # 02: target = op + u32 + 1
+        out[tpos[k] + 1:tpos[k] + 5] = ((mp[k[1]] - tpos[k] - 1) & 0xFFFFFFFF).to_bytes(4, "little")
+    mp.tramps = {tpos[k]: k[1] for k in tramps}
     return bytes(out), mp
 
 
 def verify(old, new, mp, report=None):
     """Fail unless the rebuilt record decodes to the same instruction graph as the original."""
     oi, _ = decode(old)
+    tr = getattr(mp, "tramps", {})
     ni, _ = decode(new, [mp[it.off] for it in oi if it.kind == "text"])
+    ni = [it for it in ni if it.off not in tr and it.off not in getattr(mp, "skip", ())]
     if len(oi) != len(ni):
         raise AssertionError(f"instruction count {len(oi)} -> {len(ni)}")
     old_starts = {it.off for it in oi}
@@ -221,6 +273,8 @@ def verify(old, new, mp, report=None):
             raw = new[npos:npos + width]
             val = int.from_bytes(raw, "little") if width == 4 else vm.s16(raw[0], raw[1])
             got = b.off + (anchor - a.off) + val + bias
+            if got in tr and tr[got] == target:  # routed through a trampoline 02: follow it
+                got = (got + int.from_bytes(new[got + 1:got + 5], "little") + 1) & 0xFFFFFFFF
             want = mp.get(target)
             if want is None:
                 if report is not None:

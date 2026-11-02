@@ -1049,8 +1049,8 @@
   "jp": "ホーレム「さすがはヴァレス・ブライアー殿です。{nl}　話が早くて助かります」",
   "off": 6189,
   "len": 45,
-  "en": "",
-  "status": "todo",
+  "en": "Horem: As expected of Vales Briar-dono. You're quick on the uptake, which helps.",
+  "status": "translated",
   "style": 0,
   "text_off": 6191,
   "text_len": 42
@@ -1060,8 +1060,8 @@
   "jp": "ヴァレス「世辞はいい。それより本題に入ってくれ」",
   "off": 6237,
   "len": 32,
-  "en": "",
-  "status": "todo",
+  "en": "Vales: Spare me the flattery. Get to the point.",
+  "status": "translated",
   "style": 0,
   "text_off": 6239,
   "text_len": 29

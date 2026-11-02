@@ -1016,8 +1016,8 @@
   "jp": "「リーボーフェン艦内メルヴィーの部屋{nl}　次の背景へ進む{nl}　前の背景へ戻る」",
   "off": 6019,
   "len": 55,
-  "en": "",
-  "status": "todo",
+  "en": "\"Liebhofen, Melvi's room{nl}Next background{nl}Previous background\"",
+  "status": "translated",
   "style": 160,
   "text_off": 6021,
   "text_len": 52
@@ -1731,8 +1731,8 @@
   "jp": "「オズヴァルドに人質に取られたクルル{nl}　次のカットへ進む{nl}　前のカットへ戻る」",
   "off": 9985,
   "len": 49,
-  "en": "",
-  "status": "todo",
+  "en": "\"Oswald takes Kururu hostage{nl}Next cut{nl}Previous cut\"",
+  "status": "translated",
   "style": 160,
   "text_off": 9987,
   "text_len": 46

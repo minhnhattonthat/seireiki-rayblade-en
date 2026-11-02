@@ -247,6 +247,7 @@ def check(a):
 def merge(a):
     g = glossary()
     tr = {}
+    cur = {x["id"]: x for _, es in sources() for x in es}  # the batch's jp predates later tbl fixes: key on today's
     for name in a.batches:
         errs, _ = check_batch(name, g)
         if errs:
@@ -254,7 +255,8 @@ def merge(a):
         raw = json.loads((TL / f"{name}.json").read_text(encoding="utf-8"))
         out, _ = read_out(name)
         for e in raw:
-            tr[(tlform.form(e), e["jp"])] = out[e["id"]]
+            c = cur.get(e["id"], e)
+            tr[(tlform.form(c), c["jp"])] = out[e["id"]]
     n = 0
     for p, es in sources():
         changed = False
