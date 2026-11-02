@@ -50,6 +50,16 @@ u16 magic, u16 count, count x {u32 offset, u16 a, u16 b, u16 w, u16 h, i16 x, i1
 ## Free space / limits
 - Disc: rebuilt by mkpsxiso, so files can grow; nothing needs to fit in place on disc.
 - **RAM is the limit.** Script buffer: the loader (0x80058298) allocates 0x8000 bytes (`jal 0x80036860` with
-  a0 = 0x8000) for a D_SCE record; largest record 0x75C0 -> only 2.6 KB slack. Longer English needs a bigger
-  allocation (heap check) or text moved out of the script. Dialogue format buffer: 0x400 bytes (78 handler).
+  a0 = 0x8000) for a D_SCE record; largest record 0x75C0 -> only 2.6 KB slack. Dialogue format buffer: 0x400
+  bytes (78 handler).
+- **Heap — verified 2026-11-03** (`tools/heap.py`): allocator 0x80036860 (best fit), free 0x800365E8 (addr, size,
+  coalescing), free list 0x800D4E58 (64 x {addr, size}, count at +0x200). Boot seeds it with free(0x800DCE00,
+  0xF3200) = 0x800DCE00..0x801D0000; the script buffer is the first block, allocated once, never freed. Free at
+  runtime: 846 KB in story scenes and endings, 932 KB at the intermission, 511/481 KB on the battle map / ability
+  screen (one or two blocks).
+- **Script buffer raised to 0xFFF0** by the build (`insert.BUFFER_ALLOC`: `ori a0, zero, 0x8000` at file 0x48AB4
+  -> 0xFFF0). Verified: slot 1 grown to 0x9690 (`build.py --marker --slots 1 --width 330`) warps and plays, the
+  whole record is intact in RAM at 0x800DCE00, and the heap is 0x7FF0 smaller (814 KB free). English estimate
+  for the largest records (2.5x Japanese chars) is ~0xCB00, inside the new limit; s16 branches cap a record at
+  ±32 KB spans (patch.rebuild fails on overflow).
 - EXE: free-space candidates not surveyed yet (phase 5).

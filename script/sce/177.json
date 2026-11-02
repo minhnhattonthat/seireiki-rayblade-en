@@ -55,24 +55,13 @@
   "text_len": 28
  },
  {
-  "id": "sce177:002A7",
-  "jp": "a",
-  "off": 679,
-  "len": 4,
-  "en": "",
-  "status": "todo",
-  "style": 92,
-  "text_off": 681,
-  "text_len": 1
- },
- {
-  "id": "sce177:002AD",
+  "id": "sce177:002AE",
   "jp": "レンダー「やはりきたか‥‥」",
-  "off": 685,
-  "len": 23,
+  "off": 686,
+  "len": 22,
   "en": "",
   "status": "todo",
-  "style": 120,
+  "style": 1,
   "text_off": 690,
   "text_len": 17
  },

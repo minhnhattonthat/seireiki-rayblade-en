@@ -2,10 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 (marker build + engine spike) largely done, width gate measured for dialogue boxes.
-  The marker build boots and every one of the 115 warped scenes shows its ids; English renders with the game's
-  own 8x16 half-width cells plus 24 added punctuation cells. Next: text the extractor missed (below), then
-  phase 6 translation.
+- **Phase:** 5 (marker build + engine spike). D_SCE side done: missed text recovered, VM grammar (branch,
+  trailing-table, switch, variable-length forms) audited from the handlers, script buffer raised to 0xFFF0,
+  115/115 scenes + 30-box flow check on the marker build. Left for phase 5: EXE menu bank insertion + menu and
+  choice widths, D_BMESS battle messages (Next 1-2), then phase 6 translation.
 - **Done:**
   - Step 0: PCSX-Redux in `tools/pcsx/`, SCPH-5500 BIOS, mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/`, armips 0.11
     in `tools/armips/` (all gitignored; re-fetch: `fetch_emu.py pcsx|psx-bios`, `gh release download` from
@@ -52,19 +52,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     C8/*, DC/3-5 are branches the rewriter ignored; 0E carries hook pointers; vm.SUBK had branch biases as
     lengths (5C/20 swallowed a text op and hung story_S31) and lacked 8 one-byte entries. `tools/subops.py`
     audits the handlers. Undecoded D_SCE bytes 5,944 -> 3,964.
+  - **Trailing offset tables + switch + variable lengths** (same day): helper 0x8005832C branches through
+    self-relative s16 tables after the op (`vm.TRAIL`: 17/18/19, C0/29/30/35 + handler-derived keys), B9
+    switch tables (FFFF-terminated), 82/C0-45/5C-24/C8-21/DC-5 lengths. D_SCE undecoded bytes 5,944 -> 1,174,
+    walk errors 266 -> 8; 51,366 strings. `warp.py --deep N` = flow check to the Nth text box.
+  - **Flow check** `warp.py --all --match story_ --deep 30`: 24/26 reach the 30th box on the marker build;
+    S22 and S30 stop short on the original disc too (their scenes end first). Normal tour 115/115.
+  - **Script buffer raised 0x8000 -> 0xFFF0** (one EXE immediate, logged in build/writes.txt); heap has
+    480+ KB free even mid-battle; a 0x9690-byte slot 1 verified in-game (docs/re/disc.md).
 - **Next:**
-  1. **Trailing offset tables** (blocks real insertion): ~80 handlers branch through helper 0x8005832C — a
-     table of self-relative s16s right after the instruction (17/18/19 `17 a b c <s16>`, 22, 43, 57, 6B, AA,
-     AB, B9, BB, CC, E5, EA, EB, F7, 16/33-40, 1B/1-8, AD/AE/B0/C0 subs, C8/4; `tools/trail.py`). Add a
-     `vm.TRAIL` {op|(op,sub): (body extra, entries)} table, make insn_len count the table and
-     `rel_operands` return each entry (anchor = entry, bias 0), check each form's hit rate on D_SCE with
-     `tools/branch_check.py` (extend its FORMS/TOP), re-dump (ids may move: nothing is translated yet), rebuild, re-tour.
-     Then a deeper tour than "third text box": play each warped scene longer (mash) on marker vs original.
-  2. **Script buffer**: the scene loader allocates 0x8000 (0x80058298 -> allocator 0x80036860, best-fit free
-     list at 0x800D4E58 {addr,size} x n, count at +0x200). English at ~2.5x Japanese chars makes the largest
-     records ~0xCB00 (slots 241, 345, 16, 239, 361, 44). Dump the free list in a scene state and raise the
-     allocation (or move text out) before phase 6.
-  3. Menu text (EXE message bank, 1,838 entries; groups 0-11 ≈ 16 KB of real text, groups 12-21 are mostly
+  1. Menu text (EXE message bank, 1,838 entries; groups 0-11 ≈ 16 KB of real text, groups 12-21 are mostly
      data that decodes): they live in the EXE data section behind self-relative u32 group tables, so English
      (~40 KB) needs the strings relocated (heap/free space; the EXE cannot just grow into BSS) and the tables
      repointed; then measure the menu field widths (docs/widths.md) and the choice box (probe style C0, stop

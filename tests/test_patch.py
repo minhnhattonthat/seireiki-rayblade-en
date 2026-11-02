@@ -61,6 +61,21 @@ def test_subop_branch_is_rewritten():
 
 
 @needs_disc
+def test_trailing_tables_and_switch():
+    """`17 a b c <s16>` is 6 bytes (slot 58: the text after it was hidden), `B9 <s16>.. FF FF` (slot 102 @49D)
+    is a switch table; both kinds of entries are self-relative and follow text growth."""
+    recs = records()
+    ins, _ = patch.decode(recs[58])
+    by = {it.off: it for it in ins}
+    assert by[0x10B3].ln == 6 and by[0x10B9].kind == "text"
+    rec = recs[102]
+    assert vm.insn_len(rec, 0x49D) == (1 + 2 * 20 + 2, "op")
+    texts = [it.off for it in patch.decode(rec)[0] if it.kind == "text"]
+    new, mp = patch.rebuild(rec, {t: b"\x01" * 50 for t in texts})
+    patch.verify(rec, new, mp)
+
+
+@needs_disc
 def test_text_block_is_where_the_script_says():
     """Every script entry's `off` is a text op in the record (or the build must refuse to edit it)."""
     import json

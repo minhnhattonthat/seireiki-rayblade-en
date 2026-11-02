@@ -130,13 +130,20 @@ D_SCE hit rates = how often the decoded target is an instruction start). More br
 - Missing SUBK entries (handler adds 1 byte): 16/46, 1B/14, 1E/2, B0/50, C0/19, C0/31, C0/43, C0/46.
 - Non-classic forms are rewritten only when their old target is an instruction start (`patch.trusted_target`),
   since the same byte patterns occur in data. Undecoded bytes in D_SCE: 5,944 -> 3,964.
-- **Still open — trailing offset tables**: helper **0x8005832C(k)** sets the advance to `L + 2k + s16(op + L +
-  2k)` (L = the advance when called, normally the instruction length), i.e. it branches through entry k of a
-  table of self-relative s16s right after the instruction. ~80 handlers call it: top-level 17/18/19 (`17 a b c
-  <s16>`: on match branch, else skip 2 -> 6 bytes; verified in data, e.g. `18 81 10 14 2B 00 78 01 セリカ…`),
-  22, 43, 57, 6B, AA, AB, B9, BB, CC, E5, EA, EB, F7, and sub-ops 16/33-40, 1B/1-8, AD/16-54, AE/0-58,
-  B0/6-54, C0/2-63, C8/4 (list: `python -X utf8 tools/trail.py`). Their table entries are not rewritten yet, and where
-  vm.SUBK does not count the table the sweep decodes it as ops. Needed before real text goes in.
+- **Trailing offset tables** (`vm.TRAIL`): helper **0x8005832C(k)** sets the advance to `L + 2k + s16(op + L +
+  2k)` (L = the advance when called = the table length), i.e. it branches through entry k of a table of
+  self-relative s16s right after the op's table length. ~80 handlers call it (`python -X utf8 tools/trail.py`).
+  In D_SCE: **17/18/19** (`17 a b c <s16>`: on match branch, else skip it -> 6 bytes; 496/496, 482/543 (the
+  misses sit inside B9 tables), 291/291), **C0/29** (`C0 1D <s16> <3 args>`, 1636/1638), C0/30, C0/35. The
+  other keys (16/33-38, 1B/1-6, AD/AE/B0/C0 subs, 43, 57) are taken from the handlers and do not occur in
+  D_SCE; 22/EA/EB/F7 occur only in data. Not modelled: register-indexed 22 6B AA AB BB 16/39-40 1B/7-8 AD/19
+  AE/3 C8/4, and C0/22 C0/38 C0/47 AE/50 B0/26 B0/53 (none in D_SCE code).
+- **B9** = switch: `B9 <s16 self-relative> .. FF FF` (index from a function; 83/83 tables FFFF-terminated,
+  1361/1361 entries land on instructions).
+- More lengths from the handlers: **82** +4 when byte1 & 0x20; **C0/45** = `C0 2D` + 3-byte records up to the
+  first FF (the handler scans to FF and resumes after it); **5C/24** +2 when its first argument has bit 7
+  (`vm.VARLEN`); **C8/21 = DC/5** fall through at +10.
+- Result on D_SCE: undecoded bytes 5,944 -> 1,174, control-flow walk errors 266 -> 8.
 
 ### Archive slot tables are duplicated in the EXE — verified
 The loader does **not** read a rebuilt archive's own header: each of the three archives has a byte-identical copy

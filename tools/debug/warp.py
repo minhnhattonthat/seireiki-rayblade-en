@@ -3,6 +3,7 @@
     python -X utf8 tools/debug/warp.py NAME [NAME..] [--cue build/x.cue] [--title] [--out work/qa/warp]
     python -X utf8 tools/debug/warp.py --all [--jobs 3] [--title] [--match card_]   # regen states + shots
     python -X utf8 tools/debug/warp.py --list
+    python -X utf8 tools/debug/warp.py --all --match story_ --deep 30 --cue build/x.cue   # flow check, 30th box
 
 Scene list: tools/debug/scenes.tsv (name, scene, ep, flags, mash, stop_op, stop_after, stop_n, post, frames, route,
 note). scene = D_SCE slot, or -1 = the intermission (resident sub-script 5). route = route-str steps after the New
@@ -81,9 +82,15 @@ def main():
     ap.add_argument("--cue", type=Path, default=CUE)
     ap.add_argument("--title", action="store_true", help="start from work/states/title.sstate (faster)")
     ap.add_argument("--jobs", type=int, default=3)
+    ap.add_argument("--deep", type=int, default=0, help="text-box scenes stop on the Nth box (flow check)")
     ap.add_argument("--out", type=Path, default=ROOT / "work/qa/warp")
     a = ap.parse_args()
     rows = scenes()
+    if a.deep:   # flow check: stop on the Nth text box instead of the row's own count (VM branches still land)
+        for r in rows:
+            if r["stop_op"].strip() == "0x78":
+                r["stop_n"] = str(a.deep)
+                r["frames"] = str(max(int(r["frames"] or 0), 2000 + 300 * a.deep))
     if a.list:
         for r in rows:
             print(f"{r['name']:24s} scene={r['scene']:>4s}  {r['note']}")

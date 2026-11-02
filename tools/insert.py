@@ -8,7 +8,7 @@
 
 Inserted text comes from script/**: an entry is written when it has `en`, or when marker mode is on (every
 entry, so the build shows where each line lands). A text block's bytes are re-encoded with tbl/en.tbl and the
-record is rebuilt by patch.py (offset operands rewritten). Records that grow past the 0x8000 script buffer fail
+record is rebuilt by patch.py (offset operands rewritten). Records that grow past the script buffer (raised to 0xFFF0, SCRIPT_BUFFER) fail
 the build instead of silently overflowing.
 
 Marker text is `[<op offset>] <filler>` trimmed to `--width` characters: at 8 px per glyph that is one full
@@ -31,7 +31,11 @@ SCRIPT = ROOT / "script"
 TREE = ROOT / "work/disc/tree"
 EXE_NAME = "SLPS_026.52"
 ARCHIVES = ["D_SCE.BIN", "D_BMESS.BIN", "D_SYSTEM.BIN"]      # text-bearing archives (docs/re/text.md)
-SCRIPT_BUFFER = 0x8000
+# The scene loader (0x80058298) allocates the script buffer once (`ori a0, zero, 0x8000` at RAM 0x800582B4,
+# file 0x48AB4) and never frees it; the heap keeps >= 480 KB free even mid-battle (tools/heap.py), so the
+# build raises it to 0xFFF0 (the largest ori immediate) for English, which runs ~2.5x the Japanese length.
+SCRIPT_BUFFER = 0xFFF0
+BUFFER_ALLOC = (0x48AB4, bytes.fromhex("00800434"), bytes.fromhex("F0FF0434"))
 EN = Table.load(ROOT / "tbl/en.tbl")
 
 FILLER = "quick brown fox jumps over the lazy dog "
@@ -41,7 +45,7 @@ def marker_text(op, width=30):
     """`[<op offset>] ` plus filler, exactly `width` characters: at 8 px a glyph that is one full dialogue line,
     so a box narrower than the line shows the overflow at once."""
     head = f"[{op:05X}] "
-    return head + (FILLER * 3)[:max(0, width - len(head))]
+    return head + (FILLER * (width // len(FILLER) + 1))[:max(0, width - len(head))]
 
 
 def load(name, slot=None):
@@ -146,6 +150,11 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
                 raise SystemExit(f"{name}: {len(hits)} copies of its slot table in the EXE (expected 1)")
             exe(exe.buf, hits[0], hdr, f"{name} slot table")
             report.append(f"EXE: {name} slot table at {hits[0]:#x} repointed")
+    if recs:
+        off, old_ins, new_ins = BUFFER_ALLOC
+        if exe.orig[off:off + 4] != old_ins:
+            raise SystemExit(f"EXE: expected the script-buffer alloc at {off:#x}")
+        exe(exe.buf, off, new_ins, "script buffer 0x8000 -> 0xFFF0")
     font_en.patch(exe.buf, exe)
     if exe.log and bytes(exe.buf) != exe.orig:
         files[EXE_NAME] = bytes(exe.buf)

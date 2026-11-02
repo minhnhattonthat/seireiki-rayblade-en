@@ -1,23 +1,12 @@
 [
  {
-  "id": "sce377:00149",
-  "jp": "a",
-  "off": 329,
-  "len": 4,
-  "en": "",
-  "status": "todo",
-  "style": 92,
-  "text_off": 331,
-  "text_len": 1
- },
- {
-  "id": "sce377:0014F",
+  "id": "sce377:00150",
   "jp": "セリカ「あっ、そうそう、言い忘れていたけど、{nl}　ライブレードの変形機構も直ってるから」",
-  "off": 335,
-  "len": 57,
+  "off": 336,
+  "len": 56,
   "en": "",
   "status": "todo",
-  "style": 120,
+  "style": 1,
   "text_off": 340,
   "text_len": 51
  },

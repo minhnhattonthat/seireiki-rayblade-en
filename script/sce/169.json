@@ -1,23 +1,12 @@
 [
  {
-  "id": "sce169:00249",
-  "jp": "a",
-  "off": 585,
-  "len": 4,
-  "en": "",
-  "status": "todo",
-  "style": 92,
-  "text_off": 587,
-  "text_len": 1
- },
- {
-  "id": "sce169:0024F",
+  "id": "sce169:00250",
   "jp": "ヤマト「さすがに駐屯地っていうだけのことはあるわね。{nl}　結構ニャ数がいるわ‥‥」",
-  "off": 591,
-  "len": 55,
+  "off": 592,
+  "len": 54,
   "en": "",
   "status": "todo",
-  "style": 120,
+  "style": 2,
   "text_off": 597,
   "text_len": 48
  },
@@ -1164,17 +1153,6 @@
   "style": 1,
   "text_off": 5700,
   "text_len": 19
- },
- {
-  "id": "sce169:016F9",
-  "jp": "WD　　と　TJ　。AYゅsdへHTJ　<E1>AYゅtxゆMパii　PそTP",
-  "off": 5881,
-  "len": 39,
-  "en": "",
-  "status": "todo",
-  "style": 8,
-  "text_off": 5883,
-  "text_len": 36
  },
  {
   "id": "sce169:01773",

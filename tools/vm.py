@@ -54,8 +54,8 @@ SUBK = {
            63: 2},
     # C8 0-5/10-13 are branches that fall through at the table length (4); the first derivation took the
     # branch bias (2) for extra bytes. 8/9 read 4 bytes past the table length (tools/subops.py).
-    0xC8: {8: 4, 9: 4, 16: 2, 17: 4, 18: 1, 19: 2, 20: 2, 21: 2},
-    0xDC: {0: 2, 1: 4, 2: 1, 3: 2, 4: 2, 5: 2},
+    0xC8: {8: 4, 9: 4, 16: 2, 17: 4, 18: 1, 19: 2, 20: 2, 21: 10},
+    0xDC: {0: 2, 1: 4, 2: 1, 3: 2, 4: 2, 5: 10},     # C8/21 = DC/5 handler 0x80089374: falls through at +10
 }
 
 # Sub-ops that are conditional relative branches: (op, sub) -> (s16 position, bias); target = op + s16 + bias,
@@ -71,6 +71,53 @@ SUB_BRANCH = {(0x16, 19): (3, 3), (0x16, 25): (2, 2), (0x5C, 20): (10, 10),
 # are rare and mostly seen in data, so their operands are rewritten only when the target is an instruction start.
 TOP_BRANCH = {0x15: (1, 1), 0xD1: (3, 3), 0xD2: (3, 3), 0xD3: (5, 5),
               0x33: (1, 1), 0x3A: (1, 1), 0x55: (1, 1), 0x56: (1, 1), 0x6B: (1, 1), 0xF9: (1, 1), 0xDB: (3, 3)}
+# Trailing offset tables: the handler calls 0x8005832C(k), which sets the advance to L + 2k + s16 read at op + L
+# + 2k (L = the advance at the call, the table length): a table of self-relative s16s right after the op's table
+# length; target = entry position + s16. key -> entries (tools/trail.py lists the handlers). D_SCE hit rates:
+# 17 312/341, 19 215/227, C0/29 1629/1633, C0/35 170/173, C0/30 6/6. Keys in TRAIL_ADDS: the table is not in
+# LEN/SUBK, so insn_len adds 2 * entries (17/18/19: `17 a b c <s16>` skip it on no-match = 6 bytes).
+TRAIL = {0x17: 1, 0x18: 1, 0x19: 1, 0x43: 3, 0x57: 1,
+         (0x16, 33): 3, (0x16, 34): 3, (0x16, 35): 2, (0x16, 36): 7, (0x16, 37): 5, (0x16, 38): 6,
+         (0x1B, 1): 3, (0x1B, 2): 3, (0x1B, 3): 2, (0x1B, 4): 7, (0x1B, 5): 5, (0x1B, 6): 6,
+         **{(0xAD, s): 1 for s in (16, 26, 28, 32, 36, 46, 54)}, **{(0xAD, s): 2 for s in (17, 29, 53)},
+         (0xAD, 35): 3,
+         **{(0xAE, s): 1 for s in (0, 10, 12, 16, 20, 30, 38)}, **{(0xAE, s): 2 for s in (1, 13, 37, 58)},
+         (0xAE, 19): 3,
+         **{(0xB0, s): 1 for s in (6, 14, 45, 47, 54)}, **{(0xB0, s): 2 for s in (13, 34)},
+         **{(0xC0, s): 1 for s in (2, 26, 29, 30, 35, 48, 49, 61, 63)}, (0xC0, 23): 2}
+TRAIL_ADDS = {0x17, 0x18, 0x19, 0x43, 0x57, (0x16, 33), (0x16, 34), (0x16, 35), (0x16, 36), (0x16, 37),
+              (0x16, 38), (0x1B, 1), (0x1B, 2), (0x1B, 3), (0x1B, 4), (0x1B, 5), (0x1B, 6),
+              (0xAD, 16), (0xAD, 17), (0xAD, 29), (0xAD, 35), (0xAD, 53), (0xAE, 0), (0xAE, 1), (0xAE, 13),
+              (0xAE, 19), (0xAE, 37), (0xAE, 58), (0xB0, 13), (0xB0, 34), (0xC0, 23)}
+
+
+SWITCH = {0xB9}   # `B9 <s16 self-relative>.. FF FF`: index from a function (83/83 tables FFFF-terminated)
+
+
+def switch_entries(rec, i):
+    """Entry positions of the FFFF-terminated table of a SWITCH op at i, or None if it does not terminate."""
+    p, out = i + LEN[rec[i]], []
+    while p + 2 <= len(rec) and len(out) < 128:
+        if rec[p] == 0xFF and rec[p + 1] == 0xFF:
+            return out
+        out.append(p)
+        p += 2
+    return None
+
+
+def trail_key(rec, i):
+    op = rec[i]
+    if op in TRAIL:
+        return op
+    if i + 1 < len(rec) and (op, rec[i + 1]) in TRAIL:
+        return (op, rec[i + 1])
+    return None
+
+
+# Sub-ops whose first argument byte (at the table length) has bit 7 = "two more bytes" (handler 5C/24
+# 0x80068668: `sll 24; bgez` -> advance += 3, else += 1; SUBK holds the short form). key -> extra bytes.
+VARLEN = {(0x5C, 24): 2}
+
 RARE_BRANCH = {0x33, 0x3A, 0x55, 0x56, 0x6B, 0xF9, 0xDB}   # the walk does not follow these
 HOOK = 0x0E   # `0E n <s16>` (n < 6) or `0E n <6 x s16>`: event-hook pointers, each = its own position + s16
 
@@ -92,6 +139,12 @@ def rel_operands(rec, i):
     if i + 1 < len(rec) and (op, rec[i + 1]) in SUB_BRANCH:
         p, b = SUB_BRANCH[(op, rec[i + 1])]
         return [(i + p, b, i)]
+    tk = trail_key(rec, i)
+    if tk is not None:
+        base = i + LEN[op]
+        return [(base + 2 * k, 0, base + 2 * k) for k in range(TRAIL[tk])]
+    if op in SWITCH:
+        return [(p, 0, p) for p in switch_entries(rec, i) or []]
     return []
 
 
@@ -184,6 +237,23 @@ def insn_len(rec, i):
         ln = 4 if rec[i + 1] < 6 else 14
     if op in SUBK and i + 1 < len(rec):
         ln += SUBK[op].get(rec[i + 1], 0)
+        if (op, rec[i + 1]) in VARLEN and i + ln <= len(rec):
+            ln += VARLEN[(op, rec[i + 1])] if rec[i + LEN[op]] & 0x80 else 0
+    tk = trail_key(rec, i)
+    if tk in TRAIL_ADDS:
+        ln += 2 * TRAIL[tk]
+    if op in SWITCH:
+        ents = switch_entries(rec, i)
+        if ents is None:
+            return None
+        ln += 2 * len(ents) + 2
+    if op == 0x82 and i + 1 < len(rec) and rec[i + 1] & 0x20:   # handler 0x8006E458: byte1 & 0x20 -> advance += 4
+        ln += 4
+    if op == 0xC0 and i + 1 < len(rec) and rec[i + 1] == 45:     # `C0 2D <3-byte records> FF` (scans to FF)
+        end = rec.find(b"\xff", i + 2)
+        if end < 0:
+            return None
+        ln = end + 1 - i
     return (ln, "op") if i + ln <= len(rec) else None
 
 

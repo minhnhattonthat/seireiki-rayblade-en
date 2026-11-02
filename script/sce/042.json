@@ -1,25 +1,14 @@
 [
  {
-  "id": "sce042:001C4",
-  "jp": "a",
-  "off": 452,
-  "len": 4,
+  "id": "sce042:0021E",
+  "jp": "ライル「初めて戦ったのもここだった‥‥。{nl}　そして再びここで戦うことになる。{nl}　ライブレード‥‥レニス‥‥今こそ決着をつける！」",
+  "off": 542,
+  "len": 84,
   "en": "",
   "status": "todo",
-  "style": 92,
-  "text_off": 454,
-  "text_len": 1
- },
- {
-  "id": "sce042:001CA",
-  "jp": "iU　Bパii　Dパio　Jパi1　PA8　U5　<1C2>CB　Ty　チBQポめAq　Tn　ヂBQポめAf　Uc　[F9]ビCC　TU　ッBQポめAM　TJ　ツBQポめAB　べAk　ライル「初めて戦ったのもここだった‥‥。{nl}　そして再びここで戦うことになる。{nl}　ライブレード‥‥レニス‥‥今こそ決着をつける！」",
-  "off": 458,
-  "len": 168,
-  "en": "",
-  "status": "todo",
-  "style": 192,
-  "text_off": 460,
-  "text_len": 165
+  "style": 1,
+  "text_off": 546,
+  "text_len": 79
  },
  {
   "id": "sce042:00272",
