@@ -243,25 +243,14 @@
  },
  {
   "id": "sce263:00AF1",
-  "jp": "レオーネ「‥‥なーんちゃって。{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "レオーネ「‥‥なーんちゃって。{nl}{ctl:3C3E}{face:04FF04}{ctl:023E}{face:04FFF0}　うそ、うそ。実はボク、油っこいもの苦手なんだ‥‥{nl}　でも、他になかったから食べてたの」",
   "off": 2801,
-  "len": 29,
+  "len": 91,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 2803,
-  "text_len": 26
- },
- {
-  "id": "sce263:00B46",
-  "jp": "たの」",
-  "off": 2886,
-  "len": 6,
-  "en": "",
-  "status": "todo",
-  "style": 101,
-  "text_off": 2888,
-  "text_len": 3
+  "text_len": 88
  },
  {
   "id": "sce263:00B4F",
@@ -936,7 +925,7 @@
  },
  {
   "id": "sce263:014A4",
-  "jp": "アイ「言い訳しないの！{nl}{ctl:3C3E}{ctl:043C}WI{ctl:013E}{ctl:043C}XJ　なによ！　まんざらでもないって顔しちゃってさ！」",
+  "jp": "アイ「言い訳しないの！{nl}{ctl:3C3E}{face:041709}{ctl:013E}{face:04180A}　なによ！　まんざらでもないって顔しちゃってさ！」",
   "off": 5284,
   "len": 62,
   "en": "",
@@ -1013,14 +1002,14 @@
  },
  {
   "id": "sce263:015DA",
-  "jp": "レオーネ「あっ、ゴメン‥‥{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "レオーネ「あっ、ゴメン‥‥{nl}{ctl:3C3E}{face:04FF10}{ctl:013E}{face:04FF11}　そういうつもりじゃ‥‥」",
   "off": 5594,
-  "len": 26,
+  "len": 51,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 5596,
-  "text_len": 23
+  "text_len": 48
  },
  {
   "id": "sce263:01610",
@@ -1134,14 +1123,14 @@
  },
  {
   "id": "sce263:01784",
-  "jp": "レオーネ「ううん‥‥{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "レオーネ「ううん‥‥{nl}{ctl:3C3E}{face:04FF12}{ctl:013E}{face:041C05}　‥‥よかった」",
   "off": 6020,
-  "len": 23,
+  "len": 43,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 6022,
-  "text_len": 20
+  "text_len": 40
  },
  {
   "id": "sce263:017B2",
@@ -1772,14 +1761,14 @@
  },
  {
   "id": "sce263:022D3",
-  "jp": "セリカ「え‥‥{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "セリカ「え‥‥{nl}{ctl:3C3E}{face:04FF10}{ctl:013E}{face:04FF11}{ctl:023E}{face:04FF13}　そ、そう？」",
   "off": 8915,
-  "len": 19,
+  "len": 45,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 8917,
-  "text_len": 16
+  "text_len": 42
  },
  {
   "id": "sce263:02303",
@@ -2377,7 +2366,7 @@
  },
  {
   "id": "sce263:02A5F",
-  "jp": "セリカ「ふふふふ‥‥やっぱり自信家だ。{nl}{ctl:3C3E}{ctl:843C}bC{ctl:023E}{ctl:843C}bB　でもそういうトウヤも‥‥」",
+  "jp": "セリカ「ふふふふ‥‥やっぱり自信家だ。{nl}{ctl:3C3E}{face:841C03}{ctl:023E}{face:841C02}　でもそういうトウヤも‥‥」",
   "off": 10847,
   "len": 60,
   "en": "",
@@ -3056,5 +3045,16 @@
   "style": 0,
   "text_off": 14528,
   "text_len": 13
+ },
+ {
+  "id": "sce263:038CF",
+  "jp": "E2ハAMもネちちぁAギAR禄Fs　QぉやQンやAひAR「CFe　VSBE　AN　Q・ゆR禄FP　AじAQほやR禄FP　QヘもQンやAうAR「CFe　VSBE　AN　Q・ゆR禄FP　AqAQほやR禄FP　QこやQンやAYAR「CFN　VSfO　VSVJ　VSME　AN　Q・ゆR禄FS　A煎QぺやR禄FS　Q槍QンやAヱ　QバやQぇやR禄FS　QンやAモ　QみやR禄FZ　Q」ゆQンやAバ　R「CFV　VSfO　VSVJ　VSME　AN　Q・ゆR禄Fb　Aガ　QぺやR禄Fb　Q<185>QンやAり　R「CFY　VScE　AN　Q・ゆR禄Fa　Aば　VSNE　AN　Q・ゆR禄Fa　Aぜ　QべやR禄Fa　Q張QンやAお　R「CFB　VSOJ　VSiE　AQ　Q・ゆR禄FW　Q踵Am　QむやR禄FW　Q壁QンやAU　ぺ　や　ァd　ァ　パeCゅ",
+  "off": 14543,
+  "len": 395,
+  "en": "",
+  "status": "todo",
+  "style": 130,
+  "text_off": 14548,
+  "text_len": 389
  }
 ]

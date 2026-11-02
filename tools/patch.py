@@ -37,21 +37,42 @@ class Instr:
         return f"<{self.off:05X} {self.ln} {self.kind} {self.op:02X}>"
 
 
-def sweep(rec):
-    """[Instr] in file order: a linear decode, skipping bytes that do not decode."""
-    ins, i = [], 0
+def _sweep(rec, resync=()):
+    ins, i, k = [], 0, 0
+    resync = sorted(resync)
     while i < len(rec):
         r = vm.insn_len(rec, i)
         if r is None:
             i += 1
             continue
         ln, kind = r
+        while k < len(resync) and resync[k] <= i:
+            k += 1
+        if kind != "text" and k < len(resync) and resync[k] < i + ln:
+            i += 1          # this op swallows a resync text: out of step, treat the byte as undecoded
+            continue
         ins.append(Instr(i, ln, kind, rec[i]))
         i += ln
     return ins
 
 
-def decode(rec):
+def sweep(rec, resync=None):
+    """[Instr] in file order: a linear decode, skipping bytes that do not decode.
+
+    Where the sweep is out of step (an undecodable byte in dead code) it can walk over a 78 text op; the
+    texts vm.resync_texts finds then win over the instruction that would swallow them. The finder reads the
+    text (it must look like dialogue), so a rebuilt record passes the old record's text offsets, remapped,
+    as `resync` instead."""
+    if resync is not None:
+        return _sweep(rec, resync)
+    ins = _sweep(rec)
+    ends = {vm.text_op(rec, it.off)[1] for it in ins if it.kind == "text"}
+    walked, _ = vm.walk(rec)
+    extra = vm.resync_texts(rec, ends, walked)
+    return _sweep(rec, extra) if extra else ins
+
+
+def decode(rec, resync=None):
     """([Instr] we trust, {off: Instr}) — a consistent instruction partition of the record.
 
     Priority: a text block the linear sweep found is authoritative (extraction proved every one of them
@@ -59,7 +80,7 @@ def decode(rec):
     then the rest of the sweep. A walk instruction that would span a text block is bogus (the walk lost the
     thread in a data table) and its bytes become raw. Operand targets of trusted instructions that land in
     undecoded bytes are decoded too, so a jump into a byte run we could not decode still has an instruction."""
-    sp = sweep(rec)
+    sp = sweep(rec, resync)
     texts = {it.off: it for it in sp if it.kind == "text"}
     walked, _ = vm.walk(rec)
     starts = {it.off: it for it in sp}
@@ -87,7 +108,7 @@ def decode(rec):
     for it in out:
         if it.off not in walked and it.off not in texts:
             continue
-        for pos, width, target in operand_fields(rec, it):
+        for pos, width, target, _, _ in operand_fields(rec, it):
             if (0 <= target < len(rec) and target not in starts and target not in texts
                     and vm.insn_len(rec, target)):
                 extra[target] = vm.insn_len(rec, target)
@@ -102,32 +123,32 @@ def decode(rec):
 
 
 def operand_fields(rec, it):
-    """[(pos, width, target_old)] for the offset operands of one instruction."""
+    """[(pos, width, target_old, anchor, bias)] for the offset operands of one instruction.
+
+    target = anchor + value + bias, anchor = the op's offset (branches, calls, sub-op branches) or the operand's
+    own offset (choice items)."""
     o, n, op = it.off, it.ln, it.op
     out = []
-    if op in (0x01, 0x03) and n >= 3:
-        out.append((o + 1, 2, o + vm.s16(rec[o + 1], rec[o + 2]) + 1))
-    elif op in (0x02, 0x04) and n >= 5:
-        out.append((o + 1, 4, o + int.from_bytes(rec[o + 1:o + 5], "little") + 1))
-    elif op == 0x07 and n >= 4:
-        out.append((o + 2, 2, o + vm.s16(rec[o + 2], rec[o + 3]) + 2))
-    elif op == 0x14 and n >= 3:
-        out.append((o + 1, 2, o + vm.s16(rec[o + 1], rec[o + 2]) + 1))
+    if it.kind != "op":
+        return out
+    if op in (0x02, 0x04) and n >= 5:
+        out.append((o + 1, 4, o + int.from_bytes(rec[o + 1:o + 5], "little") + 1, o, 1))
     elif op == vm.CHOICE and n >= 2:
         for k in range(rec[o + 1]):
             p = o + 2 + 2 * k
-            out.append((p, 2, p + vm.s16(rec[p], rec[p + 1])))
+            out.append((p, 2, p + vm.s16(rec[p], rec[p + 1]), p, 0))
+    else:
+        for p, bias, anchor in vm.rel_operands(rec, o):
+            if p + 2 <= o + n:
+                out.append((p, 2, anchor + vm.s16(rec[p], rec[p + 1]) + bias, anchor, bias))
     return out
 
 
-def _value(it, pos, target_new, new_off):
-    """Operand value that makes the operand at `pos` point at target_new from instruction new_off."""
-    op = it.op
-    if op in (0x01, 0x02, 0x03, 0x04, 0x14):
-        return target_new - new_off - 1
-    if op == 0x07:
-        return target_new - new_off - 2
-    return target_new - (new_off + (pos - it.off))       # choice item: relative to the item itself
+def trusted_target(rec, it, target, starts):
+    """Rewrite this operand? Always for 01/02/03/04/07/14/7A; for the other branch forms (vm.TOP_BRANCH,
+    vm.SUB_BRANCH, hooks) only when the old target is an instruction start, since those forms also turn up
+    in data the sweep decodes as code."""
+    return it.op in (0x02, 0x04, vm.CHOICE) or vm.is_classic(it.op) or target in starts
 
 
 def rebuild(rec, edits, report=None):
@@ -159,18 +180,22 @@ def rebuild(rec, edits, report=None):
     mp[len(rec)] = len(out)
     for it in ins:
         new_off = mp[it.off]
-        for pos, width, target_old in operand_fields(rec, it):
+        for pos, width, target_old, anchor, bias in operand_fields(rec, it):
             t_new = mp.get(target_old)
+            if not trusted_target(rec, it, target_old, ins_at):
+                if report is not None:
+                    report.append(f"{it.off:05X} op {it.op:02X}: target {target_old:05X} not an instruction, left")
+                continue
             if t_new is None:
                 if report is not None and 0 <= target_old < len(rec):
                     report.append(f"{it.off:05X} op {it.op:02X}: target {target_old:05X} has no new home")
                 continue
-            v = _value(it, pos, t_new, new_off)
+            v = t_new - (new_off + (anchor - it.off)) - bias
             if width == 1:
                 if not 0 <= v <= 0xFF:
                     raise ValueError(f"offset overflow: operand at {it.off:05X} needs {v}")
             else:
-                lo, hi = (-(1 << 15), (1 << 15) - 1) if it.op in (0x01, 0x03, 0x07, 0x14, vm.CHOICE) else (0, (1 << 32) - 1)
+                lo, hi = (-(1 << 15), (1 << 15) - 1) if width == 2 else (0, (1 << 32) - 1)
                 if not lo <= v <= hi:
                     raise ValueError(f"offset overflow: operand at {it.off:05X} to {target_old:05X} needs {v}")
             out[new_off + (pos - it.off):new_off + (pos - it.off) + width] = (v & ((1 << (8 * width)) - 1)).to_bytes(width, "little")
@@ -180,24 +205,22 @@ def rebuild(rec, edits, report=None):
 def verify(old, new, mp, report=None):
     """Fail unless the rebuilt record decodes to the same instruction graph as the original."""
     oi, _ = decode(old)
-    ni, _ = decode(new)
+    ni, _ = decode(new, [mp[it.off] for it in oi if it.kind == "text"])
     if len(oi) != len(ni):
         raise AssertionError(f"instruction count {len(oi)} -> {len(ni)}")
+    old_starts = {it.off for it in oi}
     for a, b in zip(oi, ni):
         if a.kind != b.kind or a.op != b.op:
             raise AssertionError(f"instruction {a.off:05X} changed kind: {a!r} -> {b!r}")
         if b.off != mp.get(a.off):
             raise AssertionError(f"instruction {a.off:05X} at {b.off:05X}, expected {mp.get(a.off):05X}")
-        for pos, width, target in operand_fields(old, a):
+        for pos, width, target, anchor, bias in operand_fields(old, a):
+            if not trusted_target(old, a, target, old_starts):
+                continue
             npos = b.off + (pos - a.off)
-            if a.op in (0x02, 0x04):
-                got = b.off + int.from_bytes(new[npos:npos + width], "little") + 1
-            elif a.op == 0x07:
-                got = b.off + vm.s16(new[npos], new[npos + 1]) + 2
-            elif a.op == vm.CHOICE:
-                got = npos + vm.s16(new[npos], new[npos + 1])
-            else:
-                got = b.off + vm.s16(new[npos], new[npos + 1]) + 1
+            raw = new[npos:npos + width]
+            val = int.from_bytes(raw, "little") if width == 4 else vm.s16(raw[0], raw[1])
+            got = b.off + (anchor - a.off) + val + bias
             want = mp.get(target)
             if want is None:
                 if report is not None:
@@ -216,7 +239,7 @@ def unknown_offset_like(rec, report):
     ins, starts = decode(rec)
     hits = 0
     for it in ins:
-        if it.kind != "op" or it.op in KNOWN or it.ln < 3:
+        if it.kind != "op" or it.op in KNOWN or operand_fields(rec, it) or it.ln < 3:
             continue
         for pos in range(it.off + 1, it.off + it.ln - 1):
             for bias in (0, 1, 2):

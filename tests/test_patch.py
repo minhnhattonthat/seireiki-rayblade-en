@@ -45,6 +45,22 @@ def test_grow_preserves_control_flow():
 
 
 @needs_disc
+def test_subop_branch_is_rewritten():
+    """`5C 14 <8 args> <s16>` (slot 45 @25BD, the S31 hang) is a 12-byte conditional branch: its operand at +10
+    must follow the text growth, and no bogus op inside its arguments may be rewritten."""
+    rec = records()[45]
+    ins, _ = patch.decode(rec)
+    by = {it.off: it for it in ins}
+    assert by[0x25BD].ln == 12 and by[0x25C9].kind == "text"
+    texts = [it.off for it in ins if it.kind == "text" and it.off < 0x25BD]
+    new, mp = patch.rebuild(rec, {t: b"\x01" * 80 for t in texts})
+    patch.verify(rec, new, mp)
+    o = mp[0x25BD]
+    assert new[o + 2:o + 10] == rec[0x25BF:0x25C7]                      # the args are untouched
+    assert o + vm.s16(new[o + 10], new[o + 11]) + 10 == mp[0x25BD + vm.s16(rec[0x25C7], rec[0x25C8]) + 10]
+
+
+@needs_disc
 def test_text_block_is_where_the_script_says():
     """Every script entry's `off` is a text op in the record (or the build must refuse to edit it)."""
     import json

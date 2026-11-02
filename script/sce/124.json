@@ -276,7 +276,7 @@
  },
  {
   "id": "sce124:00C51",
-  "jp": "アイ「意外は余計。{nl}{ctl:1E3E}{ctl:843C}b％‥‥で、行ってみたけど、みんな同じ考えだったみたいね」",
+  "jp": "アイ「意外は余計。{nl}{ctl:1E3E}{face:841CF0}　‥‥で、行ってみたけど、みんな同じ考えだったみたいね」",
   "off": 3153,
   "len": 58,
   "en": "",
@@ -397,14 +397,14 @@
  },
  {
   "id": "sce124:00E3A",
-  "jp": "アイ「ははは、もう、冗談よ。{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "アイ「ははは、もう、冗談よ。{nl}{ctl:3C3E}{face:04FF04}{ctl:023E}{face:0416F0}　なに焦ってんの？」",
   "off": 3642,
-  "len": 26,
+  "len": 48,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 3644,
-  "text_len": 23
+  "text_len": 45
  },
  {
   "id": "sce124:00E6D",
@@ -463,14 +463,14 @@
  },
  {
   "id": "sce124:00F0F",
-  "jp": "アイ「え？　う、うん、まぁ‥‥{nl}{ctl:1E3E}{ctl:043C}",
+  "jp": "アイ「え？　う、うん、まぁ‥‥{nl}{ctl:1E3E}{face:04FF02}{ctl:013E}{face:04FF03}{ctl:023E}{face:04FF07}　一応、話はまとまったけど、あの子、不安そうだったから{nl}　ちょっと心配になって」",
   "off": 3855,
-  "len": 28,
+  "len": 94,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 3857,
-  "text_len": 25
+  "text_len": 91
  },
  {
   "id": "sce124:00F70",
@@ -485,14 +485,14 @@
  },
  {
   "id": "sce124:00F9B",
-  "jp": "アイ「意外は余計。{nl}{ctl:1E3E}{ctl:043C}",
+  "jp": "アイ「意外は余計。{nl}{ctl:1E3E}{face:04FFF0}　‥‥で、行ってみたけど、みんな同じ考えだったみたいね」",
   "off": 3995,
-  "len": 23,
+  "len": 58,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 3997,
-  "text_len": 20
+  "text_len": 55
  },
  {
   "id": "sce124:00FD8",
@@ -683,14 +683,14 @@
  },
  {
   "id": "sce124:01280",
-  "jp": "レオーネ「そうだね。でも来てくれてうれしい。ありがとう。{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "レオーネ「そうだね。でも来てくれてうれしい。ありがとう。{nl}{ctl:3C3E}{face:04FF03}　それにこうやって部屋も残していてくれて‥‥」",
   "off": 4736,
-  "len": 40,
+  "len": 70,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 4738,
-  "text_len": 37
+  "text_len": 67
  },
  {
   "id": "sce124:012D4",
@@ -804,7 +804,7 @@
  },
  {
   "id": "sce124:0148E",
-  "jp": "レオーネ「ボク‥‥頑張るよ。{nl}{ctl:3C3E}{ctl:043C}VJ{ctl:023E}{ctl:043C}VI{ctl:013E}{ctl:043C}V愛これからはちゃんと自分で考えて」",
+  "jp": "レオーネ「ボク‥‥頑張るよ。{nl}{ctl:3C3E}{face:04160A}{ctl:023E}{face:041609}{ctl:013E}{face:0416F2}　これからはちゃんと自分で考えて」",
   "off": 5262,
   "len": 67,
   "en": "",
@@ -892,14 +892,14 @@
  },
  {
   "id": "sce124:015E9",
-  "jp": "レオーネ「ううん。ボクにとってはとても大切なことだよ。{nl}{ctl:3C3E}{ctl:843C}",
+  "jp": "レオーネ「ううん。ボクにとってはとても大切なことだよ。{nl}{ctl:3C3E}{face:84FF02}　みんなには悪いけど、トウヤが来てくれたことが{nl}　一番うれしいし‥‥」",
   "off": 5609,
-  "len": 40,
+  "len": 83,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 5611,
-  "text_len": 37
+  "text_len": 80
  },
  {
   "id": "sce124:0163F",
@@ -1167,7 +1167,7 @@
  },
  {
   "id": "sce124:019E0",
-  "jp": "レオーネ「そ、そっか‥‥{nl}{ctl:1E3E}{ctl:043C}VP{ctl:013E}{ctl:043C}VQ{ctl:023E}{ctl:043C}VS　ヘ、ヘンなこと言ってごめんね。{nl}　はははは、忘れて」",
+  "jp": "レオーネ「そ、そっか‥‥{nl}{ctl:1E3E}{face:041610}{ctl:013E}{face:041611}{ctl:023E}{face:041613}　ヘ、ヘンなこと言ってごめんね。{nl}　はははは、忘れて」",
   "off": 6624,
   "len": 72,
   "en": "",
@@ -1189,7 +1189,7 @@
  },
  {
   "id": "sce124:01A53",
-  "jp": "レオーネ「うん、わかってる。ボクが自分の気持ちを{nl}　押しつけようとしていただけだよね‥‥{nl}{ctl:3C3E}{ctl:043C}VB{ctl:013E}{ctl:043C}VC　‥‥ごめんね」",
+  "jp": "レオーネ「うん、わかってる。ボクが自分の気持ちを{nl}　押しつけようとしていただけだよね‥‥{nl}{ctl:3C3E}{face:041602}{ctl:013E}{face:041603}　‥‥ごめんね」",
   "off": 6739,
   "len": 82,
   "en": "",
@@ -1692,5 +1692,16 @@
   "style": 0,
   "text_off": 9565,
   "text_len": 13
+ },
+ {
+  "id": "sce124:0256C",
+  "jp": "E2トAMもネちちぁAォAR禄Fs　QぉやQンやAねAR「CFe　VSBE　AN　Q・ゆR禄FP　AこAQほやR禄FP　QヘもQンやAぁAR「CFe　VSBE　AN　Q・ゆR禄FP　AlAQほやR禄FP　QこやQンやATAQみやQ）ゆR禄FU　QンやABAR「CFN　VSfO　VSVJ　VSME　AN　Q・ゆR禄FS　Aヲ　QぺやR禄FS　Q槍QンやAポ　QバやQぇやR禄FS　QンやAニ　R「CFV　VSfO　VSVJ　VSME　AN　Q・ゆR禄Fb　Aェ　QぺやR禄Fb　Q<185>QンやAゅ　R「CFY　VScE　AN　Q・ゆR禄Fa　Aに　VSNE　AN　Q・ゆR禄Fa　Aし　QべやR禄Fa　Q張QンやAぅ　R「CFB　VSOE　AQ　Q・ゆR禄FW　Q踵Am　QむやR禄FW　Q壁QンやAU　ぺ　や　ァd　ァ　パeCゅ",
+  "off": 9580,
+  "len": 390,
+  "en": "",
+  "status": "todo",
+  "style": 130,
+  "text_off": 9585,
+  "text_len": 384
  }
 ]

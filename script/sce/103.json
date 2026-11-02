@@ -100,7 +100,7 @@
  },
  {
   "id": "sce103:008E5",
-  "jp": "レオーネ「‥‥{nl}{ctl:3C3E}{ctl:043C}VB{ctl:013E}{ctl:043C}VQ{ctl:023E}{ctl:043C}bP　う、うん、まぁね」",
+  "jp": "レオーネ「‥‥{nl}{ctl:3C3E}{face:041602}{ctl:013E}{face:041611}{ctl:023E}{face:041C10}　う、うん、まぁね」",
   "off": 2277,
   "len": 48,
   "en": "",
@@ -144,7 +144,7 @@
  },
  {
   "id": "sce103:009BC",
-  "jp": "レオーネ「ボクもさっき行ったんだけど、まだ眠ってて‥‥{nl}{ctl:3C3E}{ctl:043C}VP{ctl:013E}{ctl:043C}bC{ctl:023E}{ctl:043C}bE　そっか‥‥よし、それじゃ、行こうか」",
+  "jp": "レオーネ「ボクもさっき行ったんだけど、まだ眠ってて‥‥{nl}{ctl:3C3E}{face:041610}{ctl:013E}{face:041C03}{ctl:023E}{face:041C05}　そっか‥‥よし、それじゃ、行こうか」",
   "off": 2492,
   "len": 82,
   "en": "",
@@ -232,7 +232,7 @@
  },
  {
   "id": "sce103:00B24",
-  "jp": "レオーネ「え？　そうなの？{nl}　なーんだ。それじゃ、仕方ないよね。{nl}{ctl:3C3E}{ctl:043C}VB{ctl:013E}{ctl:043C}VC{ctl:023E}{ctl:043C}VG　そっか‥‥う～ん‥‥{nl}{ctl:3C3E}{ctl:043C}VC{ctl:023E}{ctl:043C}bD　じゃ‥‥」",
+  "jp": "レオーネ「え？　そうなの？{nl}　なーんだ。それじゃ、仕方ないよね。{nl}{ctl:3C3E}{face:041602}{ctl:013E}{face:041603}{ctl:023E}{face:041607}　そっか‥‥う～ん‥‥{nl}{ctl:3C3E}{face:041603}{ctl:023E}{face:041C04}　じゃ‥‥」",
   "off": 2852,
   "len": 107,
   "en": "",
@@ -309,7 +309,7 @@
  },
  {
   "id": "sce103:00C56",
-  "jp": "レオーネ「ボクもさっき行ったんだけど、まだ眠ってて‥‥{nl}{ctl:3C3E}{ctl:043C}VB{ctl:013E}{ctl:043C}bC{ctl:023E}{ctl:043C}bG　そっか‥‥それじゃ今はヒマなんだ」",
+  "jp": "レオーネ「ボクもさっき行ったんだけど、まだ眠ってて‥‥{nl}{ctl:3C3E}{face:041602}{ctl:013E}{face:041C03}{ctl:023E}{face:041C07}　そっか‥‥それじゃ今はヒマなんだ」",
   "off": 3158,
   "len": 81,
   "en": "",
@@ -375,7 +375,7 @@
  },
  {
   "id": "sce103:00D73",
-  "jp": "レオーネ「わかってるよ。トウヤも忙しいだろうし、{nl}{ctl:3C3E}{ctl:043C}VB{ctl:013E}{ctl:043C}bC{ctl:023E}{ctl:043C}bE　ねっ、掃除手田って」",
+  "jp": "レオーネ「わかってるよ。トウヤも忙しいだろうし、{nl}{ctl:3C3E}{face:041602}{ctl:013E}{face:041C03}{ctl:023E}{face:041C05}　ねっ、掃除手田って」",
   "off": 3443,
   "len": 69,
   "en": "",
@@ -397,7 +397,7 @@
  },
  {
   "id": "sce103:00DEF",
-  "jp": "レオーネ「まぁ、細かいことは置いといて‥‥{nl}{ctl:3C3E}{ctl:043C}YC{ctl:023E}{ctl:043C}ZB{ctl:013E}{ctl:043C}aF　あーっ！　荷物取りにいくの忘れてた！」",
+  "jp": "レオーネ「まぁ、細かいことは置いといて‥‥{nl}{ctl:3C3E}{face:041903}{ctl:023E}{face:041A02}{ctl:013E}{face:041B06}　あーっ！　荷物取りにいくの忘れてた！」",
   "off": 3567,
   "len": 81,
   "en": "",
@@ -1626,5 +1626,16 @@
   "style": 0,
   "text_off": 8846,
   "text_len": 13
+ },
+ {
+  "id": "sce103:022DE",
+  "jp": "CFM　QきやQデもQンやAでAR「CFC　VSAE　AT　Q・ゆR禄FM　QマもQデもAぇAVSEE　AT　Q・ゆR禄FM　QマもQデもArAR禄FM　QポもQンやAcAR「CFe　VSBE　AN　Q・ゆR禄FP　ACAR禄FP　QヘもQンやA糸R「CFe　VSBE　AN　Q・ゆR禄FP　Aル　R禄FP　QこやQンやAボ　QぇやR禄FS　QンやAネ　R「CFV　VSfE　AN　Q・ゆR禄Fb　Aコ　VSVE　AN　Q・ゆR禄Fb　Aを　VSME　AN　Q・ゆR禄Fb　Aほ　R禄Fb　Q<185>QンやAぬ　R「CFY　VScE　AN　Q・ゆR禄Fa　Aげ　VSNE　AN　Q・ゆR禄Fa　A7　R禄Fa　Q張QンやAt　R「CFB　VSOE　AQ　Q・ゆR禄FW　Q踵AQ　R禄FW　Q壁QンやAB　ァd　ァ　パeCOFぺ　や　ァd　ァ　パeCゅ",
+  "off": 8926,
+  "len": 400,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 8930,
+  "text_len": 395
  }
 ]

@@ -429,6 +429,28 @@
   "text_len": 12
  },
  {
+  "id": "sce046:00C5B",
+  "jp": "ヤマト「あっ！」",
+  "off": 3163,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 3168,
+  "text_len": 9
+ },
+ {
+  "id": "sce046:00C6A",
+  "jp": "アイ「どうしたの⁈」",
+  "off": 3178,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 3183,
+  "text_len": 11
+ },
+ {
   "id": "sce046:00C7B",
   "jp": "ヤマト「今の衝撃で対フィールドユニットが{nl}　無力化されちゃったみたい‥‥」",
   "off": 3195,
@@ -803,6 +825,28 @@
   "text_len": 12
  },
  {
+  "id": "sce046:01391",
+  "jp": "ヤマト「あっ！」",
+  "off": 5009,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 5014,
+  "text_len": 9
+ },
+ {
+  "id": "sce046:013A0",
+  "jp": "カスミ「ど、どうしたの⁈」",
+  "off": 5024,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 5029,
+  "text_len": 14
+ },
+ {
   "id": "sce046:013B4",
   "jp": "ヤマト「今の衝撃で対フィールドユニットが{nl}　無力化されちゃったみたい‥‥」",
   "off": 5044,
@@ -1152,6 +1196,28 @@
   "status": "todo",
   "style": 1,
   "text_off": 6771,
+  "text_len": 12
+ },
+ {
+  "id": "sce046:01A86",
+  "jp": "ヤマト「あっ！」",
+  "off": 6790,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 6795,
+  "text_len": 9
+ },
+ {
+  "id": "sce046:01A95",
+  "jp": "セリカ「どうしたの⁈」",
+  "off": 6805,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 6810,
   "text_len": 12
  },
  {
@@ -1538,6 +1604,17 @@
   "style": 1,
   "text_off": 8699,
   "text_len": 12
+ },
+ {
+  "id": "sce046:0220E",
+  "jp": "ヤマト「あっ！」",
+  "off": 8718,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 8723,
+  "text_len": 9
  },
  {
   "id": "sce046:0221D",
@@ -2607,6 +2684,28 @@
   "text_len": 12
  },
  {
+  "id": "sce046:035D6",
+  "jp": "ヤマト「あっ！」",
+  "off": 13782,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 13787,
+  "text_len": 9
+ },
+ {
+  "id": "sce046:035E5",
+  "jp": "レオーネ「どうしたの？」",
+  "off": 13797,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 13802,
+  "text_len": 14
+ },
+ {
   "id": "sce046:035F9",
   "jp": "ヤマト「今の衝撃で対フィールドユニットが{nl}　無力化されちゃったみたい‥‥」",
   "off": 13817,
@@ -3001,6 +3100,28 @@
   "style": 1,
   "text_off": 15630,
   "text_len": 12
+ },
+ {
+  "id": "sce046:03D21",
+  "jp": "ヤマト「あっ！」",
+  "off": 15649,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 15654,
+  "text_len": 9
+ },
+ {
+  "id": "sce046:03D30",
+  "jp": "ユミール「ど、どうしたの？」",
+  "off": 15664,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 15669,
+  "text_len": 16
  },
  {
   "id": "sce046:03D46",

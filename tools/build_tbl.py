@@ -30,6 +30,7 @@ LOW.update({0x201: "㎜", 0x202: "㎞", 0x203: "∞", 0x204: "＜", 0x205: "＞"
 CONTROLS = [  # verified status: see docs/re/text.md
     "FB={fb}",
     "FC={ctl:2}",
+    "FC??3C={face:2}",    # FC xx 3C a b: inline portrait change (args as op 87); its FF is not a terminator
     "FD={nl}",
     "FE={page}",
     "FF={end}",

@@ -24,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import vm  # noqa: E402
+import patch  # noqa: E402
 from tbl import Table  # noqa: E402
 
 SCRIPT = ROOT / "script"
@@ -63,20 +64,14 @@ def u32(addr):
 
 def sweep_texts(rec):
     """(text blocks, skipped bytes) for a VM bytecode record, walking it linearly and skipping
-    undecodable bytes. Each block: (op offset, text start, text end)."""
-    i, texts, skips = 0, [], []
-    while i < len(rec):
-        r = vm.insn_len(rec, i)
-        if r is None:
-            skips.append(i)
-            i += 1
-            continue
-        ln, kind = r
-        if kind == "text":
-            start, end = vm.text_op(rec, i)
-            texts.append((i, start, end))
-        i += ln
-    return texts, skips
+    undecodable bytes. Each block: (op offset, text start, text end). Same partition as patch.sweep (with its
+    resync), so every block extracted here is one insert.py can replace."""
+    ins = patch.sweep(rec)
+    texts = [(it.off, *vm.text_op(rec, it.off)) for it in ins if it.kind == "text"]
+    covered = set()
+    for it in ins:
+        covered.update(range(it.off, it.off + it.ln))
+    return texts, [i for i in range(len(rec)) if i not in covered]
 
 
 def entry(eid, rec, op, start, end, extra=None):

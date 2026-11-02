@@ -80,6 +80,22 @@ def test_len_table_matches_exe():
     assert vm.LEN == exe[off:off + 256], "vm.LEN differs from the EXE table"
 
 
+def test_resync_recovers_swallowed_text():
+    """Slot 1: the sweep goes out of step at `FC EA 01 FE` and `53 00 78 00` swallows a 78 op; the resync
+    finds `晃一郎「よいしょっと‥‥」` (after speaker op 7B), and a bogus text in data is not taken."""
+    recs = dict(vm.sce_records())
+    texts = {op for op, _, _ in extract.sweep_texts(recs[1])[0]}
+    assert 0xF9A in texts
+    assert 0xFF not in {op for op, _, _ in extract.sweep_texts(recs[103])[0]}   # `14 78 00 ..` cond op, data
+
+
+def test_text_end_skips_face_args():
+    """`FC xx 3C a b` (inline face change) carries two more bytes, so an FF among them is not the end."""
+    raw = bytes.fromhex("FC043CFF10") + b"\x41\xff"
+    assert vm.text_end(raw, 0) == 6
+    assert vm.text_end(bytes.fromhex("FC3C3E41FF"), 0) == 4     # FC xx 3E: plain 2-arg control
+
+
 def test_text_end_skips_glyph_low_bytes():
     """A 0xFF that is the low byte of a glyph (F0..FA xx) does not end the text."""
     raw = bytes.fromhex("F3FF") + b"\xe6\xff"          # 私 。 then the terminator

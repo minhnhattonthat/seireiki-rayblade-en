@@ -18,6 +18,7 @@ Facts (docs/re/text.md, all verified against the emulator trace work/scratch/tr1
   consume more argument bytes (SUBK below, derived from the handlers with tools/re.py). Examples:
   `1E 00 <4 args>` inserts two runtime values into the text, `08 <u16 frames>` waits.
 """
+import re
 import sys
 from pathlib import Path
 
@@ -40,20 +41,64 @@ assert len(LEN) == 256
 # Sub-op dispatchers: op -> {second byte: extra argument bytes after the 2-byte op}.
 # Derived from the handlers (each sub-handler's `addiu K; sw state+0x48`); docs/re/text.md.
 SUBK = {
-    0x16: {19: 1, 25: 2, 26: 2, 32: 1, 44: 4, 48: 2, 50: 2, 51: 2, 53: 3, 56: 2, 57: 2, 58: 2},
-    0x1B: {0: 1, 12: 4, 16: 2, 18: 2, 19: 2, 21: 3, 24: 2, 25: 2, 26: 2},
-    0x1E: {0: 4, 4: 2, 6: 2, 7: 2, 9: 3, 12: 2, 13: 2, 14: 2},
+    0x16: {19: 1, 26: 2, 32: 1, 44: 4, 46: 1, 48: 2, 50: 2, 51: 2, 53: 3, 56: 2, 57: 2, 58: 2},
+    0x1B: {0: 1, 12: 4, 14: 1, 16: 2, 18: 2, 19: 2, 21: 3, 24: 2, 25: 2, 26: 2},
+    0x1E: {0: 4, 2: 1, 4: 2, 6: 2, 7: 2, 9: 3, 12: 2, 13: 2, 14: 2},
     0x1F: {0: 2, 1: 2, 2: 2},
-    0x5C: {15: 1, 17: 1, 20: 10, 21: 1, 22: 1, 23: 1, 24: 1, 26: 1, 27: 1, 28: 1},
+    0x5C: {15: 1, 17: 1, 20: 7, 21: 1, 22: 1, 23: 1, 24: 1, 26: 1, 27: 1, 28: 1},
     0xAD: {26: 2, 28: 2, 32: 2, 36: 2, 46: 2, 54: 2},
     0xAE: {10: 2, 12: 2, 16: 2, 20: 2, 30: 2, 38: 2, 50: 3},
-    0xB0: {6: 2, 14: 2, 26: 3, 45: 2, 47: 2, 53: 3, 54: 2, 56: 1},
-    0xC0: {2: 2, 15: 1, 21: 1, 22: 1, 26: 2, 27: 1, 29: 5, 30: 6, 32: 1, 33: 1, 35: 3, 36: 2, 38: 1,
-           40: 2, 42: 1, 47: 2, 48: 2, 49: 2, 54: 1, 55: 1, 56: 2, 58: 2, 61: 2, 62: 2, 63: 2},
-    0xC8: {0: 2, 1: 2, 2: 2, 3: 2, 4: 2, 5: 2, 8: 2, 9: 2, 10: 2, 11: 2, 12: 2, 13: 2, 16: 2, 17: 4,
-           18: 1, 19: 2, 20: 2, 21: 2},
+    0xB0: {6: 2, 14: 2, 26: 3, 45: 2, 47: 2, 50: 1, 53: 3, 54: 2, 56: 1},
+    0xC0: {2: 2, 15: 1, 19: 1, 21: 1, 22: 1, 26: 2, 27: 1, 29: 5, 30: 6, 31: 1, 32: 1, 33: 1, 35: 3, 36: 2,
+           38: 1, 40: 2, 42: 1, 43: 1, 46: 1, 47: 2, 48: 2, 49: 2, 54: 1, 55: 1, 56: 2, 58: 2, 61: 2, 62: 2,
+           63: 2},
+    # C8 0-5/10-13 are branches that fall through at the table length (4); the first derivation took the
+    # branch bias (2) for extra bytes. 8/9 read 4 bytes past the table length (tools/subops.py).
+    0xC8: {8: 4, 9: 4, 16: 2, 17: 4, 18: 1, 19: 2, 20: 2, 21: 2},
     0xDC: {0: 2, 1: 4, 2: 1, 3: 2, 4: 2, 5: 2},
 }
+
+# Sub-ops that are conditional relative branches: (op, sub) -> (s16 position, bias); target = op + s16 + bias,
+# fall through to op + length. From the sub-handlers (tools/subops.py lists every `sra; addiu K; sw 0x48`) and
+# checked on D_SCE: the targets land on instruction starts (16/19 640 of 640, DC/4 955 of 955, C8/12 170 of 170).
+SUB_BRANCH = {(0x16, 19): (3, 3), (0x16, 25): (2, 2), (0x5C, 20): (10, 10),
+              **{(0xC8, s): (2, 2) for s in (0, 1, 2, 3, 4, 5, 8, 9, 10, 11, 12, 13, 19, 20, 21)},
+              **{(0xDC, s): (2, 2) for s in (3, 4, 5)}}
+
+
+# Top-level ops whose handler sets the advance to `s16 + bias` on some path (a branch), besides 01/03/07/14.
+# D_SCE hit rates (target on an instruction start): 15 2480/2530, D1 567/569, D2 335/338, D3 26/33; the rest
+# are rare and mostly seen in data, so their operands are rewritten only when the target is an instruction start.
+TOP_BRANCH = {0x15: (1, 1), 0xD1: (3, 3), 0xD2: (3, 3), 0xD3: (5, 5),
+              0x33: (1, 1), 0x3A: (1, 1), 0x55: (1, 1), 0x56: (1, 1), 0x6B: (1, 1), 0xF9: (1, 1), 0xDB: (3, 3)}
+RARE_BRANCH = {0x33, 0x3A, 0x55, 0x56, 0x6B, 0xF9, 0xDB}   # the walk does not follow these
+HOOK = 0x0E   # `0E n <s16>` (n < 6) or `0E n <6 x s16>`: event-hook pointers, each = its own position + s16
+
+
+def rel_operands(rec, i):
+    """[(s16 position, bias, anchor)] of the relative offset operands of the op at i (choice 7A excluded):
+    target = anchor + s16 + bias."""
+    op = rec[i]
+    if op in (0x01, 0x03, 0x14):
+        return [(i + 1, 1, i)]
+    if op == 0x07:
+        return [(i + 2, 2, i)]
+    if op in TOP_BRANCH:
+        p, b = TOP_BRANCH[op]
+        return [(i + p, b, i)]
+    if op == HOOK and i + 1 < len(rec):
+        ps = [i + 2] if rec[i + 1] < 6 else [i + 2 + 2 * k for k in range(6)]
+        return [(p, 0, p) for p in ps]
+    if i + 1 < len(rec) and (op, rec[i + 1]) in SUB_BRANCH:
+        p, b = SUB_BRANCH[(op, rec[i + 1])]
+        return [(i + p, b, i)]
+    return []
+
+
+def is_classic(op):
+    """Branch ops proven by the trace and the first insertion: their operands are always rewritten."""
+    return op in (0x01, 0x03, 0x07, 0x14)
+
 
 TEXT = 0x78
 CHOICE = 0x7A
@@ -93,7 +138,7 @@ def text_end(rec, i):
         if 0xF0 <= b <= 0xFA:
             i += 2
         elif b == 0xFC:
-            i += 3
+            i += 5 if i + 2 < len(rec) and rec[i + 2] == 0x3C else 3   # FC xx 3C a b: face change, 2 more
         else:
             i += 1
     return None
@@ -135,6 +180,8 @@ def insn_len(rec, i):
     ln = LEN[op]
     if ln == 0:
         return None
+    if op == HOOK and i + 1 < len(rec):          # handler 0x80058658 adds 2 or 12 to the table length 2
+        ln = 4 if rec[i + 1] < 6 else 14
     if op in SUBK and i + 1 < len(rec):
         ln += SUBK[op].get(rec[i + 1], 0)
     return (ln, "op") if i + ln <= len(rec) else None
@@ -184,6 +231,9 @@ def walk(rec, start=0):
         elif op in STOP:
             pass
         else:
+            for pos, bias, anchor in rel_operands(rec, i):      # sub-op / other branches, hook pointers
+                if pos + 2 <= len(rec) and op not in RARE_BRANCH:
+                    work.append(anchor + s16(rec[pos], rec[pos + 1]) + bias)
             work.append(i + ln)
     return seen, errors
 
@@ -219,6 +269,44 @@ def scan_texts(rec):
         if any(c >= 0xF0 or 0x40 <= c <= 0xEE for c in body):
             out.append((i, t[0], t[1]))
     return out
+
+DIALOGUE_PUNCT = re.compile(r"[「」。、‥？！]")
+KANA = re.compile(r"[ぁ-ヿ]")
+_T = None
+
+
+def resync_texts(rec, found_ends, walked):
+    """Text-op offsets the linear sweep missed because it was out of step (it swallowed the 78 op).
+
+    found_ends: FF offsets of the texts the sweep already has. A candidate is any 78 op whose text decodes as
+    dialogue (1..400 bytes, dialogue punctuation, >= 4 kana); data decodes as kana half the time, so the
+    punctuation is what separates them. Candidates sharing one FF are one text that some earlier 78 byte in
+    an operand also reaches: take the one right after a speaker op (`7B xx xx`), else the latest. An unanchored
+    candidate that cuts through an instruction of the control-flow walk is data (dropped)."""
+    global _T
+    if _T is None:
+        from tbl import Table
+        _T = Table.load(ROOT / "tbl/jp.tbl")
+    groups = {}
+    for i in range(len(rec) - 2):
+        if rec[i] != TEXT or rec[i + 1] & 0x0F in (3, 4, 5, 6, 7):
+            continue
+        t = text_op(rec, i)
+        if not t or t[1] in found_ends or not 2 <= t[1] - t[0] <= 400:
+            continue
+        s = _T.decode(rec, t[0], t[1] - t[0])[0]
+        if DIALOGUE_PUNCT.search(s) and len(KANA.findall(s)) >= 4:
+            groups.setdefault(t[1], []).append(i)
+    out = []
+    for end, starts in groups.items():
+        anch = [c for c in starts if c >= 3 and rec[c - 3] == 0x7B]
+        c = anch[0] if anch else starts[-1]
+        if not anch and any(w < c < w + ln or (c < w <= end and kind != "text")
+                            for w, (ln, kind, _) in walked.items()):
+            continue
+        out.append(c)
+    return sorted(out)
+
 
 def sce_records():
     """[(slot, rec)] for every D_SCE record."""

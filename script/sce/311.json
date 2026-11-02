@@ -1552,14 +1552,14 @@
  },
  {
   "id": "sce311:01F1F",
-  "jp": "ガボン「‥‥フッ‥‥ハハハハハハ！{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "ガボン「‥‥フッ‥‥ハハハハハハ！{nl}{ctl:3C3E}{face:04FF02}{ctl:023E}{face:04FFF0}　そう心配するな。安静にしていれば問題なく回復する」",
   "off": 7967,
-  "len": 32,
+  "len": 76,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 7969,
-  "text_len": 29
+  "text_len": 73
  },
  {
   "id": "sce311:01F6E",

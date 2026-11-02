@@ -892,7 +892,7 @@
  },
  {
   "id": "sce246:012B5",
-  "jp": "メリッサ「はい、博止。　でもバカケチダヌキは‥‥{nl}{ctl:3C3E}{ctl:043C}eF{ctl:1E3E}{ctl:043C}eK{ctl:023E}{ctl:043C}eC{ctl:043E}{ctl:043C}eL　うっ‥‥」",
+  "jp": "メリッサ「はい、博止。　でもバカケチダヌキは‥‥{nl}{ctl:3C3E}{face:041F06}{ctl:1E3E}{face:041F0B}{ctl:023E}{face:041F03}{ctl:043E}{face:041F0C}　うっ‥‥」",
   "off": 4789,
   "len": 72,
   "en": "",

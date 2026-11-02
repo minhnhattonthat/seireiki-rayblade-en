@@ -364,14 +364,14 @@
  },
  {
   "id": "sce396:009E4",
-  "jp": "ガボン「‥‥フッ‥‥ハハハハハハ！{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "ガボン「‥‥フッ‥‥ハハハハハハ！{nl}{ctl:3C3E}{face:04FF02}{ctl:023E}{face:04FFF0}　そう心配するな。安静にしていれば問題なく回復する」",
   "off": 2532,
-  "len": 32,
+  "len": 76,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 2534,
-  "text_len": 29
+  "text_len": 73
  },
  {
   "id": "sce396:00A33",
@@ -573,7 +573,7 @@
  },
  {
   "id": "sce396:00CF4",
-  "jp": "セリカ「う～ん、自分では特に気してない行動が{nl}　相手の心を動かして、いつのまにかうまくいく、{nl}{ctl:783E}{ctl:043C}bE　かな？」",
+  "jp": "セリカ「う～ん、自分では特に気してない行動が{nl}　相手の心を動かして、いつのまにかうまくいく、{nl}{ctl:783E}{face:041C05}　かな？」",
   "off": 3316,
   "len": 75,
   "en": "",
@@ -603,5 +603,16 @@
   "style": 0,
   "text_off": 3435,
   "text_len": 39
+ },
+ {
+  "id": "sce396:00E0B",
+  "jp": "VSBE　AN　Q・ゆR禄FP　Aづ　QほやR禄FP　QこやQンやAこ　R「CFV　VSVE　AN　Q・ゆR禄Fb　A2　VSME　AN　Q・ゆR禄Fb　Aj　QぺやR禄Fb　Q<185>QンやAR　ぺ　や　ァd　eCァ　パゅ",
+  "off": 3595,
+  "len": 118,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 3597,
+  "text_len": 115
  }
 ]

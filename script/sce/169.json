@@ -1166,6 +1166,17 @@
   "text_len": 19
  },
  {
+  "id": "sce169:016F9",
+  "jp": "WD　　と　TJ　。AYゅsdへHTJ　<E1>AYゅtxゆMパii　PそTP",
+  "off": 5881,
+  "len": 39,
+  "en": "",
+  "status": "todo",
+  "style": 8,
+  "text_off": 5883,
+  "text_len": 36
+ },
+ {
   "id": "sce169:01773",
   "jp": "ベイオ「ふ、ふん‥‥今日のところはこれぐらいで{nl}　勘弁してやる！」",
   "off": 6003,
@@ -1582,6 +1593,17 @@
   "style": 2,
   "text_off": 8198,
   "text_len": 48
+ },
+ {
+  "id": "sce169:0205B",
+  "jp": "トウヤ「はぁ？　んなことできるのか？」",
+  "off": 8283,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 8287,
+  "text_len": 21
  },
  {
   "id": "sce169:02075",

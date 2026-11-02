@@ -67,14 +67,14 @@
  },
  {
   "id": "sce107:00510",
-  "jp": "ロザリー「ちょっと、ゲン！{nl}{ctl:3C3E}{ctl:053C}",
+  "jp": "ロザリー「ちょっと、ゲン！{nl}{ctl:3C3E}{face:05FF03}{ctl:023E}{face:05FF02}{ctl:013E}{face:05FFF0}　‥‥あっ、トウヤ‥‥な、なに？」",
   "off": 1296,
-  "len": 25,
+  "len": 65,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 1298,
-  "text_len": 22
+  "text_len": 62
  },
  {
   "id": "sce107:00554",
@@ -221,14 +221,14 @@
  },
  {
   "id": "sce107:0080A",
-  "jp": "ロザリー「え？　もちろんよ。{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "ロザリー「え？　もちろんよ。{nl}{ctl:3C3E}{face:04FF08}　あ、当り前じゃない‥‥」",
   "off": 2058,
-  "len": 26,
+  "len": 45,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 2060,
-  "text_len": 23
+  "text_len": 42
  },
  {
   "id": "sce107:0083A",
@@ -408,14 +408,14 @@
  },
  {
   "id": "sce107:00BA6",
-  "jp": "ロザリー「ごめん。でも、もう少し考えさせて。{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "ロザリー「ごめん。でも、もう少し考えさせて。{nl}{ctl:3C3E}{face:04FF11}　ごめんね‥‥ゲン、トウヤ‥‥」",
   "off": 2982,
-  "len": 35,
+  "len": 57,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 2984,
-  "text_len": 32
+  "text_len": 54
  },
  {
   "id": "sce107:00BE6",

@@ -20,7 +20,7 @@
 | E5-EE | 、 。 ． （ ） 「 」 『 』 ・ |
 | F0-FA xx | glyph code (b - 0xEF) * 0x100 + xx: F0 xx = punctuation 0x100.. (F0 06 ー, F0 08 ？, F0 09 ！, F0 0B ‥ (two of them = ……)); F1 10.. = kanji |
 | FB | mode toggle (DC version: ASCII on/off) — guess |
-| FC p1 p2 | control. In D_SCE text: `FC xx 3E` x6260 (likely a wait of xx frames: 02, 5A, 3C, B4 = 2/90/60/180), `FC 04 3C` / `FC 84 3C` x300 (DC: p2 3C has 2 more bytes — check). EXE menus: FC 80 xx, FC FF FF (position/colour?). TODO verify argument counts in the 78 handler before extraction |
+| FC p1 p2 | control. In D_SCE text: `FC xx 3E` x6260 (likely a wait of xx frames: 02, 5A, 3C, B4 = 2/90/60/180). **`FC xx 3C a b` carries two more bytes** (372 in D_SCE; `a b` mirror op `87 xx a b`, an inline portrait/face change, e.g. `FC 04 3C 1C 05`); `a` is often FF, which the first extraction read as the end of the line (cut ~300 lines short, the rest left Japanese in the marker build). Table entry `FC??3C={face:2}` (tbl.py `??` wildcard key) prints it as `{face:043CFF10}`-style `{face:xxab}`. EXE menus: FC 80 xx, FC FF FF (position/colour?) |
 | FD | line break |
 | FE | page break (guess, from DC) |
 | FF | end of string |
@@ -61,11 +61,24 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
   78 A0, 78 80 = other boxes. Usually preceded by `7B xx yy` (speaker). The handler formats into a 0x400-byte
   buffer (limit 0x3FF) and leaves state+0x48 = the whole `78 style args text FF` length.
 - **Text ends at an FF that is not a glyph low byte**: F0..FA are two-byte glyph codes (so `F3 FF` = 私), FC
-  carries two argument bytes, FB/FD/FE one. `vm.text_end` walks glyph-wise for this reason; a raw `find(b"\xff")`
+  carries two argument bytes (four when the second is 3C), FB/FD/FE are one byte. `vm.text_end` walks glyph-wise for this reason; a raw `find(b"\xff")`
   cut 2052 strings short in the first pass.
 - 49,363 text blocks in D_SCE (styles: 00 dialogue 38.6k, 01 7.7k, 02 1.7k, 80/81 0.8k, A0 407, C0 128 choices).
   A linear sweep with skip-on-undecodable-byte leaves 0.24% of the file undecoded in runs shorter than 32 bytes;
   every trace boundary of scene 1 lands on a sweep instruction start.
+- **Resync** (`vm.resync_texts`, used by `patch.sweep`, so extract and insert share one partition): after an
+  undecodable byte in dead code the sweep can be out of step and swallow a 78 op inside another op's arguments
+  (slot 1 `01 06 00 FC EA 01 FE 7B 53 00 78 00 晃一郎「…`: `53 00 78 00` eats the text). Candidates = 78 ops whose
+  text reads as dialogue (punctuation 「」。、‥？！ + ≥4 kana; data decodes as kana half the time). Several candidates
+  sharing one FF are one line reached from an earlier 78 byte in an operand: take the one right after a speaker op
+  `7B xx yy`, else the latest; an unanchored candidate that cuts a control-flow-walk instruction is data (dropped:
+  e.g. slot 103 `14 78 00 ..`). +164 lines. A rebuilt record is re-decoded with the old text offsets remapped
+  (`patch.decode(new, resync=…)`), since English no longer reads as Japanese dialogue.
+- After resync + the `FC xx 3C` fix, `jp_left.py` on the marker D_SCE finds 349 runs / 1,592 bytes, none longer
+  than 7 bytes and all bytecode that happens to decode (e.g. `ヱ易ヴ給も` after `FF 79 00 11 B0`).
+- `1E 08` likely carries one more argument byte than `vm.SUBK` knows (slot 11 `1E 08 14 7B 26 00 78 00`: the walk
+  reads `14 7B 26 00 78` as a branch). Not fixed: the resync's speaker anchor covers the text it hid; check the
+  handler before relying on the walk there.
 
 ## Other text locations
 - **EXE message bank** (22 groups) — verified, extracted: root table at RAM 0x8001534C, 22 self-relative u32
@@ -102,9 +115,28 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
 - **14** (conditional): s16 at +1, target = op + disp + 1; bit 15 of the flag word inverts the test
   (handler 0x8005A9C0). **02 / 04**: u32 at +1, target = op + u32 + 1.
 - **7A** (choice): `7A count` then `count` u16, each self-relative to its own slot.
-These are all the ops that write an offset into state+0x48. The other pc-writing ops are advances (length +
-sub-op argument bytes, `vm.SUBK`), so text growth does not touch them — a sub-op that carries an offset we have
-not decoded would be missed; `patch.unknown_offset_like` lists candidates per record.
+~~These are all the ops that write an offset into state+0x48.~~ **Wrong** (2026-11-03, `tools/subops.py` +
+D_SCE hit rates = how often the decoded target is an instruction start). More branch forms, now in
+`vm.rel_operands` / `patch.operand_fields`:
+- Top-level `s16 + bias` branches (`vm.TOP_BRANCH`): **15** (s16 @+1, +1; 2507/2513), **D1/D2** (@+3, +3;
+  567/568, 335/338), **D3** (@+5, +5). Rare, mostly in data: 33 3A 55 56 6B F9 (@+1) DB (@+3).
+- Sub-op branches (`vm.SUB_BRANCH`): **16/19** (`16 13 a <s16>`, @+3, +3; 640/640), **5C/20** (`5C 14 <8 args>
+  <s16>`, @+10, +10, fall through 12; 858/858 — vm.SUBK had 10 = the branch bias, which swallowed the next text
+  op and made the marker build hang at story_S31), **C8/0-5, 8-13, 19-21** and **DC/3-5** (@+2, +2; DC/4
+  955/955). C8's table length is 4, so its branch subs fall through at 4 (SUBK had 2 = the bias again); C8/8-9
+  carry 4 more bytes.
+- **0E** = event-hook pointers: `0E n <s16>` (n < 6, 4 bytes) or `0E n <6 x s16>` (14 bytes); each pointer =
+  its own position + s16. The length table says 2 (the handler adds 2 or 12).
+- Missing SUBK entries (handler adds 1 byte): 16/46, 1B/14, 1E/2, B0/50, C0/19, C0/31, C0/43, C0/46.
+- Non-classic forms are rewritten only when their old target is an instruction start (`patch.trusted_target`),
+  since the same byte patterns occur in data. Undecoded bytes in D_SCE: 5,944 -> 3,964.
+- **Still open — trailing offset tables**: helper **0x8005832C(k)** sets the advance to `L + 2k + s16(op + L +
+  2k)` (L = the advance when called, normally the instruction length), i.e. it branches through entry k of a
+  table of self-relative s16s right after the instruction. ~80 handlers call it: top-level 17/18/19 (`17 a b c
+  <s16>`: on match branch, else skip 2 -> 6 bytes; verified in data, e.g. `18 81 10 14 2B 00 78 01 セリカ…`),
+  22, 43, 57, 6B, AA, AB, B9, BB, CC, E5, EA, EB, F7, and sub-ops 16/33-40, 1B/1-8, AD/16-54, AE/0-58,
+  B0/6-54, C0/2-63, C8/4 (list: `python -X utf8 tools/trail.py`). Their table entries are not rewritten yet, and where
+  vm.SUBK does not count the table the sweep decodes it as ops. Needed before real text goes in.
 
 ### Archive slot tables are duplicated in the EXE — verified
 The loader does **not** read a rebuilt archive's own header: each of the three archives has a byte-identical copy

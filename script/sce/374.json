@@ -121,6 +121,28 @@
   "text_len": 25
  },
  {
+  "id": "sce374:003B9",
+  "jp": "セリカ「まずはクロビスのバルドッグ」",
+  "off": 953,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 958,
+  "text_len": 18
+ },
+ {
+  "id": "sce374:003D1",
+  "jp": "クロビス「ああ。任せておけ」",
+  "off": 977,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 981,
+  "text_len": 15
+ },
+ {
   "id": "sce374:003EB",
   "jp": "セリカ「まずはアーサーのドライデス」",
   "off": 1003,
@@ -306,6 +328,72 @@
   "style": 1,
   "text_off": 1495,
   "text_len": 16
+ },
+ {
+  "id": "sce374:0068E",
+  "jp": "セリカ「それと、クロビス。よろしくね」",
+  "off": 1678,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 1683,
+  "text_len": 19
+ },
+ {
+  "id": "sce374:006A7",
+  "jp": "クロビス「了解」",
+  "off": 1703,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 1707,
+  "text_len": 10
+ },
+ {
+  "id": "sce374:006BC",
+  "jp": "セリカ「それから、アーサーのドライデスよ」",
+  "off": 1724,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 1729,
+  "text_len": 23
+ },
+ {
+  "id": "sce374:006D9",
+  "jp": "アーサー「お任せを」",
+  "off": 1753,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 1757,
+  "text_len": 13
+ },
+ {
+  "id": "sce374:006F1",
+  "jp": "セリカ「それと、ホンシェンコワンよ」",
+  "off": 1777,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 1782,
+  "text_len": 18
+ },
+ {
+  "id": "sce374:00709",
+  "jp": "シィウチェン「承知した」",
+  "off": 1801,
+  "len": 19,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 1805,
+  "text_len": 14
  },
  {
   "id": "sce374:00722",

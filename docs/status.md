@@ -44,21 +44,36 @@ Updated at the end of every session. Keep it to what the next session needs; his
       `work/qa/marker_all/sheet.png`, per-scene shots in `work/qa/marker_all/`.
     - **Width gate**: 30 chars/line, 3 lines/page for the dialogue box (portrait and plain), measured with a
       90-digit probe (`work/qa/probe1/`). Table and rules in `docs/widths.md`.
+  - **Missed text fixed** (2026-11-03): resync pass (`vm.resync_texts`, shared by extract and insert via
+    `patch.sweep`) +146 lines; `FC xx 3C a b` carries 2 more bytes (inline face change; its FF was read as the
+    end, ~370 lines cut short) -> `{face:..}` in tbl (`FC??3C` wildcard key, tbl.py). jp_left on the marker
+    D_SCE: 778 runs/6,605 B -> 349/1,592 B, all ≤7-byte bytecode noise. 51,364 strings.
+  - **VM grammar fixes** (docs/re/text.md "Opcode operand fixes"): op 15/D1/D2/D3 and sub-ops 16/19, 5C/20,
+    C8/*, DC/3-5 are branches the rewriter ignored; 0E carries hook pointers; vm.SUBK had branch biases as
+    lengths (5C/20 swallowed a text op and hung story_S31) and lacked 8 one-byte entries. `tools/subops.py`
+    audits the handlers. Undecoded D_SCE bytes 5,944 -> 3,964.
 - **Next:**
-  1. **Text the extractor missed** (found by `jp_left.py` on the marker build): 362 Japanese runs, 4,527 bytes,
-     e.g. slot 1 @0xF9C `晃一郎「よいしょっと`. Cause: the linear sweep loses alignment at an undecodable byte
-     (an `FC`/`00` in dead code) and then walks over the following `78` text op, and the control-flow walk has
-     lost the thread in those records too. Fix: a resync pass — after a desync, resume at the next `78 <style>`
-     whose text is FF-terminated and reads as dialogue (contains 「」/。/, and ≥4 kana) — add those as text
-     instructions in `patch.decode`, make `extract.py` use the same partition, re-dump, rebuild, re-tour. Note:
-     byte runs in data decode as kana with ~50% probability, so the resync must require the dialogue
-     punctuation, not just "decodes".
-  2. Menu text (EXE message bank, 1,990 strings): they live in the EXE data section behind self-relative u32 group
-     tables, so inserting English needs the strings relocated (free space or appended) and the tables repointed;
-     then measure the menu field widths (docs/widths.md) and the choice box (probe style C0, stop on op 7A).
-  3. D_BMESS battle messages: own bytecode (`28 00` header + 12 u16 category pointers + `FC 30..37` conditional
-     jumps), not decoded yet. Battle text is out of scope until it is.
-  4. Phase 6: batch translation. Before the first batch, review the rest of `tbl/jp.tbl` readings (below) and
+  1. **Trailing offset tables** (blocks real insertion): ~80 handlers branch through helper 0x8005832C — a
+     table of self-relative s16s right after the instruction (17/18/19 `17 a b c <s16>`, 22, 43, 57, 6B, AA,
+     AB, B9, BB, CC, E5, EA, EB, F7, 16/33-40, 1B/1-8, AD/AE/B0/C0 subs, C8/4; `tools/trail.py`). Add a
+     `vm.TRAIL` {op|(op,sub): (body extra, entries)} table, make insn_len count the table and
+     `rel_operands` return each entry (anchor = entry, bias 0), check each form's hit rate on D_SCE with
+     `tools/branch_check.py` (extend its FORMS/TOP), re-dump (ids may move: nothing is translated yet), rebuild, re-tour.
+     Then a deeper tour than "third text box": play each warped scene longer (mash) on marker vs original.
+  2. **Script buffer**: the scene loader allocates 0x8000 (0x80058298 -> allocator 0x80036860, best-fit free
+     list at 0x800D4E58 {addr,size} x n, count at +0x200). English at ~2.5x Japanese chars makes the largest
+     records ~0xCB00 (slots 241, 345, 16, 239, 361, 44). Dump the free list in a scene state and raise the
+     allocation (or move text out) before phase 6.
+  3. Menu text (EXE message bank, 1,838 entries; groups 0-11 ≈ 16 KB of real text, groups 12-21 are mostly
+     data that decodes): they live in the EXE data section behind self-relative u32 group tables, so English
+     (~40 KB) needs the strings relocated (heap/free space; the EXE cannot just grow into BSS) and the tables
+     repointed; then measure the menu field widths (docs/widths.md) and the choice box (probe style C0, stop
+     on op 7A).
+  4. D_BMESS battle messages: looks tractable — each message is `FC 01 4x <text> FE FF` (speaker/face +
+     text + page + end), reached from `FC 00 3F <u16 list relative to the list start> FF FF` lists inside
+     per-category bytecode (header = u16 category offsets). `python -X utf8 tools/bmess.py 2` maps lists,
+     messages and uncovered gaps for one record. Decode the category bytecode (`FC 7B ..` conditions), extract, insert with repointing.
+  5. Phase 6: batch translation. Before the first batch, review the rest of `tbl/jp.tbl` readings (below) and
      give translators docs/widths.md + the glossary.
 - **Open items (text, non-blocking):**
   - `tbl/jp.tbl` readings are still mostly template-match guesses. 17 look-alike misreads are fixed and 50 cells

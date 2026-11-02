@@ -298,7 +298,7 @@
  },
  {
   "id": "sce258:00BF0",
-  "jp": "ユミール「もしかしてわす‥‥{nl}{ctl:1E3E}{ctl:043C}fF{ctl:023E}{ctl:043C}gF　あっ、ト、トウヤ⁈」",
+  "jp": "ユミール「もしかしてわす‥‥{nl}{ctl:1E3E}{face:042006}{ctl:023E}{face:042106}　あっ、ト、トウヤ⁈」",
   "off": 3056,
   "len": 49,
   "en": "",
@@ -727,14 +727,14 @@
  },
  {
   "id": "sce258:013B1",
-  "jp": "セリカ「え‥‥{nl}{ctl:3C3E}{ctl:043C}",
+  "jp": "セリカ「え‥‥{nl}{ctl:3C3E}{face:04FF10}{ctl:013E}{face:04FF11}{ctl:023E}{face:04FF13}　そ、そう？」",
   "off": 5041,
-  "len": 19,
+  "len": 45,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 5043,
-  "text_len": 16
+  "text_len": 42
  },
  {
   "id": "sce258:013E1",
@@ -1332,7 +1332,7 @@
  },
  {
   "id": "sce258:01B3D",
-  "jp": "セリカ「ふふふふ‥‥やっぱり自信家だ。{nl}{ctl:3C3E}{ctl:843C}bC{ctl:023E}{ctl:843C}bB　でもそういうトウヤも‥‥」",
+  "jp": "セリカ「ふふふふ‥‥やっぱり自信家だ。{nl}{ctl:3C3E}{face:841C03}{ctl:023E}{face:841C02}　でもそういうトウヤも‥‥」",
   "off": 6973,
   "len": 60,
   "en": "",
@@ -2011,5 +2011,16 @@
   "style": 0,
   "text_off": 10650,
   "text_len": 13
+ },
+ {
+  "id": "sce258:029A9",
+  "jp": "E2ツAMもネちちぁAゥAR禄Fs　QぉやQンやAどAR「CFe　VSBE　AN　Q・ゆR禄FP　AくAR禄FP　QヘもQンやA9AR「CFe　VSBE　AN　Q・ゆR禄FP　AkAR禄FP　QこやQンやAVAQ）ゆR禄FU　QンやAGAR「CFN　VSfO　VSVJ　VSME　AN　Q・ゆR禄FS　Aヱ　R禄FS　Q槍QンやAュ　QぇやR禄FS　QンやAブ　R禄FZ　Q」ゆQンやAデ　R「CFV　VSfO　VSVJ　VSME　AN　Q・ゆR禄Fb　Aィ　R禄Fb　Q<185>QンやAや　R「CFY　VScE　AN　Q・ゆR禄Fa　Aな　VSNE　AN　Q・ゆR禄Fa　Aざ　R禄Fa　Q張QンやAぇ　R「CFB　VSOJ　VSiE　AQ　Q・ゆR禄FW　Q踵Aj　R禄FW　Q壁QンやAU　ぺ　や　ァd　ァ　パeCゅ",
+  "off": 10665,
+  "len": 386,
+  "en": "",
+  "status": "todo",
+  "style": 130,
+  "text_off": 10670,
+  "text_len": 380
  }
 ]

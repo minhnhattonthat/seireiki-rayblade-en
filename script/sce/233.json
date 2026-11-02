@@ -177,14 +177,14 @@
  },
  {
   "id": "sce233:00285",
-  "jp": "レオーネ「‥‥う、うん‥‥{nl}{ctl:3C3E}{ctl:843C}",
+  "jp": "レオーネ「‥‥う、うん‥‥{nl}{ctl:3C3E}{face:84FF10}{ctl:013E}{face:84FF11}{ctl:023E}{face:84FF15}　あのね、トウヤ。気づいてないかもしれないけど、{nl}{ctl:3C3E}{face:84FF11}{ctl:023E}{face:04FF12}　ボク‥‥トウヤのこと‥‥‥‥あ、あれ？」",
   "off": 645,
-  "len": 28,
+  "len": 116,
   "en": "",
   "status": "todo",
   "style": 0,
   "text_off": 647,
-  "text_len": 25
+  "text_len": 113
  },
  {
   "id": "sce233:0030D",

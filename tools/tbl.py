@@ -16,7 +16,7 @@ TOKEN = re.compile(r"\{(\w+)(?::([0-9A-Fa-f]*))?\}|\[([0-9A-Fa-f]{2})\]")
 
 class Table:
     def __init__(self, lines):
-        self.dec, self.ctrl, self.enc, self.ctrl_enc = {}, {}, {}, {}
+        self.dec, self.ctrl, self.enc, self.ctrl_enc, self.pats = {}, {}, {}, {}, []
         for n, line in enumerate(lines, 1):
             line = line.rstrip("\r\n")
             if not line or line.startswith("#"):
@@ -25,8 +25,16 @@ class Table:
             val = " " if val == r"\s" else val  # `00=\s` = space; editors and strip() eat a literal trailing space
             if not sep or not val:
                 raise ValueError(f"table line {n}: bad entry {line!r} (write a space value as {key}=\\s)")
-            code = bytes.fromhex(key)
             m = CTRL.match(val)
+            if "??" in key:
+                # `FC??3C={face:2}`: a control whose key has wildcard bytes; they print before the arg bytes
+                if not m:
+                    raise ValueError(f"table line {n}: a ?? key must be a control code")
+                pat = [None if key[i:i + 2] == "??" else int(key[i:i + 2], 16) for i in range(0, len(key), 2)]
+                self.pats.append((pat, m[1], int(m[2] or 0)))
+                self.ctrl_enc.setdefault(m[1], (pat, int(m[2] or 0)))
+                continue
+            code = bytes.fromhex(key)
             if m:
                 argc = int(m[2] or 0)
                 self.ctrl[code] = (m[1], argc)
@@ -48,6 +56,12 @@ class Table:
         while pos < stop:
             if length is None and pos - start >= maxlen:
                 raise ValueError(f"no {{end}} within {maxlen} bytes of {start:#x}")
+            hit = self._match_pat(data, pos, stop)
+            if hit:
+                name, args, n = hit
+                out.append(f"{{{name}:{args.hex().upper()}}}")
+                pos += n
+                continue
             for k in range(min(self.keylen, stop - pos), 0, -1):
                 code = bytes(data[pos:pos + k])
                 if code in self.ctrl:
@@ -69,6 +83,16 @@ class Table:
             raise ValueError(f"ran off end of data decoding from {start:#x}")
         return "".join(out), pos - start
 
+    def _match_pat(self, data, pos, stop):
+        """(name, wildcard bytes + arg bytes, length) of the ?? control at pos, or None."""
+        for pat, name, argc in self.pats:
+            n = len(pat) + argc
+            if pos + n > stop or any(b is not None and data[pos + i] != b for i, b in enumerate(pat)):
+                continue
+            wild = bytes(data[pos + i] for i, b in enumerate(pat) if b is None)
+            return name, wild + bytes(data[pos + len(pat):pos + n]), n
+        return None
+
     def encode(self, text: str) -> bytes:
         out, i = bytearray(), 0
         while i < len(text):
@@ -81,6 +105,14 @@ class Table:
                         raise ValueError(f"unknown control {{{m[1]}}} at {i} in {text!r}")
                     code, argc = self.ctrl_enc[m[1]]
                     args = bytes.fromhex(m[2] or "")
+                    if isinstance(code, list):          # ?? pattern: wildcards first, then the arg bytes
+                        nw = code.count(None)
+                        if len(args) != nw + argc:
+                            raise ValueError(f"{{{m[1]}}} needs {nw + argc} bytes at {i} in {text!r}")
+                        w = iter(args[:nw])
+                        out += bytes(next(w) if b is None else b for b in code) + args[nw:]
+                        i = m.end()
+                        continue
                     if len(args) != argc:
                         raise ValueError(f"{{{m[1]}}} needs {argc} arg bytes at {i} in {text!r}")
                     out += code + args
@@ -104,4 +136,8 @@ if __name__ == "__main__":
     assert t.encode(text) == data
     s = Table(["00=\\s", "20=A"])
     assert s.decode(b"\x20\x00\x20", length=3)[0] == "A A" and s.encode("A A") == b"\x20\x00\x20"
+    p = Table(["20=A", "FC={ctl:2}", "FC??3C={face:2}", "FF={end}"])
+    raw = b"\xfc\x04\x3c\xff\x10\x20\xfc\x3c\x3e\xff"
+    assert p.decode(raw)[0] == "{face:04FF10}A{ctl:3C3E}{end}", p.decode(raw)
+    assert p.encode(p.decode(raw)[0]) == raw
     print("selftest ok")
