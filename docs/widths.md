@@ -22,6 +22,21 @@ right edge is x≈308; 30 glyphs × 8 px = 240 px, so a 30-char line ends 8–10
 measured on `work/qa/probe1/story_S01/final.png`: line 1 x=52..302, line 3 ends at x=299 with the page arrow
 after it.
 
+## Menu geometry measured from shots (provisional, EXE-bank text is not insertable yet)
+
+These come from the window pixels in existing shots, not from a probe build, because those strings live in the
+EXE message bank and cannot be re-inserted until they are relocated (docs/status.md, next step 2). Read them as
+"how much room the window leaves", then confirm with a probe once bank insertion exists.
+
+| Field | Shot | Room (px) | Chars at 8 px |
+|---|---|---|---|
+| Battle unit command list (移動/信頼/能力) rows | `work/qa/marker_all/battle_unit_menu.png` | x 258..316 | **6** |
+| Battle status panel rows (name, LV/EXP, HP/VP) | same | x 60..240 | **22** total, name field ~11 |
+| Dialogue box interior | `work/qa/probe1/story_S01/final.png` | x 50..308 | 32 (engine stops at 30) |
+
+Menu strings also redraw in more than one window (a character name shows in the status panel, the sortie list and
+battle), so the *smallest* of those rooms is the budget — 11 characters for a name until measured per screen.
+
 ## Rules that follow
 - Write to **30 characters per line**, **3 lines per page**, and let the engine break lines: a line of 30 or
   fewer characters never needs a `{nl}`. Put `{nl}` only where the break must be semantic (a name tag, a dash
