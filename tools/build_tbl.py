@@ -62,7 +62,7 @@ def main():
         out.append(f"{code_bytes(c).hex().upper()}={v}")
     out += CONTROLS
     (ROOT / "tbl").mkdir(exist_ok=True)
-    (ROOT / "tbl/jp.tbl").write_text("\n".join(out) + "\n", encoding="utf-8")
+    (ROOT / "tbl/jp.tbl").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print("tbl/jp.tbl", len(out) - 1, "entries")
 
 
