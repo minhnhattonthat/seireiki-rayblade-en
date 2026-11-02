@@ -23,6 +23,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import arc  # noqa: E402
+import bmess  # noqa: E402
 import font_en  # noqa: E402
 import patch  # noqa: E402
 import vm  # noqa: E402
@@ -87,6 +88,67 @@ def sce_edits(marker=False, width=30, slots=None, override=None):
         if edits:
             out[slot] = edits
     return out
+
+
+# D_BMESS (tools/bmess.py): the battle loader (0x80069980) allocates a 0x200-byte output buffer for the four
+# messages the preprocessor 0x800337F0 copies back to back, then one 0xC000 block holding up to four records at
+# 0x3000 strides. English needs more of both: stride 0x3FF8 (2x the stride must still fit addiu's +0x7FFF),
+# block 4x that, output 0x800. Every immediate is checked against its original before it is rewritten.
+BM_STRIDE = 0x3FF8
+BM_OUT = (0x80069980, 0x200, 0x800)
+BM_BLOCK = 0x80069984
+BM_OFFSETS = [0x80069A14, 0x80069A64, 0x80069ABC, 0x80069BE4, 0x80069C50, 0x80069C88, 0x80069CEC]
+
+
+def bm_marker(e, width=30):
+    """`[SSOOOO] filler` in the unit's first text run (slot, offset), control codes kept, other runs dropped."""
+    out, first = [], True
+    for part in RUN.split(e["jp"]):
+        if part.startswith("{"):
+            out.append(part)
+        elif part and first:
+            head = f"[{e['slot']:02X}{e['text_off']:04X}] "
+            out.append((head + FILLER * (width // len(FILLER) + 1))[:max(width, len(head))])
+            first = False
+    return "".join(out)
+
+
+def bmess_records(marker=False, width=30, override=None, report=None):
+    """{slot: rebuilt D_BMESS record} for the records that have text to insert."""
+    override, edits = override or {}, {}
+    for e in load("bmess.json"):
+        text = override.get(e["id"]) or e["en"] or (bm_marker(e, width) if marker else "")
+        if text:
+            edits.setdefault(e["slot"], {})[e["text_off"]] = EN.encode(text)
+    recs = dict(bmess.records())
+    out = {}
+    for slot, ed in edits.items():
+        try:
+            out[slot] = bmess.rebuild(recs[slot], ed, BM_STRIDE)
+        except ValueError as ex:
+            raise SystemExit(f"D_BMESS slot {slot}: {ex}")
+    if report is not None and out:
+        report.append(f"D_BMESS: {len(out)} records rebuilt, largest {max(map(len, out.values())):#x}")
+    return out
+
+
+def bmess_exe(exe):
+    """Raise the battle-message buffers (see BM_STRIDE) in the EXE."""
+    rd = lambda a: int.from_bytes(exe.orig[xo(a):xo(a) + 4], "little")  # noqa: E731
+    put = lambda a, ins, why: exe(exe.buf, xo(a), ins.to_bytes(4, "little"), why)  # noqa: E731
+    a, old, new = BM_OUT
+    if rd(a) != mips("addiu", 4, 0, old):
+        raise SystemExit(f"EXE: expected the battle-message output alloc at {a:#x}")
+    put(a, mips("addiu", 4, 0, new), f"battle message output {old:#x} -> {new:#x}")
+    if rd(BM_BLOCK) != mips("ori", 4, 0, 0xC000):
+        raise SystemExit(f"EXE: expected the D_BMESS block alloc at {BM_BLOCK:#x}")
+    put(BM_BLOCK, mips("ori", 4, 0, 4 * BM_STRIDE), f"D_BMESS block 0xC000 -> {4 * BM_STRIDE:#x}")
+    for a in BM_OFFSETS:
+        w = rd(a)
+        k = (w & 0xFFFF) // 0x3000
+        if w & 0xFFFF not in (0x3000, 0x6000, 0x9000) or w >> 26 not in (0x09, 0x0D):
+            raise SystemExit(f"EXE: expected a D_BMESS stride immediate at {a:#x}")
+        put(a, (w & 0xFFFF0000) | k * BM_STRIDE, f"D_BMESS record {k} at +{k * BM_STRIDE:#x}")
 
 
 def sce_records(edits, report):
@@ -271,9 +333,10 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
     edits = sce_edits(marker, width, slots, override)
     recs = sce_records(edits, report) if edits else {}
     exe = Put((TREE / EXE_NAME).read_bytes())
+    bm = bmess_records(marker, width, override, report)
     for name in ARCHIVES:
         data = (TREE / name).read_bytes()
-        new = arc.pack(data, recs if name == "D_SCE.BIN" else {})
+        new = arc.pack(data, {"D_SCE.BIN": recs, "D_BMESS.BIN": bm}.get(name, {}))
         if new != data:
             files[name] = new
         # The EXE holds its own copy of each archive's slot table (D_SCE at 0x9D5FC, D_BMESS at 0x9DCFC,
@@ -291,6 +354,8 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
         if exe.orig[off:off + 4] != old_ins:
             raise SystemExit(f"EXE: expected the script-buffer alloc at {off:#x}")
         exe(exe.buf, off, new_ins, "script buffer 0x8000 -> 0xFFF0")
+    if bm:
+        bmess_exe(exe)
     bank = bank_edits(marker, override)
     if bank:
         bank_patch(exe, bank, report)

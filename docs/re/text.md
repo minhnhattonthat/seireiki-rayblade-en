@@ -97,10 +97,18 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
 - **EXE inline strings** (debug menu ロード/セーブ/Mロード/Mセーブ/全体PUT/全体更新, P: R: W: A:, Yamato hints):
   FF-terminated runs with no pointer table. Only quote-delimited ones are extracted (status `candidate`); the rest
   are left for the marker build, because runs of the EXE's kana/font order tables also decode as text.
-- **D_BMESS** battle messages: 128 records, each starting with `28 00`-style header + 12 self-relative u16
-  category pointers, then a bytecode with `FC 30..37` conditional jumps. The strings are *not* plain text at the
-  pointer targets (the bytes decode as control codes + u16 ids), so this needs its own decoder — not extracted yet;
-  battle text is out of scope for the first pass (marker build will show what is missing).
+- **D_BMESS** battle messages — verified 2026-11-03, extracted (`script/bmess.json`, 5,473 units) and inserted
+  (`tools/bmess.py`, grammar in its docstring). Loader 0x80069980: alloc(0x200) = output buffer, alloc(0xC000)
+  = one block for up to four records at +0/0x3000/0x6000/0x9000 (file id 9, descriptor table 0x800A6808); each
+  record goes through the preprocessor 0x800337F0(idx, record, out) which picks a category from the header
+  (12 self-relative u16 + two FFFF-terminated 3-byte {u16 off, u8 character} lists) and copies ONE message
+  (random pick via `FC a 3F` lists, flag tests `FC lo 3x hi` with a u16 target) to `out` until FF; the four
+  outputs are chained at 0x800CDFF0..0x800CE000. Every offset is a u16 added to its own address. The walk
+  reaches all 201,351 non-padding bytes (dead messages are seeded after each FF); slot 113 has one list with a
+  jump op embedded before its entries (the game would read garbage there; kept as is).
+  Insertion raises the stride to 0x3FF8 (block 0xFFE0) and the output buffer to 0x800 (`insert.bmess_exe`).
+  Verified by a RAM dump during the first battle: the out buffer holds the marker lines of slot 0x47's units.
+  The first battle shows no quip box, so the battle-message box width is still unmeasured.
 - **D_SYSTEM** holds character/unit/weapon name tables (トウヤ x41) — not extracted yet.
 - D_SCE slot 447: 63 text blocks (names/terms list); slot 2 is the chapter dispatcher + dev chapter-select menu.
 - Graphics text: see graphics.md.

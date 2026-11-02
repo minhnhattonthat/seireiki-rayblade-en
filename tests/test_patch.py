@@ -152,6 +152,21 @@ def test_bank_relocation_resolves_every_entry():
     assert init[0] == f"jal {insert.BANK_AT:#x}" and top <= heap < 0x800F0000
 
 
+@needs_disc
+def test_bmess_rebuild_identity_and_growth():
+    """D_BMESS: no edits = same bytes; every unit grown keeps the walk (same units, same field targets)."""
+    import bmess
+    for slot, r in bmess.records():
+        assert bmess.rebuild(r, {}) == r, slot
+        units = bmess.texts(r)
+        new = bmess.rebuild(r, {s: b"\x41" * (e - s + 7) for s, e in units}, 0x10000)
+        nu = bmess.texts(new)
+        assert len(nu) == len(units), slot
+        assert all(e - s == ou[1] - ou[0] + 7 for (s, e), ou in zip(nu, units)), slot
+        ins = bmess.walk(new)[0]
+        assert sum(k == "end" for k, _ in ins.values()) == sum(k == "end" for k, _ in bmess.walk(r)[0].values())
+
+
 def test_canary_needs_no_missing_glyph():
     for ch in font_en.CANARY:
         assert ch in font_en.GLYPHS.values() or ch in font_en.EXISTING or ch in font_en.LATIN, ch

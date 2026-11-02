@@ -9,6 +9,7 @@ Sources (docs/re/text.md):
   exe_bank   the EXE message bank: 22 groups, each a table of self-relative u32 pointers to strings
              (group id << 8 | index is the id the code passes to the reader).
   exe_inline FF-terminated strings in the EXE data section that no bank entry points at.
+  bmess      D_BMESS battle messages (tools/bmess.py): one entry per text unit, id bm<slot>:<offset>.
 
 Each entry: id, jp (decoded), en (empty until translated), off/len (source bytes), status.
 The extract never clobbers work: `dump` writes only missing files unless --force, and with --force it
@@ -23,6 +24,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import bmess  # noqa: E402
 import vm  # noqa: E402
 import patch  # noqa: E402
 from tbl import Table  # noqa: E402
@@ -202,6 +204,25 @@ def exe_vm_entries():
     return out
 
 
+_BM = {}
+
+
+def bmess_records():
+    if not _BM:
+        _BM.update(bmess.records())
+    return _BM
+
+
+def bmess_entries():
+    """Battle messages: every text unit of every D_BMESS record (speaker control + name + 「line」 + page)."""
+    out = []
+    for slot, rec in bmess_records().items():
+        for s, e in bmess.texts(rec):
+            out.append({"id": f"bm{slot:03d}:{s:04X}", "jp": T.decode(rec, s, e - s)[0], "slot": slot,
+                        "text_off": s, "text_len": e - s, "en": "", "status": "todo"})
+    return out
+
+
 def load(path):
     return json.loads((SCRIPT / path).read_text(encoding="utf-8"))
 
@@ -235,7 +256,8 @@ def dump(force=False):
     for name, entries in (("resident.json", resident_entries()),
                           ("exe_bank.json", bank),
                           ("exe_inline.json", inline_entries(bank)),
-                          ("exe_vm.json", exe_vm_entries())):
+                          ("exe_vm.json", exe_vm_entries()),
+                          ("bmess.json", bmess_entries())):
         p = SCRIPT / name
         if p.exists() and not force:
             continue
@@ -248,7 +270,7 @@ def dump(force=False):
 def all_entries():
     for p in sorted((SCRIPT / "sce").glob("*.json")):
         yield p, json.loads(p.read_text(encoding="utf-8"))
-    for name in ("resident.json", "exe_bank.json", "exe_inline.json", "exe_vm.json"):
+    for name in ("resident.json", "exe_bank.json", "exe_inline.json", "exe_vm.json", "bmess.json"):
         p = SCRIPT / name
         if p.exists():
             yield p, json.loads(p.read_text(encoding="utf-8"))
@@ -259,6 +281,9 @@ def source_bytes(e):
     if e["id"].startswith("sce"):
         slot = int(e["id"][3:6])
         rec = _sce()[slot]
+        return rec[e["text_off"]:e["text_off"] + e["text_len"]]
+    if e["id"].startswith("bm"):
+        rec = bmess_records()[e["slot"]]
         return rec[e["text_off"]:e["text_off"] + e["text_len"]]
     if "text_addr" in e:
         return EXE[exe_off(e["text_addr"]):exe_off(e["text_addr"]) + e["text_len"]]
@@ -297,6 +322,7 @@ def check():
         for e in entries:
             if e["id"] not in ids:
                 missing.append(e["id"])
+    missing += [e["id"] for e in bmess_entries() if e["id"] not in ids]
     print(f"{total} strings, {len(bad)} roundtrip errors, {len(missing)} uncovered")
     for b in bad[:10]:
         print("  !", *b)
