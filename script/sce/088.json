@@ -1,0 +1,156 @@
+[
+ {
+  "id": "sce088:0007D",
+  "jp": "セリカ「あっ、トウヤ」",
+  "off": 125,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 127,
+  "text_len": 11
+ },
+ {
+  "id": "sce088:0008E",
+  "jp": "トウヤ「なにやってんだ？」",
+  "off": 142,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 144,
+  "text_len": 14
+ },
+ {
+  "id": "sce088:000A2",
+  "jp": "セリカ「管制システムの調整よ。{nl}　ほとんど運揖試験もせずにいきなり{nl}　実戦だったから、細かい部分とか{nl}　まだ不具合があるの」",
+  "off": 162,
+  "len": 81,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 164,
+  "text_len": 78
+ },
+ {
+  "id": "sce088:000F6",
+  "jp": "トウヤ「それをお前一人で置してるのか？」",
+  "off": 246,
+  "len": 28,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 248,
+  "text_len": 25
+ },
+ {
+  "id": "sce088:00115",
+  "jp": "セリカ「星#5D6確には私とユミールで、かな。{nl}　専門がそれぞれ違うから、うまく分担できて{nl}　結構、効率よく廻ってるの」",
+  "off": 277,
+  "len": 73,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 279,
+  "text_len": 70
+ },
+ {
+  "id": "sce088:00161",
+  "jp": "トウヤ「それでも大変だろ？」",
+  "off": 353,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 355,
+  "text_len": 17
+ },
+ {
+  "id": "sce088:00178",
+  "jp": "セリカ「う～ん、でも好きでやってることだし、{nl}　別に辛いとか思ったことないわ」",
+  "off": 376,
+  "len": 47,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 378,
+  "text_len": 44
+ },
+ {
+  "id": "sce088:001AA",
+  "jp": "トウヤ「そうか」",
+  "off": 426,
+  "len": 11,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 428,
+  "text_len": 8
+ },
+ {
+  "id": "sce088:001B8",
+  "jp": "セリカ「まっ、そういうワケだから、心配は無揖よ」",
+  "off": 440,
+  "len": 31,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 442,
+  "text_len": 28
+ },
+ {
+  "id": "sce088:001DA",
+  "jp": "トウヤ「わかった。それじゃ、無理はすんなよ」",
+  "off": 474,
+  "len": 27,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 476,
+  "text_len": 24
+ },
+ {
+  "id": "sce088:001FE",
+  "jp": "セリカ「りょーかい」",
+  "off": 510,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 512,
+  "text_len": 11
+ },
+ {
+  "id": "sce088:0021D",
+  "jp": "セリカ「あれ？　どうしたの？　あーっ、もしかして、{nl}　私の新装置#674の実験の被験者になってくれるの？」",
+  "off": 541,
+  "len": 65,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 543,
+  "text_len": 62
+ },
+ {
+  "id": "sce088:00261",
+  "jp": "トウヤ「‥‥さて、それじゃ、行くか」",
+  "off": 609,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 611,
+  "text_len": 21
+ },
+ {
+  "id": "sce088:0027C",
+  "jp": "セリカ「あっ、ちょっと！　ねぇ！」",
+  "off": 636,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 638,
+  "text_len": 19
+ }
+]

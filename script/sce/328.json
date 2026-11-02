@@ -1,0 +1,68 @@
+[
+ {
+  "id": "sce328:00384",
+  "jp": "フェイン「おっ！　訓練をする気になったか？{nl}　そうか、よし、それじゃ早速、これを‥‥」",
+  "off": 900,
+  "len": 55,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 902,
+  "text_len": 52
+ },
+ {
+  "id": "sce328:003BE",
+  "jp": "トウヤ「いや、別にそういうつもりじゃ‥‥」",
+  "off": 958,
+  "len": 27,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 960,
+  "text_len": 24
+ },
+ {
+  "id": "sce328:003DC",
+  "jp": "フェイン「いいからいいから！　ほら、そこに座ってみろ！」",
+  "off": 988,
+  "len": 34,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 990,
+  "text_len": 31
+ },
+ {
+  "id": "sce328:00401",
+  "jp": "トウヤ「あ、ああ‥‥」",
+  "off": 1025,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1027,
+  "text_len": 13
+ },
+ {
+  "id": "sce328:00413",
+  "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
+  "off": 1043,
+  "len": 356,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1045,
+  "text_len": 353
+ },
+ {
+  "id": "sce328:00579",
+  "jp": "　フェインの特訓メニューを梢化した。{nl}　普通の人間がする量ではなかった‥‥",
+  "off": 1401,
+  "len": 52,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1403,
+  "text_len": 49
+ }
+]

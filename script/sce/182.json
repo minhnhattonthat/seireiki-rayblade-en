@@ -1,0 +1,178 @@
+[
+ {
+  "id": "sce182:000D7",
+  "jp": "シエル「お父さま！」",
+  "off": 215,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 219,
+  "text_len": 12
+ },
+ {
+  "id": "sce182:000E8",
+  "jp": "ガリュード「おお、そっちも無事だったか」",
+  "off": 232,
+  "len": 28,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 236,
+  "text_len": 23
+ },
+ {
+  "id": "sce182:00104",
+  "jp": "トウヤ「‥‥みんな、無事のようだな」",
+  "off": 260,
+  "len": 27,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 264,
+  "text_len": 22
+ },
+ {
+  "id": "sce182:0011F",
+  "jp": "Aヤマト「ね、トウヤ、あれ‥‥」",
+  "off": 287,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 291,
+  "text_len": 18
+ },
+ {
+  "id": "sce182:00146",
+  "jp": "ヤマト「オルベスト‥いったい誰が乗っているの？{nl}　あっ！　まさか‥‥カスミ⁈」",
+  "off": 326,
+  "len": 50,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 328,
+  "text_len": 47
+ },
+ {
+  "id": "sce182:00178",
+  "jp": "カスミ「‥‥」",
+  "off": 376,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 380,
+  "text_len": 9
+ },
+ {
+  "id": "sce182:00186",
+  "jp": "トウヤ「え⁈　おい、カスミ！　お前なのか⁉」",
+  "off": 390,
+  "len": 31,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 394,
+  "text_len": 26
+ },
+ {
+  "id": "sce182:001A5",
+  "jp": "カスミ「‥‥」",
+  "off": 421,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 425,
+  "text_len": 9
+ },
+ {
+  "id": "sce182:001B3",
+  "jp": "トウヤ「おい、どうした？　なにがあったんだ⁈」",
+  "off": 435,
+  "len": 30,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 439,
+  "text_len": 25
+ },
+ {
+  "id": "sce182:001D1",
+  "jp": "アーサー「実は‥‥ジグリム軍の指揮官が{nl}　城#946に突撃をかけ、それをカスミが阻止#4FDしたのですが‥‥」",
+  "off": 465,
+  "len": 68,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 469,
+  "text_len": 63
+ },
+ {
+  "id": "sce182:00215",
+  "jp": "フェイン「指揮官⁈　もしかして、{nl}　あのグラード様ですか⁉」",
+  "off": 533,
+  "len": 42,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 537,
+  "text_len": 37
+ },
+ {
+  "id": "sce182:0023F",
+  "jp": "アーサー「ええ。彼女の攻撃でグリオールは爆発しました」",
+  "off": 575,
+  "len": 41,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 579,
+  "text_len": 36
+ },
+ {
+  "id": "sce182:00268",
+  "jp": "トウヤ「え？　死んだ‥‥のか？」",
+  "off": 616,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 620,
+  "text_len": 21
+ },
+ {
+  "id": "sce182:00282",
+  "jp": "クロビス「わからん。だがあの爆発だ。{nl}　生きているほうがおかしいだろう」",
+  "off": 642,
+  "len": 44,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 646,
+  "text_len": 39
+ },
+ {
+  "id": "sce182:002AE",
+  "jp": "アーサー「彼女にはショックが大きかったようです‥‥」",
+  "off": 686,
+  "len": 38,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 690,
+  "text_len": 33
+ },
+ {
+  "id": "sce182:002D4",
+  "jp": "トウヤ「カスミ‥‥」",
+  "off": 724,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 728,
+  "text_len": 12
+ }
+]

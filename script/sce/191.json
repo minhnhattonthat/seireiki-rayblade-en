@@ -1,0 +1,79 @@
+[
+ {
+  "id": "sce191:000AE",
+  "jp": "オーレリィ「‥‥」",
+  "off": 174,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 176,
+  "text_len": 12
+ },
+ {
+  "id": "sce191:000C0",
+  "jp": "トウヤ「よっ」",
+  "off": 192,
+  "len": 10,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 194,
+  "text_len": 7
+ },
+ {
+  "id": "sce191:000DF",
+  "jp": "オーレリィ「あ、ああ‥‥なにか揖？」",
+  "off": 223,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 225,
+  "text_len": 23
+ },
+ {
+  "id": "sce191:000FC",
+  "jp": "トウヤ「え？　いや、これといっては別に‥‥」",
+  "off": 252,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 254,
+  "text_len": 26
+ },
+ {
+  "id": "sce191:00120",
+  "jp": "オーレリィ「‥‥そっ。じゃ」",
+  "off": 288,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 290,
+  "text_len": 17
+ },
+ {
+  "id": "sce191:0013B",
+  "jp": "ヤマト「あっ‥‥行っちゃった‥‥」",
+  "off": 315,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 317,
+  "text_len": 22
+ },
+ {
+  "id": "sce191:00157",
+  "jp": "トウヤ「‥‥」",
+  "off": 343,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 345,
+  "text_len": 9
+ }
+]

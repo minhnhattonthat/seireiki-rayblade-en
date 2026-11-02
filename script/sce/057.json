@@ -1,0 +1,46 @@
+[
+ {
+  "id": "sce057:0011E",
+  "jp": "シュテイニーズ「‥‥いたぁ‥‥」",
+  "off": 286,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 290,
+  "text_len": 21
+ },
+ {
+  "id": "sce057:0015D",
+  "jp": "シュテイニーズ「‥‥ちっ！」",
+  "off": 349,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 353,
+  "text_len": 18
+ },
+ {
+  "id": "sce057:00182",
+  "jp": "Aヤマト「あっ‥‥」",
+  "off": 386,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 2,
+  "text_off": 390,
+  "text_len": 12
+ },
+ {
+  "id": "sce057:00193",
+  "jp": "トウヤ「逃げたか‥‥」",
+  "off": 403,
+  "len": 19,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 407,
+  "text_len": 14
+ }
+]

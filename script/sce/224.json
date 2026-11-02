@@ -1,0 +1,112 @@
+[
+ {
+  "id": "sce224:00031",
+  "jp": "ヤマト「ねぇトウヤ。そろそろブリッジへ行かニャい？{nl}　ここにいても仕方ニャいし」",
+  "off": 49,
+  "len": 47,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 51,
+  "text_len": 44
+ },
+ {
+  "id": "sce224:00063",
+  "jp": "トウヤ「ああ、それもそうだな‥‥よし」",
+  "off": 99,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 101,
+  "text_len": 21
+ },
+ {
+  "id": "sce224:000A2",
+  "jp": "ヤマト「‥‥あっ」",
+  "off": 162,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 164,
+  "text_len": 11
+ },
+ {
+  "id": "sce224:000B3",
+  "jp": "トウヤ「どうした？」",
+  "off": 179,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 181,
+  "text_len": 11
+ },
+ {
+  "id": "sce224:000C4",
+  "jp": "ヤマト「あれ‥‥アイじゃニャい？」",
+  "off": 196,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 198,
+  "text_len": 20
+ },
+ {
+  "id": "sce224:000DE",
+  "jp": "トウヤ「ん？　本当だ。ユミールと話しているみたいだな」",
+  "off": 222,
+  "len": 35,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 224,
+  "text_len": 32
+ },
+ {
+  "id": "sce224:00104",
+  "jp": "アイ「‥‥でね、その時さ‥‥」",
+  "off": 260,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 262,
+  "text_len": 20
+ },
+ {
+  "id": "sce224:0011E",
+  "jp": "ユミール「‥‥そう。すごいわね‥‥」",
+  "off": 286,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 288,
+  "text_len": 23
+ },
+ {
+  "id": "sce224:0013B",
+  "jp": "ヤマト「アイ、元気にニャったみたいだね」",
+  "off": 315,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 317,
+  "text_len": 22
+ },
+ {
+  "id": "sce224:00157",
+  "jp": "トウヤ「ああ」",
+  "off": 343,
+  "len": 10,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 345,
+  "text_len": 7
+ }
+]

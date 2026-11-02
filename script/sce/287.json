@@ -1,0 +1,90 @@
+[
+ {
+  "id": "sce287:000BA",
+  "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
+  "off": 186,
+  "len": 362,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 188,
+  "text_len": 359
+ },
+ {
+  "id": "sce287:00227",
+  "jp": "トウヤ「本当にいるのか？」",
+  "off": 551,
+  "len": 19,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 553,
+  "text_len": 16
+ },
+ {
+  "id": "sce287:0023D",
+  "jp": "ヤマト「うん。たしかに反応はあるよ」",
+  "off": 573,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 575,
+  "text_len": 20
+ },
+ {
+  "id": "sce287:00257",
+  "jp": "トウヤ「とりあえず、後にするか‥‥」",
+  "off": 599,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 601,
+  "text_len": 21
+ },
+ {
+  "id": "sce287:00272",
+  "jp": "ヤマト「そうね」",
+  "off": 626,
+  "len": 11,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 628,
+  "text_len": 8
+ },
+ {
+  "id": "sce287:0028D",
+  "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
+  "off": 653,
+  "len": 362,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 655,
+  "text_len": 359
+ },
+ {
+  "id": "sce287:003FA",
+  "jp": "ヤマト「‥‥やっぱりダメね」",
+  "off": 1018,
+  "len": 19,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1020,
+  "text_len": 16
+ },
+ {
+  "id": "sce287:00410",
+  "jp": "トウヤ「‥‥」",
+  "off": 1040,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1042,
+  "text_len": 9
+ }
+]

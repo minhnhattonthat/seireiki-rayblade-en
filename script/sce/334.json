@@ -1,0 +1,233 @@
+[
+ {
+  "id": "sce334:00376",
+  "jp": "アーサー「おや、トウヤじゃないですか。{nl}　どうかしましたか？」",
+  "off": 886,
+  "len": 37,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 888,
+  "text_len": 34
+ },
+ {
+  "id": "sce334:003A3",
+  "jp": "トウヤ「ああ。ちょっと質戻#7EAがあってな」",
+  "off": 931,
+  "len": 24,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 933,
+  "text_len": 21
+ },
+ {
+  "id": "sce334:003C4",
+  "jp": "アーサー「なんでしょう？　私に答えられることなら{nl}　いいのですが‥‥」",
+  "off": 964,
+  "len": 45,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 966,
+  "text_len": 42
+ },
+ {
+  "id": "sce334:003F4",
+  "jp": "トウヤ「読薯のことだよ」",
+  "off": 1012,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1014,
+  "text_len": 14
+ },
+ {
+  "id": "sce334:00408",
+  "jp": "アーサー「？」",
+  "off": 1032,
+  "len": 13,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1034,
+  "text_len": 10
+ },
+ {
+  "id": "sce334:00418",
+  "jp": "トウヤ「この前に来たときも本を読んでたろ？{nl}　そんなに楽しいかなぁ‥‥って思ってな」",
+  "off": 1048,
+  "len": 54,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1050,
+  "text_len": 51
+ },
+ {
+  "id": "sce334:00451",
+  "jp": "アーサー「‥‥」",
+  "off": 1105,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1107,
+  "text_len": 12
+ },
+ {
+  "id": "sce334:00463",
+  "jp": "トウヤ「‥‥？」",
+  "off": 1123,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1125,
+  "text_len": 11
+ },
+ {
+  "id": "sce334:00474",
+  "jp": "アーサー「なんと‥‥本は先人達の知恵#95Eの峯庫。{nl}　人類の峯ともいえるものです。{nl}　そもそも、人が言葉ではなく、文字というものを{nl}　会得したその瞬間からそのことは必然の出来事として{nl}　人類の偉大なる功績のひとつとして{nl}　歩み始めたのです‥‥たとえばですね‥‥」",
+  "off": 1140,
+  "len": 172,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1142,
+  "text_len": 169
+ },
+ {
+  "id": "sce334:00523",
+  "jp": "ヤマト「ニャ、ニャんかこのはニャし、{nl}　すごくニャがそうニャ気が‥‥」",
+  "off": 1315,
+  "len": 41,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1317,
+  "text_len": 38
+ },
+ {
+  "id": "sce334:0054F",
+  "jp": "　黙って聞く{nl}　断#66Cる",
+  "off": 1359,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 128,
+  "text_off": 1361,
+  "text_len": 13
+ },
+ {
+  "id": "sce334:00567",
+  "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
+  "off": 1383,
+  "len": 356,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1385,
+  "text_len": 353
+ },
+ {
+  "id": "sce334:006CD",
+  "jp": "　アーサーの長話を聞いた。{nl}　‥‥疲れた。",
+  "off": 1741,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1743,
+  "text_len": 29
+ },
+ {
+  "id": "sce334:00704",
+  "jp": "アーサー「‥‥え？　そ、そうですか？　残念ですね‥‥」",
+  "off": 1796,
+  "len": 40,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1798,
+  "text_len": 37
+ },
+ {
+  "id": "sce334:0072F",
+  "jp": "トウヤ「また今度な。それじゃ！」",
+  "off": 1839,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1841,
+  "text_len": 19
+ },
+ {
+  "id": "sce334:00756",
+  "jp": "トウヤ「いや、その‥‥」",
+  "off": 1878,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1880,
+  "text_len": 14
+ },
+ {
+  "id": "sce334:00770",
+  "jp": "アーサー「ふふふ‥‥そうですか、やはり私の話を{nl}　聞きたい、ということですね。{nl}　わかりました。ではそこに座ってください」",
+  "off": 1904,
+  "len": 72,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1906,
+  "text_len": 69
+ },
+ {
+  "id": "sce334:007BB",
+  "jp": "トウヤ「あ、ああ‥‥」",
+  "off": 1979,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1981,
+  "text_len": 13
+ },
+ {
+  "id": "sce334:007CE",
+  "jp": "アーサー「えー、どこまで話したかわかりませんから、{nl}　また最初から話しますね‥‥」",
+  "off": 1998,
+  "len": 53,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 2000,
+  "text_len": 50
+ },
+ {
+  "id": "sce334:00805",
+  "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
+  "off": 2053,
+  "len": 356,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 2055,
+  "text_len": 353
+ },
+ {
+  "id": "sce334:0096B",
+  "jp": "　アーサーの長話を聞いた。{nl}　‥‥かなり疲労した。",
+  "off": 2411,
+  "len": 37,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 2413,
+  "text_len": 34
+ }
+]

@@ -1,0 +1,167 @@
+[
+ {
+  "id": "sce318:00066",
+  "jp": "トウヤ「よっ」",
+  "off": 102,
+  "len": 10,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 104,
+  "text_len": 7
+ },
+ {
+  "id": "sce318:0007B",
+  "jp": "セリカ「ああ、トウヤ。どうしたの？」",
+  "off": 123,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 125,
+  "text_len": 19
+ },
+ {
+  "id": "sce318:0009A",
+  "jp": "トウヤ「ん？　まぁ、別にこれといって揖はねぇけど」",
+  "off": 154,
+  "len": 31,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 156,
+  "text_len": 28
+ },
+ {
+  "id": "sce318:000C4",
+  "jp": "セリカ「ふぅ～ん。それじゃ、私の代わりにこの席を温める{nl}　任務を与えます」",
+  "off": 196,
+  "len": 48,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 198,
+  "text_len": 45
+ },
+ {
+  "id": "sce318:000F7",
+  "jp": "トウヤ「はぁ？」",
+  "off": 247,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 249,
+  "text_len": 9
+ },
+ {
+  "id": "sce318:00118",
+  "jp": "セリカ「暇なんでしょ？」",
+  "off": 280,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 282,
+  "text_len": 14
+ },
+ {
+  "id": "sce318:0012C",
+  "jp": "トウヤ「それほどまでに暇じゃねぇよ。それじゃあな！」",
+  "off": 300,
+  "len": 31,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 302,
+  "text_len": 28
+ },
+ {
+  "id": "sce318:00152",
+  "jp": "セリカ「あっ‥‥」",
+  "off": 338,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 340,
+  "text_len": 11
+ },
+ {
+  "id": "sce318:00166",
+  "jp": "セリカ「新しい出会いをもとめて放浪中とか？」",
+  "off": 358,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 360,
+  "text_len": 29
+ },
+ {
+  "id": "sce318:00189",
+  "jp": "トウヤ「んなわけねぇーだろ」",
+  "off": 393,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 395,
+  "text_len": 15
+ },
+ {
+  "id": "sce318:001A9",
+  "jp": "セリカ「そうよね。トウヤって、どっちかというと自分から{nl}　積極的に恋を求める感じじゃないものね」",
+  "off": 425,
+  "len": 59,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 427,
+  "text_len": 56
+ },
+ {
+  "id": "sce318:001E7",
+  "jp": "トウヤ「じゃ、どう見えるんだ？」",
+  "off": 487,
+  "len": 21,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 489,
+  "text_len": 18
+ },
+ {
+  "id": "sce318:00203",
+  "jp": "セリカ「う～ん、自分では特に気してない行動が{nl}　相手の心を動かして、いつのまにかうまくいく、{nl}{ctl:783E}{ctl:043C}bE　かな？」",
+  "off": 515,
+  "len": 75,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 517,
+  "text_len": 72
+ },
+ {
+  "id": "sce318:00251",
+  "jp": "トウヤ「そんなに都合のいいことあるかよ」",
+  "off": 593,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 595,
+  "text_len": 22
+ },
+ {
+  "id": "sce318:00278",
+  "jp": "セリカ「まっ、そのうち分かるわよ。{nl}　さて、それじゃ、私そろそろ行くね」",
+  "off": 632,
+  "len": 42,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 634,
+  "text_len": 39
+ }
+]

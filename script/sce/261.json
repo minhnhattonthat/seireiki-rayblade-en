@@ -1,0 +1,222 @@
+[
+ {
+  "id": "sce261:00050",
+  "jp": "　「1B0のフラグが立っていません。このプライベート{nl}　イベントをする場合は1B0のフラグを立てやり置して{nl}　ください。しない場合は、強制終了いたします。」{ctl:B43E}",
+  "off": 80,
+  "len": 96,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 82,
+  "text_len": 93
+ },
+ {
+  "id": "sce261:00378",
+  "jp": "カスミ「トウヤちゃん‥‥」",
+  "off": 888,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 890,
+  "text_len": 15
+ },
+ {
+  "id": "sce261:0038D",
+  "jp": "トウヤ「一人か？」",
+  "off": 909,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 911,
+  "text_len": 12
+ },
+ {
+  "id": "sce261:0039F",
+  "jp": "カスミ「うん」",
+  "off": 927,
+  "len": 10,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 929,
+  "text_len": 7
+ },
+ {
+  "id": "sce261:003AC",
+  "jp": "トウヤ「‥‥王都を見ていたのか？」",
+  "off": 940,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 942,
+  "text_len": 23
+ },
+ {
+  "id": "sce261:003CD",
+  "jp": "カスミ「え？」",
+  "off": 973,
+  "len": 11,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 975,
+  "text_len": 8
+ },
+ {
+  "id": "sce261:003DB",
+  "jp": "トウヤ「カスミ‥‥約束、守れなかったな‥‥」",
+  "off": 987,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 989,
+  "text_len": 29
+ },
+ {
+  "id": "sce261:00402",
+  "jp": "カスミ「え‥‥？」",
+  "off": 1026,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1028,
+  "text_len": 12
+ },
+ {
+  "id": "sce261:00414",
+  "jp": "トウヤ「さっき、フェインに言われたんだ。{nl}　男なら守れない約束なんかするなって」",
+  "off": 1044,
+  "len": 48,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1046,
+  "text_len": 45
+ },
+ {
+  "id": "sce261:00459",
+  "jp": "カスミ「トウヤちゃん‥‥」",
+  "off": 1113,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1115,
+  "text_len": 15
+ },
+ {
+  "id": "sce261:0046E",
+  "jp": "トウヤ「軽々しく約束したワケじゃねぇけど、{nl}　結果的に守れなかったし‥‥だから‥‥」",
+  "off": 1134,
+  "len": 56,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1136,
+  "text_len": 53
+ },
+ {
+  "id": "sce261:004D0",
+  "jp": "カスミ「‥‥」",
+  "off": 1232,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1234,
+  "text_len": 9
+ },
+ {
+  "id": "sce261:004E1",
+  "jp": "トウヤ「‼」",
+  "off": 1249,
+  "len": 10,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1251,
+  "text_len": 7
+ },
+ {
+  "id": "sce261:004EE",
+  "jp": "ヤマト（寄り添うニャんて積極的～）",
+  "off": 1262,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1264,
+  "text_len": 23
+ },
+ {
+  "id": "sce261:0050B",
+  "jp": "カスミ「‥‥ううん。こんな綺麗な景色を見れたもの。{nl}　それだけで十分」",
+  "off": 1291,
+  "len": 47,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1293,
+  "text_len": 44
+ },
+ {
+  "id": "sce261:0053D",
+  "jp": "トウヤ「いつもの風景じゃねぇか‥‥」",
+  "off": 1341,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1343,
+  "text_len": 22
+ },
+ {
+  "id": "sce261:00559",
+  "jp": "カスミ「トウヤちゃんと一緒なら、どこだって楽しいよ」",
+  "off": 1369,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1371,
+  "text_len": 29
+ },
+ {
+  "id": "sce261:0057C",
+  "jp": "トウヤ「そ、そうか‥‥」",
+  "off": 1404,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1406,
+  "text_len": 14
+ },
+ {
+  "id": "sce261:00590",
+  "jp": "カスミ「うん‥‥もう少し、こうやってていい？」",
+  "off": 1424,
+  "len": 30,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1426,
+  "text_len": 27
+ },
+ {
+  "id": "sce261:005B1",
+  "jp": "トウヤ「ああ‥‥」",
+  "off": 1457,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1459,
+  "text_len": 11
+ }
+]

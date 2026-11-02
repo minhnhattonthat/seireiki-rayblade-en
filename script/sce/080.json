@@ -1,0 +1,222 @@
+[
+ {
+  "id": "sce080:000E4",
+  "jp": "トウヤ「おっ、こんなとこでなにしてんだ？」",
+  "off": 228,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 230,
+  "text_len": 22
+ },
+ {
+  "id": "sce080:00100",
+  "jp": "アイ「見てのとおり、読薯中よ」",
+  "off": 256,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 258,
+  "text_len": 19
+ },
+ {
+  "id": "sce080:00119",
+  "jp": "トウヤ「‥‥お前、どういうの読むんだ？」",
+  "off": 281,
+  "len": 28,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 283,
+  "text_len": 25
+ },
+ {
+  "id": "sce080:00138",
+  "jp": "アイ「コレ」",
+  "off": 312,
+  "len": 9,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 314,
+  "text_len": 6
+ },
+ {
+  "id": "sce080:00144",
+  "jp": "トウヤ「“七つの棺”？　なんだそりゃ？」",
+  "off": 324,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 326,
+  "text_len": 26
+ },
+ {
+  "id": "sce080:00168",
+  "jp": "アイ「この傑作推理小説を知らないの⁈」",
+  "off": 360,
+  "len": 30,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 362,
+  "text_len": 27
+ },
+ {
+  "id": "sce080:00189",
+  "jp": "トウヤ「そういうの読まねぇからな」",
+  "off": 393,
+  "len": 21,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 395,
+  "text_len": 18
+ },
+ {
+  "id": "sce080:001B3",
+  "jp": "アイ「ふぅ～ん。よし。そんじゃ、コレ貸してあげる」",
+  "off": 435,
+  "len": 30,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 437,
+  "text_len": 27
+ },
+ {
+  "id": "sce080:001D4",
+  "jp": "トウヤ「え？　いいのか？　読んでる途中だろ？」",
+  "off": 468,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 470,
+  "text_len": 29
+ },
+ {
+  "id": "sce080:001F7",
+  "jp": "アイ「いいよ。もう3廻貰だし」",
+  "off": 503,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 505,
+  "text_len": 17
+ },
+ {
+  "id": "sce080:0020E",
+  "jp": "トウヤ「そっか。それじゃ、遠慮なく‥‥」",
+  "off": 526,
+  "len": 27,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 528,
+  "text_len": 24
+ },
+ {
+  "id": "sce080:00237",
+  "jp": "アイ「犯人がまた意外な人物なの。{nl}　それに使われてるトリックも巧妙だしね」",
+  "off": 567,
+  "len": 49,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 569,
+  "text_len": 46
+ },
+ {
+  "id": "sce080:0026B",
+  "jp": "トウヤ「‥‥おい」",
+  "off": 619,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 621,
+  "text_len": 11
+ },
+ {
+  "id": "sce080:00287",
+  "jp": "アイ「なに？」",
+  "off": 647,
+  "len": 11,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 649,
+  "text_len": 8
+ },
+ {
+  "id": "sce080:00295",
+  "jp": "トウヤ「‥‥この登場人物の欄だが‥‥{nl}　ご丁寧に“犯人はこいつだ！”ってマジックで{nl}　薯いてるぞ。お前のモノと思われる筆跡で」",
+  "off": 661,
+  "len": 87,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 663,
+  "text_len": 84
+ },
+ {
+  "id": "sce080:002F3",
+  "jp": "アイ「‥‥あ」",
+  "off": 755,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 757,
+  "text_len": 9
+ },
+ {
+  "id": "sce080:00302",
+  "jp": "ヤマト「推理小説でそれをしちゃ、ダメでしょ‥‥」",
+  "off": 770,
+  "len": 33,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 772,
+  "text_len": 30
+ },
+ {
+  "id": "sce080:00331",
+  "jp": "アイ「い、いやぁ、はははは‥‥じゃ！」",
+  "off": 817,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 819,
+  "text_len": 22
+ },
+ {
+  "id": "sce080:00358",
+  "jp": "ヤマト「あっ、逃げた。{nl}　それもちゃんと小説も廻収してるし」",
+  "off": 856,
+  "len": 38,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 858,
+  "text_len": 35
+ },
+ {
+  "id": "sce080:00381",
+  "jp": "トウヤ「‥‥」",
+  "off": 897,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 899,
+  "text_len": 9
+ }
+]

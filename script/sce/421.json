@@ -1,0 +1,79 @@
+[
+ {
+  "id": "sce421:0005C",
+  "jp": "トウヤ「あれ？　おい、誰もいねぇぞ」",
+  "off": 92,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 94,
+  "text_len": 20
+ },
+ {
+  "id": "sce421:00076",
+  "jp": "ヤマト「おかしいニャぁ、確かにオーレリィの反応だったと{nl}　思ったんだけど‥‥」",
+  "off": 118,
+  "len": 49,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 120,
+  "text_len": 46
+ },
+ {
+  "id": "sce421:000AA",
+  "jp": "トウヤ「壊れたんじゃねぇか？」",
+  "off": 170,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 172,
+  "text_len": 17
+ },
+ {
+  "id": "sce421:000C1",
+  "jp": "ヤマト「失礼ね！　そんニャこと言うニャら、{nl}　もう教えてあげニャいよ⁈」",
+  "off": 193,
+  "len": 45,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 195,
+  "text_len": 42
+ },
+ {
+  "id": "sce421:000F1",
+  "jp": "トウヤ「すねるなよ。冗談だって」",
+  "off": 241,
+  "len": 21,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 243,
+  "text_len": 18
+ },
+ {
+  "id": "sce421:00109",
+  "jp": "ヤマト「まぁ、トウヤはアタシがいニャいとニャんにも{nl}　出来ニャいからね～」",
+  "off": 265,
+  "len": 43,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 267,
+  "text_len": 40
+ },
+ {
+  "id": "sce421:00137",
+  "jp": "トウヤ「はいはい」",
+  "off": 311,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 313,
+  "text_len": 9
+ }
+]

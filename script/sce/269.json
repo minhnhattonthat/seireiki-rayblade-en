@@ -1,0 +1,222 @@
+[
+ {
+  "id": "sce269:00046",
+  "jp": "フェイン「‥‥どういうことだ？」",
+  "off": 70,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 72,
+  "text_len": 19
+ },
+ {
+  "id": "sce269:0005F",
+  "jp": "トウヤ「‥‥」",
+  "off": 95,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 97,
+  "text_len": 9
+ },
+ {
+  "id": "sce269:0006E",
+  "jp": "フェイン「お前‥‥そういう奴だったのか？」",
+  "off": 110,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 112,
+  "text_len": 26
+ },
+ {
+  "id": "sce269:0008E",
+  "jp": "トウヤ「‥‥」",
+  "off": 142,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 144,
+  "text_len": 9
+ },
+ {
+  "id": "sce269:0009D",
+  "jp": "フェイン「なんとか言えよ」",
+  "off": 157,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 159,
+  "text_len": 14
+ },
+ {
+  "id": "sce269:000B1",
+  "jp": "トウヤ「‥‥」",
+  "off": 177,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 179,
+  "text_len": 9
+ },
+ {
+  "id": "sce269:000C6",
+  "jp": "フェイン「‥‥‼」",
+  "off": 198,
+  "len": 15,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 200,
+  "text_len": 12
+ },
+ {
+  "id": "sce269:000E5",
+  "jp": "ヤマト「フェイン！」",
+  "off": 229,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 231,
+  "text_len": 11
+ },
+ {
+  "id": "sce269:000F6",
+  "jp": "フェイン「カスミはお前を選んだ。俺ではなくお前を。{nl}　俺は‥‥お前だから身を引くんだ。それなのに‥‥」",
+  "off": 246,
+  "len": 66,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 248,
+  "text_len": 63
+ },
+ {
+  "id": "sce269:0013B",
+  "jp": "トウヤ「フェイン‥‥」",
+  "off": 315,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 317,
+  "text_len": 13
+ },
+ {
+  "id": "sce269:0014E",
+  "jp": "フェイン「‥‥お前のことだ。なにか理由があるのだろうが、{nl}　それでもお前は男としてしなければならないことを{nl}　しなかった。それは確かだ。{nl}　もし、少しでも悪いと思うなら、今後はああいう約束は{nl}　しないことだ。今度、伺じことをすれば、その時は{nl}　俺はお前を許さない。それだけは言っておく」",
+  "off": 334,
+  "len": 169,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 336,
+  "text_len": 166
+ },
+ {
+  "id": "sce269:001FA",
+  "jp": "トウヤ「‥‥ああ」",
+  "off": 506,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 508,
+  "text_len": 11
+ },
+ {
+  "id": "sce269:0020B",
+  "jp": "フェイン「‥‥よし。握手だ」",
+  "off": 523,
+  "len": 21,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 525,
+  "text_len": 18
+ },
+ {
+  "id": "sce269:00223",
+  "jp": "トウヤ「え？」",
+  "off": 547,
+  "len": 11,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 549,
+  "text_len": 8
+ },
+ {
+  "id": "sce269:00231",
+  "jp": "フェイン「このまま確執を抱いたまま別れるのは性に{nl}　合わん。だから、仲置りだ」",
+  "off": 561,
+  "len": 50,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 563,
+  "text_len": 47
+ },
+ {
+  "id": "sce269:00266",
+  "jp": "トウヤ「あ、ああ‥‥」",
+  "off": 614,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 616,
+  "text_len": 13
+ },
+ {
+  "id": "sce269:00279",
+  "jp": "フェイン「すまなかったな。大丈夫か？」",
+  "off": 633,
+  "len": 26,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 635,
+  "text_len": 23
+ },
+ {
+  "id": "sce269:00296",
+  "jp": "トウヤ「結構効いたよ」",
+  "off": 662,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 664,
+  "text_len": 14
+ },
+ {
+  "id": "sce269:002AA",
+  "jp": "フェイン「次は本気で行くからな」",
+  "off": 682,
+  "len": 23,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 684,
+  "text_len": 20
+ },
+ {
+  "id": "sce269:002C4",
+  "jp": "トウヤ「ああ、気をつけるよ」",
+  "off": 708,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 710,
+  "text_len": 15
+ }
+]

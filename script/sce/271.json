@@ -1,0 +1,200 @@
+[
+ {
+  "id": "sce271:003D3",
+  "jp": "ユミール「あっ、トウヤさん‥‥」",
+  "off": 979,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 981,
+  "text_len": 19
+ },
+ {
+  "id": "sce271:003EC",
+  "jp": "トウヤ「訊きたいことがあるんだが、今いいか？」",
+  "off": 1004,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1006,
+  "text_len": 26
+ },
+ {
+  "id": "sce271:0040C",
+  "jp": "ユミール「はい。なんですか？」",
+  "off": 1036,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1038,
+  "text_len": 17
+ },
+ {
+  "id": "sce271:00423",
+  "jp": "トウヤ「この前にアイが言っていた錬金学聖協会{nl}　一等学止主席ってどういう意味なんだ？」",
+  "off": 1059,
+  "len": 63,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1061,
+  "text_len": 60
+ },
+ {
+  "id": "sce271:00465",
+  "jp": "ユミール「ああ、あれは聖地での私の肩薯きです」",
+  "off": 1125,
+  "len": 32,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1127,
+  "text_len": 29
+ },
+ {
+  "id": "sce271:00488",
+  "jp": "トウヤ「主席ってことは一番ってことじゃねぇのか？」",
+  "off": 1160,
+  "len": 33,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1162,
+  "text_len": 30
+ },
+ {
+  "id": "sce271:004AC",
+  "jp": "ユミール「は、はい‥‥序列では最上位にあたります‥‥」",
+  "off": 1196,
+  "len": 40,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1198,
+  "text_len": 37
+ },
+ {
+  "id": "sce271:004D7",
+  "jp": "トウヤ「？　それって凄いことじゃねぇのか？{nl}　なのになんでうれしそうじゃねぇんだ？」",
+  "off": 1239,
+  "len": 49,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1241,
+  "text_len": 46
+ },
+ {
+  "id": "sce271:0051D",
+  "jp": "ユミール「認められていることはうれしいのですが、{nl}　賞賛や感心されたりして期待されるのが苦手なんです」",
+  "off": 1309,
+  "len": 64,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1311,
+  "text_len": 61
+ },
+ {
+  "id": "sce271:00560",
+  "jp": "トウヤ「なんで？」",
+  "off": 1376,
+  "len": 13,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1378,
+  "text_len": 10
+ },
+ {
+  "id": "sce271:00574",
+  "jp": "ユミール「それは‥‥」",
+  "off": 1396,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1398,
+  "text_len": 14
+ },
+ {
+  "id": "sce271:00588",
+  "jp": "トウヤ「それは？」",
+  "off": 1416,
+  "len": 13,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1418,
+  "text_len": 10
+ },
+ {
+  "id": "sce271:0059C",
+  "jp": "ユミール「‥‥」",
+  "off": 1436,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1438,
+  "text_len": 11
+ },
+ {
+  "id": "sce271:005AD",
+  "jp": "ヤマト「トウヤ！　ユミールを困らせちゃダメでしょ！{nl}　ごめんニャさいね」",
+  "off": 1453,
+  "len": 43,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1455,
+  "text_len": 40
+ },
+ {
+  "id": "sce271:005E6",
+  "jp": "ユミール「い、いえ‥‥」",
+  "off": 1510,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1512,
+  "text_len": 15
+ },
+ {
+  "id": "sce271:005FB",
+  "jp": "ヤマト「ホラ、今廻はここまで。行くよ」",
+  "off": 1531,
+  "len": 25,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1533,
+  "text_len": 22
+ },
+ {
+  "id": "sce271:00617",
+  "jp": "トウヤ「おい、すそを引っ張るなって！{nl}　わーったよ！　ユミール、邪魔したな」",
+  "off": 1559,
+  "len": 49,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1561,
+  "text_len": 46
+ },
+ {
+  "id": "sce271:0064B",
+  "jp": "ユミール「は、はい‥‥」",
+  "off": 1611,
+  "len": 18,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 1613,
+  "text_len": 15
+ }
+]

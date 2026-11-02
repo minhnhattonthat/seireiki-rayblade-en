@@ -1,0 +1,35 @@
+[
+ {
+  "id": "sce053:000B9",
+  "jp": "a",
+  "off": 185,
+  "len": 4,
+  "en": "",
+  "status": "todo",
+  "style": 92,
+  "text_off": 187,
+  "text_len": 1
+ },
+ {
+  "id": "sce053:000BF",
+  "jp": "QB",
+  "off": 191,
+  "len": 5,
+  "en": "",
+  "status": "todo",
+  "style": 92,
+  "text_off": 193,
+  "text_len": 2
+ },
+ {
+  "id": "sce053:00377",
+  "jp": "アイ「ふぅ～　いくら仮想戦闘って言ってもさすがに{nl}　連戦はキツイわね‥‥{nl}　今廿はこれでおしまいにしましょ」",
+  "off": 887,
+  "len": 71,
+  "en": "",
+  "status": "todo",
+  "style": 1,
+  "text_off": 891,
+  "text_len": 66
+ }
+]

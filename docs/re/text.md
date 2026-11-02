@@ -27,33 +27,61 @@
 
 Kanji readings in `tbl/jp.tbl` are template-match first guesses (`tools/match_font.py`, MS Gothic 12 px, chamfer
 distance, JIS-run window): ~1210 confident anchors, ~800 window guesses, ~115 free guesses (`work/font/match.tsv`).
-Known misreads: 0x210 亜 (read 唐), 目 read as 貰, 日 read as 廿. Review before extraction (phase 4): fix in
-`tbl/glyph_overrides.tsv` and re-run build_tbl.py; 51 duplicate readings carry `#<code>` suffixes until fixed.
+`build_tbl.py` now emits every glyph cell 0x00-0xA4C: unread cells get a `<XXX>` placeholder so the byte stream never
+misaligns (before that, a missing code decoded as `[XX]` and shifted the rest of the line). 464 cells are still
+placeholders. Known misreads seen in extracted text: 0x210 亜 read as 唐, 目 read as 貰, 日 read as 廿, 回 as 廻,
+同 as 伺, 向 as 徇, 真 as 審, 膨 as 脹, 今 as ?; fix them in `tbl/glyph_overrides.tsv` (code<TAB>reading) and re-run
+build_tbl.py, then re-run `tools/extract.py dump --force` so `jp` fields regenerate.
 
-## Scenario VM (D_SCE records) — partly verified
-- Interpreter loop 0x800581A0. State struct 0x800CD570: +0x40 script base pointer, +0x48 pc (offset into the
-  record), +0x54 copy of the current instruction bytes. Script record loaded at 0x800DCE00 (scene 1).
+## Scenario VM (D_SCE records) — verified (tools/vm.py; emulator trace work/scratch/tr1)
+- Interpreter loop 0x800581A0. State struct 0x800CD570: +0x40 script base pointer, +0x48 advance/displacement,
+  +0x4C multi-frame sub-state counter, +0x54 copy of the current instruction bytes. Scene 1 is loaded at
+  0x800DCE00; the record bytes in RAM are byte-identical to D_SCE slot 1 (checked against a RAM dump).
 - Opcode length table 0x800C8480 (file 0xB8C80), handler table 0x800C8080 (`python -X utf8 tools/re.py ops`).
-  Length 0 = variable-length op (00 1A 27 3E 3F 4D 4E 73 77 7C 7D 8B 8F 9A B1-B3 BC BD C1 C2 D9 DE DF EC-EF FA-FF).
-- **Jumps:** op 01 `01 lo hi` -> pc = int16 + 1; op 02 `02 b0 b1 b2 b3` -> pc = u32 + 1 (absolute offsets inside the
-  record). Other ops that write pc (03 04 06 07 0B-0E 14 15 17-19 33 3A 43 55 56 59-5B 5D 6B 6C 74 76 78 7E 7F 80 82
-  86 88 8A 8E 93 9C-9F B4 BF C3 C5 CC D1-D3 D5 D6 D8 DB DD EA F9) still need classifying: plain advance vs branch.
-  Choice op `7A nn ..` carries per-item u16 offsets (seen `7A 03 06 00 f6 00 fa 00 78 c0 ..`). Inserting longer
-  text shifts offsets: every branch operand must be rewritten — needs a full disassembler with roundtrip (phase 4).
-- **Text op 0x78** (`78 style`, then text to FF; length table says 2, the handler consumes the text). Style byte low
-  nibble = mode (0..12, jump table at 0x80020000-0x15F4). Seen: `78 00` dialogue, `78 01 xx yy` (with 2 more bytes:
-  portrait/speaker?), `78 C0` choice items, `78 A0`. Usually preceded by `7B xx yy` (3-byte op; speaker portrait?).
-  Dialogue = `「name」` form: speaker name, EA 「, text, EB 」, FF. Formatter buffer 0x400 bytes, limit 0x3FF.
-- ~46,500 `EB FF` dialogue ends across D_SCE; 34,800 preceded by `7B xx yy 78 00`.
+  **A length of 0 means the op is not implemented** (the handler is a bare `ret 0x80`, so the interpreter spins on
+  the same byte forever) — a 0 at an instruction boundary is a decode error, not a variable-length op.
+- The loop copies `length` bytes to state+0x54, calls handler[op] and advances `base += state+0x48` when the
+  handler returns an odd value. **A handler may add to state+0x48**, which is how an op consumes argument bytes
+  beyond its table length (e.g. `1E 00 <4 args>` inserts two runtime values into the text). `vm.SUBK` holds the
+  per-sub-op extra counts, derived from the handlers (`addiu $x,$x,K` before `sw $x, 0x48`); 11 sub-op dispatcher
+  opcodes exist: 16 1B 1E 1F 5C AD AE B0 C0 C8 DC.
+- **Branches** (target = op offset + displacement): 01 rel (+1), 07 rel (+2), 14 conditional rel (+1, flag in the
+  u16: bit 15 set = jump if the flag is set), 02 abs u32 (+1), 03 call rel (+1, pushes the return address on a
+  16-deep stack at state+0x64), 04 call abs u32, 06 return, 0B goto scene, B4 table goto (27 flag/scene pairs).
+  7A = choice: `7A count` then `count` u16 self-relative offsets (one per item) — total length 2+2*count.
+  08 = wait: `08 <u16 frames>` (countdown in state+0x4E).
+- **Text op 0x78**: `78 style [args]` then the text. Styles 1 and 2 carry two argument bytes before the text
+  (portrait/speaker id); styles 0, 8..12 carry none; styles 3..7 return without advancing (unused).
+  78 C0 = choice items, 78 A0, 78 80 = other boxes. Usually preceded by `7B xx yy` (speaker). The handler formats
+  into a 0x400-byte buffer (limit 0x3FF) and leaves state+0x48 = the whole `78 style args text FF` length.
+- **Text ends at an FF that is not a glyph low byte**: F0..FA are two-byte glyph codes (so `F3 FF` = 私), FC
+  carries two argument bytes, FB/FD/FE one. `vm.text_end` walks glyph-wise for this reason; a raw `find(b"\xff")`
+  cut 2052 strings short in the first pass.
+- 49,363 text blocks in D_SCE (styles: 00 dialogue 38.6k, 01 7.7k, 02 1.7k, 80/81 0.8k, A0 407, C0 128 choices).
+  A linear sweep with skip-on-undecodable-byte leaves 0.24% of the file undecoded in runs shorter than 32 bytes;
+  every trace boundary of scene 1 lands on a sweep instruction start.
 
 ## Other text locations
-- **EXE** data section, file 0x2D00-0x7600 (RAM 0x80012500..): system/battle menu strings in the same encoding
-  (フェイズ終了, 部隊表, システム, セーブ, 攻撃, 信頼コマンド, ユニット特殊能力 ..), Yamato's affection hints, and a
-  leftover **debug menu** (ロード / セーブ / Mロード / Mセーブ / 全体PUT / 全体更新, P: R: W: A:) at 0x6418.
-  Strings end FF; many are pointed to from code (lui/addiu pairs) — pointer survey TODO (phase 4).
-- **D_BMESS** battle messages: per record 12 self-relative u16 category pointers + weapon override lists; FC 30..37
-  conditional jumps with u16 self-relative targets (same as DC docs/battle-text-format.json; verified the root
-  table aliasing on PS1, rest guess).
-- **D_SYSTEM** some records hold names (トウヤ x41, 攻撃 x13 hits) — character/unit/weapon name tables (TODO).
-- D_SCE slot 447: text list (names/terms?).
+- **EXE message bank** (22 groups) — verified, extracted: root table at RAM 0x8001534C, 22 self-relative u32
+  entries, each pointing at a group table. A group table is an array of self-relative u32 pointers to strings;
+  entry 0 points just past the table (its value / 4 = the table's entry count) and is an empty string. The reader
+  takes `(group << 8) | index`. Group 0 = system menu (フェイズ終了, 部隊表, システム, セーブ), group 1 = battle
+  abilities, 2/3/4 = character/weapon/item names, 6/7 = place names, 8 = private events, 9-13 = more names.
+  Groups 14-21 resolve to tables of mixed kinds (struct tables, kana/font order tables); only entries whose target
+  decodes to text are taken (1990 strings).
+- **Resident system script** in the EXE at RAM 0x80010374: 70 self-relative sub-scripts (archive layout). Only
+  sub-script 58 (0x80015270 = Yamato's affection hints) and sub 7 hold 78-text blocks; the menus are drawn from
+  the message bank via op A3.
+- **EXE VM region** 0x800124E0-0x800126E0: the same VM bytecode inline in the data section — the six Yamato
+  affection-hint lines (`01 <off> 7B 12 00 78 00 text FF` records).
+- **EXE inline strings** (debug menu ロード/セーブ/Mロード/Mセーブ/全体PUT/全体更新, P: R: W: A:, Yamato hints):
+  FF-terminated runs with no pointer table. Only quote-delimited ones are extracted (status `candidate`); the rest
+  are left for the marker build, because runs of the EXE's kana/font order tables also decode as text.
+- **D_BMESS** battle messages: 128 records, each starting with `28 00`-style header + 12 self-relative u16
+  category pointers, then a bytecode with `FC 30..37` conditional jumps. The strings are *not* plain text at the
+  pointer targets (the bytes decode as control codes + u16 ids), so this needs its own decoder — not extracted yet;
+  battle text is out of scope for the first pass (marker build will show what is missing).
+- **D_SYSTEM** holds character/unit/weapon name tables (トウヤ x41) — not extracted yet.
+- D_SCE slot 447: 63 text blocks (names/terms list); slot 2 is the chapter dispatcher + dev chapter-select menu.
 - Graphics text: see graphics.md.
+

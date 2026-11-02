@@ -1,0 +1,57 @@
+[
+ {
+  "id": "sce183:000CB",
+  "jp": "ヤマト「あっ、本読んでる‥‥」",
+  "off": 203,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 205,
+  "text_len": 19
+ },
+ {
+  "id": "sce183:000E4",
+  "jp": "トウヤ「集中してるみてぇーだな」",
+  "off": 228,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 230,
+  "text_len": 19
+ },
+ {
+  "id": "sce183:000FD",
+  "jp": "ヤマト「邪魔しちゃ悪いわね」",
+  "off": 253,
+  "len": 20,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 255,
+  "text_len": 17
+ },
+ {
+  "id": "sce183:00117",
+  "jp": "トウヤ「そうだな。別に揖事もねぇしな。{nl}　別のとこへ行くか」",
+  "off": 279,
+  "len": 38,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 281,
+  "text_len": 35
+ },
+ {
+  "id": "sce183:0014C",
+  "jp": "ヤマト「まだ、本読んでる‥‥{nl}　やめとかニャい？」",
+  "off": 332,
+  "len": 33,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 334,
+  "text_len": 30
+ }
+]

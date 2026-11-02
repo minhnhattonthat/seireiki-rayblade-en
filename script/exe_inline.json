@@ -1,0 +1,11 @@
+[
+ {
+  "id": "exe:80012500",
+  "jp": "　ヤマト「まぁまぁって感じね」",
+  "addr": 2147558656,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "notes": "inline EXE string (no pointer table): confirm in the marker build"
+ }
+]

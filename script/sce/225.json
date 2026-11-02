@@ -1,0 +1,189 @@
+[
+ {
+  "id": "sce225:00032",
+  "jp": "トウヤ「開いてるぜ」",
+  "off": 50,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 52,
+  "text_len": 11
+ },
+ {
+  "id": "sce225:00052",
+  "jp": "セリカ「‥‥」",
+  "off": 82,
+  "len": 12,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 84,
+  "text_len": 9
+ },
+ {
+  "id": "sce225:00061",
+  "jp": "トウヤ「どうした？」",
+  "off": 97,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 99,
+  "text_len": 11
+ },
+ {
+  "id": "sce225:00072",
+  "jp": "セリカ「うん‥‥ねえ、私も一緒に連れていってくれない？」",
+  "off": 114,
+  "len": 38,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 116,
+  "text_len": 35
+ },
+ {
+  "id": "sce225:0009B",
+  "jp": "トウヤ「それはマズイだろ。いくら辺境の村とはいえ、{nl}　セリカの顔ぐらいは知ってるだろ？」",
+  "off": 155,
+  "len": 53,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 157,
+  "text_len": 50
+ },
+ {
+  "id": "sce225:000D7",
+  "jp": "セリカ「そうだけど‥‥」",
+  "off": 215,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 217,
+  "text_len": 14
+ },
+ {
+  "id": "sce225:000EB",
+  "jp": "トウヤ「心配なのはわかるが、救出作戦の櫨要が{nl}　決まるまでは俺達に任せろって」",
+  "off": 235,
+  "len": 54,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 237,
+  "text_len": 51
+ },
+ {
+  "id": "sce225:0012F",
+  "jp": "セリカ「でも‥‥」",
+  "off": 303,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 305,
+  "text_len": 11
+ },
+ {
+  "id": "sce225:00140",
+  "jp": "トウヤ「心配するな。救出の時はかならずセリカも一緒に{nl}　行けるようにするから」",
+  "off": 320,
+  "len": 50,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 322,
+  "text_len": 47
+ },
+ {
+  "id": "sce225:0018D",
+  "jp": "セリカ「本当？」",
+  "off": 397,
+  "len": 14,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 399,
+  "text_len": 11
+ },
+ {
+  "id": "sce225:0019E",
+  "jp": "トウヤ「ああ、約束だ。みんなが反対しても俺はお前の{nl}　味方でいるよ」",
+  "off": 414,
+  "len": 45,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 416,
+  "text_len": 42
+ },
+ {
+  "id": "sce225:001E6",
+  "jp": "セリカ「‥‥うん、わかった。トウヤを信じるよ」",
+  "off": 486,
+  "len": 29,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 488,
+  "text_len": 26
+ },
+ {
+  "id": "sce225:00206",
+  "jp": "トウヤ「ああ、任せとけ」",
+  "off": 518,
+  "len": 16,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 520,
+  "text_len": 13
+ },
+ {
+  "id": "sce225:00224",
+  "jp": "セリカ「ふふふ、わがまま言ってごめんね。{nl}　そ、それじゃ」",
+  "off": 548,
+  "len": 33,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 550,
+  "text_len": 30
+ },
+ {
+  "id": "sce225:00253",
+  "jp": "ヤマト（意外とあっさりニャっ得したわね。{nl}　これも愛のニャせるワザかニャ？）",
+  "off": 595,
+  "len": 46,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 597,
+  "text_len": 43
+ },
+ {
+  "id": "sce225:00284",
+  "jp": "トウヤ「ん？　なんか言ったか？」",
+  "off": 644,
+  "len": 22,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 646,
+  "text_len": 19
+ },
+ {
+  "id": "sce225:0029D",
+  "jp": "ヤマト「ううん、別に！」",
+  "off": 669,
+  "len": 17,
+  "en": "",
+  "status": "todo",
+  "style": 0,
+  "text_off": 671,
+  "text_len": 14
+ }
+]

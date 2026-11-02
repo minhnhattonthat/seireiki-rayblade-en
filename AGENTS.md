@@ -4,7 +4,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 tools/build.py`  -> `build/Seireiki Rayblade (English).cue` + 2 tracks (checks `rom.sha1` first; ~3 s; identity test `tests/test_build.py`)
-- Check:    `python -X utf8 tools/check.py`  (tests + lint; pre-commit hook runs it; `git config core.hooksPath tools/hooks` once per clone)
+- Extract:  `python -X utf8 tools/extract.py dump [--force]` -> `script/` (roundtrip + coverage: `extract.py check`)
+- Check:    `python -X utf8 tools/check.py`  (tests + extraction + lint; pre-commit hook runs it; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py "rom/Seireiki Rayblade (Japan).cue" --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the built .cue)
 - Warp:     `python -X utf8 tools/debug/warp.py <name> [--title] [--cue build/x.cue]` (`--list`; `--all` regens states + shots in work/qa/warp; raw: `--script tools/debug/warp.lua --var SCENE=<D_SCE slot>`; never ask the user to play to a scene). Flow notes: `docs/re/flow.md`
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user) (not written yet)
