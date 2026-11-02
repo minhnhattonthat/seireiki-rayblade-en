@@ -2,6 +2,7 @@
 import sys
 from pathlib import Path
 
+import capstone
 import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -111,6 +112,44 @@ def test_font_cells_are_blank_in_the_original():
     for code in font_en.GLYPHS:
         cell = exe[0xA03CC + code * 16:0xA03CC + code * 16 + 16]
         assert not any(cell), f"cell {code:03X} is not blank in the original font"
+
+
+@needs_disc
+def test_bank_relocation_resolves_every_entry():
+    """Every (group, index) read through the new root gives the edited string or the original target; the
+    heap init calls the hook and the heap starts past the bank."""
+    exe = insert.Put((TREE / insert.EXE_NAME).read_bytes())
+    edits = insert.bank_edits(marker=True)
+    insert.bank_patch(exe, edits, [])
+    new, old = bytes(exe.buf), exe.orig
+    u32 = lambda d, a: int.from_bytes(d[insert.xo(a):insert.xo(a) + 4], "little")  # noqa: E731
+    rd = lambda d, a: (u32(d, a) + 0x80000000) % 2**32 - 0x80000000  # noqa: E731  (self-relative = signed)
+    assert int.from_bytes(new[0x1C:0x20], "little") + 0x800 == len(new)
+    r0, r1 = u32(old, insert.BANK_PTR), u32(new, insert.BANK_PTR)
+    seen, top = set(), 0
+    for g in range(insert.BANK_GROUPS):
+        t0, t1 = r0 + 4 * g + rd(old, r0 + 4 * g), r1 + 4 * g + rd(new, r1 + 4 * g)
+        if g not in insert.TEXT_GROUPS:
+            assert t1 == t0, f"data group {g} moved"
+            continue
+        n = rd(old, t0) // 4
+        assert rd(new, t1) // 4 == n, f"group {g}: entry 0 no longer gives the table length"
+        for k in range(n):
+            a0, a1 = t0 + 4 * k + rd(old, t0 + 4 * k), t1 + 4 * k + rd(new, t1 + 4 * k)
+            if a0 in edits:
+                seen.add(a0)
+                assert new[insert.xo(a1):insert.xo(a1) + len(edits[a0])] == edits[a0]
+                top = max(top, a1 + len(edits[a0]))
+            elif k:
+                assert a1 == a0, f"group {g} entry {k} moved without an edit"
+    assert seen == set(edits)
+    md = capstone.Cs(capstone.CS_ARCH_MIPS, capstone.CS_MODE_MIPS32 + capstone.CS_MODE_LITTLE_ENDIAN)
+    ins = lambda a, n: [f"{i.mnemonic} {i.op_str}" for i in md.disasm(new[insert.xo(a):][:4 * n], a)]  # noqa: E731
+    hook = ins(insert.BANK_AT, 17)
+    assert hook.count(f"jal {insert.MEMSET:#x}") == 2 and hook[-2:] == ["jr $ra", "addiu $sp, $sp, 0x18"]
+    init = ins(0x80036C84, 7)
+    heap = (u32(new, 0x80036C8C) & 0xFFFF) << 16 | u32(new, 0x80036C90) & 0xFFFF
+    assert init[0] == f"jal {insert.BANK_AT:#x}" and top <= heap < 0x800F0000
 
 
 def test_canary_needs_no_missing_glyph():

@@ -16,6 +16,7 @@ dialogue line, so a box that is narrower than the line shows the overflow.
 """
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -37,6 +38,7 @@ ARCHIVES = ["D_SCE.BIN", "D_BMESS.BIN", "D_SYSTEM.BIN"]      # text-bearing arch
 SCRIPT_BUFFER = 0xFFF0
 BUFFER_ALLOC = (0x48AB4, bytes.fromhex("00800434"), bytes.fromhex("F0FF0434"))
 EN = Table.load(ROOT / "tbl/en.tbl")
+JP = Table.load(ROOT / "tbl/jp.tbl")
 
 FILLER = "quick brown fox jumps over the lazy dog "
 
@@ -104,9 +106,141 @@ def sce_records(edits, report):
     return out
 
 
-def exe_edits(marker=False, width=30):
-    """In-place text that does not move anything: none yet (EXE bank + resident text is phase 5b)."""
-    return [], []
+# EXE message bank (docs/re/text.md): `*BANK_PTR` = root of 22 self-relative u32s -> group tables of
+# self-relative u32s -> FF-terminated strings. Every reader loads the root through BANK_PTR, and nothing else
+# points into the bank, so the build writes a new root + the edited groups' tables and strings past the EXE's
+# old end (0x800DCE00, the old heap base) and moves the heap above them (docs/re/disc.md "EXE message bank").
+BANK_PTR = 0x80015348
+BANK_GROUPS = 22
+TEXT_GROUPS = range(12)          # groups 12-21 are struct/data tables that happen to decode
+EXE_BASE, EXE_HDR = 0x80010000, 0x800
+BANK_AT = 0x800DCE00
+HEAP_END = 0x801D0000
+MEMSET = 0x800A5194              # BIOS A(2Bh) memset stub
+OT_BUF = (0x800DC000, 0xE00)     # buffers below the old heap base the heap init also cleared (0x80020xxx code)
+HEAP_INIT_MEMSET = 0x80036C84    # jal memset(0x800DC000, 0, 0xF4000)
+HEAP_INIT_FREE = 0x80036C8C      # lui a0 / ori a0 / lui a1 / jal free / ori a1: free(0x800DCE00, 0xF3200)
+RUN = re.compile(r"(\{[^}]*\})")
+
+
+def xo(addr):
+    return addr - EXE_BASE + EXE_HDR
+
+
+def mips(op, *a):
+    """The few R3000 encodings the heap-init hook needs (registers as numbers: a0=4 a1=5 a2=6 sp=29 ra=31)."""
+    if op == "lui":
+        return 0x3C000000 | a[0] << 16 | a[1]
+    if op == "ori":
+        return 0x34000000 | a[1] << 21 | a[0] << 16 | a[2]
+    if op == "addiu":
+        return 0x24000000 | a[1] << 21 | a[0] << 16 | (a[2] & 0xFFFF)
+    if op in ("sw", "lw"):
+        return (0xAC000000 if op == "sw" else 0x8C000000) | a[2] << 21 | a[0] << 16 | (a[1] & 0xFFFF)
+    if op == "jal":
+        return 0x0C000000 | (a[0] & 0x0FFFFFFF) >> 2
+    if op == "jr":
+        return a[0] << 21 | 8
+    if op == "move":
+        return a[1] << 21 | a[0] << 11 | 0x21
+    if op == "nop":
+        return 0
+    raise ValueError(op)
+
+
+def heap_hook(base):
+    """memset wrapper called by the heap init instead of its one big memset: clears the buffers below the old
+    heap base and the heap from `base` up, skipping the bank between them."""
+    a0, a1, a2, sp, ra = 4, 5, 6, 29, 31
+    size = HEAP_END - base
+    ins = [("addiu", sp, sp, -0x18), ("sw", ra, 0x10, sp),
+           ("lui", a0, OT_BUF[0] >> 16), ("ori", a0, a0, OT_BUF[0] & 0xFFFF), ("move", a1, 0),
+           ("jal", MEMSET), ("ori", a2, 0, OT_BUF[1]),
+           ("lui", a0, base >> 16), ("ori", a0, a0, base & 0xFFFF), ("move", a1, 0), ("lui", a2, size >> 16),
+           ("jal", MEMSET), ("ori", a2, a2, size & 0xFFFF),
+           ("lw", ra, 0x10, sp), ("nop",), ("jr", ra), ("addiu", sp, sp, 0x18)]
+    return b"".join(mips(*i).to_bytes(4, "little") for i in ins)
+
+
+def bank_marker(e, width=None):
+    """Marker for a bank string: its control codes kept, each text run replaced by filler of the run's pixel
+    width, the first run headed by `GKK:` (group, index). `{fb}` toggles the small label font (Lv/Exp/HP drawn
+    from other cells, until the next `{fb}` or `{nl}`): those runs are kept as they are."""
+    head, out, small = f"{e['group']:X}{e['index']:02X}:", [], False
+    for part in RUN.split(e["jp"]):
+        if part.startswith("{") or not part or small:
+            small = (not small if part == "{fb}" else False if part == "{nl}" else small)
+            out.append(part if part.startswith("{") else "".join(f"[{b:02X}]" for b in JP.encode(part)))
+            continue
+        raw, i, w = JP.encode(part), 0, 0     # advance: one-byte code 8 px, F0-FA two-byte code 12 px
+        while i < len(raw):
+            two = 0xF0 <= raw[i] <= 0xFA
+            w, i = w + (3 if two else 2), i + (2 if two else 1)
+        w //= 2
+        out.append((head + FILLER * (w // len(FILLER) + 1))[:w])
+        head = ""
+    return "".join(out)
+
+
+def bank_edits(marker=False, override=None):
+    """{original string address: English bytes incl. the FF end} for the bank entries that have text
+    (`override`: id->text, e.g. `bank00:001` for a width probe)."""
+    out, override = {}, override or {}
+    for e in load("exe_bank.json"):
+        text = override.get(e["id"]) or e["en"] or (bank_marker(e) if marker and e["group"] in TEXT_GROUPS else "")
+        if text:
+            out[e["addr"]] = EN.encode(text) + b"\xFF"
+    return out
+
+
+def bank_patch(exe, edits, report):
+    """Write the relocated bank, the heap-init hook and the bigger EXE size into `exe` (a Put)."""
+    rd = lambda a: int.from_bytes(exe.orig[xo(a):xo(a) + 4], "little")  # noqa: E731
+    root = rd(BANK_PTR)
+    hook = heap_hook(0)                        # length only; re-made with the real heap base below
+    new_root = BANK_AT + len(hook)
+    blob = bytearray(4 * BANK_GROUPS)
+    used = set()
+    for g in range(BANK_GROUPS):
+        t = (root + 4 * g + rd(root + 4 * g)) & 0xFFFFFFFF
+        n = rd(t) // 4 if g in TEXT_GROUPS else 0      # data groups: no real count, never rebuilt
+        tgts = [(t + 4 * k + rd(t + 4 * k)) & 0xFFFFFFFF for k in range(n)]
+        if not any(x in edits for x in tgts):
+            tt = t                             # untouched group: the new root points at the old table
+        else:
+            tt = new_root + len(blob)
+            tab, strs, placed = bytearray(4 * n), bytearray(), {}
+            for k, x in enumerate(tgts):
+                if x in edits or (k == 0 and x == t + 4 * n):   # entry 0 = empty string right after the table
+                    if x not in placed:
+                        if x not in edits and exe.orig[xo(x)] != 0xFF:
+                            raise SystemExit(f"bank group {g}: entry 0 at {x:#x} is not an empty string")
+                        placed[x] = tt + 4 * n + len(strs)
+                        strs += edits.get(x, b"\xFF")
+                    used.add(x)
+                    x = placed[x]
+                tab[4 * k:4 * k + 4] = ((x - (tt + 4 * k)) & 0xFFFFFFFF).to_bytes(4, "little")
+            blob += tab + strs
+            blob += bytes(-len(blob) % 4)
+        blob[4 * g:4 * g + 4] = ((tt - (new_root + 4 * g)) & 0xFFFFFFFF).to_bytes(4, "little")
+    if set(edits) - used:
+        raise SystemExit(f"bank: {len(set(edits) - used)} edited strings are not in any group table")
+    end = new_root + len(blob)
+    heap = (end + 0x7FF) & ~0x7FF
+    size = (heap - EXE_BASE + 0x7FF) & ~0x7FF  # PS-X EXE text size is whole sectors
+    exe.buf += bytes(EXE_HDR + size - len(exe.buf))
+    exe(exe.buf, 0x1C, size.to_bytes(4, "little"), "EXE text size (bank past the old end)")
+    exe(exe.buf, xo(BANK_AT), heap_hook(heap) + blob, f"message bank: hook + root + {len(blob)} bytes")
+    exe(exe.buf, xo(BANK_PTR), new_root.to_bytes(4, "little"), "bank root pointer")
+    exe(exe.buf, xo(HEAP_INIT_MEMSET), mips("jal", BANK_AT).to_bytes(4, "little"), "heap init: memset -> hook")
+    lui_a0, ori_a0, lui_a1, _, ori_a1 = (xo(HEAP_INIT_FREE + 4 * i) for i in range(5))
+    hs = HEAP_END - heap
+    for off, ins, why in ((lui_a0, mips("lui", 4, heap >> 16), "heap base hi"),
+                          (ori_a0, mips("ori", 4, 4, heap & 0xFFFF), "heap base lo"),
+                          (lui_a1, mips("lui", 5, hs >> 16), "heap size hi"),
+                          (ori_a1, mips("ori", 5, 5, hs & 0xFFFF), "heap size lo")):
+        exe(exe.buf, off, ins.to_bytes(4, "little"), why)
+    report.append(f"EXE: bank {len(edits)} strings at {new_root:#x}..{end:#x}, heap {heap:#x} ({hs // 1024} KB)")
 
 
 class Put:
@@ -118,7 +252,8 @@ class Put:
         self.log = []
 
     def __call__(self, buf, off, data, why):
-        self.log.append(f"{off:X} {self.orig[off:off + len(data)].hex()} {data.hex()} {why}")
+        old = self.orig[off:off + len(data)].ljust(len(data), b"\0")   # past the original end = zero padding
+        self.log.append(f"{off:X} {old.hex()} {data.hex()} {why}")
         buf[off:off + len(data)] = data
 
 
@@ -132,6 +267,7 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
     """{filename: bytes} for build.py: the archives and the EXE, rebuilt with the current text."""
     report = [] if report is None else report
     files = {}
+    override = overrides(override) if isinstance(override, str) else (override or {})
     edits = sce_edits(marker, width, slots, override)
     recs = sce_records(edits, report) if edits else {}
     exe = Put((TREE / EXE_NAME).read_bytes())
@@ -155,6 +291,9 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
         if exe.orig[off:off + 4] != old_ins:
             raise SystemExit(f"EXE: expected the script-buffer alloc at {off:#x}")
         exe(exe.buf, off, new_ins, "script buffer 0x8000 -> 0xFFF0")
+    bank = bank_edits(marker, override)
+    if bank:
+        bank_patch(exe, bank, report)
     font_en.patch(exe.buf, exe)
     if exe.log and bytes(exe.buf) != exe.orig:
         files[EXE_NAME] = bytes(exe.buf)

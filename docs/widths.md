@@ -15,7 +15,7 @@ English budget in characters *is* the glyph budget.
 | Dialogue, same box, marker lines (style 1/2 with portrait args) | chapters | **30** | 3 | 90 | `work/qa/marker_all/*.png`: a 30-char marker fills the line to the arrow (`[00208] quick brown fox jumps`) |
 | Choice list (78 C0 / op 7A) | mid-battle, dev chapter menu | not measured yet | | | scene 2 and 43 were not reachable to the choice inside a 9000-frame run; see below |
 | Battle message boxes (D_BMESS) | battles | not extracted yet (own bytecode) | | | docs/re/text.md |
-| Menu rows, item/skill/name lists (EXE message bank) | system, shop, battle unit menu | not measured yet | | | the bank's 1,990 strings cannot be re-inserted yet: they live in the EXE and need relocation + table repointing (phase 6/7) |
+| Menu rows, item/skill/name lists (EXE message bank) | system, shop, battle unit menu | see "Menu geometry" below | | | insertable since 2026-11-03 (bank relocated past the EXE end, docs/re/disc.md); probe one field with `--override` on a `bankGG:KKK` id |
 
 Box geometry, for reference: the dialogue window's text area starts at x≈50 (right of the portrait) and the
 right edge is x≈308; 30 glyphs × 8 px = 240 px, so a 30-char line ends 8–10 px short of the edge. Ink extents

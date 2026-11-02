@@ -87,7 +87,8 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
   takes `(group << 8) | index`. Group 0 = system menu (フェイズ終了, 部隊表, システム, セーブ), group 1 = battle
   abilities, 2/3/4 = character/weapon/item names, 6/7 = place names, 8 = private events, 9-13 = more names.
   Groups 14-21 resolve to tables of mixed kinds (struct tables, kana/font order tables); only entries whose target
-  decodes to text are taken (1990 strings).
+  decodes to text are taken (1838 strings now; groups 0-11 are text). Insertion relocates groups 0-11 past the
+  EXE end and repoints the root (disc.md "EXE message bank relocated").
 - **Resident system script** in the EXE at RAM 0x80010374: 70 self-relative sub-scripts (archive layout). Only
   sub-script 58 (0x80015270 = Yamato's affection hints) and sub 7 hold 78-text blocks; the menus are drawn from
   the message bank via op A3.

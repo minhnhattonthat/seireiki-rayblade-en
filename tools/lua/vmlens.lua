@@ -8,8 +8,9 @@ L.on_exec(0x8005826C, function()
   local adv = u32(0x800CD5B8)
   local op = mem[0x800CD5C4 & 0x1FFFFF]
   local sub = mem[0x800CD5C5 & 0x1FFFFF]
-  if base >= 0x800D0000 and base < 0x800E0000 then
-    L.log(string.format("OP %05X %02X %02X %d", base - 0x800DCE00, op, sub, adv))
+  local buf = u32(0x800CD5C0)  -- script buffer (0x800DCE00 on the original disc; above the bank on a build)
+  if base >= buf and base < buf + 0x10000 then
+    L.log(string.format("OP %05X %02X %02X %d", base - buf, op, sub, adv))
   else
     L.log(string.format("OP ext %08X %02X %02X %d", base, op, sub, adv))
   end

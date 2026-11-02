@@ -62,4 +62,17 @@ u16 magic, u16 count, count x {u32 offset, u16 a, u16 b, u16 w, u16 h, i16 x, i1
   whole record is intact in RAM at 0x800DCE00, and the heap is 0x7FF0 smaller (814 KB free). English estimate
   for the largest records (2.5x Japanese chars) is ~0xCB00, inside the new limit; s16 branches cap a record at
   ±32 KB spans (patch.rebuild fails on overflow).
-- EXE: free-space candidates not surveyed yet (phase 5).
+- **EXE message bank relocated past the EXE end — verified 2026-11-03** (`insert.bank_patch`, test
+  `test_bank_relocation_resolves_every_entry`). Every bank reader loads the root through `*0x80015348` (30+
+  `lui/lw 0x5348` sites) and no code or data word points into 0x80015348..0x8001CF7E otherwise, so the build
+  writes a new root + the edited text groups' (0-11) tables and strings at 0x800DCE00 and repoints that one
+  word; data groups 12-21 keep their old tables (their entry 0 is not a count). Layout at boot:
+  - EXE `t_size` (header 0x1C) grows from 0xBD000 to cover the bank (the BIOS loads it; +~100 KB). crt0 clears
+    BSS 0x800CC898..0x800DBAB0 only, so the bank survives.
+  - The heap init (0x80036C40, called at boot and again from 0x8005BD14) did `memset(0x800DC000, 0, 0xF4000)`
+    then `free(0x800DCE00, 0xF3200)`. 0x800DC000..0x800DCE00 are buffers used by 0x80020xxx code, not heap.
+    The build points the memset `jal` at a 17-instruction hook at 0x800DCE00 that clears 0x800DC000+0xE00 and
+    the heap from its new base, and rewrites the free() immediates: heap = (bank end rounded to 0x800) ..
+    0x801D0000 (marker build: 0x800E5800, 938 KB; was 972 KB).
+  - The script buffer is the first heap block, so it moves too: tools read its pointer at 0x800CD5C0.
+- EXE: other free-space candidates not surveyed (not needed: the bank and anything else can go past the end).

@@ -6,7 +6,7 @@
 Facts (docs/re/disc.md "Free space / limits"): allocator 0x80036860 (best fit), free 0x800365E8 (addr, size;
 coalescing); free list at 0x800D4E58 = 64 x {u32 addr, u32 size}, u16 count at +0x200. Boot seeds it with
 free(0x800DCE00, 0xF3200): the heap is 0x800DCE00..0x801D0000, and the scene script buffer (0x8000) is its
-first block.
+first block. A build with bank text moves the base above the relocated message bank (insert.bank_patch).
 """
 import argparse
 import struct
@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 from skill import SKILL  # noqa: E402
 
-LIST, HEAP = 0x800D4E58, (0x800DCE00, 0x801D0000)
+LIST = 0x800D4E58
 
 
 def free_list(ram):
