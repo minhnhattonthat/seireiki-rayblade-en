@@ -59,8 +59,8 @@
   "jp": "セリカ「プラーナ反応は？」",
   "off": 166,
   "len": 20,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: Any Prana reading?",
+  "status": "translated",
   "style": 0,
   "text_off": 168,
   "text_len": 17
@@ -334,8 +334,8 @@
   "jp": "アイ「‥‥」",
   "off": 1624,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1626,
   "text_len": 8
@@ -950,8 +950,8 @@
   "jp": "アイ「‥‥」",
   "off": 4665,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 4667,
   "text_len": 8
@@ -1214,8 +1214,8 @@
   "jp": "セリカ「どうしたの？」",
   "off": 6047,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: What's wrong?",
+  "status": "translated",
   "style": 0,
   "text_off": 6049,
   "text_len": 12

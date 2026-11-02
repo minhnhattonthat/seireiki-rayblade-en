@@ -92,8 +92,8 @@
   "jp": "トウヤ「へ？」",
   "off": 548,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh?",
+  "status": "translated",
   "style": 0,
   "text_off": 550,
   "text_len": 8
@@ -114,8 +114,8 @@
   "jp": "トウヤ「‥‥？」",
   "off": 624,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...?",
+  "status": "translated",
   "style": 0,
   "text_off": 626,
   "text_len": 11
@@ -224,8 +224,8 @@
   "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 976,
   "len": 356,
-  "en": "",
-  "status": "todo",
+  "en": ".{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 978,
   "text_len": 353

@@ -235,8 +235,8 @@
   "jp": "ユミール「ええ」",
   "off": 836,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Yes.",
+  "status": "translated",
   "style": 0,
   "text_off": 838,
   "text_len": 9
@@ -653,8 +653,8 @@
   "jp": "ユミール「ええ」",
   "off": 2358,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Yes.",
+  "status": "translated",
   "style": 0,
   "text_off": 2360,
   "text_len": 9
@@ -686,8 +686,8 @@
   "jp": "トウヤ「？」",
   "off": 2416,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 2418,
   "text_len": 7
@@ -708,8 +708,8 @@
   "jp": "トウヤ「そ、そうか‥‥」",
   "off": 2452,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: I-I see...",
+  "status": "translated",
   "style": 0,
   "text_off": 2454,
   "text_len": 14

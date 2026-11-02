@@ -488,8 +488,8 @@
   "jp": "レスト「‥‥」",
   "off": 2290,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Rest: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 2294,
   "text_len": 9
@@ -543,8 +543,8 @@
   "jp": "レスト「マキ！」",
   "off": 2392,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Rest: Maki!",
+  "status": "translated",
   "style": 1,
   "text_off": 2396,
   "text_len": 9

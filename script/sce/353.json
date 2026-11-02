@@ -4,8 +4,8 @@
   "jp": "トウヤ「‥‥？」",
   "off": 607,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...?",
+  "status": "translated",
   "style": 1,
   "text_off": 611,
   "text_len": 11
@@ -642,8 +642,8 @@
   "jp": "ヤマト「トウヤ！」",
   "off": 3952,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Touya!",
+  "status": "translated",
   "style": 2,
   "text_off": 3957,
   "text_len": 10
@@ -895,8 +895,8 @@
   "jp": "クルル「きゃっ！」",
   "off": 5193,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Kururu: Kyaa!",
+  "status": "translated",
   "style": 1,
   "text_off": 5197,
   "text_len": 10
@@ -906,8 +906,8 @@
   "jp": "トウヤ「大丈夫か？」",
   "off": 5208,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: You okay?",
+  "status": "translated",
   "style": 1,
   "text_off": 5212,
   "text_len": 14

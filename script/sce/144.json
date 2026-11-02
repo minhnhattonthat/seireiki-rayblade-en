@@ -81,8 +81,8 @@
   "jp": "ユミール「‥‥え？」",
   "off": 350,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: ...Huh?",
+  "status": "translated",
   "style": 0,
   "text_off": 352,
   "text_len": 14
@@ -191,8 +191,8 @@
   "jp": "トウヤ「なにっ！」",
   "off": 765,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What!?",
+  "status": "translated",
   "style": 0,
   "text_off": 767,
   "text_len": 10
@@ -642,8 +642,8 @@
   "jp": "リシュナ「‥‥」",
   "off": 2501,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Rishuna: ...",
+  "status": "translated",
   "style": 1,
   "text_off": 2505,
   "text_len": 10
@@ -675,8 +675,8 @@
   "jp": "トウヤ「ユミール‥‥」",
   "off": 2575,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Ymir...",
+  "status": "translated",
   "style": 0,
   "text_off": 2577,
   "text_len": 14

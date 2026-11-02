@@ -268,8 +268,8 @@
   "jp": "アイ「‥‥」",
   "off": 1019,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1021,
   "text_len": 8
@@ -466,8 +466,8 @@
   "jp": "ヤマト「‥‥」",
   "off": 1670,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1672,
   "text_len": 9

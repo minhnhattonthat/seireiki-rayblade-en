@@ -59,8 +59,8 @@
   "jp": "トウヤ「それじゃ、頼む」",
   "off": 1991,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Okay, I'm counting on you.",
+  "status": "translated",
   "style": 0,
   "text_off": 1993,
   "text_len": 13
@@ -312,8 +312,8 @@
   "jp": "トウヤ「？」",
   "off": 3849,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 3851,
   "text_len": 7
@@ -1060,8 +1060,8 @@
   "jp": "セリカ「どうしたの？」",
   "off": 8428,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: What's wrong?",
+  "status": "translated",
   "style": 0,
   "text_off": 8430,
   "text_len": 12

@@ -26,8 +26,8 @@
   "jp": "トウヤ「どうした？」",
   "off": 1350,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What's wrong?",
+  "status": "translated",
   "style": 0,
   "text_off": 1352,
   "text_len": 11
@@ -136,8 +136,8 @@
   "jp": "ヤマト「あっ、ユミール」",
   "off": 1713,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Oh, Ymir.",
+  "status": "translated",
   "style": 0,
   "text_off": 1715,
   "text_len": 13
@@ -345,8 +345,8 @@
   "jp": "ガボン「‥‥」",
   "off": 2486,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Gabon: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 2488,
   "text_len": 9

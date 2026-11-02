@@ -85,6 +85,7 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | ロザリー | Rosalie |  | female; Gen's older sister; Liebhofen cook and general helper. |  |
 | ドリス | Doris |  | female; Dei's secretary and partner in public and private life. |  |
 | ヴァレス | Vales |  | male; Solitary Silver Wings commander; former foremost sacred royal knight;  |  |
+| レギレス | Regiles |  | full name レギレス・ブライアー = Regiles Briar | Regiless |
 | ホーレム | Horem |  | male; President of Zigrim; architect of York invasion. |  |
 | レシュ | Resh |  | male; Dawn of an Era member; friend of Barkin. |  |
 | エミィ | Emy |  | female; Gifted alchemist; Ymir's junior colleague. |  |
@@ -275,6 +276,10 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | アルマ方面軍 | Alma Front Army |  |  |  |
 | アガルティア | Agarthia |  |  |  |
 | ヨーク | York |  |  |  |
+| ジグリム | Zigrim |  | bare form of ジグリム共和国 |  |
+| リンバーグ | Limberg |  | bare form of リンバーグ公国 |  |
+| ゼ＝オード | Ze=Ode |  | ＜ゼ＝オードの恐怖＞ = the Ze=Ode Terror (the explosion 109 years ago) | Ze-Ode, Zeode |
+| 三剣騎士 | Three Sword Knights |  | York's royal guard trio (Reduce, Tyron, Ciel) |  |
 | 聖地 | Holy Land |  |  |  |
 | アガルティア王国 | Kingdom of Agarthia |  |  |  |
 | リン・カーマ | Lin Karma |  |  |  |

@@ -81,8 +81,8 @@
   "jp": "トウヤ「よし‥‥」",
   "off": 517,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Alright...",
+  "status": "translated",
   "style": 1,
   "text_off": 521,
   "text_len": 11
@@ -103,8 +103,8 @@
   "jp": "トウヤ「どうした？」",
   "off": 570,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What's wrong?",
+  "status": "translated",
   "style": 1,
   "text_off": 574,
   "text_len": 11
@@ -125,8 +125,8 @@
   "jp": "トウヤ「え⁈」",
   "off": 619,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Huh!?",
+  "status": "translated",
   "style": 1,
   "text_off": 623,
   "text_len": 8
@@ -829,8 +829,8 @@
   "jp": "トウヤ「す、すげぇ‥‥」",
   "off": 3904,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Wh-whoa...",
+  "status": "translated",
   "style": 1,
   "text_off": 3908,
   "text_len": 14

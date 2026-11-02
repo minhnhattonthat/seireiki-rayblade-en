@@ -59,8 +59,8 @@
   "jp": "トウヤ「よ、よう」",
   "off": 200,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: H-hey.",
+  "status": "translated",
   "style": 0,
   "text_off": 202,
   "text_len": 9
@@ -70,8 +70,8 @@
   "jp": "ユミール「ど、どうしたの？」",
   "off": 239,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Wh-what's the matter?",
+  "status": "translated",
   "style": 0,
   "text_off": 241,
   "text_len": 16
@@ -257,8 +257,8 @@
   "jp": "ヤマト「‥‥」",
   "off": 1098,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1100,
   "text_len": 9

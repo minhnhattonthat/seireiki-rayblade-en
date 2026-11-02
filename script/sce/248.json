@@ -92,8 +92,8 @@
   "jp": "アイ「え？」",
   "off": 796,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Huh?",
+  "status": "translated",
   "style": 0,
   "text_off": 798,
   "text_len": 7
@@ -433,8 +433,8 @@
   "jp": "トウヤ「そうだな‥‥」",
   "off": 2501,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Yeah...",
+  "status": "translated",
   "style": 0,
   "text_off": 2503,
   "text_len": 13
@@ -1148,8 +1148,8 @@
   "jp": "トウヤ「どうした？」",
   "off": 6373,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What's wrong?",
+  "status": "translated",
   "style": 1,
   "text_off": 6377,
   "text_len": 11
@@ -1962,8 +1962,8 @@
   "jp": "ヤマト「‥‥」",
   "off": 9896,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 9898,
   "text_len": 9

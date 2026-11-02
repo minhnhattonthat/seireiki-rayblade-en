@@ -48,8 +48,8 @@
   "jp": "‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{nl}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥{ctl:023E}‥",
   "off": 1043,
   "len": 356,
-  "en": "",
-  "status": "todo",
+  "en": ".{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{nl}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.{ctl:023E}.",
+  "status": "translated",
   "style": 0,
   "text_off": 1045,
   "text_len": 353

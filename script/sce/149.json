@@ -444,8 +444,8 @@
   "jp": "ミヤスコ「‼」",
   "off": 1842,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Miyasco: !!",
+  "status": "translated",
   "style": 0,
   "text_off": 1844,
   "text_len": 8
@@ -510,8 +510,8 @@
   "jp": "レスト「ああ」",
   "off": 1979,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Rest: Right.",
+  "status": "translated",
   "style": 0,
   "text_off": 1981,
   "text_len": 7
@@ -917,8 +917,8 @@
   "jp": "アイ「‥‥」",
   "off": 3958,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 3960,
   "text_len": 8

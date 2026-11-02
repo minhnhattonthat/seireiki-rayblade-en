@@ -125,8 +125,8 @@
   "jp": "トウヤ「よし！」",
   "off": 1478,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Alright!",
+  "status": "translated",
   "style": 0,
   "text_off": 1480,
   "text_len": 9
@@ -180,8 +180,8 @@
   "jp": "メル<E1>ィ「お兄ちゃん！」",
   "off": 1718,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Melvi: Big Brother!",
+  "status": "translated",
   "style": 0,
   "text_off": 1720,
   "text_len": 14
@@ -235,8 +235,8 @@
   "jp": "トウヤ「メル<E1>ィ‥‥」",
   "off": 2063,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Melvi...",
+  "status": "translated",
   "style": 0,
   "text_off": 2065,
   "text_len": 13
@@ -543,8 +543,8 @@
   "jp": "ヤマト「‥‥」",
   "off": 3000,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 3002,
   "text_len": 9

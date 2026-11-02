@@ -70,8 +70,8 @@
   "jp": "ヤマト「あっ！」",
   "off": 1402,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Ah!",
+  "status": "translated",
   "style": 0,
   "text_off": 1404,
   "text_len": 9
@@ -114,8 +114,8 @@
   "jp": "トウヤ「？」",
   "off": 1523,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 1525,
   "text_len": 7
@@ -213,8 +213,8 @@
   "jp": "トウヤ「なにが？」",
   "off": 1881,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Know what?",
+  "status": "translated",
   "style": 0,
   "text_off": 1883,
   "text_len": 10

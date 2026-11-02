@@ -246,8 +246,8 @@
   "jp": "アイ「トウヤ！」",
   "off": 1586,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Touya!",
+  "status": "translated",
   "style": 1,
   "text_off": 1590,
   "text_len": 9
@@ -477,8 +477,8 @@
   "jp": "トウヤ「どうした？」",
   "off": 2382,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What's wrong?",
+  "status": "translated",
   "style": 1,
   "text_off": 2386,
   "text_len": 11
@@ -598,8 +598,8 @@
   "jp": "トウヤ「大丈夫か？」",
   "off": 2705,
   "len": 19,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: You okay?",
+  "status": "translated",
   "style": 1,
   "text_off": 2709,
   "text_len": 14
@@ -928,8 +928,8 @@
   "jp": "ジグリム兵士「はっ！」",
   "off": 4148,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Zigrim Soldier: Sir!",
+  "status": "translated",
   "style": 0,
   "text_off": 4150,
   "text_len": 14

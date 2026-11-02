@@ -1225,8 +1225,8 @@
   "jp": "トウヤ「なんで？」",
   "off": 5526,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: How come?",
+  "status": "translated",
   "style": 0,
   "text_off": 5528,
   "text_len": 10
@@ -1610,8 +1610,8 @@
   "jp": "アイ「‥‥」",
   "off": 7367,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 7369,
   "text_len": 8
@@ -2017,8 +2017,8 @@
   "jp": "ユミール「は、はぁ‥‥」",
   "off": 9117,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: I-I see...",
+  "status": "translated",
   "style": 0,
   "text_off": 9119,
   "text_len": 15
@@ -2314,8 +2314,8 @@
   "jp": "メル<E1>ィ「はぁーい」",
   "off": 10323,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Melvi: Okaaay.",
+  "status": "translated",
   "style": 0,
   "text_off": 10325,
   "text_len": 11

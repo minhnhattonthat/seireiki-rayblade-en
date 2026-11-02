@@ -81,8 +81,8 @@
   "jp": "ロア艦長「‥‥」",
   "off": 311,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 313,
   "text_len": 12
@@ -103,8 +103,8 @@
   "jp": "ロア艦長「うむぅ‥‥」",
   "off": 362,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: Mmmh...",
+  "status": "translated",
   "style": 0,
   "text_off": 364,
   "text_len": 15
@@ -334,8 +334,8 @@
   "jp": "トウヤ「？」",
   "off": 1171,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 1173,
   "text_len": 7

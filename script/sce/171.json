@@ -4,8 +4,8 @@
   "jp": "トウヤ「よう」",
   "off": 1128,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Yo.",
+  "status": "translated",
   "style": 0,
   "text_off": 1130,
   "text_len": 7
@@ -92,8 +92,8 @@
   "jp": "トウヤ「？」",
   "off": 1377,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 1379,
   "text_len": 7
@@ -103,8 +103,8 @@
   "jp": "セリカ「‥‥どうしてそんなこと訊くの？」",
   "off": 1390,
   "len": 27,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: ...Why would you ask that?",
+  "status": "translated",
   "style": 0,
   "text_off": 1392,
   "text_len": 24
@@ -312,8 +312,8 @@
   "jp": "トウヤ「どうした？」",
   "off": 2239,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: What's wrong?",
+  "status": "translated",
   "style": 0,
   "text_off": 2241,
   "text_len": 11

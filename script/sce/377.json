@@ -37,8 +37,8 @@
   "jp": "トウヤ「わかった！」",
   "off": 565,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Got it!",
+  "status": "translated",
   "style": 1,
   "text_off": 569,
   "text_len": 11
@@ -180,8 +180,8 @@
   "jp": "トウヤ「おい！」",
   "off": 1269,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Hey!",
+  "status": "translated",
   "style": 1,
   "text_off": 1273,
   "text_len": 9
@@ -246,8 +246,8 @@
   "jp": "トウヤ「？」",
   "off": 1436,
   "len": 12,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 1,
   "text_off": 1440,
   "text_len": 7

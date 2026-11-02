@@ -631,8 +631,8 @@
   "jp": "トウヤ「あっ‥‥」",
   "off": 2672,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Ah...",
+  "status": "translated",
   "style": 0,
   "text_off": 2674,
   "text_len": 11
@@ -895,8 +895,8 @@
   "jp": "カスミ「それじゃ‥‥」",
   "off": 3695,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Well, then...",
+  "status": "translated",
   "style": 0,
   "text_off": 3697,
   "text_len": 13
@@ -1214,8 +1214,8 @@
   "jp": "トウヤ「よし、行こう！」",
   "off": 5220,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: All right, let's go!",
+  "status": "translated",
   "style": 0,
   "text_off": 5222,
   "text_len": 14

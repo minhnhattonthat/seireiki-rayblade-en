@@ -290,8 +290,8 @@
   "jp": "カスミ「うん」",
   "off": 1028,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: Mm.",
+  "status": "translated",
   "style": 0,
   "text_off": 1030,
   "text_len": 7
@@ -367,8 +367,8 @@
   "jp": "ロア艦長「‥‥」",
   "off": 1281,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 1283,
   "text_len": 12
@@ -389,8 +389,8 @@
   "jp": "ロア艦長「うむぅ‥‥」",
   "off": 1332,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Captain Roa: Mmmh...",
+  "status": "translated",
   "style": 0,
   "text_off": 1334,
   "text_len": 15
@@ -620,8 +620,8 @@
   "jp": "トウヤ「？」",
   "off": 2107,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ?",
+  "status": "translated",
   "style": 0,
   "text_off": 2109,
   "text_len": 7
