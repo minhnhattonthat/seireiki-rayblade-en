@@ -2,9 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5 done (2026-11-03); next is 6 (translate). Every text source is inserted in the marker build:
-  D_SCE (49k), EXE message bank (1,230 text + 608 data), D_BMESS battle messages (5,473), resident sub 58
-  (11 Yamato hints). Width gate in docs/widths.md covers dialogue, choice, battle band, menus, hints.
+- **Phase:** 6 (translate) in progress since 2026-11-03.
+  - Pipeline: `tools/batches.py split|check|merge|pairs|terms|status` over 341 batches in `work/tl/` (b001-b008
+    bank menus, b009-b277 scenes, b278 resident, b279-b341 battle messages; 31,661 unique units, dups merged
+    everywhere). `tools/tlform.py` = forms, word-wrap layout (insert.py uses it) and per-line checks. Translators:
+    `docs/translator-brief.md`; review+fix pass: `docs/reviewer-brief.md` (D9). Dialogue format D8 (`Name: text`).
+  - Done: glyph review (56 misread kanji + 三 fixed, tbl re-dumped), glossary seeded from the DC fan glossary
+    (enforced tables + speaker labels + Reference), `docs/synopsis.md`, `docs/style-reference.md`, pilot b009
+    (prologue) merged and shown in-game (`work/qa/pilot/`).
+  - Waves: wave 1 = b001-b008, b010-b039 (8 translator agents). Track which batches are translated / reviewed /
+    merged with `batches.py status` and the `.out.tsv`/`.review.txt` files in work/tl (work/ is gitignored: merge
+    and commit after every wave so nothing lives only there).
+  - Not in batches: 10 bank strings with `{fb}` small-font runs or raw `<XXX>` cells (form `special`, by hand in
+    phase 7); exe_vm/exe_inline (copies of res58 lines).
 - **Done:**
   - Step 0: PCSX-Redux in `tools/pcsx/`, SCPH-5500 BIOS, mkpsxiso/dumpsxiso 2.30 in `tools/mkpsxiso/`, armips 0.11
     in `tools/armips/` (all gitignored; re-fetch: `fetch_emu.py pcsx|psx-bios`, `gh release download` from
@@ -71,15 +81,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Width gate complete (docs/widths.md): dialogue 30x3, choice 30, battle band 36x3 (no wrap, `{nl}` by
     hand), menus = Japanese pixel width, hints 30 (assumed).
 - **Next:**
-  1. Phase 6 prep: review the rest of `tbl/jp.tbl` readings (below) — translators read the Japanese through it,
-     so misreads become mistranslations. Then build the batch files (work/tl/<batch>.tsv) from script/*.json
-     (D_SCE by scene, bank by group, bmess by record), give translators docs/widths.md + glossary.md.
-  2. Phase 6: batch translation with translator agents, reviewer pass, glossary updates.
+  1. Finish phase 6 waves: translate all 341 batches, review+fix each (fresh agent), merge, commit; between waves
+     merge NEW TERMs into glossary.md and run `batches.py terms`. Minors -> docs/polish.md.
+  2. Phase 7: menu rows over width (check warnings) need engine room (D4); the 10 `special` bank strings.
 - **Open items (text, non-blocking):**
-  - `tbl/jp.tbl` readings are still mostly template-match guesses. 17 look-alike misreads are fixed and 50 cells
-    are aliases (`#<code>` suffix). Review the rest before phase 6 by rendering cells
-    (`work/scratch/glyphreview.py`): fix in `tbl/glyph_overrides.tsv`, re-run `build_tbl.py`, then
-    `extract.py dump --force`.
+  - `tbl/jp.tbl`: all shaky/supplement-block cells in use were reviewed glyph-beside-reading (2026-11-03,
+    `work/scratch/glyphsus.py`); the confident anchored cells were not. Translators report odd kanji as UNSURE.
   - `1E xx` op insertions inside text (runtime values: names/items) are plain argument bytes; document them per
     sub-op for the translators.
   - `tbl/en.tbl`: `[XX]` with two hex digits inside an English line is read as a hex byte by the encoder, so
