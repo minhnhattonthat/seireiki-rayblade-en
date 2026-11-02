@@ -3,7 +3,8 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = the directory holding its SKILL.md; `python tools/skill.py` prints it). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 tools/build.py`  -> `build/Seireiki Rayblade (English).cue` + 2 tracks (checks `rom.sha1` first; ~3 s; identity test `tests/test_build.py`)
+- Build:    `python -X utf8 tools/build.py`  -> `build/Seireiki Rayblade (English).cue` + 2 tracks (checks `rom.sha1` first; ~5 s; identity test `tests/test_build.py`)
+- Marker:   `python -X utf8 tools/build.py --marker [--slots 1,2] [--width 30] [--override work/qa/probe.tsv]` (every line replaced by `[op offset] filler`; `--override` swaps single ids for QA probes)
 - Extract:  `python -X utf8 tools/extract.py dump [--force]` -> `script/` (roundtrip + coverage: `extract.py check`)
 - Check:    `python -X utf8 tools/check.py`  (tests + extraction + lint; pre-commit hook runs it; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py "rom/Seireiki Rayblade (Japan).cue" --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the built .cue)
@@ -14,7 +15,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 ## Paths
 - Original disc: `rom/Seireiki Rayblade (Japan).cue` + Track 1 (MODE2 data) + Track 2 (audio) (gitignored; SHA-1s in `rom.sha1`, checked by `tools/check_rom.py`).
 - Emulator: PCSX-Redux nightly 30168.20261102.2 x64 in `tools/pcsx/` (`fetch_emu.py pcsx`, distrib.app manifest dev-win-x64; gitignored). BIOS: `tools/bios/scph5500.bin` (`fetch_emu.py psx-bios`, used automatically). Savestates: `work/states/`.
-- Text: `script/`. Tables: `tbl/`. Glossary: `glossary.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
+- Text: `script/`. Tables: `tbl/`. Glossary: `glossary.md`. Width gate: `docs/widths.md`. RE notes index: `docs/re/README.md`. Fonts and their licences: `docs/fonts.md`.
 
 ## Rulings
 - Edit source files (.py .lua .asm .tbl .json) only with the file-edit tool; scripts here read and analyse, never `.replace()` and write back.

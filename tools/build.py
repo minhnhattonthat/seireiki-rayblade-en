@@ -19,12 +19,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import arc  # noqa: E402
 import check_rom  # noqa: E402
+import insert  # noqa: E402
 
 MK = ROOT / "tools/mkpsxiso/mkpsxiso-2.30-win64"
 CUE = ROOT / "rom/Seireiki Rayblade (Japan).cue"
 DISC = ROOT / "work/disc"
 TREE = DISC / "tree"
-ARCHIVES = ["D_SCE.BIN", "D_BMESS.BIN", "D_SYSTEM.BIN"]  # text lives here (docs/re/text.md); repacked every build
+ARCHIVES = insert.ARCHIVES  # text lives here (docs/re/text.md); repacked every build
 
 
 def unpack():
@@ -36,12 +37,15 @@ def unpack():
                    cwd=DISC, check=True, capture_output=True)
 
 
-def changed_files():
-    """name -> bytes for every file the build rewrites. Phase 3: archives repacked with no edits."""
-    out = {}
+def changed_files(marker=False, slots=None, width=30, override=None):
+    """name -> bytes for every file the build rewrites: insert.py's edits, plus the untouched archives.
+
+    Also returns the write log (offset, expected original, written, reason) for romdiff.py --writes."""
+    out, log = insert.changes(marker=marker, slots=slots, width=width, override=override)
     for name in ARCHIVES:
-        out[name] = arc.pack((TREE / name).read_bytes(), {})
-    return out
+        if name not in out:
+            out[name] = arc.pack((TREE / name).read_bytes(), {})
+    return out, log
 
 
 def layout(files_dir, changed):
@@ -74,13 +78,21 @@ def split(img, cue_text, out, name):
     return cue, t1, t2
 
 
-def build(out=ROOT / "build", name="Seireiki Rayblade (English)", changed=None):
+def build(out=ROOT / "build", name="Seireiki Rayblade (English)", changed=None, marker=False, slots=None,
+          width=30, override=None, identity=False):
+    """Repack the disc. identity=True skips every edit (the phase-3 byte-identical test)."""
     check_rom.check()
     unpack()
-    out = Path(out)
+    out = Path(out).resolve()
     files_dir = out / "files"
     files_dir.mkdir(parents=True, exist_ok=True)
-    changed = changed_files() if changed is None else changed
+    log = []
+    if changed is None:
+        if identity:
+            changed = {n: arc.pack((TREE / n).read_bytes(), {}) for n in ARCHIVES}
+        else:
+            changed, log = changed_files(marker, slots, width, override)
+    (out / "writes.txt").write_text("".join(f"{ln}\n" for ln in log), encoding="utf-8", newline="\n")
     for fn, data in changed.items():
         (files_dir / fn).write_bytes(data)
     (out / "layout.xml").write_text(layout(files_dir, changed), encoding="utf-8", newline="\n")
@@ -98,6 +110,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--out", default=str(ROOT / "build"))
     ap.add_argument("--name", default="Seireiki Rayblade (English)")
+    ap.add_argument("--marker", action="store_true", help="write marker text instead of empty lines")
+    ap.add_argument("--slots", default="", help="comma-separated D_SCE slots to patch (default: all with text)")
+    ap.add_argument("--width", type=int, default=30, help="marker line width in characters")
+    ap.add_argument("--override", default="", help="TSV of id<TAB>text replacing single lines (QA probes)")
     a = ap.parse_args()
-    cue, t1, t2 = build(a.out, a.name)
+    slots = {int(x, 0) for x in a.slots.split(",") if x.strip()} if a.slots else None
+    cue, t1, t2 = build(a.out, a.name, marker=a.marker, slots=slots, width=a.width, override=a.override)
     print(f"built {cue}")

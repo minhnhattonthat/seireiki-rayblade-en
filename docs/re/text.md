@@ -91,3 +91,58 @@ build_tbl.py and then `tools/extract.py dump --force` so the `jp` fields pick th
 - D_SCE slot 447: 63 text blocks (names/terms list); slot 2 is the chapter dispatcher + dev chapter-select menu.
 - Graphics text: see graphics.md.
 
+## Insertion, phase 5 (tools/patch.py, tools/insert.py, tools/font_en.py)
+
+### Opcode operand fixes — verified from the handlers
+`vm.py` decoded `01`/`03` as an 8-bit displacement in an early pass; the handlers say otherwise:
+- **01 / 03** (jump / call relative): operand = s16 at +1, target = op + disp + 1 (handlers 0x80058738, 0x800587A8).
+- **07** (repeat): `07 <count> <s16>` — byte 1 is a counter in state+0x46, not part of the offset; when the
+  counter is still running the handler sets state+0x48 = s16(at +2) + 2 (handler 0x80058920). So the offset sits
+  at +2 and the target is op + disp + 2.
+- **14** (conditional): s16 at +1, target = op + disp + 1; bit 15 of the flag word inverts the test
+  (handler 0x8005A9C0). **02 / 04**: u32 at +1, target = op + u32 + 1.
+- **7A** (choice): `7A count` then `count` u16, each self-relative to its own slot.
+These are all the ops that write an offset into state+0x48. The other pc-writing ops are advances (length +
+sub-op argument bytes, `vm.SUBK`), so text growth does not touch them — a sub-op that carries an offset we have
+not decoded would be missed; `patch.unknown_offset_like` lists candidates per record.
+
+### Archive slot tables are duplicated in the EXE — verified
+The loader does **not** read a rebuilt archive's own header: each of the three archives has a byte-identical copy
+of its slot table (self-relative u32 per slot) inside the EXE, and that copy is what the game uses.
+
+| archive | slots | EXE copy (file offset, RAM) |
+|---|---|---|
+| D_SCE | 448 | 0x9D5FC (RAM 0x8009D5FC) |
+| D_BMESS | 128 | 0x9DCFC |
+| D_SYSTEM | 512 | 0x9787C |
+
+Proof: a marker build that only rewrote D_SCE.BIN loaded scene 1 from the *old* slot offset (0x192C instead of
+0x184C) and the buffer held the record from 0xE0 bytes in; after `insert.py` rewrote the EXE copy the same build
+shows the markers. `insert.py` finds each copy by exact match and fails when the match is not unique.
+
+### Record growth
+`arc.pack` moves the records after an edited one; each record must still fit the 0x8000 script buffer
+(0x800DCE00) — `insert.py` fails the build above that. Records are 4-byte aligned, order preserved. Slot 0 (the
+credits) is mostly FF padding, and a rebuilt record drops that padding, so *later* slots can move backwards;
+that is what exposed the EXE header copy.
+
+### Offset rewriter (tools/patch.py)
+`patch.rebuild(record, edits)` re-emits the record from an instruction partition (text blocks the linear sweep
+found are authoritative — extraction proved they roundtrip; then the control-flow walk; then the rest of the
+sweep) and rewrites the operands above. `patch.verify` re-decodes the result and fails unless every branch, call,
+choice item and text block maps to the same instruction. Identity rebuild is byte-exact for all 448 records
+(tests/test_patch.py). A record's unreachable padding can decode as instructions whose "operands" are data; those
+are reported as `target … has no new home` and left untouched.
+
+### English in the text stream — verified in the marker build
+- Letters and digits already exist as 1-byte 8x16 half-width cells (codes 01-1A A-Z, 1B-34 a-z, 36-3F 0-9,
+  00 = space). Half-width symbols at codes 0x100-0x10D (`F0 xx`): % ~ / = + ? ! : ‥ etc.
+- Half-width punctuation the font lacks (`.,'"-()[];&*<>#$@_\`{}|\^`) is drawn by `tools/font_en.py` into blank
+  8x16 cells 0x114-0x12B (blank in the original font and unused by any extracted Japanese string; 0x35 is a
+  blank cell the Japanese text *does* use — never repurpose it).
+- Encoder: `tbl/en.tbl` (one line per glyph code, controls like the jp table). 30-char marker lines render in a
+  full-width dialogue box (work/qa/marker/story_S01/final.png).
+- Advance: 8 px for a code < 0x200 (one byte per row) and 12 px for a code >= 0x200 (kanji, 16x16). Escape:
+  `[..]` in a string is read as a hex byte, so an English line must not contain `[XX]` with two hex digits.
+
+

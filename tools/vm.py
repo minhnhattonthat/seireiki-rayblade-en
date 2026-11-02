@@ -70,6 +70,16 @@ def s16(a, b):
     return v - 0x10000 if v & 0x8000 else v
 
 
+def jump_disp(rec, i):
+    """s16 displacement of the relative jump/call op at i.
+
+    Ops 01/03/14 carry it at +1. Op 07 is `07 <count> <s16>` — the repeat count comes first (handler
+    0x80058920 loads byte 1 as a counter in state+0x46), so its displacement sits at +2."""
+    if rec[i] == 0x07:
+        return s16(rec[i + 2], rec[i + 3])
+    return s16(rec[i + 1], rec[i + 2])
+
+
 def text_end(rec, i):
     """End (index of the terminating FF) of the text at i, walking it glyph by glyph.
 
@@ -159,11 +169,11 @@ def walk(rec, start=0):
                 work.append(i + 2 + 2 * k + off)
             work.append(i + ln)
         elif op in JUMP_REL:
-            work.append(i + s16(rec[i + 1], rec[i + 2]) + JUMP_REL[op])
-            if op == 0x14:
+            work.append(i + jump_disp(rec, i) + JUMP_REL[op])
+            if op == 0x14 or op == 0x07:
                 work.append(i + ln)
         elif op in CALL_REL:
-            work.append(i + s16(rec[i + 1], rec[i + 2]) + CALL_REL[op])
+            work.append(i + jump_disp(rec, i) + CALL_REL[op])
             work.append(i + ln)
         elif op in JUMP_ABS or op in CALL_ABS:
             bias = JUMP_ABS.get(op) or CALL_ABS[op]

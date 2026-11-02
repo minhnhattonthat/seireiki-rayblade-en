@@ -24,7 +24,7 @@ def test_identity_build():
     out = ROOT / "work/test_build"
     shutil.rmtree(out, ignore_errors=True)
     try:
-        cue, t1, t2 = build.build(out, "ident")
+        cue, t1, t2 = build.build(out, "ident", identity=True)
         want = [ln.split()[0] for ln in (ROOT / "rom.sha1").read_text().splitlines() if ln and ln[0] != "#"]
         assert sha1(t1) == want[0], "track 1 differs from the original"
         assert sha1(t2) == want[1], "track 2 differs from the original"
