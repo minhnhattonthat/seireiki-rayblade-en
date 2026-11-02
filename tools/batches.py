@@ -140,24 +140,41 @@ def split(a):
         batches.append(cur)
     for k, es in enumerate(batches, 1):
         name = f"b{k:03d}"
-        rows, raw, used = [], [], {}
+        rows, raw = [], []
         for e in es:
-            tg = tlform.tags(e["jp"])
+            tg = tlform.tags(jp_plain(e))
             spk = sp.get(tg[0][1], tg[0][1]) if tg else ""
             rows.append("\t".join([e["id"], spk, tlform.form(e), limit(e), view(e)]))
             raw.append({k2: e[k2] for k2 in ("id", "jp", "style", "status") if k2 in e})
-            jp = jp_plain(e)
-            for j, en, avoid, rx in tm:
-                if rx.search(jp):
-                    used[j] = (en, avoid)
-            for _, t, _ in tg:
-                used.setdefault(t, (sp.get(t, "?? (not in glossary)"), ""))
         (TL / f"{name}.tsv").write_text("\n".join(rows) + "\n", encoding="utf-8")
         (TL / f"{name}.json").write_text(json.dumps(raw, ensure_ascii=False, indent=0), encoding="utf-8")
-        (TL / f"{name}.terms.txt").write_text(
-            "".join(f"{j}\t{en}" + (f"\tavoid: {av}" if av else "") + "\n" for j, (en, av) in sorted(used.items())),
-            encoding="utf-8")
+        write_terms(name, raw, tm, sp)
     print(f"{len(batches)} batches, {sum(map(len, batches))} units, {len(seen)} unique")
+
+
+def write_terms(name, raw, tm, sp):
+    """work/tl/<batch>.terms.txt: the glossary rows (and speaker tags) whose JP occurs in the batch."""
+    used = {}
+    for e in raw:
+        jp = jp_plain(e)
+        for j, en, avoid, rx in tm:
+            if rx.search(jp):
+                used[j] = (en, avoid)
+        for _, t, _ in tlform.tags(jp):
+            used.setdefault(t, (sp.get(t, "?? (not in glossary)"), ""))
+    (TL / f"{name}.terms.txt").write_text(
+        "".join(f"{j}\t{en}" + (f"\tavoid: {av}" if av else "") + "\n" for j, (en, av) in sorted(used.items())),
+        encoding="utf-8")
+
+
+def refresh_terms(a):
+    """rewrite every batch's terms file from the current glossary (between waves, after merging NEW TERMs)."""
+    g = glossary()
+    tm, sp = terms(g), speakers(g)
+    names = sorted(p.stem for p in TL.glob("b[0-9][0-9][0-9].json"))
+    for name in names:
+        write_terms(name, json.loads((TL / f"{name}.json").read_text(encoding="utf-8")), tm, sp)
+    print(f"terms refreshed for {len(names)} batches")
 
 
 def read_out(name):
@@ -275,8 +292,9 @@ def main():
     for c in ("check", "merge", "pairs"):
         sub.add_parser(c).add_argument("batches", nargs="+")
     sub.add_parser("status")
+    sub.add_parser("terms")
     a = ap.parse_args()
-    {"split": split, "check": check, "merge": merge, "pairs": pairs, "status": status}[a.cmd](a)
+    {"split": split, "check": check, "merge": merge, "pairs": pairs, "status": status, "terms": refresh_terms}[a.cmd](a)
 
 
 if __name__ == "__main__":
