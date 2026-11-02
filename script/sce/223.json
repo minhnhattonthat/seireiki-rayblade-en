@@ -455,8 +455,8 @@
   "jp": "フェイン「し、しかし‥‥」",
   "off": 2104,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: B-but...",
+  "status": "translated",
   "style": 0,
   "text_off": 2106,
   "text_len": 15
@@ -1423,8 +1423,8 @@
   "jp": "セリカ「え⁈」",
   "off": 5567,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Celica: What!?",
+  "status": "translated",
   "style": 0,
   "text_off": 5569,
   "text_len": 8

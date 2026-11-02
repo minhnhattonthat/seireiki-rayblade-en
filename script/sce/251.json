@@ -664,8 +664,8 @@
   "jp": "トウヤ「なんだそりゃ？」",
   "off": 2349,
   "len": 16,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: The hell's that?",
+  "status": "translated",
   "style": 0,
   "text_off": 2351,
   "text_len": 13
@@ -1280,8 +1280,8 @@
   "jp": "ユミール「は、はい」",
   "off": 5356,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ymir: Y-yes.",
+  "status": "translated",
   "style": 0,
   "text_off": 5358,
   "text_len": 11
@@ -1698,8 +1698,8 @@
   "jp": "クロビス「そりゃそうだ」",
   "off": 7627,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Clovis: Fair enough.",
+  "status": "translated",
   "style": 0,
   "text_off": 7629,
   "text_len": 12

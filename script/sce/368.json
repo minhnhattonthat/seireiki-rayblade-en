@@ -796,8 +796,8 @@
   "jp": "カスミ「ダメ！」",
   "off": 4653,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Kasumi: No!",
+  "status": "translated",
   "style": 1,
   "text_off": 4657,
   "text_len": 9
@@ -906,8 +906,8 @@
   "jp": "シエル「お父さま！」",
   "off": 5054,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Ciel: Father!",
+  "status": "translated",
   "style": 1,
   "text_off": 5058,
   "text_len": 12
@@ -917,8 +917,8 @@
   "jp": "ガリュード「おお、そっちも無事だったか」",
   "off": 5071,
   "len": 28,
-  "en": "",
-  "status": "todo",
+  "en": "Garyud: Oh, so you made it out safe too, eh?",
+  "status": "translated",
   "style": 1,
   "text_off": 5075,
   "text_len": 23

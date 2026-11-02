@@ -26,8 +26,8 @@
   "jp": "ヤマト「あっ、ちょっと待って。{nl}　今回は実戦とちがうから“撤退”はできニャいの。{nl}　だから真剣に戦ったほうがいいよ」",
   "off": 309,
   "len": 76,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Ah, wait a sec. This isn't real combat, so you can't \"Retreat,\" nya. So you'd better fight for real.",
+  "status": "translated",
   "style": 2,
   "text_off": 314,
   "text_len": 70
@@ -37,8 +37,8 @@
   "jp": "トウヤ「ああ、わかった。それじゃ‥‥いくぜっ！」",
   "off": 385,
   "len": 32,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Yeah, got it. Here... I go!",
+  "status": "translated",
   "style": 1,
   "text_off": 389,
   "text_len": 27
@@ -246,8 +246,8 @@
   "jp": "アイ「そうこなくっちゃ！　それじゃ2回戦開始！」",
   "off": 1908,
   "len": 35,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: That's more like it! Round two, start!",
+  "status": "translated",
   "style": 1,
   "text_off": 1912,
   "text_len": 30

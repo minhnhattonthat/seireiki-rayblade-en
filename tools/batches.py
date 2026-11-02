@@ -198,6 +198,7 @@ def read_out(name):
 def check_batch(name, g=None, quiet=False):
     g = g or glossary()
     sp, tm = speakers(g), terms(g)
+    gl_jp = {j for j, *_ in tm}
     raw = json.loads((TL / f"{name}.json").read_text(encoding="utf-8"))
     out, errs = read_out(name)
     warns = []
@@ -221,6 +222,8 @@ def check_batch(name, g=None, quiet=False):
                 if re.search(rf"\b{re.escape(av)}\b", en):
                     er.append(f"glossary: avoid {av!r} (use {t_en})")
         for m in re.finditer(f"([{KATA}]+)(さん|くん|君|ちゃん|様|さま|殿)(?!下)", jp):
+            if m.group(0) in gl_jp:  # a glossary row (バルちゃん = Little Balu) decides the rendering
+                continue
             if len(m.group(1).replace("ー", "")) >= 2 and HONORIFICS[m.group(2)] not in en:  # not ばーさん
                 er.append(f"honorific {m.group(1)}{m.group(2)} needs {HONORIFICS[m.group(2)]}")
         errs += [f"{e['id']}: {x}" for x in er]

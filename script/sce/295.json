@@ -15,8 +15,8 @@
   "jp": "アイ「♪♪♪」",
   "off": 1019,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Hmm hm hmm~",
+  "status": "translated",
   "style": 0,
   "text_off": 1021,
   "text_len": 10
@@ -92,8 +92,8 @@
   "jp": "アイ「‥‥‥‥‥‥‥‥約束‥‥してたんだ」",
   "off": 1220,
   "len": 36,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ................We made... a promise.",
+  "status": "translated",
   "style": 0,
   "text_off": 1222,
   "text_len": 33
@@ -114,8 +114,8 @@
   "jp": "アイ「こんどクッキー‥‥一緒に作ろうって‥‥{nl}　あの子‥‥14才の、普通の女の子だったのに‥‥」",
   "off": 1274,
   "len": 69,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: That next time... we'd bake cookies together... She was just... a normal fourteen-year-old girl...",
+  "status": "translated",
   "style": 0,
   "text_off": 1276,
   "text_len": 66
@@ -356,8 +356,8 @@
   "jp": "トウヤ「そっか」",
   "off": 2235,
   "len": 11,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Oh.",
+  "status": "translated",
   "style": 0,
   "text_off": 2237,
   "text_len": 8

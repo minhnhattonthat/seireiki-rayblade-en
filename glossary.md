@@ -570,7 +570,6 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 蒼き餓狼 | Azure Ravenous Wolf |  |  |  |
 | 銀のレデュース | Reduce the Silver |  |  |  |
 | テオラ | Theora |  |  |  |
-| リーク | liek |  | Agarthian length unit (半径400リーク = a 400-liek radius) | leek |
 | 本陣強襲部隊 | Headquarters Assault Unit |  |  |  |
 | 輜重隊奇襲部隊 | Supply Train Ambush Unit |  |  |  |
 | 錬金学士 | Alchemist |  |  |  |
@@ -698,6 +697,7 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 ## Reference (not enforced; prefer these renderings)
 | JP | EN | max | notes | Avoid |
 |---|---|---|---|---|
+| リーク | liek |  | Agarthian length unit (半径400リーク = a 400-liek radius); also plain "leak" (情報がリーク), so not enforced | leek |
 | 調査機関 | research organization |  |  |  |
 | 医務室 | infirmary |  |  |  |
 | タワー | Tower |  |  |  |

@@ -125,8 +125,8 @@
   "jp": "アイ「ふふふ‥‥」",
   "off": 616,
   "len": 14,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Hehehe...",
+  "status": "translated",
   "style": 0,
   "text_off": 618,
   "text_len": 11
@@ -334,8 +334,8 @@
   "jp": "アイ「別に」",
   "off": 1381,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Nothing.",
+  "status": "translated",
   "style": 0,
   "text_off": 1383,
   "text_len": 7
@@ -620,8 +620,8 @@
   "jp": "アイ「別に」",
   "off": 2526,
   "len": 10,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: Nothing.",
+  "status": "translated",
   "style": 0,
   "text_off": 2528,
   "text_len": 7

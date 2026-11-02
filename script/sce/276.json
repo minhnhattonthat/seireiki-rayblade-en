@@ -455,8 +455,8 @@
   "jp": "フェイン「し、しかし‥‥」",
   "off": 2217,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Fain: B-but...",
+  "status": "translated",
   "style": 0,
   "text_off": 2219,
   "text_len": 15
@@ -2050,8 +2050,8 @@
   "jp": "レデュース「‥‥」",
   "off": 8779,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Reduce: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 8781,
   "text_len": 12
@@ -2424,8 +2424,8 @@
   "jp": "レデュース「‥‥」",
   "off": 10607,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Reduce: ...",
+  "status": "translated",
   "style": 0,
   "text_off": 10609,
   "text_len": 12

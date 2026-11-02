@@ -279,8 +279,8 @@
   "jp": "ヤマト「あっ、行っちゃった‥‥」",
   "off": 1406,
   "len": 22,
-  "en": "",
-  "status": "todo",
+  "en": "Yamato: Ah, he left...",
+  "status": "translated",
   "style": 0,
   "text_off": 1408,
   "text_len": 19
@@ -2809,8 +2809,8 @@
   "jp": "トウヤ「‥‥わかったよ」",
   "off": 11636,
   "len": 17,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...Fine, I got it.",
+  "status": "translated",
   "style": 0,
   "text_off": 11638,
   "text_len": 14

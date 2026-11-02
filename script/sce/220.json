@@ -928,8 +928,8 @@
   "jp": "アイ「‥‥どうしたの？」",
   "off": 4755,
   "len": 18,
-  "en": "",
-  "status": "todo",
+  "en": "Ai: ...What is it?",
+  "status": "translated",
   "style": 0,
   "text_off": 4757,
   "text_len": 15
@@ -1049,8 +1049,8 @@
   "jp": "トウヤ「そうか？」",
   "off": 5099,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Have I?",
+  "status": "translated",
   "style": 0,
   "text_off": 5101,
   "text_len": 10

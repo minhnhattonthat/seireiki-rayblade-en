@@ -961,8 +961,8 @@
   "jp": "ミヤスコ「それでは失礼します」",
   "off": 4131,
   "len": 20,
-  "en": "",
-  "status": "todo",
+  "en": "Miyasco: Excuse us, then.",
+  "status": "translated",
   "style": 0,
   "text_off": 4133,
   "text_len": 17
@@ -1566,8 +1566,8 @@
   "jp": "トウヤ「そうか？」",
   "off": 5727,
   "len": 13,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: Have I?",
+  "status": "translated",
   "style": 0,
   "text_off": 5729,
   "text_len": 10
@@ -1720,8 +1720,8 @@
   "jp": "トウヤ「なんかヘンだぞ」",
   "off": 6117,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: You're acting kinda weird.",
+  "status": "translated",
   "style": 0,
   "text_off": 6119,
   "text_len": 12
@@ -1885,8 +1885,8 @@
   "jp": "トウヤ「‥‥ったく」",
   "off": 6584,
   "len": 15,
-  "en": "",
-  "status": "todo",
+  "en": "Touya: ...Geez.",
+  "status": "translated",
   "style": 0,
   "text_off": 6586,
   "text_len": 12
