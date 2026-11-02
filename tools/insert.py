@@ -347,6 +347,13 @@ def bank_patch(exe, edits, report, res=None):
         res_at = new_root + len(blob)
         blob += res_blob(res, res_at, report)
         exe(exe.buf, xo(RES_PTR), res_at.to_bytes(4, "little"), "resident script table pointer")
+    vwf_at = new_root + len(blob)                  # variable-width hooks + advance table (tools/font_en.py)
+    vwf, sites = font_en.vwf_blob(vwf_at)
+    blob += vwf
+    for addr, orig, new in sites:
+        if exe.orig[xo(addr):xo(addr) + len(orig)] != orig:
+            raise SystemExit(f"EXE: unexpected code at VWF hook site {addr:#x}")
+        exe(exe.buf, xo(addr), new, f"VWF hook at {addr:#x}")
     end = new_root + len(blob)
     heap = (end + 0x7FF) & ~0x7FF
     size = (heap - EXE_BASE + 0x7FF) & ~0x7FF  # PS-X EXE text size is whole sectors
@@ -417,8 +424,7 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
     if bm:
         bmess_exe(exe)
     bank, res = bank_edits(marker, override), res_edits(marker, width, override)
-    if bank or res:
-        bank_patch(exe, bank, report, res)
+    bank_patch(exe, bank, report, res)             # always: it also places the VWF hook
     font_en.patch(exe.buf, exe)
     if exe.log and bytes(exe.buf) != exe.orig:
         files[EXE_NAME] = bytes(exe.buf)

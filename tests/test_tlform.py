@@ -16,6 +16,13 @@ def test_wrap_dialogue_pages():
     assert " ".join(lines) == en
 
 
+def test_wrap_balanced_no_stub():
+    lines = tlform.wrap("Koichiro: She's coming over here... Come on, Touya... ...Don't say I didn't warn you~", 30, 28)
+    assert len(lines) == 4 and min(map(len, lines)) >= 15, lines   # greedy left "you~" alone on line 4
+    assert tlform.wrap("one  two", 30) == ["one  two"]
+    assert tlform.wrap("", 30) == [""]
+
+
 def test_check_speaker_codes_and_ascii():
     e = {"id": "sce001:00010", "jp": "トウヤ「あ{ctl:3C3E}い」{page}ヤマト（う）", "style": 0}
     assert tlform.check(e, "Touya: Ah{ctl:3C3E} hey{page}Yamato: (Hm.)", SP) == ([], [])

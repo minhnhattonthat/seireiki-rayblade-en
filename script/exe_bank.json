@@ -6,7 +6,7 @@
   "index": 1,
   "addr": 2147571621,
   "len": 47,
-  "en": "End Phase{nl}Unit List{nl}Counterattack Orders{nl}Mission Objectives{nl}{ctl:FFFF}System{nl}Save",
+  "en": "End Phase{nl}Unit List{nl}Orders{nl}Objectives{nl}{ctl:FFFF}System{nl}Save",
   "status": "translated"
  },
  {
@@ -36,7 +36,7 @@
   "index": 4,
   "addr": 2147571761,
   "len": 71,
-  "en": "Melee {ctl:FFFF}{nl}Ranged {ctl:FFFF}{nl}Defense {ctl:FFFF}{nl}Accuracy {ctl:FFFF}{nl}Evasion {ctl:FFFF}{ctl:8880}Trust Commands{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}",
+  "en": "Melee{ctl:8680}{ctl:FFFF}{nl}{ctl:8082}Ranged{ctl:8682}{ctl:FFFF}{nl}{ctl:8084}Defense{ctl:8684}{ctl:FFFF}{nl}{ctl:8086}Accuracy{ctl:8686}{ctl:FFFF}{nl}{ctl:8088}Evasion{ctl:8688}{ctl:FFFF}{ctl:8880}Trust{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -126,7 +126,7 @@
   "index": 13,
   "addr": 2147572007,
   "len": 5,
-  "en": "Resupply",
+  "en": "Supply",
   "status": "translated"
  },
  {
@@ -146,7 +146,7 @@
   "index": 15,
   "addr": 2147572016,
   "len": 5,
-  "en": "Transform",
+  "en": "Morph",
   "status": "translated"
  },
  {
@@ -156,7 +156,7 @@
   "index": 16,
   "addr": 2147572021,
   "len": 5,
-  "en": "Abilities",
+  "en": "Stats",
   "status": "translated"
  },
  {
@@ -176,7 +176,7 @@
   "index": 18,
   "addr": 2147572031,
   "len": 6,
-  "en": "Retreat{nl}",
+  "en": "Retire{nl}",
   "status": "translated"
  },
  {
@@ -536,7 +536,7 @@
   "index": 69,
   "addr": 2147572283,
   "len": 5,
-  "en": "Ground",
+  "en": "Land",
   "status": "translated"
  },
  {
@@ -546,7 +546,7 @@
   "index": 71,
   "addr": 2147572288,
   "len": 5,
-  "en": "Flying",
+  "en": "Air",
   "status": "translated"
  },
  {
@@ -746,7 +746,7 @@
   "index": 96,
   "addr": 2147572471,
   "len": 142,
-  "en": "{ctl:FFFF}{ctl:8780}Weapon{ctl:9580}Attack{ctl:9880}Range{ctl:9D80}Accuracy{ctl:FFFF}{ctl:8282}{ctl:FFFF}{ctl:9582}{ctl:FFFF}{ctl:9882}{ctl:FFFF}{ctl:9D82}{ctl:FFFF}{ctl:FFFF}{ctl:8284}{ctl:FFFF}{ctl:9584}{ctl:FFFF}{ctl:9884}{ctl:FFFF}{ctl:9D84}{ctl:FFFF}{ctl:FFFF}{ctl:8286}{ctl:FFFF}{ctl:9586}{ctl:FFFF}{ctl:9886}{ctl:FFFF}{ctl:9D86}{ctl:FFFF}{ctl:FFFF}{ctl:8288}{ctl:FFFF}{ctl:9588}{ctl:FFFF}{ctl:9888}{ctl:FFFF}{ctl:9D88}{ctl:FFFF}",
+  "en": "{ctl:FFFF}{ctl:8780}Weapon{ctl:9580}Atk{ctl:9880}Range{ctl:9D80}Hit{ctl:FFFF}{ctl:8282}{ctl:FFFF}{ctl:9582}{ctl:FFFF}{ctl:9882}{ctl:FFFF}{ctl:9D82}{ctl:FFFF}{ctl:FFFF}{ctl:8284}{ctl:FFFF}{ctl:9584}{ctl:FFFF}{ctl:9884}{ctl:FFFF}{ctl:9D84}{ctl:FFFF}{ctl:FFFF}{ctl:8286}{ctl:FFFF}{ctl:9586}{ctl:FFFF}{ctl:9886}{ctl:FFFF}{ctl:9D86}{ctl:FFFF}{ctl:FFFF}{ctl:8288}{ctl:FFFF}{ctl:9588}{ctl:FFFF}{ctl:9888}{ctl:FFFF}{ctl:9D88}{ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -756,7 +756,7 @@
   "index": 97,
   "addr": 2147572613,
   "len": 38,
-  "en": "Required Fighting Spirit {ctl:FFFF} ({ctl:FFFF}){nl}Prana Cost {ctl:FFFF} ({ctl:FFFF})",
+  "en": "Spirit Req. {ctl:FFFF} ({ctl:FFFF}){nl}Prana Cost {ctl:FFFF} ({ctl:FFFF})",
   "status": "translated"
  },
  {
@@ -856,7 +856,7 @@
   "index": 107,
   "addr": 2147572747,
   "len": 9,
-  "en": "Register Topic",
+  "en": "Add Topic",
   "status": "translated"
  },
  {
@@ -976,7 +976,7 @@
   "index": 121,
   "addr": 2147572954,
   "len": 31,
-  "en": "Counterattack{nl}Select Weapon{nl}Evade{nl}{ctl:FFFF}Defend",
+  "en": "Counter{nl}Weapon{nl}Evade{nl}{ctl:FFFF}Defend",
   "status": "translated"
  },
  {
@@ -1326,7 +1326,7 @@
   "index": 162,
   "addr": 2147573821,
   "len": 13,
-  "en": "Height Difference{ctl:8580}{ctl:FFFF}",
+  "en": "Height{ctl:8580}{ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -1416,7 +1416,7 @@
   "index": 171,
   "addr": 2147573975,
   "len": 9,
-  "en": "Mission Objectives",
+  "en": "Objectives",
   "status": "translated"
  },
  {
@@ -1426,7 +1426,7 @@
   "index": 172,
   "addr": 2147573984,
   "len": 14,
-  "en": "Victory Condition: {ctl:FFFF}",
+  "en": "Victory: {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -1436,7 +1436,7 @@
   "index": 173,
   "addr": 2147573998,
   "len": 14,
-  "en": "Defeat Condition: {ctl:FFFF}",
+  "en": "Defeat: {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -1446,7 +1446,7 @@
   "index": 174,
   "addr": 2147574012,
   "len": 45,
-  "en": "Manual{nl}Always Counterattack{nl}Be Aggressive{nl}Don't Overdo It{nl}Always Defend",
+  "en": "Manual{nl}Counter{nl}Aggressive{nl}Cautious{nl}Defend",
   "status": "translated"
  },
  {
@@ -1506,7 +1506,7 @@
   "index": 180,
   "addr": 2147574085,
   "len": 11,
-  "en": "Ally Unit List",
+  "en": "Ally Units",
   "status": "translated"
  },
  {
@@ -1516,7 +1516,7 @@
   "index": 181,
   "addr": 2147574096,
   "len": 11,
-  "en": "Enemy Unit List",
+  "en": "Enemy Units",
   "status": "translated"
  },
  {
@@ -1526,7 +1526,7 @@
   "index": 182,
   "addr": 2147574107,
   "len": 11,
-  "en": "Full Unit List",
+  "en": "All Units",
   "status": "translated"
  },
  {
@@ -1606,7 +1606,7 @@
   "index": 190,
   "addr": 2147574396,
   "len": 21,
-  "en": "{ctl:FFFF}/{ctl:FFFF}    Counterattack Orders",
+  "en": "{ctl:FFFF}/{ctl:FFFF}    Orders",
   "status": "translated"
  },
  {
@@ -1646,7 +1646,7 @@
   "index": 194,
   "addr": 2147574684,
   "len": 36,
-  "en": "No Memory Card is inserted in the Memory Card slot.",
+  "en": "No Memory Card is in the Memory Card slot.",
   "status": "translated"
  },
  {
@@ -1826,7 +1826,7 @@
   "index": 212,
   "addr": 2147575179,
   "len": 54,
-  "en": "DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Turns --{nl}Cleared through Episode {ctl:FFFF} \"{ctl:FFFF}\"",
+  "en": "DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Turns --{nl}Episode {ctl:FFFF} \"{ctl:FFFF}\"",
   "status": "translated"
  },
  {
@@ -1956,7 +1956,7 @@
   "index": 225,
   "addr": 2147575535,
   "len": 18,
-  "en": "Cleared through Episode {ctl:FFFF} \"{ctl:FFFF}\"",
+  "en": "Episode {ctl:FFFF} \"{ctl:FFFF}\"",
   "status": "translated"
  },
  {
@@ -2056,7 +2056,7 @@
   "index": 235,
   "addr": 2147575761,
   "len": 51,
-  "en": "DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Private Phase{nl}Cleared through Episode {ctl:FFFF} \"{ctl:FFFF}\"",
+  "en": "DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Private Phase{nl}Episode {ctl:FFFF} \"{ctl:FFFF}\"",
   "status": "translated"
  },
  {
@@ -2276,7 +2276,7 @@
   "index": 4,
   "addr": 2147576512,
   "len": 39,
-  "en": "Raises the chosen ally unit's Movement by +3 for one move.",
+  "en": "Raises the chosen ally unit's Movement{nl}by +3 for one move.",
   "status": "translated"
  },
  {
@@ -2326,7 +2326,7 @@
   "index": 9,
   "addr": 2147576733,
   "len": 32,
-  "en": "Gives an ally who has finished acting another action.",
+  "en": "Gives an ally who has finished acting{nl}another action.",
   "status": "translated"
  },
  {
@@ -2336,7 +2336,7 @@
   "index": 10,
   "addr": 2147576765,
   "len": 75,
-  "en": "The chosen unit takes one attack from the side or rear{nl}head-on, cancelling the hit and damage modifiers.",
+  "en": "The chosen unit takes one attack from the{nl}side or rear head-on, cancelling the hit{nl}and damage modifiers.",
   "status": "translated"
  },
  {
@@ -2346,7 +2346,7 @@
   "index": 11,
   "addr": 2147576840,
   "len": 44,
-  "en": "Takes the damage the chosen ally unit would receive{nl}in its place.",
+  "en": "Takes the damage the chosen ally unit{nl}would receive in its place.",
   "status": "translated"
  },
  {
@@ -2456,7 +2456,7 @@
   "index": 29,
   "addr": 2147577085,
   "len": 81,
-  "en": "Counterattacks unless the next attack could destroy{nl}it. If it could, it evades or defends according{nl}to the unit's traits.",
+  "en": "Counterattacks unless the next attack could{nl}destroy it; then it evades or defends{nl}according to the unit's traits.",
   "status": "translated"
  },
  {
@@ -2476,7 +2476,7 @@
   "index": 31,
   "addr": 2147577218,
   "len": 60,
-  "en": "Never counterattacks: evades if its evasion is high,{nl}defends if its defense is high.",
+  "en": "Never counterattacks. Evades if its evasion{nl}is high, defends if its defense is high.",
   "status": "translated"
  },
  {
@@ -2506,7 +2506,7 @@
   "index": 34,
   "addr": 2147577476,
   "len": 70,
-  "en": "Depending on where they move, units may be hidden{nl}behind buildings and the like. Set this ON to always{nl}show them.",
+  "en": "Depending on where they move, units may be{nl}hidden behind buildings and the like. Set this{nl}ON to always show them.",
   "status": "translated"
  },
  {
@@ -2526,7 +2526,7 @@
   "index": 36,
   "addr": 2147577612,
   "len": 59,
-  "en": "Set this ON to show squares on the tactical map (the{nl}grid that marks movement range).",
+  "en": "Set this ON to show squares on the tactical{nl}map (the grid that marks movement range).",
   "status": "translated"
  },
  {
@@ -2536,7 +2536,7 @@
   "index": 37,
   "addr": 2147577671,
   "len": 65,
-  "en": "Type A: The cursor moves with the directional buttons.{nl}Type B: The cursor moves diagonally across the map.",
+  "en": "Type A: The cursor moves with the D-pad.{nl}Type B: The cursor moves diagonally on the map.",
   "status": "translated"
  },
  {
@@ -2606,7 +2606,7 @@
   "index": 49,
   "addr": 2147578027,
   "len": 18,
-  "en": "{ctl:9780}Accuracy{ctl:9C80}{ctl:FFFF}%",
+  "en": "{ctl:9780}Hit{ctl:9C80}{ctl:FFFF}%",
   "status": "translated"
  },
  {
@@ -7696,7 +7696,7 @@
   "index": 20,
   "addr": 2147585102,
   "len": 39,
-  "en": "Move a Spirit Mech other than Rayblade (Touya){nl}next to the barrier",
+  "en": "Move a Spirit Mech other than Rayblade{nl}(Touya) next to the barrier",
   "status": "translated"
  },
  {
@@ -7876,7 +7876,7 @@
   "index": 38,
   "addr": 2147585646,
   "len": 39,
-  "en": "Escape this battle zone{nl}(reach the top-right edge) or wipe out the enemy",
+  "en": "Escape this battle zone (reach the{nl}top-right edge) or wipe out the enemy",
   "status": "translated"
  },
  {

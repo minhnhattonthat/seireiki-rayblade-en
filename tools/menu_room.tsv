@@ -1,0 +1,63 @@
+# Measured room (px) for menu rows that no pen move bounds; read by tools/lint.py (longest matching id prefix wins).
+# Evidence: window cell chains dumped from RAM (tools/debug/cells.py on work/qa/p7cells/<scene>/d000020.ram.bin),
+# or the code that places the field. Rows not listed fall back to their bank group's widest JP row (groups 1-11)
+# or the JP row's own width (group 0).
+# id/prefix	px	evidence
+bank00:009	32	battle command window: cells w32 (battle_unit_menu win03)
+bank00:00A	32	battle command window
+bank00:00B	32	battle command window
+bank00:00C	32	battle command window
+bank00:00D	32	battle command window
+bank00:00E	32	battle command window
+bank00:00F	32	battle command window
+bank00:010	32	battle command window
+bank00:011	32	battle command window
+bank00:012	32	battle command window
+bank01:	256	help lines: 4 x 64 cell chains (int_system dump: system help at x 40; battle_trust win04)
+bank06:	200	location label: 4 x 64 chain (choice_090 win00), right-aligned at 0x139 - width (0x8006E694)
+bank08:	256	event title: centred from its width (0x8007C7FC) in a 4 x 64 line
+bank09:	200	intermission Move destinations: 4 x 64 list lines (intermission dumps)
+bank10:	186	episode title inside `Episode N "title"` (66 px) on 256-px save/intermission lines (bank00:0D4/0E1/0EB)
+bank11:	192	character profile list: 4 x 64 lines at x 64 (sys_character dump)
+bank00:001	64	phase menu: 64-px cells (inferred: its JP rows reach 56 px)
+bank00:018	120	unit ability list: 2 x 64 cells (battle_ability win11/12), minus the indent
+bank00:019	120	unit ability list
+bank00:01A	120	unit ability list
+bank00:01B	120	unit ability list
+bank00:01C	120	unit ability list
+bank00:01D	120	unit ability list
+bank00:03	60	trust command names in the ability screen trust column (64-px cell, minus the bullet)
+bank00:04	120	unit ability list
+bank00:05	120	unit ability list
+bank00:067	64	status panel name: 64-px cell
+bank00:06D	64	debug save menu (inferred 64-px cells)
+bank00:07	64	battle result popups / directions (inferred 64-px cells)
+bank00:079	64	counter menu (inferred 64-px cells)
+bank00:081	32	Yes/No window (inferred 32-px cells)
+bank00:082	256	message line (4 x 64 chain)
+bank00:083	256	system list / profile title line (int_system, sys_character dumps)
+bank00:084	256	system list / profile title line
+bank00:087	256	character profile line at x 64 (sys_character dump)
+bank00:089	256	unit profile line (sys_unit dump)
+bank00:08A	128	intermission panel line (4 x 64 chain; half kept for the value)
+bank00:08E	128	intermission panel line
+bank00:08F	128	intermission menu (4 x 64 chain, no frame)
+bank00:09	256	message line
+bank00:0A4	256	message line
+bank00:0A8	256	sortie header line (sortie_select win03)
+bank00:0AB	64	window title (inferred 64-px cells)
+bank00:0AE	64	order list (inferred 64-px cells)
+bank00:0B	64	unit list titles / sort keys (inferred 64-px cells)
+bank00:0C	256	memory card message lines (int_save / continue dumps)
+bank00:0D	256	save slot lines (int_save / continue dumps)
+bank00:0E	128	intermission menus (4 x 64 chain, no frame)
+bank00:0ED	256	message line
+bank00:0EE	256	message line
+bank00:0F	64	memory album menus (inferred 64-px cells)
+bank05:	208	objective after `Victory: ` / `Defeat: ` (46 px) on a 256-px line
+bank00:0BF	256	orders screen title line (4 x 64 chain)
+bank00:0EB	256	save slot line
+bank00:0F2	256	message line
+bank00:0F8	256	message line
+bank00:0F9	128	intermission menu (4 x 64 chain, no frame)
+bank00:0FA	256	message line

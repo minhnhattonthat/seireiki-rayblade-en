@@ -1,0 +1,31 @@
+bank00:002: no English (special)
+bank00:003: no English (special)
+bank00:021: no English (special)
+bank00:022: menu text 54 px > room 40 px: 'Friendship {ctl:FFFF}'
+bank00:023: menu text 56 px > room 40 px: 'Encourage {ctl:FFFF}'
+bank00:024: menu text 56 px > room 40 px: 'Accelerate {ctl:FFFF}'
+bank00:026: menu text 44 px > room 40 px: 'Intuition {ctl:FFFF}'
+bank00:027: menu text 52 px > room 40 px: 'Iron Arms {ctl:FFFF}'
+bank00:028: menu text 46 px > room 40 px: 'Iron Wall {ctl:FFFF}'
+bank00:029: menu text 50 px > room 40 px: 'Act Again {ctl:FFFF}'
+bank00:02A: menu text 58 px > room 40 px: 'Awareness {ctl:FFFF}'
+bank00:0A0: no English (special)
+bank00:0F4: no English (special)
+bank01:020: no English (special)
+bank04:005: menu text 192 px > room 128 px: 'True One-Sword Art: Vanishing Shadow'
+bank04:006: menu text 208 px > room 128 px: 'First Blade: Mighty Thunder Triumph Slash'
+bank04:014: menu text 226 px > room 128 px: 'Seven Flashes: Dragon Command Rift Breaker'
+bank04:01A: menu text 142 px > room 128 px: 'Second Blade: Dragon Slayer'
+bank04:02C: menu text 132 px > room 128 px: 'Heavenly Dance, Sky Rend'
+bank04:052: menu text 224 px > room 128 px: 'Phantom Night Blade: Heaven Soar, Sky Rend'
+bank04:054: menu text 254 px > room 128 px: 'Heavenly Blade: Violet Flame Supreme Victory Slash'
+bank04:057: menu text 228 px > room 128 px: 'Twin Supremacy: Gale Demon Wolf Flash Slash'
+bank04:058: menu text 152 px > room 128 px: 'Shura Blade: Azure Supremacy'
+bank04:05B: menu text 132 px > room 128 px: 'Shura Blade: Crimson Fang'
+bank04:05D: menu text 230 px > room 128 px: 'Fury: Flame Wave, Heavenward Thunder Burst'
+bank04:064: menu text 142 px > room 128 px: 'Rondo in a Breeze of Sorrow'
+bank04:067: menu text 144 px > room 128 px: 'Pleasures of the Mortal Form'
+bank04:0C0: menu text 136 px > room 128 px: 'Imperial Sword Deiz Zeipher'
+bank04:0C9: menu text 192 px > room 128 px: 'True One-Sword Art: Vanishing Shadow'
+bank04:0CA: menu text 188 px > room 128 px: 'Mighty Sword Zeulear (Malfunctioning)'
+bank04:0D9: menu text 188 px > room 128 px: 'Mighty Sword Zeulear (Malfunctioning)'

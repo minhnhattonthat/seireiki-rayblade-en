@@ -1,0 +1,54 @@
+# Menu-fit rewordings (phase 7, D10): rows that overflowed their window even with the VWF. Applied with
+# `python -X utf8 tools/set_en.py docs/menu-fit.tsv`. Each is a shorter synonym or label chosen for a fixed narrow
+# window (D4: abbreviation only as a flagged last resort; the ones marked ABBR below are abbreviations).
+# Rooms: tools/menu_room.tsv. Owner may override any line; widening a window (engine) is the alternative.
+# id	English
+# Phase menu (64-px cells, inferred from the 56-px JP row): 反撃命令 Counterattack Orders -> Orders, 作戦目的 -> Objectives
+bank00:001	End Phase{nl}Unit List{nl}Orders{nl}Objectives{nl}{ctl:FFFF}System{nl}Save
+# Ability screen stats: value column by pen move (col 6) instead of JP full-width padding; trust column header (64 px)
+bank00:004	Melee{ctl:8680}{ctl:FFFF}{nl}{ctl:8082}Ranged{ctl:8682}{ctl:FFFF}{nl}{ctl:8084}Defense{ctl:8684}{ctl:FFFF}{nl}{ctl:8086}Accuracy{ctl:8686}{ctl:FFFF}{nl}{ctl:8088}Evasion{ctl:8688}{ctl:FFFF}{ctl:8880}Trust{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}
+# Battle command window: cells 32 px wide (synonyms that fit)
+bank00:00D	Supply
+bank00:00F	Morph
+bank00:010	Stats
+bank00:012	Retire{nl}
+bank00:0C2	No Memory Card is in the Memory Card slot.
+# Ability screen accuracy column is 40 px
+bank01:031	{ctl:9780}Hit{ctl:9C80}{ctl:FFFF}%
+# Help text (256-px rows, up to 3 rows: tlform.HELP_ROWS)
+bank01:004	Raises the chosen ally unit's Movement{nl}by +3 for one move.
+bank01:009	Gives an ally who has finished acting{nl}another action.
+bank01:00A	The chosen unit takes one attack from the{nl}side or rear head-on, cancelling the hit{nl}and damage modifiers.
+bank01:00B	Takes the damage the chosen ally unit{nl}would receive in its place.
+bank01:01D	Counterattacks unless the next attack could{nl}destroy it; then it evades or defends{nl}according to the unit's traits.
+bank01:01F	Never counterattacks. Evades if its evasion{nl}is high, defends if its defense is high.
+bank01:022	Depending on where they move, units may be{nl}hidden behind buildings and the like. Set this{nl}ON to always show them.
+bank01:024	Set this ON to show squares on the tactical{nl}map (the grid that marks movement range).
+bank01:025	Type A: The cursor moves with the D-pad.{nl}Type B: The cursor moves diagonally on the map.
+# Mission objectives (208 px after the `Victory: ` label)
+bank05:014	Move a Spirit Mech other than Rayblade{nl}(Touya) next to the barrier
+bank05:026	Escape this battle zone (reach the{nl}top-right edge) or wipe out the enemy
+# Movement type values: the size panel frame clips "Ground" at col 8
+bank00:045	Land
+bank00:047	Air
+# Weapon list header: Attack column is 24 px wide (ABBR Atk), Accuracy -> Hit
+bank00:060	{ctl:FFFF}{ctl:8780}Weapon{ctl:9580}Atk{ctl:9880}Range{ctl:9D80}Hit{ctl:FFFF}{ctl:8282}{ctl:FFFF}{ctl:9582}{ctl:FFFF}{ctl:9882}{ctl:FFFF}{ctl:9D82}{ctl:FFFF}{ctl:FFFF}{ctl:8284}{ctl:FFFF}{ctl:9584}{ctl:FFFF}{ctl:9884}{ctl:FFFF}{ctl:9D84}{ctl:FFFF}{ctl:FFFF}{ctl:8286}{ctl:FFFF}{ctl:9586}{ctl:FFFF}{ctl:9886}{ctl:FFFF}{ctl:9D86}{ctl:FFFF}{ctl:FFFF}{ctl:8288}{ctl:FFFF}{ctl:9588}{ctl:FFFF}{ctl:9888}{ctl:FFFF}{ctl:9D88}{ctl:FFFF}
+# Weapon detail (ABBR Req.)
+bank00:061	Spirit Req. {ctl:FFFF} ({ctl:FFFF}){nl}Prana Cost {ctl:FFFF} ({ctl:FFFF})
+bank00:06B	Add Topic
+# Counter menu when attacked (64-px cells inferred): 反撃開始 -> Counter, 武器選択 -> Weapon
+bank00:079	Counter{nl}Weapon{nl}Evade{nl}{ctl:FFFF}Defend
+bank00:0A2	Height{ctl:8580}{ctl:FFFF}
+bank00:0AB	Objectives
+bank00:0AC	Victory: {ctl:FFFF}
+bank00:0AD	Defeat: {ctl:FFFF}
+# Counterattack order types (64-px list)
+bank00:0AE	Manual{nl}Counter{nl}Aggressive{nl}Cautious{nl}Defend
+bank00:0B4	Ally Units
+bank00:0B5	Enemy Units
+bank00:0B6	All Units
+bank00:0BE	{ctl:FFFF}/{ctl:FFFF}    Orders
+# Save/intermission lines: `Episode N "title"` (the 256-px line cannot hold "Cleared through" + a long title)
+bank00:0D4	DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Turns --{nl}Episode {ctl:FFFF} "{ctl:FFFF}"
+bank00:0E1	Episode {ctl:FFFF} "{ctl:FFFF}"
+bank00:0EB	DATA{ctl:FFFF}  Touya      LV{ctl:FFFF}  Private Phase{nl}Episode {ctl:FFFF} "{ctl:FFFF}"

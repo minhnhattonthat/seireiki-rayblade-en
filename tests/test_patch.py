@@ -215,3 +215,26 @@ def test_bmess_rebuild_identity_and_growth():
 def test_canary_needs_no_missing_glyph():
     for ch in font_en.CANARY:
         assert ch in font_en.GLYPHS.values() or ch in font_en.EXISTING or ch in font_en.LATIN, ch
+
+
+@needs_disc
+def test_vwf_hooks():
+    """VWF: every hook site holds the expected original code, no branch lands inside a replaced word, each stub
+    jumps back where the original went, and the advance table matches the art."""
+    exe = (TREE / insert.EXE_NAME).read_bytes()
+    at = 0x800DD000
+    blob, sites = font_en.vwf_blob(at)
+    md = capstone.Cs(capstone.CS_ARCH_MIPS, capstone.CS_MODE_MIPS32 + capstone.CS_MODE_LITTLE_ENDIAN)
+    md.skipdata = True
+    words = {a + 4 * k for a, orig, _ in sites for k in range(1, len(orig) // 4)}   # delay slots we replace
+    for ins in md.disasm(exe[0x800:], 0x80010000):
+        if ins.mnemonic.startswith(("b", "j")) and ins.op_str.split(", ")[-1].startswith("0x"):
+            assert int(ins.op_str.split(", ")[-1], 16) not in words, hex(ins.address)
+    for a, orig, new in sites:
+        assert exe[insert.xo(a):insert.xo(a) + len(orig)] == orig, hex(a)
+    code = list(md.disasm(blob[:len(blob) - 0x200], at))
+    backs = [int(i.op_str, 16) for i in code if i.mnemonic == "j"]
+    assert backs == [font_en.BACK, font_en.WIDTH_BACK, font_en.WIDTH_BACK]
+    table = blob[-0x200:]
+    assert table[font_en.code_of("i")] == 2 and table[font_en.code_of("M")] == 8 and table[0x40] == 8
+    assert table[0] == font_en.SPACE_ADV

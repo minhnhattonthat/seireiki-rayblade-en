@@ -212,23 +212,31 @@ def check_batch(name, g=None, quiet=False):
         if en is None:
             errs.append(f"{e['id']}: missing")
             continue
-        jp = jp_plain(e)
-        er, wa = tlform.check(dict(e, jp=jp), en, sp)
-        low = en.lower()
-        for j, t_en, avoid, rx in tm:
-            if rx.search(jp) and t_en.lower() not in low and t_en.split(" ")[0].lower() not in low:
-                er.append(f"glossary: {j} -> {t_en} missing")
-            for av in filter(None, (x.strip() for x in avoid.split(","))):
-                if re.search(rf"\b{re.escape(av)}\b", en):
-                    er.append(f"glossary: avoid {av!r} (use {t_en})")
-        for m in re.finditer(f"([{KATA}]+)(さん|くん|君|ちゃん|様|さま|殿)(?!下)", jp):
-            if m.group(0) in gl_jp or m.group(1) in ("ムコ", "ジイ", "バア"):  # glossary row decides (バルちゃん); common nouns: groom, old man/woman
-                continue
-            if len(m.group(1).replace("ー", "")) >= 2 and HONORIFICS[m.group(2)] not in en:  # not ばーさん
-                er.append(f"honorific {m.group(1)}{m.group(2)} needs {HONORIFICS[m.group(2)]}")
+        er, wa = check_entry(e, en, sp, tm, gl_jp)
         errs += [f"{e['id']}: {x}" for x in er]
         warns += [f"{e['id']}: {x}" for x in wa]
     return errs, warns
+
+
+def check_entry(e, en, sp, tm, gl_jp):
+    """(errors, warnings) for one entry's English: tlform's layout checks + glossary terms + honorifics."""
+    jp = jp_plain(e)
+    er, wa = tlform.check(dict(e, jp=jp), en, sp)
+    low = en.lower()
+    for j, t_en, avoid, rx in tm:
+        if j in jp and rx.search(jp) and t_en.lower() not in low and t_en.split(" ")[0].lower() not in low:
+            er.append(f"glossary: {j} -> {t_en} missing")
+        if not avoid:
+            continue
+        for av in filter(None, (x.strip() for x in avoid.split(","))):
+            if re.search(rf"\b{re.escape(av)}\b", en):
+                er.append(f"glossary: avoid {av!r} (use {t_en})")
+    for m in re.finditer(f"([{KATA}]+)(さん|くん|君|ちゃん|様|さま|殿)(?!下)", jp):
+        if m.group(0) in gl_jp or m.group(1) in ("ムコ", "ジイ", "バア"):  # glossary row decides (バルちゃん); common nouns: groom, old man/woman
+            continue
+        if len(m.group(1).replace("ー", "")) >= 2 and HONORIFICS[m.group(2)] not in en:  # not ばーさん
+            er.append(f"honorific {m.group(1)}{m.group(2)} needs {HONORIFICS[m.group(2)]}")
+    return er, wa
 
 
 def check(a):

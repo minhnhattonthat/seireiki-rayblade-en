@@ -1,0 +1,5 @@
+# Translatable-form entries that intentionally keep no English (read by tools/lint.py): id<TAB>reason
+res07:0EEB	binary data at res07:0EEB decoded as text (batch b279 skipped on purpose)
+bank00:0BB	{fb} small-font run: the bytes draw the Latin label "HP" from the small font, already English
+bank00:0BC	{fb} small-font run: draws "Lv", already English
+bank00:0BD	{fb} small-font run: draws "Exp", already English

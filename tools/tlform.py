@@ -21,6 +21,7 @@ OPEN_EN = {"「": "", "『": "'", "（": "("}
 JUNK_STYLES = {88, 92, 130}
 CHOICE_STYLES = {128, 129, 160, 192}
 DLG_W, PAGE_LAST_W, BATTLE_W, BATTLE_LINES, CHOICE_W = 30, 28, 36, 3, 30
+HELP_ROWS = 3        # bank group 1 help text: up to 3 rows (Japanese entries use 1-3); rows are 256 px
 
 
 def form(e):
@@ -58,21 +59,48 @@ def width(s):
 
 
 def wrap(text, w, last_w=None, lines_per_page=3):
-    """Word-wrap one segment into lines (explicit {nl} kept). The last line of every page gets last_w."""
+    """Balanced word wrap of one segment (explicit {nl} kept): the fewest lines, then the least squared slack, so
+    no paragraph ends on a stub line. The last line of every page gets last_w."""
     out = []
     for para in text.split("{nl}"):
-        line = ""
-        for word in para.split(" "):
-            if word == "" and line == "":
-                continue
-            lim = last_w if last_w and len(out) % lines_per_page == lines_per_page - 1 else w
-            cand = f"{line} {word}" if line else word
-            if width(cand) <= lim or not line:
-                line = cand
-            else:
-                out.append(line)
-                line = word
-        out.append(line)
+        words = para.split(" ")
+        while len(words) > 1 and words[0] == "":
+            words.pop(0)
+        base = len(out)
+        period = lines_per_page if last_w else 1
+        pre = [0]
+        for wd in words:
+            pre.append(pre[-1] + width(wd))
+
+        def lim(k):
+            return last_w if last_w and (base + k) % lines_per_page == lines_per_page - 1 else w
+
+        best = {}                       # (word index, line index mod page) -> (lines, cost, end of this line)
+
+        def solve(i, k):
+            if i == len(words):
+                return (0, 0, None)
+            key = (i, k % period)
+            if key not in best:
+                cands = []
+                for j in range(i + 1, len(words) + 1):
+                    if j < len(words) and words[j] == "":
+                        continue        # never start a line on a doubled space
+                    lw = pre[j] - pre[i] + (j - i - 1)
+                    if lw > lim(k) and j > i + 1:
+                        break
+                    n, c, _ = solve(j, k + 1)
+                    cands.append((n + 1, c + max(0, lim(k) - lw) ** 2, j))
+                best[key] = min(cands) if cands else (1, 0, len(words))
+            return best[key]
+
+        i, k = 0, 0
+        while True:
+            j = solve(i, k)[2]
+            out.append(" ".join(words[i:j]))
+            if j >= len(words):
+                break
+            i, k = j, k + 1
     return out
 
 
@@ -165,7 +193,9 @@ def check(e, en, speakers):
                 errs.append(f"word run over {DLG_W}: {ln!r}")
     if f == "menu":
         jl, el = jp.split("{nl}"), en.split("{nl}")
-        if len(jl) != len(el):
+        if e["id"].startswith("bank01:") and len(jl) < len(el) <= HELP_ROWS:
+            pass                                    # help text: the window shows HELP_ROWS lines (phase 7)
+        elif len(jl) != len(el):
             errs.append(f"{len(el)} lines, jp has {len(jl)} (menu rows are fixed)")
         else:
             for j, x in zip(jl, el):
