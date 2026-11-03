@@ -13,9 +13,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     **Savestates go stale whenever an archive's layout changes** (the EXE copies of the slot tables in RAM point at
     old offsets: garbage portraits, hung battle animations): regenerate states cold (`warp.py NAME --cue build/..`).
     Battle probes: work/qa/p8g2/ (triangle on the map = phase menu; End Phase -> enemy attacks -> counter menu).
-    Open: G14-G17 (D_SCREEN sheets: check the linear layout, slot 33 proved w>128 images can be linear), G18
-    cut-ins (D_EFFECT 142/143/455/456 .8), G20, G6, D_SCREEN 189.0; event_103_guard (dev guard message wraps at
-    half width, chunk_002 verdict).
+    Later the same day: G18 cut-in 破 -> BREAK, G16/G17 D_SCREEN text sheets (wide D_SCREEN images are 32x32 tiles,
+    row-major; docs/text-sheets.json), G14/G15 decoded as dev placeholders (kept), placeholder card titles drawn
+    "Scenario", Orders help rewrapped (menu_room 244 px). Tour p8c (119/119) + battle sheets: visual QA 122 sheets,
+    2 issues fixed, re-check p8d_000 pending -> then `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`.
+    Touya's HP = u16 0x800CD60C (work/qa/hp1.lua pokes it). The first battle (scene 128) is a scripted dream:
+    losing it continues the story, so **game over is still unseen** (needs a later battle).
+    Not seen in-game yet: cut-in BREAK, text sheets (private events), album captions/New Year card (System >
+    Memory album stops the emulator from the warp state), G20, G6, D_SCREEN 189.0. event_103_guard wraps fine now.
   - Phase 7 close-out: trust list renamed short (Amity, Cheer, Haste, Iron Fist, Encore, Sense; glossary rows
     updated, D10), weapon names shortened to the 152-px list (menu-fit.tsv). The 6 `special` strings translated
     by hand: padding sized so every value/pen lands at its JP pixel position (JP 1-byte codes incl. the 00 space
