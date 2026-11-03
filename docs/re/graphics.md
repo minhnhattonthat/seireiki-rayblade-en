@@ -25,7 +25,7 @@ Static sweep (phase 1): `python -X utf8 tools/qx.py sweep <ARC>` renders every L
 | G15 | Brush-lettered title card(s) | D_SCREEN 240, 241, 248 | 3 | todo; layout scrambled, unreadable |
 | G16 | Pre-rendered dialogue text sheets (white on blue) | D_SCREEN 323, 324 | 2 | todo: find where shown (scroll text?) |
 | G17 | Lore text sheets (silk) | D_SCREEN 325-329 | 5 | todo: find where shown |
-| G18 | Attack brush-kanji cut-ins 破, 斬(?) | D_EFFECT 142.8, 143.8, 455.8, 456.8 | 2 unique | todo (DC patch: attack-lettering.json) |
+| G18 | Attack brush-kanji cut-ins 破, 斬(?) | D_EFFECT 142.8, 143.8, 455.8, 456.8 | 2 unique | done: "BREAK" as the DC patch (gfx_en CUTIN_*; frame 8 glow ramp by ring distance, frame 9 trail by blur; 455/456 mirrored like the originals). Not yet seen in-game (which attack plays it is unknown) |
 | G19 | Battle HUD copies of G2/G3 (icons, popup labels) | D_EFFECT 250.57-62, 250.89-95, 250.107 | 14 | done: D_EFFECT 250 is a byte copy of D_SYSTEM 1; insert.py writes gfx_en's record there too |
 | G20 | Tiny label beside SUPPORTOR/NPC; small green HUD panels | D_EFFECT 250.116, 312.0-312.9 | 11 | unconfirmed: check in a live battle (debug tool) |
 

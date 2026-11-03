@@ -405,7 +405,7 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
     bm = bmess_records(marker, width, override, report)
     gfx = {} if marker else gfx_en.records()
     # D_EFFECT 250 is a byte copy of D_SYSTEM 1 (battle HUD labels, G19)
-    eff = {250: gfx[1]} if 1 in gfx else {}
+    eff = {250: gfx[1], **gfx_en.effect_records()} if 1 in gfx else {}
     if eff:
         sy, ef = ((TREE / n).read_bytes() for n in ("D_SYSTEM.BIN", "D_EFFECT.BIN"))
         (a, b), (c, d) = arc.entries(sy)[1], arc.entries(ef)[250]

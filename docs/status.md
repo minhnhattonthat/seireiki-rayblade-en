@@ -2,8 +2,20 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (full QA tour) next. Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt
+- **Phase:** 8 (QA) in progress. Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt
   empty, check ok.
+  - Phase 8 so far (2026-11-03): pixel dialogue wrap + formatter hook (49f64dd), sentence-end page breaks, graphics
+    redrawn by `tools/gfx_en.py` (insert.changes, D_SYSTEM + D_EFFECT 250): chapter cards G8/G9, map labels G5,
+    credits G13, plates G4/G7, battle labels/icons G2/G3/G19 (AI order Cautious -> Safe, D12), album captions G11
+    (docs/album-captions.tsv), Memory Album tag G10, New Year card G12. State per row: docs/re/graphics.md.
+    Visual-QA verdicts of the first tour (work/qa/verdicts/chunk_000-003.tsv) are stale: their issues were the
+    graphics above + page breaks, all fixed since; a new tour + verdicts is needed.
+    **Savestates go stale whenever an archive's layout changes** (the EXE copies of the slot tables in RAM point at
+    old offsets: garbage portraits, hung battle animations): regenerate states cold (`warp.py NAME --cue build/..`).
+    Battle probes: work/qa/p8g2/ (triangle on the map = phase menu; End Phase -> enemy attacks -> counter menu).
+    Open: G14-G17 (D_SCREEN sheets: check the linear layout, slot 33 proved w>128 images can be linear), G18
+    cut-ins (D_EFFECT 142/143/455/456 .8), G20, G6, D_SCREEN 189.0; event_103_guard (dev guard message wraps at
+    half width, chunk_002 verdict).
   - Phase 7 close-out: trust list renamed short (Amity, Cheer, Haste, Iron Fist, Encore, Sense; glossary rows
     updated, D10), weapon names shortened to the 152-px list (menu-fit.tsv). The 6 `special` strings translated
     by hand: padding sized so every value/pen lands at its JP pixel position (JP 1-byte codes incl. the 00 space
@@ -112,9 +124,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Width gate complete (docs/widths.md): dialogue 30x3, choice 30, battle band 36x3 (no wrap, `{nl}` by
     hand), menus = Japanese pixel width, hints 30 (assumed).
 - **Next:**
-  1. Phase 8: `warp.py --all --title --cue "build/Seireiki Rayblade (English).cue" --out work/qa/p8` (regenerates
-     the stale title state first) + visual-QA verdicts per chunk. Weapon list (bank04, room 152 px inferred from
-     the pen columns) and Turns/Funds/Partner rows still want an in-game look (no scene yet).
+  1. Phase 8: finish the open graphics rows, then `warp.py --all --title --cue "build/Seireiki Rayblade
+     (English).cue" --out work/qa/p8c`, `qa_gate.py init`, visual-QA verdicts per chunk until `qa_gate.py check`
+     exits 0. Turns/Funds seen fine (battle phase menu); weapon list and Partner still want an in-game look.
 - **Open items (text, non-blocking):**
   - `tbl/jp.tbl`: all shaky/supplement-block cells in use were reviewed glyph-beside-reading (2026-11-03,
     `work/scratch/glyphsus.py`); the confident anchored cells were not. Translators report odd kanji as UNSURE.

@@ -452,6 +452,89 @@ def new_year(rec, ent, pal):
     return writes
 
 
+# Attack cut-in 破 (G18, D_EFFECT 142/143/455/456, images 8 = white core + red glow + black halo, 9 = its yellow
+# trail; 455/456 hold it mirrored for the other facing): "BREAK", as the Dreamcast fan patch did (D2). Each pixel's
+# index is the one whose pixels in the original lie, on average, at the same ring distance from the core.
+CUTIN_SLOTS = (142, 143, 455, 456)
+CUTIN_TEXT = "BREAK"
+
+
+def rings(core, maxd):
+    """ring distance (3x3 steps) of every pixel from a "1" image's set pixels; maxd + 1 beyond."""
+    import numpy as np
+    cur = np.array(core, dtype=bool)
+    dist = np.full(cur.shape, maxd + 1)
+    for k in range(maxd + 1):
+        dist[cur & (dist > k)] = k
+        p = np.pad(cur, 1)
+        steps = [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)] + ([(-1, -1), (-1, 1), (1, -1), (1, 1)] if k % 2 else [])
+        cur = np.logical_or.reduce([p[1 + dy:p.shape[0] - 1 + dy, 1 + dx:p.shape[1] - 1 + dx] for dy, dx in steps])
+    return dist.tolist()          # alternating 4- and 8-neighbour steps: octagonal rings, close to round
+
+
+def cutin_rows(orig, pal, mirror, trail=False):
+    """frame 8 (trail=False): each index placed at its mean ring distance from the core in the original;
+    frame 9 (the trail): the text blurred, brightness mapped onto the ramp, ringed by the dark halo."""
+    from PIL import ImageFilter
+    h, w = len(orig), len(orig[0])
+    lum = [sum(qx.rgb(c)) for c in pal]
+    used = {v for r in orig for v in r} - {0}
+    dark = min(used, key=lambda v: lum[v])
+    pts = [(i, j) for j in range(h) for i in range(w) if orig[j][i] not in (0, dark)]
+    cx, cy = sum(p[0] for p in pts) // len(pts), sum(p[1] for p in pts) // len(pts)
+    f = ImageFont.truetype(str(FONT), 40)
+    x0, y0, x1, y1 = f.getbbox(CUTIN_TEXT)
+    txt = Image.new("1", (x1 - x0 + 16, y1 - y0 + 4), 0)
+    ImageDraw.Draw(txt).text((8 - x0, 2 - y0), CUTIN_TEXT, font=f, fill=1)
+    txt = txt.transform(txt.size, Image.AFFINE, (1, 0.25, -6, 0, 1, 0))         # slant like a brush stroke
+    if mirror:
+        txt = txt.transpose(Image.FLIP_LEFT_RIGHT)
+    new = Image.new("1", (w, h), 0)
+    margin = 20
+    new.paste(txt, (min(max(cx - txt.width // 2, margin), w - txt.width - margin),
+                    min(max(cy - txt.height // 2, margin), h - txt.height - margin)))
+    if trail:
+        glow = new.convert("L").filter(ImageFilter.MaxFilter(5)).filter(ImageFilter.GaussianBlur(4))
+        glow = [(g / 255) ** 0.6 * 255 for g in glow.getdata()]
+        peak = max(glow) or 1
+        ramp = sorted(used - {dark}, key=lambda v: lum[v])
+        halo = rings(new, 14)
+        return [[ramp[min(len(ramp) - 1, int(g / peak * len(ramp)))] if g / peak > 0.06
+                 else dark if halo[j][i] <= 14 else 0
+                 for i, g in enumerate(glow[j * w:(j + 1) * w])] for j in range(h)]
+    top = max(used, key=lambda v: lum[v])
+    core = Image.new("1", (w, h), 0)
+    core.putdata([v == top for r in orig for v in r])
+    d0 = rings(core, 90)
+    sums = {}
+    for j in range(h):
+        for i in range(w):
+            if orig[j][i]:
+                sums.setdefault(orig[j][i], []).append(d0[j][i])
+    prof = {v: sum(ds) / len(ds) for v, ds in sums.items()}
+    reach = max(d0[j][i] for j in range(h) for i in range(w) if orig[j][i])
+    d1 = rings(new, reach)
+    order = sorted(prof, key=prof.get)
+    return [[0 if d1[j][i] > reach else min(order, key=lambda v: abs(prof[v] - d1[j][i])) for i in range(w)]
+            for j in range(h)]
+
+
+def effect_records():
+    """{D_EFFECT slot: new LZ record} for the cut-ins (slot 250 = D_SYSTEM 1's copy is added by insert.changes)."""
+    data = (TREE / "D_EFFECT.BIN").read_bytes()
+    ents = arc.entries(data)
+    out = {}
+    for slot in CUTIN_SLOTS:
+        s, e = ents[slot]
+        rec = bytearray(lz.unpack_record(data[s:e]))
+        _, qents, clut = qx.parse(rec)
+        for k in (8, 9):
+            base = (qents[k][1] & 0xF) * 16
+            put4(rec, qents[k], cutin_rows(read4(rec, qents[k]), clut[base:base + 16], slot >= 455, trail=k == 9))
+        out[slot] = lz.pack_record(bytes(rec))
+    return out
+
+
 def put4(rec, ent, rows):
     """write index rows into a qX entry's 4-bpp pixels (low nibble = left pixel)."""
     off, _, _, w, h, _, _ = ent
