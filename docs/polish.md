@@ -688,44 +688,44 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [x] story ch27 sce140:00181 - "Here... I go!" garbled - "Yeah, got it. Okay... here I go!" -- fixed
 - [x] story ch27 sce138:00386 - Ymir repeats - "The only other things we know are the names of three researchers..." -- fixed
 - [x] story ch27 sce139:00E98 - Bernst contractions/"Thou shalt" - "I do not want to be killed... 'You shall not harm or kill others'" -- fixed
-- [ ] story ch27 sce141:0169F - name x3 - "As if you'd never existed at all... Were you really there!?"
-- [ ] story ch27 sce137:008F7 - Yamato pun - "Huh? Wait, nyou can't be planning something nyuts?"
-- [ ] story ch27 sce138:0189A - pun lands oddly - "Okay, okay. Let's get going, nya."
-- [ ] story ch30 sce161:020B9 - Kururu "groom-san" - "maybe I'll let you be my husband"
-- [ ] story ch30 sce164:024F8 - imperative - "Did you think it over?"
-- [ ] story ch30 sce167:01159 - Melvi adds "gave" - "Welcome home! Um, Big Brother Touya said..."
-- [ ] story ch30 sce167:0149B - Ymir 甘えん坊さん - "Melvi, you're such a cuddly little thing."
-- [ ] story ch30 sce167:005D0 - Ivel bare "No." - "Right. I suppose she meant to settle it all on her own."
-- [ ] story ch30 sce163:00210 - ふざけた野郎 - "...What a clown."
-- [ ] story ch32 sce184:0025E - は、はぁ - "Uh... is that how it works?"
-- [ ] story ch32 sce184:008AB - Clovis prissy - "Now that's an admirable attitude."
-- [ ] story ch32 sce184:0110F - stiff - "Ah, I know that look. You're suspicious, aren't you?"
-- [ ] story ch32 sce185:00657 (+01357) - ああ‥‥ "Sure..." - "Yeah..."
-- [ ] story ch32 sce185:00683 - garbled - "Hey, could it be she's... got a thing for you?"
-- [ ] story ch32 sce185:01226 - clumsy - "...Fine. Got it."
-- [ ] story ch31 sce169:0059D (x7 across scenes) - Clovis 単独行動 clumsy - "I'm going solo. The rest is up to you."
-- [ ] story ch31 sce169:0094A - double negative - "Weren't soldiers supposed to never act on their own feelings?"
-- [ ] story ch31 sce169:01297 - garbled - "I'm impressed it can be used like that~"
-- [ ] story ch31 sce170:00512 - vague - "Do my brother and sister-in-law know about this?"
-- [ ] story ch31 sce178:006C7 - Celica ambiguous - "Lodis hurt Rayfon-nii, my big brother figure..."
-- [ ] story ch31 sce174:01714 - Touya "ain't it?" - "That's why I'm out looking for Ai, right?"
-- [ ] story ch31 sce179:001E4 - ふざけないで weak - "Quit joking around!"
-- [ ] story ch31 sce177:00ACA - 貴様 flat - "You bastard..."
+- [x] story ch27 sce141:0169F - name x3 - "As if you'd never existed at all... Were you really there!?" -- fixed
+- [x] story ch27 sce137:008F7 - Yamato pun - "Huh? Wait, nyou can't be planning something nyuts?" -- fixed
+- [x] story ch27 sce138:0189A - pun lands oddly - "Okay, okay. Let's get going, nya." -- fixed
+- [x] story ch30 sce161:020B9 - Kururu "groom-san" - "maybe I'll let you be my husband" -- fixed
+- [x] story ch30 sce164:024F8 - imperative - "Did you think it over?" -- fixed
+- [x] story ch30 sce167:01159 - Melvi adds "gave" - "Welcome home! Um, Big Brother Touya said..." -- fixed
+- [x] story ch30 sce167:0149B - Ymir 甘えん坊さん - "Melvi, you're such a cuddly little thing." -- fixed
+- [x] story ch30 sce167:005D0 - Ivel bare "No." - "Right. I suppose she meant to settle it all on her own." -- fixed
+- [x] story ch30 sce163:00210 - ふざけた野郎 - "...What a clown." -- fixed
+- [x] story ch32 sce184:0025E - は、はぁ - "Uh... is that how it works?" -- fixed
+- [x] story ch32 sce184:008AB - Clovis prissy - "Now that's an admirable attitude." -- fixed
+- [x] story ch32 sce184:0110F - stiff - "Ah, I know that look. You're suspicious, aren't you?" -- fixed
+- [x] story ch32 sce185:00657 (+01357) - ああ‥‥ "Sure..." - "Yeah..." -- fixed
+- [x] story ch32 sce185:00683 - garbled - "Hey, could it be she's... got a thing for you?" -- fixed
+- [x] story ch32 sce185:01226 - clumsy - "...Fine. Got it." -- fixed
+- [x] story ch31 sce169:0059D (x7 across scenes) - Clovis 単独行動 clumsy - "I'm going solo. The rest is up to you." -- waived: all 21 copies already read "I'm going solo. You handle things on your end." (natural)
+- [x] story ch31 sce169:0094A - double negative - "Weren't soldiers supposed to never act on their own feelings?" -- fixed
+- [x] story ch31 sce169:01297 - garbled - "I'm impressed it can be used like that~" -- waived: current "Who knew it could be used like that~ I'm impressed." already reads cleanly
+- [x] story ch31 sce170:00512 - vague - "Do my brother and sister-in-law know about this?" -- fixed
+- [x] story ch31 sce178:006C7 - Celica ambiguous - "Lodis hurt Rayfon-nii, my big brother figure..." -- fixed
+- [x] story ch31 sce174:01714 - Touya "ain't it?" - "That's why I'm out looking for Ai, right?" -- fixed
+- [x] story ch31 sce179:001E4 - ふざけないで weak - "Quit joking around!" -- fixed
+- [x] story ch31 sce177:00ACA - 貴様 flat - "You bastard..." -- fixed
 - [x] story ch33 sce187:00A87 - "abyout" typo - "I'm sorry, nya." -- fixed globally (34 lines)
-- [ ] story ch33 sce187:009F0 - ambiguous - "Looks like he just barely made it..."
-- [ ] story ch35 sce192:00357 - Murk "So it isn't." - "Mm. Quite right."
-- [ ] story ch35 sce195:00529 - "astern" jargon - "What do you mean, retreat!?"
-- [ ] story ch35 sce194:00861 - ambiguous "go back" - "decided at least we should come help, and dropped us off on the way"
-- [ ] story ch35 sce194:00331 - cut-off reads as typo - "See, as you c--"
-- [ ] story ch35 sce194:003CD - "jokin'" - "You're always joking..."
-- [ ] story ch35 sce193:00199 - Clovis stiff - "Wanna try feeding it, as a token of friendship?"
-- [ ] story ch35 sce196:00D04 - Touya punch lost - "What matters is now, not later! Let that guy die and you think you can save the world!?"
-- [ ] story ch35 sce196:017AC - "little princess" - "it's the Princess! She's alive!"
-- [ ] story ch36 sce199:0091A - clumsy - "Isn't that kind of no joke for him?"
-- [ ] story ch36 sce202:007BB - "him" unclear - "You don't have to call Touya over from sooo far away, nya? Why nyot come closer?"
-- [ ] story ch36 sce200:00E97 - Fain flat - "Ohh, that is indeed Grad Burgley-sama's unit! ...To behold the real thing with my own eyes, I am deeply moved!"
-- [ ] story ch36 sce199:01153 - sarcasm lost - "Bet they came out nice and... full-bodied, huh?"
-- [ ] story ch36 sce200:00E67 - Reduce modern - "So it is. Even if we are a third party."
+- [x] story ch33 sce187:009F0 - ambiguous - "Looks like he just barely made it..." -- fixed
+- [x] story ch35 sce192:00357 - Murk "So it isn't." - "Mm. Quite right." -- fixed
+- [x] story ch35 sce195:00529 - "astern" jargon - "What do you mean, retreat!?" -- fixed
+- [x] story ch35 sce194:00861 - ambiguous "go back" - "decided at least we should come help, and dropped us off on the way" -- fixed
+- [x] story ch35 sce194:00331 - cut-off reads as typo - "See, as you c--" -- fixed
+- [x] story ch35 sce194:003CD - "jokin'" - "You're always joking..." -- fixed
+- [x] story ch35 sce193:00199 - Clovis stiff - "Wanna try feeding it, as a token of friendship?" -- fixed
+- [x] story ch35 sce196:00D04 - Touya punch lost - "What matters is now, not later! Let that guy die and you think you can save the world!?" -- fixed
+- [x] story ch35 sce196:017AC - "little princess" - "it's the Princess! She's alive!" -- fixed
+- [x] story ch36 sce199:0091A - clumsy - "Isn't that kind of no joke for him?" -- fixed
+- [x] story ch36 sce202:007BB - "him" unclear - "You don't have to call Touya over from sooo far away, nya? Why nyot come closer?" -- fixed
+- [x] story ch36 sce200:00E97 - Fain flat - "Ohh, that is indeed Grad Burgley-sama's unit! ...To behold the real thing with my own eyes, I am deeply moved!" -- fixed
+- [x] story ch36 sce199:01153 - sarcasm lost - "Bet they came out nice and... full-bodied, huh?" -- fixed
+- [x] story ch36 sce200:00E67 - Reduce modern - "So it is. Even if we are a third party." -- fixed
 - [ ] story ch37 sce204:0130E - Ai "...Coming." - "...Yes."
 - [ ] story ch37 sce204:00C36 - ambiguous she/queen - "When Ai found out the queen was alive, she was really happy."
 - [ ] story ch37 sce208:00F46 - Melvi "Okay." - "Mm-hm."
@@ -816,3 +816,98 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [ ] story ch51 sce289:01FF3 - "So I said, but" - "...Yeah, I said that, but what am I supposed to do with these?"
 - [ ] story ch51 sce290:01568 - Touya そうか？ "Have I?" - "Think so?"
 - [ ] story ch51 pattern - Touya なにが？ rendered "Know what?" in ~9 more lines (grep '"Touya: Know what?"') - "What?" / "Right about what?" per context
+- [ ] story ch52 sce295:00B23 - Yamato adds "Nyo idea." - "...What's she planning to do about this, nyow?"
+- [ ] story ch52 sce295:00DBA - Derock tag "is what it is" - "That's Celica-sama for you, y'see..."
+- [ ] story ch52 sce295:00E1B - Derock tag "see" - "This is bad, y'see. Time to scram, is how it is."
+- [ ] story ch52 sce291:0069A - 重傷/末期 escalation backwards - "...That's serious."
+- [ ] story ch52 sce291:00E6C - Touya 部屋？ (also 00DE6) - "A room?"
+- [ ] story ch52 sce291:008A2 - clunky cat pun - "...why are you always so straight-arrow, nyanyway?"
+- [ ] story ch55 sce335:00441 - 行っちゃったね = zoned out - "She's totally spaced out, nya."
+- [ ] story ch55 sce335:00454 - ああ "Sure..." flat - "Yeah..."
+- [ ] story ch55 sce335:00207 - Yamato no pun - "Honestly! Ymir doesn't know what to do either, nyow!?"
+- [ ] story ch55 sce334:00523 - "Nya-nyo" odd - "N-nyow, I have a feeling this story's going to be awfully lo-o-ong, nya..."
+- [ ] story ch55 sce331:00638 - Ai うん "Okay." stiff - "Yeah."
+- [ ] story ch55 sce329:000C3 - Derock tag "is what" - "That's right, y'see. I'm giving you this special sticker, is how it is."
+- [ ] story ch55 sce329:008C5 - Derock "see" vs "y'see" (also sce329:00415, 006B9) - normalize to "y'see"
+- [ ] story ch55 sce334:00704 - Arthur "Eh?" too casual - "...Oh? I-Is that so? What a shame..."
+- [ ] story ch55 sce332:006AF - "beats beating" - "Figured that's better than asking around the edges."
+- [ ] story ch55 sce327:0026A - Clovis reaction muddled - "Ohhh, now that's it, ahhh!! Great stuff, so young, yeah~"
+- [ ] story ch56 sce336:01141 - Yamato はニャはだ疑問 overstated (+branch copies) - "I have my nyoubts."
+- [ ] story ch56 sce337:00BB6 - Yamato はニャれて pun - "Touya! I told you to fight nyaway from her!"
+- [ ] story ch56 sce337:00DDD - Yamato はニャれて pun - "Touya! Ymir's right. Let's fight as nyaway from here as we can!"
+- [ ] story ch56 sce336:01699 - Rishuna 一番近く (also 01669) - "The... closest." / "That's... because you were the... closest..."
+- [ ] story ch56 sce336:009C2 - Rayfon stiff (also 00F01, 02E62) - "I'm glad you feel that way, but it's easier to move on my own. I'll gladly take the sentiment."
+- [ ] story ch56 sce339:01553 - Fain "do I?" tag - "U-Um... I don't see that girl anywhere, though?"
+- [ ] story ch56 sce339:00B84 - Ivel clumsy - "No one but those of you here."
+- [ ] story ch56 sce339:01DF9 - Kinari polite - "We must do our best so that Boss Lady won't laugh at us. Well, here we go."
+- [ ] story ch56 sce340:00F90 - "Alright!" - "All right!"
+- [ ] story ch53 sce309:004BC - Ai うん "...Okay." (+copy in 00B13 block) - "...Yeah."
+- [ ] story ch53 sce300:011BA - Touya trailing "is what" - "Our dinner's fate is in her hands, that's all."
+- [ ] story ch53 sce300:010D2 - Ymir ungrammatical - "But I thought I'd give it a try, as with anything."
+- [ ] story ch53 sce305:00B36 - Fain rant wording differs from 7 copies (also sce306:00E22) - harmonise to majority ("Aren't we comrades, you and I!?", "those Ze=Ode scum")
+- [ ] story ch54 sce311:0167F - wrong pronoun - "Ah, she left..."
+- [ ] story ch54 sce311:00956 - 重傷/末期 escalation (also sce311:00A12) - "...It's serious." / "He's drunk on himself... Now it's terminal."
+- [ ] story ch54 sce311:0119C - missing "my" - "Mm-hm. In my first year of middle school. When I ended up in the same class as you, Touya-chan."
+- [ ] story ch54 sce313:0197B - "If I'll do" - "If you want someone to listen, I'm here anytime."
+- [ ] story ch54 sce312:010C1 - Ymir "Geez" - "Oh, you're mean."
+- [ ] story ch54 sce314:0078A - Clovis prissy - "Oh! Sure thing! Now that's an admirable attitude."
+- [ ] story ch54 sce320:002F8 - Yamato overstuffed - "What was that all about, nya?"
+- [ ] story ch54 sce322:007E8 - muddled logic - "...Same goes for Spirit Mechs, but Armored Mechs give the pilot pretty strong protection too."
+- [ ] story ch54 sce323:00599 - Fain "Aye" - "Hah! Come by anytime!"
+- [ ] story ch54 sce313:010AF - Celica "Yep." clipped (also sce313:01B3F, 01E24) - "Yeah."
+- [ ] story ch58 sce344:00FBD - Kasumi garbled causal - "That's not true! I was so happy to meet you, Touya-chan. I only made it this far because you were there."
+- [ ] story ch58 sce344:026C5 - Kururu callback "get rid of" vs "wipe out" - "So that's why you won't accept it? That's why you'll wipe it out?"
+- [ ] story ch57 sce341:00929 - Bernst 仲間 vs 同志 - "Friends, is it... So that is the path you've found?"
+- [ ] story ch57 sce341:0179D - Fain crude - "Wh-wh-wh-what is the meaning of this!?"
+- [ ] story ch57 sce341:02A67 - Forzen 気持ちいい - "Oh, r-right... My, it's a joy to watch, though. Even a man would have trouble eating that much... Ow-ow-ow-ow-ow!"
+- [ ] story ch57 sce341:02D0F - Touya point lost - "Fun, from an ordinary dinner...? Guess not. Everyone there's nice, except for that Forzen."
+- [ ] story ch57 sce341:02E94 - "If I'll do" - "...When it hurts, just say it hurts. If you want someone to talk to, I'm always around."
+- [ ] story ch57 sce342:002AC - Doris causal - "Yes. Since he told me not to do anything unnecessary. Though I suppose that wasn't the only reason..."
+- [ ] story ch57 sce342:01E84 - "Let's us losers" - "Let's you and me, fellow losers, lick each other's wounds and make our exit... okay?"
+- [ ] story ch57 sce343:05FA6 - Garyud "You lot" - "Wait. You should all go on ahead. Leave this place to me."
+- [ ] story pattern - "if I'll do" broken English in Touya/others' comfort lines (grep "if I'll do") - "if you want someone to talk to, I'm here"
+- [ ] story ch59 sce345:01A20 - Ymir ええ "All right..." - "Yes..."
+- [ ] story ch59 sce345:02B26 - Kasumi そんな "No..." - "Oh, don't say that..."
+- [ ] story ch59 sce345:004EB - Gabon repetitive - "In other words, she's an artificial human, deliberately manufactured as an individual."
+- [ ] story ch59 sce345:03B2C - Tix double negative (also sce361:03035) - "Of course. What younger brother wouldn't be glad to see his big brother happy?"
+- [ ] story ch59 sce345:00EF7 - Touya "that thing" - "But she started it..."
+- [ ] story ch59 sce346:00880 - Clovis "making out" - "quit getting cozy in a place like this and get ready, quick!"
+- [ ] story ch59 sce346:00C6A - Leone last words - "Do your best... for my sake too... Goodbye... Tou... ya..."
+- [ ] story ch60 sce350:01997 - Touya "...Wrong." - "...Nope."
+- [ ] story ch60 sce350:01A7B - Touya そういうことだ - "...So, yeah."
+- [ ] story ch60 sce347:006E6 - Wenimas "Thanks to you" twice (also 348:006C9, 349:00700, 350:006D7, 351:006D2) - "Thank you. It's because of you that Agarthia... no, this world too has been saved..."
+- [ ] story ch60 sce347:01399 - Yamato pun pattern (also 348:01424, 349:012A8, 350:01382, 351:0127F) - "Nyo slurping your miso soup!"
+- [ ] story ch60 sce349:01E18 - Emy ojou tone - "I'd be perfectly willing to tutor you, if you like?"
+- [ ] story ch60 sce348:01FC8 - Kasumi - "I-is that so...?"
+- [ ] story ch62 sce357:00FF7 - Touya 信頼してる - "Yeah. I trust you."
+- [ ] story ch62 sce357:0262B - Kasumi いってらっしゃい (also 358:02801, 359:02878, 360:027ED) - "Mm. Okay........ Come back to me."
+- [ ] story ch62 sce357:01404 - Voice 貴様ら (also 358:0158C, 359:01444, 360:0149B) - "(What!? I-impossible... You wretches...)"
+- [ ] story ch62 sce357:01DC8 - Voice stray "either" (x4 variants) - "Experiencing destruction... isn't so bad... really..."
+- [ ] story ch62 sce357:02523 - Fain "F-fine!" (x4 variants) - "...U-understood! But don't you dare die! It's a promise!"
+- [ ] story ch62 sce359:015A1 - Fain stiff vs copies - "Touya, now that we're here, you've got nothing to worry about! ...Ymir-san, are you unharmed?"
+- [ ] story ch62 sce360:01BEF - Kururu ぶぅー - "Boo!"
+- [ ] story ch62 sce358:029B1 - Touya repeat - "...Sorry for dragging you into this..."
+- [ ] story ch62 sce358:02071 - Touya "ain't" - "...No. It's not over yet."
+- [ ] story ch62 sce360:02177 - "Nyow why" - "Huh? Wh-nyy are you stopping me...?"
+- [ ] story ch63 sce361:00023 - Yamato stray "nyow" - "Come on, come on, what are you doing!? Hurry up and get changed, nya!"
+- [ ] story ch63 sce361:039FE - Touya stutter solemn - "Oh... I see. Sorry."
+- [ ] story ch63 sce361:019BB - Aurelie "Yo!" callback - "Y-yo!"
+- [ ] story ch63 sce361:051E7 - Aurelie ちょっと - "...Come with me a sec."
+- [ ] story ch63 sce361:058C2 - Rishuna 愛する人 inconsistent (vs 0494B, 05220) - "The feelings of the one you love... please accept them properly..."
+- [ ] story ch63 sce361:01477 - Aurelie 素直 callback - "...Yeah. 'Be honest,' right?"
+- [ ] story ch64 sce364:012AE - Kururu "first" added - "...Eh, whatever. Touya kissed me, so~ ♪"
+- [ ] story ch64 sce364:01B04 - Yamato "somethin'" - "Sounds like she's tidying up something, nya..."
+- [ ] story ch64 sce364:02121 - Ymir opaque - "Yeah... a little, I guess. But I'm all right."
+- [ ] story ch64 sce364:022A2 - Touya dangling - "...If it eases the pain in your heart even a little, that's enough."
+- [ ] story ch64 sce363:00CBB - Ai name order - "I... like you, Touya."
+- [ ] story pattern - Touya/Kasumi ああ‥‥ "Sure..." at tense/death beats (e.g. sce363:009C3, sce364:01F00, sce363:00720, sce358:028F5, sce357:02726, sce360:02894) - "Yeah..."
+- [ ] story ch64 sce366:005A2 - Aurelie snappy (also 00679) - "Just checking over my Spirit Mech..." / "What? You need me for something?"
+- [ ] story ch64 sce364:03570 - Yamato punchline - "He's nyot even human."
+- [ ] story ch61 sce352:00F03 - Wenimas それじゃ heavy (00EEB) / Touya "Sure..." - Wenimas "Yes. Well, then..." / Touya "Yeah..."
+- [ ] story ch61 sce352:0053E - garbled - "Wh-where... is this the classroom?"
+- [ ] story ch61 sce353:01369 - "the Selphin" vs "Selphin" - "I guess Selphin's armor just wasn't cut out for a melee like this..."
+- [ ] story ch61 sce355:01263 - Touya limp - "(Don't need you to tell me. I'll end it.)"
+- [ ] story ch61 sce355:0103C - Ai awkward echo - "No idea what's going on, but okay. Got it."
+- [ ] story ch61 sce356:00182 - Touya お前は平気なのか - "...You're okay with this?"
+- [ ] story ch61 sce356:0298A - Kasumi ううん - "...No, not at all."
+- [ ] story ch61 sce356:02A39 - Kasumi "Maybe so." answers nothing (JP gap too) - waived if JP identical; else "Maybe. But if you give up from the start, you'll never succeed..."
