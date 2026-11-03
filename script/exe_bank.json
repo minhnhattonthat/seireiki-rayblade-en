@@ -1156,7 +1156,7 @@
   "index": 143,
   "addr": 2147573432,
   "len": 42,
-  "en": "Save{nl}Move{nl}Topic List{nl}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}System{nl}Finish",
+  "en": "Save{nl}Move{nl}Topic List{nl}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}{ctl:FFFF}System{nl}End",
   "status": "translated"
  },
  {
@@ -2326,7 +2326,7 @@
   "index": 9,
   "addr": 2147576733,
   "len": 32,
-  "en": "Gives an ally who has finished acting{nl}another action.",
+  "en": "Gives its action to an ally{nl}who has finished acting.",
   "status": "translated"
  },
  {
@@ -7876,7 +7876,7 @@
   "index": 38,
   "addr": 2147585646,
   "len": 39,
-  "en": "Escape this battle zone (reach the{nl}top-right edge) or wipe out the enemy",
+  "en": "Escape this battle zone (reach the{nl}top-right edge) or defeat all enemies",
   "status": "translated"
  },
  {
@@ -9506,7 +9506,7 @@
   "index": 5,
   "addr": 2147589529,
   "len": 19,
-  "en": "The Push-Down Incident (Kasumi)",
+  "en": "The Pin-Down Incident (Kasumi)",
   "status": "translated"
  },
  {
@@ -10616,7 +10616,7 @@
   "index": 30,
   "addr": 2147591652,
   "len": 8,
-  "en": "My Heart, Far Away",
+  "en": "Hearts, Far Away",
   "status": "translated"
  },
  {
@@ -10646,7 +10646,7 @@
   "index": 33,
   "addr": 2147591681,
   "len": 11,
-  "en": "Toward Each Future",
+  "en": "Their Own Futures",
   "status": "translated"
  },
  {

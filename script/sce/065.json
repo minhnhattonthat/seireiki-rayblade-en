@@ -2193,7 +2193,7 @@
   "jp": "　　どれぐらい時間が経ったのかわからない。{nl}{ctl:5A3E}　　　　　このまま時が止まればいい。{nl}{ctl:5A3E}　　　　　　　本気でそう思った。{nl}{ctl:5A3E}　　　　　　　　　だが‥‥",
   "off": 11666,
   "len": 93,
-  "en": "I don't know how much time has passed.{ctl:5A3E} I wish time would just stop like this.{ctl:5A3E} I truly mean it.{ctl:5A3E} But...",
+  "en": "I don't know how much time has passed.{ctl:5A3E} I wish time would just stop like this.{ctl:5A3E} I truly meant it.{ctl:5A3E} But...",
   "status": "translated",
   "style": 0,
   "text_off": 11668,
