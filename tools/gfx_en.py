@@ -316,6 +316,142 @@ def aa_rows(text, w, h, clut16, size=13, min_scale=0.6):
     return out
 
 
+# Album thumbnails (G11, D_SYSTEM 36, 49-51, 56-58, 64-78; 8 bpp, 64x72): a photo over a light caption box with
+# dark text, left-aligned. English (docs/album-captions.tsv, read off the images) is antialiased between the box
+# colour and the darkest caption grey, each level mapped to the nearest colour of the image's own palette.
+ALBUM_SLOTS = (36, 49, 50, 51, 56, 57, 58, *range(64, 79))
+
+
+def album_captions():
+    rows = (ROOT / "docs/album-captions.tsv").read_text(encoding="utf-8").splitlines()[1:]
+    return {tuple(map(int, r.split("\t")[0].split("."))): r.split("\t")[2] for r in rows if r.strip()}
+
+
+def caption_rows(orig, pal, text):
+    """orig: index rows of the image; returns them with the caption box repainted and `text` set in it."""
+    h, w = len(orig), len(orig[0])
+    bg = orig[h - 2][2]
+    top = next(j for j in range(h // 2, h) if all(v == bg for v in orig[j]))
+    room_w, room_h = w - 5, h - top - 2
+    rgb = [((c & 31), (c >> 5 & 31), (c >> 10 & 31)) for c in pal]     # for the darkest-grey pick below
+    for max_lines, size in [(n, s) for n in (2, 3) for s in range(11, 7, -1)]:     # two lines if any size allows
+        f = ImageFont.truetype(str(FONT), size)
+        lines = []
+        for word in text.split(" "):
+            if lines and f.getlength(lines[-1] + " " + word) <= room_w:
+                lines[-1] += " " + word
+            else:
+                lines.append(word)
+        pitch = size - 1
+        # a single long word (a mech name) may be squeezed to 80%
+        if len(lines) <= max_lines and len(lines) * pitch + 2 <= room_h and all(f.getlength(ln) <= room_w / (0.8 if " " not in ln else 1)
+                                                    for ln in lines):
+            break
+    else:
+        raise ValueError(f"album caption {text!r} does not fit {room_w}x{room_h}")
+    im = Image.new("L", (w, room_h), 0)
+    cap_top = f.getbbox("H")[1]
+    pad = max(1, min(3, room_h - len(lines) * pitch - 1))
+    for n, ln in enumerate(lines):
+        line = Image.new("L", (int(f.getlength(ln)) + 2, pitch + 3), 0)
+        ImageDraw.Draw(line).text((0, -cap_top), ln, font=f, fill=255)
+        if line.width > room_w:
+            line = line.resize((room_w, line.height), Image.LANCZOS)
+        im.paste(line, (3, pad + n * pitch))
+    ink = min({v for r in orig[top:] for v in r}, key=lambda k: sum(rgb[k]))     # the Japanese text's darkest grey
+    out = [r[:] for r in orig]
+    for j, row in enumerate(blend(im, pal, bg, ink)):
+        out[top + 1 + j] = [v if 2 <= i < w - 2 else bg for i, v in enumerate(row)]
+    return out
+
+
+def blend(im, pal, bg, ink):
+    """index rows for an "L" image of antialiased text: each level -> the palette colour nearest bg..ink mixed."""
+    rgb = [((c & 31), (c >> 5 & 31), (c >> 10 & 31)) for c in pal]
+    cache = {}
+    rows = []
+    for j in range(im.height):
+        row = []
+        for i in range(im.width):
+            v = im.getpixel((i, j))
+            if v not in cache:
+                t = v / 255
+                want = [a * (1 - t) + b * t for a, b in zip(rgb[bg], rgb[ink])]
+                cache[v] = bg if v < 40 else min(range(len(pal)), key=lambda k: sum((x - y) ** 2 for x, y in zip(rgb[k], want)))
+            row.append(cache[v])
+        rows.append(row)
+    return rows
+
+
+# Memory album screen (G10, D_SYSTEM 33.0, 320x240 8 bpp, linear rows despite w > 128): the red 思い出アルバム on the
+# cream tag becomes "Memory Album"; the book cover's lettering is decorative fantasy script and stays.
+ALBUM_TAG = (33, 0, (113, 22, 226, 40), "Memory Album")
+
+
+def album_tag(rec, ent, pal):
+    """{offset: index} pixel writes for the tag."""
+    off, _, _, w, h, _, _ = ent
+    x0, y0, x1, y1 = ALBUM_TAG[2]
+    px = {(x, y): rec[off + y * w + x] for x in range(x0, x1) for y in range(y0, y1)}
+    rgb = [((c & 31), (c >> 5 & 31), (c >> 10 & 31)) for c in pal]
+    bg = max(set(px.values()), key=list(px.values()).count)
+    ink = max(set(px.values()), key=lambda k: rgb[k][0] - rgb[k][1] - rgb[k][2])     # the reddest
+    tw, th = x1 - x0, y1 - y0
+    for size in range(16, 9, -1):
+        f = ImageFont.truetype(str(FONT), size)
+        if f.getlength(ALBUM_TAG[3]) <= tw - 2 and f.getbbox("H")[3] - f.getbbox("H")[1] <= th - 4:
+            break
+    im = Image.new("L", (tw, th), 0)
+    top, base = f.getbbox("H")[1], f.getbbox("H")[3]
+    ImageDraw.Draw(im).text(((tw - f.getlength(ALBUM_TAG[3])) // 2, (th - (base - top)) // 2 - top), ALBUM_TAG[3],
+                            font=f, fill=255)
+    return {off + (y0 + j) * w + x0 + i: v for j, r in enumerate(blend(im, pal, bg, ink)) for i, v in enumerate(r)}
+
+
+def read8(rec, ent):
+    off, _, _, w, h, _, _ = ent
+    return [list(rec[off + j * w:off + (j + 1) * w]) for j in range(h)]
+
+
+# New Year card (G12, D_SYSTEM 110.0, 320x224 8 bpp linear): the handwritten あけまして/おめでとうございます (pink, orange
+# marker outline) becomes "Happy / New Year!"; 年 after "2000" is cleared, "2000" and the heart stay.
+NEW_YEAR = 110
+NY_CLEAR = [(92, 2, 213, 52), (213, 2, 232, 20)]
+NY_KEEP = (178, 2, 214, 17)                         # "2000"
+NY_LINES = [("Happy", 98, 4, 17), ("New Year!", 98, 25, 20)]       # text, x, y, size
+
+
+def new_year(rec, ent, pal):
+    """{offset: index} pixel writes for the card."""
+    off, _, _, w, h, _, _ = ent
+    rgb = [((c & 31), (c >> 5 & 31), (c >> 10 & 31)) for c in pal]
+    keep = lambda x, y: NY_KEEP[0] <= x < NY_KEEP[2] and NY_KEEP[1] <= y < NY_KEEP[3]
+    area = [(x, y) for x0, y0, x1, y1 in NY_CLEAR for x in range(x0, x1) for y in range(y0, y1) if not keep(x, y)]
+    used = [rec[off + y * w + x] for x, y in area]
+    paper = max(set(used), key=used.count)
+    pink = max(set(used), key=lambda k: rgb[k][0] + rgb[k][2] - 2 * rgb[k][1])
+    orange = max(set(used), key=lambda k: rgb[k][0] - rgb[k][2] + (rgb[k][1] > 10) * 10)
+    core = Image.new("1", (w, h), 0)
+    d = ImageDraw.Draw(core)
+    d.fontmode = "1"
+    for text, x, y, size in NY_LINES:
+        f = ImageFont.truetype(str(FONT), size)
+        d.text((x, y - f.getbbox("H")[1]), text, font=f, fill=1)
+    writes = {}
+    for x, y in area:               # only ink (saturated or dark) goes: the paper's own speckle stays
+        c = rgb[rec[off + y * w + x]]
+        if max(c) - min(c) > 2 or sum(c) < 80:
+            writes[off + y * w + x] = paper
+    for y in range(0, 56):                          # the lettering's box plus the outline
+        for x in range(88, 236):
+            if core.getpixel((x, y)):
+                writes[off + y * w + x] = pink
+            elif any(core.getpixel((x + dx, y + dy)) for dx in (-2, -1, 0, 1, 2) for dy in (-2, -1, 0, 1, 2)
+                     if 0 <= x + dx < w and 0 <= y + dy < h and abs(dx) + abs(dy) <= 3):
+                writes[off + y * w + x] = orange
+    return writes
+
+
 def put4(rec, ent, rows):
     """write index rows into a qX entry's 4-bpp pixels (low nibble = left pixel)."""
     off, _, _, w, h, _, _ = ent
@@ -359,6 +495,15 @@ def images():
         if slot == 1:
             for k, en in BATTLE.items():
                 out[(slot, k)] = edged(bold_mask(en, qents[k][3], qents[k][4]), metal, 8)
+    caps = album_captions()
+    for slot in ALBUM_SLOTS:
+        s, e = ents[slot]
+        rec = lz.unpack_record(data[s:e])
+        _, qents, clut = qx.parse(rec)
+        for k, ent in enumerate(qents):
+            if (slot, k) in caps:
+                base = (ent[1] & 0xF) * 256
+                out[(slot, k)] = caption_rows(read8(rec, ent), clut[base:base + 256], caps[(slot, k)])
     s, e = ents[CREDITS_SLOT]
     _, qents, clut = qx.parse(lz.unpack_record(data[s:e]))
     for k, en in CREDITS.items():
@@ -394,11 +539,29 @@ def records():
         s, e = ents[slot]
         rec = bytearray(lz.unpack_record(data[s:e]))
         magic, qents, _ = qx.parse(rec)
-        assert magic == 0x5871, slot
+        assert magic in (0x5871, 0x5851), slot
         for k, rows in ims.items():
-            put4(rec, qents[k], rows)
+            if magic == 0x5871:
+                put4(rec, qents[k], rows)
+            else:                       # 8 bpp, w <= 128: linear rows
+                off, _, _, w, h, _, _ = qents[k]
+                assert w <= 128 and len(rows) == h and all(len(r) == w for r in rows)
+                rec[off:off + w * h] = bytes(v for r in rows for v in r)
         out[slot] = lz.pack_record(bytes(rec))
         assert lz.unpack_record(out[slot]) == rec, slot
+    slot, k = ALBUM_TAG[:2]
+    s, e = ents[slot]
+    rec = bytearray(lz.unpack_record(data[s:e]))
+    _, qents, clut = qx.parse(rec)
+    for o, v in album_tag(rec, qents[k], clut[(qents[k][1] & 0xF) * 256:][:256]).items():
+        rec[o] = v
+    out[slot] = lz.pack_record(bytes(rec))
+    s, e = ents[NEW_YEAR]
+    rec = bytearray(lz.unpack_record(data[s:e]))
+    _, qents, clut = qx.parse(rec)
+    for o, v in new_year(rec, qents[0], clut[:256]).items():
+        rec[o] = v
+    out[NEW_YEAR] = lz.pack_record(bytes(rec))
     return out
 
 
