@@ -75,6 +75,18 @@ def test_subop_branch_is_rewritten():
 
 
 @needs_disc
+def test_handler_pointers_follow_growth():
+    """Slot 135 (the sce 135 enemy-phase hang): `5C 18 .. 80 <s16>` at 2C7 points at the 0AE0 handler; after
+    growing every text block it still lands on the same instruction (verify() checks the 38/39/6C/5B ones)."""
+    rec = records()[135]
+    ins, _ = patch.decode(rec)
+    new, mp = patch.rebuild(rec, {it.off: b"\x01" * 80 for it in ins if it.kind == "text"})
+    patch.verify(rec, new, mp)
+    o = mp[0x2C7]
+    assert o + 6 + vm.s16(new[o + 6], new[o + 7]) == mp[0xAE0]
+
+
+@needs_disc
 def test_trailing_tables_and_switch():
     """`17 a b c <s16>` is 6 bytes (slot 58: the text after it was hidden), `B9 <s16>.. FF FF` (slot 102 @49D)
     is a switch table; both kinds of entries are self-relative and follow text growth."""

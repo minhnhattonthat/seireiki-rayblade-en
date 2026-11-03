@@ -144,6 +144,12 @@ D_SCE hit rates = how often the decoded target is an instruction start). More br
   carry 4 more bytes.
 - **0E** = event-hook pointers: `0E n <s16>` (n < 6, 4 bytes) or `0E n <6 x s16>` (14 bytes); each pointer =
   its own position + s16. The length table says 2 (the handler adds 2 or 12).
+- **Handler pointers** (rewritten like branches, not followed by the walk): **5C/24 long form** `5C 18 a b c
+  d|80 <s16>` = self-relative pointer at +6 (253/253 on an instruction start; left alone it sent sce 135's
+  enemy phase into the middle of a text block and hung). `vm.SCRIPT_PTR`: **38** and **39** `op + s16@+1 + 1`
+  (thread entries, 39's 0 = none), **6C** same form (stored at +0x12EC), **5B** `op + s16@+10 + 10`. Found by a
+  scan of every op's s16 slots for instruction-start hits, confirmed in the handlers. Still unexplained hits
+  (not rewritten): 58/12 @+3 47/50, 0A @+2 (the handler reads a wait count there).
 - Missing SUBK entries (handler adds 1 byte): 16/46, 1B/14, 1E/2, B0/50, C0/19, C0/31, C0/43, C0/46.
 - Non-classic forms are rewritten only when their old target is an instruction start (`patch.trusted_target`),
   since the same byte patterns occur in data. Undecoded bytes in D_SCE: 5,944 -> 3,964.

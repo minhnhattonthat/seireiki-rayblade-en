@@ -119,6 +119,11 @@ def trail_key(rec, i):
 VARLEN = {(0x5C, 24): 2}
 
 RARE_BRANCH = {0x33, 0x3A, 0x55, 0x56, 0x6B, 0xF9, 0xDB}   # the walk does not follow these
+# Ops whose handler stores a script pointer `op + s16 + bias` (a thread/effect entry, not a branch): op ->
+# (s16 position, bias). Handlers: 38 0x8005EF3C (jal 0x800471F4), 39 0x8005F3D0 (jal 0x80047194; s16 0 = none),
+# 6C 0x8006B934 (sw 0x12EC), 5B 0x80066774 (sw 0x38). D_SCE: 38 657/699, 39 212/216, 6C 50/60, 5B 822/824 land
+# on an instruction start (scratch scan; the misses are data or null).
+SCRIPT_PTR = {0x38: (1, 1), 0x39: (1, 1), 0x6C: (1, 1), 0x5B: (10, 10)}
 HOOK = 0x0E   # `0E n <s16>` (n < 6) or `0E n <6 x s16>`: event-hook pointers, each = its own position + s16
 
 
@@ -136,6 +141,13 @@ def rel_operands(rec, i):
     if op == HOOK and i + 1 < len(rec):
         ps = [i + 2] if rec[i + 1] < 6 else [i + 2 + 2 * k for k in range(6)]
         return [(p, 0, p) for p in ps]
+    if op in SCRIPT_PTR:
+        p, b = SCRIPT_PTR[op]
+        return [(i + p, b, i)] if rec[i + p:i + p + 2] != b"\0\0" else []
+    if (op, rec[i + 1] if i + 1 < len(rec) else None) in VARLEN:
+        # 5C/24 long form `5C 18 a b c d|80 <s16>`: self-relative handler pointer (D_SCE 253/253 on an
+        # instruction start; left unrewritten it hung sce 135's enemy phase)
+        return [(i + LEN[op] + 1, 0, i + LEN[op] + 1)]
     if i + 1 < len(rec) and (op, rec[i + 1]) in SUB_BRANCH:
         p, b = SUB_BRANCH[(op, rec[i + 1])]
         return [(i + p, b, i)]
@@ -302,7 +314,8 @@ def walk(rec, start=0):
             pass
         else:
             for pos, bias, anchor in rel_operands(rec, i):      # sub-op / other branches, hook pointers
-                if pos + 2 <= len(rec) and op not in RARE_BRANCH:
+                if pos + 2 <= len(rec) and op not in RARE_BRANCH and op not in SCRIPT_PTR:   # following them
+                    # moved text partitions (a bogus walk); their operands are still rewritten
                     work.append(anchor + s16(rec[pos], rec[pos + 1]) + bias)
             work.append(i + ln)
     return seen, errors
