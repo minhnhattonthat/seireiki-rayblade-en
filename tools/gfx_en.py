@@ -152,6 +152,72 @@ def gauge_rows(orig, text, k):
     return rows
 
 
+# Battle (G2/G3, D_SYSTEM 0/1): popup labels (1.89-95, 1.107) are metal lettering, each row one colour from light
+# (7) down to dark (4), checkered between bands, with a dark (8) edge right and below. AI-order icons (x.58-62)
+# carry one light (7) letter in their box; the Prana label (x.57) is white (1) with a black (8) edge.
+BATTLE = {89: "Critical", 90: "Evade", 91: "Defend", 92: "Plasma Coating", 93: "Plasma Barrier",
+          94: "Ballistic Barrier", 95: "Special Field", 107: "Barrier"}
+METAL = (7, 7, 7, 7, 7, 7, 7, 71, 17, 1, 12, 2, 23, 3, 34, 4)     # by row; two digits = checkered pair
+ORDERS = dict(zip(range(58, 63), "MCASD"))                          # Manual Counter Aggressive Safe Defend (bank00:0AE)
+
+
+def bold_mask(text, w, h, cap=13, min_cap=7, min_scale=0.72):
+    """rows of 0/1: Liberation Sans Bold, cap height as big as fits (squeezed down to min_scale), descenders kept
+    inside h, centred across w with a 1-px margin right and below for the edge."""
+    for size in range(40, 6, -1):
+        f = ImageFont.truetype(str(FONT), size)
+        top, base = f.getbbox("H")[1], f.getbbox("H")[3]
+        desc = f.getbbox("g")[3] - base if any(c in "gjpqy" for c in text) else 0
+        x0, _, x1, _ = f.getbbox(text)
+        if base - top <= cap and base - top + desc <= h - 2 and (x1 - x0) * min_scale <= w - 1:
+            break
+    if base - top < min_cap:
+        raise ValueError(f"{text!r} does not fit {w}x{h}")
+    im = Image.new("L", (x1 - x0, h), 0)
+    y = (h - 1 - (base - top + desc)) // 2 - top    # ink centred in rows 0..h-2 (the last row is for the edge)
+    ImageDraw.Draw(im).text((-x0, y), text, font=f, fill=255)
+    if im.width > w - 1:
+        im = im.resize((w - 1, h), Image.LANCZOS)
+    x = (w - 1 - im.width) // 2
+    return [[1 if i - x in range(im.width) and im.getpixel((i - x, j)) >= 110 else 0 for i in range(w)]
+            for j in range(h)]
+
+
+def edged(mask, fill, edge):
+    """index rows: fill(j, i) on the mask, `edge` on the pixels right of / below / diagonal to ink."""
+    h, w = len(mask), len(mask[0])
+    out = [[0] * w for _ in range(h)]
+    for j in range(h):
+        for i in range(w):
+            if mask[j][i]:
+                out[j][i] = fill(j, i)
+            elif any(mask[j - dy][i - dx] for dy, dx in ((0, 1), (1, 0), (1, 1)) if j >= dy and i >= dx):
+                out[j][i] = edge
+    return out
+
+
+def metal(j, i):
+    v = METAL[min(j, 15)]
+    return v if v < 10 else (v // 10, v % 10)[(i + j) & 1]
+
+
+def order_icon(orig, letter):
+    """repaint the box interior (10x12 inside the 16x16 icon's bevel) and set one game-font letter in it."""
+    import font_en
+    rows = [r[:] for r in orig]
+    left = next(i for i in range(16) if orig[1][i] in (3, 4))      # bevel's left column (icons sit at x 0 or 1)
+    for j in range(2, 14):
+        for i in range(left + 1, left + 11):
+            rows[j][i] = 5
+    g = font_en.rows(letter)
+    x0, y0 = left + 1 + (10 - len(g[0])) // 2, 3
+    for j, r in enumerate(g):
+        for i, c in enumerate(r):
+            if c == "#":
+                rows[y0 + j][x0 + i] = 7
+    return rows
+
+
 def _glyph_run(text, art, space):
     """[(x, rows)] for text set with 1-px gaps; returns (placements, width)."""
     x, out = 0, []
@@ -283,6 +349,16 @@ def images():
     _, qents, _ = qx.parse(rec)
     for k, en in GAUGE.items():
         out[(GAUGE_SLOT, k)] = gauge_rows(read4(rec, qents[k]), en, k)
+    for slot in (0, 1):
+        s, e = ents[slot]
+        rec = lz.unpack_record(data[s:e])
+        _, qents, _ = qx.parse(rec)
+        out[(slot, 57)] = edged(bold_mask("Prana", 24, 16, cap=9, min_cap=6), lambda j, i: 1, 8)
+        for k, letter in ORDERS.items():
+            out[(slot, k)] = order_icon(read4(rec, qents[k]), letter)
+        if slot == 1:
+            for k, en in BATTLE.items():
+                out[(slot, k)] = edged(bold_mask(en, qents[k][3], qents[k][4]), metal, 8)
     s, e = ents[CREDITS_SLOT]
     _, qents, clut = qx.parse(lz.unpack_record(data[s:e]))
     for k, en in CREDITS.items():
