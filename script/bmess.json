@@ -410,7 +410,7 @@
   "slot": 0,
   "text_off": 2247,
   "text_len": 49,
-  "en": "{ctl:0046}Touya: Gah! It's tearing me up...? Ngh... Not here...{page}{page}",
+  "en": "{ctl:0046}Touya: Gah! I'm getting wrecked...? Ngh... Not here...{page}{page}",
   "status": "translated"
  },
  {
@@ -518,7 +518,7 @@
   "slot": 0,
   "text_off": 2850,
   "text_len": 147,
-  "en": "{ctl:0040}Touya: Not yet! I won't go down for nothing! If it comes to it, I'm taking you with me!{page}{page}{page}{ctl:1240}Yamato: Hey!? Are you planning to go out in a blaze!?{page}Touya: It's about resolve. I know dying gets me nowhere. But I won't let you do as you please!{page}{page}{page}",
+  "en": "{ctl:0040}Touya: Not yet! I won't go down for nothing! If it comes to it, I'm taking you with me!{page}{page}{page}{ctl:1240}Yamato: Hey!? Are you planning to go out in a blaze!?{page}Touya: It's about resolve. I know dying gets me nowhere. But I won't let you do as you please anymore!{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -608,7 +608,7 @@
   "slot": 0,
   "text_off": 3608,
   "text_len": 34,
-  "en": "{ctl:0042}Touya: Ngh! Th... the power won't go up!{page}",
+  "en": "{ctl:0042}Touya: Ngh! I... I can't get the power up!{page}",
   "status": "translated"
  },
  {
@@ -707,7 +707,7 @@
   "slot": 0,
   "text_off": 4169,
   "text_len": 101,
-  "en": "{ctl:0042}Touya: Uwaagh! Hey, the power won't go up! Can't you do something!?{page}{page}{page}{ctl:1240}Yamato: Nyo good! It's affecting the main system too!{page}{page}Touya: ...Dammit!{page}",
+  "en": "{ctl:0042}Touya: Uwaagh! Hey, I can't get the power up! Can't you do something!?{page}{page}{page}{ctl:1240}Yamato: Nyo good! It's affecting the main system too!{page}{page}Touya: ...Dammit!{page}",
   "status": "translated"
  },
  {
@@ -986,7 +986,7 @@
   "slot": 0,
   "text_off": 5475,
   "text_len": 26,
-  "en": "{ctl:0041}Touya: Haaaaaaah... Sei!!{page}",
+  "en": "{ctl:0041}Touya: Haaaaaaah... Hyaah!!{page}",
   "status": "translated"
  },
  {
@@ -1445,7 +1445,7 @@
   "slot": 0,
   "text_off": 7108,
   "text_len": 29,
-  "en": "{ctl:0041}Touya: I'll settle this with one sword... Here goes!{page}",
+  "en": "{ctl:0041}Touya: I'll settle this with one stroke... Here goes!{page}",
   "status": "translated"
  },
  {
@@ -2345,7 +2345,7 @@
   "slot": 2,
   "text_off": 2951,
   "text_len": 53,
-  "en": "{ctl:0141}Ai: Agh! M-meltdown down to the eighth armor layer...? Th-this is bad...{page}{page}",
+  "en": "{ctl:0141}Ai: Agh! Th-the eighth armor layer's melted...? Th-this is bad...{page}{page}",
   "status": "translated"
  },
  {
@@ -2624,7 +2624,7 @@
   "slot": 2,
   "text_off": 4029,
   "text_len": 27,
-  "en": "{ctl:0141}Ai: Ai-chan, first up, here I go~!{page}",
+  "en": "{ctl:0141}Ai: Number one, Ai-chan, launching~!{page}",
   "status": "translated"
  },
  {
@@ -3722,7 +3722,7 @@
   "slot": 4,
   "text_off": 2423,
   "text_len": 47,
-  "en": "{ctl:0343}Kasumi: Kyaah! The power won't go up... What do I do!?{page}{page}",
+  "en": "{ctl:0343}Kasumi: Kyaah! I can't get the power up... What do I do!?{page}{page}",
   "status": "translated"
  },
  {
@@ -5099,7 +5099,7 @@
   "slot": 5,
   "text_off": 2614,
   "text_len": 18,
-  "en": "{ctl:0441}Xiujian: Y-you're good!{page}",
+  "en": "{ctl:0441}Xiujian: Y-you are skilled!{page}",
   "status": "translated"
  },
  {
@@ -5486,7 +5486,7 @@
   "slot": 5,
   "text_off": 3933,
   "text_len": 33,
-  "en": "{ctl:0442}Xiujian: My thanks for earlier... Don't be shy.{page}",
+  "en": "{ctl:0442}Xiujian: My thanks for earlier... Do not be shy.{page}",
   "status": "translated"
  },
  {
@@ -5693,7 +5693,7 @@
   "slot": 6,
   "text_off": 131,
   "text_len": 17,
-  "en": "{ctl:0542}Clovis: Too soft!!{page}",
+  "en": "{ctl:0542}Clovis: Too easy!!{page}",
   "status": "translated"
  },
  {
@@ -6044,7 +6044,7 @@
   "slot": 6,
   "text_off": 1445,
   "text_len": 31,
-  "en": "{ctl:0540}Clovis: Y-you gotta be gentler or you'll never be popular.{page}",
+  "en": "{ctl:0540}Clovis: Y-you gotta be gentler or the ladies won't like you.{page}",
   "status": "translated"
  },
  {
@@ -6449,7 +6449,7 @@
   "slot": 6,
   "text_off": 3115,
   "text_len": 16,
-  "en": "{ctl:0544}Clovis: Too slow!{page}",
+  "en": "{ctl:0544}Clovis: Too easy!{page}",
   "status": "translated"
  },
  {
@@ -8240,7 +8240,7 @@
   "slot": 8,
   "text_off": 34,
   "text_len": 15,
-  "en": "{ctl:0740}Rosalie: development{page}",
+  "en": "{ctl:0740}Rosalie: Development{page}",
   "status": "translated"
  },
  {
@@ -9023,7 +9023,7 @@
   "slot": 9,
   "text_off": 2646,
   "text_len": 33,
-  "en": "{ctl:0841}Gen: Secret technique! Super Peerless Slash!! ...Just kidding.{page}",
+  "en": "{ctl:0841}Gen: Secret art! Super Peerless Slash!! ...Just kidding.{page}",
   "status": "translated"
  },
  {
@@ -9248,7 +9248,7 @@
   "slot": 9,
   "text_off": 3273,
   "text_len": 75,
-  "en": "{ctl:0841}Gen: This is the move Xiujian-san taught me! Think you can take it?{page}{page}{page}Gen: Double strike! Second Blade: Dragon Slayer!!{page}",
+  "en": "{ctl:0841}Gen: This is the move Xiujian-san taught me! Think you can take it?{page}{page}{page}Gen: Combo strike! Second Blade: Dragon Slayer!!{page}",
   "status": "translated"
  },
  {
@@ -9275,7 +9275,7 @@
   "slot": 9,
   "text_off": 3482,
   "text_len": 77,
-  "en": "{ctl:0842}Gen: ...Another worthless thing to cut... Kidding. ...But it'll hurt... Second Blade: Dragon Slayer!{page}{page}{page}",
+  "en": "{ctl:0842}Gen: ...Once again, I must cut something worthless... Kidding. ...But it'll hurt... Second Blade: Dragon Slayer!{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -9356,7 +9356,7 @@
   "slot": 9,
   "text_off": 4024,
   "text_len": 57,
-  "en": "{ctl:0841}Gen: It's too late to say sorry now! Special combo! Second Blade: Dragon Slayer!!{page}{page}{page}",
+  "en": "{ctl:0841}Gen: It's too late to say sorry now! Special combo strike! Second Blade: Dragon Slayer!!{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -10481,7 +10481,7 @@
   "slot": 11,
   "text_off": 61,
   "text_len": 18,
-  "en": "{ctl:0A42}Arthur: Too careless.{page}",
+  "en": "{ctl:0A42}Arthur: How naive.{page}",
   "status": "translated"
  },
  {
@@ -10589,7 +10589,7 @@
   "slot": 11,
   "text_off": 542,
   "text_len": 35,
-  "en": "{ctl:0A42}Arthur: Well, well... You read that quite well.{page}",
+  "en": "{ctl:0A42}Arthur: Well, well... A shrewd guess.{page}",
   "status": "translated"
  },
  {
@@ -10787,7 +10787,7 @@
   "slot": 11,
   "text_off": 1520,
   "text_len": 34,
-  "en": "{ctl:0A40}Arthur: Whoa! N-not at all, the fight's only just beginning!{page}",
+  "en": "{ctl:0A40}Arthur: Whoa! N-no matter, the fight's only just beginning!{page}",
   "status": "translated"
  },
  {
@@ -10931,7 +10931,7 @@
   "slot": 11,
   "text_off": 2392,
   "text_len": 49,
-  "en": "{ctl:0A43}Arthur: Are you enjoying this fight? ...How shameful...{page}{page}",
+  "en": "{ctl:0A43}Arthur: Are you enjoying this fight? ...How base...{page}{page}",
   "status": "translated"
  },
  {
@@ -11354,7 +11354,7 @@
   "slot": 11,
   "text_off": 4260,
   "text_len": 17,
-  "en": "{ctl:0A42}Arthur: There, I think.{page}",
+  "en": "{ctl:0A42}Arthur: Right there.{page}",
   "status": "translated"
  },
  {
@@ -11426,7 +11426,7 @@
   "slot": 11,
   "text_off": 4658,
   "text_len": 67,
-  "en": "{ctl:0A42}Arthur: Force repaid with force... is it... Human history is a cycle of tragedy... isn't it.{page}{page}{page}",
+  "en": "{ctl:0A42}Arthur: Force answered with force... huh... Human history is a cycle of tragedy... isn't it.{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -11543,7 +11543,7 @@
   "slot": 12,
   "text_off": 104,
   "text_len": 20,
-  "en": "{ctl:0B40}Melvi: Aah~ That was scary.{page}",
+  "en": "{ctl:0B40}Melvi: Aah~ What a surprise.{page}",
   "status": "translated"
  },
  {
@@ -11705,7 +11705,7 @@
   "slot": 12,
   "text_off": 769,
   "text_len": 23,
-  "en": "{ctl:0B40}Melvi: Th-that was scaaary...{page}",
+  "en": "{ctl:0B40}Melvi: Wh-what a surpriiise...{page}",
   "status": "translated"
  },
  {
@@ -14378,7 +14378,7 @@
   "slot": 14,
   "text_off": 2653,
   "text_len": 15,
-  "en": "{ctl:0D41}Kururu: With this!{page}",
+  "en": "{ctl:0D41}Kururu: Take this!{page}",
   "status": "translated"
  },
  {
@@ -15017,7 +15017,7 @@
   "slot": 15,
   "text_off": 2117,
   "text_len": 42,
-  "en": "{ctl:0E44}Melissa: Aah! Doctor! This one can't take any more!{page}",
+  "en": "{ctl:0E44}Melissa: Aah! Doctor! She can't take any more!{page}",
   "status": "translated"
  },
  {
@@ -15197,7 +15197,7 @@
   "slot": 15,
   "text_off": 2882,
   "text_len": 33,
-  "en": "{ctl:0E42}Melissa: Every pretty flower has its thorns... just kidding.{page}",
+  "en": "{ctl:0E42}Melissa: Every rose has its thorns... just kidding.{page}",
   "status": "translated"
  },
  {
@@ -16016,7 +16016,7 @@
   "slot": 16,
   "text_off": 1520,
   "text_len": 45,
-  "en": "{ctl:0F41}Celica: H-hey! Don't you have any modesty at all!?{page}{page}",
+  "en": "{ctl:0F41}Celica: H-hey! Don't you have any humility at all!?{page}{page}",
   "status": "translated"
  },
  {
@@ -16106,7 +16106,7 @@
   "slot": 16,
   "text_off": 1991,
   "text_len": 33,
-  "en": "{ctl:0F40}Celica: This might not be much more than a comfort, but...{page}",
+  "en": "{ctl:0F40}Celica: This might not do much, but...{page}",
   "status": "translated"
  },
  {
@@ -16727,7 +16727,7 @@
   "slot": 17,
   "text_off": 1881,
   "text_len": 35,
-  "en": "{ctl:1040}Lodis: Selecting target... Hit!{page}",
+  "en": "{ctl:1040}Lodis: Selecting target... Hit home!{page}",
   "status": "translated"
  },
  {
@@ -17546,7 +17546,7 @@
   "slot": 20,
   "text_off": 1639,
   "text_len": 23,
-  "en": "{ctl:1B40}Garyud: So I'm to use that, eh...{page}",
+  "en": "{ctl:1B40}Garyud: Time to use that, eh...{page}",
   "status": "translated"
  },
  {
@@ -17573,7 +17573,7 @@
   "slot": 20,
   "text_off": 1810,
   "text_len": 34,
-  "en": "{ctl:1B40}Garyud: Now it's my turn... I won't hold back, eh?{page}",
+  "en": "{ctl:1B40}Garyud: Now it is my turn... I'll not hold back.{page}",
   "status": "translated"
  },
  {
@@ -18185,7 +18185,7 @@
   "slot": 22,
   "text_off": 65,
   "text_len": 16,
-  "en": "{ctl:1D40}Tyron: Hardly!{page}",
+  "en": "{ctl:1D40}Tyron: Not so fast!{page}",
   "status": "translated"
  },
  {
@@ -18527,7 +18527,7 @@
   "slot": 22,
   "text_off": 1141,
   "text_len": 51,
-  "en": "{ctl:1D40}Tyron: Nuooh! Wh-what of it! As if I would fall so easily!{page}{page}{page}",
+  "en": "{ctl:1D40}Tyron: Nuooh! N-not yet! As if I would fall so easily!{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -18887,7 +18887,7 @@
   "slot": 23,
   "text_off": 271,
   "text_len": 15,
-  "en": "{ctl:1E40}Ciel: Too soft!{page}",
+  "en": "{ctl:1E40}Ciel: Too easy!{page}",
   "status": "translated"
  },
  {
@@ -18914,7 +18914,7 @@
   "slot": 23,
   "text_off": 337,
   "text_len": 20,
-  "en": "{ctl:1E40}Ciel: An attack like this!!{page}",
+  "en": "{ctl:1E40}Ciel: I won't fall to an attack like this!!{page}",
   "status": "translated"
  },
  {
@@ -19571,7 +19571,7 @@
   "slot": 24,
   "text_off": 1009,
   "text_len": 15,
-  "en": "{ctl:2341}Rayfon: Too soft.{page}",
+  "en": "{ctl:2341}Rayfon: Naive.{page}",
   "status": "translated"
  },
  {
@@ -19625,7 +19625,7 @@
   "slot": 25,
   "text_off": 90,
   "text_len": 16,
-  "en": "{ctl:2540}Geel: Hardly!{page}",
+  "en": "{ctl:2540}Geel: Not so fast!{page}",
   "status": "translated"
  },
  {
@@ -20012,7 +20012,7 @@
   "slot": 26,
   "text_off": 68,
   "text_len": 16,
-  "en": "{ctl:2640}Selg: Too soft!{page}",
+  "en": "{ctl:2640}Selg: Too easy!{page}",
   "status": "translated"
  },
  {
@@ -20129,7 +20129,7 @@
   "slot": 26,
   "text_off": 376,
   "text_len": 25,
-  "en": "{ctl:2640}Selg: Guh! Hardly, not yet!!{page}",
+  "en": "{ctl:2640}Selg: Guh! It's nothing! Not yet!!{page}",
   "status": "translated"
  },
  {
@@ -20399,7 +20399,7 @@
   "slot": 27,
   "text_off": 138,
   "text_len": 23,
-  "en": "{ctl:2740}Rest: Still... too green!{page}",
+  "en": "{ctl:2740}Rest: Still far too... green!{page}",
   "status": "translated"
  },
  {
@@ -20678,7 +20678,7 @@
   "slot": 27,
   "text_off": 1068,
   "text_len": 13,
-  "en": "{ctl:2740}Rest: Too soft.{page}",
+  "en": "{ctl:2740}Rest: Naive.{page}",
   "status": "translated"
  },
  {
@@ -20750,7 +20750,7 @@
   "slot": 27,
   "text_off": 1226,
   "text_len": 13,
-  "en": "{ctl:2740}Rest: Too soft.{page}",
+  "en": "{ctl:2740}Rest: Naive.{page}",
   "status": "translated"
  },
  {
@@ -20822,7 +20822,7 @@
   "slot": 27,
   "text_off": 1387,
   "text_len": 13,
-  "en": "{ctl:2740}Rest: Too soft.{page}",
+  "en": "{ctl:2740}Rest: Naive.{page}",
   "status": "translated"
  },
  {
@@ -21695,7 +21695,7 @@
   "slot": 32,
   "text_off": 1032,
   "text_len": 17,
-  "en": "{ctl:3340}Rishuna: Please hit!{page}",
+  "en": "{ctl:3340}Rishuna: Come on, hit!{page}",
   "status": "translated"
  },
  {
@@ -21767,7 +21767,7 @@
   "slot": 32,
   "text_off": 1210,
   "text_len": 17,
-  "en": "{ctl:3340}Rishuna: Please hit!{page}",
+  "en": "{ctl:3340}Rishuna: Come on, hit!{page}",
   "status": "translated"
  },
  {
@@ -22361,7 +22361,7 @@
   "slot": 34,
   "text_off": 81,
   "text_len": 22,
-  "en": "{ctl:3540}Debish: Naive. You're not even worth discussing.{page}",
+  "en": "{ctl:3540}Debish: Naive. Not even worth my time.{page}",
   "status": "translated"
  },
  {
@@ -23072,7 +23072,7 @@
   "slot": 35,
   "text_off": 989,
   "text_len": 33,
-  "en": "{ctl:3640}Sharl: Ugh... the power won't rise, it seems.{page}",
+  "en": "{ctl:3640}Sharl: Ugh... It seems I can't raise my power.{page}",
   "status": "translated"
  },
  {
@@ -24089,7 +24089,7 @@
   "slot": 37,
   "text_off": 1349,
   "text_len": 18,
-  "en": "{ctl:3840}Lyle: Too soft!{page}",
+  "en": "{ctl:3840}Lyle: Too easy!{page}",
   "status": "translated"
  },
  {
@@ -25313,7 +25313,7 @@
   "slot": 43,
   "text_off": 621,
   "text_len": 23,
-  "en": "{ctl:3F40}Fores: Hmph, you're still too soft!{page}",
+  "en": "{ctl:3F40}Fores: Hmph, you're still too green!{page}",
   "status": "translated"
  },
  {
@@ -25997,7 +25997,7 @@
   "slot": 44,
   "text_off": 1293,
   "text_len": 19,
-  "en": "{ctl:4040}Reamond: Upsy-daisy!{page}",
+  "en": "{ctl:4040}Reamond: Hup, there we go!{page}",
   "status": "translated"
  },
  {
@@ -26060,7 +26060,7 @@
   "slot": 44,
   "text_off": 1534,
   "text_len": 21,
-  "en": "{ctl:4040}Reamond: I'll hit it!{page}",
+  "en": "{ctl:4040}Reamond: I'll land this!{page}",
   "status": "translated"
  },
  {
@@ -26735,7 +26735,7 @@
   "slot": 46,
   "text_off": 208,
   "text_len": 31,
-  "en": "{ctl:4240}Baio: Only this much... Just a small-fry character after all.{page}",
+  "en": "{ctl:4240}Baio: Only this much... Just small fry after all.{page}",
   "status": "translated"
  },
  {
@@ -26987,7 +26987,7 @@
   "slot": 46,
   "text_off": 1219,
   "text_len": 31,
-  "en": "{ctl:4240}Baio: Wh-what did you say... This is bad at this rate!{page}",
+  "en": "{ctl:4240}Baio: Wh-what did you say... At this rate, I'm in trouble!{page}",
   "status": "translated"
  },
  {
@@ -27014,7 +27014,7 @@
   "slot": 46,
   "text_off": 1332,
   "text_len": 31,
-  "en": "{ctl:4240}Baio: Impossible!? Bad, this is bad at this rate!{page}",
+  "en": "{ctl:4240}Baio: Impossible!? This is bad... At this rate, I'm in trouble!{page}",
   "status": "translated"
  },
  {
@@ -27122,7 +27122,7 @@
   "slot": 46,
   "text_off": 1761,
   "text_len": 26,
-  "en": "{ctl:4240}Baio: Let's see if you can withstand this attack!?{page}",
+  "en": "{ctl:4240}Baio: Can you withstand this attack!?{page}",
   "status": "translated"
  },
  {
@@ -28553,7 +28553,7 @@
   "slot": 50,
   "text_off": 1299,
   "text_len": 18,
-  "en": "{ctl:4940}Render: I'll hit it!{page}",
+  "en": "{ctl:4940}Render: I'll land this!{page}",
   "status": "translated"
  },
  {
@@ -28796,7 +28796,7 @@
   "slot": 51,
   "text_off": 466,
   "text_len": 28,
-  "en": "{ctl:4A40}Doris: Kuh! You've got some nerve!{page}",
+  "en": "{ctl:4A40}Doris: Kuh! Not bad at all!{page}",
   "status": "translated"
  },
  {
@@ -30056,7 +30056,7 @@
   "slot": 54,
   "text_off": 291,
   "text_len": 20,
-  "en": "{ctl:4D40}Goh: Hm! It hit!{page}",
+  "en": "{ctl:4D40}Goh: Hm! So I've been hit!{page}",
   "status": "translated"
  },
  {
@@ -30434,7 +30434,7 @@
   "slot": 55,
   "text_off": 195,
   "text_len": 24,
-  "en": "{ctl:4E40}Ryord: It only hit me, that's all!{page}",
+  "en": "{ctl:4E40}Ryord: It just grazed me, okay!{page}",
   "status": "translated"
  },
  {
@@ -30551,7 +30551,7 @@
   "slot": 55,
   "text_off": 595,
   "text_len": 27,
-  "en": "{ctl:4E40}Ryord: Wh-this guy... he's good, dammit!{page}",
+  "en": "{ctl:4E40}Ryord: Th-this guy... he's good, dammit!{page}",
   "status": "translated"
  },
  {
@@ -31802,7 +31802,7 @@
   "slot": 58,
   "text_off": 258,
   "text_len": 14,
-  "en": "{ctl:5140}Jono: Didn't work.{page}",
+  "en": "{ctl:5140}Jono: That didn't hurt.{page}",
   "status": "translated"
  },
  {
@@ -31820,7 +31820,7 @@
   "slot": 58,
   "text_off": 297,
   "text_len": 33,
-  "en": "{ctl:5140}Jono: Your skill is only this much, after all...{page}",
+  "en": "{ctl:5140}Jono: So this is the limit of your skill...{page}",
   "status": "translated"
  },
  {
@@ -31901,7 +31901,7 @@
   "slot": 58,
   "text_off": 509,
   "text_len": 20,
-  "en": "{ctl:5140}Jono: With that much...{page}",
+  "en": "{ctl:5140}Jono: With only that much...?{page}",
   "status": "translated"
  },
  {
@@ -32405,7 +32405,7 @@
   "slot": 59,
   "text_off": 960,
   "text_len": 41,
-  "en": "{ctl:5240}Vel: Ngh! I-if I'd taken that head-on, would I have been in trouble!?{page}{page}",
+  "en": "{ctl:5240}Vel: Ngh! I-if I'd taken that head-on, that could've been bad!?{page}{page}",
   "status": "translated"
  },
  {
@@ -32666,7 +32666,7 @@
   "slot": 60,
   "text_off": 280,
   "text_len": 20,
-  "en": "{ctl:6C40}Soldier: Tch, as expected!{page}",
+  "en": "{ctl:6C40}Soldier: Tch, you're good!{page}",
   "status": "translated"
  },
  {
@@ -34871,7 +34871,7 @@
   "slot": 67,
   "text_off": 231,
   "text_len": 17,
-  "en": "{ctl:7240}Terrorist: Didn't work!{page}",
+  "en": "{ctl:7240}Terrorist: That didn't hurt!{page}",
   "status": "translated"
  },
  {
@@ -34880,7 +34880,7 @@
   "slot": 67,
   "text_off": 249,
   "text_len": 20,
-  "en": "{ctl:7240}Terrorist: An attack like that!{page}",
+  "en": "{ctl:7240}Terrorist: Like that attack would work!{page}",
   "status": "translated"
  },
  {
@@ -36761,7 +36761,7 @@
   "slot": 71,
   "text_off": 2247,
   "text_len": 49,
-  "en": "{ctl:0046}Touya: Gah! It's tearing me up...? Ngh... Not here...{page}{page}",
+  "en": "{ctl:0046}Touya: Gah! I'm getting wrecked...? Ngh... Not here...{page}{page}",
   "status": "translated"
  },
  {
@@ -36869,7 +36869,7 @@
   "slot": 71,
   "text_off": 2850,
   "text_len": 147,
-  "en": "{ctl:0040}Touya: Not yet! I won't go down for nothing! If it comes to it, I'm taking you with me!{page}{page}{page}{ctl:1240}Yamato: Hey!? Are you planning to go out in a blaze!?{page}Touya: It's about resolve. I know dying gets me nowhere. But I won't let you do as you please!{page}{page}{page}",
+  "en": "{ctl:0040}Touya: Not yet! I won't go down for nothing! If it comes to it, I'm taking you with me!{page}{page}{page}{ctl:1240}Yamato: Hey!? Are you planning to go out in a blaze!?{page}Touya: It's about resolve. I know dying gets me nowhere. But I won't let you do as you please anymore!{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -36959,7 +36959,7 @@
   "slot": 71,
   "text_off": 3608,
   "text_len": 34,
-  "en": "{ctl:0042}Touya: Ngh! Th... the power won't go up!{page}",
+  "en": "{ctl:0042}Touya: Ngh! I... I can't get the power up!{page}",
   "status": "translated"
  },
  {
@@ -37058,7 +37058,7 @@
   "slot": 71,
   "text_off": 4169,
   "text_len": 101,
-  "en": "{ctl:0042}Touya: Uwaagh! Hey, the power won't go up! Can't you do something!?{page}{page}{page}{ctl:1240}Yamato: Nyo good! It's affecting the main system too!{page}{page}Touya: ...Dammit!{page}",
+  "en": "{ctl:0042}Touya: Uwaagh! Hey, I can't get the power up! Can't you do something!?{page}{page}{page}{ctl:1240}Yamato: Nyo good! It's affecting the main system too!{page}{page}Touya: ...Dammit!{page}",
   "status": "translated"
  },
  {
@@ -37337,7 +37337,7 @@
   "slot": 71,
   "text_off": 5475,
   "text_len": 26,
-  "en": "{ctl:0041}Touya: Haaaaaaah... Sei!!{page}",
+  "en": "{ctl:0041}Touya: Haaaaaaah... Hyaah!!{page}",
   "status": "translated"
  },
  {
@@ -37796,7 +37796,7 @@
   "slot": 71,
   "text_off": 7108,
   "text_len": 29,
-  "en": "{ctl:0041}Touya: I'll settle this with one sword... Here goes!{page}",
+  "en": "{ctl:0041}Touya: I'll settle this with one stroke... Here goes!{page}",
   "status": "translated"
  },
  {
@@ -38354,7 +38354,7 @@
   "slot": 75,
   "text_off": 925,
   "text_len": 34,
-  "en": "{ctl:0C47}Leone: Getting cocky over that much... you're way too full of yourself!{page}",
+  "en": "{ctl:0C47}Leone: Getting cocky over that? You're way too full of yourself!{page}",
   "status": "translated"
  },
  {
@@ -38390,7 +38390,7 @@
   "slot": 75,
   "text_off": 1047,
   "text_len": 35,
-  "en": "{ctl:0C49}Leone: I-I lost!? ...Me...?{page}",
+  "en": "{ctl:0C49}Leone: I-I lost!? ...Me, of all people...?{page}",
   "status": "translated"
  },
  {
@@ -38615,7 +38615,7 @@
   "slot": 75,
   "text_off": 1672,
   "text_len": 27,
-  "en": "{ctl:0C47}Leone: Here's a thank-you gift, keep it!{page}",
+  "en": "{ctl:0C47}Leone: Here's a little thank-you. Keep it!{page}",
   "status": "translated"
  },
  {
@@ -39011,7 +39011,7 @@
   "slot": 78,
   "text_off": 1155,
   "text_len": 47,
-  "en": "{ctl:5640}Cain: I'll carve it into your body... a seal of blood...{page}{page}{page}",
+  "en": "{ctl:5640}Cain: I'll carve it into your body... a brand of blood...{page}{page}{page}",
   "status": "translated"
  },
  {
@@ -39029,7 +39029,7 @@
   "slot": 78,
   "text_off": 1267,
   "text_len": 27,
-  "en": "{ctl:5640}Cain: Fufufu... Good children...{page}",
+  "en": "{ctl:5640}Cain: Fufufu... Such good children...{page}",
   "status": "translated"
  },
  {
@@ -39056,7 +39056,7 @@
   "slot": 79,
   "text_off": 97,
   "text_len": 27,
-  "en": "{ctl:7C41}Tix: It missed!? I dodged it...{page}",
+  "en": "{ctl:7C41}Tix: It missed!? Did I dodge it...?{page}",
   "status": "translated"
  },
  {
@@ -39749,7 +39749,7 @@
   "slot": 80,
   "text_off": 1881,
   "text_len": 35,
-  "en": "{ctl:1040}Lodis: Selecting target... Hit!{page}",
+  "en": "{ctl:1040}Lodis: Selecting target... Hit home!{page}",
   "status": "translated"
  },
  {
@@ -40271,7 +40271,7 @@
   "slot": 92,
   "text_off": 308,
   "text_len": 23,
-  "en": "{ctl:6440}Voice: (In the end, this is all...){page}",
+  "en": "{ctl:6440}Voice: (So this is all you amount to...){page}",
   "status": "translated"
  },
  {
@@ -40775,7 +40775,7 @@
   "slot": 105,
   "text_off": 1827,
   "text_len": 114,
-  "en": "{ctl:0140}Ai: Owww... Geez, now Ai-chan is seriously mad!!{page}{ctl:0040}Touya: Don't climb up here! Whoa! Wait, quit moving it on your own! Get back in your seat!{page}{page}{page}Ai: ...Cheapskate.{page}",
+  "en": "{ctl:0140}Ai: Owww... Geez, now Ai-chan is seriously mad!!{page}{ctl:0040}Touya: Don't climb up here! Whoa! Wait, quit moving it on your own! Get back in your seat!{page}{page}{page}Ai: ...Meanie.{page}",
   "status": "translated"
  },
  {
@@ -40847,7 +40847,7 @@
   "slot": 105,
   "text_off": 2358,
   "text_len": 146,
-  "en": "{ctl:0143}Ai: Owwww! What was that for!! I bumped my forehead!{page}{page}{ctl:1240}Yamato: Oh, it's true. A girl has to be careful, nyow... A scar would be terrible.{page}{page}{page}{ctl:0040}Touya: ...Do you two realize we're in the middle of a battle?{page}",
+  "en": "{ctl:0143}Ai: Owwww! What was that for!! I bumped my forehead!{page}{page}{ctl:1240}Yamato: Oh, it's true. A girl nyeeds to be careful, nyow... A scar would be terrible.{page}{page}{page}{ctl:0040}Touya: ...Do you two realize we're in the middle of a battle?{page}",
   "status": "translated"
  },
  {
@@ -41027,7 +41027,7 @@
   "slot": 105,
   "text_off": 3714,
   "text_len": 109,
-  "en": "{ctl:0042}Touya: Dammit, the response is sluggish...{page}{ctl:0140}Ai: Aaah! Is that a dig at me!? ...But I'll reflect on it a little.{page}Touya: No, that's not what I meant... Anyway, we've got no choice. Let's go!{page}{page}",
+  "en": "{ctl:0042}Touya: Dammit, the response is sluggish...{page}{ctl:0140}Ai: Aaah! Is that a dig at me!? ...Okay, maybe that's a little on me.{page}Touya: No, that's not what I meant... Anyway, we've got no choice. Let's go!{page}{page}",
   "status": "translated"
  },
  {
@@ -41441,7 +41441,7 @@
   "slot": 105,
   "text_off": 5734,
   "text_len": 29,
-  "en": "{ctl:0041}Touya: I'll settle this with one sword... Here goes!{page}",
+  "en": "{ctl:0041}Touya: I'll settle this with one stroke... Here goes!{page}",
   "status": "translated"
  },
  {
@@ -41576,7 +41576,7 @@
   "slot": 105,
   "text_off": 6518,
   "text_len": 63,
-  "en": "{ctl:0041}Touya: This technique has no second stroke! This ends it!{page}Touya: Special move... Mighty! Thunder! Triumph! Slash!!{page}",
+  "en": "{ctl:0041}Touya: This technique needs no second blade! This ends it!{page}Touya: Special move... Mighty! Thunder! Triumph! Slash!!{page}",
   "status": "translated"
  },
  {
@@ -41585,7 +41585,7 @@
   "slot": 105,
   "text_off": 6593,
   "text_len": 72,
-  "en": "{ctl:0141}Ai: This is our power!{page}{ctl:0041}Touya: True Zeifonic Bradler!{page}Ai & Touya: Gooo... ooooo!!{page}",
+  "en": "{ctl:0141}Ai: This is our power!{page}{ctl:0041}Touya: True Zeifonic Bradler!{page}Ai & Touya: Let's... gooooo!!{page}",
   "status": "translated"
  },
  {
@@ -42638,7 +42638,7 @@
   "slot": 111,
   "text_off": 5113,
   "text_len": 66,
-  "en": "{ctl:0340}Kasumi: This is my and Touya-chan's power!{page}{ctl:0041}Touya: Here I come!{page}Touya & Kasumi: Ray Blanzaaard!{page}",
+  "en": "{ctl:0340}Kasumi: This is the power of me and Touya-chan!{page}{ctl:0041}Touya: Here I come!{page}Touya & Kasumi: Ray Blanzaaard!{page}",
   "status": "translated"
  },
  {
@@ -43043,7 +43043,7 @@
   "slot": 112,
   "text_off": 1641,
   "text_len": 40,
-  "en": "{ctl:0042}Touya: Tsssh!!{page}{ctl:1240}Yamato: No way! What the heck is nyat thing!?{page}",
+  "en": "{ctl:0042}Touya: Ouuugh!!{page}{ctl:1240}Yamato: No way! What the heck is nyat thing!?{page}",
   "status": "translated"
  },
  {
@@ -43124,7 +43124,7 @@
   "slot": 112,
   "text_off": 2036,
   "text_len": 55,
-  "en": "{ctl:0042}Touya: On the edge of the cliff, huh... But!{page}{ctl:0940}Aurelie: That's right! It ain't over yet!{page}",
+  "en": "{ctl:0042}Touya: Backed into a corner, huh... But!{page}{ctl:0940}Aurelie: That's right! It ain't over yet!{page}",
   "status": "translated"
  },
  {
@@ -43880,7 +43880,7 @@
   "slot": 113,
   "text_off": 425,
   "text_len": 48,
-  "en": "{ctl:0048}Touya: Don't screw with me with an attack like that!{page}{ctl:0F40}Celica: Don't get careless! Be careful!{page}",
+  "en": "{ctl:0048}Touya: Don't insult me with an attack like that!{page}{ctl:0F40}Celica: Don't get careless! Be careful!{page}",
   "status": "translated"
  },
  {
@@ -43970,7 +43970,7 @@
   "slot": 113,
   "text_off": 840,
   "text_len": 44,
-  "en": "{ctl:0049}Touya: Whoa there!{page}{ctl:0F41}Celica: Hey! Don't go breaking it out of nowhere!?{page}",
+  "en": "{ctl:0049}Touya: Whoa there!{page}{ctl:0F41}Celica: Hey! Don't go breaking it out of nowhere!{page}",
   "status": "translated"
  },
  {
@@ -44078,7 +44078,7 @@
   "slot": 113,
   "text_off": 1376,
   "text_len": 79,
-  "en": "{ctl:0048}Touya: That doesn't work on me!{page}{ctl:0F40}Celica: Don't get overconfident.{page}{ctl:1240}Yamato: Right, right. It's nyot like getting hit is ever better than nyot getting hit.{page}{page}",
+  "en": "{ctl:0048}Touya: That doesn't work on me!{page}{ctl:0F40}Celica: Don't get overconfident.{page}{ctl:1240}Yamato: Right, right. Nyothing beats nyot getting hit at all.{page}{page}",
   "status": "translated"
  },
  {
@@ -44420,7 +44420,7 @@
   "slot": 113,
   "text_off": 3269,
   "text_len": 20,
-  "en": "{ctl:0042}Touya: On the edge of the cliff, huh...{page}",
+  "en": "{ctl:0042}Touya: Backed into a corner, huh...{page}",
   "status": "translated"
  },
  {
@@ -44915,7 +44915,7 @@
   "slot": 113,
   "text_off": 5568,
   "text_len": 110,
-  "en": "{ctl:1240}Yamato: Pranya levels rising nyicely...{page}{ctl:0F42}Ai: Aim corrected, target locked! Ready whenever you are!{page}{page}{ctl:0041}Touya: Take this! Zeifonic Bradlerrr!!{page}",
+  "en": "{ctl:1240}Yamato: Pranya levels rising nyicely...{page}{ctl:0F42}Ai: Aim corrected, target locked! Ready whenever you are!{page}{page}{ctl:0041}Touya: Take this! Zeifonic Bradleeer!!{page}",
   "status": "translated"
  },
  {
@@ -44933,7 +44933,7 @@
   "slot": 113,
   "text_off": 5714,
   "text_len": 33,
-  "en": "{ctl:0048}Touya: Here goes! Zeifonic Bradlerrr!!{page}",
+  "en": "{ctl:0048}Touya: Here goes! Zeifonic Bradleeer!!{page}",
   "status": "translated"
  },
  {
@@ -45680,7 +45680,7 @@
   "slot": 114,
   "text_off": 2522,
   "text_len": 36,
-  "en": "{ctl:0B43}Melvi: Kyau! Rayblade... I'm sorry...{page}",
+  "en": "{ctl:0B43}Melvi: Kyau! Rayblade... Melvi's sorry...{page}",
   "status": "translated"
  },
  {
@@ -47111,7 +47111,7 @@
   "slot": 115,
   "text_off": 5389,
   "text_len": 29,
-  "en": "{ctl:0041}Touya: I'll settle this with one sword... Here goes!{page}",
+  "en": "{ctl:0041}Touya: I'll settle this with one stroke... Here goes!{page}",
   "status": "translated"
  },
  {
@@ -47246,7 +47246,7 @@
   "slot": 115,
   "text_off": 6107,
   "text_len": 77,
-  "en": "{ctl:0C42}Leone: Now... the me I am now can see true bonds!{page}{ctl:0041}Touya: Here goes!{page}Touya & Leone: White Atonement!{page}",
+  "en": "{ctl:0C42}Leone: Now... as I am now, I can see true bonds!{page}{ctl:0041}Touya: Here goes!{page}Touya & Leone: White Atonement!{page}",
   "status": "translated"
  },
  {

@@ -362,186 +362,186 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [x] b266 sce376:015BB - あたしとトウヤの仲 = we're close - suggested: "So what? Me and Touya are close like that." -- fixed
 - [x] b266 sce376:003EF - "as it ever was" slightly stiff - suggested: "your masterpiece hasn't changed a bit." -- fixed
 - [x] b267 sce376:01D6E - "...Most likely... Lacrima is" reads oddly - suggested: "...Most likely it's because Lacrima is..." -- fixed
-- [ ] b268 sce379:00194 - 跳ばされ is a time/world jump - suggested: "So you got flung here too..."
-- [ ] b268 sce380:021F3 - "Just kidding... it's a joke." redundant - suggested: "...Just kidding. Ahahaha."
-- [ ] b269 sce381:00F7D - "why just him" when the subject is the mech - suggested: "So why only that thing!?"
-- [ ] b269 sce382:01130 - "that man misunderstood" right before naming Lyle - suggested: "But he got the wrong idea..."
-- [ ] b270 sce387:00399 - ガボン「ああ。よし」 "Sure. All right." slightly stiff - suggested: "Sure. Hang on."
-- [ ] b270 sce388:00948 - "I'll be taking my leave now" too formal for Celica - suggested: "Sorry, gotta run, bye!"
-- [ ] b272 sce398:00797 - 取り付く島もなし = she gives us the brush-off; current wording is vague - "...Talk about a cold shoulder."
-- [ ] b272 sce396:00E0B - bytecode misread as text (translator flagged); "..." placeholder should be excluded from extraction/insertion - controller.
-- [ ] b274 sce417:000AB - "Ah, look out! Dangerous, nya!" doubles 危ない - "Ah, look out, nya!"
-- [ ] b275 sce420:00177 - 余計なことを = (Ai) meddling; "She would..." loses it - "Ai and her meddling..."
-- [ ] b275 sce422:00195 - "Touya, I... about you..." stiff - "I... I, um, about you, Touya..."
-- [ ] b276 sce428:001F4/00540 - "the Forstin" with article; b273 uses bare "Forstin" - pick one in polish.
-- [ ] b276 sce424:004C0 - "wait for her, okay?" ambiguous third person - "wait for Melvi, okay?"
-- [ ] b277 sce431:00906 - ローディス殿下のお父さん -> "Lodis's father" drops 殿下 - "Prince Lodis's father".
-- [ ] b277 sce431:00A0D-00CB3 - label "Lodis: (Sisk)" reads like a thought; check forces it (translator flagged) - "Lodis (Sisk): " if the check allows.
-- [ ] b277 sce431:00D08 - あの人も相当だよな may mean Lodis (the cheesy lines), not Sisk - "...That prince is something else too..." if confirmed.
-- [ ] b278 sce434:00689 - "telling her that Kasumi's way too reserved" (talking to Touya about Kasumi) - "What? Just that Kasumi's way too reserved."
-- [ ] b278 sce435:00B4F - お船 = the Captain's model ship; "the ship" may read as the Liebhofen - "fix his little ship".
-- [ ] b280 bm000:0B22 - これ以上 dropped in last sentence - "But I won't let you do as you please anymore!"
-- [ ] b280 bm000:08C7 - やられている‥‥？ "It's tearing me up...?" slightly off - "I'm getting wrecked...?"
-- [ ] b281 bm000:1563 - せいっ rendered "Sei!!" (romanized kiai) - "Hah!!"
-- [ ] b281 bm000:0E18, bm000:1049 - パワーが上がらねぇ "the power won't go up" stiff - "I can't get the power up!"
-- [ ] b282 bm000:1BC4 - この一刀で決める "settle this with one sword" vs "one stroke" elsewhere - "I'll settle this with one stroke..."
-- [ ] b283 bm002:0B87 - "Meltdown down to the eighth armor layer" clunky - "The eighth armor layer's melted...?"
-- [ ] b283 bm002:0FBD - 一番アイちゃん、いっきま～す is a Gundam launch parody - "Ai-chan, launching~!"
-- [ ] b285 bm004:0977 - "The power won't go up" stiff - "I can't get the power up..."
-- [ ] b286 bm005:0A36 - "Y-you're good!" contraction breaks Xiujian's formal register - "Y-you are skilled!"
-- [ ] b287 bm005:0F5D - "Don't be shy" contraction for Xiujian - "Do not hold back."
-- [ ] b287 bm006:05A5 - モテない "never be popular" - "or the ladies won't like you."
-- [ ] b288 bm006:0C2B - 甘いっ "Too slow!" vs bm006:0083 "Too soft!" - pick one: "Too soft!"
-- [ ] b291 bm008:0022 - dev placeholder かいはつ "development" lowercase vs bm003:0022 "Development" - "Development"
-- [ ] b292 bm009:0CC9 / bm009:0FB8 - 連撃 "Double strike" vs "combo" - unify: "Combo strike!"
-- [ ] b292 bm009:0A56 - 奥義 "Secret technique" vs Xiujian's "Secret art" - "Secret art!"
-- [ ] b292 bm009:0D9A - Goemon parody (またつまらぬものを斬って) - "...Once again, I cut something worthless... Kidding."
-- [ ] b294 bm011:003D - 甘いですね on a dodge = "naive of you"; "Too careless." slightly off - "How naive."
-- [ ] b294 bm011:05F0 - なんの = defiant "not yet"; "N-not at all" reads oddly - "N-nothing to it, the fight's only just beginning!"
-- [ ] b294 bm011:021E - read/read repetition - "Well, well... A shrewd guess."
-- [ ] b294 bm011:0958 - さもしい = base, petty - "How base..."
-- [ ] b295 bm011:1232 - "is it..." tag awkward - "Force answered with force, huh... Human history is a cycle of tragedy, isn't it..."
-- [ ] b295 bm011:10A4 - "There, I think." stiff - "Right there."
-- [ ] b295 bm012:0068 / bm012:0301 - びっくりした = startled, rendered "scary" - "That startled me~" / "Th-that surprised meee..."
-- [ ] b299 bm014:0A5D - これでっ "With this!" flat - "Take this!"
-- [ ] b300 bm015:0B42 - proverb - "Every rose has its thorns... just kidding."
-- [ ] b300 bm015:0845 - この子 = the mech - "She can't take any more!"
-- [ ] b301 bm016:05F0 - 謙虚さ here = restraint/humility - "Don't you have any humility at all!?"
-- [ ] b302 bm016:07C7 - 気休め on an attack line; "much more than a comfort" stiff - "This might not do much, but..."
-- [ ] b303 bm017:0759 - 当たれっ "Hit!" ambiguous - "Connect!"
-- [ ] b303 bm020:0667 - あれを使うか = "shall I use that" - "Time to use that, eh..."
-- [ ] b304 bm020:0712 - trailing "eh?" odd - "Now it's my turn... I won't hold back."
-- [ ] b305 bm022:0041 - なんのっ on a dodge; "Hardly!" odd - "Not so fast!"
-- [ ] b305 bm022:0475 - なんの = defiance; "What of it!" off - "N-not yet!"
-- [ ] b306 bm023:010F / bm024:03F1 - 甘い as "Too soft!" reads oddly; other batches use "naive" - "Too easy!" / "Naive!"
-- [ ] b306 bm023:0151 - fragment "An attack like this!!" - "I won't fall to an attack like this!!"
-- [ ] b307 bm025:005A / bm026:0178 - なんの as "Hardly!" is awkward - "Not so fast!" / "Guh! It's nothing! Not yet!!"
-- [ ] b307 bm026:0044 - 甘いよっ "Too soft!" - "Too easy!"
-- [ ] b308 bm027:042C - 甘いな "Too soft." - "Naive."
-- [ ] b308 bm027:008A - "Still... too green!" - "Still far too green!"
-- [ ] b309 bm032:0408 - 当たって！ "Please hit!" - "Come on, hit!"
-- [ ] b310 bm034:0051 - 話にならんな "You're not even worth discussing." - "Naive. Not even worth my time."
-- [ ] b311 bm035:03DD - パワーが上がらない "the power won't rise, it seems" - "Ugh... my power won't come up, it seems."
-- [ ] b312 bm037:0545 - 甘いんだよっ "Too soft!" on an attack - "Too easy!"
-- [ ] b312 bm037:0118/0133 - 効かねえ "doesn't work on me" is acceptable; "doesn't hurt" would match the rest of the battle set.
-- [ ] b313 bm043:026D - まだまだ甘いね "you're still too soft" - "you're still too green!"
-- [ ] b314 bm044:050D - あらよっと "Upsy-daisy!" childish for a soldier - "Hup, there we go!"
-- [ ] b314 bm044:05FE - 当ててみせる "I'll hit it!" unclear referent - "I'll land this!"
-- [ ] b315 bm046:00D0 - ザコキャラ "small-fry character" - "Just small fry after all."
-- [ ] b315 bm046:04C3 / 0534 - "This is bad at this rate!" awkward - "At this rate, I'm in trouble!"
-- [ ] b316 bm046:06E1 - "Let's see if you can withstand this attack!?" punctuation - "Can you withstand this attack!?"
-- [ ] b317 bm050:0513 - 当てるっ "I'll hit it!" - "I'll land this!"
-- [ ] b317 bm048:0022 - speaker コア passes check as "Core"; translator's request for a Speaker labels row is for the controller.
-- [ ] b318 bm051:01D2 - やってくれるじゃないか "You've got some nerve!" - "Not bad at all!"
-- [ ] b318 bm051:033A - JP typo ドドメをさせなった read as トドメを刺せなかった; rendering correct.
-- [ ] b319 bm053:0143 - 効かん！効かんぞぉ！ - "That won't work! Won't work, I tell ya!"
-- [ ] b319 bm054:0123 - む！当たったか！ (Goh hit) - "Hm! So I'm hit!"
-- [ ] b320 bm055:0253 - こ、こいつ‥‥ - stutter "Wh-this guy" -> "Th-this guy... he's good, dammit!"
-- [ ] b320 bm055:00C3 - 当たっただけだっての - "It only hit me, that's all!" -> "It just grazed me, okay!"
-- [ ] b321 bm058:0129 - 所詮この程度 - "So this is the limit of your skill..."
-- [ ] b321 bm058:01FD - その程度で‥‥ - "With that much..." unclear -> "With only that much...?"
-- [ ] b321 bm058:0102 - 効かんな - "That didn't hurt."
-- [ ] b322 bm059:03C0 - まともに食らってたらやばかったかな - "if I'd taken that head-on, that could've been bad!?"
-- [ ] b322 bm060:0118 - ちいっ、さすがに！ - "Tch, as expected!" -> "Tch, you're good!"
-- [ ] b323 bm063:0035 - 甘いっ！ - "Too naive!" (matches project-wide "Naive!"; polish could prefer "Too easy!")
-- [ ] b324 bm066 - 隊長 label "Commander" follows the speaker-label table (rank list's "Captain" is for in-text address); no change.
-- [ ] b325 bm067:00F9 - そんな攻撃！ - "An attack like that!" fragment -> "Like that attack would work!"
-- [ ] b325 bm067:00E7 - 効かん！ - "Didn't work!" -> "That didn't hurt!"
-- [ ] b326 bm075:0417 - ‥‥この僕が‥‥？ - "...Me...?" -> "...Me, of all people...?"
-- [ ] b326 bm075:039D - その程度で‥‥いい気になりすぎだ - redundant -> "Getting cocky over that? You're way too full of yourself!"
-- [ ] b326 bm075:0688 - こいつはお礼だ、とっときな - "Here's a little thank-you. Keep it!"
-- [ ] b327 bm078:0483 - 血の刻印 - "a seal of blood" -> "a brand of blood"
-- [ ] b327 bm078:04F3 - いい子達だ - "Good children..." -> "Such good children..."
-- [ ] b327 bm079:0061 - かわしたの‥‥ - "Did I dodge it...?"
-- [ ] b328 bm092:0134 - 所詮はこの程度 - "In the end, this is all..." -> "So this is all you amount to..."
-- [ ] b329 bm105:0723 - ‥‥けち - "...Cheapskate." -> "...Meanie."
-- [ ] b329 bm105:0936 - Yamato has three ニャ, one pun rendered; could add "nyeeds to be careful"
-- [ ] b330 bm105:0E82 - でもちょっと反省 - "...But I'll reflect on it a little." -> "...Okay, maybe that's a little on me."
-- [ ] b330 New terms (Pranya, Vanishing Shadow, True One-Sword Art, Daifozon alone) for controller to add to glossary.
-- [ ] b331 bm105:19C1 - "Gooo... ooooo!!" for いっ‥‥けぇぇぇぇっ reads oddly - "Go... get 'eeem!!"
-- [ ] b331 bm105:1976 - 二の太刀 pun on the Second Blade move name is lost - "This move won't need a second blade!"
-- [ ] b332 bm111:13F9 - "This is my and Touya-chan's power!" is clunky - "This is the power of me and Touya-chan!"
-- [ ] b333 bm112:07F4 - 崖っぷち rendered literally "On the edge of the cliff, huh..." - "Backed into a corner, huh..."
-- [ ] b333 bm112:0669 - "Tsssh!!" for つぅぅっ (pain) - "Ouuugh!!"
-- [ ] b334 bm113:0560 - Yamato line is convoluted ("It's nyot like getting hit is ever better than nyot getting hit") - "Nyothing beats nyot getting hit at all."
-- [ ] b334 bm113:01A9 - "Don't screw with me with an attack like that!" - "Don't insult me with an attack like that!"
-- [ ] b334 bm113:0348 - "Don't go breaking it out of nowhere!?" odd !? - end with "!"
-- [ ] b335 bm113:0CC5 - "On the edge of the cliff, huh..." - "Backed into a corner, huh..."
-- [ ] b336 batch-wide - stretched shout "Zeifonic Bradlerrr" here vs "Bradleeer" in b331-b335 - pick one in polish.
-- [ ] b336 bm113:15C0 - JP names アイ under a Celica portrait code; kept as Ai per JP - confirm in-game.
-- [ ] b337 bm114:09DA - Melvi "Rayblade... I'm sorry..." could keep third person - "Rayblade... Melvi's sorry..."
-- [ ] b338 (none)
-- [ ] b339 bm115:17DB - "Now... the me I am now can see true bonds!" awkward - "Now... as I am now, I can see true bonds!"
-- [ ] b339 bm115:15A5 - 必殺剣 "Secret sword..." vs 必殺 "Special move" elsewhere - "Special sword..."
-- [ ] b340 (none)
-- [ ] b341 (none)
-- [ ] story ch00 sce000:01085 - 溜め込む "nyo holding back" off (JP = don't hoard) - suggested EN: You've gotta keep using your topics, nya! Hoarding them does you nyo good at all.
-- [ ] story ch00 sce000:00E35 - lowercase "affection" vs title-case "Affection Check" (glossary 好感度 = Affection) - capitalise Affection.
-- [ ] story ch02 sce003:03CD4 - Ai 「よっ、大統領！」 cheer lost - suggested EN: So grown-u~up! Real cool, Clovis. Way to go, Mr. President!
-- [ ] story ch02 sce003:01D95/01EDA - 失礼します as "farewell" too heavy - "Then I'll take my leave!" / "Then, I'll take my leave."
-- [ ] story ch02 sce003:01BC4 - Lodis 「では次は聖地‥‥」 - "Then our next meeting is at the Holy Land..."
-- [ ] story ch02 sce005:00E9E - Touya 「すまねぇな」 as "Thanks." flattens apology - "Sorry to dump her on you. I'm off, then."
-- [ ] story ch02 sce006:0057D - Celica "a knight, after all, sort of" - "You are a knight, after all."
-- [ ] story ch02 sce006:005BA - Fain 「そ、そんなぁ‥‥」 - "N-no way... not fair..."
-- [ ] story ch02 sce006:00918 - Ymir 「ちょっと、ね」 evasive - "Just... a little something, you know."
-- [ ] story ch03 sce009:009D2 - Yamato ニャに？ "Nyes?" drops the question - "Nyhat?"
-- [ ] story ch03 sce008:04070 - Maki's sudden politeness lost - "Huh? N-no, I couldn't possibly!"
-- [ ] story ch03 sce008:034FA - stutter misplaced "C-cut it, out..." - "C-cut it out..."
-- [ ] story ch03 sce009:00262 - "O-OW!!" caps - "O-ow!! Wh-what the hell are you doing!?"
-- [ ] story ch03 sce008:02A98 - repeated full gloss of Jii-chan's dojo - "Jii-chan's dojo, a long time ago..."
-- [ ] story ch03 sce009:019A9 - Derock clumsy - "Two? What's that supposed to mean, y'see?"
-- [ ] story ch03 sce009:008B2 - Clovis いやはや "My, my" prissy - "Well, well, all night long? You two are busy."
-- [ ] story ch03 sce008:00989 - Ai prim "so shall we get going?" - "let's get going."
-- [ ] story ch01 sce002:0227B/0252D - Ymir もぅ！ as "Geez!" (same as Ai/Touya) loses her register - "Oh, honestly! Stop teasing!" / "A-Ai, honestly!?"
-- [ ] story ch01 sce001:0086D - Kasumi's indirect "Touya-chan's class" made direct - "B-by the way, I heard laughing from Touya-chan's class this morning..."
-- [ ] story ch01 sce002:01F85 - Touya 似てねぇけど… EN pins a woman as referent - keep it vaguer: "(...Doesn't look like anyone I know... but somehow...)"
-- [ ] story ch01 sce002:00C66 - "Armored... mech" reads as sounding out - "\"Armored Mech\"?"
-- [ ] story ch01 sce002:01886 - Alforina too casual - "to them, it is nothing more than being used."
-- [ ] story ch01 sce002:02AF7 - Celica あらあら "My, my" prim - "Whoa, what's with everyone? Why the long faces?"
-- [ ] story ch01 sce002:0235E - Touya 相手に合わせただけだ jab lost - "I'm just treating you how you treated me."
-- [ ] story ch05 sce013:00040 - "Agarthia army" - "It looks like the Agarthian army has sortied."
-- [ ] story ch05 sce013:00F0A - Dei's dismissive アレ lost - "Ah, that one's been left to dispose of the Spirit Mech pilots. She'll likely rejoin us afterward."
-- [ ] story ch05 sce013:00E43 - awkward - "Ioannis-kun refused to come here of his own accord."
-- [ ] story ch05 sce013:0017B - Sisk はぁ～い "ma'aaam" too deferential - "Okaaay~."
-- [ ] story ch05 sce014:00544/006B0 - Growster 昼行灯 irony lost in "good-for-nothing" - "that do-nothing figurehead"
-- [ ] story ch05 sce014:00544-007AE - Growster's ワシ gruffness neutral - add gruff "Hmph."/"eh?" and old-man phrasing
-- [ ] story ch05 sce014:00946 - Vales too casual - "Forgive the rough handling."
-- [ ] story ch05 sce013:017DA - "old Ivel-baa-san" doubled - "Ivel-baa-san"
-- [ ] story ch05 sce013:0007F/000D8 - Fain's boasting plain - add bombast ("...Smashed to bits in no time, dahahaha!")
-- [ ] story ch06 sce016:000F0/00391 - 医者の不養生 as "physician, heal thyself" - "There's a saying, 'the doctor never takes his own medicine,' and right now that's exactly you, Miyasco."
-- [ ] story ch06 sce017:0013F - Debish too casual - "It has been a long time... or perhaps I should say, how do you do, crew of the Liebhofen."
-- [ ] story ch06 sce016:00CB6 - Bernst 死なれると困ります echo ("troublesome" elsewhere) - "It would be most troublesome if you were to die..."
-- [ ] story ch06 sce016:053A1 - choice loses 鎮圧班/救出班 labels - "Suppression: ... / Rescue: ..." if width allows
-- [ ] story ch06 sce016:05AD6 - Tix clumsy - "...Huh? Sis...?"
-- [ ] story ch06 sce016:03E55 - Doris ambiguous - "Fufufufu... Looks like it's a little too late for you... Goodbye, Touya-kun..."
-- [ ] story ch06 sce016:0236B - Nihil awkward - "If you've got time to kill, come have some fun with us."
-- [ ] story ch06 sce016:00720/01DE5 - Lodis fragment - "...I've learned a number of things, Ymir, including some news that will disappoint you."
-- [ ] story ch06 sce016:06063 - Fain stammer off-voice - "Ah, please wait for me, Princess~!"
-- [ ] story ch06 sce016:03355 - Yamato pun dropped - "Look at you, you're soaking wet, nyow!"
-- [ ] story ch07 sce019:00133/00162 - Forzen "wife" joke unclear - Yamato: "Ymir's like a mom today, with Melvi sitting right on her lap." Forzen: "Hm? So that would make Ymir-san my wife?"
-- [ ] story ch07 sce019:00A9A - trails oddly - "(Th-this is... is this where I think it's going...?)"
-- [ ] story ch07 sce019:018A9 - Aurelie no referent - "Ah, so that's why she was in such a rush. Can't be the only reason, but it must be a big part of it."
-- [ ] story ch07 sce020:00993 - Sisk 殿下ぁ～ wail lost - "Huh? This is the private line... Don't tell me... Your Highnesssss!?"
-- [ ] story ch07 sce020:00AD3 - comma splice - "N-never mind that! You stopped it without a hitch, impressive. I believed in you."
-- [ ] story ch07 sce021:00BF6 - "Oswald"/"that kid" referent unclear - check JP name slot; e.g. "I'm not letting that girl die because of us!"
-- [ ] story ch07 sce022:01508 - clumsy tag - "Three cheers for Japanese culture, I say!"
-- [ ] story ch07 sce022:0115D/01932 - Derock double tags - one tag per sentence
-- [ ] story ch07 sce023:02366 - Doris grammar - "I fell for the man inside Dei."
-- [ ] story ch04 sce010:0325D - Celica says "Brother" elsewhere - "Dear Brother,"
-- [ ] story ch04 sce010:02541 - Reisuke beeps inconsistent (sce011:038BC, 03953) - "Pipopopopo." in all three
-- [ ] story ch04 sce011:0326F - "old Ivel-baa-san" redundant - "Granny Ivel"
-- [ ] story ch04 sce010:001DB - Forzen 面目ない stiff - "Ahh~ guilty as charged."
-- [ ] story ch04 sce010:03106 - ungrammatical - "we'd turn traitor to the nation if that's what it takes!"
-- [ ] story ch04 sce012:000AB - 医者の不養生 clunky - "They say 'the doctor never heals herself', and that's you right now, Miyasco."
-- [ ] story ch04 sce010:01AEF - Revios grammar - "Only now do they move to get their hands on the Spirit Mechs..."
-- [ ] story ch04 sce012:01517 - Yamato pun lost - "a nyice little stream! I wonder if there are any fishies, nya?"
-- [ ] story ch04 sce010:00963/0333D/036DE - はぁ as literal "Sigh" - "Haah..." or "*Sigh*"
-- [ ] story ch08 sce025:00FE3 - choice drops そんなことない - "That's not true. You're doing great, Kasumi. / Don't push yourself. That's what I'm here for."
-- [ ] story ch08 sce025:01E9E - Yamato deflection - "Nya, nyo idea what you mean, nya~"
-- [ ] story ch08 sce025:03D2F - Derock tag awkward - "Leave the rest to us, y'see."
-- [ ] story ch08 sce025:034F6 - 律義 as "loyal" - "Aren't you the dutiful type, keeping your promise."
-- [ ] story ch08 sce025:033B4 - "she" implies mix-up - "Looks like somebody got the wrong idea..."
-- [ ] story ch08 sce025:02E36 - Melissa "Jeez" too girlish - "Honestly. Are you going to make a woman say any more than that?"
+- [x] b268 sce379:00194 - 跳ばされ is a time/world jump - suggested: "So you got flung here too..." -- fixed
+- [x] b268 sce380:021F3 - "Just kidding... it's a joke." redundant - suggested: "...Just kidding. Ahahaha." -- fixed
+- [x] b269 sce381:00F7D - "why just him" when the subject is the mech - suggested: "So why only that thing!?" -- fixed
+- [x] b269 sce382:01130 - "that man misunderstood" right before naming Lyle - suggested: "But he got the wrong idea..." -- fixed
+- [x] b270 sce387:00399 - ガボン「ああ。よし」 "Sure. All right." slightly stiff - suggested: "Sure. Hang on." -- fixed
+- [x] b270 sce388:00948 - "I'll be taking my leave now" too formal for Celica - suggested: "Sorry, gotta run, bye!" -- fixed
+- [x] b272 sce398:00797 - 取り付く島もなし = she gives us the brush-off; current wording is vague - "...Talk about a cold shoulder." -- fixed
+- [x] b272 sce396:00E0B - bytecode misread as text (translator flagged); "..." placeholder should be excluded from extraction/insertion - controller. -- waived: extraction issue (bytecode entry), controller/tooling task, not a text fix
+- [x] b274 sce417:000AB - "Ah, look out! Dangerous, nya!" doubles 危ない - "Ah, look out, nya!" -- fixed
+- [x] b275 sce420:00177 - 余計なことを = (Ai) meddling; "She would..." loses it - "Ai and her meddling..." -- fixed
+- [x] b275 sce422:00195 - "Touya, I... about you..." stiff - "I... I, um, about you, Touya..." -- fixed
+- [x] b276 sce428:001F4/00540 - "the Forstin" with article; b273 uses bare "Forstin" - pick one in polish. -- waived: "the Forstin" matches story-wide mech usage (the Dusseldorf, 10x the Forstin); bare form only in Melvi's personifying battle lines
+- [x] b276 sce424:004C0 - "wait for her, okay?" ambiguous third person - "wait for Melvi, okay?" -- fixed
+- [x] b277 sce431:00906 - ローディス殿下のお父さん -> "Lodis's father" drops 殿下 - "Prince Lodis's father". -- fixed (+sce432:00906)
+- [x] b277 sce431:00A0D-00CB3 - label "Lodis: (Sisk)" reads like a thought; check forces it (translator flagged) - "Lodis (Sisk): " if the check allows. -- waived: speaker-tag lint requires glossary name + (thought) form; needs a tool change, current label understandable in flashback context
+- [x] b277 sce431:00D08 - あの人も相当だよな may mean Lodis (the cheesy lines), not Sisk - "...That prince is something else too..." if confirmed. -- fixed (+sce432:00D08); context = Lodis's cheesy lines being reenacted
+- [x] b278 sce434:00689 - "telling her that Kasumi's way too reserved" (talking to Touya about Kasumi) - "What? Just that Kasumi's way too reserved." -- fixed
+- [x] b278 sce435:00B4F - お船 = the Captain's model ship; "the ship" may read as the Liebhofen - "fix his little ship". -- fixed
+- [x] b280 bm000:0B22 - これ以上 dropped in last sentence - "But I won't let you do as you please anymore!" -- fixed (+bm071:0B22)
+- [x] b280 bm000:08C7 - やられている‥‥？ "It's tearing me up...?" slightly off - "I'm getting wrecked...?" -- fixed (+bm071:08C7)
+- [x] b281 bm000:1563 - せいっ rendered "Sei!!" (romanized kiai) - "Hah!!" -- fixed (+bm071:1563) as "Hyaah!!"
+- [x] b281 bm000:0E18, bm000:1049 - パワーが上がらねぇ "the power won't go up" stiff - "I can't get the power up!" -- fixed (+bm071:0E18, bm071:1049)
+- [x] b282 bm000:1BC4 - この一刀で決める "settle this with one sword" vs "one stroke" elsewhere - "I'll settle this with one stroke..." -- fixed (+bm071:1BC4, bm105:1666, bm115:150D)
+- [x] b283 bm002:0B87 - "Meltdown down to the eighth armor layer" clunky - "The eighth armor layer's melted...?" -- fixed
+- [x] b283 bm002:0FBD - 一番アイちゃん、いっきま～す is a Gundam launch parody - "Ai-chan, launching~!" -- fixed
+- [x] b285 bm004:0977 - "The power won't go up" stiff - "I can't get the power up..." -- fixed
+- [x] b286 bm005:0A36 - "Y-you're good!" contraction breaks Xiujian's formal register - "Y-you are skilled!" -- fixed
+- [x] b287 bm005:0F5D - "Don't be shy" contraction for Xiujian - "Do not hold back." -- fixed as "Do not be shy." (keeps 遠慮するな sense, no contraction)
+- [x] b287 bm006:05A5 - モテない "never be popular" - "or the ladies won't like you." -- fixed
+- [x] b288 bm006:0C2B - 甘いっ "Too slow!" vs bm006:0083 "Too soft!" - pick one: "Too soft!" -- fixed: both Clovis lines "Too easy!" (other batches moved off "Too soft")
+- [x] b291 bm008:0022 - dev placeholder かいはつ "development" lowercase vs bm003:0022 "Development" - "Development" -- fixed
+- [x] b292 bm009:0CC9 / bm009:0FB8 - 連撃 "Double strike" vs "combo" - unify: "Combo strike!" -- fixed: "Combo strike!" / "Special combo strike!"
+- [x] b292 bm009:0A56 - 奥義 "Secret technique" vs Xiujian's "Secret art" - "Secret art!" -- fixed
+- [x] b292 bm009:0D9A - Goemon parody (またつまらぬものを斬って) - "...Once again, I cut something worthless... Kidding." -- fixed
+- [x] b294 bm011:003D - 甘いですね on a dodge = "naive of you"; "Too careless." slightly off - "How naive." -- fixed
+- [x] b294 bm011:05F0 - なんの = defiant "not yet"; "N-not at all" reads oddly - "N-nothing to it, the fight's only just beginning!" -- fixed
+- [x] b294 bm011:021E - read/read repetition - "Well, well... A shrewd guess." -- fixed
+- [x] b294 bm011:0958 - さもしい = base, petty - "How base..." -- fixed
+- [x] b295 bm011:1232 - "is it..." tag awkward - "Force answered with force, huh... Human history is a cycle of tragedy, isn't it..." -- fixed
+- [x] b295 bm011:10A4 - "There, I think." stiff - "Right there." -- fixed
+- [x] b295 bm012:0068 / bm012:0301 - びっくりした = startled, rendered "scary" - "That startled me~" / "Th-that surprised meee..." -- fixed (pronoun-free, Melvi third person safe)
+- [x] b299 bm014:0A5D - これでっ "With this!" flat - "Take this!" -- fixed
+- [x] b300 bm015:0B42 - proverb - "Every rose has its thorns... just kidding." -- fixed
+- [x] b300 bm015:0845 - この子 = the mech - "She can't take any more!" -- fixed
+- [x] b301 bm016:05F0 - 謙虚さ here = restraint/humility - "Don't you have any humility at all!?" -- fixed
+- [x] b302 bm016:07C7 - 気休め on an attack line; "much more than a comfort" stiff - "This might not do much, but..." -- fixed
+- [x] b303 bm017:0759 - 当たれっ "Hit!" ambiguous - "Connect!" -- fixed as "Hit home!" (+bm080:0759)
+- [x] b303 bm020:0667 - あれを使うか = "shall I use that" - "Time to use that, eh..." -- fixed
+- [x] b304 bm020:0712 - trailing "eh?" odd - "Now it's my turn... I won't hold back." -- fixed
+- [x] b305 bm022:0041 - なんのっ on a dodge; "Hardly!" odd - "Not so fast!" -- fixed
+- [x] b305 bm022:0475 - なんの = defiance; "What of it!" off - "N-not yet!" -- fixed
+- [x] b306 bm023:010F / bm024:03F1 - 甘い as "Too soft!" reads oddly; other batches use "naive" - "Too easy!" / "Naive!" -- fixed
+- [x] b306 bm023:0151 - fragment "An attack like this!!" - "I won't fall to an attack like this!!" -- fixed
+- [x] b307 bm025:005A / bm026:0178 - なんの as "Hardly!" is awkward - "Not so fast!" / "Guh! It's nothing! Not yet!!" -- fixed
+- [x] b307 bm026:0044 - 甘いよっ "Too soft!" - "Too easy!" -- fixed
+- [x] b308 bm027:042C - 甘いな "Too soft." - "Naive." -- fixed (+bm027:04CA, bm027:056B)
+- [x] b308 bm027:008A - "Still... too green!" - "Still far too green!" -- fixed as "Still far too... green!"
+- [x] b309 bm032:0408 - 当たって！ "Please hit!" - "Come on, hit!" -- fixed (+bm032:04BA)
+- [x] b310 bm034:0051 - 話にならんな "You're not even worth discussing." - "Naive. Not even worth my time." -- fixed
+- [x] b311 bm035:03DD - パワーが上がらない "the power won't rise, it seems" - "Ugh... my power won't come up, it seems." -- fixed
+- [x] b312 bm037:0545 - 甘いんだよっ "Too soft!" on an attack - "Too easy!" -- fixed
+- [x] b312 bm037:0118/0133 - 効かねえ "doesn't work on me" is acceptable; "doesn't hurt" would match the rest of the battle set. -- waived: current 'doesn't work on me' matches Touya's line and most of the battle set
+- [x] b313 bm043:026D - まだまだ甘いね "you're still too soft" - "you're still too green!" -- fixed
+- [x] b314 bm044:050D - あらよっと "Upsy-daisy!" childish for a soldier - "Hup, there we go!" -- fixed
+- [x] b314 bm044:05FE - 当ててみせる "I'll hit it!" unclear referent - "I'll land this!" -- fixed
+- [x] b315 bm046:00D0 - ザコキャラ "small-fry character" - "Just small fry after all." -- fixed
+- [x] b315 bm046:04C3 / 0534 - "This is bad at this rate!" awkward - "At this rate, I'm in trouble!" -- fixed
+- [x] b316 bm046:06E1 - "Let's see if you can withstand this attack!?" punctuation - "Can you withstand this attack!?" -- fixed
+- [x] b317 bm050:0513 - 当てるっ "I'll hit it!" - "I'll land this!" -- fixed
+- [x] b317 bm048:0022 - speaker コア passes check as "Core"; translator's request for a Speaker labels row is for the controller. -- waived: no line change; speaker-label row is for the controller
+- [x] b318 bm051:01D2 - やってくれるじゃないか "You've got some nerve!" - "Not bad at all!" -- fixed
+- [x] b318 bm051:033A - JP typo ドドメをさせなった read as トドメを刺せなかった; rendering correct. -- waived: rendering already correct
+- [x] b319 bm053:0143 - 効かん！効かんぞぉ！ - "That won't work! Won't work, I tell ya!" -- waived: current accurate and matches battle set
+- [x] b319 bm054:0123 - む！当たったか！ (Goh hit) - "Hm! So I'm hit!" -- fixed
+- [x] b320 bm055:0253 - こ、こいつ‥‥ - stutter "Wh-this guy" -> "Th-this guy... he's good, dammit!" -- fixed
+- [x] b320 bm055:00C3 - 当たっただけだっての - "It only hit me, that's all!" -> "It just grazed me, okay!" -- fixed
+- [x] b321 bm058:0129 - 所詮この程度 - "So this is the limit of your skill..." -- fixed
+- [x] b321 bm058:01FD - その程度で‥‥ - "With that much..." unclear -> "With only that much...?" -- fixed
+- [x] b321 bm058:0102 - 効かんな - "That didn't hurt." -- fixed
+- [x] b322 bm059:03C0 - まともに食らってたらやばかったかな - "if I'd taken that head-on, that could've been bad!?" -- fixed
+- [x] b322 bm060:0118 - ちいっ、さすがに！ - "Tch, as expected!" -> "Tch, you're good!" -- fixed
+- [x] b323 bm063:0035 - 甘いっ！ - "Too naive!" (matches project-wide "Naive!"; polish could prefer "Too easy!") -- waived: 'Too naive!' is the project majority for 甘い
+- [x] b324 bm066 - 隊長 label "Commander" follows the speaker-label table (rank list's "Captain" is for in-text address); no change. -- waived: no change; label follows speaker table
+- [x] b325 bm067:00F9 - そんな攻撃！ - "An attack like that!" fragment -> "Like that attack would work!" -- fixed
+- [x] b325 bm067:00E7 - 効かん！ - "Didn't work!" -> "That didn't hurt!" -- fixed
+- [x] b326 bm075:0417 - ‥‥この僕が‥‥？ - "...Me...?" -> "...Me, of all people...?" -- fixed
+- [x] b326 bm075:039D - その程度で‥‥いい気になりすぎだ - redundant -> "Getting cocky over that? You're way too full of yourself!" -- fixed
+- [x] b326 bm075:0688 - こいつはお礼だ、とっときな - "Here's a little thank-you. Keep it!" -- fixed
+- [x] b327 bm078:0483 - 血の刻印 - "a seal of blood" -> "a brand of blood" -- fixed
+- [x] b327 bm078:04F3 - いい子達だ - "Good children..." -> "Such good children..." -- fixed
+- [x] b327 bm079:0061 - かわしたの‥‥ - "Did I dodge it...?" -- fixed
+- [x] b328 bm092:0134 - 所詮はこの程度 - "In the end, this is all..." -> "So this is all you amount to..." -- fixed
+- [x] b329 bm105:0723 - ‥‥けち - "...Cheapskate." -> "...Meanie." -- fixed
+- [x] b329 bm105:0936 - Yamato has three ニャ, one pun rendered; could add "nyeeds to be careful" -- fixed
+- [x] b330 bm105:0E82 - でもちょっと反省 - "...But I'll reflect on it a little." -> "...Okay, maybe that's a little on me." -- fixed
+- [x] b330 New terms (Pranya, Vanishing Shadow, True One-Sword Art, Daifozon alone) for controller to add to glossary. -- waived: glossary additions are the controller's job; no line change
+- [x] b331 bm105:19C1 - "Gooo... ooooo!!" for いっ‥‥けぇぇぇぇっ reads oddly - "Go... get 'eeem!!" -- fixed
+- [x] b331 bm105:1976 - 二の太刀 pun on the Second Blade move name is lost - "This move won't need a second blade!" -- fixed
+- [x] b332 bm111:13F9 - "This is my and Touya-chan's power!" is clunky - "This is the power of me and Touya-chan!" -- fixed
+- [x] b333 bm112:07F4 - 崖っぷち rendered literally "On the edge of the cliff, huh..." - "Backed into a corner, huh..." -- fixed
+- [x] b333 bm112:0669 - "Tsssh!!" for つぅぅっ (pain) - "Ouuugh!!" -- fixed
+- [x] b334 bm113:0560 - Yamato line is convoluted ("It's nyot like getting hit is ever better than nyot getting hit") - "Nyothing beats nyot getting hit at all." -- fixed
+- [x] b334 bm113:01A9 - "Don't screw with me with an attack like that!" - "Don't insult me with an attack like that!" -- fixed
+- [x] b334 bm113:0348 - "Don't go breaking it out of nowhere!?" odd !? - end with "!" -- fixed
+- [x] b335 bm113:0CC5 - "On the edge of the cliff, huh..." - "Backed into a corner, huh..." -- fixed
+- [x] b336 batch-wide - stretched shout "Zeifonic Bradlerrr" here vs "Bradleeer" in b331-b335 - pick one in polish. -- fixed
+- [x] b336 bm113:15C0 - JP names アイ under a Celica portrait code; kept as Ai per JP - confirm in-game. -- waived: needs in-game check; Ai kept per JP
+- [x] b337 bm114:09DA - Melvi "Rayblade... I'm sorry..." could keep third person - "Rayblade... Melvi's sorry..." -- fixed
+- [x] b338 (none) -- waived: no finding
+- [x] b339 bm115:17DB - "Now... the me I am now can see true bonds!" awkward - "Now... as I am now, I can see true bonds!" -- fixed
+- [x] b339 bm115:15A5 - 必殺剣 "Secret sword..." vs 必殺 "Special move" elsewhere - "Special sword..." -- waived: 必殺剣 distinct from 必殺; 'Secret sword' natural, 'Special sword' awkward
+- [x] b340 (none) -- waived: no finding
+- [x] b341 (none) -- waived: no finding
+- [x] story ch00 sce000:01085 - 溜め込む "nyo holding back" off (JP = don't hoard) - suggested EN: You've gotta keep using your topics, nya! Hoarding them does you nyo good at all. -- fixed
+- [x] story ch00 sce000:00E35 - lowercase "affection" vs title-case "Affection Check" (glossary 好感度 = Affection) - capitalise Affection. -- fixed
+- [x] story ch02 sce003:03CD4 - Ai 「よっ、大統領！」 cheer lost - suggested EN: So grown-u~up! Real cool, Clovis. Way to go, Mr. President! -- fixed
+- [x] story ch02 sce003:01D95/01EDA - 失礼します as "farewell" too heavy - "Then I'll take my leave!" / "Then, I'll take my leave." -- fixed
+- [x] story ch02 sce003:01BC4 - Lodis 「では次は聖地‥‥」 - "Then our next meeting is at the Holy Land..." -- waived: current 'Then next time, at the Holy Land...' already clear
+- [x] story ch02 sce005:00E9E - Touya 「すまねぇな」 as "Thanks." flattens apology - "Sorry to dump her on you. I'm off, then." -- fixed
+- [x] story ch02 sce006:0057D - Celica "a knight, after all, sort of" - "You are a knight, after all." -- fixed
+- [x] story ch02 sce006:005BA - Fain 「そ、そんなぁ‥‥」 - "N-no way... not fair..." -- fixed
+- [x] story ch02 sce006:00918 - Ymir 「ちょっと、ね」 evasive - "Just... a little something, you know." -- fixed
+- [x] story ch03 sce009:009D2 - Yamato ニャに？ "Nyes?" drops the question - "Nyhat?" -- waived: "Nyes?" already a question-form cat pun on "Yes?"; "Nyhat?" reads worse
+- [x] story ch03 sce008:04070 - Maki's sudden politeness lost - "Huh? N-no, I couldn't possibly!" -- waived: 04070 fine (ahem is the composure beat); politeness already lands in next line 040E1 "N-no, you may not!"
+- [x] story ch03 sce008:034FA - stutter misplaced "C-cut it, out..." - "C-cut it out..." -- fixed
+- [x] story ch03 sce009:00262 - "O-OW!!" caps - "O-ow!! Wh-what the hell are you doing!?" -- fixed
+- [x] story ch03 sce008:02A98 - repeated full gloss of Jii-chan's dojo - "Jii-chan's dojo, a long time ago..." -- fixed
+- [x] story ch03 sce009:019A9 - Derock clumsy - "Two? What's that supposed to mean, y'see?" -- waived: current text already matches suggestion
+- [x] story ch03 sce009:008B2 - Clovis いやはや "My, my" prissy - "Well, well, all night long? You two are busy." -- fixed
+- [x] story ch03 sce008:00989 - Ai prim "so shall we get going?" - "let's get going." -- fixed
+- [x] story ch01 sce002:0227B/0252D - Ymir もぅ！ as "Geez!" (same as Ai/Touya) loses her register - "Oh, honestly! Stop teasing!" / "A-Ai, honestly!?" -- fixed
+- [x] story ch01 sce001:0086D - Kasumi's indirect "Touya-chan's class" made direct - "B-by the way, I heard laughing from Touya-chan's class this morning..." -- fixed
+- [x] story ch01 sce002:01F85 - Touya 似てねぇけど… EN pins a woman as referent - keep it vaguer: "(...Doesn't look like anyone I know... but somehow...)" -- fixed
+- [x] story ch01 sce002:00C66 - "Armored... mech" reads as sounding out - "\"Armored Mech\"?" -- waived: hiragana そうへいき marks an unfamiliar word; the sounding-out hesitation is intended
+- [x] story ch01 sce002:01886 - Alforina too casual - "to them, it is nothing more than being used." -- fixed
+- [x] story ch01 sce002:02AF7 - Celica あらあら "My, my" prim - "Whoa, what's with everyone? Why the long faces?" -- fixed
+- [x] story ch01 sce002:0235E - Touya 相手に合わせただけだ jab lost - "I'm just treating you how you treated me." -- fixed
+- [x] story ch05 sce013:00040 - "Agarthia army" - "It looks like the Agarthian army has sortied." -- fixed
+- [x] story ch05 sce013:00F0A - Dei's dismissive アレ lost - "Ah, that one's been left to dispose of the Spirit Mech pilots. She'll likely rejoin us afterward." -- fixed
+- [x] story ch05 sce013:00E43 - awkward - "Ioannis-kun refused to come here of his own accord." -- fixed
+- [x] story ch05 sce013:0017B - Sisk はぁ～い "ma'aaam" too deferential - "Okaaay~." -- fixed
+- [x] story ch05 sce014:00544/006B0 - Growster 昼行灯 irony lost in "good-for-nothing" - "that do-nothing figurehead" -- fixed
+- [x] story ch05 sce014:00544-007AE - Growster's ワシ gruffness neutral - add gruff "Hmph."/"eh?" and old-man phrasing -- fixed
+- [x] story ch05 sce014:00946 - Vales too casual - "Forgive the rough handling." -- fixed
+- [x] story ch05 sce013:017DA - "old Ivel-baa-san" doubled - "Ivel-baa-san" -- waived: id sce013:017DA not found; no "old Ivel-baa-san" left in ch05 scenes
+- [x] story ch05 sce013:0007F/000D8 - Fain's boasting plain - add bombast ("...Smashed to bits in no time, dahahaha!") -- fixed
+- [x] story ch06 sce016:000F0/00391 - 医者の不養生 as "physician, heal thyself" - "There's a saying, 'the doctor never takes his own medicine,' and right now that's exactly you, Miyasco." -- fixed
+- [x] story ch06 sce017:0013F - Debish too casual - "It has been a long time... or perhaps I should say, how do you do, crew of the Liebhofen." -- fixed
+- [x] story ch06 sce016:00CB6 - Bernst 死なれると困ります echo ("troublesome" elsewhere) - "It would be most troublesome if you were to die..." -- fixed
+- [x] story ch06 sce016:053A1 - choice loses 鎮圧班/救出班 labels - "Suppression: ... / Rescue: ..." if width allows -- waived: choice width 29; labels would overflow (current 28)
+- [x] story ch06 sce016:05AD6 - Tix clumsy - "...Huh? Sis...?" -- fixed
+- [x] story ch06 sce016:03E55 - Doris ambiguous - "Fufufufu... Looks like it's a little too late for you... Goodbye, Touya-kun..." -- fixed
+- [x] story ch06 sce016:0236B - Nihil awkward - "If you've got time to kill, come have some fun with us." -- fixed
+- [x] story ch06 sce016:00720/01DE5 - Lodis fragment - "...I've learned a number of things, Ymir, including some news that will disappoint you." -- fixed
+- [x] story ch06 sce016:06063 - Fain stammer off-voice - "Ah, please wait for me, Princess~!" -- fixed
+- [x] story ch06 sce016:03355 - Yamato pun dropped - "Look at you, you're soaking wet, nyow!" -- fixed
+- [x] story ch07 sce019:00133/00162 - Forzen "wife" joke unclear - Yamato: "Ymir's like a mom today, with Melvi sitting right on her lap." Forzen: "Hm? So that would make Ymir-san my wife?" -- fixed
+- [x] story ch07 sce019:00A9A - trails oddly - "(Th-this is... is this where I think it's going...?)" -- fixed
+- [x] story ch07 sce019:018A9 - Aurelie no referent - "Ah, so that's why she was in such a rush. Can't be the only reason, but it must be a big part of it." -- fixed
+- [x] story ch07 sce020:00993 - Sisk 殿下ぁ～ wail lost - "Huh? This is the private line... Don't tell me... Your Highnesssss!?" -- fixed
+- [x] story ch07 sce020:00AD3 - comma splice - "N-never mind that! You stopped it without a hitch, impressive. I believed in you." -- fixed
+- [x] story ch07 sce021:00BF6 - "Oswald"/"that kid" referent unclear - check JP name slot; e.g. "I'm not letting that girl die because of us!" -- waived: JP names オズヴァルド and next line has あの子; English matches JP
+- [x] story ch07 sce022:01508 - clumsy tag - "Three cheers for Japanese culture, I say!" -- fixed
+- [x] story ch07 sce022:0115D/01932 - Derock double tags - one tag per sentence -- fixed
+- [x] story ch07 sce023:02366 - Doris grammar - "I fell for the man inside Dei." -- fixed
+- [x] story ch04 sce010:0325D - Celica says "Brother" elsewhere - "Dear Brother," -- fixed
+- [x] story ch04 sce010:02541 - Reisuke beeps inconsistent (sce011:038BC, 03953) - "Pipopopopo." in all three -- fixed
+- [x] story ch04 sce011:0326F - "old Ivel-baa-san" redundant - "Granny Ivel" -- waived: already "Granny Ivel"
+- [x] story ch04 sce010:001DB - Forzen 面目ない stiff - "Ahh~ guilty as charged." -- fixed
+- [x] story ch04 sce010:03106 - ungrammatical - "we'd turn traitor to the nation if that's what it takes!" -- fixed
+- [x] story ch04 sce012:000AB - 医者の不養生 clunky - "They say 'the doctor never heals herself', and that's you right now, Miyasco." -- fixed
+- [x] story ch04 sce010:01AEF - Revios grammar - "Only now do they move to get their hands on the Spirit Mechs..." -- fixed
+- [x] story ch04 sce012:01517 - Yamato pun lost - "a nyice little stream! I wonder if there are any fishies, nya?" -- fixed
+- [x] story ch04 sce010:00963/0333D/036DE - はぁ as literal "Sigh" - "Haah..." or "*Sigh*" -- fixed
+- [x] story ch08 sce025:00FE3 - choice drops そんなことない - "That's not true. You're doing great, Kasumi. / Don't push yourself. That's what I'm here for." -- waived: choice width 29; adding "That's not true." overflows
+- [x] story ch08 sce025:01E9E - Yamato deflection - "Nya, nyo idea what you mean, nya~" -- fixed
+- [x] story ch08 sce025:03D2F - Derock tag awkward - "Leave the rest to us, y'see." -- fixed
+- [x] story ch08 sce025:034F6 - 律義 as "loyal" - "Aren't you the dutiful type, keeping your promise." -- fixed
+- [x] story ch08 sce025:033B4 - "she" implies mix-up - "Looks like somebody got the wrong idea..." -- fixed
+- [x] story ch08 sce025:02E36 - Melissa "Jeez" too girlish - "Honestly. Are you going to make a woman say any more than that?" -- fixed
 - [ ] story ch08 sce025:02C8F - 若だんニャ pun lost - "Ooh... Well, if it isn't the young master, nya!"
 - [ ] story ch08 sce025:03286 - "this time too" implies past failure - "I'll listen properly. Promise."
 - [ ] story ch08 sce024:007F9 - vague "system" - "The device... the escape device..."
@@ -711,3 +711,18 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [ ] story ch31 sce174:01714 - Touya "ain't it?" - "That's why I'm out looking for Ai, right?"
 - [ ] story ch31 sce179:001E4 - ふざけないで weak - "Quit joking around!"
 - [ ] story ch31 sce177:00ACA - 貴様 flat - "You bastard..."
+- [ ] story ch33 sce187:00A87 - "abyout" typo - "I'm sorry, nya."
+- [ ] story ch33 sce187:009F0 - ambiguous - "Looks like he just barely made it..."
+- [ ] story ch35 sce192:00357 - Murk "So it isn't." - "Mm. Quite right."
+- [ ] story ch35 sce195:00529 - "astern" jargon - "What do you mean, retreat!?"
+- [ ] story ch35 sce194:00861 - ambiguous "go back" - "decided at least we should come help, and dropped us off on the way"
+- [ ] story ch35 sce194:00331 - cut-off reads as typo - "See, as you c--"
+- [ ] story ch35 sce194:003CD - "jokin'" - "You're always joking..."
+- [ ] story ch35 sce193:00199 - Clovis stiff - "Wanna try feeding it, as a token of friendship?"
+- [ ] story ch35 sce196:00D04 - Touya punch lost - "What matters is now, not later! Let that guy die and you think you can save the world!?"
+- [ ] story ch35 sce196:017AC - "little princess" - "it's the Princess! She's alive!"
+- [ ] story ch36 sce199:0091A - clumsy - "Isn't that kind of no joke for him?"
+- [ ] story ch36 sce202:007BB - "him" unclear - "You don't have to call Touya over from sooo far away, nya? Why nyot come closer?"
+- [ ] story ch36 sce200:00E97 - Fain flat - "Ohh, that is indeed Grad Burgley-sama's unit! ...To behold the real thing with my own eyes, I am deeply moved!"
+- [ ] story ch36 sce199:01153 - sarcasm lost - "Bet they came out nice and... full-bodied, huh?"
+- [ ] story ch36 sce200:00E67 - Reduce modern - "So it is. Even if we are a third party."
