@@ -26,6 +26,7 @@ bank00:01A	120	unit ability list
 bank00:01B	120	unit ability list
 bank00:01C	120	unit ability list
 bank00:01D	120	unit ability list
+bank00:02	46	battle trust list: frame ~60 px at x 144 (battle_trust shot), minus a 2-digit cost (12) and margin
 bank00:03	60	trust command names in the ability screen trust column (64-px cell, minus the bullet)
 bank00:04	120	unit ability list
 bank00:05	120	unit ability list
@@ -54,6 +55,7 @@ bank00:0E	128	intermission menus (4 x 64 chain, no frame)
 bank00:0ED	256	message line
 bank00:0EE	256	message line
 bank00:0F	64	memory album menus (inferred 64-px cells)
+bank04:	152	weapon list: name at pen col 2, attack value at col 21 (bank00:060 rows); the attack-name popup sizes itself (0x800773E8)
 bank05:	208	objective after `Victory: ` / `Defeat: ` (46 px) on a 256-px line
 bank00:0BF	256	orders screen title line (4 x 64 chain)
 bank00:0EB	256	save slot line

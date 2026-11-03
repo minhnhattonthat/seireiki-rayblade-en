@@ -150,9 +150,12 @@ def main():
             if f in ("menu", "special"):             # pen moves are layout: the English may add or move them
                 ce, cen = dict(e, jp=PEN.sub("", e["jp"])), PEN.sub("", en)
             er, _ = batches.check_entry(ce, cen, sp, tm, gl_jp)
-            er = [x for x in er if not x.startswith("glossary:") or f != "special"]
+            # special = hand-laid rows ({fb} small-font runs kept as [XX] bytes, padding sized to the JP pixel
+            # positions, pens that jump back over the text): checked in-game (work/qa/p7spec), not measured here
+            if f == "special":
+                er = [x for x in er if not x.startswith(("glossary:", "[XX]", "menu row"))]
             er += stubs(e, en)
-            if f in ("menu", "special"):
+            if f == "menu":
                 er = [x for x in er if not x.startswith("menu row")]
                 er += menu_errors(e, en, rm)
             errs += [f"{e['id']}: {x}" for x in er]

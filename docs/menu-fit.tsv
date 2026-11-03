@@ -25,6 +25,32 @@ bank01:01F	Never counterattacks. Evades if its evasion{nl}is high, defends if it
 bank01:022	Depending on where they move, units may be{nl}hidden behind buildings and the like. Set this{nl}ON to always show them.
 bank01:024	Set this ON to show squares on the tactical{nl}map (the grid that marks movement range).
 bank01:025	Type A: The cursor moves with the D-pad.{nl}Type B: The cursor moves diagonally on the map.
+# Trust commands: the battle trust list frame is ~60 px (label + space + 2-digit cost), so the six long names are
+# renamed everywhere they appear (list with cost 022-02A, names 032-03A); glossary Reference rows updated
+bank00:022	Amity {ctl:FFFF}
+bank00:023	Cheer {ctl:FFFF}
+bank00:024	Haste {ctl:FFFF}
+bank00:027	Iron Fist {ctl:FFFF}
+bank00:029	Encore {ctl:FFFF}
+bank00:02A	Sense {ctl:FFFF}
+bank00:032	Amity
+bank00:033	Cheer
+bank00:034	Haste
+bank00:037	Iron Fist
+bank00:039	Encore
+bank00:03A	Sense
+# Weapon list: the name is drawn at pen col 2 and the attack value at col 21 (bank00:060) = 152 px. Shortened
+# technique names (the battle shouts keep the full names)
+bank04:005	True Art: Vanishing Shadow
+bank04:0C9	True Art: Vanishing Shadow
+bank04:006	First Blade: Thunder Slash
+bank04:014	Seven Flashes: Rift Breaker
+bank04:052	Phantom Blade: Sky Rend
+bank04:054	Heavenly Blade: Violet Slash
+bank04:057	Twin Supremacy: Wolf Slash
+bank04:05D	Fury: Heavenward Thunder
+bank04:0CA	Mighty Sword Zeulear (Broken)
+bank04:0D9	Mighty Sword Zeulear (Broken)
 # Mission objectives (208 px after the `Victory: ` label)
 bank05:014	Move a Spirit Mech other than Rayblade{nl}(Touya) next to the barrier
 bank05:026	Escape this battle zone (reach the{nl}top-right edge) or wipe out the enemy

@@ -947,14 +947,14 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 力ある子 | child of power |  | trait |  |
 | 絆 | Bond |  | trust_command |  |
 | 集中 | Focus |  | trust_command |  |
-| 友情 | Friendship |  | trust_command |  |
-| 察知 | Awareness |  | trust_command |  |
-| 加速 | Accelerate |  | trust_command |  |
+| 友情 | Amity |  | trust_command | short for the trust list (D10, docs/menu-fit.tsv); was Friendship |
+| 察知 | Sense |  | trust_command | short for the trust list (D10); was Awareness |
+| 加速 | Haste |  | trust_command | short for the trust list (D10); was Accelerate |
 | 直感 | Intuition |  | trust_command |  |
-| 激励 | Encourage |  | trust_command |  |
-| 鉄腕 | Iron Arms |  | trust_command |  |
+| 激励 | Cheer |  | trust_command | short for the trust list (D10); was Encourage |
+| 鉄腕 | Iron Fist |  | trust_command | short for the trust list (D10); was Iron Arms |
 | 鉄壁 | Iron Wall |  | trust_command |  |
-| 再動 | Act Again |  | trust_command |  |
+| 再動 | Encore |  | trust_command | short for the trust list (D10); was Act Again |
 | みがわり | Cover |  | trust_command |  |
 | 表情 | Expression |  | ui |  |
 | 話題ポイント | Topic Points |  | ui |  |

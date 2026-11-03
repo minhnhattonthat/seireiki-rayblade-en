@@ -16,8 +16,8 @@
   "index": 2,
   "addr": 2147571668,
   "len": 24,
-  "en": "",
-  "status": "todo"
+  "en": "Turns           {ctl:FFFF}{nl}Funds {ctl:FFFF}",
+  "status": "translated"
  },
  {
   "id": "bank00:003",
@@ -26,8 +26,8 @@
   "index": 3,
   "addr": 2147571692,
   "len": 69,
-  "en": "",
-  "status": "todo"
+  "en": "{ctl:FFFF}{nl}{fb}[4C][76]{ctl:FFFF}[20][45][78][70]{ctl:FFFF}{nl}{fb}{ctl:FFFF}{nl}{fb}[48][50][20]{ctl:FFFF}[2F]{ctl:FFFF}{fb}{ctl:9080}Spirit      [F0][11][F0][12][F0][13]{ctl:9380}{ctl:FFFF}{ctl:9980}{ctl:FFFF}/{ctl:FFFF}",
+  "status": "translated"
  },
  {
   "id": "bank00:004",
@@ -256,8 +256,8 @@
   "index": 33,
   "addr": 2147572097,
   "len": 10,
-  "en": "",
-  "status": "todo"
+  "en": "Bond    {ctl:FFFF}",
+  "status": "translated"
  },
  {
   "id": "bank00:022",
@@ -266,7 +266,7 @@
   "index": 34,
   "addr": 2147572107,
   "len": 10,
-  "en": "Friendship {ctl:FFFF}",
+  "en": "Amity {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -276,7 +276,7 @@
   "index": 35,
   "addr": 2147572117,
   "len": 10,
-  "en": "Encourage {ctl:FFFF}",
+  "en": "Cheer {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -286,7 +286,7 @@
   "index": 36,
   "addr": 2147572127,
   "len": 10,
-  "en": "Accelerate {ctl:FFFF}",
+  "en": "Haste {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -316,7 +316,7 @@
   "index": 39,
   "addr": 2147572157,
   "len": 10,
-  "en": "Iron Arms {ctl:FFFF}",
+  "en": "Iron Fist {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -336,7 +336,7 @@
   "index": 41,
   "addr": 2147572177,
   "len": 10,
-  "en": "Act Again {ctl:FFFF}",
+  "en": "Encore {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -346,7 +346,7 @@
   "index": 42,
   "addr": 2147572187,
   "len": 10,
-  "en": "Awareness {ctl:FFFF}",
+  "en": "Sense {ctl:FFFF}",
   "status": "translated"
  },
  {
@@ -386,7 +386,7 @@
   "index": 50,
   "addr": 2147572218,
   "len": 5,
-  "en": "Friendship",
+  "en": "Amity",
   "status": "translated"
  },
  {
@@ -396,7 +396,7 @@
   "index": 51,
   "addr": 2147572223,
   "len": 5,
-  "en": "Encourage",
+  "en": "Cheer",
   "status": "translated"
  },
  {
@@ -406,7 +406,7 @@
   "index": 52,
   "addr": 2147572228,
   "len": 5,
-  "en": "Accelerate",
+  "en": "Haste",
   "status": "translated"
  },
  {
@@ -436,7 +436,7 @@
   "index": 55,
   "addr": 2147572243,
   "len": 5,
-  "en": "Iron Arms",
+  "en": "Iron Fist",
   "status": "translated"
  },
  {
@@ -456,7 +456,7 @@
   "index": 57,
   "addr": 2147572253,
   "len": 5,
-  "en": "Act Again",
+  "en": "Encore",
   "status": "translated"
  },
  {
@@ -466,7 +466,7 @@
   "index": 58,
   "addr": 2147572258,
   "len": 5,
-  "en": "Awareness",
+  "en": "Sense",
   "status": "translated"
  },
  {
@@ -1306,8 +1306,8 @@
   "index": 160,
   "addr": 2147573765,
   "len": 52,
-  "en": "",
-  "status": "todo"
+  "en": "{ctl:FFFF}{nl}{fb}[4C][76]{ctl:FFFF}[20][45][78][70]{ctl:FFFF}{nl}{fb}{ctl:FFFF}{nl}{fb}[48][50][20]{ctl:FFFF}[2F]{ctl:FFFF}{fb}{ctl:9080}Spirit{ctl:9380}{ctl:FFFF}{ctl:FFFF}",
+  "status": "translated"
  },
  {
   "id": "bank00:0A1",
@@ -2146,8 +2146,8 @@
   "index": 244,
   "addr": 2147576041,
   "len": 34,
-  "en": "",
-  "status": "todo"
+  "en": "Partner     {ctl:FFFF}{nl}              {fb}[4C][76]{ctl:FFFF}[20][45][78][70]{ctl:FFFF}",
+  "status": "translated"
  },
  {
   "id": "bank00:0F5",
@@ -2486,8 +2486,8 @@
   "index": 32,
   "addr": 2147577278,
   "len": 194,
-  "en": "",
-  "status": "todo"
+  "en": "Show hidden units                ON         OFF{nl}Color-code units                  ON         OFF{nl}Show grid                          ON         OFF{nl}Cursor movement                Type A    Type B{nl}Sound                              Stereo    Mono{nl}Sound Test{nl}Character Profiles{nl}Unit Profiles{nl}Memory Album",
+  "status": "translated"
  },
  {
   "id": "bank01:021",
@@ -5306,7 +5306,7 @@
   "index": 5,
   "addr": 2147582098,
   "len": 14,
-  "en": "True One-Sword Art: Vanishing Shadow",
+  "en": "True Art: Vanishing Shadow",
   "status": "translated"
  },
  {
@@ -5316,7 +5316,7 @@
   "index": 6,
   "addr": 2147582112,
   "len": 17,
-  "en": "First Blade: Mighty Thunder Triumph Slash",
+  "en": "First Blade: Thunder Slash",
   "status": "translated"
  },
  {
@@ -5446,7 +5446,7 @@
   "index": 20,
   "addr": 2147582264,
   "len": 14,
-  "en": "Seven Flashes: Dragon Command Rift Breaker",
+  "en": "Seven Flashes: Rift Breaker",
   "status": "translated"
  },
  {
@@ -6066,7 +6066,7 @@
   "index": 82,
   "addr": 2147582886,
   "len": 16,
-  "en": "Phantom Night Blade: Heaven Soar, Sky Rend",
+  "en": "Phantom Blade: Sky Rend",
   "status": "translated"
  },
  {
@@ -6086,7 +6086,7 @@
   "index": 84,
   "addr": 2147582915,
   "len": 19,
-  "en": "Heavenly Blade: Violet Flame Supreme Victory Slash",
+  "en": "Heavenly Blade: Violet Slash",
   "status": "translated"
  },
  {
@@ -6116,7 +6116,7 @@
   "index": 87,
   "addr": 2147582955,
   "len": 20,
-  "en": "Twin Supremacy: Gale Demon Wolf Flash Slash",
+  "en": "Twin Supremacy: Wolf Slash",
   "status": "translated"
  },
  {
@@ -6176,7 +6176,7 @@
   "index": 93,
   "addr": 2147583031,
   "len": 18,
-  "en": "Fury: Flame Wave, Heavenward Thunder Burst",
+  "en": "Fury: Heavenward Thunder",
   "status": "translated"
  },
  {
@@ -7256,7 +7256,7 @@
   "index": 201,
   "addr": 2147584124,
   "len": 14,
-  "en": "True One-Sword Art: Vanishing Shadow",
+  "en": "True Art: Vanishing Shadow",
   "status": "translated"
  },
  {
@@ -7266,7 +7266,7 @@
   "index": 202,
   "addr": 2147584138,
   "len": 19,
-  "en": "Mighty Sword Zeulear (Malfunctioning)",
+  "en": "Mighty Sword Zeulear (Broken)",
   "status": "translated"
  },
  {
@@ -7416,7 +7416,7 @@
   "index": 217,
   "addr": 2147584294,
   "len": 19,
-  "en": "Mighty Sword Zeulear (Malfunctioning)",
+  "en": "Mighty Sword Zeulear (Broken)",
   "status": "translated"
  },
  {

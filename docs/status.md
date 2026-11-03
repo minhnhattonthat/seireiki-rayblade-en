@@ -2,18 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7 (insert, fit, check) in progress. Phase 6 (translate) done 2026-11-03.
-  - Phase 7 so far (2026-11-03): **VWF** (tools/font_en.py: narrow proportional English glyphs in every Latin/
+- **Phase:** 8 (full QA tour) next. Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt
+  empty, check ok.
+  - Phase 7 close-out: trust list renamed short (Amity, Cheer, Haste, Iron Fist, Encore, Sense; glossary rows
+    updated, D10), weapon names shortened to the 152-px list (menu-fit.tsv). The 6 `special` strings translated
+    by hand: padding sized so every value/pen lands at its JP pixel position (JP 1-byte codes incl. the 00 space
+    were 8 px, `<200>` = F1 00 blank 12 px; English space 4 px), `{fb}` small-font runs kept as `[XX]` bytes;
+    cells 0x111-0x113 (small プラナ label, only user bank00:003) redrawn as a 24-px "Prana" (font_en.LABEL).
+    lint skips width/hex checks for form `special`; verified in-game (work/qa/p7spec2: status panel, system
+    options, trust list). Turns/Funds (bank00:002), Bond (021), Partner (0F4) not seen in-game yet (no scene).
+    Slot 239 dev lists stay Japanese (D11). The old system help-text garble (p7vwf/int_system) is gone on the
+    current build; a probe of 264/306-px help rows rendered whole (work/qa/p7spec).
+    **work/states/title.sstate is stale** (pre-VWF EXE: warps from it time out): `--all --title` regenerates it.
+  - Phase 7 detail (2026-11-03): **VWF** (tools/font_en.py: narrow proportional English glyphs in every Latin/
     punctuation cell, even advances 2-8 px; hook on the glyph routine's `x += 8` at 0x80035258 and on the message
     pixel-width fn 0x80031010, which places the location label / sizes the weapon popup / centres event titles;
     hook + 0x200-byte advance table live after the relocated bank). Verified in-game (work/qa/p7vwf*/).
     Balanced word wrap in tlform.wrap (0 stub last lines, was 3,215). `tools/lint.py` (in check.py, ~16 s) =
     whole-script lint; menu rows checked in px against pen moves / tools/menu_room.tsv (measured or inferred
     rooms, each with its evidence) / the bank group's widest JP row / the JP row. `script/keep_jp.txt` = ids
-    allowed no English. **`tools/lint_known.txt` = open errors (ratchet; phase 7 closes when it is empty)**:
-    8 trust-list rows (bank00:022-02A: frame ~60 px, label + cost do not fit), 17 long weapon names (bank04,
-    room = group floor 128 px; real weapon-list room unmeasured), 6 `special` strings (status panel 闘志/プラナ
-    bank00:003/0A0/0F4, `<200>` spacer rows 002/021, system option list bank01:020).
+    allowed no English. `tools/lint_known.txt` = open-error ratchet (empty since phase 7 closed).
     Menu rewordings (D10) in docs/menu-fit.tsv, applied by `tools/set_en.py docs/menu-fit.tsv`.
     ROM gate: tests/test_romdiff.py (every EXE byte change covered by a logged write with the right original).
     Help text (bank group 1) may use up to 3 rows (tlform.HELP_ROWS).
@@ -22,8 +30,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     cells are 32 px wide; status/ability panels 64-px cells (the window frame can be narrower than the cells:
     "Move Type Ground" clips at the frame). Text past the chain wraps into the next buffer row (garbles the line
     start of cell 4). Dumps: work/qa/p7cells/<scene>/ (scratch decoder printed `w64h16>0401` chains).
-  - Code 00 = English space AND the JP full-width space: advance 4 now, so JP `　` padding in the 9 `special`
-    strings shrinks (status panel 闘志/プラナ overlap) until they are translated with pen moves.
+  - Code 00 = English space AND the JP full-width space: advance 4 now (was 8).
   - Phase 6 result: 340 batches translated (b279 = binary data res07:0EEB, skipped on purpose), each reviewed +
     fixed by a fresh agent (D9; pilot b009 approved in-game), `batches.py check` 0 errors on all, merged into
     script/ (31,660 units). Untranslated now: junk/data only, the 9 `special` bank strings ({fb} small-font runs /
@@ -105,16 +112,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Width gate complete (docs/widths.md): dialogue 30x3, choice 30, battle band 36x3 (no wrap, `{nl}` by
     hand), menus = Japanese pixel width, hints 30 (assumed).
 - **Next:**
-  1. Phase 7 (rest): empty tools/lint_known.txt. (a) weapon list: warp to a battle with Attack available (no
-     scene yet: add one to tools/debug/scenes.tsv), dump cells (tools/debug/cells.py) + shot to get the name
-     column's room, then reword names still over it (docs/menu-fit.tsv, flag ABBR). (b) trust list window
-     (battle_trust, frame ~60 px at x 144): find the frame width (engine, D4) or shorter labels + cost at a
-     pen column. (c) specials: status panel `{ctl:9080}Spirit` fits 24 px; redraw cells 0x111-0x113 (small
-     プラナ label) as a small "PRANA" and re-pen around the 4-px space; `<200>` = blank 12-px kanji cell used as a
-     spacer (F1 00); keep the {fb} runs byte for byte (lint forbids `[XX]` in English: special form needs an
-     exemption). (d) slot 239 dev scenario lists (literal translation or leave).
-     Then rebuild, smoke, re-warp the menu scenes and compare (work/qa/p7vwf2 = last good set).
-  2. Phase 8: `warp.py --all --title` on the English build + visual-QA verdicts.
+  1. Phase 8: `warp.py --all --title --cue "build/Seireiki Rayblade (English).cue" --out work/qa/p8` (regenerates
+     the stale title state first) + visual-QA verdicts per chunk. Weapon list (bank04, room 152 px inferred from
+     the pen columns) and Turns/Funds/Partner rows still want an in-game look (no scene yet).
 - **Open items (text, non-blocking):**
   - `tbl/jp.tbl`: all shaky/supplement-block cells in use were reviewed glyph-beside-reading (2026-11-03,
     `work/scratch/glyphsus.py`); the confident anchored cells were not. Translators report odd kanji as UNSURE.

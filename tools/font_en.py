@@ -142,6 +142,14 @@ ART = {
 }
 
 
+# Cells 0x111-0x113 held the small プラナ label of the battle status panel (bank00:003, its only user): there the
+# label has 24 px between the two value fields, so "Prana" is drawn compact across the three cells (8 px each).
+_P, _R = "###./#..#/#..#/#..#/###./#.../#.../#.../#.../#...", ".../.../.../#.#/##./#../#../#../#../#.."
+_A, _N = "..../..../..../.##./...#/.###/#..#/#..#/#.##/.#.#", "..../..../..../###./#..#/#..#/#..#/#..#/#..#/#..#"
+LABEL_CELLS = 0x111
+LABEL = [".".join(parts) + "." for parts in zip(*(g.split("/") for g in (_P, _R, _A, _N, _A)))]   # 24 px wide
+
+
 def code_of(ch):
     if ch in EXISTING:
         return EXISTING[ch]
@@ -297,6 +305,10 @@ def patch(exe, put):
     for ch in sorted(ART, key=code_of):
         code = code_of(ch)
         put(exe, FONT_BASE + code * 16, glyph_bytes(ch), f"font_en {ch!r} cell {code:03X}")
+    for i in range(3):
+        rows8 = [r[8 * i:8 * i + 8] for r in LABEL]
+        b = bytes(sum(1 << ORDER[x] for x, c in enumerate(r) if c == "#") for r in [""] * TOP + rows8 + [""] * 2)
+        put(exe, FONT_BASE + (LABEL_CELLS + i) * 16, b, f"font_en Prana label cell {LABEL_CELLS + i:03X}")
     return exe
 
 
@@ -316,6 +328,7 @@ def check():
     assert not missing, f"no glyph for {missing!r}"
     assert len({code_of(c) for c in ART}) == len(ART)
     assert all(0x114 <= c <= 0x12B for c in GLYPHS)
+    assert len(LABEL) + TOP == 16 - 2 and all(len(r) == 24 for r in LABEL), [len(r) for r in LABEL]
     print(f"font_en ok: {len(ART)} glyphs, advances {sorted({advance(c) for c in ART})}")
 
 
