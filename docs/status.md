@@ -2,8 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9 (release) in progress, 2026-11-03 (later). Phase 8 gate: tour p8e 119/119 reached on the fixed build,
-  visual QA 122/122 ok (`qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0).
+- **Phase:** 9 (release) done, 2026-11-03. `tools/release.py --version 1.0` passed every gate:
+  - build, check, cold-boot smoke, jp_left 0, visual QA 122/122, story pass 73/73, polish 0 open, debug off,
+    xdelta re-apply verified.
+  - Output: `release/Seireiki_Rayblade_EN_v1.0.zip` (xdelta + README only). **Not published**: publishing is
+    the user's call.
+  - Story pass found and fixed these Importants:
+    - Reamond 俺 (sce031)
+    - Oswald's line (sce200)
+    - pronouns (sce273/388/412/417/311)
+    - Ciel (sce250)
+    - Ai's denial (sce283 + copies)
+    - Yamato's referent (sce260/265/366/409)
+    - "For what?" (sce285)
+  - Polish chunks p00-p18 are applied. The "abyout" typo is fixed in 34 lines.
+  - Final warp tour of the v1.0 build: work/qa/p9final.
+  - Phase 8 gate: tour p8e 119/119, visual QA 122/122 ok.
   - **Enemy-phase hang fixed** (aeac640): `5C 18 .. 80 <s16>` carries a self-relative handler pointer the rebuild
     left alone, so sce 135's enemy phase jumped into a text block. A scan of every op's s16 slots added 38/39/6C/5B
     script pointers (`vm.SCRIPT_PTR`, confirmed in the handlers; rewritten, not walked). docs/re/text.md.
@@ -13,8 +27,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     work/qa/story/verdicts/, Minors appended to docs/polish.md. Don't regenerate the chapter files (hashed).
   - Polish pass: `tools/polish.py split|show|apply` + docs/polish-brief.md; translator agents write pNN.en.tsv +
     pNN.ticks.tsv, apply runs set_en and ticks the lines; lint after each.
-  - `tools/release.py --version X.Y` written (gates, xdelta of Track 1 only, re-apply check, zip with README from
-    docs/release-readme.md). Not run yet (polish + story pass must finish first).
+  - `tools/release.py --version X.Y` (gates, xdelta of Track 1 only, re-apply check, zip with README from
+    docs/release-readme.md); v1.0 built.
   - Game over still unseen: losing needs all allies wiped out (bank05:001); an HP poke on Touya alone did not do it.
     The survey has no game-over graphic, so nothing to redraw is known.
   - Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt empty, check ok.
@@ -163,4 +177,5 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - Game over screen, battle attack animation/cut-ins and the phase menu not in the scene list yet.
 - **Open bugs:** none.
 - **Waiting on the user:** nothing blocking. Non-blocking: title logo 聖霊機ライブレード has no official English logo,
-  kept Japanese per D5 unless the owner wants an English logo.
+  kept Japanese per D5 unless the owner wants an English logo. Publishing v1.0 (release/*.zip, GitHub release) is
+  the owner's call; nothing has been published.
