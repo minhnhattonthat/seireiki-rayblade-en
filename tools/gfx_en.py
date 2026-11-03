@@ -62,6 +62,120 @@ def outlined(mask):
     return out
 
 
+# World-map place labels (G5, D_SYSTEM 8.17-8.26): 16 px tall, light fill (index 1) with a dark drop shadow
+# (index 3). The images sit packed in VRAM, so their widths are fixed: drawn with the game's own English pixel font
+# (font_en art, 1-px gaps), or, when that is too wide, a 3x5 capital font on one or two lines.
+MAP_SLOT, FILL, SHADOW = 8, 1, 3
+MAP_LABELS = {17: "Flamuelk Castle", 18: "Shangria", 19: "Brandenkrois", 20: "Berta", 21: "Glascher Valley",
+              22: "Alterias Valley", 23: "Muur Forest", 24: "Ze=Ode Lab Ruins", 25: "Cornel Village",
+              26: "Holy Land"}
+TINY = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ=-", (
+    ".#./#.#/###/#.#/#.#", "##./#.#/##./#.#/##.", ".##/#../#../#../.##", "##./#.#/#.#/#.#/##.", "###/#../##./#../###",
+    "###/#../##./#../#..", ".##/#../#.#/#.#/.##", "#.#/#.#/###/#.#/#.#", "###/.#./.#./.#./###", "..#/..#/..#/#.#/.#.",
+    "#.#/#.#/##./#.#/#.#", "#../#../#../#../###", "#.#/###/###/#.#/#.#", "##./#.#/#.#/#.#/#.#", ".#./#.#/#.#/#.#/.#.",
+    "##./#.#/##./#../#..", ".#./#.#/#.#/##./.##", "##./#.#/##./#.#/#.#", ".##/#../.#./..#/##.", "###/.#./.#./.#./.#.",
+    "#.#/#.#/#.#/#.#/###", "#.#/#.#/#.#/#.#/.#.", "#.#/#.#/###/###/#.#", "#.#/#.#/.#./#.#/#.#", "#.#/#.#/.#./.#./.#.",
+    "###/..#/.#./#../###", ".../###/.../###/...", ".../.../###/.../...")))
+
+
+def _glyph_run(text, art, space):
+    """[(x, rows)] for text set with 1-px gaps; returns (placements, width)."""
+    x, out = 0, []
+    for ch in text:
+        if ch == " ":
+            x += space
+            continue
+        rows = art(ch)
+        out.append((x, rows))
+        x += len(rows[0]) + 1
+    return out, x - 1
+
+
+def label_rows(text, w, h):
+    """index rows for a map label: FILL text with a SHADOW one px down-right, centred in w x h."""
+    import font_en
+    big = _glyph_run(text, lambda c: font_en.rows(c), 3)
+    small1 = _glyph_run(text.upper(), lambda c: TINY[c].split("/"), 2)
+    words = text.upper().split(" ")
+    cut = min(range(1, len(words)), key=lambda i: abs(len(" ".join(words[:i])) - len(" ".join(words[i:]))), default=1)
+    small2 = [_glyph_run(" ".join(p), lambda c: TINY[c].split("/"), 2) for p in (words[:cut], words[cut:])]
+    if big[1] + 1 <= w:
+        lines, top = [big], font_en.TOP - 1         # cap top as the Japanese glyphs (row 3 of 16)
+    elif small1[1] + 1 <= w:
+        lines, top = [small1], 5
+    elif len(words) > 1 and max(r[1] for r in small2) + 1 <= w:
+        lines, top = small2, 2
+    else:
+        raise ValueError(f"map label {text!r} does not fit {w} px")
+    mask = [[0] * w for _ in range(h)]
+    for n, (placed, lw) in enumerate(lines):
+        x0, y0 = (w - lw - 1) // 2, top + n * 7
+        for x, rows in placed:
+            for j, r in enumerate(rows):
+                for i, c in enumerate(r):
+                    if c == "#":
+                        mask[y0 + j][x0 + x + i] = 1
+    out = [[0] * w for _ in range(h)]
+    for j in range(h):
+        for i in range(w):
+            if mask[j][i]:
+                out[j][i] = FILL
+            elif j and i and mask[j - 1][i - 1]:
+                out[j][i] = SHADOW
+    return out
+
+
+# Staff credits (G13, D_SYSTEM 472.21-83): white text, antialiased into the image's 16-level grey ramp. Roles and
+# the 35 name readings come from the Dreamcast fan translation's sourced credit list (D2: earlier fan patch); the 7
+# names it could not source a reading for stay Japanese (docs/status.md, waiting on the owner).
+CREDITS_SLOT = 472
+CREDITS = {
+    21: "Executive Producer", 22: "Chief Director", 23: "Director", 24: "Co-Director", 25: "Script",
+    26: "Character Design & Original Art", 27: "Mechanical Design", 28: "Sound", 29: "Programming",
+    30: "Scenario Data", 31: "Animation Data", 32: "Character Graphics", 33: "Unit Graphics", 34: "Effect Graphics",
+    35: "Background Art", 36: "Battle Maps", 37: "CG Movies", 38: "Lead Mech Design",
+    39: "Special Thanks", 40: "Planning & Production", 41: "Winky Soft Co., Ltd.",
+    42: "Shigemitsu Takamiya", 43: "Kenichiro Matsumoto", 44: "Atsushi Kamata", 45: "Masahiro Sho", 46: "Toru Abe",
+    47: "Kazuyoshi Horikawa", 48: "Takeshi Shimoyama", 49: "Koji Kurosumi", 50: "Tatsuya Fujiwara",
+    51: "Yoshihiro Inada", 53: "Yoshinori Tokumura", 54: "Ryohei Inaoka", 55: "Akinori Yoshioka",
+    56: "Motoyoshi Iwatsuru", 57: "Yoshiharu Buma", 58: "Koji Kikuchi", 59: "Kayoko Miyashita", 60: "Takako Nakata",
+    61: "Naoya Inui", 63: "Atsuki Toda", 64: "Hiroyuki Fukuda", 65: "Hirotaka Okuda", 66: "Hiromasa Morishige",
+    67: "Masato Nakamura", 68: "Shujiro Nakade", 69: "Wataru Yoshida", 70: "Naoki Nakashiba", 71: "Fumie Itosu",
+    73: "Yoshiyasu Nakata", 74: "Hirofumi Ichikawa", 75: "Kayo Buma", 77: "Yoshiko Hotada", 78: "Momoko Suzuki",
+    79: "Masahiko Iwasaki", 82: "Kenya Mizuno",
+}
+CREDITS_UNSOURCED = {52: "草開 一也", 62: "伊藤 健", 72: "須磨 敦史", 76: "内方 智士", 80: "?", 81: "?", 83: "?"}
+
+
+def aa_rows(text, w, h, clut16, size=13, min_scale=0.6):
+    """index rows: `text` antialiased (white on transparent) into the 16-colour ramp `clut16` (index 0 = clear),
+    squeezed horizontally to fit w - 2 when needed (down to min_scale, then a smaller size)."""
+    lum = [((c & 31) + (c >> 5 & 31) + (c >> 10 & 31)) / 93 for c in clut16]
+    while True:
+        f = ImageFont.truetype(str(FONT), size)
+        x0, _, x1, _ = f.getbbox(text)
+        cap_top, base = f.getbbox("H")[1], f.getbbox("H")[3]
+        tw = x1 - x0
+        if tw * min_scale <= w - 2 or size <= 8:
+            break
+        size -= 1
+    im = Image.new("L", (tw + 2, h), 0)
+    ImageDraw.Draw(im).text((1 - x0, (h - (base - cap_top)) // 2 - cap_top), text, font=f, fill=255)
+    if im.width > w:
+        im = im.resize((w, h), Image.LANCZOS)
+    canvas = Image.new("L", (w, h), 0)
+    canvas.paste(im, ((w - im.width) // 2, 0))
+    ramp = range(1, 16)
+    out = []
+    for j in range(h):
+        row = []
+        for i in range(w):
+            v = canvas.getpixel((i, j)) / 255
+            row.append(0 if v < 0.15 else min(ramp, key=lambda k: abs(lum[k] - v)))
+        out.append(row)
+    return out
+
+
 def put4(rec, ent, rows):
     """write index rows into a qX entry's 4-bpp pixels (low nibble = left pixel)."""
     off, _, _, w, h, _, _ = ent
@@ -82,6 +196,15 @@ def images():
     out = {(EP_SLOT, EP_IMG): outlined(text_mask("Ep.", 24, 24)), (EP_SLOT, WA_IMG): [[0] * 24 for _ in range(24)]}
     data = (TREE / "D_SYSTEM.BIN").read_bytes()
     ents = arc.entries(data)
+    s, e = ents[MAP_SLOT]
+    _, qents, _ = qx.parse(lz.unpack_record(data[s:e]))
+    for k, en in MAP_LABELS.items():
+        out[(MAP_SLOT, k)] = label_rows(en, qents[k][3], qents[k][4])
+    s, e = ents[CREDITS_SLOT]
+    _, qents, clut = qx.parse(lz.unpack_record(data[s:e]))
+    for k, en in CREDITS.items():
+        base = (qents[k][1] & 0xF) * 16
+        out[(CREDITS_SLOT, k)] = aa_rows(en, qents[k][3], qents[k][4], clut[base:base + 16])
     for t, en in card_titles().items():
         if t in UNUSED_TITLES:
             continue
