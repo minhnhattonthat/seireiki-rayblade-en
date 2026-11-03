@@ -124,7 +124,8 @@ def stubs(e, en):
     for s in tlform.layout(e, en).split("{page}"):
         lines = s.split("{nl}")
         chars = [len(tlform.CODE.sub("", x)) for x in lines[-2:]]
-        if len(lines) > 1 and 0 < chars[1] < STUB and chars[0] > STUB:
+        new_page = f == "dlg" and (len(lines) - 1) % 3 == 0     # a short last sentence alone on its page is a beat
+        if len(lines) > 1 and 0 < chars[1] < STUB and chars[0] > STUB and not new_page:
             out.append(f"stub last line {lines[-1]!r}")
     return out
 

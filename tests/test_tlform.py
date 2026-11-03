@@ -20,7 +20,8 @@ def test_wrap_dialogue_pages():
 def test_wrap_balanced_no_stub():
     s = "Koichiro: She's coming over here... Come on, Touya... ...Don't say I didn't warn you~"
     lines = tlform.wrap(s + " " + s, 240, 224)
-    assert len(lines) == 4 and min(map(tlform.width, lines)) >= 150, lines   # balanced, no stub line
+    assert lines[2].endswith("you~") and len(lines) == 5, lines   # the page ends on a sentence, not mid-sentence
+    assert min(map(tlform.width, lines)) >= 120, lines            # balanced, no stub line
     assert tlform.wrap("one  two", 240) == ["one  two"]
     assert tlform.wrap("", 240) == [""]
 

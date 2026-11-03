@@ -26,6 +26,7 @@ import arc  # noqa: E402
 import bmess  # noqa: E402
 import extract  # noqa: E402
 import font_en  # noqa: E402
+import gfx_en  # noqa: E402
 import patch  # noqa: E402
 import tlform  # noqa: E402
 import vm  # noqa: E402
@@ -403,7 +404,8 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
     bm = bmess_records(marker, width, override, report)
     for name in ARCHIVES:
         data = (TREE / name).read_bytes()
-        new = arc.pack(data, {"D_SCE.BIN": recs, "D_BMESS.BIN": bm}.get(name, {}))
+        new = arc.pack(data, {"D_SCE.BIN": recs, "D_BMESS.BIN": bm,
+                              "D_SYSTEM.BIN": {} if marker else gfx_en.records()}.get(name, {}))
         if new != data:
             files[name] = new
         # The EXE holds its own copy of each archive's slot table (D_SCE at 0x9D5FC, D_BMESS at 0x9DCFC,

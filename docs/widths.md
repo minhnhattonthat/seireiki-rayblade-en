@@ -39,6 +39,11 @@ Menu strings also redraw in more than one window (a character name shows in the 
 battle), so the *smallest* of those rooms is the budget — 11 characters for a name until measured per screen.
 
 ## Rules that follow
+
+**Since the VWF (phase 7/8, 2026-11-03) the budgets are pixels:** the formatter 0x80035318 is patched to count
+2-px units (font_en.FMT_SITES), so a dialogue line holds 240 px of English (~40 characters), the 3rd line of a page
+224 px, a choice item 240 px, a battle line 288 px; tlform measures at the VWF advances and ends pages on sentence
+ends where it can. The character counts below are the Japanese/8-px budgets they came from.
 - Write to **30 characters per line**, **3 lines per page**, and let the engine break lines: a line of 30 or
   fewer characters never needs a `{nl}`. Put `{nl}` only where the break must be semantic (a name tag, a dash
   before a cut-in).

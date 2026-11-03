@@ -24,7 +24,8 @@ JUNK_STYLES = {88, 92, 130}
 CHOICE_STYLES = {128, 129, 160, 192}
 # widths in px at the VWF advances (font_en): the boxes were measured as 8-px columns (docs/widths.md)
 DLG_W, PAGE_LAST_W, BATTLE_W, BATTLE_LINES, CHOICE_W = 30 * 8, 28 * 8, 36 * 8, 3, 30 * 8
-HELP_ROWS = 3        # bank group 1 help text: up to 3 rows (Japanese entries use 1-3); rows are 256 px
+SENTENCE_END = re.compile(r"[.!?~♥][\"')]*$")
+HELP_ROWS = 3       # bank group 1 help text: up to 3 rows (Japanese entries use 1-3); rows are 256 px
 
 
 def form(e):
@@ -79,11 +80,13 @@ def wrap(text, w, last_w=None, lines_per_page=3):
         def lim(k):
             return last_w if last_w and (base + k) % lines_per_page == lines_per_page - 1 else w
 
-        best = {}                       # (word index, line index mod page) -> (lines, cost, end of this line)
+        best = {}                       # (word index, line index mod page) -> (cost, end of this line)
+        line_cost = 10 * w * w          # a line outweighs any slack: fewest lines first
+        page_pen = 2 * line_cost        # up to 2 extra lines to end a page on a sentence end, not mid-sentence
 
         def solve(i, k):
             if i == len(words):
-                return (0, 0, None)
+                return (0, None)
             key = (i, k % period)
             if key not in best:
                 cands = []
@@ -93,14 +96,17 @@ def wrap(text, w, last_w=None, lines_per_page=3):
                     lw = pre[j] - pre[i] + (j - i - 1) * font_en.SPACE_ADV
                     if lw > lim(k) and j > i + 1:
                         break
-                    n, c, _ = solve(j, k + 1)
-                    cands.append((n + 1, c + max(0, lim(k) - lw) ** 2, j))
-                best[key] = min(cands) if cands else (1, 0, len(words))
+                    c = solve(j, k + 1)[0] + line_cost + max(0, lim(k) - lw) ** 2
+                    if last_w and j < len(words) and (base + k) % lines_per_page == lines_per_page - 1 \
+                            and not SENTENCE_END.search(words[j - 1]):
+                        c += page_pen
+                    cands.append((c, j))
+                best[key] = min(cands) if cands else (line_cost, len(words))
             return best[key]
 
         i, k = 0, 0
         while True:
-            j = solve(i, k)[2]
+            j = solve(i, k)[1]
             out.append(" ".join(words[i:j]))
             if j >= len(words):
                 break
