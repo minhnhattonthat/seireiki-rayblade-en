@@ -7,7 +7,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     xdelta re-apply verified.
   - Output: `release/Seireiki_Rayblade_EN_v1.0.zip` (xdelta + README only). **Not published**: publishing is
     the user's call.
-  - **After v1.0 zip (rebuild release before publishing):** battle command window clipped "Attack". Widened by
+  - **v1.0 published 2026-11-03** (GitHub release v1.0, minhnhattonthat/seireiki-rayblade-en), rebuilt after
+    the menu fix: patch SHA-1 da17f4c8, patched Track 1 3f1277ba.
+  - Battle command window clipped "Attack" (fixed before publishing). Widened by
     engine work (D13, docs/re/text.md §Window layouts: insert.CMD_MENU + RES_SUBS[25]); SRW terms Attack, Repair,
     Resupply, Transform, Status, Retreat; room 56 px. Verified unit menu, post-move menu, rows 5-8 (RAM). Not yet
     seen: a menu with Attack live (enemy in range) or with 5+ rows on screen.
