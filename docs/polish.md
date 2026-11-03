@@ -182,186 +182,186 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [x] b124 sce121:0148E - choice 2 drops もう迷うなよ; 29-letter choice limit plus enforced "Spirit Mech Hangar 2" leave no room - accept or probe a shorter wording in-game -- waived: 29-letter choice width + enforced Spirit Mech Hangar 2 leave no room; current acceptable
 - [x] b125 sce124:00BA3 - trailing "Nyo?" reads oddly - "...because you were worried about her, nya?" -- fixed
 - [x] b125 sce124:00AFB - choice "Wh-! What're you saying..." - "Wh-what are you saying..." -- fixed
-- [ ] b128 sce129:0140B - "Thank you for your contract." is stiff salesman-speak - "Thank you for signing with us."
-- [ ] b129 sce131:0031F - "Look, see her hands." - "Look at her hands."
-- [ ] b130 sce131:0163E - "I-Is that so..." stiff for Touya - "R-Really... Thank... god..."
-- [ ] b131 sce134:00F12 - Murk could be more old-man - "Young folk these days, so feeble! Why, I'm still full of pep, eh!"
-- [ ] b132 sce134:010EF - "one thousand two hundred and forty times" - "That's the 1,240th time~"
-- [ ] b132 sce134:0208A - "now ... for now" doubled - "Anyway, there's no point in us acting alone right now. Let's head to the Holy Land first."
-- [ ] b133 sce134:02813 - 大将閣下 "General, Your Excellency" slightly stiff - "Your Excellency the General"
-- [ ] b133 sce134:028D0 - 閣下もお人が悪い - "You're a sly one, Your Excellency..."
-- [ ] b134 (none)
-- [ ] b135 sce136:00E61 - "This is no laughing matter!?" odd on a statement - "This is no laughing matter, you know!?"
-- [ ] b135 sce136:01318 - 悔しい rendered "bitter" - "Queen Alforina must have been so frustrated too!"
-- [ ] b136 sce137:008F7 - "plannyng" pun is a stretch - "Wait, what are you nyot thinking of doing?"
-- [ ] b136 sce137:012F6 - "Quit hugging each other forever, nyow!" - "How long are you two gonna hug, nya!?"
-- [ ] b137 sce138:0023A - Emy says only デビッシュ博士; "Dr. Bafred Debish" adds the given name early - "Dr. Debish"
-- [ ] b137 sce138:00D25 - Xiujian's ふっ as "Hmph..." then Touya asks what's funny - "Heh..."
-- [ ] b137 sce138:00F03 - "any more than this..." vague - "Touya... better not push it..."
-- [ ] b138 sce138:0189A - Yamato "Nyow" added where JP has no ニャ; harmless.
-- [ ] b139 sce138:02B14 - "Papa's papa are all golden" - "Papa and Grandpa are all blond... Melvi wants to be special too..."
-- [ ] b139 sce139:0012C - "As if the rain until yesterday had never been..." clunky - "You'd never know it rained right up until yesterday..."
-- [ ] b139 sce139:00D31 - 偽善だって善です "Hypocrisy is good, too" ambiguous - "Even hypocrisy is a kind of good."
-- [ ] b140 sce139:0119A - Touya's line is a little flat for him - "...Don't buy that everything you're saying is right."
-- [ ] b141 sce141:02599 - "that Pops" reads oddly as a noun phrase - "Huh, so the old Pops is that big a deal..."
-- [ ] b141 sce141:024FF - "crazy damn impressive" clunky - "Isn't that insanely impressive...?"
-- [ ] b142 sce143:00510 - "Oh, right, so there was." awkward - "Oh, right, so I did."
-- [ ] b142 sce142:00B54 - "whatever it takes" is an addition - "Okay, let's deal with that thing!"
-- [ ] b143 sce143:010B6 - "its pilot is real" stiff - "and its pilot is actually aboard"
-- [ ] b144 sce145:00A61 - "What a noisy man." stumbles - "You're such a nag."
-- [ ] b144 sce146:000FD - "things in the capital have been safely suppressed" - "the trouble in the capital has been put down"
-- [ ] b144 sce145:00132/00C83 - 大将 here is Barkin/Resh's slang for their leader Render, not the rank, so "boss" is right (binding list's General covers the rank)
-- [ ] b145 sce146:01597 - "nice to meet you" odd since she knows Fain - "so take good care of me♥"
-- [ ] b146 sce148:00BED - "some long-haul crap like letting us wipe ourselves out" clunky - "Don't tell me you're gonna wait around for us to wipe ourselves out?"
-- [ ] b148 sce149:0131A - "Sisk's turn on duty" vague - "Sisk's turn to cook"
-- [ ] b148 sce152:008E3 - "sleeping under one roof again" - "sleeping under the same roof as him again"
-- [ ] b149 sce152:00D37 - "it's quite refreshing" - "My, it does the heart good to watch."
-- [ ] b149 sce152:011D3 - "If you'll have me" reads romantic - "If I'll do, I'm always here to listen."
-- [ ] b149 sce153:00329 - "Too naive..." - "You let your guard down..."
-- [ ] b150 sce154:002AC - 'nyaturally' adds a meaning the JP lacks (ニャりそう) - Looks like this is gonna be a tough fight, nya.
-- [ ] b150 sce154:005BF/0064A/0608 - 隊長 kept as 'Commander' to match the Hestia speaker-label row (glossary 隊長 = Commander) rather than the general 'Captain' rank; controller to confirm
-- [ ] b152 sce157:010F7 - JP has doubled トウヤ「 tag (source typo); single tag correct
-- [ ] b153 sce158:00935 - Maki's ⁉ on assertions rendered as '!?' twice; reads oddly - ...As if I'd accept such ridiculous terms! ... or I'll go public with this!
-- [ ] b156 sce161:0007B - source 鎮庄 read as 鎮圧, 'put down' fine
-- [ ] b157 sce161:020B9 - おムコさん forced to 'groom-san' by honorific check; plain 'groom' needs a glossary row (controller) - maybe I'll let you be my groom.
-- [ ] b158 sce163:00947 - プラーニャ pun dropped (Prana enforced) - fine as is
-- [ ] b159 sce164:0130F - 'Thank you for everything until now' stiff - Thank you for everything.
-- [ ] b160 sce164:01C71 - 嫡子ではない: he is not the King's biological son; "legitimate son" may read as born out of wedlock - "I am not truly my father's son... the son of the King of Agarthia, Reginal Lang Mestina."
-- [ ] b161 sce165:00A4D - 結構評判だった is about his cooking, not him - "My cooking was quite popular, you know?"
-- [ ] b161 sce165:00C50 - "It's because my father..." reads as explaining wealth - "I only got an education because my father cut back even on his own food."
-- [ ] b162 sce167:008A6 - 心の持ちよう = state of mind (echoes Yamato's sce165:0100E) - "I guess it all comes down to how we look at it."
-- [ ] b162 sce167:00CCB - "the damage was kept to what it was" is stiff - "that the damage wasn't far worse."
-- [ ] b162 sce167:00B31 - "Why am I the only one with different-colored hair?"
-- [ ] b163 sce167:00F82 - お前らまで ("you too") dropped - "Not you two too! What the hell are you saying!?"
-- [ ] b163 sce169:010B0 - forced third person reads oddly - "Umm, umm... this one goes like this..."
-- [ ] b163 sce169:011D3 - Yamato's プラーニャ pun lost - "Pranya".
-- [ ] b164 sce170:00997 - おじちゃん - "Don't go near that guy." (a touch less formal than "that man").
-- [ ] b164 sce169:01297 - "I'm impressed - who knew it could be used like that~"
-- [ ] b165 sce171:0058C - choice 2 drops "worry": 仲間のこと心配するのに理由がいるのか？ - "Need a reason to worry about a friend?" (if it fits the choice width).
-- [ ] b167 sce174:01740 - "...Well, as long as you are." slightly elliptical - "...Well, if you are, fine."
-- [ ] b168 sce181:0190E - "...You're, right." comma reads like a typo - "...Yeah, you're right."
-- [ ] b169 sce182:0023F - "Her attack blew the Griol apart."
-- [ ] b169 sce184:011D3 - 呼び出された = asked to meet; "called me out" can read as a challenge - "She asked to see me."
-- [ ] b169 sce184:0091A - reported speech unclear - "Yeah. Told 'em someone who finally gets me had come along."
-- [ ] b170 sce185:0123A - "That's the man I had my eye on" reads oddly for それでこそ俺が見込んだ男だ - "That's the guy I knew you were."
-- [ ] b171 sce194:00ACA - "kitty-chan" for ネコちゃん (common noun, not a name) reads oddly - "How's that kitty doing?"
-- [ ] b172 sce195:00D38 - "another shape of love" is literal for 愛のカタチ - "just another form of love, right...?"
-- [ ] b172 sce195:00510 - Ai echoing "astern" is stiff for 後退ってどういうことよ - "What do you mean, pull back!?"
-- [ ] b173 sce196:0060E - "the great Steinies Falmore-sama" doubles the boast - "the great Steinies Falmore".
-- [ ] b174 sce196:02BFB - "That isn't it." vague for あれは違います - "That's not his."
-- [ ] b177 sce198:01F53 - trailing "c'mon" tacked on reads oddly - "But I hate just taking hits without fighting back!"
-- [ ] b178 sce199:0039E - "Y-yes, mm." stiff for う、うむ - "Ah... mm. A fine answer indeed."
-- [ ] b179 sce199:01153 - コクのある joke (long cooking = depth of flavour) a bit flat - "Bet they've got real depth of flavor by now, huh?"
-- [ ] b181 sce201:005C3 - Ai's ヤな感じ~ as "So creepy~" is a touch strong - "What a jerk~"
-- [ ] b182 sce203:01AF2 - "pointless murderer" reads stiff - "a murderer for nothing"
-- [ ] b183 sce204:004F8 - なんらかの原因で発現 = acquired later from some cause; "for some other reason" is vague - "It's unthinkable for the 'Evil Eye' to appear later from some outside cause."
-- [ ] b183 sce204:00EFF - "How is it?" - "Well?"
-- [ ] b184 sce205:00107 - added "I'm nyot wrong, am I?" (not in JP) - drop it
-- [ ] b184 sce206:0230D - 独立行動権 as "right of independent action" (matches b135) vs Reference "independent operational authority" - align both in polish
-- [ ] b185 sce208:00F54 - ごちそうさま "thanks for the sweet nothings" - "Okay, okay, enough with the mush."
-- [ ] b185 sce208:00ACC - "you caught Melvi?" - "Oh, Melvi got found out?"
-- [ ] b188 sce209:03E24 - "As the correct answer's winner" stumbles - "For getting it right, you win a kiss from a beautiful woman~"
-- [ ] b190 sce210:00F8D - "look for her" could read as Leone; the target is the heroine waiting for Touya - "shall we go find her, nya...?" with context, or leave
-- [ ] b190 sce210:01EC8 - さすがに今回は遠慮しとくわ; "Even I'll sit this one out" slightly odd - "This time even I know to sit it out."
-- [ ] b191 sce210:038B5 - same "Even I'll sit this one out" as b190 - "This time even I know to sit it out."
-- [ ] b191 sce210:03A92 - 遠いよね; "That's far, y'know." flat - "It's so far away, huh."
-- [ ] b192 sce210:04DC0 - そ、そう‥‥; stutter on the wrong word - "I-is that so..."
-- [ ] b193 sce211:00A2B - いいこと言うじゃない; "Well, aren't you saying nice things." stumbles - "Ooh, nice line."
-- [ ] b193 sce211:015FC - そりゃねぇだろ; "that's not fair, is it?" - "Come on, Ymir, don't be like that."
-- [ ] b194 sce211:01858 - アツイ、アツイ; "it's getting hot in here, hot in here" a bit long - "Ooh, so hot, so hot~"
-- [ ] b195 sce213:00BC1 - すニャお; "hyonestly" is an odd pun - "being praised so nyicely..."
-- [ ] b195 sce213:00DBD - あのお姉ちゃん (a stranger, Ciel); "That big sister" reads oddly - "That lady's eyes are kinda scary..."
-- [ ] b195 sce212:000ED - おかげで; "Thanks to that" - "Because of it"
-- [ ] b197 sce220:00CA3 - "Nyow that's odd." is an added tail - "why's he going back into his room, nya?"
-- [ ] b198 sce221:006DA - "nyo matter what" is an addition - "as nyany times as it takes"
-- [ ] b198 sce221:01C43 - よく知らせてくれた; "well done telling me" stumbles - "Touya, good of you to tell me."
-- [ ] b199 sce222:0040F - 悪かったな is sarcastic - "Well, excuuuse me."
-- [ ] b199 sce222:0108D / b202 sce229:0060B - Gabon's がっはっはっ is "Gwahahaha" here, "Gahahaha" in b202 - pick one in polish.
-- [ ] b200 sce223:007D9 - Fain to Touya could be more bombastic - "What is it? State your business!"
-- [ ] b201 sce226:00ACE - Ai addresses Touya directly; "tied up with yours" would read more naturally than his name, but the check wants トウヤ -> Touya.
-- [ ] b202 sce229:00B5C - choice drops the hesitant かな - "Glad to see you too, Kasumi... I guess."
-- [ ] b202 sce229:00E99 - stiff - "I-it's all MY fault!?"
-- [ ] b202 sce229:01016 - "please raise your head" is a calque - "Oh, please don't apologize."
-- [ ] b204 sce238:00177/001F1 - Xiujian あ、ああ as "Y-yes..." is stiff for a flustered man - "Y-yeah..."
-- [ ] b208 (none)
-- [ ] b209 (none)
-- [ ] b210 sce240:00B19 - stray space before the honorific - "T-Touya...-chan?"
-- [ ] b211 (none)
-- [ ] b212 sce241:0328A - choice reads clipped - "Act as a research organization"
-- [ ] b213 (none)
-- [ ] b214 sce245:000F5 / 00244 - "Prana reading, one!" reads oddly - "One Prana reading!" / "Three Prana readings!"
-- [ ] b214 sce247:0223E - "nyot?" tag is forced - "...But it's a really conspicuous design, nya."
-- [ ] b215 sce247:02322 - clunky - "W-well... yes, something like that."
-- [ ] b215 sce248:00474 - "just as I said" adds a claim; やはり = as I feared - "Isn't it just as I feared? They noticed because you made the fort so conspicuous."
-- [ ] b216 sce248:01078 - Fain flat - "I'm going out too!"
-- [ ] b217 sce249:0197C - ニャくても rendered as a "nyo" tag, not a pun - "You didn't nyeed to wipe them all out..."
-- [ ] b217 sce250:00A3F - Baio "I'm busy, eh!" reads oddly - "Quiet! I'm a busy man!"
-- [ ] b217 sce249:00F78 - 飛行音 "Engines in flight?" stiff - "Is that something flying?"
-- [ ] b218 sce250:02606 - 生きていてくれたんだ "She was alive for me." stilted - "She really had lived."
-- [ ] b219 sce251:01611 - Garyud's fond ふふふふ as "Fufufufu..." reads villainous (Bernst's tic) - "Hahaha..."
-- [ ] b221 sce252:00852 - dev BG menu: 封印の間 (glossary Chamber of Sealing) given as "Agarthia Chamber"; full form + Agarthia + Rayfon (both enforced) won't fit 29 - needs a width decision, players never see it
-- [ ] b222 sce252:01B8E - dev menu "Spirit Hangar 2" drops "Mech" (聖霊機) - "Spirit Mech Hangar 2" if Liebhofen can go
-- [ ] b227 sce262:01CC5 - "You, chewing on a stuffed animal's ear. Is that fun?" reads stiff - "Having fun chewing on that stuffed animal's ear?"
-- [ ] b228 sce263:014FD - 鼻の下を伸ばす is ogling/leering, "starry-eyed" is soft - "Look at you, all goggle-eyed and drooling."
-- [ ] b228 sce263:00C88 - "Smells like nice cheese" - "That cheese smells so good..."
-- [ ] b229 sce264:005EB - "Of course" twice - "...Naturally. It's been years since then. I'd better have improved."
-- [ ] b229 sce267:00244 - joke on "the taste" a bit flat - "'The taste' is guaranteed, huh? That says a lot about the rest."
-- [ ] b229 sce267:0043A - "the shape's kinda something" - "it looks kinda weird"
-- [ ] b230 sce271:00423 - title word order - "the 'Chief First-Class Scholar of the Holy Alchemical Society' title Ai mentioned"
-- [ ] b233 sce276:026F9 - "not to Alforina-sama the queen, but because she is Alforina-sama" clunky - "not to Alforina-sama as queen, but to Alforina-sama herself."
-- [ ] b233 sce278:01FB5 - "...So I said, but" - "...That's what I said, but what do I do with these?"
-- [ ] b234 sce280:01143 - trailing "Nyope?" odd - "...a change of clothes or anything, nya?"
-- [ ] b234 sce283:0056C - ここまでとは likely "to be this scared (of me)" rather than echoing "call it here" - "Hmmm, he's this scared... I must've really put him through it~"
-- [ ] b235 sce285:01753 - choice 素直に部屋に入る; "Go in honestly" reads odd - "Just walk in"
-- [ ] b235 sce285:00E98 - "Nyo way you're fine" is an added tag not in JP - "Hey, you're wobbling on your feet, aren't you? Nyot fine at all."
-- [ ] b236 sce295:00B23 - "Nyo idea." is added content - "Wonder what she's plannyin' to do with this?"
-- [ ] b236 sce291:01465 - ヤマト「‥‥だって」 - "...So he says."
-- [ ] b237 sce300:00E25 - "Nyo clue." tacked on, not in JP - "Nyow why's she having a staring contest with a kitchen knife?"
-- [ ] b237 sce300:00FDC - "I nyee." for ニャるほど is hard to parse - "Nyaturally."/"I see, nya."
-- [ ] b238 sce303:00AD8 - いーだっ as "Nyeeh!" may read as Yamato's cat tag - "Bleh!"
-- [ ] b238 sce305:00B36 - JP duplicated phrase translated once (translator note); fine.
-- [ ] b239 sce311:01090 - "Fit as a fiddle" a bit quaint for Touya - "Good as new, see?"
-- [ ] b240 sce313:0197B - "If I'll do" stiff - "If you don't mind it being me, I'll listen anytime."
-- [ ] b241 sce317:00334 - choice 2 drops "since then" (あの時から眼鏡) - "You've worn glasses since then, huh?"
-- [ ] b242 sce321:00499 - "But you, Arthur's..." stumbles - "But Arthur's, of all people..."
-- [ ] b244 sce329:003B7 - Yamato line has 4 ニャ, EN only one pun - "...What kind of nyon-nyormal way out is that, nya?"
-- [ ] b245 sce334:00523 - "Nya-nyo" opener reads as gibberish - "N-Nyow, I've got a feeling this story's gonna be awfully lo-o-ong..."
-- [ ] b245 sce330:00275 - "leaving already is lonely" stiff - "Aw, leaving already? That's lonely, y'see."
-- [ ] b245 sce332:006AF - "beats beating around the bush" doubled verb - "Figured it's better than beating around the bush."
-- [ ] b246 sce336:01141 - はニャはだ疑問 = "highly doubtful"; "Nyot a chance" overstates - "Hiiighly doubtful, nya."
-- [ ] b246 sce336:00953 - "someone needs to look into" (JP: I need to) - "I also need to look into the state of Vorlia and such."
-- [ ] b246 sce336:02176 - 素直 "obedient" slightly off - "...You're surprisingly docile."
-- [ ] b247 sce336:02B7F - "A decision just like His Highness." awkward - "Just the kind of decision His Highness would make."
-- [ ] b247 sce337:00BB6 - "nyo?!" tag odd - "I told you to fight far away from her, nya!"
-- [ ] b248 sce339:01553 - "do I?" tag odd - "U-Um... I don't see that one anywhere...?"
-- [ ] b249 sce340:010B4 - まさかリーボーフェンか = are they after the Liebhofen - "Don't tell me they're going for the Liebhofen?!"
-- [ ] b249 sce341:00966 - Bernst too casual ("I'll give up") - "Regrettably, I shall give up on the idea."
-- [ ] b250 sce341:012DB - capital "Pilot" mid-sentence - "the pilot of Rayblade" if the check allows.
-- [ ] b251 sce341:0246F - "Roger, is how it is." clunky tag - "Roger, y'see."
-- [ ] b252 sce343:00CA8 - 奴等にはまだ早い = too young for it - "They're still too young for it."
-- [ ] b253 sce345:004EB - "an artificial human, created artificially as an individual" redundant - "an artificial human, created as an individual by design."
-- [ ] b253 sce345:01897 - なんということだ is dismay, not accusation - "...How could this happen..."
-- [ ] b254 sce352:01CC2 - これでも急いで来たつもり - "I came as fast as I could, believe it or not."
-- [ ] b255 sce361:01FBA - option 2 drops 中身がいい (the girl inside), which Yamato's next line and Kururu's laugh play on - "Anything looks good with you in it"
-- [ ] b256 sce364:00F06 - ズバリ、すでに一人で脱出していた drops 一人で - "Easy: he'd already escaped alone!"
-- [ ] b256 sce364:012AE - トウヤからキスしてくれた = he initiated, not "first" - "You kissed me, Touya~"
-- [ ] b257 sce368:00345 - そうだったな (I knew that) - "So you have. Very well, shall we go?"
-- [ ] b258 (none)
-- [ ] b259 sce370:009ED - なんとお礼を言ってよいか = how to thank, not repay - "I don't know how to thank you..."
-- [ ] b259 sce370:00C89 - translator's UNSURE (Bernst tag in Liebhofen debrief) is a JP-tag question, not a TL error; left for the controller.
-- [ ] b260 sce371:00D86 - "Those who're useless... die." stiff - "The useless... die."
-- [ ] b261 (none)
-- [ ] b262 sce372:02CFC - quoted echo is a bit opaque - suggested: '...."I can't let him... either," hm...'
-- [ ] b263 sce373:00B3C - "my boy" addressed to the whole group (おぬし達) - suggested: "Do as you see fit."
-- [ ] b263 sce374:00AFD - "the man who was my little brother" stiff - suggested: "Lenis was my little brother."
-- [ ] b263 sce374:01342 - "can't get any strength" awkward - suggested: "C-can't... put any strength in..."
-- [ ] b264 sce375:01497 - 頼もしいことだ; "Spoken like a stalwart" is stiff - suggested: "Hahahaha! Most reassuring!"
-- [ ] b264 sce375:0052B - "The match is decided." a touch stiff - suggested: "...It's decided."
-- [ ] b265 sce375:01DAF - "But even so, me as queen..." slightly flat - suggested: "But even so, me, a queen...?"
-- [ ] b265 sce375:0285A - グラード「失礼します」 "Farewell." fine but stiff for Grad's warmth - suggested: "Take care."
-- [ ] b266 sce376:015BB - あたしとトウヤの仲 = we're close - suggested: "So what? Me and Touya are close like that."
-- [ ] b266 sce376:003EF - "as it ever was" slightly stiff - suggested: "your masterpiece hasn't changed a bit."
-- [ ] b267 sce376:01D6E - "...Most likely... Lacrima is" reads oddly - suggested: "...Most likely it's because Lacrima is..."
+- [x] b128 sce129:0140B - "Thank you for your contract." is stiff salesman-speak - "Thank you for signing with us." -- fixed
+- [x] b129 sce131:0031F - "Look, see her hands." - "Look at her hands." -- fixed
+- [x] b130 sce131:0163E - "I-Is that so..." stiff for Touya - "R-Really... Thank... god..." -- fixed
+- [x] b131 sce134:00F12 - Murk could be more old-man - "Young folk these days, so feeble! Why, I'm still full of pep, eh!" -- waived: current already old-man (eh, Why); suggestion only reorders
+- [x] b132 sce134:010EF - "one thousand two hundred and forty times" - "That's the 1,240th time~" -- fixed
+- [x] b132 sce134:0208A - "now ... for now" doubled - "Anyway, there's no point in us acting alone right now. Let's head to the Holy Land first." -- fixed
+- [x] b133 sce134:02813 - 大将閣下 "General, Your Excellency" slightly stiff - "Your Excellency the General" -- fixed
+- [x] b133 sce134:028D0 - 閣下もお人が悪い - "You're a sly one, Your Excellency..." -- fixed
+- [x] b134 (none) -- waived: no finding
+- [x] b135 sce136:00E61 - "This is no laughing matter!?" odd on a statement - "This is no laughing matter, you know!?" -- fixed
+- [x] b135 sce136:01318 - 悔しい rendered "bitter" - "Queen Alforina must have been so frustrated too!" -- fixed
+- [x] b136 sce137:008F7 - "plannyng" pun is a stretch - "Wait, what are you nyot thinking of doing?" -- fixed
+- [x] b136 sce137:012F6 - "Quit hugging each other forever, nyow!" - "How long are you two gonna hug, nya!?" -- fixed
+- [x] b137 sce138:0023A - Emy says only デビッシュ博士; "Dr. Bafred Debish" adds the given name early - "Dr. Debish" -- fixed
+- [x] b137 sce138:00D25 - Xiujian's ふっ as "Hmph..." then Touya asks what's funny - "Heh..." -- fixed
+- [x] b137 sce138:00F03 - "any more than this..." vague - "Touya... better not push it..." -- fixed
+- [x] b138 sce138:0189A - Yamato "Nyow" added where JP has no ニャ; harmless. -- waived: harmless per finding, Yamato voice
+- [x] b139 sce138:02B14 - "Papa's papa are all golden" - "Papa and Grandpa are all blond... Melvi wants to be special too..." -- fixed
+- [x] b139 sce139:0012C - "As if the rain until yesterday had never been..." clunky - "You'd never know it rained right up until yesterday..." -- fixed
+- [x] b139 sce139:00D31 - 偽善だって善です "Hypocrisy is good, too" ambiguous - "Even hypocrisy is a kind of good." -- fixed
+- [x] b140 sce139:0119A - Touya's line is a little flat for him - "...Don't buy that everything you're saying is right." -- fixed
+- [x] b141 sce141:02599 - "that Pops" reads oddly as a noun phrase - "Huh, so the old Pops is that big a deal..." -- fixed
+- [x] b141 sce141:024FF - "crazy damn impressive" clunky - "Isn't that insanely impressive...?" -- fixed
+- [x] b142 sce143:00510 - "Oh, right, so there was." awkward - "Oh, right, so I did." -- fixed
+- [x] b142 sce142:00B54 - "whatever it takes" is an addition - "Okay, let's deal with that thing!" -- fixed
+- [x] b143 sce143:010B6 - "its pilot is real" stiff - "and its pilot is actually aboard" -- fixed
+- [x] b144 sce145:00A61 - "What a noisy man." stumbles - "You're such a nag." -- fixed
+- [x] b144 sce146:000FD - "things in the capital have been safely suppressed" - "the trouble in the capital has been put down" -- fixed
+- [x] b144 sce145:00132/00C83 - 大将 here is Barkin/Resh's slang for their leader Render, not the rank, so "boss" is right (binding list's General covers the rank) -- waived: current boss already correct
+- [x] b145 sce146:01597 - "nice to meet you" odd since she knows Fain - "so take good care of me♥" -- fixed
+- [x] b146 sce148:00BED - "some long-haul crap like letting us wipe ourselves out" clunky - "Don't tell me you're gonna wait around for us to wipe ourselves out?" -- fixed
+- [x] b148 sce149:0131A - "Sisk's turn on duty" vague - "Sisk's turn to cook" -- fixed
+- [x] b148 sce152:008E3 - "sleeping under one roof again" - "sleeping under the same roof as him again" -- fixed
+- [x] b149 sce152:00D37 - "it's quite refreshing" - "My, it does the heart good to watch." -- fixed
+- [x] b149 sce152:011D3 - "If you'll have me" reads romantic - "If I'll do, I'm always here to listen." -- fixed
+- [x] b149 sce153:00329 - "Too naive..." - "You let your guard down..." -- fixed
+- [x] b150 sce154:002AC - 'nyaturally' adds a meaning the JP lacks (ニャりそう) - Looks like this is gonna be a tough fight, nya. -- fixed
+- [x] b150 sce154:005BF/0064A/0608 - 隊長 kept as 'Commander' to match the Hestia speaker-label row (glossary 隊長 = Commander) rather than the general 'Captain' rank; controller to confirm -- waived: matches glossary 隊長 label row (Commander); controller ruling
+- [x] b152 sce157:010F7 - JP has doubled トウヤ「 tag (source typo); single tag correct -- waived: current already single tag
+- [x] b153 sce158:00935 - Maki's ⁉ on assertions rendered as '!?' twice; reads oddly - ...As if I'd accept such ridiculous terms! ... or I'll go public with this! -- fixed
+- [x] b156 sce161:0007B - source 鎮庄 read as 鎮圧, 'put down' fine -- waived: already 'put down'
+- [x] b157 sce161:020B9 - おムコさん forced to 'groom-san' by honorific check; plain 'groom' needs a glossary row (controller) - maybe I'll let you be my groom. -- waived: groom-san forced by honorific check; plain groom needs controller glossary row
+- [x] b158 sce163:00947 - プラーニャ pun dropped (Prana enforced) - fine as is -- waived: Prana enforced, fine as is
+- [x] b159 sce164:0130F - 'Thank you for everything until now' stiff - Thank you for everything. -- fixed
+- [x] b160 sce164:01C71 - 嫡子ではない: he is not the King's biological son; "legitimate son" may read as born out of wedlock - "I am not truly my father's son... the son of the King of Agarthia, Reginal Lang Mestina." -- fixed
+- [x] b161 sce165:00A4D - 結構評判だった is about his cooking, not him - "My cooking was quite popular, you know?" -- fixed
+- [x] b161 sce165:00C50 - "It's because my father..." reads as explaining wealth - "I only got an education because my father cut back even on his own food." -- fixed
+- [x] b162 sce167:008A6 - 心の持ちよう = state of mind (echoes Yamato's sce165:0100E) - "I guess it all comes down to how we look at it." -- fixed
+- [x] b162 sce167:00CCB - "the damage was kept to what it was" is stiff - "that the damage wasn't far worse." -- fixed
+- [x] b162 sce167:00B31 - "Why am I the only one with different-colored hair?" -- fixed
+- [x] b163 sce167:00F82 - お前らまで ("you too") dropped - "Not you two too! What the hell are you saying!?" -- fixed
+- [x] b163 sce169:010B0 - forced third person reads oddly - "Umm, umm... this one goes like this..." -- fixed
+- [x] b163 sce169:011D3 - Yamato's プラーニャ pun lost - "Pranya". -- waived: Prana glossary-enforced; line already has whatnyot pun
+- [x] b164 sce170:00997 - おじちゃん - "Don't go near that guy." (a touch less formal than "that man"). -- waived: 'that man' natural for a mother warning a child
+- [x] b164 sce169:01297 - "I'm impressed - who knew it could be used like that~" -- fixed
+- [x] b165 sce171:0058C - choice 2 drops "worry": 仲間のこと心配するのに理由がいるのか？ - "Need a reason to worry about a friend?" (if it fits the choice width). -- fixed
+- [x] b167 sce174:01740 - "...Well, as long as you are." slightly elliptical - "...Well, if you are, fine." -- fixed
+- [x] b168 sce181:0190E - "...You're, right." comma reads like a typo - "...Yeah, you're right." -- fixed
+- [x] b169 sce182:0023F - "Her attack blew the Griol apart." -- fixed
+- [x] b169 sce184:011D3 - 呼び出された = asked to meet; "called me out" can read as a challenge - "She asked to see me." -- fixed
+- [x] b169 sce184:0091A - reported speech unclear - "Yeah. Told 'em someone who finally gets me had come along." -- fixed
+- [x] b170 sce185:0123A - "That's the man I had my eye on" reads oddly for それでこそ俺が見込んだ男だ - "That's the guy I knew you were." -- fixed
+- [x] b171 sce194:00ACA - "kitty-chan" for ネコちゃん (common noun, not a name) reads oddly - "How's that kitty doing?" -- waived: lint enforces -chan for ネコちゃん; Gabon's cutesy kitty-chan is acceptable
+- [x] b172 sce195:00D38 - "another shape of love" is literal for 愛のカタチ - "just another form of love, right...?" -- fixed
+- [x] b172 sce195:00510 - Ai echoing "astern" is stiff for 後退ってどういうことよ - "What do you mean, pull back!?" -- fixed
+- [x] b173 sce196:0060E - "the great Steinies Falmore-sama" doubles the boast - "the great Steinies Falmore". -- fixed
+- [x] b174 sce196:02BFB - "That isn't it." vague for あれは違います - "That's not his." -- fixed
+- [x] b177 sce198:01F53 - trailing "c'mon" tacked on reads oddly - "But I hate just taking hits without fighting back!" -- fixed
+- [x] b178 sce199:0039E - "Y-yes, mm." stiff for う、うむ - "Ah... mm. A fine answer indeed." -- fixed
+- [x] b179 sce199:01153 - コクのある joke (long cooking = depth of flavour) a bit flat - "Bet they've got real depth of flavor by now, huh?" -- fixed
+- [x] b181 sce201:005C3 - Ai's ヤな感じ~ as "So creepy~" is a touch strong - "What a jerk~" -- fixed
+- [x] b182 sce203:01AF2 - "pointless murderer" reads stiff - "a murderer for nothing" -- fixed
+- [x] b183 sce204:004F8 - なんらかの原因で発現 = acquired later from some cause; "for some other reason" is vague - "It's unthinkable for the 'Evil Eye' to appear later from some outside cause." -- fixed
+- [x] b183 sce204:00EFF - "How is it?" - "Well?" -- fixed
+- [x] b184 sce205:00107 - added "I'm nyot wrong, am I?" (not in JP) - drop it -- fixed
+- [x] b184 sce206:0230D - 独立行動権 as "right of independent action" (matches b135) vs Reference "independent operational authority" - align both in polish -- fixed
+- [x] b185 sce208:00F54 - ごちそうさま "thanks for the sweet nothings" - "Okay, okay, enough with the mush." -- fixed
+- [x] b185 sce208:00ACC - "you caught Melvi?" - "Oh, Melvi got found out?" -- fixed
+- [x] b188 sce209:03E24 - "As the correct answer's winner" stumbles - "For getting it right, you win a kiss from a beautiful woman~" -- fixed
+- [x] b190 sce210:00F8D - "look for her" could read as Leone; the target is the heroine waiting for Touya - "shall we go find her, nya...?" with context, or leave -- waived: preceding line has Touya calling the heroine 'she', so 'her' reads clearly
+- [x] b190 sce210:01EC8 - さすがに今回は遠慮しとくわ; "Even I'll sit this one out" slightly odd - "This time even I know to sit it out." -- fixed
+- [x] b191 sce210:038B5 - same "Even I'll sit this one out" as b190 - "This time even I know to sit it out." -- fixed
+- [x] b191 sce210:03A92 - 遠いよね; "That's far, y'know." flat - "It's so far away, huh." -- fixed
+- [x] b192 sce210:04DC0 - そ、そう‥‥; stutter on the wrong word - "I-is that so..." -- fixed
+- [x] b193 sce211:00A2B - いいこと言うじゃない; "Well, aren't you saying nice things." stumbles - "Ooh, nice line." -- fixed
+- [x] b193 sce211:015FC - そりゃねぇだろ; "that's not fair, is it?" - "Come on, Ymir, don't be like that." -- fixed
+- [x] b194 sce211:01858 - アツイ、アツイ; "it's getting hot in here, hot in here" a bit long - "Ooh, so hot, so hot~" -- fixed
+- [x] b195 sce213:00BC1 - すニャお; "hyonestly" is an odd pun - "being praised so nyicely..." -- fixed
+- [x] b195 sce213:00DBD - あのお姉ちゃん (a stranger, Ciel); "That big sister" reads oddly - "That lady's eyes are kinda scary..." -- fixed
+- [x] b195 sce212:000ED - おかげで; "Thanks to that" - "Because of it" -- fixed
+- [x] b197 sce220:00CA3 - "Nyow that's odd." is an added tail - "why's he going back into his room, nya?" -- fixed
+- [x] b198 sce221:006DA - "nyo matter what" is an addition - "as nyany times as it takes" -- fixed
+- [x] b198 sce221:01C43 - よく知らせてくれた; "well done telling me" stumbles - "Touya, good of you to tell me." -- fixed
+- [x] b199 sce222:0040F - 悪かったな is sarcastic - "Well, excuuuse me." -- fixed
+- [x] b199 sce222:0108D / b202 sce229:0060B - Gabon's がっはっはっ is "Gwahahaha" here, "Gahahaha" in b202 - pick one in polish. -- fixed
+- [x] b200 sce223:007D9 - Fain to Touya could be more bombastic - "What is it? State your business!" -- fixed
+- [x] b201 sce226:00ACE - Ai addresses Touya directly; "tied up with yours" would read more naturally than his name, but the check wants トウヤ -> Touya. -- fixed
+- [x] b202 sce229:00B5C - choice drops the hesitant かな - "Glad to see you too, Kasumi... I guess." -- fixed
+- [x] b202 sce229:00E99 - stiff - "I-it's all MY fault!?" -- fixed
+- [x] b202 sce229:01016 - "please raise your head" is a calque - "Oh, please don't apologize." -- fixed
+- [x] b204 sce238:00177/001F1 - Xiujian あ、ああ as "Y-yes..." is stiff for a flustered man - "Y-yeah..." -- fixed
+- [x] b208 (none) -- waived: no finding
+- [x] b209 (none) -- waived: no finding
+- [x] b210 sce240:00B19 - stray space before the honorific - "T-Touya...-chan?" -- fixed
+- [x] b211 (none) -- waived: no finding
+- [x] b212 sce241:0328A - choice reads clipped - "Act as a research organization" -- waived: 'Act as a research organization' is 30 > 29 choice width; current is fine
+- [x] b213 (none) -- waived: no finding
+- [x] b214 sce245:000F5 / 00244 - "Prana reading, one!" reads oddly - "One Prana reading!" / "Three Prana readings!" -- fixed
+- [x] b214 sce247:0223E - "nyot?" tag is forced - "...But it's a really conspicuous design, nya." -- fixed
+- [x] b215 sce247:02322 - clunky - "W-well... yes, something like that." -- fixed
+- [x] b215 sce248:00474 - "just as I said" adds a claim; やはり = as I feared - "Isn't it just as I feared? They noticed because you made the fort so conspicuous." -- fixed
+- [x] b216 sce248:01078 - Fain flat - "I'm going out too!" -- fixed
+- [x] b217 sce249:0197C - ニャくても rendered as a "nyo" tag, not a pun - "You didn't nyeed to wipe them all out..." -- fixed
+- [x] b217 sce250:00A3F - Baio "I'm busy, eh!" reads oddly - "Quiet! I'm a busy man!" -- fixed
+- [x] b217 sce249:00F78 - 飛行音 "Engines in flight?" stiff - "Is that something flying?" -- fixed
+- [x] b218 sce250:02606 - 生きていてくれたんだ "She was alive for me." stilted - "She really had lived." -- fixed
+- [x] b219 sce251:01611 - Garyud's fond ふふふふ as "Fufufufu..." reads villainous (Bernst's tic) - "Hahaha..." -- fixed
+- [x] b221 sce252:00852 - dev BG menu: 封印の間 (glossary Chamber of Sealing) given as "Agarthia Chamber"; full form + Agarthia + Rayfon (both enforced) won't fit 29 - needs a width decision, players never see it -- waived: dev BG menu; full glossary form won't fit 29; players never see it
+- [x] b222 sce252:01B8E - dev menu "Spirit Hangar 2" drops "Mech" (聖霊機) - "Spirit Mech Hangar 2" if Liebhofen can go -- waived: 'Liebhofen, Spirit Mech Hangar 2' is 31 > 29 and Liebhofen is enforced; dev menu
+- [x] b227 sce262:01CC5 - "You, chewing on a stuffed animal's ear. Is that fun?" reads stiff - "Having fun chewing on that stuffed animal's ear?" -- fixed
+- [x] b228 sce263:014FD - 鼻の下を伸ばす is ogling/leering, "starry-eyed" is soft - "Look at you, all goggle-eyed and drooling." -- fixed
+- [x] b228 sce263:00C88 - "Smells like nice cheese" - "That cheese smells so good..." -- fixed
+- [x] b229 sce264:005EB - "Of course" twice - "...Naturally. It's been years since then. I'd better have improved." -- fixed
+- [x] b229 sce267:00244 - joke on "the taste" a bit flat - "'The taste' is guaranteed, huh? That says a lot about the rest." -- fixed
+- [x] b229 sce267:0043A - "the shape's kinda something" - "it looks kinda weird" -- fixed
+- [x] b230 sce271:00423 - title word order - "the 'Chief First-Class Scholar of the Holy Alchemical Society' title Ai mentioned" -- fixed
+- [x] b233 sce276:026F9 - "not to Alforina-sama the queen, but because she is Alforina-sama" clunky - "not to Alforina-sama as queen, but to Alforina-sama herself." -- fixed
+- [x] b233 sce278:01FB5 - "...So I said, but" - "...That's what I said, but what do I do with these?" -- fixed
+- [x] b234 sce280:01143 - trailing "Nyope?" odd - "...a change of clothes or anything, nya?" -- fixed
+- [x] b234 sce283:0056C - ここまでとは likely "to be this scared (of me)" rather than echoing "call it here" - "Hmmm, he's this scared... I must've really put him through it~" -- fixed
+- [x] b235 sce285:01753 - choice 素直に部屋に入る; "Go in honestly" reads odd - "Just walk in" -- fixed
+- [x] b235 sce285:00E98 - "Nyo way you're fine" is an added tag not in JP - "Hey, you're wobbling on your feet, aren't you? Nyot fine at all." -- fixed
+- [x] b236 sce295:00B23 - "Nyo idea." is added content - "Wonder what she's plannyin' to do with this?" -- fixed
+- [x] b236 sce291:01465 - ヤマト「‥‥だって」 - "...So he says." -- fixed
+- [x] b237 sce300:00E25 - "Nyo clue." tacked on, not in JP - "Nyow why's she having a staring contest with a kitchen knife?" -- fixed
+- [x] b237 sce300:00FDC - "I nyee." for ニャるほど is hard to parse - "Nyaturally."/"I see, nya." -- fixed
+- [x] b238 sce303:00AD8 - いーだっ as "Nyeeh!" may read as Yamato's cat tag - "Bleh!" -- fixed
+- [x] b238 sce305:00B36 - JP duplicated phrase translated once (translator note); fine. -- waived: reviewer notes it is fine; JP duplicated line rendered once
+- [x] b239 sce311:01090 - "Fit as a fiddle" a bit quaint for Touya - "Good as new, see?" -- fixed
+- [x] b240 sce313:0197B - "If I'll do" stiff - "If you don't mind it being me, I'll listen anytime." -- fixed
+- [x] b241 sce317:00334 - choice 2 drops "since then" (あの時から眼鏡) - "You've worn glasses since then, huh?" -- fixed
+- [x] b242 sce321:00499 - "But you, Arthur's..." stumbles - "But Arthur's, of all people..." -- fixed
+- [x] b244 sce329:003B7 - Yamato line has 4 ニャ, EN only one pun - "...What kind of nyon-nyormal way out is that, nya?" -- fixed
+- [x] b245 sce334:00523 - "Nya-nyo" opener reads as gibberish - "N-Nyow, I've got a feeling this story's gonna be awfully lo-o-ong..." -- fixed
+- [x] b245 sce330:00275 - "leaving already is lonely" stiff - "Aw, leaving already? That's lonely, y'see." -- fixed
+- [x] b245 sce332:006AF - "beats beating around the bush" doubled verb - "Figured it's better than beating around the bush." -- fixed
+- [x] b246 sce336:01141 - はニャはだ疑問 = "highly doubtful"; "Nyot a chance" overstates - "Hiiighly doubtful, nya." -- fixed
+- [x] b246 sce336:00953 - "someone needs to look into" (JP: I need to) - "I also need to look into the state of Vorlia and such." -- fixed
+- [x] b246 sce336:02176 - 素直 "obedient" slightly off - "...You're surprisingly docile." -- fixed
+- [x] b247 sce336:02B7F - "A decision just like His Highness." awkward - "Just the kind of decision His Highness would make." -- fixed
+- [x] b247 sce337:00BB6 - "nyo?!" tag odd - "I told you to fight far away from her, nya!" -- fixed
+- [x] b248 sce339:01553 - "do I?" tag odd - "U-Um... I don't see that one anywhere...?" -- fixed
+- [x] b249 sce340:010B4 - まさかリーボーフェンか = are they after the Liebhofen - "Don't tell me they're going for the Liebhofen?!" -- fixed
+- [x] b249 sce341:00966 - Bernst too casual ("I'll give up") - "Regrettably, I shall give up on the idea." -- fixed
+- [x] b250 sce341:012DB - capital "Pilot" mid-sentence - "the pilot of Rayblade" if the check allows. -- waived: glossary rules 操者 = Pilot (capitalized)
+- [x] b251 sce341:0246F - "Roger, is how it is." clunky tag - "Roger, y'see." -- fixed
+- [x] b252 sce343:00CA8 - 奴等にはまだ早い = too young for it - "They're still too young for it." -- fixed
+- [x] b253 sce345:004EB - "an artificial human, created artificially as an individual" redundant - "an artificial human, created as an individual by design." -- fixed
+- [x] b253 sce345:01897 - なんということだ is dismay, not accusation - "...How could this happen..." -- fixed
+- [x] b254 sce352:01CC2 - これでも急いで来たつもり - "I came as fast as I could, believe it or not." -- fixed
+- [x] b255 sce361:01FBA - option 2 drops 中身がいい (the girl inside), which Yamato's next line and Kururu's laugh play on - "Anything looks good with you in it" -- fixed
+- [x] b256 sce364:00F06 - ズバリ、すでに一人で脱出していた drops 一人で - "Easy: he'd already escaped alone!" -- fixed
+- [x] b256 sce364:012AE - トウヤからキスしてくれた = he initiated, not "first" - "You kissed me, Touya~" -- fixed
+- [x] b257 sce368:00345 - そうだったな (I knew that) - "So you have. Very well, shall we go?" -- fixed
+- [x] b258 (none) -- waived: no finding
+- [x] b259 sce370:009ED - なんとお礼を言ってよいか = how to thank, not repay - "I don't know how to thank you..." -- fixed
+- [x] b259 sce370:00C89 - translator's UNSURE (Bernst tag in Liebhofen debrief) is a JP-tag question, not a TL error; left for the controller. -- waived: JP speaker-tag question for controller, not a TL error
+- [x] b260 sce371:00D86 - "Those who're useless... die." stiff - "The useless... die." -- fixed
+- [x] b261 (none) -- waived: no finding
+- [x] b262 sce372:02CFC - quoted echo is a bit opaque - suggested: '...."I can't let him... either," hm...' -- fixed
+- [x] b263 sce373:00B3C - "my boy" addressed to the whole group (おぬし達) - suggested: "Do as you see fit." -- fixed
+- [x] b263 sce374:00AFD - "the man who was my little brother" stiff - suggested: "Lenis was my little brother." -- fixed
+- [x] b263 sce374:01342 - "can't get any strength" awkward - suggested: "C-can't... put any strength in..." -- fixed
+- [x] b264 sce375:01497 - 頼もしいことだ; "Spoken like a stalwart" is stiff - suggested: "Hahahaha! Most reassuring!" -- fixed
+- [x] b264 sce375:0052B - "The match is decided." a touch stiff - suggested: "...It's decided." -- fixed
+- [x] b265 sce375:01DAF - "But even so, me as queen..." slightly flat - suggested: "But even so, me, a queen...?" -- fixed
+- [x] b265 sce375:0285A - グラード「失礼します」 "Farewell." fine but stiff for Grad's warmth - suggested: "Take care." -- fixed
+- [x] b266 sce376:015BB - あたしとトウヤの仲 = we're close - suggested: "So what? Me and Touya are close like that." -- fixed
+- [x] b266 sce376:003EF - "as it ever was" slightly stiff - suggested: "your masterpiece hasn't changed a bit." -- fixed
+- [x] b267 sce376:01D6E - "...Most likely... Lacrima is" reads oddly - suggested: "...Most likely it's because Lacrima is..." -- fixed
 - [ ] b268 sce379:00194 - 跳ばされ is a time/world jump - suggested: "So you got flung here too..."
 - [ ] b268 sce380:021F3 - "Just kidding... it's a joke." redundant - suggested: "...Just kidding. Ahahaha."
 - [ ] b269 sce381:00F7D - "why just him" when the subject is the mech - suggested: "So why only that thing!?"
@@ -671,3 +671,35 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [ ] story ch26 sce131:00A5D - "them" no referent - "It took a great deal of effort to thin out their defenses."
 - [ ] story ch26 sce136:00C3A - Fain "Yes, ma'am!" - "Yes, Princess! No problem at all!"
 - [ ] story ch26 sce136:00ACE (+00FC2) - Fain やっほー - "Yahoo!!"
+- [ ] story ch28 sce149:0131A - "His cooking" but Sisk is female - "Today was Sisk's turn on duty... Her cooking is professional-grade. I can't wait!"
+- [ ] story ch28 sce147:00426 - Fain 姫 "my lady" - "...In this, Princess?"
+- [ ] story ch28 sce151:00339 - 二世 "Second!" - "Shut up, Ymir the Second!"
+- [ ] story ch28 sce149:00124 - Rest 言うようになった - "You've gotten bold with your words, haven't you."
+- [ ] story ch28 sce151:00613 - Celica 知らない！ - "I-I don't know!"
+- [ ] story ch28 sce148:00A7E - Touya "ain't" - "There aren't many people with power who've got the self-control not to use it."
+- [ ] story ch28 sce146:0108A - Maki ラッキー♥ - "Oh, lucky me♥"
+- [ ] story ch29 sce153:004DD - Lyle stilted - "Hehehehe... How could I have been so blind..."
+- [ ] story ch29 sce160:00762 - "the Prince"/"He" ambiguous, means Tix - "But... Prince Tix was taken in by that Cain... no, he left with Cain..." / "Tix said there's no place for him here..."
+- [ ] story ch29 sce158:00B7B - weak pun - "Wh-whanya... what are those moves!?"
+- [ ] story ch29 sce159:00337 - choice stiff - "Sure, why not. / It's not something I talk about much..."
+- [ ] story ch29 sce157:007B0 - adds "figurehead" - "People call him a daytime lantern, a do-nothing, but..."
+- [ ] story ch27 sce137:01497 - Lyle taunt loses menace - "Let's settle the score from back then, Lenis!!"
+- [ ] story ch27 sce140:00311 - Ai "my, Ai-chan's" clumsy - "Fufufu... How about that? Did you see Ai-chan's dazzling piloting?"
+- [ ] story ch27 sce140:00181 - "Here... I go!" garbled - "Yeah, got it. Okay... here I go!"
+- [ ] story ch27 sce138:00386 - Ymir repeats - "The only other things we know are the names of three researchers..."
+- [ ] story ch27 sce139:00E98 - Bernst contractions/"Thou shalt" - "I do not want to be killed... 'You shall not harm or kill others'"
+- [ ] story ch27 sce141:0169F - name x3 - "As if you'd never existed at all... Were you really there!?"
+- [ ] story ch27 sce137:008F7 - Yamato pun - "Huh? Wait, nyou can't be planning something nyuts?"
+- [ ] story ch27 sce138:0189A - pun lands oddly - "Okay, okay. Let's get going, nya."
+- [ ] story ch30 sce161:020B9 - Kururu "groom-san" - "maybe I'll let you be my husband"
+- [ ] story ch30 sce164:024F8 - imperative - "Did you think it over?"
+- [ ] story ch30 sce167:01159 - Melvi adds "gave" - "Welcome home! Um, Big Brother Touya said..."
+- [ ] story ch30 sce167:0149B - Ymir 甘えん坊さん - "Melvi, you're such a cuddly little thing."
+- [ ] story ch30 sce167:005D0 - Ivel bare "No." - "Right. I suppose she meant to settle it all on her own."
+- [ ] story ch30 sce163:00210 - ふざけた野郎 - "...What a clown."
+- [ ] story ch32 sce184:0025E - は、はぁ - "Uh... is that how it works?"
+- [ ] story ch32 sce184:008AB - Clovis prissy - "Now that's an admirable attitude."
+- [ ] story ch32 sce184:0110F - stiff - "Ah, I know that look. You're suspicious, aren't you?"
+- [ ] story ch32 sce185:00657 (+01357) - ああ‥‥ "Sure..." - "Yeah..."
+- [ ] story ch32 sce185:00683 - garbled - "Hey, could it be she's... got a thing for you?"
+- [ ] story ch32 sce185:01226 - clumsy - "...Fine. Got it."
