@@ -542,152 +542,152 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [x] story ch08 sce025:034F6 - 律義 as "loyal" - "Aren't you the dutiful type, keeping your promise." -- fixed
 - [x] story ch08 sce025:033B4 - "she" implies mix-up - "Looks like somebody got the wrong idea..." -- fixed
 - [x] story ch08 sce025:02E36 - Melissa "Jeez" too girlish - "Honestly. Are you going to make a woman say any more than that?" -- fixed
-- [ ] story ch08 sce025:02C8F - 若だんニャ pun lost - "Ooh... Well, if it isn't the young master, nya!"
-- [ ] story ch08 sce025:03286 - "this time too" implies past failure - "I'll listen properly. Promise."
-- [ ] story ch08 sce024:007F9 - vague "system" - "The device... the escape device..."
-- [ ] story ch08 sce025:002D5 - Xiujian unclear - "No. If that were all, it wouldn't have stopped at that. There must be another cause."
-- [ ] story ch09 sce027:004B9 - "his lot" British - "What about Debish and his goons?"
-- [ ] story ch09 sce028:0255C (+028B3, 02C22, 02FB7, 0285F, 02BC7) - Yamato プラーニャ pun dropped - "Pranya is life energy, nyou know."
-- [ ] story ch09 sce027:02A6A - "Did you ever." stray idiom - "You sure did, nya. Touya tried so hard to talk you down and you wouldn't listen at all."
-- [ ] story ch09 sce027:019DD - Celica ちがーう！ - "That's not it!"
-- [ ] story ch09 sce028:020B8 - "nyaow" vs "nyow" - "What are you doing, nyow!?"
-- [ ] story ch09 sce028:015CD - "Agarthia forces" - "Agarthian forces"
-- [ ] story ch09 sce027:003A2 - ambiguous "her and the others" - "I'm worried about the others too, wondering how they're doing..."
-- [ ] story ch09 sce028:01485 - Leone "Nah" curt - "No, it's okay. I don't want to cause you trouble, Touya."
-- [ ] story ch09 sce027:00DCF - "Touya... -chan..." - "T-Touya... chan..."
-- [ ] story ch10 sce031:00259 - Yamato pun obscure - "Leone's been acting like a real girl lately, hasn't she, nya?"
-- [ ] story ch10 sce032:00C51 - Valga じゃ voice neutral - "Hah! Our side's done too! Rishuna!"
-- [ ] story ch10 sce032:01F60 - "Alright!" vs "All right" - "All right!"
-- [ ] story ch10 sce029:00943 - Miyasco "dear" off - "Your beloved Lodis-sama isn't going anywhere, you know."
-- [ ] story ch11 sce033:00D00 - wrong puller - "Ooh... She's pulling him by the hand... Aren't they looking kinda cozy?"
-- [ ] story ch11 sce033:02751 - Gen "No way!" - "That's not true! Even if I was little back then..."
-- [ ] story ch11 sce033:02A8B - "Pops Gabon" - "Old man Gabon! You're the best!"
-- [ ] story ch11 sce033:017C2 - ambiguous "Brother" - "Brother Rayfon... still holds that against Brother Lodis..."
-- [ ] story ch11 sce033:025F7 - Rayfon "Hehehehe" goofy - "Fufufufu... Good girl."
-- [ ] story ch11 sce033:030B2/03828 - Aurelie dialect inconsistent - plain-casual: "Wait, you're saying this Grauzer guy came here riding Aidion?"
-- [ ] story ch11 sce034:00087 - Yamato "nyaturally" callous - "To do something so nyasty... Ai looks pretty badly shaken, too..."
-- [ ] story ch11 sce035:00F3A - "kinda nyicer" - "Don't your moves look a little better, somehow, nya?"
-- [ ] story ch11 sce035:016C0 - ニャぐりあい pun lost - "is trading punches really that nyuch fun? I wonder, nya..."
-- [ ] story ch11 sce037:0083E (+038:013DC) - Fain person switch - "...does not yet dwell within you! I cannot obey orders from one such as you!"
-- [ ] story ch14 sce046:03798 - Ymir ええ‥‥ as "All right..." shrug - "Yes..."
-- [ ] story ch14 sce046:0111D - Kasumi clumsy - "Because meeting you made me so happy, Touya-chan. I only made it this far because you were here."
-- [ ] story ch14 sce046:01C6E - Aurelie "Nah..." dismissive - "No... I'm not scared as long as I'm with you, Touya. If we're reborn, think we'll meet again?"
-- [ ] story ch14 sce046:00819 (+7 repeats) - ニャおっていく pun - "Rayblade is menyding itself..."
-- [ ] story ch14 sce046:03544 - Debish デク人形 weak - "Do not call me father, you hollow puppet!"
-- [ ] story ch12 sce043:009B1 - Core recovered contradiction - "He is dead. But there is no cause for concern. Rayode's \"Core\" has been recovered."
-- [ ] story ch12 sce040:0030C/00507 - "thnyat" unreadable - "Nyow what was that all about, nya?"
-- [ ] story ch12 sce039:000F8 - Lodis damage line illogical - "Beyond that, the only damage was a wrecked section of the palace."
-- [ ] story ch12 sce043:0024C - missing space - "I think so too. Forzen-san, Paldia-san..."
-- [ ] story ch12 sce042:0035F - missing space - "revenge... Kukukukuku..."
-- [ ] story ch12 sce043:017CA - stilted - "If it eases the hurt in your heart even a little, that's enough."
-- [ ] story ch12 sce039:005B9 - 今すぐは無理 - "But we can't head there right away."
-- [ ] story ch12 sce041:00531 - Forzen clumsy - "Hello, everyone. You all look well, don't you?"
-- [ ] story ch12 sce043:00E14 - "Have fun~" not in JP - "Off you go~"
-- [ ] story ch12 sce043:00CBE - bare "nyow" - "...think about how Melvi feels a little, nya."
-- [ ] story ch13 sce045:01D9A - past tense implies Sharl dead - "And so you intend to strike Sharl down with your own hands?"
-- [ ] story ch13 sce044:00362 (+007FE) - Ai's 壊死 mishearing - "Ne-crow... sis?"
-- [ ] story ch13 sce044:04AE3 - 友達/恋人 parallel lost - "Up till now we've been good friends, but from now on how about we be a good couple?"
-- [ ] story ch13 sce044:03D8A - Gen third person - "Sacrificing myself for my friends... Ooh~ Man, I'm so cool!"
-- [ ] story ch13 sce044:01F64 - Valga "y'know" modern - "We lent a hand too, eh."
-- [ ] story ch13 sce045:06490 - Bernst adds motive - "To think you'd break through so quickly... But I'd expect nothing less..."
-- [ ] story ch13 sce044:01D49 - Doris link lost - "Yes. He told me not to do anything unnecessary, so I never gave it to him."
-- [ ] story ch15 sce054:00225 - Ymir gag flattened - "She means no harm... well, maybe she does, but really... that's just how she is..."
-- [ ] story ch15 sce048:01AED - Fain clipped - "Ohh! K-Kasumi, speaking to me... Kuuh! R-right, I'll do it!!"
-- [ ] story ch15 sce051:00B54 - Yamato opener - "You've got some kind of plan, nya!?"
-- [ ] story ch15 sce054:00993 - added "nyaturally" - "...But looks like Ymir's in the lab again today."
-- [ ] story ch15 sce050:00704 (+051:006FE) - Clovis clumsy - "I'm going solo. Your end's yours."
-- [ ] story ch15 sce052:002CE (+repeats) - Ai stilted - "Did you see Ai-chan's dazzling piloting technique?"
-- [ ] story ch15 sce049:004BC - Touya anger mushy - "No way!! What the hell are people's lives to you!? Like I'd ever help bring disaster on the world!"
-- [ ] story ch15 sce051:001F5 - Cain campy - "'Finish things here fast,' hm... I'm being taken rather lightly, it seems."
-- [ ] story ch15 sce048:01B2D - 激烈 softened - "...What an insanely simple guy."
-- [ ] story ch16 sce059:00F02 - "Touya... -chan...?" glitchy - "Touya-chan...?"
-- [ ] story ch16 sce059:026B5 (+060:02580, 061:02755, 062:027A5) - Fain わ、わかった！ sulky - "I-I understand! But don't you dare die! That's a promise!"
-- [ ] story ch16 sce059:01317 (+060:01209, 061:01337, 062:012DF) - weak - "(Don't need you to tell me.)"
-- [ ] story ch16 sce059:01F54 (+060:01E25, 061:01F4D, 062:01FC1) - stray "either" - "(...That was quite fun... Experiencing ruin isn't so bad... for once...)"
-- [ ] story ch16 sce059:01525 (+060:01416, 061:0159E, 062:0152D) - Voice 貴様ら neutral - "(What!? I-impossible... You wretches...)"
-- [ ] story ch16 sce060:01009 - 信頼してる - "Yeah. I trust you."
-- [ ] story ch16 sce060:02798 - unclear trail-off - "If we just end up like this..."
-- [ ] story ch16 sce062:01C9F - Melvi person mix - "'Cause just thinking that Melvi's with Big Brother makes Melvi feel so safe."
-- [ ] story ch16 sce059:00182 - cryptic - "...Are you okay with this?"
-- [ ] story ch17 sce064:002B4 - Ymir ええ = can't hear - "No... I don't hear anything."
-- [ ] story ch17 sce065:002AA - Leone うん‥‥ same - "Mm-mm... nothing."
-- [ ] story ch17 sce063:015E4 (+065:01631) - Fain flat - "Fear not! Now that we're here, you've got nothing to worry about!"
-- [ ] story ch17 sce063:02AB1 - Melissa garbled - "It'll manage, this kid. It's soaked up so many of our feelings..."
-- [ ] story ch17 sce063:021D6 - pun hides question - "Huh? Why'd you stop me, nyow...?"
-- [ ] story ch17 sce063:01DE9 (+028F1, 02777; 064:01DDA, 027F8, 0218E) - Touya ああ‥‥ "Sure..." - "Yeah..."
-- [ ] story ch17 sce065:01140 - strained pun - "the wounds are... nyealed up..."
-- [ ] story ch17 sce063:01042 - Melissa stiff - "You look kind of cool right now, Touya."
-- [ ] story ch18 sce070:01C09 - proverb reversed - "In this world, don't you say 'if you love your child, send them out on a journey'?"
-- [ ] story ch18 sce067:00176 (+069:0016F, 070:00173) - "Say some--" - "Say something--"
-- [ ] story ch18 sce069:019AE/01A7F - stiff/vague - "...Nope." / "...That's the problem."
-- [ ] story ch18 sce070:01A43 - unclear - "You didn't have to rush... I'd have kept my promise anyway."
-- [ ] story ch18 sce068:01E1C - Emy ojou register - "I-I wouldn't mind tutoring you, if you'd like, I suppose?"
-- [ ] story ch18 sce069:01B5A - Koichiro - "Is this the blonde one?"
-- [ ] story ch18 sce067:01F9F - Chihiro どうしても！ - "Because I said so! Come on, move it!"
-- [ ] story ch19 sce071:01AE5 - Melissa よろしくね - "...So, I'll be in your care for a while. Count on me, Touya."
-- [ ] story ch19 sce074:02072 - Yamato 話は聞かせてもらった - "...I heard every word. Young lady, the eyes of this young man are nyot the eyes of a liar. Do believe in him."
-- [ ] story ch19 sce074:01CC8 - pun lost - "Nyomehow that doesn't make me happy at all~"
-- [ ] story ch19 sce074:01C4A - Celica - "No... you've got nothing to apologize for..."
-- [ ] story ch23 sce107:01556 (+113:01553, 118:015E8) - typo "abyout" - "Sorry about that, nya."
-- [ ] story ch23 sce114:0076E - unclear - "Nyow, this room is so 'Melvi,' isn't it?"
-- [ ] story ch23 sce111:000D2 - Kasumi はい handing shirt - "Here you go."
-- [ ] story ch23 sce106:00BB9 - Miyasco too casual - "Yes."
-- [ ] story ch23 sce107:0083A - awkward - "I think that resolve is the right one."
-- [ ] story ch23 sce112:0044F - adds laughter - "W-what, nyow? Both of you!"
-- [ ] story ch23 sce107:0047D - あの人 vague - "the same road Father walked!?" (if confirmed)
-- [ ] story ch23 sce119:00935 - だ・か・ら emphasis - "That's. Why. I understand exactly how you feel, Ymir-san!"
-- [ ] story ch21 sce087:00304 - "sleeping,so" missing space - "...while she was sleeping, so I'm the one who really oughta apologize..."
-- [ ] story ch21 sce089:0066C - なにが？ "Know what?" - "For what?"
-- [ ] story ch21 sce091:0005F - ungrammatical - "Hey, nyot bad at all, huh?"
-- [ ] story ch21 sce081:0044F - "wo-nyen" odd - "wo-nyan"
-- [ ] story ch21 sce090:02F5E - filler - "...and that unit is the real deal. Wouldn't surprise me."
-- [ ] story ch21 sce086:00756 - Fain flat - "D-do not drag me into this, Touya..."
-- [ ] story ch22 sce102:014C6 - typo "abyout" - "Sorry about that, nya."
-- [ ] story ch22 sce104:0162D - なにが？ "Know what?" - "For what?"
-- [ ] story ch22 sce093:00111 - Derock garbled tag - "Yo, y'see!"
-- [ ] story ch22 sce095:00655 (+~10 in 094/095) - Kasumi うん "Mm." (Roa's tag) - vary: Uh-huh. / Yeah. / Okay.
-- [ ] story ch22 sce103:0083A - stray "nyow" - "So they gave you a room too, nyow?"
-- [ ] story ch22 sce100:0077A - Touya "ain't bad" - "Still, this kinda thing isn't bad either."
-- [ ] story ch20 sce075:01271 - もう知らニャいよ meaning - "Jeez, after all I told you... You're on your own, nya!"
-- [ ] story ch20 sce075:01420 - 僕の後ろ backing - "I have Zigrim's president backing me. Not that he's the mastermind, though."
-- [ ] story ch20 sce075:00C07 - Reamond too casual - "Quite so."
-- [ ] story ch20 sce076:008FA - Derock tag - "We should just ignore it, y'see."
-- [ ] story ch20 sce076:017D5 - clumsy - "Cain said something about how making Lodis atone was almost over."
-- [ ] story ch20 sce076:03157 (+036B2) - stray space "Ghak! !!" - "Ghak!! Th-this is..."
-- [ ] story ch20 sce077:01F07 (+0260C, 02870) - "Rest... the rest" echo - "Rest, I'm counting on you!"
-- [ ] story ch20 sce079:002C6 - colon breaks sentence - "It came to fight Vorlia, the giant object you all witnessed."
-- [ ] story ch24 sce123:016A8 - typo "abyout" - "Sorry about that, nya."
-- [ ] story ch24 sce124:0130B - Leone うん agreement - "Yeah."
-- [ ] story ch24 sce121:0148E/00D1E - drops もう迷うなよ; awkward - "Spirit Mech Hangar 2's that way. Don't get lost again." / "if I had to compare it to something"
-- [ ] story ch24 sce121:004C0 - clunky - "The Liebhofen is only divided into decks, so the layout's pretty simple, nyo?"
-- [ ] story ch25 sce128:009E2 - "Whosa" clumsy - "Aww~ who's a smart widdle boy~"
-- [ ] story ch25 sce129:01066 (+014C6) - "Causality" capitalised - "the causality around you"
-- [ ] story ch25 sce129:00D21 - Forzen stiff - "Oh, I'm not a suspicious person, I assure you."
-- [ ] story ch25 sce129:0140B - "Thank you for your contract" - "Thank you for signing"
-- [ ] story ch26 sce134:01236 - Marsha "jokin'" off-voice - "Oh, Doctor! You're always joking around..."
-- [ ] story ch26 sce134:016C2 - backwards - "Brother decided to at least send the two of us back, and dropped us off on the way."
-- [ ] story ch26 sce134:01A9F - Arthur clunky - "as good as telling us to become an arm of the Kingdom of Agarthia."
-- [ ] story ch26 sce131:00A3E - 殺されたいか？ stilted - "...You looking to get killed?"
-- [ ] story ch26 sce131:00A5D - "them" no referent - "It took a great deal of effort to thin out their defenses."
-- [ ] story ch26 sce136:00C3A - Fain "Yes, ma'am!" - "Yes, Princess! No problem at all!"
-- [ ] story ch26 sce136:00ACE (+00FC2) - Fain やっほー - "Yahoo!!"
-- [ ] story ch28 sce149:0131A - "His cooking" but Sisk is female - "Today was Sisk's turn on duty... Her cooking is professional-grade. I can't wait!"
-- [ ] story ch28 sce147:00426 - Fain 姫 "my lady" - "...In this, Princess?"
-- [ ] story ch28 sce151:00339 - 二世 "Second!" - "Shut up, Ymir the Second!"
-- [ ] story ch28 sce149:00124 - Rest 言うようになった - "You've gotten bold with your words, haven't you."
-- [ ] story ch28 sce151:00613 - Celica 知らない！ - "I-I don't know!"
-- [ ] story ch28 sce148:00A7E - Touya "ain't" - "There aren't many people with power who've got the self-control not to use it."
-- [ ] story ch28 sce146:0108A - Maki ラッキー♥ - "Oh, lucky me♥"
-- [ ] story ch29 sce153:004DD - Lyle stilted - "Hehehehe... How could I have been so blind..."
-- [ ] story ch29 sce160:00762 - "the Prince"/"He" ambiguous, means Tix - "But... Prince Tix was taken in by that Cain... no, he left with Cain..." / "Tix said there's no place for him here..."
-- [ ] story ch29 sce158:00B7B - weak pun - "Wh-whanya... what are those moves!?"
-- [ ] story ch29 sce159:00337 - choice stiff - "Sure, why not. / It's not something I talk about much..."
-- [ ] story ch29 sce157:007B0 - adds "figurehead" - "People call him a daytime lantern, a do-nothing, but..."
-- [ ] story ch27 sce137:01497 - Lyle taunt loses menace - "Let's settle the score from back then, Lenis!!"
-- [ ] story ch27 sce140:00311 - Ai "my, Ai-chan's" clumsy - "Fufufu... How about that? Did you see Ai-chan's dazzling piloting?"
-- [ ] story ch27 sce140:00181 - "Here... I go!" garbled - "Yeah, got it. Okay... here I go!"
-- [ ] story ch27 sce138:00386 - Ymir repeats - "The only other things we know are the names of three researchers..."
-- [ ] story ch27 sce139:00E98 - Bernst contractions/"Thou shalt" - "I do not want to be killed... 'You shall not harm or kill others'"
+- [x] story ch08 sce025:02C8F - 若だんニャ pun lost - "Ooh... Well, if it isn't the young master, nya!" -- fixed
+- [x] story ch08 sce025:03286 - "this time too" implies past failure - "I'll listen properly. Promise." -- fixed
+- [x] story ch08 sce024:007F9 - vague "system" - "The device... the escape device..." -- fixed
+- [x] story ch08 sce025:002D5 - Xiujian unclear - "No. If that were all, it wouldn't have stopped at that. There must be another cause." -- fixed
+- [x] story ch09 sce027:004B9 - "his lot" British - "What about Debish and his goons?" -- fixed
+- [x] story ch09 sce028:0255C (+028B3, 02C22, 02FB7, 0285F, 02BC7) - Yamato プラーニャ pun dropped - "Pranya is life energy, nyou know." -- waived: keeps glossary term Prana recognizable; line already carries two nya puns
+- [x] story ch09 sce027:02A6A - "Did you ever." stray idiom - "You sure did, nya. Touya tried so hard to talk you down and you wouldn't listen at all." -- fixed
+- [x] story ch09 sce027:019DD - Celica ちがーう！ - "That's not it!" -- fixed
+- [x] story ch09 sce028:020B8 - "nyaow" vs "nyow" - "What are you doing, nyow!?" -- fixed
+- [x] story ch09 sce028:015CD - "Agarthia forces" - "Agarthian forces" -- fixed
+- [x] story ch09 sce027:003A2 - ambiguous "her and the others" - "I'm worried about the others too, wondering how they're doing..." -- waived: あいつ is the route heroine whose name Touya just called (varies by route); "her" is correct and can't be named
+- [x] story ch09 sce028:01485 - Leone "Nah" curt - "No, it's okay. I don't want to cause you trouble, Touya." -- fixed
+- [x] story ch09 sce027:00DCF - "Touya... -chan..." - "T-Touya... chan..." -- fixed
+- [x] story ch10 sce031:00259 - Yamato pun obscure - "Leone's been acting like a real girl lately, hasn't she, nya?" -- fixed
+- [x] story ch10 sce032:00C51 - Valga じゃ voice neutral - "Hah! Our side's done too! Rishuna!" -- fixed
+- [x] story ch10 sce032:01F60 - "Alright!" vs "All right" - "All right!" -- fixed
+- [x] story ch10 sce029:00943 - Miyasco "dear" off - "Your beloved Lodis-sama isn't going anywhere, you know." -- fixed
+- [x] story ch11 sce033:00D00 - wrong puller - "Ooh... She's pulling him by the hand... Aren't they looking kinda cozy?" -- fixed
+- [x] story ch11 sce033:02751 - Gen "No way!" - "That's not true! Even if I was little back then..." -- fixed
+- [x] story ch11 sce033:02A8B - "Pops Gabon" - "Old man Gabon! You're the best!" -- fixed
+- [x] story ch11 sce033:017C2 - ambiguous "Brother" - "Brother Rayfon... still holds that against Brother Lodis..." -- fixed
+- [x] story ch11 sce033:025F7 - Rayfon "Hehehehe" goofy - "Fufufufu... Good girl." -- waived: already reads "Fufufufu... Good girl."
+- [x] story ch11 sce033:030B2/03828 - Aurelie dialect inconsistent - plain-casual: "Wait, you're saying this Grauzer guy came here riding Aidion?" -- fixed
+- [x] story ch11 sce034:00087 - Yamato "nyaturally" callous - "To do something so nyasty... Ai looks pretty badly shaken, too..." -- waived: "nyaturally" already gone; current line reads fine
+- [x] story ch11 sce035:00F3A - "kinda nyicer" - "Don't your moves look a little better, somehow, nya?" -- fixed
+- [x] story ch11 sce035:016C0 - ニャぐりあい pun lost - "is trading punches really that nyuch fun? I wonder, nya..." -- fixed
+- [x] story ch11 sce037:0083E (+038:013DC) - Fain person switch - "...does not yet dwell within you! I cannot obey orders from one such as you!" -- fixed
+- [x] story ch14 sce046:03798 - Ymir ええ‥‥ as "All right..." shrug - "Yes..." -- fixed
+- [x] story ch14 sce046:0111D - Kasumi clumsy - "Because meeting you made me so happy, Touya-chan. I only made it this far because you were here." -- fixed
+- [x] story ch14 sce046:01C6E - Aurelie "Nah..." dismissive - "No... I'm not scared as long as I'm with you, Touya. If we're reborn, think we'll meet again?" -- fixed
+- [x] story ch14 sce046:00819 (+7 repeats) - ニャおっていく pun - "Rayblade is menyding itself..." -- fixed
+- [x] story ch14 sce046:03544 - Debish デク人形 weak - "Do not call me father, you hollow puppet!" -- fixed
+- [x] story ch12 sce043:009B1 - Core recovered contradiction - "He is dead. But there is no cause for concern. Rayode's \"Core\" has been recovered." -- fixed
+- [x] story ch12 sce040:0030C/00507 - "thnyat" unreadable - "Nyow what was that all about, nya?" -- fixed
+- [x] story ch12 sce039:000F8 - Lodis damage line illogical - "Beyond that, the only damage was a wrecked section of the palace." -- fixed
+- [x] story ch12 sce043:0024C - missing space - "I think so too. Forzen-san, Paldia-san..." -- waived: house convention, no space after {page} (starts a new box)
+- [x] story ch12 sce042:0035F - missing space - "revenge... Kukukukuku..." -- waived: house convention, no space after {page} (starts a new box)
+- [x] story ch12 sce043:017CA - stilted - "If it eases the hurt in your heart even a little, that's enough." -- fixed
+- [x] story ch12 sce039:005B9 - 今すぐは無理 - "But we can't head there right away." -- fixed
+- [x] story ch12 sce041:00531 - Forzen clumsy - "Hello, everyone. You all look well, don't you?" -- fixed
+- [x] story ch12 sce043:00E14 - "Have fun~" not in JP - "Off you go~" -- fixed
+- [x] story ch12 sce043:00CBE - bare "nyow" - "...think about how Melvi feels a little, nya." -- fixed
+- [x] story ch13 sce045:01D9A - past tense implies Sharl dead - "And so you intend to strike Sharl down with your own hands?" -- fixed
+- [x] story ch13 sce044:00362 (+007FE) - Ai's 壊死 mishearing - "Ne-crow... sis?" -- waived: current "Necro... sis"? already conveys Ai repeating an unfamiliar word
+- [x] story ch13 sce044:04AE3 - 友達/恋人 parallel lost - "Up till now we've been good friends, but from now on how about we be a good couple?" -- fixed
+- [x] story ch13 sce044:03D8A - Gen third person - "Sacrificing myself for my friends... Ooh~ Man, I'm so cool!" -- fixed
+- [x] story ch13 sce044:01F64 - Valga "y'know" modern - "We lent a hand too, eh." -- fixed
+- [x] story ch13 sce045:06490 - Bernst adds motive - "To think you'd break through so quickly... But I'd expect nothing less..." -- fixed
+- [x] story ch13 sce044:01D49 - Doris link lost - "Yes. He told me not to do anything unnecessary, so I never gave it to him." -- fixed
+- [x] story ch15 sce054:00225 - Ymir gag flattened - "She means no harm... well, maybe she does, but really... that's just how she is..." -- fixed
+- [x] story ch15 sce048:01AED - Fain clipped - "Ohh! K-Kasumi, speaking to me... Kuuh! R-right, I'll do it!!" -- fixed
+- [x] story ch15 sce051:00B54 - Yamato opener - "You've got some kind of plan, nya!?" -- fixed
+- [x] story ch15 sce054:00993 - added "nyaturally" - "...But looks like Ymir's in the lab again today." -- fixed
+- [x] story ch15 sce050:00704 (+051:006FE) - Clovis clumsy - "I'm going solo. Your end's yours." -- fixed
+- [x] story ch15 sce052:002CE (+repeats) - Ai stilted - "Did you see Ai-chan's dazzling piloting technique?" -- fixed
+- [x] story ch15 sce049:004BC - Touya anger mushy - "No way!! What the hell are people's lives to you!? Like I'd ever help bring disaster on the world!" -- fixed
+- [x] story ch15 sce051:001F5 - Cain campy - "'Finish things here fast,' hm... I'm being taken rather lightly, it seems." -- fixed
+- [x] story ch15 sce048:01B2D - 激烈 softened - "...What an insanely simple guy." -- fixed
+- [x] story ch16 sce059:00F02 - "Touya... -chan...?" glitchy - "Touya-chan...?" -- fixed
+- [x] story ch16 sce059:026B5 (+060:02580, 061:02755, 062:027A5) - Fain わ、わかった！ sulky - "I-I understand! But don't you dare die! That's a promise!" -- fixed
+- [x] story ch16 sce059:01317 (+060:01209, 061:01337, 062:012DF) - weak - "(Don't need you to tell me.)" -- fixed
+- [x] story ch16 sce059:01F54 (+060:01E25, 061:01F4D, 062:01FC1) - stray "either" - "(...That was quite fun... Experiencing ruin isn't so bad... for once...)" -- fixed
+- [x] story ch16 sce059:01525 (+060:01416, 061:0159E, 062:0152D) - Voice 貴様ら neutral - "(What!? I-impossible... You wretches...)" -- fixed
+- [x] story ch16 sce060:01009 - 信頼してる - "Yeah. I trust you." -- fixed
+- [x] story ch16 sce060:02798 - unclear trail-off - "If we just end up like this..." -- fixed
+- [x] story ch16 sce062:01C9F - Melvi person mix - "'Cause just thinking that Melvi's with Big Brother makes Melvi feel so safe." -- fixed
+- [x] story ch16 sce059:00182 - cryptic - "...Are you okay with this?" -- fixed
+- [x] story ch17 sce064:002B4 - Ymir ええ = can't hear - "No... I don't hear anything." -- fixed
+- [x] story ch17 sce065:002AA - Leone うん‥‥ same - "Mm-mm... nothing." -- fixed
+- [x] story ch17 sce063:015E4 (+065:01631) - Fain flat - "Fear not! Now that we're here, you've got nothing to worry about!" -- fixed
+- [x] story ch17 sce063:02AB1 - Melissa garbled - "It'll manage, this kid. It's soaked up so many of our feelings..." -- fixed
+- [x] story ch17 sce063:021D6 - pun hides question - "Huh? Why'd you stop me, nyow...?" -- waived: current "Why are you stopping me, nya...?" already keeps the question clear
+- [x] story ch17 sce063:01DE9 (+028F1, 02777; 064:01DDA, 027F8, 0218E) - Touya ああ‥‥ "Sure..." - "Yeah..." -- fixed
+- [x] story ch17 sce065:01140 - strained pun - "the wounds are... nyealed up..." -- fixed
+- [x] story ch17 sce063:01042 - Melissa stiff - "You look kind of cool right now, Touya." -- fixed
+- [x] story ch18 sce070:01C09 - proverb reversed - "In this world, don't you say 'if you love your child, send them out on a journey'?" -- fixed
+- [x] story ch18 sce067:00176 (+069:0016F, 070:00173) - "Say some--" - "Say something--" -- fixed
+- [x] story ch18 sce069:019AE/01A7F - stiff/vague - "...Nope." / "...That's the problem." -- fixed
+- [x] story ch18 sce070:01A43 - unclear - "You didn't have to rush... I'd have kept my promise anyway." -- fixed
+- [x] story ch18 sce068:01E1C - Emy ojou register - "I-I wouldn't mind tutoring you, if you'd like, I suppose?" -- fixed
+- [x] story ch18 sce069:01B5A - Koichiro - "Is this the blonde one?" -- waived: current "So this blonde girl's the one?" already natural and faithful
+- [x] story ch18 sce067:01F9F - Chihiro どうしても！ - "Because I said so! Come on, move it!" -- fixed
+- [x] story ch19 sce071:01AE5 - Melissa よろしくね - "...So, I'll be in your care for a while. Count on me, Touya." -- fixed
+- [x] story ch19 sce074:02072 - Yamato 話は聞かせてもらった - "...I heard every word. Young lady, the eyes of this young man are nyot the eyes of a liar. Do believe in him." -- fixed
+- [x] story ch19 sce074:01CC8 - pun lost - "Nyomehow that doesn't make me happy at all~" -- fixed
+- [x] story ch19 sce074:01C4A - Celica - "No... you've got nothing to apologize for..." -- waived: current "No... It's fine..." already fits reply to Touya's apology
+- [x] story ch23 sce107:01556 (+113:01553, 118:015E8) - typo "abyout" - "Sorry about that, nya." -- fixed
+- [x] story ch23 sce114:0076E - unclear - "Nyow, this room is so 'Melvi,' isn't it?" -- fixed
+- [x] story ch23 sce111:000D2 - Kasumi はい handing shirt - "Here you go." -- fixed
+- [x] story ch23 sce106:00BB9 - Miyasco too casual - "Yes." -- fixed
+- [x] story ch23 sce107:0083A - awkward - "I think that resolve is the right one." -- fixed
+- [x] story ch23 sce112:0044F - adds laughter - "W-what, nyow? Both of you!" -- fixed
+- [x] story ch23 sce107:0047D - あの人 vague - "the same road Father walked!?" (if confirmed) -- waived: no father link confirmed in script; "that man" is faithful to あの人 (line is sce107:0059D)
+- [x] story ch23 sce119:00935 - だ・か・ら emphasis - "That's. Why. I understand exactly how you feel, Ymir-san!" -- fixed
+- [x] story ch21 sce087:00304 - "sleeping,so" missing space - "...while she was sleeping, so I'm the one who really oughta apologize..." -- waived: {page} starts a new box, no space is rendered between "sleeping," and "so"
+- [x] story ch21 sce089:0066C - なにが？ "Know what?" - "For what?" -- fixed
+- [x] story ch21 sce091:0005F - ungrammatical - "Hey, nyot bad at all, huh?" -- fixed
+- [x] story ch21 sce081:0044F - "wo-nyen" odd - "wo-nyan" -- fixed
+- [x] story ch21 sce090:02F5E - filler - "...and that unit is the real deal. Wouldn't surprise me." -- waived: line is sce090:032CC; "Could be, you know." already renders 考えられるわね without filler
+- [x] story ch21 sce086:00756 - Fain flat - "D-do not drag me into this, Touya..." -- fixed
+- [x] story ch22 sce102:014C6 - typo "abyout" - "Sorry about that, nya." -- waived: current "Sorry, nya~" has no typo
+- [x] story ch22 sce104:0162D - なにが？ "Know what?" - "For what?" -- fixed
+- [x] story ch22 sce093:00111 - Derock garbled tag - "Yo, y'see!" -- fixed
+- [x] story ch22 sce095:00655 (+~10 in 094/095) - Kasumi うん "Mm." (Roa's tag) - vary: Uh-huh. / Yeah. / Okay. -- fixed
+- [x] story ch22 sce103:0083A - stray "nyow" - "So they gave you a room too, nyow?" -- fixed
+- [x] story ch22 sce100:0077A - Touya "ain't bad" - "Still, this kinda thing isn't bad either." -- fixed
+- [x] story ch20 sce075:01271 - もう知らニャいよ meaning - "Jeez, after all I told you... You're on your own, nya!" -- fixed
+- [x] story ch20 sce075:01420 - 僕の後ろ backing - "I have Zigrim's president backing me. Not that he's the mastermind, though." -- fixed
+- [x] story ch20 sce075:00C07 - Reamond too casual - "Quite so." -- fixed
+- [x] story ch20 sce076:008FA - Derock tag - "We should just ignore it, y'see." -- waived: second sentence already reads "We should just ignore it, y'see."
+- [x] story ch20 sce076:017D5 - clumsy - "Cain said something about how making Lodis atone was almost over." -- fixed
+- [x] story ch20 sce076:03157 (+036B2) - stray space "Ghak! !!" - "Ghak!! Th-this is..." -- fixed
+- [x] story ch20 sce077:01F07 (+0260C, 02870) - "Rest... the rest" echo - "Rest, I'm counting on you!" -- fixed
+- [x] story ch20 sce079:002C6 - colon breaks sentence - "It came to fight Vorlia, the giant object you all witnessed." -- fixed
+- [x] story ch24 sce123:016A8 - typo "abyout" - "Sorry about that, nya." -- fixed
+- [x] story ch24 sce124:0130B - Leone うん agreement - "Yeah." -- fixed
+- [x] story ch24 sce121:0148E/00D1E - drops もう迷うなよ; awkward - "Spirit Mech Hangar 2's that way. Don't get lost again." / "if I had to compare it to something" -- fixed
+- [x] story ch24 sce121:004C0 - clunky - "The Liebhofen is only divided into decks, so the layout's pretty simple, nyo?" -- fixed
+- [x] story ch25 sce128:009E2 - "Whosa" clumsy - "Aww~ who's a smart widdle boy~" -- fixed
+- [x] story ch25 sce129:01066 (+014C6) - "Causality" capitalised - "the causality around you" -- waived: glossary rules 因果律 = Causality (capitalised)
+- [x] story ch25 sce129:00D21 - Forzen stiff - "Oh, I'm not a suspicious person, I assure you." -- fixed
+- [x] story ch25 sce129:0140B - "Thank you for your contract" - "Thank you for signing" -- waived: already "Thank you for signing with us."
+- [x] story ch26 sce134:01236 - Marsha "jokin'" off-voice - "Oh, Doctor! You're always joking around..." -- fixed
+- [x] story ch26 sce134:016C2 - backwards - "Brother decided to at least send the two of us back, and dropped us off on the way." -- fixed
+- [x] story ch26 sce134:01A9F - Arthur clunky - "as good as telling us to become an arm of the Kingdom of Agarthia." -- fixed
+- [x] story ch26 sce131:00A3E - 殺されたいか？ stilted - "...You looking to get killed?" -- fixed
+- [x] story ch26 sce131:00A5D - "them" no referent - "It took a great deal of effort to thin out their defenses." -- waived: "them" refers to Zigrim in the previous sentence
+- [x] story ch26 sce136:00C3A - Fain "Yes, ma'am!" - "Yes, Princess! No problem at all!" -- fixed
+- [x] story ch26 sce136:00ACE (+00FC2) - Fain やっほー - "Yahoo!!" -- waived: "Woohoo!!" is the natural English for やっほー
+- [x] story ch28 sce149:0131A - "His cooking" but Sisk is female - "Today was Sisk's turn on duty... Her cooking is professional-grade. I can't wait!" -- fixed
+- [x] story ch28 sce147:00426 - Fain 姫 "my lady" - "...In this, Princess?" -- fixed
+- [x] story ch28 sce151:00339 - 二世 "Second!" - "Shut up, Ymir the Second!" -- fixed
+- [x] story ch28 sce149:00124 - Rest 言うようになった - "You've gotten bold with your words, haven't you." -- fixed
+- [x] story ch28 sce151:00613 - Celica 知らない！ - "I-I don't know!" -- waived: "Wh-whatever!" fits flustered 知らない！ better than literal "I don't know" (line is sce151:00612)
+- [x] story ch28 sce148:00A7E - Touya "ain't" - "There aren't many people with power who've got the self-control not to use it." -- fixed
+- [x] story ch28 sce146:0108A - Maki ラッキー♥ - "Oh, lucky me♥" -- fixed
+- [x] story ch29 sce153:004DD - Lyle stilted - "Hehehehe... How could I have been so blind..." -- fixed
+- [x] story ch29 sce160:00762 - "the Prince"/"He" ambiguous, means Tix - "But... Prince Tix was taken in by that Cain... no, he left with Cain..." / "Tix said there's no place for him here..." -- fixed
+- [x] story ch29 sce158:00B7B - weak pun - "Wh-whanya... what are those moves!?" -- fixed
+- [x] story ch29 sce159:00337 - choice stiff - "Sure, why not. / It's not something I talk about much..." -- waived: suggestion longer than current choice row; current fits width
+- [x] story ch29 sce157:007B0 - adds "figurehead" - "People call him a daytime lantern, a do-nothing, but..." -- fixed
+- [x] story ch27 sce137:01497 - Lyle taunt loses menace - "Let's settle the score from back then, Lenis!!" -- fixed
+- [x] story ch27 sce140:00311 - Ai "my, Ai-chan's" clumsy - "Fufufu... How about that? Did you see Ai-chan's dazzling piloting?" -- fixed
+- [x] story ch27 sce140:00181 - "Here... I go!" garbled - "Yeah, got it. Okay... here I go!" -- fixed
+- [x] story ch27 sce138:00386 - Ymir repeats - "The only other things we know are the names of three researchers..." -- fixed
+- [x] story ch27 sce139:00E98 - Bernst contractions/"Thou shalt" - "I do not want to be killed... 'You shall not harm or kill others'" -- fixed
 - [ ] story ch27 sce141:0169F - name x3 - "As if you'd never existed at all... Were you really there!?"
 - [ ] story ch27 sce137:008F7 - Yamato pun - "Huh? Wait, nyou can't be planning something nyuts?"
 - [ ] story ch27 sce138:0189A - pun lands oddly - "Okay, okay. Let's get going, nya."
@@ -711,7 +711,7 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [ ] story ch31 sce174:01714 - Touya "ain't it?" - "That's why I'm out looking for Ai, right?"
 - [ ] story ch31 sce179:001E4 - ふざけないで weak - "Quit joking around!"
 - [ ] story ch31 sce177:00ACA - 貴様 flat - "You bastard..."
-- [ ] story ch33 sce187:00A87 - "abyout" typo - "I'm sorry, nya."
+- [x] story ch33 sce187:00A87 - "abyout" typo - "I'm sorry, nya." -- fixed globally (34 lines)
 - [ ] story ch33 sce187:009F0 - ambiguous - "Looks like he just barely made it..."
 - [ ] story ch35 sce192:00357 - Murk "So it isn't." - "Mm. Quite right."
 - [ ] story ch35 sce195:00529 - "astern" jargon - "What do you mean, retreat!?"
@@ -751,3 +751,68 @@ One line per Minor from work/tl/bNNN.review.txt. Tick each `[x]`: fixed, or `wai
 - [ ] story ch40 sce215:000AD - "somethin'" - "Sounds like she's tidying up something, nya..."
 - [ ] story ch40 sce212:00F53 - Xiujian awkward - "...That mechanic, huh... Needless chatter."
 - [ ] story ch40 sce213:02C46 - no antecedent - "It seems it has called for friends, too..."
+- [ ] story ch41 sce220:013EB - そうか？ to "I told you earlier" - "Did you?"
+- [x] story ch41 sce220:00A20 - typo "abyout" (also sce227:00A58) - "Sorry about that, nya."
+- [ ] story ch41 sce220:01756 - "if I'll do" garbled - "W-well, if I'm good enough for you, you can come talk to me anytime."
+- [ ] story ch41 sce220:00BE6 - Derock trailing "...Is how it is." odd - "You're the new Pilot. What do you want, y'see?"
+- [ ] story ch41 sce220:00CEF - Yamato "Somethin'" off-voice - "Something fishy's going on... Hey, why nyot take a little peek?"
+- [ ] story ch41 sce222:0108D - Gabon laugh "Gwahahaha" vs "Gahahaha" in sce229 - unify "Gahahaha"
+- [ ] story ch41 sce222:00FA6 - Yamato ニャに "Nyes?" reads as Yes - "Nyat?"
+- [ ] story ch41 sce221:0137D - stray "Nyow" clunky - "Why do you think he hates cats so nyuch?"
+- [ ] story ch42 sce238:0068C - Bart ああ to thanks "Go ahead." (also sce238:00B09) - "Sure." / "Don't mention it."
+- [ ] story ch42 sce232:00D01 - Touya agreeing "Sure..." - "Yeah..."
+- [ ] story ch42 sce233:00478 - Touya ああ‥‥ "Sure..." - "Yeah..."
+- [ ] story ch42 sce236:0032B - choice 2 not a refusal (also sce237) - "Nah, it's not really something I talk about..."
+- [ ] story ch42 sce231:0058A - Aurelie redundant - "Skinship, what else..."
+- [ ] story ch42 sce235:0161A - Yamato ニャぐりあい pun lost - "...but is nyuh-pummeling each other really that fun, nya...?"
+- [ ] story ch42 sce231:005A8 - おとす pun clunky - "So your idea of skinship is making them 'fall' for you... by knocking them out?"
+- [ ] story ch43 sce240:01374 - Yamato ニャ thin - "...without even asking her first... Think about how Kasumi feels, nyow! Nyot a word to her, and you announce it to everyone?"
+- [ ] story ch43 sce240:01247 - Ai echo lost - "'We're'... what?"
+- [ ] story ch43 sce240:0111D - "Still... though?" redundant - "But you two looked just like a couple, you know?"
+- [ ] story ch43 sce240:0076F - Clovis clumsy - "I'm going solo. The rest is up to you."
+- [ ] story ch43 sce240:01CC5 - Derock "Is how it is." stilted - "It's that age, y'see. Agonize away, young man, is how it is!"
+- [ ] story ch43 sce240:01D0F - Miyasco polite はい - "Yes, understood."
+- [ ] story ch43 sce240:00537 - Kasumi "Ufufufufu." - "Ehehe."
+- [ ] story ch44 sce241:059BD - Murk first line lacks old-man flavour - "Greetings, crew of the Liebhofen! I'm the great bioengineering authority, Murk Elk Berol, eh!"
+- [ ] story ch44 sce241:02125 - 昼行灯 callback (also sce244:00401, 00DCC) - Celica "useful as a lantern at noon"; Growster "that daytime lantern" once
+- [ ] story ch44 sce241:010CB - ungrammatical - "It's hard to imagine anyone could have pulled data out of Rayblade while it was sealed until recently."
+- [ ] story ch44 sce241:04FD0 - Celica says "Brother" not "Big Brother" - "Dear Brother,"
+- [ ] story ch44 sce241:01614 - Growster clumsy - "before our intelligence division, the pride of Zigrim, it's utterly futile."
+- [ ] story ch44 sce241:0385F - Revios syntax - "Only now do they move to get their hands on the Spirit Mechs..."
+- [ ] story ch44 sce241:061AA - Murk 3rd person to Ymir - "You understand reason, your eyes shine..."
+- [ ] story ch44 sce241:015AD - Growster awkward - "There is no better time than now to strike our archenemy Agarthia!"
+- [ ] story ch45 sce249:01115 - tanuki gag "badger" vs "raccoon" (also sce249:0115D) - "Fufufufu, that cheap-cheap old raccoon Growster! I'll make him regret not adopting my Bine Daga!"
+- [ ] story ch45 sce249:01197 - タコダヌキ (also sce249:011E3) - "...that octopus raccoon will surely reconsider, eh?"
+- [ ] story ch45 sce248:00474 - Ciel やはり "as I said" invents remark - "Isn't this exactly why they noticed? You made the fort so conspicuous, didn't you?"
+- [ ] story ch45 sce247:01855 - Derock tag "see" - "...so you'd better not come near, y'see."
+- [ ] story ch45 sce247:019A2 - Derock tag "I say" - "Wh-what are you doing, y'see!? L-let go, y'see!"
+- [ ] story ch45 sce246:00D45 - Derock tag lost - "Heh... More importantly, who might you be, y'see?"
+- [ ] story ch45 sce247:0068E - Touya 気持ちわりぃ flat - "Ugh, that guy gives me the creeps."
+- [ ] story ch45 sce248:007EF - Touya "ain't" off-register (also sce248:01868) - "...isn't there way too few soldiers?" / "...I'm not jumping ship halfway."
+- [ ] story ch46 sce250:002D0 - Touya option drops そうだな - "...Right. I'm not the only one hurting. / Like I... like I'd get that!"
+- [ ] story ch46 sce250:01D56 - "the Ahti" vs "Ahti" (also sce250:02499) - "Ahti itself was barely holding its shape..."
+- [ ] story ch48 sce260:0076E - Touya なにが？ - "Right about what?"
+- [ ] story ch48 sce262:01A02 - Touya あっ "Whoa" too strong - "? Oh, the same uniform..."
+- [ ] story ch48 sce261:0050B - Kasumi ううん bare "No." - "...No, it's okay. I got to see such a beautiful view. That's more than enough."
+- [ ] story ch48 sce257:00B4E - Touya echo pronoun - "Heh, \"someone dear,\" huh..."
+- [ ] story ch48 sce257:009D8 - たとえるニャら vague (also s258-260, s262, sce278:00FAD, sce279:00E6D, sce280:007A5, sce281:007DE) - "Hmm, if I had to compare it... \"the song of the Japanese soul,\" nya?"
+- [ ] story ch49 sce271:00574 - Ymir/Touya それは exchange - Ymir "Well... that's..." / Touya "That's...?"
+- [ ] story ch49 sce267:008A4 - Ymir ええ "All right..." - "Yes..."
+- [ ] story ch49 sce273:004A8 - Derock stray "...Is how it is." - "You're the new Pilot, y'see. What do you want, y'see?"
+- [ ] story ch49 sce263:014FD - 鼻の下を伸ばす - "Look at you, practically drooling."
+- [ ] story ch49 sce267:00C0D - Yamato tease - "...After she went to all that trouble... you're nyot honest at all, are you?"
+- [ ] story ch49 sce265:00749 - この子 referent - "...Sorry about her. She's just like that, nya."
+- [ ] story ch49 sce263:00C21 - やっぱり not "again" - "Is it Rosalie cooking after all, nya?"
+- [ ] story ch50 sce276:017EB - Touya なにが？ breaks callback - "What?"
+- [ ] story ch50 sce276:021FB - 何で出来てんだ - "O-Ow! What's that sword made of!?"
+- [ ] story ch50 sce279:01661 - Touya そうか？ "Have I?" - "You think?"
+- [ ] story ch50 sce278:01FB5 - "So I said, but..." - "...Yeah, I said that, but what are we supposed to do with these?"
+- [ ] story ch50 sce279:0075B - Sisk とーぜん blurs with Xiujian - "Of course! Bart-san got all sorts of things ready for me, so it was done sooner than I expected."
+- [ ] story ch50 sce275:003E6 - Yamato "Nyo, nyo!" - "Nyo, no! It's great, really. This boy just isn't the type to show he's happy, nya."
+- [ ] story ch51 sce283:00A13 - Yamato "I nyee..." garbled - "Nyow I see... You've got a surprisingly old-fashioned side, nya."
+- [ ] story ch51 sce283:00493 - Yamato stilted - "Is that... Ai and Clovis? Looks like it..."
+- [ ] story ch51 sce284:0191B - Touya ついでだし ambiguous - "Might as well toss yours in with it while you're at it..."
+- [ ] story ch51 sce285:0294D - Touya いや "Nothing..." - "Nah..."
+- [ ] story ch51 sce289:01FF3 - "So I said, but" - "...Yeah, I said that, but what am I supposed to do with these?"
+- [ ] story ch51 sce290:01568 - Touya そうか？ "Have I?" - "Think so?"
+- [ ] story ch51 pattern - Touya なにが？ rendered "Know what?" in ~9 more lines (grep '"Touya: Know what?"') - "What?" / "Right about what?" per context
