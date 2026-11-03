@@ -2,8 +2,22 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8 (QA) in progress. Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt
-  empty, check ok.
+- **Phase:** 9 (release) in progress, 2026-11-03 (later). Phase 8 gate: tour p8e 119/119 reached on the fixed build,
+  visual QA 122/122 ok (`qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0).
+  - **Enemy-phase hang fixed** (aeac640): `5C 18 .. 80 <s16>` carries a self-relative handler pointer the rebuild
+    left alone, so sce 135's enemy phase jumped into a text block. A scan of every op's s16 slots added 38/39/6C/5B
+    script pointers (`vm.SCRIPT_PTR`, confirmed in the handlers; rewritten, not walked). docs/re/text.md.
+  - sce140:00104 hid Touya's 「さて、はじめるとするか」 behind misdecoded bytes (jp_left found it): en keeps the
+    leading bytecode as `[XX]` bytes; verified in game (work/qa/s140d/f002100.png).
+  - Story pass: `tools/story.py` -> 73 chapters (work/qa/story/), reviewer per chapter, verdicts in
+    work/qa/story/verdicts/, Minors appended to docs/polish.md. Don't regenerate the chapter files (hashed).
+  - Polish pass: `tools/polish.py split|show|apply` + docs/polish-brief.md; translator agents write pNN.en.tsv +
+    pNN.ticks.tsv, apply runs set_en and ticks the lines; lint after each.
+  - `tools/release.py --version X.Y` written (gates, xdelta of Track 1 only, re-apply check, zip with README from
+    docs/release-readme.md). Not run yet (polish + story pass must finish first).
+  - Game over still unseen: losing needs all allies wiped out (bank05:001); an HP poke on Touya alone did not do it.
+    The survey has no game-over graphic, so nothing to redraw is known.
+  - Phase 7 (insert, fit, check) done 2026-11-03: lint 0 errors, lint_known.txt empty, check ok.
   - Phase 8 so far (2026-11-03): pixel dialogue wrap + formatter hook (49f64dd), sentence-end page breaks, graphics
     redrawn by `tools/gfx_en.py` (insert.changes, D_SYSTEM + D_EFFECT 250): chapter cards G8/G9, map labels G5,
     credits G13, plates G4/G7, battle labels/icons G2/G3/G19 (AI order Cautious -> Safe, D12), album captions G11
