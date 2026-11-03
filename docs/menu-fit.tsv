@@ -7,17 +7,20 @@
 bank00:001	End Phase{nl}Unit List{nl}Orders{nl}Objectives{nl}{ctl:FFFF}System{nl}Save
 # Ability screen stats: value column by pen move (col 6) instead of JP full-width padding; trust column header (64 px)
 bank00:004	Melee{ctl:8680}{ctl:FFFF}{nl}{ctl:8082}Ranged{ctl:8682}{ctl:FFFF}{nl}{ctl:8084}Defense{ctl:8684}{ctl:FFFF}{nl}{ctl:8086}Accuracy{ctl:8686}{ctl:FFFF}{nl}{ctl:8088}Evasion{ctl:8688}{ctl:FFFF}{ctl:8880}Trust{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}
-# Battle command window: cells 32 px wide (synonyms that fit)
-bank00:00D	Supply
-bank00:00F	Morph
+# Battle command window: cells 32 px but the frame clips at ~26 px of text (work/qa/probe_cmd.tsv: Ammo 28 cut,
+# Move 26 clean; player report "Attac"): synonyms <= 26 px
+bank00:00A	Fight
+bank00:00C	Fix
+bank00:00D	Refill
+bank00:00F	Form
 bank00:010	Stats
-bank00:012	Retire{nl}
+bank00:012	Flee{nl}
 bank00:0C2	No Memory Card is in the Memory Card slot.
 # Ability screen accuracy column is 40 px
 bank01:031	{ctl:9780}Hit{ctl:9C80}{ctl:FFFF}%
 # Help text (256-px rows, up to 3 rows: tlform.HELP_ROWS)
 bank01:004	Raises the chosen ally unit's Movement{nl}by +3 for one move.
-bank01:009	Gives an ally who has finished acting{nl}another action.
+bank01:009	Gives its action to an ally{nl}who has finished acting.
 bank01:00A	The chosen unit takes one attack from the{nl}side or rear head-on, cancelling the hit{nl}and damage modifiers.
 bank01:00B	Takes the damage the chosen ally unit{nl}would receive in its place.
 bank01:01D	Counterattacks unless the next attack could{nl}destroy it; then it evades or defends{nl}according to the unit's traits.
@@ -53,7 +56,7 @@ bank04:0CA	Mighty Sword Zeulear (Broken)
 bank04:0D9	Mighty Sword Zeulear (Broken)
 # Mission objectives (208 px after the `Victory: ` label)
 bank05:014	Move a Spirit Mech other than Rayblade{nl}(Touya) next to the barrier
-bank05:026	Escape this battle zone (reach the{nl}top-right edge) or wipe out the enemy
+bank05:026	Escape this battle zone (reach the{nl}top-right edge) or defeat all enemies
 # Movement type values: the size panel frame clips "Ground" at col 8
 bank00:045	Land
 bank00:047	Air
@@ -69,7 +72,7 @@ bank00:0AB	Objectives
 bank00:0AC	Victory: {ctl:FFFF}
 bank00:0AD	Defeat: {ctl:FFFF}
 # Counterattack order types (64-px list)
-bank00:0AE	Manual{nl}Counter{nl}Aggressive{nl}Cautious{nl}Defend
+bank00:0AE	Manual{nl}Counter{nl}Aggressive{nl}Safe{nl}Defend
 bank00:0B4	Ally Units
 bank00:0B5	Enemy Units
 bank00:0B6	All Units

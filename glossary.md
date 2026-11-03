@@ -879,7 +879,7 @@ Seeded from the Dreamcast fan project's glossary (docs/re/prior-work.md; D2: ear
 | 組織崩壊 | tissue breakdown |  | medical_term |  |
 | 視力 | visual acuity |  | medical_term |  |
 | 催眠術 | hypnosis |  | mental_technique |  |
-| 撤退 | Retreat |  | menu |  |
+| 撤退 | Retreat |  | menu; battle command cell says "Flee" (26-px room, docs/menu-fit.tsv) |  |
 | 改造 | Upgrade |  | menu |  |
 | 反撃命令 | Counterattack Orders |  | menu |  |
 | 作戦目的 | Mission Objectives |  | menu |  |

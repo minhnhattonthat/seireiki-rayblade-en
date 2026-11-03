@@ -7,6 +7,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     xdelta re-apply verified.
   - Output: `release/Seireiki_Rayblade_EN_v1.0.zip` (xdelta + README only). **Not published**: publishing is
     the user's call.
+  - **After v1.0 zip (rebuild release before publishing):** battle command window clipped "Attack" (frame
+    clips at ~26 px, not the 32-px cell). Room set to 26 in tools/menu_room.tsv; Attack->Fight, Repair->Fix,
+    Supply->Refill, Morph->Form, Retire->Flee (docs/menu-fit.tsv, verified work/qa/warp battle_unit_menu probe).
   - Story pass found and fixed these Importants:
     - Reamond 俺 (sce031)
     - Oswald's line (sce200)

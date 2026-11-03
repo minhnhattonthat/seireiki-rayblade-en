@@ -96,7 +96,7 @@
   "index": 10,
   "addr": 2147571992,
   "len": 5,
-  "en": "Attack",
+  "en": "Fight",
   "status": "translated"
  },
  {
@@ -116,7 +116,7 @@
   "index": 12,
   "addr": 2147572002,
   "len": 5,
-  "en": "Repair",
+  "en": "Fix",
   "status": "translated"
  },
  {
@@ -126,7 +126,7 @@
   "index": 13,
   "addr": 2147572007,
   "len": 5,
-  "en": "Supply",
+  "en": "Refill",
   "status": "translated"
  },
  {
@@ -146,7 +146,7 @@
   "index": 15,
   "addr": 2147572016,
   "len": 5,
-  "en": "Morph",
+  "en": "Form",
   "status": "translated"
  },
  {
@@ -176,7 +176,7 @@
   "index": 18,
   "addr": 2147572031,
   "len": 6,
-  "en": "Retire{nl}",
+  "en": "Flee{nl}",
   "status": "translated"
  },
  {
