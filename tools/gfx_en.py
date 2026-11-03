@@ -76,6 +76,80 @@ TINY = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ=-", (
     "##./#.#/##./#../#..", ".#./#.#/#.#/##./.##", "##./#.#/##./#.#/#.#", ".##/#../.#./..#/##.", "###/.#./.#./.#./.#.",
     "#.#/#.#/#.#/#.#/###", "#.#/#.#/#.#/#.#/.#.", "#.#/#.#/###/###/#.#", "#.#/#.#/.#./#.#/#.#", "#.#/#.#/.#./.#./.#.",
     "###/..#/.#./#../###", ".../###/.../###/...", ".../.../###/.../...")))
+TINY["I"] = "#/#/#/#/#"
+
+
+def tiny_mask(text, w, h, top):
+    """rows of 0/1: text in the 3x5 capitals, centred across w, cap top at row `top`."""
+    placed, lw = _glyph_run(text.upper(), lambda c: TINY[c].split("/"), 2)
+    if lw > w:
+        raise ValueError(f"{text!r} is {lw} px, room {w}")
+    mask = [[0] * w for _ in range(h)]
+    x0 = (w - lw) // 2
+    for x, rows in placed:
+        for j, r in enumerate(rows):
+            for i, c in enumerate(r):
+                if c == "#":
+                    mask[top + j][x0 + x + i] = 1
+    return mask
+
+
+def read4(rec, ent):
+    off, _, _, w, h, _, _ = ent
+    return [[(rec[off + (j * w + i) // 2] >> (4 * (i & 1))) & 15 for i in range(w)] for j in range(h)]
+
+
+# Character name plates (G4, D_SYSTEM 2.35-68, 32x16): white (1) with a dark 8-neighbour outline (2), rows 7-14.
+PLATE_SLOT = 2
+PLATES = dict(zip(range(35, 69), (
+    "Lodis", "Roa", "Ymir", "Ai", "Kasumi", "Clovis", "Xiujian", "Fain", "Arthur", "Melissa", "Celica", "Gen",
+    "Kururu", "Melvi", "Gabon", "Miyasco", "Bart", "Baren", "Derock", "Sisk", "Rosalie", "Maki", "Leone", "Rayfon",
+    "Rishuna", "Yamato", "Aurelie", "Alforina", "Garyud", "Reduce", "Ciel", "Valga", "Cain", "Grad")))
+# Trust gauge (G7, D_SYSTEM 13): header 信頼度ゲージ (13.0) and the heroines' plates (13.2-16): white (2) with a dark
+# shadow (1) one row down on the plate colour (7); the old letters are painted over with each row's plate colour.
+GAUGE_SLOT = 13
+GAUGE = {0: "Trust Gauge", **dict(zip(range(2, 17), (
+    "Ai", "Ymir", "Kasumi", "Xiujian", "Clovis", "Fain", "Rosalie", "Gen", "Aurelie", "Arthur", "Melvi", "Leone",
+    "Kururu", "Melissa", "Celica")))}
+
+
+def plate_rows(text, w, h):
+    mask = tiny_mask(text, w - 2, h, 8)
+    mask = [[0] + r + [0] for r in mask]
+    out = [[0] * w for _ in range(h)]
+    for j in range(h):
+        for i in range(w):
+            if mask[j][i]:
+                out[j][i] = 1
+            elif any(mask[y][x] for y in range(max(0, j - 1), min(h, j + 2)) for x in range(max(0, i - 1), min(w, i + 2))):
+                out[j][i] = 2
+    return out
+
+
+def gauge_rows(orig, text, k):
+    """repaint the letter box with the plate colour of a clean column, then the text with its shadow."""
+    rows = [r[:] for r in orig]
+    if k == 0:      # header: an inner box with 9/5 rules the letters overlap: each row gets its own commonest colour
+        x0, x1, y0, y1, top = 10, 72, 4, 14, 6
+        for j in range(y0, y1):
+            vals = [v for v in orig[j][x0:x1] if v not in (1, 2)]
+            fill = max(set(vals), key=vals.count)
+            for i in range(x0, x1):
+                rows[j][i] = fill
+    else:           # plate: letters (1, 2) sit on plain plate colour 7; the slanted edge stays
+        x0, x1, y0, y1, top = 9, 43, 2, 11, 3
+        for j in range(y0, y1):
+            for i in range(x0, x1):
+                if rows[j][i] in (1, 2):
+                    rows[j][i] = 7
+    mask = tiny_mask(text, x1 - x0, len(rows), top)
+    for j in range(len(rows)):
+        for i in range(x1 - x0):
+            if mask[j][i]:
+                rows[j][x0 + i] = 2
+                if j + 1 < len(rows) and not mask[j + 1][i]:
+                    rows[j + 1][x0 + i] = 1
+    return rows
 
 
 def _glyph_run(text, art, space):
@@ -200,6 +274,15 @@ def images():
     _, qents, _ = qx.parse(lz.unpack_record(data[s:e]))
     for k, en in MAP_LABELS.items():
         out[(MAP_SLOT, k)] = label_rows(en, qents[k][3], qents[k][4])
+    s, e = ents[PLATE_SLOT]
+    _, qents, _ = qx.parse(lz.unpack_record(data[s:e]))
+    for k, en in PLATES.items():
+        out[(PLATE_SLOT, k)] = plate_rows(en, qents[k][3], qents[k][4])
+    s, e = ents[GAUGE_SLOT]
+    rec = lz.unpack_record(data[s:e])
+    _, qents, _ = qx.parse(rec)
+    for k, en in GAUGE.items():
+        out[(GAUGE_SLOT, k)] = gauge_rows(read4(rec, qents[k]), en, k)
     s, e = ents[CREDITS_SLOT]
     _, qents, clut = qx.parse(lz.unpack_record(data[s:e]))
     for k, en in CREDITS.items():
