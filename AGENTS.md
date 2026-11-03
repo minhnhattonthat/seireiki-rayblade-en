@@ -9,7 +9,8 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 - Check:    `python -X utf8 tools/check.py`  (tests + extraction + lint; pre-commit hook runs it; `git config core.hooksPath tools/hooks` once per clone)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py "rom/Seireiki Rayblade (Japan).cue" --out work/qa/smoke --route tools/routes/boot.txt --smoke` (swap in the built .cue)
 - Warp:     `python -X utf8 tools/debug/warp.py <name> [--title] [--cue build/x.cue]` (`--list`; `--all` regens states + shots in work/qa/warp; raw: `--script tools/debug/warp.lua --var SCENE=<D_SCE slot>`; never ask the user to play to a scene). Flow notes: `docs/re/flow.md`
-- Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user) (not written yet)
+- Release:  `python -X utf8 tools/release.py --version X.Y [--force]` (all gates -> release/*.xdelta + zip; README from `docs/release-readme.md`; never publish without the user)
+- Story pass: `python -X utf8 tools/story.py` -> `work/qa/story/chapters/` (73 chapters; don't regenerate after reviews, verdicts are hashed)
 - Clean:    `python -X utf8 tools/clean.py` (published projects: lists rebuildable/downloadable files; `--yes` deletes)
 
 ## Paths
