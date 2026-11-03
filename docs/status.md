@@ -7,9 +7,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     xdelta re-apply verified.
   - Output: `release/Seireiki_Rayblade_EN_v1.0.zip` (xdelta + README only). **Not published**: publishing is
     the user's call.
-  - **After v1.0 zip (rebuild release before publishing):** battle command window clipped "Attack" (frame
-    clips at ~26 px, not the 32-px cell). Room set to 26 in tools/menu_room.tsv; Attack->Fight, Repair->Fix,
-    Supply->Refill, Morph->Form, Retire->Flee (docs/menu-fit.tsv, verified work/qa/warp battle_unit_menu probe).
+  - **After v1.0 zip (rebuild release before publishing):** battle command window clipped "Attack". Widened by
+    engine work (D13, docs/re/text.md §Window layouts: insert.CMD_MENU + RES_SUBS[25]); SRW terms Attack, Repair,
+    Resupply, Transform, Status, Retreat; room 56 px. Verified unit menu, post-move menu, rows 5-8 (RAM). Not yet
+    seen: a menu with Attack live (enemy in range) or with 5+ rows on screen.
   - Story pass found and fixed these Importants:
     - Reamond 俺 (sce031)
     - Oswald's line (sce200)

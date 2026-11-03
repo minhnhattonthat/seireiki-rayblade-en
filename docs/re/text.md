@@ -207,4 +207,24 @@ are reported as `target … has no new home` and left untouched.
 - Advance: 8 px for a code < 0x200 (one byte per row) and 12 px for a code >= 0x200 (kanji, 16x16). Escape:
   `[..]` in a string is read as a hex byte, so an English line must not contain `[XX]` with two hex digits.
 
+## Window layouts — verified (battle command menu widened, 2026-11-03)
+
+- Each window entry (table 0x800CEF40, `tools/debug/cells.py`) owns one 64x64 4bpp texture: alloc(0x800) per
+  window (0x800363B8), so one window holds at most 4096 px of cells. The original command menu is one window with
+  two 32x64 cells shown stacked (8 rows of 16 px), which is why it was 32 px wide.
+- System-VM ops (state 0x800CD570: pc +0x40, op bytes copied to +0x54, lengths 0x800C8480, handlers 0x800C8080;
+  an arg >= 0xF0 reads variable 0x800D1840 + (arg & 0xF)):
+  - `A2 slot 00 x/8 y/8 layout` (0x80071FCC): build a window from resident sub `layout` at (x, y).
+  - `A0 slot 00 x/8 y/8 w/8 h/8` (0x80071D98): the frame (separate from the cells).
+  - `A8 slot flags dx dy cols rows barw/8 ..` (0x80072194): cursor list; byte 7 = highlight bar width
+    (POLY_F4 built at 0x80030B88: right = left + barw*8).
+- Layout bytecode (builder 0x800314B8; a0/a1 = x/y; 5th arg = stream): `00 cols rows` grid of new windows,
+  `01 dx16 dy16` move the pen, `02` next window at the pen, `03 dx16 dy16 rWin rCell bWin bCell bufx bufy w h`
+  a cell (screen offset from the window; right/below neighbour as window offset in the grid + cell, dropped at
+  the grid edge when the offset is nonzero), `FF` end. A neighbour may be another window's cell, so text chains
+  across textures (sub 24: three stacked 64x64 windows).
+- Battle command menu (resident sub 7 opens it at 0x80010D1C and 0x800110FB): `insert.CMD_MENU` moves it 4 tiles
+  left, frame 5 -> 9 tiles, bar 4 -> 8 tiles; `insert.RES_SUBS[25]` = two 64x64 windows chained below. Room 56 px
+  (tools/menu_room.tsv; M ruler: ~58 visible). Rows 5-8 verified in the second window's texture (RAM dump).
+
 

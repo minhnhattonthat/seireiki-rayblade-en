@@ -3,16 +3,16 @@
 # or the code that places the field. Rows not listed fall back to their bank group's widest JP row (groups 1-11)
 # or the JP row's own width (group 0).
 # id/prefix	px	evidence
-bank00:009	26	battle command window: cells w32 (battle_unit_menu win03) but the frame clips text past ~26 px (probe_cmd: Ammo 28 cut)
-bank00:00A	26	battle command window
-bank00:00B	26	battle command window
-bank00:00C	26	battle command window
-bank00:00D	26	battle command window
-bank00:00E	26	battle command window
-bank00:00F	26	battle command window
-bank00:010	26	battle command window
-bank00:011	26	battle command window
-bank00:012	26	battle command window
+bank00:009	56	battle command window, widened by insert.CMD_MENU: 9-tile frame, text x+8 to the frame's inner edge
+bank00:00A	56	battle command window
+bank00:00B	56	battle command window
+bank00:00C	56	battle command window
+bank00:00D	56	battle command window
+bank00:00E	56	battle command window
+bank00:00F	56	battle command window
+bank00:010	56	battle command window
+bank00:011	56	battle command window
+bank00:012	56	battle command window
 bank01:	256	help lines: 4 x 64 cell chains (int_system dump: system help at x 40; battle_trust win04)
 bank01:018	244	Orders help box: frame inner edge x ~293, text from x 40 (work/qa/p8g2/ord; a 254-px row hit the frame)
 bank01:01C	244	Orders help box

@@ -7,14 +7,6 @@
 bank00:001	End Phase{nl}Unit List{nl}Orders{nl}Objectives{nl}{ctl:FFFF}System{nl}Save
 # Ability screen stats: value column by pen move (col 6) instead of JP full-width padding; trust column header (64 px)
 bank00:004	Melee{ctl:8680}{ctl:FFFF}{nl}{ctl:8082}Ranged{ctl:8682}{ctl:FFFF}{nl}{ctl:8084}Defense{ctl:8684}{ctl:FFFF}{nl}{ctl:8086}Accuracy{ctl:8686}{ctl:FFFF}{nl}{ctl:8088}Evasion{ctl:8688}{ctl:FFFF}{ctl:8880}Trust{nl}{ctl:FFFF}{nl}{ctl:FFFF}{nl}{ctl:FFFF}{ctl:FFFF}
-# Battle command window: cells 32 px but the frame clips at ~26 px of text (work/qa/probe_cmd.tsv: Ammo 28 cut,
-# Move 26 clean; player report "Attac"): synonyms <= 26 px
-bank00:00A	Fight
-bank00:00C	Fix
-bank00:00D	Refill
-bank00:00F	Form
-bank00:010	Stats
-bank00:012	Flee{nl}
 bank00:0C2	No Memory Card is in the Memory Card slot.
 # Ability screen accuracy column is 40 px
 bank01:031	{ctl:9780}Hit{ctl:9C80}{ctl:FFFF}%

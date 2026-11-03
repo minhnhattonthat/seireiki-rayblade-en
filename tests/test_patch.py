@@ -192,6 +192,10 @@ def test_resident_relocation_calls_the_new_text():
     t = u32(insert.RES_PTR)
     for i, addr, rec in extract.resident_records():
         a = (t + 4 * i + u32(t + 4 * i)) & 0xFFFFFFFF
+        if i in insert.RES_SUBS:
+            old, rep = insert.RES_SUBS[i]
+            assert rec == old and new[insert.xo(a):insert.xo(a) + len(rep)] == rep
+            continue
         if i not in res:
             assert a == addr, f"sub {i} moved without an edit"
             continue

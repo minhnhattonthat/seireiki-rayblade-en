@@ -278,6 +278,29 @@ def bank_edits(marker=False, override=None):
 RES_PTR = 0x80010370
 
 
+def cmd_layout(dx, w):
+    """Window layout for the battle command menu (resident sub 25; grammar in docs/re/text.md §Window layouts).
+    The original is one window of two 32x64 cells stacked on screen (8 rows of 16 px in one 64x64 texture),
+    too narrow for English; this is two windows (two textures), one dx-shifted w x 64 cell each, chained below."""
+    s16 = lambda v: (v & 0xFFFF).to_bytes(2, "little")  # noqa: E731
+    cell = b"\x03" + s16(dx) + s16(0) + b"\x01\x00\x01\x00\x00\x00" + bytes([w, 0x40])
+    return b"\x00\x01\x02\x02" + cell + b"\x01" + s16(0) + s16(0x40) + b"\x02" + cell + b"\xff"
+
+
+# Whole resident subs replaced (data subs only): {sub: (original bytes, new bytes)}
+RES_SUBS = {25: (bytes.fromhex("00010102 03000000000100000100002040 03000040000100010020002040 ff"),
+                 cmd_layout(0, 64))}
+
+# Battle command menu, opened twice in resident sub 7 (left in place: no text edits there): `A2 slot 00 x/8 y
+# layout` opens the text window, `A0 slot 00 x/8 y w/8 h` draws its frame. Both move 4 tiles left and the frame
+# grows from 5 to 9 tiles, so its text room goes from 26 to 58 px (Transform is 50). `A8 slot 11 dx dy cols rows
+# w/8 ..` sets up the cursor list; its byte 7 is the highlight bar's width (0x80030B88), widened from 4 to 8 tiles.
+CMD_MENU = [(0x80010D1C, "a2010022f319 a0010021f205f1", "a201001ef319 a001001df209f1"),
+            (0x80010D49, "a8011104 0801f004", "a8011104 0801f008"),
+            (0x800110FB, "a2000022f319 a0000021f205f1", "a200001ef319 a000001df209f1"),
+            (0x8001110C, "a8001104 0801f004", "a8001104 0801f008")]
+
+
 def res_edits(marker=False, width=30, override=None):
     """{sub: {text-op offset: body bytes}} for the resident text (Yamato's affection hints, sub 58)."""
     out, override = {}, override or {}
@@ -297,7 +320,14 @@ def res_blob(edits, base, report):
     blob = bytearray(4 * n)
     s16 = lambda v: (v & 0xFFFF).to_bytes(2, "little")  # noqa: E731
     for i, addr, rec in recs:
-        if i in edits:
+        if i in RES_SUBS:
+            old, new = RES_SUBS[i]
+            if rec != old:
+                raise SystemExit(f"resident sub {i}: not the expected original bytes")
+            addr = base + len(blob)
+            blob += new + bytes(-len(new) % 4)
+            report.append(f"resident sub {i}: replaced ({len(rec)} -> {len(new)} bytes) at {addr:#x}")
+        elif i in edits:
             new = bytearray(rec)
             for off, body in sorted(edits[i].items()):
                 start, end = vm.text_op(rec, off)
@@ -345,9 +375,9 @@ def bank_patch(exe, edits, report, res=None):
         blob[4 * g:4 * g + 4] = ((tt - (new_root + 4 * g)) & 0xFFFFFFFF).to_bytes(4, "little")
     if set(edits) - used:
         raise SystemExit(f"bank: {len(set(edits) - used)} edited strings are not in any group table")
-    if res:
+    if res or RES_SUBS:
         res_at = new_root + len(blob)
-        blob += res_blob(res, res_at, report)
+        blob += res_blob(res or {}, res_at, report)
         exe(exe.buf, xo(RES_PTR), res_at.to_bytes(4, "little"), "resident script table pointer")
     vwf_at = new_root + len(blob)                  # variable-width hooks + advance table (tools/font_en.py)
     vwf, sites = font_en.vwf_blob(vwf_at)
@@ -435,6 +465,13 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
         bmess_exe(exe)
     bank, res = bank_edits(marker, override), res_edits(marker, width, override)
     bank_patch(exe, bank, report, res)             # always: it also places the VWF hook
+    if 7 in res:
+        raise SystemExit("resident sub 7 now has text edits: move CMD_MENU into its copy")
+    for addr, old, new in CMD_MENU:
+        old, new = bytes.fromhex(old), bytes.fromhex(new)
+        if exe.orig[xo(addr):xo(addr) + len(old)] != old:
+            raise SystemExit(f"EXE: unexpected bytes at battle command menu op {addr:#x}")
+        exe(exe.buf, xo(addr), new, f"battle command menu wider at {addr:#x}")
     font_en.patch(exe.buf, exe)
     if exe.log and bytes(exe.buf) != exe.orig:
         files[EXE_NAME] = bytes(exe.buf)
