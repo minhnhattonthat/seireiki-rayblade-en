@@ -14,7 +14,9 @@ Read-only: no edits, no git, no subagents. Return the report as your final messa
 - `## scene NNN` marks a D_SCE scene; scenes run in slot order, which is story order inside a scene group of the
   synopsis. Private Phase events (080-127, 186-190, 219-230, 256-298, 362-446) are standalone vignettes: judge each
   on its own, not as a sequence. Final-dungeon and ending variants (048-079, 347-361) repeat scenes per heroine.
-- JP ` / ` = a line break in the box; EN is shown unwrapped (the build wraps it). Control codes are dropped.
+- JP ` / ` = a line break in the box; EN is shown unwrapped (the build wraps it). Control codes are dropped,
+  including the page break: a sentence glued to the next with no space (`reason.But`) is a new page in game, not
+  an issue — don't report it.
 - The speaker column is the name before 「 in the JP (`-` = narration, or a name the box shows elsewhere).
 - Dev lines (「1B0のフラグが立っていません…」 guards, test menus) are never seen by players: skip them.
 - Keep the report short: every Critical and Important, at most 15 Minors (the clearest ones).
