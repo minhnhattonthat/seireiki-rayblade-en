@@ -288,15 +288,63 @@ def width_code(at, table):
     return b"".join(map(_ins, code)), [at, at + 4 * len(one)]
 
 
+# Line formatter 0x80035318(out, src, width, lines, limit) (the 78 dialogue op calls it with width 30): it breaks a
+# line when the budget runs out, budget = width * 2 units, one-byte glyph 2 units, F0 pair 2, kanji pair 3 - i.e.
+# 4-px units, so English at the VWF still broke every 30 glyphs. Now the units are 2 px: budget width * 4, one-byte
+# glyph ADV[code] / 2, F0 pair ADV[0x100 + byte] / 2, kanji 6 (Japanese breaks exactly where it did). Registers:
+# t1 budget, v1 the byte, a1 past it, t0 lines; t8 is unused in the routine and carries the cost to the subtract.
+FMT_SITES = {   # address: (original word(s), new word(s) or a stub index)
+    0x8003531C: ("40300600", "80300600"),                   # sll a2,a2,1 -> sll a2,a2,2
+    0x80035378: ("0200422c" "0b004010", 1),                 # sltiu v0,v0,2 / beqz v0,+B -> j stub1 / nop
+    0x800353B0: ("feff2925", "23483801"),                   # addiu t1,t1,-2 -> subu t1,t1,t8
+    0x800353B4: ("0300422c", "0600422c"),                   # sltiu v0,v0,3 -> sltiu v0,v0,6
+    0x800353E8: ("fdff2925", "faff2925"),                   # addiu t1,t1,-3 -> addiu t1,t1,-6
+    0x800354F4: ("ff002231" "0200422c", 0),                 # andi v0,t1,0xFF / sltiu v0,v0,2 -> j stub0 / nop
+    0x80035534: ("feff2925", "23483801"),                   # addiu t1,t1,-2 -> subu t1,t1,t8
+}
+
+
+def fmt_code(at, table):
+    """two stubs at `at`: the one-byte glyph (back to 0x800354FC, the beqz on v0), then the F0 pair (re-does the
+    replaced beqz: budget short -> 0x80035384 new line, else 0x800353AC). Returns (bytes, [stub addresses])."""
+    v0, v1, a1, t0, t1, t8, zero = 2, 3, 5, 8, 9, 24, 0
+    lbu = lambda rt, off, rs: 0x90000000 | rs << 21 | rt << 16 | (off & 0xFFFF)  # noqa: E731
+    andi = lambda rt, rs, imm: 0x30000000 | rs << 21 | rt << 16 | imm  # noqa: E731
+    bnez = lambda rs, n: 0x14000000 | rs << 21 | (n & 0xFFFF)  # noqa: E731
+    srl = lambda rd, rt, sa: rt << 16 | rd << 11 | sa << 6 | 2  # noqa: E731
+    sltu = lambda rd, rs, rt: rs << 21 | rt << 16 | rd << 11 | 0x2B  # noqa: E731
+    addu = lambda rd, rs, rt: rs << 21 | rt << 16 | rd << 11 | 0x21  # noqa: E731
+    lui = lambda rt, imm: 0x3C000000 | rt << 16 | imm  # noqa: E731
+    j = lambda target: 0x08000000 | (target & 0x0FFFFFFF) >> 2  # noqa: E731
+    hl = lambda a: ((a + 0x8000) >> 16, a & 0xFFFF)  # noqa: E731
+    h0, l0 = hl(table)
+    h1, l1 = hl(table + 0x100)
+    one = [lui(t8, h0), addu(t8, t8, v1), lbu(t8, l0, t8), andi(v0, t1, 0xFF), srl(t8, t8, 1),
+           sltu(v0, v0, t8), j(0x800354FC), 0]
+    # 0 second byte; 4 ADV[0x100 + byte] ($at = 1 as scratch); 8 bnez -> word 12 (new line; the offset counts
+    # from the delay slot, word 9); both exits run the replaced beqz's delay slot `andi v0,t0,0xFF`
+    two = [lbu(t8, 0, a1), andi(v0, t1, 0xFF), lui(1, h1), addu(t8, t8, 1), lbu(t8, l1, t8), 0, srl(t8, t8, 1),
+           sltu(v0, v0, t8), bnez(v0, 12 - 9), 0, j(0x800353AC), andi(v0, t0, 0xFF),
+           j(0x80035384), andi(v0, t0, 0xFF)]
+    return b"".join(map(_ins, one + two)), [at, at + 4 * len(one)]
+
+
 def vwf_blob(at):
-    """glyph hook + width stubs + advance table at RAM `at` (4-aligned). Returns (bytes, [(site, 8 bytes)])."""
-    n = len(hook_code(at, 0)) + len(width_code(at, 0)[0])
+    """glyph hook + width stubs + formatter stubs + advance table at RAM `at` (4-aligned).
+    Returns (bytes, [(site, original bytes, new bytes)])."""
+    n = len(hook_code(at, 0)) + len(width_code(at, 0)[0]) + len(fmt_code(at, 0)[0])
     table = at + n
-    w, stubs = width_code(at + len(hook_code(at, 0)), table)
-    blob = hook_code(at, table) + w + adv_table()
+    w_at = at + len(hook_code(at, 0))
+    w, stubs = width_code(w_at, table)
+    f, fstubs = fmt_code(w_at + len(w), table)
+    blob = hook_code(at, table) + w + f + adv_table()
+    jump = lambda a: _ins(0x08000000 | (a & 0x0FFFFFFF) >> 2)  # noqa: E731
     sites = [(HOOK_SITE, HOOK_ORIG, site_patch(at))]
     for (site, orig), stub in zip(WIDTH_SITES, stubs):
-        sites.append((site, orig, _ins(0x08000000 | (stub & 0x0FFFFFFF) >> 2) + bytes(4)))
+        sites.append((site, orig, jump(stub) + bytes(4)))
+    for site, (orig, new) in FMT_SITES.items():
+        sites.append((site, bytes.fromhex(orig), jump(fstubs[new]) + bytes(4) if isinstance(new, int)
+                      else bytes.fromhex(new)))
     return blob, sites
 
 

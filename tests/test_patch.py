@@ -234,7 +234,10 @@ def test_vwf_hooks():
         assert exe[insert.xo(a):insert.xo(a) + len(orig)] == orig, hex(a)
     code = list(md.disasm(blob[:len(blob) - 0x200], at))
     backs = [int(i.op_str, 16) for i in code if i.mnemonic == "j"]
-    assert backs == [font_en.BACK, font_en.WIDTH_BACK, font_en.WIDTH_BACK]
+    assert backs == [font_en.BACK, font_en.WIDTH_BACK, font_en.WIDTH_BACK, 0x800354FC, 0x800353AC, 0x80035384]
+    fmt = {a: " ".join(f"{i.mnemonic} {i.op_str}" for i in md.disasm(new, a)) for a, _, new in sites}
+    assert fmt[0x8003531C] == "sll $a2, $a2, 2" and fmt[0x800353B4] == "sltiu $v0, $v0, 6"
+    assert fmt[0x800353B0] == fmt[0x80035534] == "subu $t1, $t1, $t8" and fmt[0x800353E8] == "addiu $t1, $t1, -6"
     table = blob[-0x200:]
     assert table[font_en.code_of("i")] == 2 and table[font_en.code_of("M")] == 8 and table[0x40] == 8
     assert table[0] == font_en.SPACE_ADV

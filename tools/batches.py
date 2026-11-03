@@ -48,7 +48,7 @@ def limit(e):
     f = tlform.form(e)
     if f == "menu":
         return "/".join(str(tlform.jp_line_px(x) // 8) for x in e["jp"].split("{nl}")) + "ch"
-    return {"dlg": "30/line", "battle": "36x3", "choice": "30/item"}[f]
+    return {"dlg": "240 px/line (~40 chars)", "battle": "288 px x3", "choice": "240 px/item"}[f]
 
 
 def glossary():

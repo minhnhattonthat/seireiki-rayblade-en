@@ -123,7 +123,8 @@ def stubs(e, en):
     out = []
     for s in tlform.layout(e, en).split("{page}"):
         lines = s.split("{nl}")
-        if len(lines) > 1 and 0 < tlform.width(lines[-1]) < STUB and tlform.width(lines[-2]) > STUB:
+        chars = [len(tlform.CODE.sub("", x)) for x in lines[-2:]]
+        if len(lines) > 1 and 0 < chars[1] < STUB and chars[0] > STUB:
             out.append(f"stub last line {lines[-1]!r}")
     return out
 

@@ -12,6 +12,8 @@ Translators write paragraphs; the layout here makes the game's lines (docs/width
 """
 import re
 
+import font_en
+
 CODE = re.compile(r"\{[^{}]*\}")
 FREE_CODES = {"{nl}", "{page}", "{end}"}        # layout codes: the English may place them differently
 # speaker tag at the start of a segment: optional portrait code (battle), a short name, then 「 『 or （
@@ -20,7 +22,8 @@ EN_TAG = re.compile(r"^((?:\{ctl:[0-9A-F]{4}\})*)([^:{}]{1,24}): ")
 OPEN_EN = {"「": "", "『": "'", "（": "("}
 JUNK_STYLES = {88, 92, 130}
 CHOICE_STYLES = {128, 129, 160, 192}
-DLG_W, PAGE_LAST_W, BATTLE_W, BATTLE_LINES, CHOICE_W = 30, 28, 36, 3, 30
+# widths in px at the VWF advances (font_en): the boxes were measured as 8-px columns (docs/widths.md)
+DLG_W, PAGE_LAST_W, BATTLE_W, BATTLE_LINES, CHOICE_W = 30 * 8, 28 * 8, 36 * 8, 3, 30 * 8
 HELP_ROWS = 3        # bank group 1 help text: up to 3 rows (Japanese entries use 1-3); rows are 256 px
 
 
@@ -55,7 +58,8 @@ def segments(text):
 
 
 def width(s):
-    return len(CODE.sub("", s))
+    """px at the VWF advances."""
+    return font_en.text_px(CODE.sub("", s))
 
 
 def wrap(text, w, last_w=None, lines_per_page=3):
@@ -86,7 +90,7 @@ def wrap(text, w, last_w=None, lines_per_page=3):
                 for j in range(i + 1, len(words) + 1):
                     if j < len(words) and words[j] == "":
                         continue        # never start a line on a doubled space
-                    lw = pre[j] - pre[i] + (j - i - 1)
+                    lw = pre[j] - pre[i] + (j - i - 1) * font_en.SPACE_ADV
                     if lw > lim(k) and j > i + 1:
                         break
                     n, c, _ = solve(j, k + 1)
@@ -199,7 +203,7 @@ def check(e, en, speakers):
             errs.append(f"{len(el)} lines, jp has {len(jl)} (menu rows are fixed)")
         else:
             for j, x in zip(jl, el):
-                lim = jp_line_px(j) // 8
+                lim = jp_line_px(j)
                 if width(x) > lim:
-                    warns.append(f"menu row {width(x)} > {lim} chars (JP width): {x!r}")
+                    warns.append(f"menu row {width(x)} > {lim} px (JP width): {x!r}")
     return errs, warns

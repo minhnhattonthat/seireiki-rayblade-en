@@ -10,17 +10,19 @@ SP = {"トウヤ": "Touya", "ヤマト": "Yamato"}
 def test_wrap_dialogue_pages():
     e = {"id": "sce001:00010", "jp": "トウヤ「あ{nl}　い」", "style": 0}
     en = "Touya: " + " ".join(["word"] * 40)
-    lines = tlform.layout(e, en).split("{nl}")
-    assert all(len(x) <= 30 for x in lines)
-    assert all(len(x) <= 28 for x in lines[2::3])     # last line of each page leaves the arrow column
-    assert " ".join(lines) == en
+    lines = tlform.layout(e, en * 2).split("{nl}")
+    assert len(lines) > 3
+    assert all(tlform.width(x) <= tlform.DLG_W for x in lines)
+    assert all(tlform.width(x) <= tlform.PAGE_LAST_W for x in lines[2::3])   # page arrow column stays free
+    assert " ".join(lines) == en * 2
 
 
 def test_wrap_balanced_no_stub():
-    lines = tlform.wrap("Koichiro: She's coming over here... Come on, Touya... ...Don't say I didn't warn you~", 30, 28)
-    assert len(lines) == 4 and min(map(len, lines)) >= 15, lines   # greedy left "you~" alone on line 4
-    assert tlform.wrap("one  two", 30) == ["one  two"]
-    assert tlform.wrap("", 30) == [""]
+    s = "Koichiro: She's coming over here... Come on, Touya... ...Don't say I didn't warn you~"
+    lines = tlform.wrap(s + " " + s, 240, 224)
+    assert len(lines) == 4 and min(map(tlform.width, lines)) >= 150, lines   # balanced, no stub line
+    assert tlform.wrap("one  two", 240) == ["one  two"]
+    assert tlform.wrap("", 240) == [""]
 
 
 def test_check_speaker_codes_and_ascii():
@@ -39,4 +41,4 @@ def test_choice_and_battle():
     assert tlform.check(c, "Let it pass", SP)[0]
     b = {"id": "bm000:0065", "jp": "{ctl:0041}トウヤ「当たるかっ！」{page}"}
     assert tlform.check(b, "{ctl:0041}Touya: Like that'll hit me!{page}", SP) == ([], [])
-    assert tlform.check(b, "{ctl:0041}Touya: " + "x " * 60 + "{page}", SP)[0]
+    assert tlform.check(b, "{ctl:0041}Touya: " + "x " * 100 + "{page}", SP)[0]
