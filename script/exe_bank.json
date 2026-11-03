@@ -2436,7 +2436,7 @@
   "index": 24,
   "addr": 2147576973,
   "len": 51,
-  "en": "Each time the unit is attacked, the player chooses{nl}whether to counterattack, evade or defend.",
+  "en": "Each time the unit is attacked,{nl}the player chooses whether to{nl}counterattack, evade or defend.",
   "status": "translated"
  },
  {
@@ -2446,7 +2446,7 @@
   "index": 28,
   "addr": 2147577024,
   "len": 61,
-  "en": "Always counterattacks when it can; when it can't,{nl}evades or defends according to the unit's traits.",
+  "en": "Always counterattacks when it can;{nl}when it can't, evades or defends{nl}according to the unit's traits.",
   "status": "translated"
  },
  {
@@ -2466,7 +2466,7 @@
   "index": 30,
   "addr": 2147577166,
   "len": 52,
-  "en": "Stops counterattacking below half HP and evades{nl}or defends according to the unit's traits.",
+  "en": "Stops counterattacking below{nl}half HP and evades or defends{nl}according to the unit's traits.",
   "status": "translated"
  },
  {

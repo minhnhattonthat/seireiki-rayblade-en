@@ -36,7 +36,7 @@ from tbl import Table  # noqa: E402
 SCRIPT = ROOT / "script"
 TREE = ROOT / "work/disc/tree"
 EXE_NAME = "SLPS_026.52"
-ARCHIVES = ["D_SCE.BIN", "D_BMESS.BIN", "D_SYSTEM.BIN", "D_EFFECT.BIN"]    # text/graphics-text archives (docs/re/)
+ARCHIVES = ["D_SCE.BIN", "D_BMESS.BIN", "D_SYSTEM.BIN", "D_EFFECT.BIN", "D_SCREEN.BIN"]   # text/graphics-text (docs/re/)
 # The scene loader (0x80058298) allocates the script buffer once (`ori a0, zero, 0x8000` at RAM 0x800582B4,
 # file 0x48AB4) and never frees it; the heap keeps >= 480 KB free even mid-battle (tools/heap.py), so the
 # build raises it to 0xFFF0 (the largest ori immediate) for English, which runs ~2.5x the Japanese length.
@@ -412,8 +412,8 @@ def changes(marker=False, width=30, slots=None, report=None, override=None):
         assert lz.unpack_record(sy[a:b]) == lz.unpack_record(ef[c:d]), "D_EFFECT 250 no longer mirrors D_SYSTEM 1"
     for name in ARCHIVES:
         data = (TREE / name).read_bytes()
-        new = arc.pack(data, {"D_SCE.BIN": recs, "D_BMESS.BIN": bm, "D_SYSTEM.BIN": gfx,
-                              "D_EFFECT.BIN": eff}.get(name, {}))
+        new = arc.pack(data, {"D_SCE.BIN": recs, "D_BMESS.BIN": bm, "D_SYSTEM.BIN": gfx, "D_EFFECT.BIN": eff,
+                              "D_SCREEN.BIN": {} if marker else gfx_en.screen_records()}.get(name, {}))
         if new != data:
             files[name] = new
         # The EXE holds its own copy of each archive's slot table (D_SCE at 0x9D5FC, D_BMESS at 0x9DCFC,

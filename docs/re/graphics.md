@@ -21,10 +21,10 @@ Static sweep (phase 1): `python -X utf8 tools/qx.py sweep <ARC>` renders every L
 | G11 | Party cards / album thumbnails with captions | D_SYSTEM 36, 49-51, 56-58, 64-78 | 165 | done: captions in docs/album-captions.tsv (read off the images; palette = entry flags & 0xF, 71.x decode fine with it) |
 | G12 | New Year card, handwritten letter CGs | D_SYSTEM 110.0, 246.0; D_SCREEN 189.0 | 3 | New Year card redrawn "Happy New Year!" (gfx_en NEW_YEAR); letter 246.0 is read out in the dialogue (sce 129, translated), kept; D_SCREEN 189.0: check |
 | G13 | Staff credits (roles + names) | D_SYSTEM 472.21-472.83 | 63 | done but 7 names with no sourced reading stay Japanese (owner question) |
-| G14 | Gallery heading カット/イベント集 (vertical) | D_SCREEN 151-168, 298, 333-334 (same image x12) | 1 unique | todo; strip layout still scrambled (qx.py w>128 guess) |
-| G15 | Brush-lettered title card(s) | D_SCREEN 240, 241, 248 | 3 | todo; layout scrambled, unreadable |
-| G16 | Pre-rendered dialogue text sheets (white on blue) | D_SCREEN 323, 324 | 2 | todo: find where shown (scroll text?) |
-| G17 | Lore text sheets (silk) | D_SCREEN 325-329 | 5 | todo: find where shown |
+| G14 | Gallery heading カット/イベント集 (vertical) | D_SCREEN 151-168, 298, 333-334 (same image x12) | 1 unique | decoded (D_SCREEN wide images are 32x32 tiles, row-major; not qx.py's strips): it reads イベントカット 準備中 "event cut-in in preparation", a dev placeholder for an unfinished CG. Kept (no finished scene should show it) |
+| G15 | Brush-lettered title card(s) | D_SCREEN 240, 241, 248 | 3 | decoded (32x32 tiles): イベントカット ダミー "event cut-in dummy", dev placeholders. Kept, as G14 |
+| G16 | Pre-rendered dialogue text sheets (white on blue) | D_SCREEN 323, 324 | 2 | decoded (32x32 tiles): Fain's long monologue (same text as script line sce102:00A9B / sce113, translated there). Redrawn in English (gfx_en SHEET_*, docs/text-sheets.json). Not yet seen in-game (private event, needs the intermission context to warp) |
+| G17 | Lore text sheets (silk) | D_SCREEN 325-329 | 5 | decoded (32x32 tiles): 325 is a bridge background (no text); 326-329 a lecture on silk (fibroin, sericulture) found in no script line: Arthur's lecture (sce 165 refers back to it). Redrawn from a transcription (docs/text-sheets.json); not yet seen in-game |
 | G18 | Attack brush-kanji cut-ins 破, 斬(?) | D_EFFECT 142.8, 143.8, 455.8, 456.8 | 2 unique | done: "BREAK" as the DC patch (gfx_en CUTIN_*; frame 8 glow ramp by ring distance, frame 9 trail by blur; 455/456 mirrored like the originals). Not yet seen in-game (which attack plays it is unknown) |
 | G19 | Battle HUD copies of G2/G3 (icons, popup labels) | D_EFFECT 250.57-62, 250.89-95, 250.107 | 14 | done: D_EFFECT 250 is a byte copy of D_SYSTEM 1; insert.py writes gfx_en's record there too |
 | G20 | Tiny label beside SUPPORTOR/NPC; small green HUD panels | D_EFFECT 250.116, 312.0-312.9 | 11 | unconfirmed: check in a live battle (debug tool) |

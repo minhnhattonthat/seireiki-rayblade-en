@@ -7,7 +7,7 @@ Chapter cards (G8/G9): `第 N 話` is three images (第, digits, 話) and the ti
 strip after it (D_SYSTEM 17-20: title t = slot 17 + t // 20, images 2 (t % 20) and +1). The English title is
 bank10's (the same text the save/intermission screens show), drawn in Liberation Sans Bold without antialiasing:
 black core (index 15) and a 1-px light ring (index 2), the card's own look. 第 -> "Ep.", 話 and the strips blank.
-Titles 17 and 47 are set by no scene and 61-67 are "シナリオ" placeholders: left as they are.
+Titles 17 and 47 are set by no scene and 61-67 are "シナリオ" placeholders: drawn "Scenario" (bank text wins if any).
 
     python -X utf8 tools/gfx_en.py preview OUT_DIR     # every redrawn image as PNG (x3) beside the original
 """
@@ -519,6 +519,75 @@ def cutin_rows(orig, pal, mirror, trail=False):
             for j in range(h)]
 
 
+# Text sheets (G16/G17, D_SCREEN 323/324 Fain's monologue, 326-329 Arthur's silk lecture; 8 bpp, 320 wide, stored as
+# 32x32 tiles row-major): white text with a dark shadow on a blue box. English (docs/text-sheets.json) is set in the
+# game's own pixel font, word-wrapped, from the Japanese text's first line.
+SHEET_SLOTS = (323, 324, 326, 327, 328, 329)
+SHEET_PITCH = 15
+
+
+def tile_off(w, x, y):
+    """byte offset of pixel (x, y) in an 8-bpp image stored as 32x32 tiles, row-major."""
+    return ((y // 32) * (w // 32) + x // 32) * 1024 + (y % 32) * 32 + x % 32
+
+
+def sheet_writes(rec, ent, pal, paras):
+    import font_en
+    off, _, _, w, h, _, _ = ent
+    px = {(x, y): rec[off + tile_off(w, x, y)] for y in range(h) for x in range(w)}
+    lum = [sum(qx.rgb(c)) for c in pal]
+    vals = list(px.values())
+    bg = max(set(vals), key=vals.count)             # blue box, or black for 327
+    ink = max(set(vals), key=lambda v: lum[v])
+    shadow = min(set(vals), key=lambda v: lum[v])
+    box = [(x, y) for (x, y), v in px.items() if v == bg]
+    x0, x1 = min(p[0] for p in box), max(p[0] for p in box) + 1
+    y0, y1 = min(p[1] for p in box), max(p[1] for p in box) + 1
+    top = min(y for (x, y), v in px.items() if v == ink)
+    left, room = 16, x1 - 16 - 4
+    lines = []
+    for para in paras:
+        line = ""
+        for word in para.split(" "):
+            cand = f"{line} {word}".strip()
+            if line and _glyph_run(cand, font_en.rows, 4)[1] > room:
+                lines.append(line)
+                line = word
+            else:
+                line = cand
+        lines.append(line)
+    if top + len(lines) * SHEET_PITCH > y1:
+        raise ValueError(f"text sheet: {len(lines)} lines do not fit rows {top}..{y1}")
+    writes = {off + tile_off(w, x, y): bg for x in range(x0, x1) for y in range(y0, y1) if px[(x, y)] != bg}
+    for n, line in enumerate(lines):
+        for gx, rows in _glyph_run(line, font_en.rows, 4)[0]:
+            for j, r in enumerate(rows):
+                for i, c in enumerate(r):
+                    if c == "#":
+                        x, y = left + gx + i, top + n * SHEET_PITCH + j
+                        writes[off + tile_off(w, x, y)] = ink
+                        if x + 1 < x1 and y + 1 < y1 and r[i + 1:i + 2] != "#":
+                            writes.setdefault(off + tile_off(w, x + 1, y + 1), shadow)
+    return writes
+
+
+def screen_records():
+    """{D_SCREEN slot: new LZ record} for the text sheets."""
+    data = (TREE / "D_SCREEN.BIN").read_bytes()
+    ents = arc.entries(data)
+    texts = json.loads((ROOT / "docs/text-sheets.json").read_text(encoding="utf-8"))
+    out = {}
+    for slot in SHEET_SLOTS:
+        s, e = ents[slot]
+        rec = bytearray(lz.unpack_record(data[s:e]))
+        magic, qents, clut = qx.parse(rec)
+        assert magic == 0x5851 and qents[0][3] % 32 == 0 and qents[0][4] % 32 == 0, slot
+        for o, v in sheet_writes(rec, qents[0], clut[:256], texts[str(slot)]).items():
+            rec[o] = v
+        out[slot] = lz.pack_record(bytes(rec))
+    return out
+
+
 def effect_records():
     """{D_EFFECT slot: new LZ record} for the cut-ins (slot 250 = D_SYSTEM 1's copy is added by insert.changes)."""
     data = (TREE / "D_EFFECT.BIN").read_bytes()
@@ -592,9 +661,7 @@ def images():
     for k, en in CREDITS.items():
         base = (qents[k][1] & 0xF) * 16
         out[(CREDITS_SLOT, k)] = aa_rows(en, qents[k][3], qents[k][4], clut[base:base + 16])
-    for t, en in card_titles().items():
-        if t in UNUSED_TITLES:
-            continue
+    for t, en in {**{t: "Scenario" for t in UNUSED_TITLES}, **card_titles()}.items():
         slot, k = CARD_SLOTS[0] + t // 20, 2 * (t % 20)
         s, e = ents[slot]
         _, qents, _ = qx.parse(lz.unpack_record(data[s:e]))

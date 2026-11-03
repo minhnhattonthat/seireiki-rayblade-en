@@ -14,6 +14,11 @@ bank00:010	32	battle command window
 bank00:011	32	battle command window
 bank00:012	32	battle command window
 bank01:	256	help lines: 4 x 64 cell chains (int_system dump: system help at x 40; battle_trust win04)
+bank01:018	244	Orders help box: frame inner edge x ~293, text from x 40 (work/qa/p8g2/ord; a 254-px row hit the frame)
+bank01:01C	244	Orders help box
+bank01:01D	244	Orders help box
+bank01:01E	244	Orders help box
+bank01:01F	244	Orders help box
 bank06:	200	location label: 4 x 64 chain (choice_090 win00), right-aligned at 0x139 - width (0x8006E694)
 bank08:	256	event title: centred from its width (0x8007C7FC) in a 4 x 64 line
 bank09:	200	intermission Move destinations: 4 x 64 list lines (intermission dumps)
